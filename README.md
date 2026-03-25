@@ -1,317 +1,280 @@
 ![HnS Logo](HnS_Logo.png)
 
-# Pokémon Heart & Soul
-Pokémon Heart & Soul brings the classic Johto Region and its iconic story to the world of modern GBA decomp hacking. Built on the Modern Emerald decomp, this project offers a fresh take on the GSC/HGSS experience, blending key aspects of the Gen 2 and Gen 4 games, while incorporating many modern QoL features, as well as some familiar Gen 3 mechanics. Not only is Heart & Soul (HnS) a first-of-its-kind, fully completed, playtested, and largely faithful GSC remake / HGSS demake, it's also completely open source, and is intended to be a base for a new generation of Johto rom hacks.
+# Pokemon Heart & Soul - Japanese Localization
+
+This is a Japanese localization fork of [Pokemon Heart & Soul](https://github.com/PokemonHnS-Development/pokemonHnS) v1.2.1 by Lil Dill and the HnS Development team.
+
+The goal is to replace all English text with Japanese so the game plays like a native JP GBA Pokemon title.
+
+## Status
+
+~99% of player-visible text is translated. Build is clean and playable.
+
+## What Was Done
+
+### Font & Encoding
+- Ported the full Japanese font and character encoding from `pret/pokeemerald-jp` (the official JP decomp of Pokemon Emerald)
+- Added hiragana (bytes 0x01-0x50), fullwidth katakana (bytes 0x51-0xA0), and JP symbols to `charmap.txt`
+- Copied JP font glyph images (`japanese_small.png`, `japanese_normal.png`) from pokeemerald-jp
+- Set `GAME_LANGUAGE` to `LANGUAGE_JAPANESE` in `include/constants/global.h`
+- All JP strings use the `{JPN}` control code prefix (0xFC 0x15) to switch the GBA renderer to the JP glyph table
+
+### Data Tables (all .h files — 100%)
+- Pokemon species names (430+) — from pokeemerald-jp + Bulbapedia for Gen 4+
+- Move names and descriptions — from pokeemerald-jp
+- Ability names and descriptions — from pokeemerald-jp + translated for HnS customs
+- Item names and descriptions — from pokeemerald-jp + translated for HnS customs
+- Nature names — from pokeemerald-jp
+- Trainer class names — from pokeemerald-jp
+- Pokedex entries and flavor text — from pokeemerald-jp
+- Pokedex category names — from pokeemerald-jp
+- Ribbon descriptions — translated
+- Gift ribbon descriptions — translated
+- Wonder Trade OT names — translated
+- Follower Pokemon messages — translated
+- Easy Chat voice group entries — translated
+- Union Room text — translated
+- In-game trade dialogue — translated
+
+### NPC Dialogue (551 maps — 100%)
+- All 551 map script files (`data/maps/*/scripts.inc`) translated — ~12,000 individual strings
+- Johto maps matched against authentic HGSS JP ROM text where available (~61% match rate)
+- Hoenn maps matched against JP Emerald ROM text
+- HnS-original dialogue translated with Pokemon-appropriate tone
+- Quality pass corrected ~156 wrong character names (e.g., Steven→Daigo, Brawly→Touki)
+- Quality pass corrected ~23 wrong location names (e.g., Sootopolis→Rune City)
+- Fixed hyphen-as-long-vowel errors in 16 files (e.g., ko-na- → corner)
+- Fixed 15 garbled/romaji remnant strings in Johto maps
+
+### UI / System Strings (`src/strings.c` — ~930 strings)
+- Menu labels, save prompts, error messages, Pokemon Center dialogue
+- Start menu items (Pokemon, Bag, Trainer Card, Save, Options, etc.)
+- PC system text (deposit, withdraw, move, release)
+- Mart clerk text, nurse dialogue, item obtain messages
+- Pokedex rating text, surf prompts, repel prompts
+- Save/load system messages
+- Cable club and link battle text
+
+### Battle Text (`src/battle_message.c` — fully translated)
+- All battle message templates: super effective, fainted, stat changes, weather, abilities
+- Fixed double `{JPN}` prefix garbling — battle_message.c strips redundant `{JPN}` from substituted Pokemon/move/ability names before insertion
+
+### System Text Files (`data/text/*.inc` — 100%)
+- `pkmn_center_nurse.inc` — Pokemon Center nurse dialogue
+- `mart_clerk.inc` — shop clerk dialogue
+- `obtain_item.inc` — item acquisition messages
+- `pc.inc`, `pc_transfer.inc` — PC system messages
+- `save.inc` — save system messages
+- `pokedex_rating.inc` — Pokedex evaluation
+- `trainers.inc` — trainer encounter/defeat/post-battle text
+- `match_call.inc` — PokeNav Match Call messages (from JP Emerald ROM)
+- `tv.inc` — TV broadcast scripts (from JP Emerald ROM)
+- `apprentice.inc` — Battle Frontier apprentice dialogue (from JP Emerald ROM)
+- `battle_dome.inc`, `battle_tent.inc` — Battle Frontier text
+- `contest_strings.inc`, `contest_painting.inc`, `contest_link.inc` — contest system
+- `berries.inc` — berry descriptions
+- `birch_speech.inc` — Prof. Birch intro speech
+- `cable_club.inc` — link cable system
+- `move_tutors.inc` — move tutor dialogue
+- `safari_zone.inc` — Safari Zone text
+- `check_furniture.inc` — Secret Base furniture
+- `lottery_corner.inc` — lottery system
+- `shoal_cave.inc` — Shoal Cave NPC
+- `frontier_brain.inc` — Frontier Brain dialogue
+- `secret_base_trainers.inc` — Secret Base trainer text
+- `pokemon_news.inc` — Pokemon News broadcasts
+- `mauville_man.inc` — Mauville old man stories/poems
+- `questionnaire.inc`, `event_ticket_1.inc`, `event_ticket_2.inc` — event/mystery gift
+- `blend_master.inc`, `record_mix.inc` — berry blending/record mixing
+- `abnormal_weather.inc`, `surf.inc` — field messages
+- All `gift_*.inc` files (8 files) — distribution event text
+
+### Script Text Files (`data/scripts/*.inc` — 100%)
+- `field_move_scripts.inc` — HM/field move dialogue
+- `day_care.inc` — Day Care system
+- `repel.inc` — repel prompt system
+- `follower.inc` — follower Pokemon interactions
+- `berry_blender.inc` — berry blender minigame
+- `berry_tree.inc` — berry tree interactions
+- `bug_contest.inc` — Bug Catching Contest
+- `contest_hall.inc` — contest hall dialogue
+- `lilycove_lady.inc` — Lilycove special NPCs
+- `mauville_man.inc` — Mauville old man scripts
+- `secret_base.inc`, `shared_secret_base.inc` — Secret Base system
+- `debug.inc` — debug menu text
+- `change_deoxys_form.inc` — Deoxys form change
+- `players_house.inc` — player's house dialogue
+- `secret_power_tm.inc` — Secret Power TM
+- `safari_zone.inc` — Safari Zone scripts
+- `roulette.inc` — roulette minigame
+- `profile_man.inc` — profile/trainer card
+- All `gift_*.inc` files — event distribution scripts
+
+### C Source Files (misc)
+- `src/landmark.c` — 44 location names for map system
+- `src/item_menu.c` — bag UI strings
+- `src/berry_blender.c` — berry blender UI
+- `src/map_name_popup.c` — map name display
+- `src/scrcmd.c` — 7 in-game trade names
+- `src/start_menu.c` — start menu text
+- `src/main_menu.c` — title/continue screen
+- `src/naming_screen.c` — full JP kana keyboard rewrite
+- `src/text_input_strings.c` — keyboard display strings
+- `src/options_plus_menu.c` — custom options menu (~102 strings)
+- `src/tx_rac_menu.c` — randomizer/challenge settings (~275 strings)
+- `src/tx_rac_viewer.c` — settings viewer (~118 strings)
+- `src/pokenav_menu_handler_gfx.c` — PokeGear/PokeNav labels
+- `src/trainer_card.c` — player name rendering fix
+- `src/battle_records.c` — trainer name rendering fix
+- `src/pokemon_summary_screen.c` — OT name and nickname rendering fixes
+- `src/hall_of_fame.c` — Hall of Fame name rendering
+- `src/menu.c` — save menu player name + start menu width fix
+- `src/script_menu.c` — multichoice player name fix
+- `src/debug.c` — debug menu text
+- `src/mystery_gift_scripts.c` — mystery gift UI
+- `src/mystery_event_msg.c` — mystery event messages
+- `src/dodrio_berry_picking.c` — minigame text
+- `src/match_call.c` — Match Call system
+- `src/sound_check_menu.c` — sound test menu
+- `src/international_string_util.c` — JP string width utilities
+- `src/pokemon.c` — species name `{JPN}` prefix handling fix
+- `src/daycare.c` — day care system text
+- `src/evolution_scene.c` — evolution messages
+- `src/party_menu.c` — party menu text
+- `src/pokedex.c`, `src/pokedex_plus_hgss.c` — Pokedex UI
+- `src/pokemon_summary_screen.c` — summary screen text
+- `src/region_map.c` — region map display
+- `src/title_screen.c` — title screen rendering
+- `src/union_room_chat.c` — Union Room chat
+- `src/ereader_helpers.c` — e-Reader text
+- `src/berry.c` — berry system
+- `src/event_object_movement.c` — follower system
+- `src/follower_helper.c` — follower helper text
+- `src/item_use.c` — item use messages
+
+### Region Map
+- All Johto map section names in `region_map_sections_johto.json`
+- All Kanto map section names in `region_map_sections.json`
+- All Hoenn map section names preserved
+- Added `jp_name` field pattern to JSON + Inja template conditional so JP display names coexist with English C identifiers
+
+### Naming Screen (full rewrite)
+- Replaced English QWERTY keyboard with 3-page JP kana input system
+- Page 1: Hiragana (かな) — 5x10 grid with dakuten/handakuten keys
+- Page 2: Katakana (カナ) — matching layout
+- Page 3: ABC/Symbols — Latin characters and numbers
+- Dakuten/handakuten application via grid keys and L/R button cycling
+- Page swap graphics: `page_swap_upper.png` (カナ), `page_swap_lower.png` (かな), `page_swap_others.png` (ABC)
+- Cursor auto-skips blank cells in the kana grid
+
+### Graphics
+- `graphics/title_screen/pokemon_logo.png` — JP Pokemon logo
+- `graphics/title_screen/emerald_version.png` — JP version text
+- `graphics/title_screen/pokemon_logo.pal` — updated palette
+- `graphics/naming_screen/page_swap_*.png` — kana/ABC page labels
+- `graphics/types/*.png` — all 23 type icons with JP text (normal, fire, water, grass, electric, ice, fight, poison, ground, flying, psychic, bug, rock, ghost, dragon, dark, steel, mystery + 5 contest types)
+- `graphics/pokedex/interface.png`, `menu.png`, `search_menu.png` — Pokedex UI
+- `graphics/pokemon_storage/menu.png` — box system labels
+- `graphics/pokeblock/menu.png` — Pokeblock selection
+- `graphics/bag/menu.png` — bag pocket labels
+- `graphics/contest/results_screen/tiles.png` — contest result labels
+- `graphics/interface/status_icons.png` — status condition text
+
+### Bug Fixes (localization-specific)
+- **Species name truncation**: Fixed `SetBoxMonData` in `src/pokemon.c` stripping `{JPN}` prefix bytes
+- **Battle text garbling**: Added `{JPN}` prefix stripping in `BattleStringExpandPlaceholders` to prevent double `{JPN}` when substituting names
+- **Player name garbling**: Added manual `{JPN}` prepend in 8 locations where raw save data names are rendered (main_menu.c, strings.c, menu.c, script_menu.c, hall_of_fame.c, trainer_card.c, battle_records.c, pokemon_summary_screen.c)
+- **ConvertInternationalString no-op**: Identified and worked around the fact that this function does nothing in JP mode — all callsites manually patched
+- **Start menu width**: Increased from 7 to 9 tiles, shifted left from 22 to 20 to fit JP text
+- **Options menu**: ON/OFF→あり/なし, region names→JP, generation labels→JP
+- **PKMN glyph collision**: Replaced `{PKMN}` control code with `ポケモン` in JP strings (bytes 0x53/0x54 conflict with katakana ウ/エ)
+
+### Validation Infrastructure
+- `scripts/validate_charmap.py` — validates all string characters exist in GBA charmap
+- `scripts/validate_control_codes.py` — ensures control codes aren't dropped during translation
+- `scripts/validate_lengths.py` — checks name strings against max length constants
+- Auto-validation hook runs charmap check after every file edit
+
+### Translation Sources
+All translations prioritized official sources:
+1. **JP Emerald ROM** — official GBA text (primary source for Hoenn content)
+2. **HGSS JP ROM** (HeartGold/SoulSilver) — official DS text for Johto content
+3. **pokeemerald-jp** / **pokecrystal** decomps — official decomp text
+4. **Manual translation** — only for HnS-custom content with no official equivalent
+
+## Known Remaining Issues
+
+### Playtest Bugs (minor)
+- Summary screen: move description area cut off (needs tilemap .bin edit)
+- Start menu: slightly wide for short JP menu items
+- Bag: item description positioning needs verification
+- Bag: `menu.png` 4-bit/8-bit PNG rendering issue
+- Pokedex: description area whitespace
+- Summary screen: JP tilemap labels may show blank tiles where EN labels were longer
+
+### Graphics Not Yet Localized (~70 files)
+- Summary screen tilemap .bin files (page headers, effect/description labels)
+- Pokedex HGSS tilemap .bin files (15+ screen layouts)
+- `graphics/title_screen/press_start.png`
+- `graphics/types/fairy.png`
+- Party menu, storage, contest, naming screen tilemap .bin files
+
+### Other
+- Fairy type icon needs JP graphic
+- TM compatibility display needs in-game testing
+- ~300 debug/internal strings (not player-visible)
+
+## Build
+
+```bash
+make modern -j$(nproc)          # Build
+make clean && make modern -j4   # Clean rebuild
+# Output: pokemonHnS.gba — test with mGBA
+```
+
+Requires devkitARM with GCC. Follow [pret's pokeemerald build guide](https://github.com/pret/pokeemerald/blob/master/INSTALL.md) but use `make modern`.
+
+---
+
+# Original README
+
+*Everything below is from the original Pokemon Heart & Soul repository.*
+
+---
+
+![HnS Logo](HnS_Logo.png)
+
+# Pokemon Heart & Soul
+Pokemon Heart & Soul brings the classic Johto Region and its iconic story to the world of modern GBA decomp hacking. Built on the Modern Emerald decomp, this project offers a fresh take on the GSC/HGSS experience, blending key aspects of the Gen 2 and Gen 4 games, while incorporating many modern QoL features, as well as some familiar Gen 3 mechanics. Not only is Heart & Soul (HnS) a first-of-its-kind, fully completed, playtested, and largely faithful GSC remake / HGSS demake, it's also completely open source, and is intended to be a base for a new generation of Johto rom hacks.
 
 ![HnS Collage](HnS_Collage_YourAdventure.png)
 
-## Developer's Note: 
+## Developer's Note:
 Development for this project was primarily (95%) a solo-effort that consumed almost all of my free time for the last year. I am not a professional programmer, but I did my best to make the game that I wanted to play. If you'd like to improve, expand upon, or make your own version of HnS, feel free to take advantage of the open source! Please direct any questions to the [Heart & Soul Discord](https://discord.gg/KmuvXJrS9M). Also, the github link in the download section of this post is the ONLY place you will EVER find an official download of this project, and our devs do NOT accept donations. I hope you enjoy!
 
-## About the game: 
+## About the game:
 ### Features
-- Generation 1-3 Pokémon, plus their later gen evolutions (excluding the Regis and Jirachi)
+- Generation 1-3 Pokemon, plus their later gen evolutions (excluding the Regis and Jirachi)
 - Full Johto story and Kanto postgame from HGSS, including the Kimono Girls and Eusine
-- Following Pokémon
-- Overworld background Pokémon allow you to easily see the notable encounters on each route
-- Overworld background Pokémon in cities, towns, or areas with no encounters are just for the vibes
-- Day/Night System with variable encounters 
+- Following Pokemon
+- Overworld background Pokemon allow you to easily see the notable encounters on each route
+- Overworld background Pokemon in cities, towns, or areas with no encounters are just for the vibes
+- Day/Night System with variable encounters
 - Dynamic overworld palettes
 - HGSS Music
 - Highly varied trainer teams and encounters, based on Crystal Legacy
-- HMs do not need to be taught to a Pokémon in order for it to be used
-- Apricons replaced with berries, Kurt will use them to make unique Pokéballs
+- HMs do not need to be taught to a Pokemon in order for it to be used
+- Apricons replaced with berries, Kurt will use them to make unique Pokeballs
 - Timekeeping does not track days of the week, Everything is progression based
 - 16 Gym leader rematches
 - Two Safari Zones
-- Unique surfing Pokémon sprites
+- Unique surfing Pokemon sprites
 - Customizable shiny rate
 - Physical/special split is toggleable
 - Fairy type is toggleable
 - AutoRun and FastSurf are toggleable
 - Quick run from wild battles using button combination
-- Ball prompts for quick catching 
+- Ball prompts for quick catching
 - ... and much more!
 
-### Setting Expectations:
-- Heart & Soul was designed as a traditional Pokémon experience, akin to the main-series games. It is not a difficulty hack, and does not have built-in features for non-traditional playstyles. Do not expect to see features like infinite rare candies, or built-in randomization or nuzlocking rules. 
-- Heart & Soul stands on the shoulders of giants. I am not an artist or a professional programmer, so much of the art and some of the code for this project was drawn from open source assets. I did my best to credit all sources below and in the game credits, but if you find any that I missed, please let me know in the [Heart & Soul Discord](https://discord.gg/KmuvXJrS9M).
-- Heart & Soul has been rigorously playtested, (shoutout to the playtesters) but there still may be some small bugs. If you find any, please report them to the [Heart & Soul Discord](https://discord.gg/KmuvXJrS9M).
-- There are a few GSC/HGSS features that were too complex or time consuming for me to implement in this project. See differences section below.
-
-### Differences from GSC/HGSS:
-- Radio is a standalone Key Item with limited functionality instead of a menu in the Pokégear
-- Trainers will not offer their phone numbers, no way to rematch them
-- Level curve is greatly improved
-- Apricorns replaced with berries, berry ball catch boost is based on Type
-- Strength boulder-in-hole puzzles replaced with Emerald Mach Bike puzzles
-- No itemfinder and no hidden items
-- Only 50 TMs (The ones from emerald)
-- Swarms are replaced with a 5% Hoenn encounter on each route in Kanto
-- Mom does not take your money
-- No unique Kanto battle music for trainers and gym leaders, only Johto
-- Ruins of alph back room requirements are slightly altered
-- No pokéathalon dome
-- No Battle Frontier
-- Yes Battle Tower (ported straight from emerald, not extensively tested so be careful)
-- No trades in Kanto
-
-## Download
-### Download the .ups patch file in the (Releases) Section.
-- pokemonHnS_v1.0.ups  (to be patched onto a Pokemon - Emerald Version (U) ROM)
-
-## Patching your ROM
-Use [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/legacy/) to patch the files.
-**You will need to provide your own **legally obtained** copy of Pokemon - Emerald Version (U).**
-- Upload the Pokemon - Emerald Version (U).gba file to the "ROM file" section
-- Upload the HnS patch file to the "Patch file" section
-- Look for a green checkmark and hit apply patch. 
-This will automatically download your new Heart & Soul GBA ROM (pokemonHnS v1.0.gba) for you to play!
-
-## Recommended Emulators
-- For PC/Mac: mGBA
-- For Android: pizzaboy, Lemuroid, Retroarch w/ mGBA core.
-- For IOS: Delta, Retroarch w/ mGBA core, Ignited.
-- For Linux Handheld Devices: Retroarch w/ mGBA core.
-  
-## Support
-For further assistance, join the [discord](https://discord.gg/KmuvXJrS9M)!
-
-## Future Plans
-I plan to take a step back from this project once the initial wave of inevitable post-release bugs are fixed. Over the course of the playtest, the dev team has grown from 1 to 6, and an effort to port the whole project to pokeemerald expansion is underway. For more concrete plants, join the [discord](https://discord.gg/KmuvXJrS9M)!
-
-## Credits
-<small>Special thanks to the playtesters and devs who joined me late in development. Their work greatly improved the stability and quality of HnS. They inspired me to add new features for all of you to enjoy, and they made the whole process way more fun. HnS would be a mess without them.</small>
-
-#### Lead Developer / Game Director
-- **Lil Dill**
-
-#### Developers
-- **TixoRebel**
-- **InfiniteBacon42**
-- **Exclsior**
-- **Phantonomy**
-- **DaniRainbow**
-
-### Open Source Assets Used:
-
-#### Engine & Codebase
-- **pokeemerald - pret** 
-- **Modern Emerald — Resetes12**
-- **pokeemerald-expansion**
-
-#### Art — Sprites
-- **Cesare_CBass**
-- **AveonTrainer**
-- **PurpleZaffre**
-- **BatimaTheBat**
-
-#### Art — Tilesets
-- **Crystal Advance — Kertra**
-- **Ekat99**
-- **TheDeadHeroAlistair**
-- **Johto Redrawn Team**
-
-#### Maps / Mapping References
-- **Crystal Advance — Kertra**
-- **Fire Gold — blackfragrant**
-- **SkidMarc25**
-
-#### Gameplay
-- **Crystal Legacy — TSP (TheSmithPlays)**
-
-#### Special Systems / Visuals
-- **Surfing Pokémon overworlds - slawter666, wally-217**
-
-### Playtesters
-**MearaTheDigger · Kingofrocks · Ferropexola · Scarred-Healer13 · ShigyNinja · Liquid Justice · aktatertot · Faintful · piobrando · Shortino · Chronotakular · NoVa x CerberuS · Czarwardy · Phantonomy · TeggyDave · HenryChess · Inner Rhymes · Astralaria · GPie · BillyNaing · Penkachu · Emma M · Casper · Marzi · leob0505 · Sayu · RavePossum · Brick · KinoKuma · BlackBelt Jiraiya**
-
-
-# For Developers
-If you are a developer interested in forking this repository and making your own modifications to Heart & Soul, you may want to read up on the base that was used, Modern Emerald. Information on that project, and pret's pokeemerald decompilation project, continue reading below!
-- Note: This project is not yet compatible with Porymap 6. Use Porymap 5 instead.
-- Also Note: devkitARM version 65 or older is required.
-
----
-
-## Pokémon Modern Emerald 
-
-This project is based on the decompilation of Pokémon Emerald, edited to be "Pokémon Modern Emerald".
-You can get more information about Modern Emerald by resetes12 at [Pokécommunity](https://www.Pokécommunity.com/showthread.php?t=494005) and at [Github](https://github.com/resetes12/pokeemerald).
-
-## If you want to compile:
-
-Please follow [Pret's guide on how to build the rom](https://github.com/pret/pokeemerald/blob/master/INSTALL.md) but using this branch instead of theirs. 
-When you compile, use the modern compiler with "make modern". Compiling using the old compiler won't work.
-
-## Modern Emerald Features: (not all present in Hns)
-
-**Selectable options (at the start of the game):**
-
-**Gamemode**
-* Choose between a "Classic" or "Modern" preset, or customize it to your liking.
-* Modern Spawns: You can now capture the 423 new Pokémon available. Only changes wild Pokémon, not trainers. Modern Spawns have also a Night encounter version for each route, making certain Pokémon night exclusive.
-* Modern Typings: Some Pokémon have their types changed to buff them.
-* Add Fairy Type: Adds Fairy Type to Pokémon that had it added in Generation 6.
-* Better Stats: Some Pokémon have their stats changed to buff them.
-* Extra Legendaries: Adds new legendaries that weren't available in vanilla Emerald.
-* Legendary abilities: Buffs some legendaries giving them a better ability than "Pressure".
-* Modern Movepool: Adds 15 new moves, and modifies all Pokémon movepool to add them.
-* Nature mints: Adds nature mints to the game, available after the 4th gym.
-* Synchronize: Choose if this ability works like in modern games or like in Gen 3.
-* Sturdy: Choose if this ability works like in modern games or like in Gen 3.
-* Reusable TMs: Choose between a faithful usage of TMs or a simplistic option that makes TMs infinite. All TMs can be bought in the Battlefrontier PokéMart only if you have Reusable TMs off, and makes Move Tutors one time only just like in the original (Move tutors are infinite if you enable Reusable TMs).
-* Citrus berry: Choose if it works like Gen 3 or like Gen 4+.
-* Survive Poison: If enabled, your Pokémon will survive poison damage with 1hp when outside of battle.
-* Features
-* RTC Type: Choose between using a real clock, or using a fake clock. Fake clock rate is 1h irl, 1 day ingame.
-* Shiny Chance: 8192 (Emerald default) - 4096 (Gen VI+) - 2048 - 1024 - 512.
-* Item Drops: Items held by wild Pokémon, when defeated, will be dropped and obtained by the player. Forget about catching it or using Thief!
-* Pokémon Faint: Your Pokémon will stay in the FAINTED status, meaning that you can't use them again. CAREFUL as it could end your adventure if you lose all your Pokémon (Previously known as Perma Faint).
-* Uncaped wondertrade.
-* Easier Feebas: If enabled, Feebas have a 5% chance to appear around all Route 119.
-
-**Randomizer: (not implemented in HnS)**
-* Includes every option that any randomizer can have, and it's completely modular. 
-
-**Nuzlocke: (not implemented in HnS)**
-* Any option that any Nuzlocker would want to use. (not implemented in HnS)
-
-**Difficulty:**
-* Lock difficulty: locks the current select option that was selected during Birch's Speech and can't be changed ingame. Hard sets "Battle Style" to "Set" always. Beating the game disables the lock.
-* Number of Party Members limit: From 1 to 5
-* Level caps
-* Exp. Multipliers
-* Player items
-* Trainer items
-* Player IVs: Sets all IVs from wild Pokémon to 31, or if you choose "No (HP) , between 30 and 31 to allow for different Hidden Powers.
-* Trainer IVs: If hard is selected together with "Player IVs", you'll completely remove IVs from the game.
-* Player EVs
-* Trainer EVs
-* Play without Pokémon Centers
-
-**Challenges: (not in HnS)**
-* PC doesn't heal
-* Evolution limits
-* One type only challenges
-* Stat equalizers
-* Mirror Mode
-* Mirror Mode Thief
-
-**Story related: (not in HnS)**
-* Gym rematches are easier to trigger. After 10 wild battles won, or 5 trainer battles won, there is a 50% chance of getting a rematch.
-* The Elite Four can be rematched after battling with Steven, and they are double battles.
-* After completing the Elite Four Rematch, a rematch with Steven will be available. You will get a unique, special prize.
-* The Sealed Chambers puzzles have changed slightly. Learn braille and find out what changed!
-* Also, there are 6 Regis. Try to discover where are the new 3!
-* All the trainer rematches scale up a lot more than in the original game, and their parties have been changed.
-* All the trainers in the Battle Frontier have new Pokémon in their teams and have been buffed or modified.
-* All the gym leaders, Elite Four, the 2 champions, Wally, Magma / Aqua leaders, and Red and Leaf will appear during the Battle Frontier challenges.
-
-
-**Pokémon related:**
-* Following Pokémon (Optional, with a second option to enable or not Big Followers like Rayquaza).
-* 40 new Pokémon species, mostly from Gen. IV and 3 from Gen 9 (Annihilape, Dudunsparce, Farigiraf, Ursaluna).
-* 1 new box space since 2.0.
-* Day/Night encounters. Some Pokémon only appear during day or night.
-* (Not in HnS) All the buffs from later generations are in (optional). 
-* (Not in HnS) Extra buffs for other Pokémon are in. Includes stats, abilities and/or typings. (Ex. Arbok is now POISON / DARK and Meganium is now GRASS / FAIRY). You can have a look at them in my personal document, on the "3. Pokémon changes" tab. 
-* All the move buffs AND nerfs from later generations are in, with small changes to make them work in a 3rd gen game (optional).
-* All Egg moves and tutor moves have been improved with data from later generations.
-* New evolution methods.
-* Pokémon inherit 5 IV's from their parents, no item needed.
-* Everstone works on male or female Pokémon and guarantees nature.
-* Gen. VIII Synchronize (optional).
-* Shuckle can make berry juice just like in Gen. II!! Yay?
-* Nature Mints are available to buy in the Flower Shop after the 4th Gym (optional).
-* Deoxys forms can be changed.
-* Custom Shiny forms for some Pokémon.
-
-
-**Battle related:**
-* (Not in HnS) Modern Battle Frontier, Battle Tents and Trainer Hill. Your Pokémon will be limited to level 50 when playing in those battle facilities, even if your level is 100. 
-* 15 new moves from Gen IV to buff typings that didn't have a certain Physical / Special move. (Ex. Dark Pulse, as Dark type didn't have a Special Dark type move). (Now optional).
-* Fairy type introduced.
-* (Not in HnS) 3 New abilities for Regidrago, Regieleki and Arceus.
-* (HnS EXP SHARE is different) Gen. VI EXP. SHARE and Gen III EXP. SHARE in the same game. "EXP. SHARE S" can be obtained at the Slateport Mart after obtaining the "EXP. SHARE" at Devon Corp.
-* (Not in HnS) HM01 Cut is now Grass type, NightShade does 50 static damage, Hidden power is now 60 always, and shows the type in the summary screen and in battle, Charge now ups Sp. Def.
-* (Saffron in HnS) EV Training available in Lilycove.
-* (Not in HnS) IV Maximizer available in Lylicove, after beating the game. Needs a lvl.100 Pokémon.
-* (Not in HnS) A nurse NPC is available after beating the game to farm EXP in Lilycove.
-* Faster battle intros. Enable "Fast Intros" option in the options menu.
-* Faster-paced battles. Enable "Fast Battles" option in the options menu.
-* 3 beeps when low-health, then it stops.
-* Press START while selecting a move to open a new Submenu with information about the selected move.
-* Trainer class-based Pokéballs.
-* Catching EXP.
-* Macho Brace multiplies EV gain * 5.
-* Gen. IV Sitrus Berry (optional).
-
-
-**UI related:**
-* New Pokédex! You can now see important information on the new "Stats" page. It's very, VERY useful and it's like having the game documentation in-game.
-* Faster battle transitions ported from Fire Red.
-* Hold L+R, then A when entering a Wild Battle to instantly run.
-* You can now register 2 key items: Pressing (as usual) and holding SELECT!
-* Swap Pokémon pressing SELECT.
-* Colored Stats (red = good, blue = bad).
-* Pressing L in the stats section of a Pokémon will bring the EVs, pressing R will bring the IVs, and pressing START will bring the default stats.
-* HM moves don't need to be taught anymore. If you have a Pokémon that can use a certain HM, if you have the correct HM in the bag, and if you have the required badge, you will be able to perform an HM move.
-* HM moves can be deleted since they are not that important anymore.
-* TM had their price changed, especially if you are not using Infinite TMs.
-* The bag now holds up to 90 items, and item capacity has been upgraded to x999.
-* When the bag is full, items go to the PC.
-* You can change the ball your Pokémon is in using a different ball from the bag.
-* Reusable repel prompt.
-* The time on the clock can be changed.
-* Two pages with additional options in the options menu.
-* Debug menu can be enabled by everybody so you can cheat or modify whatever you want. To enable it, just hold "SELECT" then press "START" inside the options menu and you'll hear a noise. Pressing "START" to open the menu from that moment will show a "DEBUG" option at the bottom. It can also be opened with "R" + "START". Be careful, using certain options can break your save so I'm not responsible for any misuse.
-
-
-**Gameplay related: (Not in HnS)** 
-* Wonder-trade on the second floor of the Pokémon Center, available after the 5th badge (unless you are doing a randomizer, which makes it available from the start, or a challenge, which enables WT after beating the game). Can be uncapped now.
-* 3 difficulty modes (EASY, NORMAL and HARD). Selected at the start of the game, can be changed anytime from the options menu.
-    EASY mode: Makes the game quite a lot easier by scaling levels down, and obtaining more EXP (+20%).
-    - Trainer Pokémon and Wild Pokémon scale down to 10 levels compared to the original game. More badges, less level.
-    - There are no restrictions on the Battle Frontier.
-
-    NORMAL mode: Vanilla.
-    - No changes, except rematches and small things (also on EASY mode).
-
-    HARD mode: Makes the game a bit more difficult by scaling levels up, and obtaining less EXP (-40%). This mode does not intent do be a "super difficult" hack-rom. It only tries to be a bit more difficult than vanilla.
-    - Trainer Pokémon and Wild Pokémon scale up to 10 levels compared to the original game. More badges, more level.
-    - Certain ace Pokémon have had their abilities or items changed to make everything a bit more difficult. This mode does not change anything else in trainer parties, or their strategies.
-    - SET MODE is automatically selected and can't be disabled if you lock the difficulty.
-    - There are more restrictions on the Battle Frontier.
-    - The GEN VI Exp. Share will give less Exp. to the battling Pokémon.
-    - Legendaries will have higher stats WHILE battling, to make it more challenging.
-    - (OPTIONAL but recommended) Use in combination with scaling IV/EV trainers from the Challenge Menu at the start of the game for an interesting challenge. You can also lock the difficulty in the Challenges menu at the start of the game.
-* Optional and recommended PHYSICAL / SPECIAL MOVE split from Gen. IV. Selected in the options menu, second page.
-* New Challenge Menu at the start of the game.
-* Bag capacity increased to 90,
-* Day / Night System with Day / Night encounters. Now Daytime is from 6AM to 20PM. Night-time is from 20PM to 6AM. For (2 new) evolutions, Morning is from 6AM to 9AM. Also includes cool lighting at night!
-* Run everywhere.
-* Autorun (in the options menu).
-* HM moves text and interaction is way faster.
-* Link with Fire Red / Leaf Green available from the start.
-* One-time tutors are infinite, but you have to pay now (only if Infinite TMs is on).
-* Trainer HIll prizes are the berries that were not available in the GBA games.
-* Match and Acro Bike are now one. Change between them by pressing "R".
-* Chain fishing has been added.
-* Easier fishing has been added to the options menu (FR/LG fishing).
-* All tickets are available to buy, together with its events.
-* Faster nurse Joy healing, and now with an even faster version in options.
-* Daily money event with Meowth (post-game).
-* You can check the Soot Sack to know how much ash you have.
-* Interacting with berry trees is faster, berry trees that are in rainy routes don't need to be watered, and berry trees don't decay.
-* Higher berry yield (6 max, 4 min).
-* A new "Growth Mulch" item which makes berries instantly grow.
-* New Self-trader to force trade evolutions (trading with another game still works).
-* PokéMarts items change with every badge.
-* AI improvements.
-* Amulet coin works always, doesn't matter who has it.
-
-**Map related: (not in HnS)**
-* Altering cave is now an Unown cave.
-* A few new maps to introduce the new Regis and the legendary events.
-* Mirage Island can be forced with a certain Pokémon in the party, apart from its unusual rate.
+For full details on features, differences from GSC/HGSS, and credits, see the [original repository](https://github.com/PokemonHnS-Development/pokemonHnS).
