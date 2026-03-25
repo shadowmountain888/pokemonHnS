@@ -1,10 +1,12 @@
-![HnS Logo](HnS_Logo.png)
+![HnS JP Title Screen](HnS_JP_Title.png)
 
 # Pokemon Heart & Soul - Japanese Localization
 
 This is a Japanese localization fork of [Pokemon Heart & Soul](https://github.com/PokemonHnS-Development/pokemonHnS) v1.2.1 by Lil Dill and the HnS Development team.
 
 The goal is to replace all English text with Japanese so the game plays like a native JP GBA Pokemon title.
+
+Custom title screen based on the SoulSilver JP logo design, adapted to read "Heart & Soul" (ハート&ソウル).
 
 ## Status
 
@@ -204,13 +206,12 @@ All translations prioritized official sources:
 
 ## Known Remaining Issues
 
-### Playtest Bugs (minor)
+### Playtest Bugs (minor — work in progress)
 - Summary screen: move description area cut off (needs tilemap .bin edit)
-- Start menu: slightly wide for short JP menu items
 - Bag: item description positioning needs verification
-- Bag: `menu.png` 4-bit/8-bit PNG rendering issue
 - Pokedex: description area whitespace
 - Summary screen: JP tilemap labels may show blank tiles where EN labels were longer
+- Several menu PNGs display incorrectly (bag, pokedex, storage, contest) — these are 4-bit/8-bit indexed PNG conversion issues being actively worked on
 
 ### Graphics Not Yet Localized (~70 files)
 - Summary screen tilemap .bin files (page headers, effect/description labels)
