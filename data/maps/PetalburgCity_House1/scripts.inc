@@ -10,19 +10,19 @@ PetalburgCity_House1_EventScript_Woman::
 	end
 
 PetalburgCity_House1_Text_TravelingIsWonderful:
-	.string "Traveling is wonderful!\p"
-	.string "When I was young, I roamed the seas\n"
-	.string "and the mountains!$"
+	.string "{JPN}たびって すばらしいのう!\p"
+	.string "{JPN}わしが わかいころは うみや\n"
+	.string "{JPN}やまを かけまわったもんじゃ!$"
 
 PetalburgCity_House1_Text_GoOnAdventure:
-	.string "Sigh…\p"
-	.string "I wish I could go on an adventure\n"
-	.string "with some POKéMON…\p"
-	.string "Crawl through some damp grass…\n"
-	.string "Climb rocky, rugged mountains…\p"
-	.string "Cross the raging seas…\n"
-	.string "Wander about in dark caves…\p"
-	.string "And, sometimes, even get a little\n"
-	.string "homesick…\p"
-	.string "It must be fabulous to travel!$"
+	.string "{JPN}はあ...\p"
+	.string "{JPN}わたしも ポケモンと いっしょに\n"
+	.string "{JPN}ぼうけんに でかけたいなあ...\p"
+	.string "{JPN}しめった くさむらを はいつくばり...\n"
+	.string "{JPN}ごつごつした やまを のぼって...\p"
+	.string "{JPN}あらなみの うみを わたって...\n"
+	.string "{JPN}くらい ほらあなを さまよって...\p"
+	.string "{JPN}ときには ちょっと\n"
+	.string "{JPN}ホームシックに なったりして...\p"
+	.string "{JPN}りょこうって すてきでしょうね!$"
 

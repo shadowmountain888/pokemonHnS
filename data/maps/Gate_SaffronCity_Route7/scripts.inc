@@ -12,12 +12,12 @@ Gate_SaffronCity_Route7_EventScript_GuardReturnedPart::
 	end
 
 Route7_Text_SaffronGuard_PowerPlant:
-	.string "Did you hear about the accident\n"
-	.string "at the POWER PLANT?\p"
-	.string "It's located in the East, close\n"
-	.string "to LAVENDER TOWN.$"
+	.string "{JPN}はつでんしょの じこの\n"
+	.string "{JPN}はなし きいた?\p"
+	.string "{JPN}ひがしの ほうで\n"
+	.string "{JPN}シオンタウンの ちかくに あるよ$"
 
 Route7_Text_SaffronGuard_Serious:
-	.string "I take my GUARD job seriously.\p"
-	.string "Hey! You have a POKéDEX.\p"
-	.string "OK. You can go through.$"
+	.string "{JPN}けいびいんの しごとを\n"
+	.string "{JPN}まじめに やってるんだ\p"
+	.string "{JPN}おっ! ポケモンずかんを\nもってるじゃないか\pよし とおって いいぞ$"

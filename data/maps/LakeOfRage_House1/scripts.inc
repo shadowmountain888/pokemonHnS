@@ -20,18 +20,18 @@ LakeOfRage_House1_EventScript_HiddenPowerGuyAfter::
 	end
 
 HiddenPowerGuy_Text_Intro:
-    .string "…You have strayed far…\p"
-    .string "Here I have meditated. Inside me,\n"
-    .string "a new power has been awakened.\p"
-    .string "Let me share my power with your\n"
-    .string "POKéMON. Take this, child.$"
+    .string "{JPN}...おまえは はるか とおくから\n"
+	.string "{JPN}きたのじゃな...\p"
+    .string "{JPN}ここで わしは めいそうを している.\n"
+	.string "{JPN}わしの なかで あたらしい ちからが\n"
+    .string "{JPN}めざめたのじゃ.\pその ちからを おまえの ポケモンに\nわけてやろう.これを うけとるのじゃ\nこどもよ.$"
 
 HiddenPowerGuy_Text_Explanation:
-    .string "Do you see it? It is HIDDEN POWER!\p"
-    .string "It draws out the power of POKéMON\n"
-    .string "for attacking.\p"
-    .string "Remember this: its type and power\n"
-    .string "depend on the POKéMON using it.$"
+    .string "{JPN}みえるかい?それが めざめるパワーだ!\p"
+	.string "{JPN}ポケモンの ひめられた ちからを\n"
+    .string "{JPN}ひきだして こうげきするのさ.\p"
+	.string "{JPN}おぼえておきなさい:その タイプと\n"
+    .string "{JPN}いりょくは つかう ポケモンに\nよって きまるのだ.$"
 
 HiddenPowerGuy_Text_Meditating:
-    .string "I am meditating…$"
+    .string "{JPN}わしは めいそうちゅうじゃ...$"

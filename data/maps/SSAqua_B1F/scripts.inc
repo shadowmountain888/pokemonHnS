@@ -45,33 +45,32 @@ SSAqua_B1F_EventScript_Barfcan::
 	end
 
 SSAqua_B1F_Text_BarfCan:
-    .string "Yuck!\n"
-    .string "Shouldn't have looked!$"
+    .string "{JPN}うえっ!\n"
+	.string "{JPN}みちゃだめだった!$"
 
 SSAqua_B1F_Text_FastShipOnDutySailor:
-	.string "Hey, kid. Could I get you to\n"
-	.string "look for my buddy?\p"
-	.string "He's goofing off somewhere,\n"
-	.string "that lazy bum!\p"
-	.string "I want to go find him, but I'm\n"
-	.string "on duty right now.$"
+	.string "{JPN}よお こども.\n"
+	.string "{JPN}そうだんがあるんだ.\p"
+	.string "{JPN}おれのなかまを\n"
+	.string "{JPN}さがしてくれないか?\p"
+	.string "{JPN}どこかで さぼってるんだ\n"
+	.string "{JPN}あのなまけもの!\pおれがさがしたいんだが\nいまばんについてるんだ.$"
 
 SSAqua_B1F_Text_FastShipOnDutySailorRefused:
-	.string "Oh, gee…\p"
-	.string "The CAPTAIN will be furious…$"
-
+	.string "{JPN}ああ こまった...\p"
+	.string "{JPN}せんちょうが おこるだろうなあ...$"
 SSAqua_B1F_Text_FastShipOnDutySailorThanks:
-	.string "Thanks, kid! I chewed him out\n"
-	.string "good so he'll quit slacking off!$"
+	.string "{JPN}ありがとよ こども!\n"
+	.string "{JPN}がつんといってやったから\nもうさぼらないぜ!$"
 
 SSAqua_B1F_Text_FastShipOnDutySailorSawGirl:
-	.string "A little girl?\p"
-	.string "I may have seen her go by here.$"
+	.string "{JPN}ちいさなおんなのこ?\p"
+	.string "{JPN}このへんを とおっていったかも\nしれないな.$"
 
 SSAqua_B1F_Text_FastShipOnDutySailorDirections:
-	.string "The dining room is up ahead.\p"
-	.string "The stairs at the end lead to\n"
-	.string "the CAPTAIN's cabin.$"
+	.string "{JPN}この さきが だいにんぐだ.\p"
+	.string "{JPN}おくの かいだんのうえが\n"
+	.string "{JPN}せんちょうしつだぞ.$"
 
 SSAqua_B1F_EventScript_Jeff::
 	trainerbattle_single TRAINER_JEFF SSAqua_B1F_Text_SailorJeffSeen, SSAqua_B1F_Text_SailorJeffBeaten
@@ -79,15 +78,15 @@ SSAqua_B1F_EventScript_Jeff::
 	end
 
 SSAqua_B1F_Text_SailorJeffSeen:
-	.string "Nothing beats a battle when\n"
-	.string "I'm on my break.$"
+	.string "{JPN}やすみじかんの バトルは\n"
+	.string "{JPN}さいこうだぜ!$"
 
 SSAqua_B1F_Text_SailorJeffBeaten:
-	.string "Win or lose, my break's over!$"
+	.string "{JPN}かっても まけても\nやすみじかん おわりだ!$"
 
 SSAqua_B1F_Text_SailorJeffAfter:
-	.string "I guess I can't win if I don't\n"
-	.string "get serious.$"
+	.string "{JPN}ほんきに ならないと\n"
+	.string "{JPN}かてないな.$"
 
 SSAqua_B1F_EventScript_Debra::
 	trainerbattle_single TRAINER_DEBRA SSAqua_B1F_Text_PicnickerDebraSeen, SSAqua_B1F_Text_PicnickerDebraBeaten
@@ -95,14 +94,14 @@ SSAqua_B1F_EventScript_Debra::
 	end
 
 SSAqua_B1F_Text_PicnickerDebraSeen:
-	.string "I'm so bored. Want to battle?$"
+	.string "{JPN}たいくつよ.\nバトルしない?$"
 
 SSAqua_B1F_Text_PicnickerDebraBeaten:
-	.string "Yow! You're too strong!$"
+	.string "{JPN}きゃー!\nつよすぎるわよ!$"
 
 SSAqua_B1F_Text_PicnickerDebraAfter:
-	.string "SAFFRON, CELADON… I hear there\n"
-	.string "are many big cities in KANTO.$"
+	.string "{JPN}ヤマブキに タマムシ... カントーには\n"
+	.string "{JPN}おおきな まちが たくさんあるって\nきいたよ$"
 
 SSAqua_B1F_EventScript_Fritz::
 	trainerbattle_single TRAINER_FRITZ SSAqua_B1F_Text_JugglerFritzSeen, SSAqua_B1F_Text_JugglerFritzBeaten
@@ -110,15 +109,13 @@ SSAqua_B1F_EventScript_Fritz::
 	end
 
 SSAqua_B1F_Text_JugglerFritzSeen:
-	.string "Urrf… I'm seasick!$"
-
+	.string "{JPN}うう... ふなよいしちゃった!$"
 SSAqua_B1F_Text_JugglerFritzBeaten:
-	.string "I can't move anymore…$"
-
+	.string "{JPN}もう うごけない...$"
 SSAqua_B1F_Text_JugglerFritzAfter:
-	.string "No more ships for me.\n"
-	.string "Next time,\p"
-	.string "I'm taking the MAGNET TRAIN.$"
+	.string "{JPN}もう ふねは こりごりだ.\n"
+	.string "{JPN}こんどは\p"
+	.string "{JPN}リニアでいこう.$"
 
 SSAqua_B1F_EventScript_Garrett::
 	trainerbattle_single TRAINER_GARRETT SSAqua_B1F_Text_SailorGarrettSeen, SSAqua_B1F_Text_SailorGarrettBeaten
@@ -126,15 +123,14 @@ SSAqua_B1F_EventScript_Garrett::
 	end
 
 SSAqua_B1F_Text_SailorGarrettSeen:
-	.string "This is where we sailors work!$"
+	.string "{JPN}ここは おれたち ふなのりの\nしごとばだ!$"
 
 SSAqua_B1F_Text_SailorGarrettBeaten:
-	.string "I lost on my home field…$"
-
+	.string "{JPN}ホームで まけちゃった...$"
 SSAqua_B1F_Text_SailorGarrettAfter:
-	.string "We get different passengers\n"
-	.string "from VERMILION CITY to\p"
-	.string "OLIVINE CITY.$"
+	.string "{JPN}クチバシティから\n"
+	.string "{JPN}アサギシティまで\p"
+	.string "{JPN}いろんなきゃくがのるんだ.$"
 
 SSAqua_B1F_EventScript_Jonah::
 	trainerbattle_single TRAINER_JONAH SSAqua_B1F_Text_FisherJonahSeen, SSAqua_B1F_Text_FisherJonahBeaten
@@ -142,16 +138,15 @@ SSAqua_B1F_EventScript_Jonah::
 	end
 
 SSAqua_B1F_Text_FisherJonahSeen:
-	.string "Even though we're out on the\n"
-	.string "sea, I can't fish!\p"
-	.string "This is boring! Let's battle!$"
+	.string "{JPN}うみのうえなのに\n"
+	.string "{JPN}つりができないなんて!\p"
+	.string "{JPN}つまらん! バトルしよう!$"
 
 SSAqua_B1F_Text_FisherJonahBeaten:
-	.string "I… I'm not bored anymore…$"
-
+	.string "{JPN}もう... たいくつじゃなくなったよ...$"
 SSAqua_B1F_Text_FisherJonahAfter:
-	.string "I plan to fish off\n"
-	.string "VERMILION's pier.$"
+	.string "{JPN}クチバの つりばしから\n"
+	.string "{JPN}つりをする よていなんだ.$"
 
 SSAqua_B1F_EventScript_Wai::
 	trainerbattle_single TRAINER_WAI SSAqua_B1F_Text_BlackbeltWaiSeen, SSAqua_B1F_Text_BlackbeltWaiBeaten
@@ -159,18 +154,18 @@ SSAqua_B1F_EventScript_Wai::
 	end
 
 SSAqua_B1F_Text_BlackbeltWaiSeen:
-	.string "I'm building up my legs by\n"
-	.string "bracing\p"
-	.string "against the ship's rocking!$"
+	.string "{JPN}ふねの ゆれに たえて\n"
+	.string "{JPN}あしを\p"
+	.string "{JPN}きたえているのだ!$"
 
 SSAqua_B1F_Text_BlackbeltWaiBeaten:
-	.string "Rocked and rolled over!$"
+	.string "{JPN}ゆれて ころがった!$"
 
 SSAqua_B1F_Text_BlackbeltWaiAfter:
-	.string "I couldn't find the KARATE KING\n"
-	.string "in JOHTO.\p"
-	.string "He's supposed to be training in\n"
-	.string "a cave somewhere.$"
+	.string "{JPN}ジョウトでは\n"
+	.string "{JPN}カラテおうがみつからなかった.\p"
+	.string "{JPN}どこかの ほらあなで\n"
+	.string "{JPN}しゅぎょうしているらしい.$"
 
 SSAqua_B1F_EventScript_Kenneth::
 	trainerbattle_single TRAINER_KENNETH SSAqua_B1F_Text_SailorKennethSeen, SSAqua_B1F_Text_SailorKennethBeaten
@@ -178,18 +173,17 @@ SSAqua_B1F_EventScript_Kenneth::
 	end
 
 SSAqua_B1F_Text_SailorKennethSeen:
-	.string "I'm a sailor man!\p"
-	.string "But I'm training POKéMON, so I\n"
-	.string "can become the CHAMP!$"
+	.string "{JPN}おれは ふなのりだ!\p"
+	.string "{JPN}でも ポケモンを そだてて\n"
+	.string "{JPN}チャンピオンになるぞ!$"
 
 SSAqua_B1F_Text_SailorKennethBeaten:
-	.string "My lack of training is obvious…$"
-
+	.string "{JPN}しゅぎょうぶそくが バレちゃった...$"
 SSAqua_B1F_Text_SailorKennethAfter:
-	.string "Eight BADGES! They must prove\n"
-	.string "that you've beaten\p"
-	.string "GYM LEADERS.\p"
-	.string "No wonder you're so good!$"
+	.string "{JPN}8この バッジ!\n"
+	.string "{JPN}ジムリーダーに かったしょうこ\n"
+	.string "{JPN}なんだな.\p"
+	.string "{JPN}なるほど つよいわけだ!$"
 
 SSAqua_B1F_EventScript_Shirley::
 	trainerbattle_single TRAINER_SHIRLEY SSAqua_B1F_Text_TeacherShirleySeen, SSAqua_B1F_Text_TeacherShirleyBeaten
@@ -197,15 +191,15 @@ SSAqua_B1F_EventScript_Shirley::
 	end
 
 SSAqua_B1F_Text_TeacherShirleySeen:
-	.string "Don't lay a finger on my\n"
-	.string "students!$"
+	.string "{JPN}わたしの せいとたちに\n"
+	.string "{JPN}ゆびいっぽん ふれさせません!$"
 
 SSAqua_B1F_Text_TeacherShirleyBeaten:
-	.string "Aaack!$"
+	.string "{JPN}きゃー!$"
 
 SSAqua_B1F_Text_TeacherShirleyAfter:
-	.string "We're on a field trip to the\n"
-	.string "RUINS outside VIOLET.$"
+	.string "{JPN}キキョウの そとにある\n"
+	.string "{JPN}いせきに けんがくよ.$"
 
 SSAqua_B1F_EventScript_Nate::
 	trainerbattle_single TRAINER_NATE SSAqua_B1F_Text_SchoolboyNateSeen, SSAqua_B1F_Text_SchoolboyNateBeaten
@@ -213,14 +207,14 @@ SSAqua_B1F_EventScript_Nate::
 	end
 
 SSAqua_B1F_Text_SchoolboyNateSeen:
-	.string "Do you know the RUINS OF ALPH?$"
+	.string "{JPN}アルフのいせきを\nしってる?$"
 
 SSAqua_B1F_Text_SchoolboyNateBeaten:
-	.string "Yaargh!$"
+	.string "{JPN}うわー!$"
 
 SSAqua_B1F_Text_SchoolboyNateAfter:
-	.string "Radios pick up strange signals\n"
-	.string "inside the RUINS.$"
+	.string "{JPN}アルフのいせきの なかでは\n"
+	.string "{JPN}ラジオが へんな でんぱを\nひろうんだ$"
 
 SSAqua_B1F_EventScript_Ricky::
 	trainerbattle_single TRAINER_RICKY SSAqua_B1F_Text_SchoolboyRickySeen, SSAqua_B1F_Text_SchoolboyRickyBeaten
@@ -228,13 +222,13 @@ SSAqua_B1F_EventScript_Ricky::
 	end
 
 SSAqua_B1F_Text_SchoolboyRickySeen:
-	.string "There are some odd stone panels\n"
-	.string "in the RUINS OF ALPH.$"
+	.string "{JPN}アルフのいせきには\n"
+	.string "{JPN}ふしぎな いしの パネルが\nあるんだ$"
 
 SSAqua_B1F_Text_SchoolboyRickyBeaten:
-	.string "I was done in!$"
+	.string "{JPN}やられちゃった!$"
 
 SSAqua_B1F_Text_SchoolboyRickyAfter:
-	.string "I read that there are four of\n"
-	.string "those stone panels.$"
+	.string "{JPN}あの いしの パネルは\n"
+	.string "{JPN}4つ あるって よんだよ$"
 

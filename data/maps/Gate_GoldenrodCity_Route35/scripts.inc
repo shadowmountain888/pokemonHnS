@@ -76,58 +76,56 @@ Gate_GoldenrodCity_Route35_EventScript_Fisher::
 	end
 
 Route35GoldenrodGate_Text_RandyAskFavor:
-	.string "Excuse me, kid! Can you do a guy\n"
-	.string "a favor?\p"
-	.string "Can you take this POKéMON with MAIL\n"
-	.string "to my friend?\p"
-	.string "He's on ROUTE 31.$"
+	.string "{JPN}ちょっと きみ! おにいさんに\n"
+	.string "{JPN}たのみごと きいてくれる?\p"
+	.string "{JPN}この てがみつきの ポケモンを\n"
+	.string "{JPN}ともだちに とどけてくれる?\p"
+	.string "{JPN}かれは 31ばんどうろに いるんだ$"
 
 Route35GoldenrodGate_Text_RandyThanks:
-	.string "You will? Perfect! Thanks, kid!\p"
-	.string "My pal's a chubby guy who snoozes\n"
-	.string "all the time.\p"
-	.string "You'll recognize him right away!$"
+	.string "{JPN}やってくれる? さいこうだ!\n"
+	.string "{JPN}ありがとう きみ!\p"
+	.string "{JPN}ぼくの ともだちは ふとっちょで\n"
+	.string "{JPN}いつも ねむっている やつなんだ\pすぐに わかるよ!$"
 
 Route35GoldenrodGate_Text_ReceivedMonWithMail:
-	.string "{PLAYER} received a POKéMON with MAIL.$"
+	.string "{JPN}{PLAYER}は てがみつきの\nポケモンを うけとった$"
 
 Route35GoldenrodGate_Text_RandyWeirdTree:
-	.string "Make sure to put it at the front of\n"
-	.string "your team when you find my friend!\p"
-	.string "ROUTE 31!\p"
-	.string "Oh, yeah. There was a weird tree\n"
-	.string "blocking the road.\p"
-	.string "I wonder if it's been cleared?$"
+	.string "{JPN}ともだちを みつけたら\n"
+	.string "{JPN}てもちの さいぜんれつに\n"
+	.string "{JPN}おいてくれよ!\p"
+	.string "{JPN}31ばんどうろだ!\p"
+	.string "{JPN}そうそう へんな きが\n"
+	.string "{JPN}どうろを ふさいでたんだ\pもう どかされたかな?$"
 
 Route35GoldenrodGate_Text_CantCarryMoreMon:
-	.string "You can't carry another POKéMON…$"
-
+	.string "{JPN}ポケモンを もう 1ぴき\nつれていけないよ...$"
 Route35GoldenrodGate_Text_RandyNeverMind:
-	.string "Oh… Never mind, then…$"
-
+	.string "{JPN}そう... じゃあ いいよ...$"
 Route35GoldenrodGate_Text_ThanksForDelivery:
-	.string "Thanks, kid! You made the delivery\n"
-	.string "for me!\p"
-	.string "Here's something for your trouble!$"
+	.string "{JPN}ありがとう きみ!\n"
+	.string "{JPN}とどけてくれたんだね!\p"
+	.string "{JPN}これは おれいだよ!$"
 
 Route35GoldenrodGate_Text_RandyMyPalSnoozing:
-	.string "My pal was snoozing, right? Heh,\n"
-	.string "what'd I say?$"
+	.string "{JPN}ともだち ねむってただろ?\n"
+	.string "{JPN}ほら いったとおりだ!$"
 
 Route35GoldenrodGate_Text_PokefanF_TreeBlocking:
-	.string "A strange tree is blocking the road.\p"
-	.string "It wriggles around if you talk to it.\p"
-	.string "I heard it became wild when someone\n"
-	.string "watered it with a SQUIRTBOTTLE.$"
+	.string "{JPN}ふしぎな きが どうろを\n"
+	.string "{JPN}ふさいでるの\p"
+	.string "{JPN}はなしかけると うごめくのよ\p"
+	.string "{JPN}だれかが みずでっぽうで\nみずを かけたら やせいになったって\nきいたわ$"
 
 Route35GoldenrodGate_Text_PokefanF_Lullaby:
-	.string "I like the POKéMON Lullaby they play\n"
-	.string "on the radio.$"
+	.string "{JPN}ラジオで ながれる ポケモンの\n"
+	.string "{JPN}こもりうたが すきなの$"
 
 Route35GoldenrodGate_Text_Fisher:
-	.string "I wonder how many kinds of POKéMON\n"
-	.string "there are in the world.\p"
-	.string "Three years ago, PROF.OAK said that\n"
-	.string "there were 150 different kinds.\p"
-	.string "But recently I heard there's\n"
-	.string "over 400!$"
+	.string "{JPN}せかいには なんしゅるいの\n"
+	.string "{JPN}ポケモンが いるんだろう\p"
+	.string "{JPN}3ねんまえ オーキドはかせは\n"
+	.string "{JPN}150しゅるいって いってたけど\p"
+	.string "{JPN}さいきん 400しゅるい いじょうって\n"
+	.string "{JPN}きいたぞ!$"

@@ -41,25 +41,24 @@ MauvilleCity_House2_EventScript_DeclineTrade::
 	end
 
 MauvilleCity_House2_Text_BuyHarborMailAtSlateport:
-	.string "If I had a BIKE, it'd be easy to cycle to\n"
-	.string "SLATEPORT for some shopping.\p"
-	.string "I'd be able to buy HARBOR MAIL at the\n"
-	.string "POKéMON MART in SLATEPORT…$"
-
+	.string "{JPN}じてんしゃが あれば\n"
+	.string "{JPN}カイナシティまで かいものに\n"
+	.string "{JPN}いくのも らくなのに.\p"
+	.string "{JPN}カイナシティの フレンドリィ\nショップで ハーバーメールが\nかえるんだけどなあ...$"
 MauvilleCity_House2_Text_TradeHarborMailForCoinCase:
-	.string "Oh! You have HARBOR MAIL?\n"
-	.string "Will you trade it for a COIN CASE?$"
+	.string "{JPN}あ! ハーバーメールを\n"
+	.string "{JPN}もってるのね?\nコインケースと\nこうかんしない?$"
 
 MauvilleCity_House2_Text_IllTradeYouCoinCase:
-	.string "Oh, I'm so happy!\n"
-	.string "Okay, I'll trade you a COIN CASE!$"
+	.string "{JPN}あ うれしいわ!\n"
+	.string "{JPN}それじゃ コインケースと\nこうかんしましょう!$"
 
 MauvilleCity_House2_Text_UseCoinCaseAtGameCorner:
-	.string "That COIN CASE can be used\n"
-	.string "at the GAME CORNER.$"
+	.string "{JPN}そのコインケースは\n"
+	.string "{JPN}ゲームコーナーで\nつかえるのよ$"
 
 MauvilleCity_House2_Text_ThatsDisappointing:
-	.string "Oh, that's disappointing.\p"
-	.string "A COIN CASE is needed for the\n"
-	.string "GAME CORNER.$"
+	.string "{JPN}あら ざんねん\p"
+	.string "{JPN}\n"
+	.string "{JPN}ゲームコーナーには\nコインケースが\nひつようなのよ$"
 

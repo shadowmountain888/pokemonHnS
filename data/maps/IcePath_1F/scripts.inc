@@ -89,38 +89,38 @@ IcePath_Movement_KimonoLeave:
 	step_end
 
 IcePath_1F_Text_Leave:
-	.string "KIMONO GIRL: .....................$"
+	.string "{JPN}きものガール:                       $"
 
 IcePath_1F_Text_Stuck1:
-    .string "Me oh my... Is that you, {PLAYER}?\n"
-    .string "Fancy meeting you here!\p"
-    .string "To tell the truth... my sandals are\n"
-    .string "frozen on the ice, and I am stuck.\p"
-    .string "In other words, my flip-flops are\n"
-    .string "quick-frozen to the ground.\p"
-    .string "Tee hee.\p"
-    .string "Well, it's no laughing matter.\p"
-    .string "Would you come around and push\n"
-    .string "my back?$"
+    .string "{JPN}あら まあ    あなた {PLAYER}さんね?\n"
+	.string "{JPN}こんなところで おあいするなんて!\p"
+    .string "{JPN}じつは    わたしの げたが\n"
+	.string "{JPN}こおりに くっついて うごけないの.\p"
+    .string "{JPN}つまり ぞうりが じめんに\n"
+	.string "{JPN}れいとうされちゃったの.\p"
+    .string "{JPN}てぃひ.\p"
+	.string "{JPN}でも わらいごとじゃないわ.\p"
+    .string "{JPN}まわって きてくれて\n"
+	.string "{JPN}せなかを おしてくれる?$"
 
 IcePath_1F_Text_Stuck2:
-    .string "Me oh my... Is that you, {PLAYER}?\n"
-    .string "Fancy meeting you here!\p"
-    .string "To tell the truth... my sandals are\n"
-    .string "frozen on the ice, and I am stuck.\p"
-    .string "In other words, my flip-flops are\n"
-    .string "quick-frozen with the ground.\p"
-    .string "Tee hee.\p"
-    .string "Well, it's no laughing matter.\n"
-    .string "Would you push my back?$"
+    .string "{JPN}あら まあ    あなた {PLAYER}さんね?\n"
+	.string "{JPN}こんなところで おあいするなんて!\p"
+    .string "{JPN}じつは    わたしの げたが\n"
+	.string "{JPN}こおりに くっついて うごけないの.\p"
+    .string "{JPN}つまり ぞうりが じめんと\n"
+	.string "{JPN}れいとうされちゃったの.\p"
+    .string "{JPN}てぃひ.\p"
+	.string "{JPN}でも わらいごとじゃないわ.\n"
+    .string "{JPN}せなかを おしてくれる?$"
 
 IcePath_1F_Text_Shove:
-    .string "....SHOVE!....$"
+    .string "{JPN}    えいっ!    $"
 
 IcePath_1F_Text_Cruel:
-    .string "Don't be so cruel.\n"
-    .string "You will push my back, won't you?$"
+    .string "{JPN}そんな ひどいことしないで.\n"
+	.string "{JPN}せなかを おしてくれるでしょ?$"
 
 IcePath_1F_Text_Thanks:
-    .string "You really are kind.\n"
-    .string "Thank you so much!$"
+    .string "{JPN}あなたって ほんとうに やさしいのね.\n"
+	.string "{JPN}どうも ありがとう!$"

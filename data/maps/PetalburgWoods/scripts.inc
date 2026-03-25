@@ -136,39 +136,35 @@ PetalburgWoods_EventScript_CelebiMoves2:
 	step_end
 
 Text_PetalburgWoods_Celebi0:
-	.string "The tree is rattling.\p"
-	.string "You also feel that someone or\n"
-	.string "something is observing you…\p"
-	.string "But… you cannot see any POKéMON…$"
-
+	.string "{JPN}きが ゆれている.\p"
+	.string "{JPN}だれかに みられているような\n"
+	.string "{JPN}きがする...\p"
+	.string "{JPN}でも... ポケモンは\nみえない...$"
 Text_PetalburgWoods_Celebi1:
-	.string ". . . \p"
-	.string ". . . \p"
-	.string "You can hear a dim voice.\p"
-	.string "S..w .. ..e . . .ER . K. ON\p"
-	.string ". . . \p"
-	.string "S..w me the THUND.R PO..MON…$"
-
+	.string "{JPN}. . . \p"
+	.string "{JPN}. . . \p"
+	.string "{JPN}かすかな こえが きこえる.\p"
+	.string "{JPN}か..ん .. ..り  . . .デン キ. ポケ\p"
+	.string "{JPN}. . . \n"
+	.string "{JPN}かんでん ポケモンを みせて...$"
 Text_PetalburgWoods_Celebi2:
-	.string ". . . \p"
-	.string ". . . \p"
-	.string "Sh.. me .he .OLCANO . ..MON$"
+	.string "{JPN}. . . \p"
+	.string "{JPN}. . . \p"
+	.string "{JPN}み.. せて .かざん . ..モン$"
 
 Text_PetalburgWoods_Celebi3:
-	.string ". . . \p"
-	.string ". . . \p"
-	.string "Sho.. me t.. AU.ORA …éMON.$"
-
+	.string "{JPN}. . . \p"
+	.string "{JPN}. . . \n"
+	.string "{JPN}オー..ラ ポケモンを みせ..$"
 Text_PetalburgWoods_Celebi4:
-	.string ". . . \p"
-	.string "Something is approaching…\p"
-	.string ". . . $"
+	.string "{JPN}. . . \n"
+	.string "{JPN}なにかが ちかづいて くる...\p"
+	.string "{JPN}. . . $"
 
 Text_PetalburgWoods_Celebi_Donthave:
-	.string ". . . \p"
-	.string "..u d..'t h… i….\p"
-	.string "You don't have it…$"
-
+	.string "{JPN}. . . \n"
+	.string "{JPN}..れを も.て い..い\n"
+	.string "{JPN}それを もって いない...$"
 Movement_PetalburgWoods_Celebi1:
 	emote_exclamation_mark
 	delay_16
@@ -188,7 +184,7 @@ PetalburgWoods_Dusclops::
 	end
 
 PetalburgWoods_Text_Dusclops:
-	.string "DUSKY: Dusk, dusk!$"
+	.string "{JPN}ダスキー: やみ やみ!$"
 
 PetalburgWoods_Celebi_Sign::
 	faceplayer
@@ -215,69 +211,69 @@ PetalburgWoods_Celebi_SignChampion::
 	end
 
 Text_PetalburgWoods_Celebi_Sign:
-	.string "Hi trainer.\p"
-	.string "Dangerous? No, no. Do not worry.\l"
-	.string "DUSKY is patrolling around.\p"
-	.string "And you? How is your adventure\n"
-	.string "going?$"
+	.string "{JPN}やあ トレーナー.\p"
+	.string "{JPN}きけん? いや いや.しんぱい\l"
+	.string "{JPN}しなくても だいじょうぶ.\l"
+	.string "{JPN}ダスキーが まわりを みはってる.\p"
+	.string "{JPN}きみは? ぼうけんの ちょうしは\nどう?$"
 
 Text_PetalburgWoods_Celebi_SignFirstTime:
-	.string "Oh, a youngster…\p"
-	.string "What are you doing here in these\n"
-	.string "dark, shady woods?\p"
-	.string ". . .\p"
-	.string "Oh, I see. You are just passing by.\p"
-	.string "What? Ah, me?\p"
-	.string "I am just watering the tree shrine\n"
-	.string "like I have always done.\p"
-	.string "Ah, you are wondering why I am watering\n"
-	.string "an innocent looking tree in the middle\l"
-	.string "of some woods, right?\p"
-	.string "But you see, this tree is special.\n"
-	.string "In these woods, a MYTHICAL POKéMON\l"
-	.string "lives. It is the FOREST GUARDIAN.\p"
-	.string "I have been watering this tree for\n"
-	.string "over twenty years of my life.\p"
-	.string "And I can assure you that this story\n"
-	.string "is as real as the air we breath.\l"
-	.string "The FOREST GUARDIAN is small, GREEN,\l"
-	.string "and just gazing at it feels…\p"
-	.string "Like I am watching a spirit from the\n"
-	.string "forest. Sadly, last time I saw it\l" 
-	.string "was many, many years ago…\p"
-	.string "Where could the GUARDIAN be?\p"
-	.string "Maybe I need to be STRONGER to make\n"
-	.string "it appear…\p"
-	.string "It really makes me unhappy how weak\n"
-	.string "I have become with the years.\p"
-	.string "Anyway, I will continue my deeds.\n"
-	.string "See you soon, young one.$"
+	.string "{JPN}おお  わかいの...\p"
+	.string "{JPN}こんな くらい もりで\n"
+	.string "{JPN}なにを しとるんじゃ?\p"
+	.string "{JPN}. . .\p"
+	.string "{JPN}ああ そうか.とおりすがり\n"
+	.string "{JPN}なんじゃな.\p"
+	.string "{JPN}なに? ああ わし?\p"
+	.string "{JPN}わしは いつものように\n"
+	.string "{JPN}きの ほこらに みずを やっとる.\p"
+	.string "{JPN}ああ もりの まんなかにある\n"
+	.string "{JPN}ふつうの きに なぜ みずを\l"
+	.string "{JPN}やるのか ふしぎに おもうじゃろ?\p"
+	.string "{JPN}じつは この きは とくべつ\n"
+	.string "{JPN}なんじゃ.この もりには\l"
+	.string "{JPN}でんせつの ポケモンが おる.\p"
+	.string "{JPN}もりの しゅごしゃ なんじゃ.\p"
+	.string "{JPN}わしは にじゅうねん いじょう\n"
+	.string "{JPN}この きに みずを やり つづけた.\p"
+	.string "{JPN}この はなしは わしらが\n"
+	.string "{JPN}すう くうきと おなじくらい\l"
+	.string "{JPN}ほんとうの ことじゃ.\p"
+	.string "{JPN}もりの しゅごしゃは ちいさくて\n"
+	.string "{JPN}みどりいろで みているだけで...\p"
+	.string "{JPN}もりの せいれいを みているような\n"
+	.string "{JPN}きもちに なるんじゃ.\l"
+	.string "{JPN}ざんねんながら さいごに みたのは\l"
+	.string "{JPN}ずいぶん むかしの ことじゃが...\p"
+	.string "{JPN}しゅごしゃは どこに いるんじゃ\n"
+	.string "{JPN}ろうか?\p"
+	.string "{JPN}わしが もっと つよく なれば\nあらわれて くれるかも\lしれんのう...\pとしを とって よわく なって\nしまった わしが なさけない\nのう.\pとにかく  わしは つづけるぞ.\nまた あおうな わかいの.$"
 
 Text_PetalburgWoods_Celebi_SignEventFinished:
-	.string ". . . \p"
-	.string "I truly cannot believe my eyes!\n"
-	.string "You battled with the GUARDIAN!?\p"
-	.string "I will never forget this moment.\n"
-	.string "I will keep watering this shrine\l"
-	.string "until it comes back in the future.$"
+	.string "{JPN}. . . \p"
+	.string "{JPN}しんじられない!\n"
+	.string "{JPN}きみが しゅごしんと たたかったの!?\p"
+	.string "{JPN}この しゅんかんを ぜったいに\n"
+	.string "{JPN}わすれない.みらいに また\l"
+	.string "{JPN}もどってくるまで この ほこらに\lみずを やりつづけよう.$"
 
 Text_PetalburgWoods_Celebi_SignEventChampion:
-	.string "Hi again, young one.\p"
-	.string "Something has been going on with the\n"
-	.string "GUARDIAN tree.\p"
-	.string "I have been hearing a small muttering\n"
-	.string "around it for many hours.\p"
-	.string "Something about a THUNDER, VOLCANO\n"
-	.string "and AURORA POKéMON…\p"
-	.string "Wait… I know those descriptions…\n"
-	.string "Something about three beasts? But…\p"
-	.string "Not from this region…? Where were\n"
-	.string "they from? GIOTO? HOJO? JONO? JOHTO?\p"
-	.string "And if they are here, in HOENN…\n"
-	.string "Maybe they are hiding in places related\l"
-	.string "to their descriptions?\p"
-	.string "If you have time, maybe you could have\n"
-	.string "a look. What do you think?$"
+	.string "{JPN}また あったな わかいの.\p"
+	.string "{JPN}しゅごしゃの きに へんかが\n"
+	.string "{JPN}あったようじゃ.\p"
+	.string "{JPN}なんじかん も ちいさな つぶやきが\n"
+	.string "{JPN}きこえて おる.\p"
+	.string "{JPN}かみなりや かざんや オーロラの\n"
+	.string "{JPN}ポケモンの ことを いっとる\n"
+	.string "{JPN}ようじゃが...\p"
+	.string "{JPN}まて... その せつめい\n"
+	.string "{JPN}しっとる きが する...\n"
+	.string "{JPN}さんびきの けものの ことか?\p"
+	.string "{JPN}でも... この ちほうの では\n"
+	.string "{JPN}ないな? どこの だったかな?\n"
+	.string "{JPN}ギオト? ホウジョウ? ジョウノ?\n"
+	.string "{JPN}ジョウト?\p"
+	.string "{JPN}もし やつらが ここ ホウエンに\nおるなら... じぶんたちの\ltokuちょうに あった ばしょに\lかくれとるかも しれんな.\pもし じかんが あったら\nsagaして みては どうじゃ?$"
 
 PetalburgWoods_EventScript_DevonResearcherLeft::
 	lockall
@@ -594,158 +590,156 @@ PetalburgWoods_EventScript_JamesRematch::
 	end
 
 PetalburgWoods_Text_NotAOneToBeFound:
-	.string "Hmmm…\n"
-	.string "Not a one to be found…$"
-
+	.string "{JPN}うーん...\n"
+	.string "{JPN}ひとつも みつからんな...$"
 PetalburgWoods_Text_HaveYouSeenShroomish:
-	.string "Hello, have you seen any POKéMON\n"
-	.string "called SHROOMISH around here?\p"
-	.string "I really love that POKéMON.$"
+	.string "{JPN}こんにちは このへんで\n"
+	.string "{JPN}キノココという ポケモンを\l"
+	.string "{JPN}みかけませんでしたか?\pあの ポケモンが だいすきなんです.$"
 
 PetalburgWoods_Text_IWasGoingToAmbushYou:
-	.string "I was going to ambush you, but you\n"
-	.string "had to dawdle in PETALBURG WOODS\l"
-	.string "forever, didn't you?\p"
-	.string "I got sick of waiting, so here I am!$"
+	.string "{JPN}まちぶせ してやろうと おもってたのに\n"
+	.string "{JPN}おまえ トウカのもりで いつまでも\l"
+	.string "{JPN}ぐずぐず してるんだもん!\p"
+	.string "{JPN}まつのに あきたから でてきたぜ!$"
 
 PetalburgWoods_Text_HandOverThosePapers:
-	.string "You! DEVON RESEARCHER!\p"
-	.string "Hand over those papers!$"
+	.string "{JPN}おまえ! デボンの けんきゅういん!\p"
+	.string "{JPN}その しょるいを わたせ!$"
 
 PetalburgWoods_Text_YouHaveToHelpMe:
-	.string "Aiyeeeh!\p"
-	.string "You're a POKéMON TRAINER, aren't you?\n"
-	.string "You've got to help me, please!$"
+	.string "{JPN}あいえええ!\p"
+	.string "{JPN}きみ ポケモントレーナーだろう?\n"
+	.string "{JPN}たすけて くれよ おねがいだ!$"
 
 PetalburgWoods_Text_NoOneCrossesTeamAqua:
-	.string "Hunh? What do you think you're doing?\n"
-	.string "What, you're going to protect him?\p"
-	.string "No one who crosses TEAM AQUA\n"
-	.string "gets any mercy, not even a kid!\p"
-	.string "Come on and battle me!$"
+	.string "{JPN}はん? なにしてるつもりだ?\n"
+	.string "{JPN}なに そいつを まもるって?\p"
+	.string "{JPN}アクアだんに さからうやつには\n"
+	.string "{JPN}ようしゃしねえぞ こどもでもな!\p"
+	.string "{JPN}かかってこい!$"
 
 PetalburgWoods_Text_YoureKiddingMe:
-	.string "You're kidding me! You're tough!$"
+	.string "{JPN}うそだろ! つええじゃねえか!$"
 
 PetalburgWoods_Text_YouveGotSomeNerve:
-	.string "Grrr… You've got some nerve\n"
-	.string "meddling with TEAM AQUA!\l"
-	.string "Come on and battle me again!\p"
-	.string "I wish I could say that, but I'm out of\n"
-	.string "POKéMON…\p"
-	.string "And, hey, we of TEAM AQUA are also\n"
-	.string "after something in RUSTBORO.\p"
-	.string "I'll let you go today!$"
+	.string "{JPN}ぐぬぬ... アクアだんに\n"
+	.string "{JPN}よくも でしゃばって くれたな!\l"
+	.string "{JPN}もういちど しょうぶしてやる!\p"
+	.string "{JPN}そう いいたいが ポケモンが\n"
+	.string "{JPN}いないんじゃ...\p"
+	.string "{JPN}それに おれたち アクアだんも\n"
+	.string "{JPN}カナズミシティで やることが\n"
+	.string "{JPN}あるんでな.\pきょうは みのがして やる!$"
 
 PetalburgWoods_Text_ThatWasAwfullyClose:
-	.string "Whew…\n"
-	.string "That was awfully close!\p"
-	.string "Thanks to you, he didn't rob me of\n"
-	.string "these important papers.\p"
-	.string "I know, I'll give you a GREAT BALL as\n"
-	.string "my thanks!$"
+	.string "{JPN}ふう...\n"
+	.string "{JPN}あぶなかった!\p"
+	.string "{JPN}きみの おかげで だいじな\n"
+	.string "{JPN}しょるいを とられずに すんだよ.\p"
+	.string "{JPN}おれいに スーパーボールを\n"
+	.string "{JPN}あげよう!$"
 
 PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro:
-	.string "Didn't that TEAM AQUA thug say\n"
-	.string "they were after something in\l"
-	.string "RUSTBORO, too?$"
+	.string "{JPN}あの アクアだんのやつ \n"
+	.string "{JPN}カナズミでも なにかを\l"
+	.string "{JPN}ねらってるって いってなかった?$"
 
 PetalburgWoods_Text_ICantBeWastingTime:
-	.string "Uh-oh! It's a crisis!\n"
-	.string "I can't be wasting time!$"
+	.string "{JPN}あ! たいへんだ!\n"
+	.string "{JPN}じかんを むだに できない!$"
 
 PetalburgWoods_Text_YoureLoadedWithItems:
-	.string "You're loaded with items.\n"
-	.string "I can't give you this GREAT BALL.$"
+	.string "{JPN}どうぐを たくさん もってるね.\n"
+	.string "{JPN}この スーパーボールは わたせないよ.$"
 
 PetalburgWoods_Text_GoBugPokemonTeam:
-	.string "I caught a whole bunch of POKéMON!\p"
-	.string "Go, go, go!\n"
-	.string "My BUG POKéMON team!$"
+	.string "{JPN}ポケモンを たくさん つかまえたぞ!\p"
+	.string "{JPN}いけ いけ いけ!\n"
+	.string "{JPN}ぼくの むしポケモンチーム!$"
 
 PetalburgWoods_Text_ICouldntWin:
-	.string "I have all these POKéMON,\n"
-	.string "but I couldn't win…$"
-
+	.string "{JPN}これだけ ポケモンが いるのに\n"
+	.string "{JPN}かてなかった...$"
 PetalburgWoods_Text_ImOutOfPokeBalls:
-	.string "I caught a bunch of POKéMON.\n"
-	.string "Now I'm out of POKé BALLS.$"
+	.string "{JPN}ポケモンを たくさん つかまえた.\n"
+	.string "{JPN}もう モンスターボールが ない.$"
 
 PetalburgWoods_Text_InstantlyPopularWithBugPokemon:
-	.string "If you take BUG POKéMON to school,\n"
-	.string "you get to be instantly popular!$"
+	.string "{JPN}むしポケモンを がっこうに もってくと\n"
+	.string "{JPN}すぐに にんきものに なれるんだ!$"
 
 PetalburgWoods_Text_CantBePopularIfILose:
-	.string "I can't be popular if I lose.$"
+	.string "{JPN}まけちゃったら にんきもの\nじゃなくなっちゃう.$"
 
 PetalburgWoods_Text_PeopleRespectYou:
-	.string "If you have a big BUG POKéMON,\n"
-	.string "people respect you for it.$"
+	.string "{JPN}おおきな むしポケモンを もってると\n"
+	.string "{JPN}みんなが そんけいしてくれるんだ.$"
 
 PetalburgWoods_Text_IWantRematch1:
-	.string "I want a rematch when my BUG\n"
-	.string "POKéMON grow up!\p"
-	.string "I'm registering you in my POKéNAV!$"
+	.string "{JPN}ぼくの むしポケモンが そだったら\n"
+	.string "{JPN}リベンジしたいな!\p"
+	.string "{JPN}ポケナビに とうろく させてもらうよ!$"
 
 PetalburgWoods_Text_IWantRematch2:
-	.string "I want a rematch when my BUG \n"
-	.string "POKéMON grow up!\p"
-	.string "I'm registering you in my POKéNAV!$"
+	.string "{JPN}ぼくの むしポケモンが そだったら\n"
+	.string "{JPN}リベンジしたいな!\p"
+	.string "{JPN}ポケナビに とうろく させてもらうよ!$"
 
 PetalburgWoods_Text_MyPokemonHaveGrown:
-	.string "My BUG POKéMON have grown.\n"
-	.string "I'll be popular again.$"
+	.string "{JPN}ぼくの むしポケモンが そだった.\n"
+	.string "{JPN}また にんきものに なれるぞ.$"
 
 PetalburgWoods_Text_CantBePopularIfLose:
-	.string "I can't be popular if I lose.$"
+	.string "{JPN}まけちゃったら にんきもの\nじゃなくなっちゃう.$"
 
 PetalburgWoods_Text_IveBeenTrainingHard:
-	.string "You get to be popular if you have\n"
-	.string "strong POKéMON, right?\l"
-	.string "So, I've been training hard.$"
+	.string "{JPN}つよい ポケモンを もってれば\n"
+	.string "{JPN}にんきものに なれるよね?\l"
+	.string "{JPN}だから いっしょうけんめい\lとれーにんぐ してるんだ.$"
 
 PetalburgWoods_Text_StayOutOfTallGrass:
-	.string "Yo, there!\n"
-	.string "Your POKéMON doing okay?\p"
-	.string "If your POKéMON are weak and you want\n"
-	.string "to avoid battles, you should stay out\l"
-	.string "of tall grass.$"
+	.string "{JPN}よお!\n"
+	.string "{JPN}きみの ポケモン げんきか?\p"
+	.string "{JPN}ポケモンが よわくて たたかいを\n"
+	.string "{JPN}さけたいなら たかい くさむらには\l"
+	.string "{JPN}はいらない ほうが いいぞ.$"
 
 PetalburgWoods_Text_HiddenItemsExplanation:
-	.string "Sometimes, there are things on the\n"
-	.string "ground even if you can't see them.\p"
-	.string "That's why I always check where I'm\n"
-	.string "walking.$"
+	.string "{JPN}ときどき みえなくても\n"
+	.string "{JPN}じめんに ものが おちてる\l"
+	.string "{JPN}ことが あるんだ.\p"
+	.string "{JPN}だから いつも あるいてるところを\nちぇっく してるのさ.$"
 
 PetalburgWoods_Text_TryUsingThisItem:
-	.string "Oh, neat!\n"
-	.string "That's the BADGE from RUSTBORO GYM!\p"
-	.string "You must be a TRAINER.\n"
-	.string "You should try using this item.$"
+	.string "{JPN}おお すごいね!\n"
+	.string "{JPN}それは カナズミジムの バッジだ!\p"
+	.string "{JPN}きみは トレーナーなんだね.\n"
+	.string "{JPN}この どうぐを つかってみて.$"
 
 PetalburgWoods_Text_MiracleSeedExplanation:
-	.string "It's a MIRACLE SEED.\n"
-	.string "If a POKéMON holds that item, its\l"
-	.string "GRASS-type moves become stronger.\p"
-	.string "Besides MIRACLE SEED, I think there are\n"
-	.string "other convenient items for POKéMON\l"
-	.string "to hold.$"
+	.string "{JPN}それは きせきのタネだよ.\n"
+	.string "{JPN}ポケモンが そのどうぐを もつと \l"
+	.string "{JPN}くさタイプの わざが つよくなる.\p"
+	.string "{JPN}きせきのタネの ほかにも \n"
+	.string "{JPN}ポケモンに もたせると\l"
+	.string "{JPN}べんりな どうぐが あるよ.$"
 
 PetalburgWoods_Text_TrainerTipsExperience:
-	.string "TRAINER TIPS\p"
-	.string "Any POKéMON that appears even once\n"
-	.string "in a battle is awarded EXP Points.\p"
-	.string "To raise a weak POKéMON, put it at the\n"
-	.string "left of the team list.\p"
-	.string "As soon as a battle starts, switch it\n"
-	.string "out. It will earn EXP Points without\l"
-	.string "being exposed to any harm.$"
+	.string "{JPN}トレーナーの こころえ\p"
+	.string "{JPN}バトルで いちどでも でてきた\n"
+	.string "{JPN}ポケモンには けいけんちが はいる.\p"
+	.string "{JPN}よわい ポケモンを そだてるには \n"
+	.string "{JPN}てもちの いちばんひだりに おく.\p"
+	.string "{JPN}バトルが はじまったら すぐに\n"
+	.string "{JPN}こうたいする.きずつかずに\l"
+	.string "{JPN}けいけんちが もらえるぞ.$"
 
 PetalburgWoods_Text_TrainerTipsPP:
-	.string "TRAINER TIPS\p"
-	.string "In addition to Hit Points (HP), POKéMON\n"
-	.string "have Power Points (PP) that are used to\l"
-	.string "make moves during battle.\p"
-	.string "If a POKéMON runs out of PP, it must be\n"
-	.string "taken to a POKéMON CENTER.$"
+	.string "{JPN}トレーナーの こころえ\p"
+	.string "{JPN}ポケモンには たいりょく(HP)の\n"
+	.string "{JPN}ほかに わざを つかうための\l"
+	.string "{JPN}パワー(PP)が ある.\p"
+	.string "{JPN}PPが なくなったら ポケモンセンター\n"
+	.string "{JPN}に つれていこう.$"
 

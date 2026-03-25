@@ -35,31 +35,30 @@ PetalburgCity_GalladeEvo3:
 	end
 
 PetalburgCity_GalladeEvo_Text:
-	.string "PROF. BIRCH might be the most famous\n"
-	.string "PROFESSOR of HOENN, but I am also a\l"
-	.string "reliable PROFESSOR.\p"
-	.string "To prove it, I can give you a piece of\n"
-	.string "information that he might not know\l"
-	.string "about. Do you want to listen to it?$"
+	.string "{JPN}オダマキはかせは ホウエンで\n"
+	.string "{JPN}いちばん ゆうめいな はかせかも\l"
+	.string "{JPN}しれないけど わたしも\l"
+	.string "{JPN}しんらいできる はかせなのよ.\p"
+	.string "{JPN}それを しょうめいするために\n"
+	.string "{JPN}かれが しらないかもしれない\lじょうほうを おしえてあげる.\lききたい?$"
 
 PetalburgCity_GalladeEvo_Text2:
-	.string "Choosing between a MALE or FEMALE RALTS\n"
-	.string "is quite important.\p"
-	.string "Depending on what you capture, the last\n"
-	.string "evolution of RALTS will be different.\p"
-	.string "If RALTS is MALE, he will naturally\n"
-	.string "evolve into GALLADE but only if it\l"
-	.string "happens during the morning, which is\l"
-	.string "from 6AM to 9AM.\p"
-	.string "RALTS will evolve into GARDEVOIR if he\n"
-	.string "doesn't evolve during morning, or if\l"
-	.string "said RALTS is FEMALE.\p"
-	.string "I believe this information might be\n"
-	.string "useful for a new trainer like you.$"
+	.string "{JPN}オスか メスかで ラルトスを\n"
+	.string "{JPN}えらぶのは とても たいせつよ.\p"
+	.string "{JPN}つかまえたものによって ラルトスの\n"
+	.string "{JPN}さいしゅうしんかが かわるの.\p"
+	.string "{JPN}ラルトスが オスなら しぜんに\n"
+	.string "{JPN}エルレイドに しんかするけど\l"
+	.string "{JPN}それは あさの じかんだけ.\l"
+	.string "{JPN}あさ6じから あさ9じまでよ.\p"
+	.string "{JPN}あさの じかん いがいだったり\n"
+	.string "{JPN}メスの ラルトスなら\l"
+	.string "{JPN}サーナイトに しんかするの.\p"
+	.string "{JPN}この じょうほうは あなたみたいな\n"
+	.string "{JPN}しんじん トレーナーには\lやくだつと おもうわ.$"
 
 PetalburgCity_GalladeEvo_Text3:
-	.string "Oh… Okay…$"
-
+	.string "{JPN}ああ... そうですか...$"
 PetalburgCity_EventScript_MoveGymBoyToWestEntrance::
 	setobjectxyperm LOCALID_GYM_BOY, 5, 11
 	return
@@ -748,63 +747,62 @@ PetalburgCity_EventScript_GymBoy::
 	end
 
 PetalburgCity_Text_WhereIsWally:
-	.string "Where has our WALLY gone?\p"
-	.string "We have to leave for VERDANTURF TOWN\n"
-	.string "very soon…$"
-
+	.string "{JPN}うちの ミツルは\n"
+	.string "{JPN}どこに いったのかしら?\p"
+	.string "{JPN}トウカのもりの ほうに\nでかけないと いけないのに...$"
 PetalburgCity_Text_AreYouRookieTrainer:
-	.string "Hiya! Are you maybe…\n"
-	.string "A rookie TRAINER?\p"
-	.string "Do you know what POKéMON TRAINERS\n"
-	.string "do when they reach a new town?\p"
-	.string "They first check what kind of GYM\n"
-	.string "is in the town.$"
+	.string "{JPN}やあ! きみは もしかして...\n"
+	.string "{JPN}しんまい トレーナー?\p"
+	.string "{JPN}ポケモン トレーナーが\n"
+	.string "{JPN}あたらしい まちに つくと\l"
+	.string "{JPN}なにを するか しってる?\p"
+	.string "{JPN}まず その まちに どんな\nジムが あるか しらべるんだよ$"
 
 PetalburgCity_Text_ThisIsPetalburgGym:
-	.string "See? This is PETALBURG CITY's GYM.$"
+	.string "{JPN}ほら! ここが トウカシティの\nジムよ.$"
 
 PetalburgCity_Text_ThisIsGymSign:
-	.string "This is the GYM's sign. Look for it\n"
-	.string "whenever you're looking for a GYM.$"
+	.string "{JPN}これが ジムの かんばんよ.\n"
+	.string "{JPN}ジムを さがすときは これを\lめじるしに するといいわ.$"
 
 PetalburgCity_Text_WaterReflection:
-	.string "My face is reflected in the water.\p"
-	.string "It's a shining grin full of hope…\p"
-	.string "Or it could be a look of somber silence\n"
-	.string "struggling with fear…\p"
-	.string "What do you see reflected in your face?$"
+	.string "{JPN}みずに わたしの かおが\n"
+	.string "{JPN}うつってる\p"
+	.string "{JPN}きぼうで かがやく\n"
+	.string "{JPN}えがおかも しれない...\p"
+	.string "{JPN}それとも ふあんと たたかう\nしずかな ひょうじょうかも...\pきみの かおには なにが\nうつって みえる?$"
 
 PetalburgCity_Text_FullPartyExplanation:
-	.string "Let's say you have six POKéMON.\n"
-	.string "If you catch another one…\p"
-	.string "It is automatically sent to a STORAGE\n"
-	.string "BOX over a PC connection.$"
+	.string "{JPN}たとえば きみが 6ひきの\n"
+	.string "{JPN}ポケモンを もっていて\l"
+	.string "{JPN}べつの ポケモンを つかまえると...\p"
+	.string "{JPN}パソコンを とおして じどうてきに\nボックスに おくられるんだ$"
 
 PetalburgCity_Text_GymSign:
-	.string "PETALBURG CITY POKéMON GYM\n"
-	.string "LEADER: NORMAN\l"
-	.string "“A man in pursuit of power!”$"
+	.string "{JPN}トウカシティ ポケモンジム\n"
+	.string "{JPN}ジムリーダー:センリ\l"
+	.string "{JPN}ちからを もとめる おとこ!$"
 
 PetalburgCity_Text_CitySign:
-	.string "PETALBURG CITY\n"
-	.string "“Where people mingle with nature.”$"
+	.string "{JPN}トウカシティ\n"
+	.string "{JPN}ひとと しぜんが ふれあう まち$"
 
 PetalburgCity_Text_WallyHouseSign:
-	.string "WALLY'S HOUSE$"
+	.string "{JPN}ミツルの いえ$"
 
 PetalburgCity_Text_AreYouATrainer:
-	.string "Excuse me!\p"
-	.string "Let me guess, from the way you're\n"
-	.string "dressed, are you a POKéMON TRAINER?$"
+	.string "{JPN}すみません!\p"
+	.string "{JPN}その ふくそうから すいそくすると\n"
+	.string "{JPN}あなた ポケモントレーナー\lですか?$"
 
 PetalburgCity_Text_WellMaybeNot:
-	.string "… … … … … …\p"
-	.string "Well, maybe not.\n"
-	.string "Your clothes aren't all that dirty.\p"
-	.string "You're either a rookie TRAINER,\n"
-	.string "or maybe you're just an ordinary kid.$"
+	.string "{JPN}... ... ... ... ... ...\p"
+	.string "{JPN}まあ そうでも ないかな\n"
+	.string "{JPN}ふくも そんなに よごれて ないし\p"
+	.string "{JPN}きみは しんまい トレーナーか\n"
+	.string "{JPN}それとも ただの こどもかな$"
 
 PetalburgCity_Text_ImLookingForTalentedTrainers:
-	.string "I'm roaming the land in search of\n"
-	.string "talented TRAINERS.\p"
-	.string "I'm sorry to have taken your time.$"
+	.string "{JPN}わたし すぐれた トレーナーを\n"
+	.string "{JPN}さがして たびを しているんです.\p"
+	.string "{JPN}じかんを とらせて\nもうしわけありませんでした.$"

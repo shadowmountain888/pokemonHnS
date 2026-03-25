@@ -48,64 +48,28 @@ GoldenrodCity_UndergroundStorage_EventScript_Item_MaxEther::
     end
 
 RadioTowerBasement_Text_GruntM24Seen:
-    .string "How did you get this far?\p"
-    .string "I guess it can't be helped. I'll\n"
-    .string "dispose of you.$"
-
+	.string "{JPN}なんでここまできた？\pしかたない。\nかたづけてやる！$"
 RadioTowerBasement_Text_GruntM24Beaten:
-    .string "I got disposed of…$"
-
+	.string "{JPN}かたづけられちまった.$"
 RadioTowerBasement_Text_GruntM24After:
-    .string "TEAM ROCKET will keep going, waiting\n"
-    .string "for the return of GIOVANNI.\p"
-    .string "We'll do whatever it takes.$"
-
+	.string "{JPN}ロケットだんは\nサカキさまのふっかつを\nまちつづける！\pなんでもやってやるぜ！$"
 RadioTowerBasement_Text_GruntM14Seen:
-    .string "You're not going any farther!\p"
-    .string "I don't show mercy to my enemies,\n"
-    .string "not even brats!$"
-
+	.string "{JPN}これいじょういかせねえ！\pてきにはようしゃしねえぞ\nガキだろうとな！$"
 RadioTowerBasement_Text_GruntM14Beaten:
-    .string "Blast it!$"
-
+	.string "{JPN}くそったれ！$"
 RadioTowerBasement_Text_GruntM14After:
-    .string "I lost…\p"
-    .string "Please forgive me, GIOVANNI!$"
-
+	.string "{JPN}まけちまった..\pサカキさま\nゆるしてください！$"
 RadioTowerBasement_Text_GruntM15Seen:
-    .string "Hyuck-hyuck-hyuck! Look who it is!\p"
-    .string "Ready? I'm really tough now!$"
-
+	.string "{JPN}ひゃっひゃっひゃ！\nきたなきたな！\pじゅんびはいいか？\nオレはつよくなったぞ！$"
 RadioTowerBasement_Text_GruntM15Beaten:
-    .string "Hyuck-hyuck-hyuck! You're so good!\p"
-    .string "This TEAM ROCKET thing is just\n"
-    .string "a job, but I can see it hurts others.\p"
-    .string "That's it, I'm leaving.\p"
-    .string "Thank you so much. Sorry GIOVANNI!$"
-
+	.string "{JPN}ひゃっひゃっひゃ！\nつよいじゃねーか！\pロケットだんは\nただのしごとだが\nひとをきずつけてるのが\nわかったぜ。\pもうやめる！\nありがとうよ。\nサカキさまごめん！$"
 RadioTowerBasement_Text_GruntM15After:
-    .string "Hyuck-hyuck-hyuck! That was a blast!\n"
-    .string "I'll remember you!$"
-
+	.string "{JPN}ひゃっひゃっひゃ！\nたのしかったぜ！\nおまえをわすれねーよ！$"
 RadioTowerBasement_Text_DirectorIntro:
-    .string "DIRECTOR: Who? What? You came to\n"
-    .string "rescue me?\p"
-    .string "Thank you!\p"
-    .string "The RADIO TOWER!\p"
-    .string "What's happening there?\p"
-    .string "Taken over by TEAM ROCKET?\p"
-    .string "Here. Take this CARD KEY.$"
-
+	.string "{JPN}きょくちょうだれ？なに？\nたすけにきてくれたのかい？\pありがとう！\pラジオとうは\nどうなってるんだい？\pロケットだんに\nのっとられた？\pこれをもっていきなさい\nカードキーだよ。$"
 RadioTowerBasement_Text_DirectorCardKey:
-    .string "DIRECTOR: Use that to open the\n"
-    .string "shutters on 3F.$"
+    .string "{JPN}こうちょう: それを つかって\n"
+	.string "{JPN}3かいの シャッターを\lあけるのじゃ$"
 
 RadioTowerBasement_Text_DirectorAfter:
-    .string "I'm begging you to help.\p"
-    .string "There's no telling what they'll do if\n"
-    .string "they control the transmitter.\p"
-    .string "They may even be able to control\n"
-    .string "POKéMON using a special signal!\p"
-    .string "You're the only one I can call on.\p"
-    .string "Please save the RADIO TOWER…\p"
-    .string "And all the POKéMON nationwide!$"
+	.string "{JPN}たのむからたすけてくれ\pでんぱとうをのっとられたら\nなにをするかわからんぞ\pとくしゅなでんぱで\nポケモンをあやつるかも\pきみしかたのめるひとが\nいないんじゃ\pラジオとうをすくって\nくれ..\pそしてぜんこくの\nポケモンをたのむ！$"

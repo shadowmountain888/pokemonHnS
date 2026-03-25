@@ -11,9 +11,9 @@ Route117_PokemonDayCare_Incense::
 	end
 
 Route117_PokemonDayCare_Incense_Text:
-	.string "Certain POKéMON can only be obtained\n"
-	.string "if they are bred with an item called\l"
-	.string "INCENSE. There are 2 types of it.\p"
-	.string "How many POKéMON can be obtained?\n"
-	.string "Well, currently 9 different POKéMON\l"
-	.string "can be obtained using INCENSE.$"
+	.string "{JPN}とくていの ポケモンは おこうと\n"
+	.string "{JPN}よばれる どうぐを もたせて\l"
+	.string "{JPN}そだてやに あずけないと てにはいりません.\p"
+	.string "{JPN}おこうには 2しゅるいあります.\n"
+	.string "{JPN}なんびきの ポケモンが てにはいる\l"
+	.string "{JPN}でしょうか?\pげんざい 9しゅるいの ちがう\nポケモンが おこうを つかって\lてにはいります.$"

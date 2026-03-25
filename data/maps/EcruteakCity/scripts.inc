@@ -120,31 +120,30 @@ EcruteakCity_Movement_Silver2:
 	step_end
 
 EcruteakCity_Text_Silver1:
-	.string "THUD!!$"
-
+	.string "{JPN}{STR_VAR_1}どんッ！$"
 EcruteakCity_Text_Silver2:
-	.string "{RIVAL}: How...? How is this\n"
-	.string "possible? How can I lose to mere\l"
-	.string "KIMONO GIRLS...?$"
-
+	.string "{JPN}{RIVAL} なんでなんで..\n"
+	.string "{JPN}なんでオレはかてないんだ..\p"
+	.string "{JPN}あいては\n"
+	.string "{JPN}ただのまいこさんじゃないか..$"
 EcruteakCity_Text_Silver3:
-	.string "{RIVAL}: You were watching me,\n"
-	.string "{PLAYER}...\p"
-	.string "Yeah, that's right!\p"
-	.string "I never thought defeating five\n"
-	.string "KIMONO GIRLS would be so hard...\p"
-	.string "I got beaten to a pulp...\p"
+	.string "{JPN}{RIVAL} みてたのか{PLAYER}..\p"
+	.string "{JPN}そうだよオレはかてなかった\n"
+	.string "{JPN}まいこさん5にんぬきなんて\l"
+	.string "{JPN}かんたんだとおもったのに..\l"
+	.string "{JPN}コテンパンにされちまった\p"
 	.string "...\p"
-	.string "You must have come here for the\n"
-	.string "same reason, right?\p"
-	.string "Don't get cocky just because you\n"
-	.string "defeated TEAM ROCKET!\p"
-	.string "These KIMONO GIRLS are insanely\n"
-	.string "strong.\p"
-	.string "See if you can defeat them.\p"
-	.string "But I'm not going back, I don't\n"
-	.string "want to see you win.$"
-
+	.string "{JPN}どうせおまえもまいこさんに\n"
+	.string "{JPN}ちょうせんしにきたんだろ？\p"
+	.string "{JPN}ロケットだんをつぶしたからって\n"
+	.string "{JPN}あんまりちょうしにのるなよ\l"
+	.string "{JPN}ここのまいこさんたち\l"
+	.string "{JPN}ばかみてーにつよいからな\p"
+	.string "{JPN}さあいけよ\p"
+	.string "{JPN}やってみろよ\p"
+	.string "{JPN}オレはなかにはもどらない\n"
+	.string "{JPN}おまえがかつところなんて\l"
+	.string "{JPN}みたくないからな$"
 EcruteakCity_EventScript_Gramps::
 	lock
 	faceplayer
@@ -283,104 +282,57 @@ EcruteakCity_EventScript_Item_RareCandy::
 	end
 
 EcruteakCity_Text_Eevee:
-	.string "EEVEE: Veee!$"
-
+	.string "{JPN}イーブイブイー！$"
 EcruteakCity_Text_Vulpix:
-	.string "VULPIX: Vullll Pix!$"
-
-
+	.string "{JPN}ロコンロコーン！$"
 EcruteakCity_Text_UnusedMissingDaughter:
-	.string "Oh, no. Oh, no…\p"
-	.string "My daughter is missing.\p"
-	.string "No… She couldn't have gone to the\n"
-	.string "BURNED TOWER.\p"
-	.string "I told her not to go near it…\p"
-	.string "People seem to disappear there…\p"
-	.string "Oh, what should I do…?$"
-
+	.string "{JPN}あらたいへん..\pむすめがいないの..\pまさか\nやけたとうになんて..\pちかづいちゃダメっていったのに..\pひとがいなくなるうわさが..\pどうしたらいいのかしら..？$"
 EcruteakCity_Text_Gramps1:
-	.string "ECRUTEAK used to have two towers:\n"
-	.string "one each in the east and west.$"
-
+	.string "{JPN}エンジュにはにしとひがしに\n"
+	.string "{JPN}2つのとうがあったらしいが..$"
 EcruteakCity_Text_Gramps2:
-	.string "Ah, child. Have you learned to\n"
-	.string "dance like the KIMONO GIRLS?\p"
-	.string "If you go to their DANCE THEATER,\n"
-	.string "an odd old man will give you\l"
-	.string "something nice, I hear.$"
-
+	.string "{JPN}ほうぼうや\nまいこさんのようにおどれるかね？\pおどりばにいけばかわったじいさんが\nなにかいいものをくれるそうじゃ\l$"
 EcruteakCity_Text_Lass1:
-	.string "I'm going to practice at the DANCE\n"
-	.string "THEATER. Care to join me?$"
-
+	.string "{JPN}これからおどりばで\n"
+	.string "{JPN}おどりのれんしゅうするの\l"
+	.string "{JPN}よかったらあなたもどう？$"
 EcruteakCity_Text_Lass2:
-	.string "The tower that used to be here…\p"
-	.string "My grandma told me it used to be\n"
-	.string "much taller.\p"
-	.string "I hear there are ghosts in it now.$"
-
+	.string "{JPN}ここにあったとう..\pおばあちゃんがいってたけど\nもっとたかかったのよ\pいまはおばけがでるらしいわ$"
 EcruteakCity_Text_Lass2_ReleasedBeasts:
-	.string "Three big POKéMON ran off in different\n"
-	.string "directions. What were they?$"
-
+	.string "{JPN}3ひきのおおきなポケモン\n"
+	.string "{JPN}あちこちにはしりさっていったわ\l"
+	.string "{JPN}なんだったのかしら？$"
 EcruteakCity_Text_Fisher:
-	.string "I heard a rumor about OLIVINE\n"
-	.string "LIGHTHOUSE.\p"
-	.string "The POKéMON that serves as the\n"
-	.string "beacon fell ill. Sounds like they\l"
-	.string "are in trouble.$"
-
+	.string "{JPN}あさぎのとうだいで\nうわさをきいたぞ\pとうだいのあかりになってる\nポケモンがびょうきらしい\lたいへんなことになってるぞ$"
 EcruteakCity_Text_Fisher_JasmineReturned:
-	.string "The POKéMON at OLIVINE LIGHTHOUSE\n"
-	.string "has been cured.\p"
-	.string "Boats can safely sail out to sea at\n"
-	.string "night again.$"
-
+	.string "{JPN}ぐあいがわるかった\n"
+	.string "{JPN}アサギシティのポケモン\l"
+	.string "{JPN}すっかりなおったんだって！\p"
+	.string "{JPN}これでよるでもふねが\n"
+	.string "{JPN}だせるようになったってよ！$"
 EcruteakCity_Text_Youngster:
-	.string "I hear POKéMON are rampaging at the\n"
-	.string "LAKE OF RAGE. I'd like to see that.$"
-
+	.string "{JPN}いかりのみずうみで\nポケモンがあばれてるらしいぞ$"
 EcruteakCity_Text_Gramps3:
-	.string "In the distant past…\p"
-	.string "This tower burned in a fire. Three\n"
-	.string "nameless POKéMON perished in it.\p"
-	.string "A rainbow-colored POKéMON descended\n"
-	.string "from the sky and resurrected them…\p"
-	.string "It's a legend that has been passed\n"
-	.string "down by ECRUTEAK GYM LEADERS.\p"
-	.string "Me?\p"
-	.string "I was a trainer way back when.\n"
-	.string "Hohoho!$"
-
+	.string "{JPN}むかしむかし..\pこのとうはかじでやけた3びきの\nなまえしらずのポケモンがしんだ\pにじいろのポケモンがそらから\nまいおりてよみがえらせたのじゃ\pエンジュジムリーダーにつたわる\nでんせつじゃよ\pわしか？\pむかしはトレーナーじゃった\nホホホ！$"
 EcruteakCity_Text_SageGym:
-	.string "Gym Leader MORTY is not here right\n"
-	.string "now. You may find him at the\l"
-	.string "BURNED TOWER.$"
-
+	.string "{JPN}ジムリーダーのマツバは\nいまいません\lやけたとうにいるでしょう$"
 EcruteakCity_Text_Sign:
-	.string "ECRUTEAK CITY\n"
-	.string "A Historical City\p"
-	.string "Where the Past Meets the Present$"
-
+	.string "{JPN}ここはエンジュシティ\n"
+	.string "{JPN}れきしがながれるまち$"
 EcruteakCity_Text_TinTowerSign:
-	.string "TIN TOWER\p"
-	.string "A legendary POKéMON is said to\n"
-	.string "roost here.$"
-
+	.string "{JPN}スズのとう\pでんせつのポケモンが\nすんでいるといわれる$"
 EcruteakCity_Text_OfficeSign:
-	.string "Barrier Station to TIN TOWER\p"
-	.string "No Trespassing by the Unworthy.$"
-
+	.string "{JPN}スズのとうへのせきしょ\n"
+	.string "{JPN}しかくなきものとおしはせぬ$"
 EcruteakCity_Text_GymSign:
-	.string "ECRUTEAK CITY POKéMON GYM\n"
-	.string "LEADER: MORTY\p"
-	.string "The Mystic Seer of the Future$"
-
+	.string "{JPN}エンジュシティポケモンジム\n"
+	.string "{JPN}リーダーマツバ\l"
+	.string "{JPN}せんりがんをもつしゅげんじゃ$"
 EcruteakCity_Text_DanceTheaterSign:
-	.string "ECRUTEAK DANCE THEATER$"
-
+	.string "{JPN}ここはエンジュおどりば\n"
+	.string "{JPN}ただしいよびかたはかぶれんじょう$"
 EcruteakCity_Text_BurnedTowerSign:
-	.string "BURNED TOWER\p"
-	.string "It was destroyed by a mysterious\n"
-	.string "fire.\p"
-	.string "Please stay away, as it is unsafe.$"
+	.string "{JPN}このやけたとうは\n"
+	.string "{JPN}なぞのおおかじでやけました\p"
+	.string "{JPN}きけんなにおいがするので\n"
+	.string "{JPN}あまりちかよらないでください$"

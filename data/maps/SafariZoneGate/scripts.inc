@@ -63,44 +63,44 @@ SafariZoneGate_EventScript_SlowpokeLady::
 
 
 SafariZone_Text_ForeignFeeling:
-	.string "SAFARI ZONE...\n"
-	.string "It makes me feel like I am in a\l"
-	.string "foreign country.\p"
-	.string "It brings up a strange feeling.$"
+	.string "{JPN}サファリゾーン...\n"
+	.string "{JPN}がいこくに いるような\l"
+	.string "{JPN}きもちに なるよ.\p"
+	.string "{JPN}ふしぎな かんじだね.$"
 
 SafariZone_Text_SilentNPC:
-	.string "..................\p"
-	.string "(I am not a talker.)$"
+	.string "{JPN}...\p"
+	.string "{JPN}(わたしは おしゃべりじゃ\lないんです.)$"
 
 SafariZone_Text_Kangaskhan:
-	.string "KANGASKHAN: ..................$"
+	.string "{JPN}ガルーラ: ...$"
 
 SafariZone_Text_JigglypuffTrainer:
-	.string "This SAFARI ZONE is great!\n"
-	.string "I just kept going after POKéMON!\p"
-	.string "That made my JIGGLYPUFF upset though.$"
+	.string "{JPN}このサファリゾーンは\n"
+	.string "{JPN}さいこうだよ!\n"
+	.string "{JPN}ポケモンを おいかけまわしたよ!\pでも プリンが おこっちゃった.$"
 
 SafariZone_Text_FirstCatch:
-	.string "I have always wanted to catch my first\n"
-	.string "POKéMON at the SAFARI ZONE.$"
+	.string "{JPN}ずっと サファリゾーンで\n"
+	.string "{JPN}はじめての ポケモンを\lつかまえたかったんだ.$"
 
 SafariZone_Text_SlowpokeFan:
-	.string "There are many POKéMON to choose from,\n"
-	.string "but nothing beats the cuteness of\l"
-	.string "SLOWPOKE.\p"
-	.string "People often say that I look like one!$"
+	.string "{JPN}たくさん ポケモンが いるけど \n"
+	.string "{JPN}ヤドンの かわいさには\l"
+	.string "{JPN}かなわないよ.\p"
+	.string "{JPN}ひとから よく にてるって\liわれるんだ!$"
 
 SafariZone_Text_CustomSystem:
-	.string "You may be under the impression there\n"
-	.string "is a sophisticated system to\l"
-	.string "customizing the SAFARI ZONE, right?\p"
-	.string "The real truth is that...$"
+	.string "{JPN}サファリゾーンには こうどな\n"
+	.string "{JPN}カスタマイズシステムが\l"
+	.string "{JPN}あるって おもってるでしょ?\p"
+	.string "{JPN}ほんとうのことを いうと...$"
 
 SafariZone_Text_Sign:
-	.string "SAFARI ZONE\n"
-	.string "This is where everything is thrilling.\p"
-	.string "Feel free to come by and experience\n"
-	.string "the wild!$"
+	.string "{JPN}サファリゾーン\n"
+	.string "{JPN}ここでは すべてが スリルまんてん.\p"
+	.string "{JPN}ぜひ あそびに きて\n"
+	.string "{JPN}やせいを たいけんしてね!$"
 
 
 SafariZoneGate_EventScript_IncenseClerk::
@@ -167,6 +167,6 @@ SafariZoneGate_Pokemart_VitaminGuru:
 
 
 SafariZoneGate_Text_VitaminGuruSellWhatYouNeed:
-	.string "I'm the ENERGY GURU! I'll go for it and\n"
-	.string "sell you what you need!$"
+	.string "{JPN}わたしは エナジーグルだ!\n"
+	.string "{JPN}きみに ひつような ものを\luってあげよう!$"
 

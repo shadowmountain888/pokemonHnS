@@ -297,28 +297,21 @@ GoldenrodCity_TrainStation_Movement_SlideRight:
 	step_end
 
 GoldenrodMagnetTrainStation_Text_OfficerTrainHasntComeIn:
-    .string "The train hasn't come in…\p"
-    .string "I know! I'll carry the passengers\n"
-    .string "on my back!\p"
-    .string "That won't work.$"
-
+    .string "{JPN}でんしゃがこない！\p"
+	.string "{JPN}こうなりゃかわりにわたしが\n"
+	.string "{JPN}おきゃくさんをせおって..\p"
+	.string "{JPN}そりゃむりか$"
 GoldenrodMagnetTrainStation_Text_OfficerRightThisWay:
-    .string "May I see your rail PASS, please?\p"
-    .string "OK. Right this way, please.$"
-
+	.string "{JPN}テイキけんをはいけんさせて\nいただけますか？\pはい！こちらへどうぞ$"
 GoldenrodMagnetTrainStation_Text_OfficerNoRailPass:
-    .string "Sorry. You don't have a rail PASS.$"
-
+	.string "{JPN}すみません。リニアパスを\nおもちではありませんね。$"
 GoldenrodMagnetTrainStation_Text_GentlemanPresident:
-    .string "I'm the PRESIDENT.\p"
-    .string "My dream was to build a train that\n"
-    .string "is faster than any POKéMON.\p"
-    .string "It really brings JOHTO much closer\n"
-    .string "to KANTO.$"
-
+    .string "{JPN}わしがしゃちょう！\p"
+	.string "{JPN}ポケモンよりもはやいてつどう！\n"
+	.string "{JPN}それがゆめだったんだ！\p"
+	.string "{JPN}これでジョウトとカントーが\n"
+	.string "{JPN}ぐぐーんとちかくなったよ！$"
 GoldenrodCity_TrainStation_Text_Boy:
-	.string "You brought the MAGNET TRAIN PASS,\n"
-	.string "right?$"
-
+	.string "{JPN}きみリニアパス\nもってきたんだよね？$"
 GoldenrodCity_TrainStation_Text_Psychic:
-	.string "I thought you had it!$"
+	.string "{JPN}もってると\nおもってたのに！$"

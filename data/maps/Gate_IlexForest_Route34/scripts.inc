@@ -20,12 +20,12 @@ Route34IlexForestGate_EventScript_Butterfree::
 	end
 
 Route34IlexForestGate_Text_Lass:
-	.string "Did you see the shrine honoring\n"
-	.string "the protector?\p"
-	.string "It watches over the FOREST from\n"
-	.string "across time.\p"
-	.string "I think that it must be a\n"
-	.string "GRASS-type POKéMON.$"
+	.string "{JPN}まもりがみを まつった ほこらを\n"
+	.string "{JPN}みた?\p"
+	.string "{JPN}もりを じだいを こえて\n"
+	.string "{JPN}みまもって いるのよ.\p"
+	.string "{JPN}それは くさタイプの\n"
+	.string "{JPN}ポケモンだと おもうの.$"
 
 Route34IlexForestGate_Text_Butterfree:
-	.string "BUTTERFREE: Freeh!$"
+	.string "{JPN}バタフリー: フリー!$"

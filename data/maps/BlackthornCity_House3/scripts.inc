@@ -70,43 +70,30 @@ BlackthornCity_MoveDeletersHouse_EventScript_LastMonWithSurf::
 	end
 
 BlackthornCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove:
-	.string "Uh…\n"
-	.string "Oh, yes, I'm the MOVE DELETER.\p"
-	.string "I can make POKéMON forget their moves.\p"
-	.string "Would you like me to do that?$"
-
+	.string "{JPN}うーん..\nああわしはわざわすれじじいじゃ\pポケモンのわざを\nわすれさせることができる\pわすれさせてほしいのか？$"
 BlackthornCity_MoveDeletersHouse_Text_WhichMonShouldForget:
-	.string "Which POKéMON should forget a move?$"
-
+	.string "{JPN}どのポケモンにするんだ？$"
 BlackthornCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten:
-	.string "Which move should be forgotten?$"
-
+	.string "{JPN}ふむ..そして\n"
+	.string "{JPN}どのわざをわすれさせるんだ？$"
 BlackthornCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove:
-	.string "{STR_VAR_1} knows only one move\n"
-	.string "so it can't be forgotten…$"
-
+	.string "{JPN}なぬ？そのポケモンはひとつしか\n"
+	.string "{JPN}わざをおぼえとらんよ？$"
 BlackthornCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten:
-	.string "Hm! {STR_VAR_1}'s {STR_VAR_2}?\n"
-	.string "That move should be forgotten?$"
-
+	.string "{JPN}ふむ..そして\n"
+	.string "{JPN}どのわざをわすれさせるんだ？$"
 BlackthornCity_MoveDeletersHouse_Text_MonHasForgottenMove:
-	.string "It worked to perfection!\p"
-	.string "{STR_VAR_1} has forgotten\n"
-	.string "{STR_VAR_2} completely.$"
-
+	.string "{JPN}だいせいこうだ！\p"
+	.string "{JPN}きみのポケモンは\n"
+	.string "{JPN}{STR_VAR_1}をわすれおったぞ！$"
 BlackthornCity_MoveDeletersHouse_Text_ComeAgain:
-	.string "Come again if there are moves that\n"
-	.string "need to be forgotten.$"
-
+	.string "{JPN}わざをわすれさせたくなったら\n"
+	.string "{JPN}わしのことおもいだしておくれよ！$"
 BlackthornCity_MoveDeletersHouse_Text_EggCantForgetMoves:
-	.string "What?\n"
-	.string "No EGG should know any moves.$"
-
+	.string "{JPN}なぬ？それはタマゴだからな\n"
+	.string "{JPN}なにもわざをおぼえとらんよ..$"
 BlackthornCity_MoveDeletersHouse_Text_CantForgetSurf:
-	.string "Hm!\p"
-	.string "Your {STR_VAR_1} doesn't seem willing\n"
-	.string "to forget SURF.$"
-
+	.string "{JPN}ほほう！\p{STR_VAR_1}はなみのりを\nわすれたがらないようじゃな$"
 BlackthornCity_MoveRelearnersHouse_EventScript_MoveRelearner::
 	lockall
 	faceplayer
@@ -171,46 +158,25 @@ BlackthornCity_MoveRelearnersHouse_EventScript_Randomizer::
 	end
 
 BlackthornCity_MoveRelearnersHouse_Text_SorryCantHelp:
-	.string "Sorry, I can't help you.$"
-
+	.string "{JPN}ごめん..ちからになれないよ$"
 BlackthornCity_MoveRelearnersHouse_Text_ImTheMoveTutor:
-	.string "I'm the MOVE TUTOR.\p"
-	.string "I know all the moves that POKéMON\n"
-	.string "learn--every one of them--and I can\l"
-	.string "teach POKéMON those moves.\p"
-	.string "I can teach a move to a POKéMON\n"
-	.string "of yours if you'd like.\p"
-	.string "I'll do it for a HEART SCALE.\n"
-	.string "I'm collecting those now.$"
-
+	.string "{JPN}ぼくはわざおしえおやじだ\pポケモンがおぼえるわざを\nすべてしっていて\lおしえることができるんだ\pきみのポケモンにも\nわざをおしえられるよ\pハートのウロコをくれれば\nやってあげよう$"
 BlackthornCity_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
-	.string "Oh! That's it! That's an honest to\n"
-	.string "goodness HEART SCALE!\p"
-	.string "Let me guess, you want me to teach\n"
-	.string "a move?$"
-
+	.string "{JPN}ピキーン！\n"
+	.string "{JPN}それはハートのウロコ！\p"
+	.string "{JPN}わざをおもいださせていいんだね？$"
 BlackthornCity_MoveRelearnersHouse_Text_TutorWhichMon:
-	.string "Which POKéMON needs tutoring?$"
-
+	.string "{JPN}どのポケモンにするの？$"
 BlackthornCity_MoveRelearnersHouse_Text_TeachWhichMove:
-	.string "Which move should I teach?$"
-
+	.string "{JPN}どのポケモンに\n"
+	.string "{JPN}わざをおぼえさせるのじゃ？$"
 BlackthornCity_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon:
-	.string "Sorry…\p"
-	.string "It doesn't appear as if I have any move\n"
-	.string "I can teach that POKéMON.$"
-
+	.string "{JPN}ごめん..\pそのポケモンにおしえられる\nわざはないみたいだ$"
 BlackthornCity_MoveRelearnersHouse_Text_HandedOverHeartScale:
-	.string "{PLAYER} handed over one HEART SCALE\n"
-	.string "in exchange.$"
-
+	.string "{JPN}{STR_VAR_1}はおれいに\n"
+	.string "{JPN}ハートのウロコを1まいあげた！$"
 BlackthornCity_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
-	.string "If your POKéMON need to learn a move,\n"
-	.string "come back with a HEART SCALE.$"
-
+	.string "{JPN}おもいださせたいわざがあったら\n"
+	.string "{JPN}ハートのウロコもってきて！$"
 BlackthornCity_MoveRelearnersHouse_Text_CantTeachEgg:
-	.string "Hunh? There isn't a single move that\n"
-	.string "I can teach an EGG.$"
-
-
-
+	.string "{JPN}えっ？タマゴにおしえられる\nわざなんてひとつもないよ$"

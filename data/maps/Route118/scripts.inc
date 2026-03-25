@@ -247,57 +247,57 @@ Route118_EventScript_Deandre::
 	end
 
 Route118_Text_StevenQuestions:
-	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
-	.string "It's me, STEVEN!\n"
-	.string "We met in the cave near DEWFORD.\p"
-	.string "Have you met many kinds of POKéMON\n"
-	.string "since I last saw you?\p"
-	.string "There are many, many kinds of POKéMON\n"
-	.string "in this wide world of ours.\p"
-	.string "If you wanted to raise only your\n"
-	.string "favorites, that's fine.\p"
-	.string "Perhaps you find it more fun to raise\n"
-	.string "all sorts of POKéMON.\p"
-	.string "As a TRAINER of POKéMON,\n"
-	.string "what do you think?\p"
-	.string "Of course, it's not any of my business.\p"
-	.string "It would be nice if we were to meet\n"
-	.string "again somewhere.$"
+	.string "{JPN}ダイゴ: やあ {PLAYER}{KUN}!\p"
+	.string "{JPN}ぼくだよ ダイゴ!\n"
+	.string "{JPN}ムロタウンの どうくつで\l"
+	.string "{JPN}あったよね.\p"
+	.string "{JPN}ぼくと さいごに あってから\n"
+	.string "{JPN}いろんな しゅるいの ポケモンに\l"
+	.string "{JPN}であったかい?\p"
+	.string "{JPN}この ひろい せかいには\n"
+	.string "{JPN}ほんとうに たくさんの しゅるいの\l"
+	.string "{JPN}ポケモンが いるんだ.\p"
+	.string "{JPN}もし きみが すきな ポケモンだけ\n"
+	.string "{JPN}そだてたいなら それでも いいよ.\p"
+	.string "{JPN}いろんな しゅるいの ポケモンを\n"
+	.string "{JPN}そだてる ほうが たのしいかも\l"
+	.string "{JPN}しれないね.\n"
+	.string "{JPN}ポケモンの トレーナーとして\nきみは どう おもう?\pもちろん ぼくが くちだしする\nことじゃ ないけどね.\pどこかで また あえたら\nいいな.$"
 
 Route118_Text_YouAgreeGoodRodIsGood:
-	.string "Hmm!\n"
-	.string "A GOOD ROD is really good!\p"
-	.string "Wouldn't you agree?$"
+	.string "{JPN}うーむ!\n"
+	.string "{JPN}いいつりざおは ほんとうに\l"
+	.string "{JPN}いいよね!\pきみも そう おもわないかい?$"
 
 Route118_Text_IdenticalMindsTakeThis:
-	.string "Hmm!\n"
-	.string "We're of identical minds!\p"
-	.string "Hmm!\n"
-	.string "Take this GOOD ROD!$"
+	.string "{JPN}うーむ!\n"
+	.string "{JPN}ぼくたちは おなじ かんがえだね!\p"
+	.string "{JPN}うーむ!\n"
+	.string "{JPN}この いいつりざおを もっていけ!$"
 
 Route118_Text_TryYourLuckFishing:
-	.string "Wherever there's water, try your luck\n"
-	.string "at fishing.$"
+	.string "{JPN}みずが あるところなら どこでも\n"
+	.string "{JPN}つりを ためしてみなさい.$"
 
 Route118_Text_DontYouLikeToFish:
-	.string "Don't you like to fish?$"
+	.string "{JPN}つりは すきじゃ ないのかい?$"
 
 Route118_Text_TryCatchingMonWithGoodRod:
-	.string "Try catching all sorts of POKéMON\n"
-	.string "with your GOOD ROD.$"
+	.string "{JPN}いいつりざおで いろんな しゅるいの\n"
+	.string "{JPN}ポケモンを つってみなさい.$"
 
 Route118_Text_CanCrossRiversWithSurf:
-	.string "Even if there isn't a boat, you can\n"
-	.string "cross rivers and the sea if you have\l"
-	.string "a POKéMON that knows SURF.\p"
-	.string "POKéMON can be counted on to do so\n"
-	.string "much!$"
+	.string "{JPN}ふねが なくても なみのりを\n"
+	.string "{JPN}おぼえた ポケモンが いれば\l"
+	.string "{JPN}かわや うみを わたれるんだ.\p"
+	.string "{JPN}ポケモンって ほんとうに\n"
+	.string "{JPN}たよりに なるよね!$"
 
 Route118_Text_RouteSignMauville:
-	.string "ROUTE 118\n"
-	.string "{LEFT_ARROW} MAUVILLE CITY$"
+	.string "{JPN}118ばん どうろ\n"
+	.string "{JPN}{LEFT_ARROW} キンセツシティ$"
 
 Route118_Text_RouteSign119:
-	.string "ROUTE 118\n"
-	.string "{UP_ARROW} ROUTE 119$"
+	.string "{JPN}118ばん どうろ\n"
+	.string "{JPN}{UP_ARROW} 119ばん どうろ$"
 

@@ -697,130 +697,129 @@ Route110_TrickHouseEntrance_EventScript_DoHidingSpotSparkle::
 	return
 
 Route110_TrickHouseEntrance_Text_YoureBeingWatched:
-	.string "You're being watched…$"
-
+	.string "{JPN}みられて いるぞ...$"
 Route110_TrickHouseEntrance_Text_ConcealedBeneathDesk:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "beneath this desk? You're sharp!$"
+	.string "{JPN}はあ? ぐるる...\p"
+	.string "{JPN}なぜ わしが この つくえの した\n"
+	.string "{JPN}に かくれて いるのが わかったのじゃ? するどいの!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBehindTree:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "behind this tree? You're sharp!$"
+	.string "{JPN}はあ? ぐるる...\p"
+	.string "{JPN}なぜ わしが この きの うしろ\n"
+	.string "{JPN}に かくれて いるのが わかったのじゃ? するどいの!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedInDresser:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "in this dresser? You're sharp!$"
+	.string "{JPN}はあ? ぐるる...\p"
+	.string "{JPN}なぜ わしが この たんすの なか\n"
+	.string "{JPN}に かくれて いるのが わかったのじゃ? するどいの!$"
 
 Route110_TrickHouseEntrance_Text_ConealedBeyondWindow:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "beyond this window? You're sharp!$"
+	.string "{JPN}はあ? ぐるる...\p"
+	.string "{JPN}なぜ わしが この まどの むこう\n"
+	.string "{JPN}に かくれて いるのが わかったのじゃ? するどいの!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedInPlanter:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "in this planter? You're sharp!$"
+	.string "{JPN}はあ? ぐるる...\p"
+	.string "{JPN}なぜ わしが この うえきばちの なか\n"
+	.string "{JPN}に かくれて いるのが わかったのじゃ? するどいの!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedInCupboard:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "in this cupboard? You're sharp!$"
+	.string "{JPN}はあ? ぐるる...\p"
+	.string "{JPN}なぜ わしが この しょっきだなの なか\n"
+	.string "{JPN}に かくれて いるのが わかったのじゃ? するどいの!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBehindWindow:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "behind this window? You're sharp!$"
+	.string "{JPN}はあ? ぐるる...\p"
+	.string "{JPN}なぜ わしが この まどの うしろ\n"
+	.string "{JPN}に かくれて いるのが わかったのじゃ? するどいの!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBeneathCushion:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "beneath this cushion? You're sharp!$"
+	.string "{JPN}はあ? ぐるる...\p"
+	.string "{JPN}なぜ わしが この クッションの した\n"
+	.string "{JPN}に かくれて いるのが わかったのじゃ? するどいの!$"
 
 Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster:
-	.string "Behold!\p"
-	.string "For I am the greatest living mystery\n"
-	.string "of a man in all of HOENN!\l"
-	.string "They call me…\p"
-	.string "The TRICK MASTER!\n"
-	.string "Wahahaha! Glad to meet you!$"
+	.string "{JPN}みよ!\p"
+	.string "{JPN}わしこそ ホウエンちほう いちの\n"
+	.string "{JPN}なぞおおき おとこじゃ!\l"
+	.string "{JPN}ひとは わしを こう よぶ...\p"
+	.string "{JPN}からくりおやじ!\n"
+	.string "{JPN}ワハハハ! よろしくのう!$"
 
 Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse:
-	.string "You, you've come to challenge\n"
-	.string "my TRICK HOUSE, haven't you?\p"
-	.string "That's why you're here, isn't it?\n"
-	.string "Yes, it is!\p"
-	.string "Consider your challenge accepted!\p"
-	.string "Enter through the scroll there,\n"
-	.string "and let your challenge commence!\p"
-	.string "I shall be waiting in the back!$"
+	.string "{JPN}きみ わたしの トリックハウスに\n"
+	.string "{JPN}ちょうせんしに きたんだろう?\p"
+	.string "{JPN}そのために ここに きたんだ!\n"
+	.string "{JPN}そうに きまってる!\p"
+	.string "{JPN}きみの ちょうせんを\n"
+	.string "{JPN}うけてたとう!\p"
+	.string "{JPN}そこの まきものから はいって\n"
+	.string "{JPN}ちょうせんを はじめたまえ!\pおくで まっているぞ!$"
 
 Route110_TrickHouseEntrance_Text_ItsAScroll:
-	.string "It's a scroll.$"
+	.string "{JPN}まきものが ある.$"
 
 Route110_TrickHouseEntrance_Text_GoInHoleBehindScroll:
-	.string "There is a big hole behind the scroll!\p"
-	.string "Want to go in?$"
+	.string "{JPN}まきものの うしろに\n"
+	.string "{JPN}おおきな あなが ある!\pなかに はいりますか?$"
 
 Route110_TrickHouseEntrance_Text_LeavingOnJourneyNote:
-	.string "There is a note affixed to the scroll…\p"
-	.string "“I am leaving on a journey.\n"
-	.string "Don't look for me. TRICK MASTER”$"
+	.string "{JPN}まきものに はりがみが してある...\p"
+	.string "{JPN}たびに でる\n"
+	.string "{JPN}さがさなくて よい からくりおやじ$"
 
 Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick:
-	.string "For the next time, I'll use this trick,\n"
-	.string "and that scheme, and those ruses…\p"
-	.string "Mufufufu… If I may say so, it's\n"
-	.string "brilliantly difficult, even for me!$"
+	.string "{JPN}つぎは この からくりに\n"
+	.string "{JPN}あの しかけに その きぼうを...\p"
+	.string "{JPN}ムフフフ... われながら\n"
+	.string "{JPN}みごとに むずかしい しかけじゃ!$"
 
 Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges:
-	.string "Hah? What?!\n"
-	.string "Oh, it's you!\p"
-	.string "I'm in the midst of devising new tricky\n"
-	.string "challenges!\p"
-	.string "It's not too much to ask for a bit more\n"
-	.string "time for me to think, is it now?\l"
-	.string "You wouldn't begrudge me that?\l"
-	.string "Come back in a little while!$"
+	.string "{JPN}はあ? なんだ!\n"
+	.string "{JPN}ああ きみか!\p"
+	.string "{JPN}いま あたらしい トリッキーな\n"
+	.string "{JPN}ちょうせんを かんがえている!\p"
+	.string "{JPN}もうすこし かんがえる じかんを\n"
+	.string "{JPN}もらっても わるくないだろう?\l"
+	.string "{JPN}そんなに きゅうがなくても...\l"
+	.string "{JPN}もうすこし したら またきてくれ!$"
 
 Route110_TrickHouseEntrance_Text_YoureHereToAcceptReward:
-	.string "Ah, it's you! You're here to accept the\n"
-	.string "reward from before, isn't that right?\l"
-	.string "Yes, right I am!\p"
-	.string "Here!\n"
-	.string "I'll give it to you now!$"
+	.string "{JPN}ああ きみか! まえの ほうびを\n"
+	.string "{JPN}うけとりに きたんだろう?\l"
+	.string "{JPN}そうに ちがいない!\p"
+	.string "{JPN}はい!\n"
+	.string "{JPN}いま わたそう!$"
 
 Route110_TrickHouseEntrance_Text_DidYouNotComeToClaimReward:
-	.string "Hah?\n"
-	.string "Did you not come to claim your reward?$"
+	.string "{JPN}はあ?\n"
+	.string "{JPN}ほうびを もらいに きたんじゃ\nないのか?$"
 
 Route110_TrickHouseEntrance_Text_MechadollWhichTent:
-	.string "MECHADOLL 5 I AM!\n"
-	.string "IF REWARD IS NOT TAKEN BY YOU,\l"
-	.string "THEN TRICK MASTER YOU CANNOT FOLLOW.\p"
-	.string "RED TENT OR BLUE TENT,\n"
-	.string "WHICH DO YOU PREFER?$"
+	.string "{JPN}わたしは メカドール5!\n"
+	.string "{JPN}ほうびを とらなければ\l"
+	.string "{JPN}カラクリだいおうを おえない.\p"
+	.string "{JPN}あかいテント あおいテント\n"
+	.string "{JPN}どちらが おすきか?$"
 
 Route110_TrickHouseEntrance_Text_ThenFarewell:
-	.string "THEN FAREWELL.$"
+	.string "{JPN}では さらばだ.$"
 
 Route110_TrickHouseEntrance_Text_PCFullAgain:
-	.string "YOUR PC STATUS: FULL AGAIN.\n"
-	.string "MEAN, YOU ARE.$"
+	.string "{JPN}きみの パソコンは\n"
+	.string "{JPN}また いっぱいだ.\nいじわるな きみだ.$"
 
 Route110_TrickHousePuzzle_Text_FoundAScroll:
-	.string "{PLAYER} found a scroll.$"
+	.string "{JPN}{PLAYER}は まきものを\nみつけた!$"
 
 Route110_TrickHousePuzzle_Text_MemorizedSecretCode:
-	.string "{PLAYER} memorized the secret code\n"
-	.string "written on the scroll.$"
+	.string "{JPN}{PLAYER}は まきものに かかれた\n"
+	.string "{JPN}ひみつのあんごうを おぼえた!$"
 
 Route110_TrickHousePuzzle_Text_SecretCodeWrittenOnIt:
-	.string "A secret code is written on it.$"
+	.string "{JPN}ひみつの あんごうが\nかかれている.$"
 
 Route110_TrickHouseEntrance_Text_DoorLockedWriteSecretCodeHere:
-	.string "The door is locked.\p"
-	.string "…On closer inspection, this is written\n"
-	.string "on it: “Write the secret code here.”$"
+	.string "{JPN}とびらが かかって いる\p"
+	.string "{JPN}よく みると こう かいてある\n"
+	.string "{JPN}あいことばを ここに かけ$"

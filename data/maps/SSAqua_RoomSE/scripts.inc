@@ -19,34 +19,34 @@ SSAqua_RoomSE_EventScript_Peg::
 	end
 
 SSAqua_RoomSE_Text_PokefanmColinSeen:
-    .string "Hey, kid! Want to battle\n"
-    .string "with me?$"
+    .string "{JPN}おい きみ!ぼくと\n"
+	.string "{JPN}バトルしないか?$"
 
 SSAqua_RoomSE_Text_PokefanmColinBeaten:
-    .string "You're strong!$"
+    .string "{JPN}つよいなあ!$"
 
 SSAqua_RoomSE_Text_PokefanmColinAfter:
-    .string "You're traveling all alone?\n"
-    .string "Isn't your mom worried?$"
+    .string "{JPN}ひとりで たびをしてるのか?\n"
+	.string "{JPN}おかあさんは しんぱいじゃない?$"
 
 SSAqua_RoomSE_Text_TwinsMegandpeg1Seen:
-    .string "You think I'm a baby?\n"
-    .string "That's not fair!$"
+    .string "{JPN}あたしのこと あかちゃんだと\n"
+	.string "{JPN}おもってるの? ひどいわ!$"
 
 SSAqua_RoomSE_Text_TwinsMegandpeg1Beaten:
-    .string "Oh! We lost!$"
+    .string "{JPN}あー! まけちゃった!$"
 
 SSAqua_RoomSE_Text_TwinsMegandpeg1After:
-    .string "Baby is a rude name to call\n"
-    .string "us girls!$"
+    .string "{JPN}あかちゃんなんて よぶのは\n"
+	.string "{JPN}おんなのこに しつれいよ!$"
 
 SSAqua_RoomSE_Text_TwinsMegandpeg2Seen:
-    .string "I'm not a baby!\n"
-    .string "That's not nice to say to a lady!$"
+    .string "{JPN}あたし あかちゃんじゃないもん!\n"
+	.string "{JPN}おねえさんに しつれいよ!$"
 
 SSAqua_RoomSE_Text_TwinsMegandpeg2Beaten:
-    .string "Oh! We lost!$"
+    .string "{JPN}あー! まけちゃった!$"
 
 SSAqua_RoomSE_Text_TwinsMegandpeg2After:
-    .string "Sometimes, kids are smarter\n"
-    .string "than grown-ups!$"
+    .string "{JPN}ときには こどもの ほうが\n"
+	.string "{JPN}おとなより かしこいのよ!$"

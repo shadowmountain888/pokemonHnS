@@ -42,40 +42,39 @@ FortreeCity_House2_EventScript_WrongGuess::
 	end
 
 FortreeCity_House2_Text_HiddenPowersArousedByNature:
-	.string "People… POKéMON…\p"
-	.string "Their hidden powers are aroused by\n"
-	.string "living in natural environments…$"
-
+	.string "{JPN}ひとも... ポケモンも...\p"
+	.string "{JPN}しぜんかんきょうのなかで\n"
+	.string "{JPN}くらすことで かくされた\lちからが めざめるのじゃ...$"
 FortreeCity_House2_Text_CoinInWhichHand:
-	.string "Let this old woman see if your hidden\n"
-	.string "power has awoken…\p"
-	.string "I hold a coin in my hand.\p"
-	.string "Now, tell me, have I palmed it in\n"
-	.string "the right hand? Or in the left?$"
+	.string "{JPN}このばあさんが おぬしの\n"
+	.string "{JPN}かくされたちからが めざめて\l"
+	.string "{JPN}いるか みてやろう...\p"
+	.string "{JPN}てのひらに コインを\n"
+	.string "{JPN}もっておる\pさあ こたえよ みぎてに\nあるかな? ひだりてかな?$"
 
 FortreeCity_House2_Text_CorrectTryAgainWhichHand:
-	.string "Oh! Yes, correct!\p"
-	.string "We shall try again.\p"
-	.string "In which hand have I palmed the coin?\n"
-	.string "The right or left?$"
+	.string "{JPN}おお!そうです せいかい!\p"
+	.string "{JPN}もういちど やってみましょう.\p"
+	.string "{JPN}どちらの てに コインを\n"
+	.string "{JPN}かくしているでしょうか?\nみぎか ひだりか?$"
 
 FortreeCity_House2_Text_CorrectTryAgainWhichHand2:
-	.string "Oh! Yes, correct!\p"
-	.string "We shall try again.\p"
-	.string "In which hand have I palmed the coin?\n"
-	.string "The right or left?$"
+	.string "{JPN}おお!そうです せいかい!\p"
+	.string "{JPN}もういちど やってみましょう.\p"
+	.string "{JPN}どちらの てに コインを\n"
+	.string "{JPN}かくしているでしょうか?\nみぎか ひだりか?$"
 
 FortreeCity_House2_Text_YourHiddenPowerHasAwoken:
-	.string "Oh! Splendid!\n"
-	.string "Your hidden power has awoken!\p"
-	.string "Here, take this and awaken the hidden\n"
-	.string "power of your POKéMON.$"
+	.string "{JPN}おお!すばらしい!\n"
+	.string "{JPN}あなたの かくされた ちからが\n"
+	.string "{JPN}めざめましたね!\p"
+	.string "{JPN}さあ これを うけとって\nあなたの ポケモンの かくされた\nちからを めざめさせて ください.$"
 
 FortreeCity_House2_Text_ExplainHiddenPower:
-	.string "HIDDEN POWER is a move that changes\n"
-	.string "with the POKéMON.$"
+	.string "{JPN}めざめるパワーは ポケモンに\n"
+	.string "{JPN}よって かわる わざなのです.$"
 
 FortreeCity_House2_Text_YouGuessedWrong:
-	.string "No, too bad.\n"
-	.string "You guessed wrong.$"
+	.string "{JPN}いいえ ざんねん.\n"
+	.string "{JPN}はずれです.$"
 

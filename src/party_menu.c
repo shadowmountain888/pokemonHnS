@@ -6719,7 +6719,7 @@ void ItemUseCB_PokeBall(u8 taskId, TaskFunc task)
     struct Pokemon *mon = &gPlayerParty[gPartyMenu.slotId];
     u16 currBall = GetMonData(mon, MON_DATA_POKEBALL);
     u16 newBall = gSpecialVar_ItemId;
-    static const u8 sText_MonBallWasChanged[] = _("{STR_VAR_1} was put in the {STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+    static const u8 sText_MonBallWasChanged[] = _("{JPN}{STR_VAR_1}は{STR_VAR_2}にいれられました.{PAUSE_UNTIL_PRESS}");
 
     if (currBall == newBall)
     {
@@ -6751,8 +6751,8 @@ void ItemUseCB_PokeBall(u8 taskId, TaskFunc task)
 #define tOldFunc        4
 #define tNewNature      data[6]
 
-static const u8 sText_AskMint[] = _("Would you like to change {STR_VAR_1}'s\nnature to {STR_VAR_2}?");
-static const u8 sText_MintDone[] = _("{STR_VAR_1}'s nature became\n{STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
+static const u8 sText_AskMint[] = _("{JPN}{STR_VAR_1}のせいかくを\n{STR_VAR_2}にかえますか?");
+static const u8 sText_MintDone[] = _("{JPN}{STR_VAR_1}のせいかくが\n{STR_VAR_2}になった!{PAUSE_UNTIL_PRESS}");
 static void Task_Mints(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;

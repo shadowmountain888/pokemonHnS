@@ -37,15 +37,15 @@ MtMortar_2F_EventScript_Nerd::
 	end
 
 MtMortar_2F_Text_SupernerdHughSeen::
-	.string "Yo! MARKUS!$"
+	.string "{JPN}よう! マーカス!$"
 
 MtMortar_2F_Text_SupernerdHughBeaten:
-	.string "Sorry, my mistake.\n"
-	.string "I misjudged you.$"
+	.string "{JPN}ごめん  かんちがいだった.\n"
+	.string "{JPN}きみを みまちがえたよ.$"
 
 MtMortar_2F_Text_SupernerdHughAfter:
-	.string "I'm investigating MT.MORTAR,\n"
-	.string "but my pal's gone AWOL.\p"
-	.string "Have you seen a trainer who\n"
-	.string "has a SLOWPOKE that can use\l"
-	.string "STRENGTH?$"
+	.string "{JPN}シロガネやまを ちょうさして\n"
+	.string "{JPN}いるんだけど  ともだちが\l"
+	.string "{JPN}いなくなっちゃったんだ.\p"
+	.string "{JPN}かいりきを つかえる\n"
+	.string "{JPN}ヤドンを もった\lトレーナーを みなかった?$"

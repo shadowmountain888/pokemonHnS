@@ -699,137 +699,134 @@ IlexForest_Movement_Kurt2:
 	step_end
 
 IlexForest_Text_ApprenticeIntro:
-	.string "Oh, man… My boss is going to be\n"
-	.string "steaming…\p"
-	.string "The FARFETCH'D that CUTS trees\n"
-	.string "for charcoal took off on me.\p"
-	.string "I can't go looking for it here\n"
-	.string "in the ILEX FOREST.\p"
-	.string "It's too big, dark and scary\n"
-	.string "for me…$"
-
+	.string "{JPN}ああ やばい... しょくばの\n"
+	.string "{JPN}ひとに おこられちゃう...\p"
+	.string "{JPN}たんを つくるために きを\n"
+	.string "{JPN}きってくれる カモネギが\l"
+	.string "{JPN}にげちゃったんだ.\p"
+	.string "{JPN}ウバメのもりは ひろくて\n"
+	.string "{JPN}くらくて こわいから\l"
+	.string "{JPN}ぼくには さがせないよ...$"
 IlexForest_Text_ApprenticeAfter:
-	.string "Wow! Thanks a whole bunch!\p"
-	.string "My boss' POKéMON won't obey me\n"
-	.string "because I don't have a BADGE.$"
+	.string "{JPN}わあ! どうもありがとう!\p"
+	.string "{JPN}ボスのポケモンが いうことを\n"
+	.string "{JPN}きかないんだ バッジがないから$"
 
 IlexForest_Text_ItsTheMissingPokemon:
-	.string "It's the missing POKéMON!$"
+	.string "{JPN}いなくなったポケモンだ!$"
 
 IlexForest_Text_Kwaaaa:
-	.string "FARFETCH'D: Kwaa!$"
+	.string "{JPN}カモネギ:カモー!$"
 
 IlexForest_Text_CharcoalMasterIntro:
-	.string "Ah! My FARFETCH'D!\p"
-	.string "You found it for us, kid?\p"
-	.string "Without it, we wouldn't be able\n"
-	.string "to CUT trees for charcoal.\p"
-	.string "Thanks, kid!\p"
-	.string "Now, how can I thank you…\p"
-	.string "I know! Here, take this.$"
+	.string "{JPN}ああ! わしの カモネギ!\p"
+	.string "{JPN}きみが みつけて くれたのか?\p"
+	.string "{JPN}こいつが いないと きを\n"
+	.string "{JPN}きって たんを つくれないんじゃ.\p"
+	.string "{JPN}ありがとう ぼうず!\p"
+	.string "{JPN}それで なにか おれいを...\p"
+	.string "{JPN}そうじゃ! これを もっていけ.$"
 
 IlexForest_Text_CharcoalMasterOutro:
-	.string "That's the CUT HM.\n"
-	.string "Teach that to a POKéMON to clear\l"
-	.string "small trees.\p"
-	.string "Of course, you have to have the\n"
-	.string "GYM BADGE from AZALEA to use it.$"
+	.string "{JPN}それは いあいぎりの ひでんマシン\n"
+	.string "{JPN}だよ ポケモンにおぼえさせれば\l"
+	.string "{JPN}ちいさなきを きることができる\p"
+	.string "{JPN}もちろん ヒワダタウンの\n"
+	.string "{JPN}ジムバッジが ないと つかえないがな$"
 
 IlexForest_Text_CharcoalMasterTalkAfter:
-	.string "Do you want to apprentice as a\n"
-	.string "charcoal maker with me?\p"
-	.string "You'll be first-rate in ten years!$"
+	.string "{JPN}わしと いっしょに すみやきづくりの\n"
+	.string "{JPN}でしになってみないか?\p"
+	.string "{JPN}10ねんで いちにんまえになれるぞ!$"
 
 MoveTutor_Text_HeadbuttTeach:
-	.string "What am I doing?\p"
-	.string "I'm shaking trees using HEADBUTT.\p"
-	.string "Do you think your POKéMON will\n"
-	.string "want to HEADBUTT, too?\p"
-	.string "I can teach one the move HEADBUTT\n"
-	.string "if you'd like. It's fun!$"
+	.string "{JPN}なにを してるかって?\p"
+	.string "{JPN}ずつきで きを ゆらしてるんだ\p"
+	.string "{JPN}きみのポケモンも ずつきを\n"
+	.string "{JPN}してみたいと おもわないか?\p"
+	.string "{JPN}もしよかったら ずつきという\n"
+	.string "{JPN}わざを おしえてやろうか たのしいぞ!$"
 	
 MoveTutor_Text_HeadbuttWhichMon:
-	.string "Ehehe, sure thing! It'd be great if\n"
-	.string "the POKéMON looked like me.$"
+	.string "{JPN}えへへ もちろんだとも! おれに\n"
+	.string "{JPN}にてるポケモンだと いいなあ$"
 
 MoveTutor_Text_HeadbuttDeclined:
-	.string "You don't need to be shy about it.\n"
-	.string "Let's butt heads!$"
+	.string "{JPN}はずかしがることないよ\n"
+	.string "{JPN}がつんと あたまをぶつけあおう!$"
 
 MoveTutor_Text_HeadbuttTaught:
-	.string "Rattle trees with HEADBUTT.\n"
-	.string "Sometimes, sleeping POKéMON fall out.$"
+	.string "{JPN}ずつきで きを ゆらすんだ\n"
+	.string "{JPN}ときどき ねてるポケモンが おちてくるよ$"
 
 IlexForest_Text_Lass:
-	.string "Did something happen to the\n"
-	.string "forest's guardian?$"
+	.string "{JPN}もりの しゅごしんに なにか\n"
+	.string "{JPN}おこったのかしら?$"
 
 IlexForest_Text_Signpost:
-	.string "ILEX FOREST is so overgrown with\n"
-	.string "trees that you can't see the sky.\p"
-	.string "Please watch out for items that may\n"
-	.string "have been dropped.$"
+	.string "{JPN}ウバメのもりは きが しげって\n"
+	.string "{JPN}そらが みえません\p"
+	.string "{JPN}おちものに きをつけて\n"
+	.string "{JPN}あるいてください$"
 
 IlexForest_Text_Shrine:
-	.string "ILEX FOREST SHRINE…\p"
-	.string "It's in honor of the forest's\n"
-	.string "protector…$"
-
+	.string "{JPN}ウバメのもりの ほこら...\p"
+	.string "{JPN}もりの まもりがみを\n"
+	.string "{JPN}まつっている...$"
 IlexForest_Text_ShrineCelebiEvent:
-	.string "ILEX FOREST SHRINE…\p"
-	.string "It's in honor of the forest's\n"
-	.string "protector…\p"
-	.string "Oh? What is this?\p"
-	.string "It's a hole.\n"
-	.string "It looks like the GS BALL would fit\l"
-	.string "inside it.\p"
-	.string "Want to put the GS BALL here?$"
+	.string "{JPN}ウバメのもりの ほこら...\p"
+	.string "{JPN}もりの まもりがみを\n"
+	.string "{JPN}まつっている...\p"
+	.string "{JPN}ん? なにか あるな?\p"
+	.string "{JPN}あなが あいている.\n"
+	.string "{JPN}GSボールが ぴったり\l"
+	.string "{JPN}はまりそうだ.\p"
+	.string "{JPN}GSボールを ここに おく?$"
 
 IlexForest_Text_InsertGSBall:
-	.string "{PLAYER} put in the GS BALL.$"
+	.string "{JPN}{PLAYER}は GSボールを いれた$"
 
 IlexForest_Text_KurtCaughtCelebi:
-	.string "Whew, wasn't that something!\p"
-	.string "{PLAYER}, that was fantastic. Thanks!\p"
-	.string "The legends about that SHRINE were\n"
-	.string "real after all.\p"
-	.string "I feel inspired by what I just saw.\p"
-	.string "It motivates me to make better BALLS!\p"
-	.string "I'm going!$"
+	.string "{JPN}ふう すごいことが あったもんじゃ!\p"
+	.string "{JPN}{PLAYER} きみは すばらしかった\n"
+	.string "{JPN}ありがとう!\p"
+	.string "{JPN}あの ほこらの でんせつは\n"
+	.string "{JPN}ほんとうだったんじゃな\p"
+	.string "{JPN}いま みたものに かんどうして\n"
+	.string "{JPN}やるきが でてきたわい\pもっと いい ボールを つくるぞ!\nそれじゃあ!$"
 
 IlexForest_Text_BugCatcherWayneSeen:
-	.string "Don't sneak up on me like that!\p"
-	.string "You frightened a POKéMON away!$"
+	.string "{JPN}そんなふうに おどかさないでよ!\p"
+	.string "{JPN}ポケモンが にげちゃったじゃないか!$"
 
 IlexForest_Text_BugCatcherWayneBeaten:
-	.string "I hadn't seen that POKéMON before…$"
-
+	.string "{JPN}そんな ポケモン\nはじめて みたよ...$"
 IlexForest_Text_BugCatcherWayneAfter:
-	.string "A POKéMON I've never seen before\n"
-	.string "fell out of the tree when I used\l"
-	.string "HEADBUTT.\p"
-	.string "I ought to use HEADBUTT in other\n"
-	.string "places too.$"
+	.string "{JPN}ずつきを つかったら みたことない\n"
+	.string "{JPN}ポケモンが きから おちてきたんだ\l"
+	.string "{JPN}ほかの ばしょでも ずつきを\n"
+	.string "{JPN}つかってみようかな$"
+	.string ""
 
 IlexForest_Text_Kimono_Girl1:
-	.string "KIMONO GIRL, KIMONO GIRL, lost and\n"
-	.string "all alone. Poor girl lost in the\l"
-	.string "dark ILEX FOREST.$"
+	.string "{JPN}まいこはん まいこはん ひとりぼっち\n"
+	.string "{JPN}くらい ウバメのもりで\l"
+	.string "{JPN}まよってしまって かわいそう$"
 
 IlexForest_Text_Kimono_Girl2:
-	.string "You remember me from VIOLET CITY?\n"
-	.string "You must be imagining.\p"
-	.string "Anyway, will you show me how to\n"
-	.string "get out of this forest?$"
+	.string "{JPN}キキョウシティで あったこと\n"
+	.string "{JPN}おぼえてるの? きのせいよ\p"
+	.string "{JPN}それより この もりから でる\n"
+	.string "{JPN}みちを おしえてくれる?$"
 
 IlexForest_Text_Kimono_Girl3:
-	.string "Me oh my... You are lost yourself,\n"
-	.string "aren't you?$"
+	.string "{JPN}あらあら... あなたも まよって\n"
+	.string "{JPN}るんじゃないの?$"
 
 IlexForest_Text_Kimono_Girl4:
-	.string "Wow! Are you going to show me how\n"
-	.string "to get out?\p"
-	.string "You are such a smart POKéMON!$"
+	.string "{JPN}わあ! でるみちを おしえて\n"
+	.string "{JPN}くれるの?\p"
+	.string "{JPN}あなたって とても かしこい\nポケモンなのね!$"
 
 IlexForest_Text_Kimono_Girl5:
-	.string "See you.$"
+	.string "{JPN}それじゃあね$"

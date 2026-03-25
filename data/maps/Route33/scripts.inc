@@ -21,27 +21,28 @@ Route33_EventScript_Lass::
 	end
 
 Route33_Text_HikerAnthony2Seen:
-	.string "I came through the tunnel,\n"
-	.string "but I still have plenty\l"
-	.string "of energy left.$"
+	.string "{JPN}トンネルを ぬけてきたが\n"
+	.string "{JPN}まだまだ げんきが\l"
+	.string "{JPN}あまってるぜ!$"
 
 Route33_Text_HikerAnthony2Beaten:
-	.string "Whoa! You've got more zip\n"
-	.string "than me!$"
+	.string "{JPN}うわあ! きみのほうが\n"
+	.string "{JPN}げんきだなあ!$"
 
 Route33_Text_HikerAnthony2After:
-	.string "We HIKERS are at our best\n"
-	.string "in the mountains.$"
+	.string "{JPN}おれたち やまおとこは\n"
+	.string "{JPN}やまが いちばんだ!$"
 
 Route33_Text_HikerAnthonyDunsparce:
-	.string "Hey, did you get a DUNSPARCE?\p"
-	.string "I caught one too.\p"
-	.string "Take a look at it in the light.\n"
-	.string "It's got a funny face!$"
+	.string "{JPN}おい ノコッチは\n"
+	.string "{JPN}つかまえたかい?\p"
+	.string "{JPN}おれも つかまえたんだ\p"
+	.string "{JPN}あかりで てらして\nみてみろよ\lへんな かおしてるぞ!$"
 
 Route33_Text_Lass:
-	.string "Pant, pant…\p"
-	.string "That cave was bigger than\n"
-	.string "I'd expected.\p"
-	.string "I got too tired exploring\n"
-	.string "for MARILL, so I came outside.$"
+	.string "{JPN}はあはあ..\n"
+	.string "{JPN}やっとどうくつをぬけたわ\p"
+	.string "{JPN}おもったよりなかが\n"
+	.string "{JPN}ずっとひろいんだもの\l"
+	.string "{JPN}ぜんぶみてまわれないうちに\l"
+	.string "{JPN}つかれてでてきちゃった$"

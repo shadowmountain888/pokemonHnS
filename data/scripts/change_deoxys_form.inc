@@ -98,39 +98,41 @@ ChangeDeoxysForm_End_Nothing_Happened::
 	end
 
 ChangeDeoxysForm_Text_NormalForm:
-	.string "Looks like a NORMAL meteorite.\n"
-	.string "It has a rough, dry surface.$"
+	.string "{JPN}ふつうの いんせきの ようだ\n"
+	.string "{JPN}ざらざらした かわいた ひょうめんだ$"
 
 ChangeDeoxysForm_Text_DefenseForm:
-	.string "Looks like a STURDY meteorite.\n"
-	.string "Seems unbreakeable, like a diamond.$"
+	.string "{JPN}がんじょうな いんせきの ようだ\n"
+	.string "{JPN}ダイヤのように かたそうだ$"
 
 ChangeDeoxysForm_Text_AttackForm:
-	.string "Looks like a POWERFUL meteorite.\n"
-	.string "It's hot to the touch.$"
+	.string "{JPN}パワフルな いんせきの ようだ\n"
+	.string "{JPN}さわると あつい$"
 
 ChangeDeoxysForm_Text_SpeedForm:
-	.string "Looks like a LIGHTWEIGHT meteorite.\n"
-	.string "I can lift it very easily!$"
+	.string "{JPN}かるい いんせきの ようだ\n"
+	.string "{JPN}かんたんに もちあげられる!$"
 
 ChangeDeoxysForm_Text_Beginning:
-	.string "One of my POKéMON reacted to the it!$"
+	.string "{JPN}てもちの ポケモンが\n"
+	.string "{JPN}はんのうした!$"
 
 ChangeDeoxysForm_Text_End:
-	.string "I should get going.$"
+	.string "{JPN}そろそろ いこう$"
 
 ChangeDeoxysForm_Text_End_Wrong_Pokemon:
-	.string "My POKéMON enjoyed touching the\n"
-	.string "meteorite more than I expected!\p"
-	.string "But nothing happened…\n"
-	.string "I should get going.$"
+	.string "{JPN}ポケモンは おもったより\n"
+	.string "{JPN}いんせきに さわるのを\l"
+	.string "{JPN}たのしんでいた!\p"
+	.string "{JPN}でも なにも おこらなかった...\n"
+	.string "{JPN}そろそろ いこう$"
 
 ChangeDeoxysForm_Text_Select:
-	.string "Should I let any of my POKéMON\n"
-	.string "touch this meteorite?$"
+	.string "{JPN}てもちの ポケモンに\n"
+	.string "{JPN}いんせきを さわらせる?$"
 
 ChangeDeoxysForm_Text_Success:
-	.string "Something has happened to DEOXYS!$"
+	.string "{JPN}デオキシスに なにかが おきた!$"
 
 ChangeDeoxysForm_Movement:
 	emote_question_mark

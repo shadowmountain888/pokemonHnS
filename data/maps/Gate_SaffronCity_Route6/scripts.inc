@@ -12,15 +12,15 @@ Gate_SaffronCity_Route6_EventScript_Guard2::
 	end
 
 Route6_Text_SaffronGuardWelcome:
-	.string "Welcome to SAFFRON CITY, home of\n"
-	.string "the MAGNET TRAIN!\p"
-	.string "…That's what I'd normally say,\n"
-	.string "but the MAGNET TRAIN isn't\l"
-	.string "running now.\p"
-	.string "It's not getting any electricity\n"
-	.string "because there's something wrong\l"
-	.string "with the POWER PLANT.$"
+	.string "{JPN}ヤマブキシティへ ようこそ!\n"
+	.string "{JPN}リニアモーターカーの まちです!\p"
+	.string "{JPN}...っていつもなら いうんだが\n"
+	.string "{JPN}リニアモーターカーは\l"
+	.string "{JPN}いま うごいてないんだ.\p"
+	.string "{JPN}はつでんしょに なにか\n"
+	.string "{JPN}もんだいが あって\l"
+	.string "{JPN}でんきが きてないからね.$"
 
 Route6_Text_SaffronGuardMagnetTrain:
-	.string "The MAGNET TRAIN is the most\n"
-	.string "famous thing about SAFFRON.$"
+	.string "{JPN}リニアモーターカーは\n"
+	.string "{JPN}ヤマブキシティの\lいちばん ゆうめいな\lものだよ.$"

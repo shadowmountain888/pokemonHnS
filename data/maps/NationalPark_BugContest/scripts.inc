@@ -171,62 +171,62 @@ NationalPark_BugContest_Movement_AttendantSide:
 	step_end
 
 NationalPark_BugContest_Text_Trash:
-	.string "Nothing here.$"
+	.string "{JPN}なにもない$"
 
 NationlParkBugContest_Text_EnjoyTheContest:
-	.string "ATTENDANT: Enjoy the Contest!$"
+	.string "{JPN}うけつけ: コンテストを\nたのしんでね!$"
 
 NationalParkBugContest_Text_Attendant:
-	.string "ATTENDANT: Would you like to end\n"
-	.string "the contest?$"
+	.string "{JPN}うけつけ: コンテストを\n"
+	.string "{JPN}しゅうりょうしますか?$"
 
 NationalParkBugContest_Text_ContestantBelinda:
-	.string "BELINDA: I'm going to win!\n"
-	.string "Don't bother me.$"
+	.string "{JPN}ベリンダ: わたしが かつのよ!\n"
+	.string "{JPN}じゃまを しないで$"
 
 NationalParkBugContest_Text_Contestant2A:
-	.string "ED: My PARASECT puts POKéMON to\n"
-	.string "sleep with SPORE.$"
+	.string "{JPN}エド: おれの パラセクトは\n"
+	.string "{JPN}ほうしで ポケモンを\lねむらせるんだ$"
 
 NationalParkBugContest_Text_ContestantShaun:
-	.string "SHAUN: I'm not concerned about\n"
-	.string "winning.\p"
-	.string "I'm just looking for rare POKéMON.$"
+	.string "{JPN}ショーン: かつことなんて\n"
+	.string "{JPN}べつに きにしてないよ\p"
+	.string "{JPN}めずらしい ポケモンを\nさがしてるだけだからね$"
 
 NationalParkBugContest_Text_Contestant6A:
-	.string "BARRY: You should weaken bug\n"
-	.string "POKéMON first,\p"
-	.string "then throw a BALL.$"
+	.string "{JPN}バリー: むしポケモンは\n"
+	.string "{JPN}まず よわらせてから\p"
+	.string "{JPN}ボールを なげると いいよ$"
 
 NationalParkBugContest_Text_Contestant7A:
-	.string "CINDY: I love bug POKéMON.\p"
-	.string "I guess you must like them too.$"
+	.string "{JPN}シンディ: むしポケモンって\n"
+	.string "{JPN}だいすき!\pあなたも すきなのね$"
 
 NationalParkBugContest_Text_Contestant8A:
-	.string "JOSH: I've been collecting bug\n"
-	.string "POKéMON since I was just a baby.\p"
-	.string "There's no way I'm going to lose!$"
+	.string "{JPN}ジョシュ: あかちゃんの ころから\n"
+	.string "{JPN}むしポケモンを\l"
+	.string "{JPN}あつめてるんだ\pまけるわけないよ!$"
 
 NationalParkBugContest_Text_Contestant9A:
-	.string "SAMUEL: If you've got the time to\n"
-	.string "chat, go find some bug POKéMON.$"
+	.string "{JPN}サミュエル: おしゃべりしてる\n"
+	.string "{JPN}じかんが あるなら\lむしポケモンを さがしなよ$"
 
 NationalParkBugContest_Text_Contestant10A:
-	.string "KIPP: I've studied about bug\n"
-	.string "POKéMON a lot.\p"
-	.string "I'm going to win for sure.$"
+	.string "{JPN}キップ: むしポケモンについて\n"
+	.string "{JPN}たくさん べんきょうしたんだ\p"
+	.string "{JPN}ぜったいに かつぞ!$"
 
 NationalParkBugContest_Text_Sign_RelaxationSquare:
-	.string "RELAXATION SQUARE\n"
-	.string "NATIONAL PARK$"
+	.string "{JPN}やすらぎスクエア\n"
+	.string "{JPN}しぜんこうえん$"
 
 NationalParkBugContest_Text_Sign_BattleNotice:
-	.string "What is this notice?\p"
-	.string "Please battle only in the grass.\p"
-	.string "NATIONAL PARK WARDEN'S OFFICE$"
+	.string "{JPN}この おしらせは?\p"
+	.string "{JPN}くさむらでのみ\n"
+	.string "{JPN}バトルしてください\pしぜんこうえん かんりにん$"
 
 NationalParkBugContest_Text_TrainerTips:
-	.string "The NATIONAL PARK has different\n"
-	.string "POKéMON during the BUG-CATCHING\l"
-	.string "CONTEST.$"
+	.string "{JPN}しぜんこうえんでは\n"
+	.string "{JPN}むしとりたいかいの ときに\l"
+	.string "{JPN}ちがう ポケモンが でるよ$"
 

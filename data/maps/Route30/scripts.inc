@@ -107,108 +107,101 @@ Route30_EventScript_Mailbox::
 	end
 
 Route30_Text_Mailbox:
-	.string "MR.POKéMON's House$"
-
+	.string "{JPN}ポケモンじいさんのいえ$"
 Route30_Text_UseTackle:
-	.string "Go, RATTATA!\p"
-	.string "TACKLE!$"
-
+	.string "{JPN}いけっコラッタ！\p"
+	.string "{JPN}たいあたりっ！！$"
 Route30_Text_ThisIsABigBattle:
-	.string "What? This is a big battle!\n"
-	.string "Leave me alone!$"
-
+	.string "{JPN}なんだよ？\n"
+	.string "{JPN}だいじなしょうぶなんだ！\l"
+	.string "{JPN}むこうにいっててよ！$"
 Route30_Text_YoungsterJoey1Seen:
-	.string "I just lost, so I'm trying to\n"
-	.string "find more POKéMON.\p"
-	.string "Wait! You look weak! Come on,\n"
-	.string "let's battle!$"
+	.string "{JPN}いま まけちゃったから\n"
+	.string "{JPN}もっと ポケモンを\l"
+	.string "{JPN}さがしてるんだ.\p"
+	.string "{JPN}まて! きみ よわそうだな!\nさあ しょうぶだ!$"
 
 Route30_Text_YoungsterJoey1Beaten:
-	.string "Ack! I lost again!\n"
-	.string "Doggone it!$"
+	.string "{JPN}あー! また まけちゃった!\n"
+	.string "{JPN}ちくしょう!$"
 
 Route30_Text_YoungsterJoey1After:
-	.string "Do I have to have more POKéMON\n"
-	.string "in order to battle better?\p"
-	.string "No! I'm sticking with this one\n"
-	.string "no matter what!$"
+	.string "{JPN}もっと ポケモンが いないと\n"
+	.string "{JPN}つよく なれないのかな?\p"
+	.string "{JPN}いや! この こだけで\n"
+	.string "{JPN}がんばるんだ!$"
 
 Route30_Text_YoungsterMikeySeen:
-	.string "You're a POKéMON trainer,\n"
-	.string "right?\p"
-	.string "Then you have to battle!$"
+	.string "{JPN}きみ ポケモントレーナー\n"
+	.string "{JPN}でしょ?\p"
+	.string "{JPN}なら しょうぶしなくちゃ!$"
 
 Route30_Text_YoungsterMikeyBeaten:
-	.string "That's strange.\n"
-	.string "I won before.$"
+	.string "{JPN}おかしいなあ.\n"
+	.string "{JPN}まえは かったのに.$"
 
 Route30_Text_YoungsterMikeyAfter:
-	.string "Becoming a good trainer is\n"
-	.string "really tough.\p"
-	.string "I'm going to battle other\n"
-	.string "people to get better.$"
+	.string "{JPN}いい トレーナーになるのは\n"
+	.string "{JPN}ほんとに たいへんだ.\p"
+	.string "{JPN}ほかの ひととも しょうぶして\n"
+	.string "{JPN}つよく なるんだ.$"
 
 Route30_Text_BugCatcherDonSeen:
-	.string "Instead of a bug POKéMON,\n"
-	.string "I found a trainer!$"
+	.string "{JPN}むしポケモンの かわりに\n"
+	.string "{JPN}トレーナーを みつけたぞ!$"
 
 Route30_Text_BugCatcherDonBeaten:
-	.string "Argh! You're too strong!$"
+	.string "{JPN}うーん! つよすぎるよ!$"
 
 Route30_Text_BugCatcherDonAfter:
-	.string "I ran out of POKé BALLS while\n"
-	.string "I was catching POKéMON.\p"
-	.string "I should've bought some more…$"
-
+	.string "{JPN}ポケモンを つかまえてる\n"
+	.string "{JPN}あいだに モンスターボールが\l"
+	.string "{JPN}なくなっちゃったよ.\pもっと かっておくべき\nだったなあ...$"
 Route30_Text_YoungsterDirectionsToMrPokemon:
-	.string "MR. POKéMON's house?\n"
-	.string "It's a bit farther ahead.$"
+	.string "{JPN}ポケモンじいさんの いえ?\n"
+	.string "{JPN}もう ちょっと さきだよ.$"
 
 Route30_Text_YoungsterEveryoneIsBattling:
-	.string "Everyone's having fun\n"
-	.string "battling!\p"
-	.string "You should too!$"
+	.string "{JPN}みんな しょうぶを たのしんで\n"
+	.string "{JPN}るよ!\p"
+	.string "{JPN}きみも やってみなよ!$"
 
 Route30_Text_CooltrainerF:
-	.string "I'm not a trainer.\p"
-	.string "But if you look one in the\n"
-	.string "eyes, prepare to battle.$"
-
+	.string "{JPN}わたしトレーナーじゃないわよ\p"
+	.string "{JPN}でもトレーナーどうし\n"
+	.string "{JPN}しせんがあうのは\l"
+	.string "{JPN}しょうぶしようってサインなのよね$"
 Route30_Text_Sign:
-	.string "ROUTE 30\p"
-	.string "VIOLET CITY - CHERRYGROVE CITY$"
-
+	.string "{JPN}ここは30ばんどうろ\n"
+	.string "{JPN}みなみヨシノシティ$"
 Route30_Text_MrPokemonsHouseDirectionsSign:
-	.string "MR. POKéMON'S HOUSE\n"
-	.string "STRAIGHT AHEAD!$"
-
+	.string "{JPN}ここをまっすぐ！\n"
+	.string "{JPN}ポケモンじいさんのいえ$"
 Route30_Text_MrPokemonsHouseSign:
-	.string "MR. POKéMON'S HOUSE$"
-
+	.string "{JPN}ポケモンじいさんのいえ$"
 Route30_Text_TrainerTips:
-	.string "TRAINER TIPS\p"
-	.string "No stealing other people's\n"
-	.string "POKéMON!\p"
-	.string "POKé BALLS are to be thrown\n"
-	.string "only at wild POKéMON!$"
-
+	.string "{JPN}おとくなけいじばん！\p"
+	.string "{JPN}ひとのポケモン\n"
+	.string "{JPN}とったらどろぼう！\p"
+	.string "{JPN}モンスターボールはやせいの\n"
+	.string "{JPN}ポケモンにだけなげつけよう！$"
 Route30_Text_YoungsterJoeyGiveHPUp:
-	.string "I lost again…\n"
-	.string "Gee, you're tough!\p"
-	.string "Oh yeah, I almost forgot that\n"
-	.string "I had to give you this.\p"
-	.string "Use it to get even tougher,\n"
-	.string "OK?\p"
-	.string "I'm going to get tougher too.$"
+	.string "{JPN}また まけちゃった...\n"
+	.string "{JPN}きみって つよいんだね!\p"
+	.string "{JPN}そうそう わすれるところ\n"
+	.string "{JPN}だったよ.\l"
+	.string "{JPN}これ きみに あげる.\p"
+	.string "{JPN}これを つかって もっと\n"
+	.string "{JPN}つよくなってよ!\pぼくも つよくなるからさ.$"
 
 Route30_Text_Elm_Disaster:
-	.string "PROF.ELM: H-hello? {PLAYER}? It's\n"
-	.string "a disaster!\p"
-	.string "Uh, um, it's just terrible!\p"
-	.string "What should I do? It…\n"
-	.string "Oh, no…\p"
-	.string "Please get back here now!$"
+	.string "{JPN}ウツギはかせ: も もしもし?\n"
+	.string "{JPN}{PLAYER}くんかい? たいへんだ!\p"
+	.string "{JPN}えーっと その とても\n"
+	.string "{JPN}ひどいことが おこったんだ!\p"
+	.string "{JPN}どうしよう... それが...\n"
+	.string "{JPN}あああ...\pすぐに もどってきてくれ!$"
 
 
 Route30_Text_Poliwag:
-	.string "POLIWAG: Wag waag!$"
+	.string "{JPN}ニョロモ: ニョロ ニョロー!$"

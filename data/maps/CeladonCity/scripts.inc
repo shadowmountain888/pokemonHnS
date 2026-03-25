@@ -22,10 +22,10 @@ CeladonCity_EventScript_Erika::
     end
 
 CeladonCity_Text_Erika:
-    .string "Oh, {PLAYER}.\n"
-	.string "Isn't the fountain lovely today?\p"
-	.string "If you wish for another battle,\n"
-	.string "I'll be at the FIGHTING DOJO.$"
+    .string "{JPN}あら {PLAYER}.\n"
+	.string "{JPN}きょうも ふんすい きれいね.\p"
+	.string "{JPN}また バトル したいなら\n"
+	.string "{JPN}かくとうどうじょうで まってるわ.$"
 
 CeladonCity_EventScript_Fatman::
 	msgbox CeladonCity_Text_Fisher, MSGBOX_NPC
@@ -69,50 +69,47 @@ CeladonCity_EventScript_Lass::
 	end
 
 CeladonCity_Text_Fisher:
-	.string "This POLIWRATH is my partner.\p"
-	.string "I wonder if it'll ever evolve\n"
-	.string "into a frog POKéMON.$"
+	.string "{JPN}このニョロボンは\n"
+	.string "{JPN}ぼくの パートナーだ.\p"
+	.string "{JPN}かえるポケモンに\nしんかするんだろうか.$"
 
 CeladonCity_Text_Poliwrath:
-	.string "POLIWRATH: Croak!$"
+	.string "{JPN}ニョロボン: ケロ!$"
 
 CeladonCity_Text_Teacher1:
-	.string "I lost at the slot machines again…\p"
-	.string "We girls also play the slots now.\p"
-	.string "You should check them out too.$"
+	.string "{JPN}また スロットマシンで\n"
+	.string "{JPN}まけちゃった...\p"
+	.string "{JPN}わたしたち おんなのこも\nいまは スロットを やるのよ\pあなたも ためしてみたら?$"
 
 CeladonCity_Text_Gramps1:
-	.string "GRIMER have been appearing lately.\p"
-	.string "See that pond out in front of the\n"
-	.string "house? GRIMER live there now.\p"
-	.string "Where did they come from? This is\n"
-	.string "a serious problem…$"
-
+	.string "{JPN}さいきん ベトベターが\n"
+	.string "{JPN}あらわれておるんじゃ\p"
+	.string "{JPN}いえの まえの いけが\n"
+	.string "{JPN}みえるじゃろう?\l"
+	.string "{JPN}あそこに ベトベターが\nすんでおるんじゃ\pどこから きたのかのう?\nこれは しんこくな もんだい\nじゃよ...$"
 CeladonCity_Text_Gramps2:
-	.string "Nihihi! This GYM is great! Only\n"
-	.string "girls are allowed here!$"
+	.string "{JPN}にひひ! このジムは サイコーじゃ!\n"
+	.string "{JPN}おんなのこだけが はいれるんじゃ!$"
 
 CeladonCity_Text_Youngster1:
-	.string "Want to know a secret?\p"
-	.string "CELADON MANSION has a hidden back\n"
-	.string "door.$"
+	.string "{JPN}ひみつを おしえてあげようか?\p"
+	.string "{JPN}タマムシマンションには\n"
+	.string "{JPN}うらぐちが あるんだ.$"
 
 CeladonCity_Text_Youngster2:
-	.string "They're holding an eating contest\n"
-	.string "at the restaurant.\p"
-	.string "Just watching them go at it makes\n"
-	.string "me feel bloated…$"
-
+	.string "{JPN}レストランで たいしょく\n"
+	.string "{JPN}たいかいを やってるんだ\p"
+	.string "{JPN}みてるだけで おなかが\n"
+	.string "{JPN}いっぱいに なっちゃうよ...$"
 CeladonCity_Text_Teacher2:
-	.string "CELADON DEPT.STORE has the biggest\n"
-	.string "and best selection of merchandise.\p"
-	.string "If you can't get it there, you\n"
-	.string "can't get it anywhere.\p"
-	.string "Gee… I sound like a sales clerk.$"
-
+	.string "{JPN}タマムシデパートは\n"
+	.string "{JPN}しょうひんの しゅるいも\n"
+	.string "{JPN}かずも いちばんなの\p"
+	.string "{JPN}そこで てにはいらない\n"
+	.string "{JPN}ものは どこにも ないわ\pあら... わたし てんいんさん\nみたいね$"
 CeladonCity_Text_Lass:
-	.string "Looking at the ground while I was\n"
-	.string "walking made me dizzy.$"
+	.string "{JPN}あるいてるとき あしもとを\n"
+	.string "{JPN}みてたら めが まわっちゃった.$"
 
 CeladonCity_EventScript_CitySign::
 	msgbox CeladonCity_Text_Sign, MSGBOX_SIGN
@@ -139,29 +136,29 @@ CeladonCity_EventScript_TrainerTips::
 	end
 
 CeladonCity_Text_Sign:
-	.string "CELADON CITY\p"
-	.string "The City of Rainbow Dreams$"
+	.string "{JPN}タマムシシティ\p"
+	.string "{JPN}にじいろの ゆめの まち$"
 
 CeladonGym_Text_Sign:
-	.string "CELADON CITY POKéMON GYM LEADER:\n"
-	.string "ERIKA\p"
-	.string "The Nature-Loving Princess$"
+	.string "{JPN}タマムシシティ ポケモンジム\n"
+	.string "{JPN}リーダー: エリカ\p"
+	.string "{JPN}しぜんを あいする おひめさま$"
 
 CeladonCity_Text_DeptStoreSign:
-	.string "Find What You Need at CELADON\n"
-	.string "DEPT.STORE!$"
+	.string "{JPN}ほしいもの みつかる\n"
+	.string "{JPN}タマムシ デパート!$"
 
 CeladonCity_Text_MansionSign:
-	.string "CELADON MANSION$"
+	.string "{JPN}タマムシマンション$"
 
 CeladonCity_Text_GameCornerSign:
-	.string "The Playground for Everybody--\n"
-	.string "CELADON GAME CORNER$"
+	.string "{JPN}みんなの あそびば\n"
+	.string "{JPN}タマムシ ゲームコーナー$"
 
 CeladonCity_Text_TrainerTips:
-	.string "TRAINER TIPS\p"
-	.string "GUARD SPEC. protects POKéMON\n"
-	.string "against SPECIAL attacks such as\n"
-	.string "fire and water.\p"
-	.string "Get your items at CELADON DEPT.\n"
-	.string "STORE!$"
+	.string "{JPN}トレーナーのこころえ\p"
+	.string "{JPN}ディフェンダーは ほのおや\n"
+	.string "{JPN}みずなど とくしゅこうげきから\n"
+	.string "{JPN}ポケモンを まもるぞ!\p"
+	.string "{JPN}アイテムは タマムシデパートで!$"
+	.string ""

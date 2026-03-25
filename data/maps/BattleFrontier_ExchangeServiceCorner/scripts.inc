@@ -453,303 +453,300 @@ BattleFrontier_ExchangeServiceCorner_EventScript_OldWTMan::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_YouAlreadyHaveThis:
-	.string "You already have this item.$"
+	.string "{JPN}そのアイテムは もう もってるよ$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_OldWTMan_Text:
-	.string "Hi! If you are looking for the\n"
-	.string "WONDERTRADE, they're now located in\l"
-	.string "every POKéMON CENTER. Have fun!$"
+	.string "{JPN}やあ! ふしぎなこうかんを\n"
+	.string "{JPN}さがしてるのかい?\l"
+	.string "{JPN}いまは すべての ポケモンセンター\nにあるよ がんばって!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
-	.string "Hello, this is the EXCHANGE SERVICE\n"
-	.string "CORNER.\p"
-	.string "We exchange the Battle Points you\n"
-	.string "have collected for lovely prizes.\p"
-	.string "Please choose a prize from this list.$"
+	.string "{JPN}いらっしゃいませ こちらは\n"
+	.string "{JPN}こうかんサービスコーナーです\p"
+	.string "{JPN}あつめた バトルポイントを\n"
+	.string "{JPN}すてきな しょうひんと こうかん\n"
+	.string "{JPN}します\pこの リストから しょうひんを\nえらんでください$"
 
 @ Unused
 BattleFrontier_ExchangeServiceCorner_Text_PleaseChoosePrize:
-	.string "Please choose a prize from this list.$"
+	.string "{JPN}この リストから しょうひんを\nえらんでください$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmTreeckoDoll:
-	.string "You've chosen the KISS POSTER.\n"
-	.string "Is that correct?$"
+	.string "{JPN}キッスポスターを えらびましたね\n"
+	.string "{JPN}よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmTorchicDoll:
-	.string "You've chosen the KISS CUSHION.\n"
-	.string "Is that correct?$"
+	.string "{JPN}キッスクッションを えらびましたね\n"
+	.string "{JPN}よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMudkipDoll:
-	.string "You've chosen the SMOOCHUM DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}ムチュールにんぎょうを\n"
+	.string "{JPN}えらびましたね よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmTogepiDoll:
-	.string "You've chosen the TOGEPI DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}トゲピーにんぎょうを\n"
+	.string "{JPN}えらびましたね よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMeowthDoll:
-	.string "You've chosen the MEOWTH DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}ニャースにんぎょうを\n"
+	.string "{JPN}えらびましたね よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmClefairyDoll:
-	.string "You've chosen the CLEFAIRY DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}ピッピにんぎょうを えらびましたね\n"
+	.string "{JPN}よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmDittoDoll:
-	.string "You've chosen the DITTO DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}メタモンにんぎょうを\n"
+	.string "{JPN}えらびましたね よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCyndaquilDoll:
-	.string "You've chosen the CYNDAQUIL DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}ヒノアラシにんぎょうを\n"
+	.string "{JPN}えらびましたね よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmChikoritaDoll:
-	.string "You've chosen the CHIKORITA DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}チコリータにんぎょうを\n"
+	.string "{JPN}えらびましたね よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmTotodileDoll:
-	.string "You've chosen the TOTODILE DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}ワニノコにんぎょうを\n"
+	.string "{JPN}えらびましたね よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmLaprasDoll:
-	.string "You've chosen the LAPRAS DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}ラプラスにんぎょうを\n"
+	.string "{JPN}えらびましたね よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSnorlaxDoll:
-	.string "You've chosen the SNORLAX DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}カビゴンにんぎょうを\n"
+	.string "{JPN}えらびましたね よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmVenusaurDoll:
-	.string "You've chosen the VENUSAUR DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}フシギバナにんぎょうを\n"
+	.string "{JPN}えらびましたね よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCharizardDoll:
-	.string "You've chosen the CHARIZARD DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}リザードンにんぎょうを\n"
+	.string "{JPN}えらびましたね よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBlastoiseDoll:
-	.string "You've chosen the BLASTOISE DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}カメックスにんぎょうを\n"
+	.string "{JPN}えらびましたね よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmEonTicket:
-	.string "You've chosen the EON TICKET.\n"
-	.string "Is that correct?$"
+	.string "{JPN}むげんのチケットを\n"
+	.string "{JPN}えらびましたね よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMysticTicket:
-	.string "You've chosen the MYSTIC\n"
-	.string "TICKET. Is that correct?$"
+	.string "{JPN}しんぴのチケットを\n"
+	.string "{JPN}えらびましたね よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmAuroraTicket:
-	.string "You've chosen the AURORA\n"
-	.string "TICKET Is that correct?$"
+	.string "{JPN}オーロラチケットを\n"
+	.string "{JPN}えらびましたね よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmOldMap:
-	.string "You've chosen the OLD MAP.\n"
-	.string "Is that correct?$"
+	.string "{JPN}ふるいかいずを えらびましたね\n"
+	.string "{JPN}よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBrace:
-	.string "You've chosen the MACHO\n"
-	.string "BRACE. Is that correct?$"
+	.string "{JPN}きょうせいギプスを\n"
+	.string "{JPN}えらびましたね よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmUpgrade:
-	.string "You've chosen the UP GRADE.\n"
-	.string "Is that correct?$"
+	.string "{JPN}アップグレードを えらびましたね\n"
+	.string "{JPN}よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBrightpowder:
-	.string "You've chosen the BRIGHTPOWDER.\n"
-	.string "Is that correct?$"
+	.string "{JPN}ひかりのこなを えらびましたね.\n"
+	.string "{JPN}よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmWhiteHerb:
-	.string "You've chosen the WHITE HERB.\n"
-	.string "Is that correct?$"
+	.string "{JPN}しろいハーブを えらびましたね.\n"
+	.string "{JPN}よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmQuickClaw:
-	.string "You've chosen the QUICK CLAW.\n"
-	.string "Is that correct?$"
+	.string "{JPN}せんせいのツメを えらびましたね.\n"
+	.string "{JPN}よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMentalHerb:
-	.string "You've chosen the MENTAL HERB.\n"
-	.string "Is that correct?$"
+	.string "{JPN}メンタルハーブを えらびましたね.\n"
+	.string "{JPN}よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmChoiceBand:
-	.string "You've chosen the CHOICE BAND.\n"
-	.string "Is that correct?$"
+	.string "{JPN}こだわりハチマキを えらびましたね.\n"
+	.string "{JPN}よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmKingsRock:
-	.string "You've chosen the KING'S ROCK.\n"
-	.string "Is that correct?$"
+	.string "{JPN}おうじゃのしるしを えらびましたね.\n"
+	.string "{JPN}よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmFocusBand:
-	.string "You've chosen the FOCUS BAND.\n"
-	.string "Is that correct?$"
+	.string "{JPN}きあいのハチマキを えらびましたね.\n"
+	.string "{JPN}よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmScopeLens:
-	.string "You've chosen the SCOPE LENS.\n"
-	.string "Is that correct?$"
+	.string "{JPN}ピントレンズを えらびましたね.\n"
+	.string "{JPN}よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmLeftovers:
-	.string "You've chosen the LEFTOVERS.\n"
-	.string "Is that correct?$"
+	.string "{JPN}たべのこしを えらびましたね.\n"
+	.string "{JPN}よろしいですか?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC:
-	.string "Thank you!\n"
-	.string "We'll send it to your PC at home.$"
+	.string "{JPN}ありがとうございます!\n"
+	.string "{JPN}おうちのパソコンに おくりますね.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_HereIsYourPrize:
-	.string "Here is your prize!$"
+	.string "{JPN}こちらが しょうひんです!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveEnoughPoints:
-	.string "I'm so sorry…\n"
-	.string "You don't have enough Battle Points…$"
-
+	.string "{JPN}もうしわけございません...\n"
+	.string "{JPN}バトルポイントが\nたりません...$"
 BattleFrontier_ExchangeServiceCorner_Text_PCIsFull:
-	.string "I'm so sorry…\n"
-	.string "Your PC appears to be full…$"
-
+	.string "{JPN}もうしわけございません...\n"
+	.string "{JPN}パソコンが\nいっぱいのようです...$"
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt:
-	.string "I'm so sorry…\n"
-	.string "You don't have space to hold it…$"
-
+	.string "{JPN}もうしわけございません...\n"
+	.string "{JPN}もつスペースが\nありません...$"
 BattleFrontier_ExchangeServiceCorner_Text_ThankYouVisitWithPoints:
-	.string "Thank you very much.\p"
-	.string "Please visit us when you have\n"
-	.string "saved up Battle Points.$"
+	.string "{JPN}ありがとうございました.\p"
+	.string "{JPN}バトルポイントが たまりましたら\n"
+	.string "{JPN}また きてくださいね.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WishIHadAllDolls:
-	.string "Oh, they're so nice!\n"
-	.string "I wish I had them!\l"
-	.string "Cute cushions!\l"
-	.string "Big plush DOLLS!\l"
-	.string "Little plush DOLLS!\l"
-	.string "I wish I had them all!$"
+	.string "{JPN}あー すてきねえ!\n"
+	.string "{JPN}わたしも ほしいなあ!\l"
+	.string "{JPN}かわいい クッション!\l"
+	.string "{JPN}おおきな ぬいぐるみ!\l"
+	.string "{JPN}ちいさな ぬいぐるみ!\n"
+	.string "{JPN}ぜんぶ ほしいわあ!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_GetYouAnythingYouWant:
-	.string "Leave it to your mommy!\p"
-	.string "If it's anything you want, I'll go\n"
-	.string "through anything to get it, honey!$"
+	.string "{JPN}ママに まかせなさい!\p"
+	.string "{JPN}あなたが ほしいものなら\n"
+	.string "{JPN}なんでも てにいれてあげるわよ!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher:
-	.string "If I can get hold of the items here,\n"
-	.string "my POKéMON will get tougher.\p"
-	.string "You bet they will!\n"
-	.string "No question about it!$"
+	.string "{JPN}ここの どうぐが てにはいれば\n"
+	.string "{JPN}わたしの ポケモンも つよくなる.\p"
+	.string "{JPN}きっと つよくなるさ!\n"
+	.string "{JPN}まちがいないね!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
-	.string "Hah?\n"
-	.string "What are you gawking at?\p"
-	.string "I don't like you staring at my plush\n"
-	.string "doll like that.\p"
-	.string "If you want it, go get one yourself!\n"
-	.string "Isn't that right, SMOOCHUM?$"
+	.string "{JPN}はあ?\n"
+	.string "{JPN}なにを じろじろ みてるのよ?\p"
+	.string "{JPN}わたしの ぬいぐるみを\n"
+	.string "{JPN}そんなふうに みるのは やめてよ.\p"
+	.string "{JPN}ほしいなら じぶんで てにいれなさい!\n"
+	.string "{JPN}そうよね ムチュール?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
-	.string "Did you know?\p"
-	.string "If you stretch your record at any of\n"
-	.string "the BATTLE facilities, they start\l"
-	.string "giving you more and more Battle Points.$"
+	.string "{JPN}しってる?\p"
+	.string "{JPN}バトルしせつで きろくを のばすと\n"
+	.string "{JPN}もらえる バトルポイントが\l"
+	.string "{JPN}どんどん ふえていくのよ.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_TreeckoDollDesc::
-	.string "A TREECKO DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}キモリの ぬいぐるみ.\n"
+	.string "{JPN}マットや つくえに かざれる.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_TorchicDollDesc::
-	.string "A TORCHIC DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}アチャモの ぬいぐるみ.\n"
+	.string "{JPN}マットや つくえに かざれる.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MudkipDollDesc::
-	.string "A MUDKIP DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}ミズゴロウの ぬいぐるみ.\n"
+	.string "{JPN}マットや つくえに かざれる.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_TogepiDollDesc::
-	.string "A TOGEPI DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}トゲピーの ぬいぐるみ.\n"
+	.string "{JPN}マットや つくえに かざれる.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MeowthDollDesc::
-	.string "A MEOWTH DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}ニャースの ぬいぐるみ.\n"
+	.string "{JPN}マットや つくえに かざれる.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ClefairyDollDesc::
-	.string "A CLEFAIRY DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}ピッピの ぬいぐるみ.\n"
+	.string "{JPN}マットや つくえに かざれる.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc::
-	.string "A DITTO DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}メタモンの ぬいぐるみ.\n"
+	.string "{JPN}マットや つくえに かざれる.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CyndaquilDollDesc::
-	.string "A CYNDAQUIL DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}ヒノアラシの ぬいぐるみ.\n"
+	.string "{JPN}マットや つくえに かざれる.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ChikoritaDollDesc::
-	.string "A CHIKORITA DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}チコリータの にんぎょう.\n"
+	.string "{JPN}マットや つくえに かざろう.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_TotodileDollDesc::
-	.string "A TOTODILE DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}ワニノコの にんぎょう.\n"
+	.string "{JPN}マットや つくえに かざろう.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_LargeDollDesc::
-	.string "A large DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}おおきな にんぎょう.\n"
+	.string "{JPN}マットや つくえに かざろう.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ProteinDesc::
-	.string "Raises the stat ATTACK of one\n"
-	.string "POKéMON.$"
+	.string "{JPN}ポケモン 1ひきの\n"
+	.string "{JPN}こうげきりょくを あげる.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CalciumDesc::
-	.string "Raises the stat SP. ATK of one\n"
-	.string "POKéMON.$"
+	.string "{JPN}ポケモン 1ひきの\n"
+	.string "{JPN}とくこうを あげる.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_IronDesc::
-	.string "Raises the stat DEFENSE of one\n"
-	.string "POKéMON.$"
+	.string "{JPN}ポケモン 1ひきの\n"
+	.string "{JPN}ぼうぎょりょくを あげる.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ZincDesc::
-	.string "Raises the stat SP. DEF of one\n"
-	.string "POKéMON.$"
+	.string "{JPN}ポケモン 1ひきの\n"
+	.string "{JPN}とくぼうを あげる.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CarbosDesc::
-	.string "Raises the stat SPEED of one\n"
-	.string "POKéMON.$"
+	.string "{JPN}ポケモン 1ひきの\n"
+	.string "{JPN}すばやさを あげる.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_HPUpDesc::
-	.string "Raises the HP of one POKéMON.$"
+	.string "{JPN}ポケモン 1ひきの\nHPを あげる.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_LeftoversDesc::
-	.string "A hold item that gradually restores\n"
-	.string "HP in battle.$"
+	.string "{JPN}もたせると たたかいのあいだ\n"
+	.string "{JPN}HPが すこしずつ かいふくする.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WhiteHerbDesc::
-	.string "A hold item that restores any\n"
-	.string "lowered stat.$"
+	.string "{JPN}もたせると さがった のうりょくを\n"
+	.string "{JPN}もとに もどす.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_QuickClawDesc::
-	.string "A hold item that occasionally allows\n"
-	.string "the first strike.$"
+	.string "{JPN}もたせると たまに\n"
+	.string "{JPN}さきに こうげきできる.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MentalHerbDesc::
-	.string "A hold item that snaps POKéMON out\n"
-	.string "of infatuation.$"
+	.string "{JPN}もたせると メロメロじょうたいを\n"
+	.string "{JPN}かいふくする.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_BrightpowderDesc::
-	.string "A hold item that casts a glare to\n"
-	.string "reduce accuracy.$"
+	.string "{JPN}もたせると ひかりで あいてのめいちゅうりつを\n"
+	.string "{JPN}さげる.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ChoiceBandDesc::
-	.string "Raises a move's power, but permits\n"
-	.string "only that move.$"
+	.string "{JPN}わざの いりょくが あがるが\n"
+	.string "{JPN}おなじわざしか だせなくなる.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KingsRockDesc::
-	.string "A hold item that may cause flinching\n"
-	.string "when the foe is hit.$"
+	.string "{JPN}もたせると こうげきしたとき\n"
+	.string "{JPN}あいてを ひるませることがある.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc::
-	.string "A hold item that occasionally\n"
-	.string "prevents fainting.$"
+	.string "{JPN}もたせると たまに\n"
+	.string "{JPN}ひんしを ふせぐことがある.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ScopeLensDesc::
-	.string "A hold item that raises the\n"
-	.string "critical-hit rate.$"
+	.string "{JPN}もたせると きゅうしょに\n"
+	.string "{JPN}あたりやすくなる.$"
 
 EventScript_DoWonderTrade::
 	goto_if_set FLAG_UNLIMITIED_WONDERTRADE, EventScript_DoWonderTradeStartNoLimit
@@ -884,60 +881,60 @@ EventScript_End::
 	end
 
 EventScript_DoWonderTrade_Text_Welcome:
-	.string "Welcome to the WONDERTRADE\n"
-	.string "STATION of the POKéCENTER!\p"
-	.string "Please select the POKéMON that\n"
-	.string "is going to get WONDERTRADED.$"
+	.string "{JPN}ポケモンセンターの\n"
+	.string "{JPN}ふしぎなこうかん ステーションへ\l"
+	.string "{JPN}ようこそ!\p"
+	.string "{JPN}ふしぎなこうかんに だす\nポケモンを えらんでください.$"
 
 EventScript_NoMoreForToday_Text:
-	.string "Oh! Seems that you have\n"
-	.string "used all 3 DAILY TRADES.\p"
-	.string "Come back tomorrow!$"
+	.string "{JPN}あっ! きょうの\n"
+	.string "{JPN}3かいの こうかんは\l"
+	.string "{JPN}もう つかっているみたいですね.\pまた あした きてください!$"
 
 EventScript_FirstTimeWonder_Text:
-	.string "Hello trainer!\p"
-	.string "Oh, is this your first time\n"
-	.string "using the WONDERTRADE SYSTEM?\p"
-	.string "WONDERTRADE is a techonology developed\n"
-	.string "by DEVON CORP. to TRADE anonimously.\p"
-	.string "You basically send a selected\n"
-	.string "POKéMON to someone, and they send\p"
-	.string "you another one in exchange.\n"
-	.string "Neither you nor the other trainer\p"
-	.string "know which POKéMON is going to\n"
-	.string "show up. And that is the fun of\p"
-	.string "WONDERTRADE! Oh, also, to not\n"
-	.string "overload the server, there is a\p"
-	.string "maximum of 3 DAILY WONDERTRADES.\p"
-	.string "We hope you have a great\n"
-	.string "WONDERTRADE experience!$"
+	.string "{JPN}こんにちは トレーナーさん!\p"
+	.string "{JPN}あら ふしぎなこうかんシステムを\n"
+	.string "{JPN}つかうのは はじめてですか?\p"
+	.string "{JPN}ふしぎなこうかんは デボンコーポが\n"
+	.string "{JPN}かいはつした とくめい こうかん\l"
+	.string "{JPN}システムです.\p"
+	.string "{JPN}えらんだ ポケモンを だれかに おくり\n"
+	.string "{JPN}そのひとも べつの ポケモンを\l"
+	.string "{JPN}あなたに おくります.\p"
+	.string "{JPN}おたがいに どんな ポケモンが\n"
+	.string "{JPN}くるかは わかりません.\p"
+	.string "{JPN}それが ふしぎなこうかんの\n"
+	.string "{JPN}たのしさです! あ サーバーの\l"
+	.string "{JPN}ふたんを へらすため\p"
+	.string "{JPN}いちにち さんかいまでと\n"
+	.string "{JPN}なっています.\pすてきな ふしぎなこうかんを\nたのしんでくださいね!$"
 
 EventScript_FirstTimeWonder_Text_Unlimited:
-	.string "Hello trainer!\p"
-	.string "Oh, is this your first time\n"
-	.string "using the WONDERTRADE SYSTEM?\p"
-	.string "WONDERTRADE is a techonology developed\n"
-	.string "by DEVON CORP. to TRADE anonimously.\p"
-	.string "You basically send a selected\n"
-	.string "POKéMON to someone, and they send\p"
-	.string "you another one in exchange.\n"
-	.string "Neither you nor the other trainer\p"
-	.string "know which POKéMON is going to\n"
-	.string "show up. And that is the fun of\l"
-	.string "WONDERTRADE!\p"
-	.string "We hope you have a great\n"
-	.string "WONDERTRADE experience!$"
+	.string "{JPN}こんにちは トレーナーさん!\p"
+	.string "{JPN}あら ふしぎなこうかんシステムを\n"
+	.string "{JPN}つかうのは はじめてですか?\p"
+	.string "{JPN}ふしぎなこうかんは デボンコーポが\n"
+	.string "{JPN}かいはつした とくめい こうかん\l"
+	.string "{JPN}システムです.\p"
+	.string "{JPN}えらんだ ポケモンを だれかに おくり\n"
+	.string "{JPN}そのひとも べつの ポケモンを\l"
+	.string "{JPN}あなたに おくります.\p"
+	.string "{JPN}おたがいに どんな ポケモンが\n"
+	.string "{JPN}くるかは わかりません.\p"
+	.string "{JPN}それが ふしぎなこうかんの\n"
+	.string "{JPN}たのしさです!\p"
+	.string "{JPN}すてきな ふしぎなこうかんを\nたのしんでくださいね!$"
 
 EventScript_DoWonderTrade_Text_Done:
-	.string "We hope you had a good\n"
-	.string "WONDERTRADE!$"
+	.string "{JPN}すてきな ふしぎなこうかんでしたね!$"
+	.string ""
 
 EventScript_DoWonderTrade_Text_Challenges:
-	.string "Looks like you have challenges\n"
-	.string "activated. Please come back\l"
-	.string "again after the POKéMON LEAGUE.$"
+	.string "{JPN}チャレンジモードが ゆうこうに\n"
+	.string "{JPN}なっているようですね.\l"
+	.string "{JPN}ポケモンリーグの あとで また\nきてください.$"
 
 EventScript_DoWonderTrade_Text_FiveBadges:
-	.string "Sadly, the WONDERTRADE SYSTEM is\n"
-	.string "not active yet. Please do come\l"
-	.string "back later.$"
+	.string "{JPN}ざんねんながら ふしぎなこうかん\n"
+	.string "{JPN}システムは まだ どうさして\l"
+	.string "{JPN}iません.\pまた あとで きてくださいね.$"

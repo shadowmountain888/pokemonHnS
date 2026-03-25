@@ -18,13 +18,13 @@ ReceptionGate_EventScript_Janine::
     end
 
 ReceptionGate_Text_Janine:
-    .string "JANINE: I'm on the way to my dad's\n"
-    .string "house to give him his lunch.\p"
-    .string "The ELITE FOUR has no time to rest\n"
-    .string "day or night. It's such hard work,\l"
-    .string "you know?\p"
-    .string "If you're ready for another battle,\n"
-    .string "I'll be at the DOJO later.$"
+    .string "{JPN}アンズ: おとうさんの おうちに\n"
+	.string "{JPN}おべんとう もっていく ところなの.\p"
+    .string "{JPN}エリートよんは ひるも よるも\n"
+	.string "{JPN}やすむ じかんが ないのよ.\l"
+    .string "{JPN}ほんとに たいへんな しごとなの.\p"
+	.string "{JPN}また たたかう きもちが あるなら\n"
+    .string "{JPN}あとで どうじょうで まってるわ.$"
 
 
 ReceptionGate_EventScript_Officer::
@@ -69,30 +69,30 @@ ReceptionGate_EventScript_KantoGuard::
     end
 
 VictoryRoadGate_Text_Officer:
-    .string "Only trainers who have proven\n"
-    .string "themselves may pass.$"
+    .string "{JPN}ちからを みとめられた\n"
+	.string "{JPN}トレーナーしか とおれません.$"
 
 VictoryRoadGate_Text_Kimono:
-    .string "Sorry kid, this way is closed until\n"
-    .string "someone deals with that LEGENDARY\l"
-    .string "POKéMON...$"
+    .string "{JPN}ごめんなさい こどもさん\n"
+	.string "{JPN}でんせつの ポケモンを\l"
+    .string "{JPN}なんとか してくれるまで\nここは とおれません...$"
 
 VictoryRoadGate_Text_NotEnoughBadges:
-    .string "You don't have all the GYM BADGES\n"
-    .string "of JOHTO.\p"
-    .string "I'm sorry, but I can't let you go\n"
-    .string "through.$"
+    .string "{JPN}あなたは ジョウトちほうの\n"
+	.string "{JPN}ジムバッジを ぜんぶ もってませんね.\p"
+    .string "{JPN}もうしわけないですが\n"
+	.string "{JPN}とおす ことは できません.$"
 
 VictoryRoadGate_Text_EightBadges:
-    .string "Oh! The eight BADGES of JOHTO!\p"
-    .string "Please, go right on through!$"
+    .string "{JPN}おお! ジョウトちほうの\n"
+	.string "{JPN}はっつの バッジですね!\pどうぞ とおって ください!$"
 
 VictoryRoadGate_Text_LeftBlackBelt:
-    .string "This way leads to MT.SILVER.\p"
-    .string "You'll see scary-strong POKéMON out\n"
-    .string "there.$"
+    .string "{JPN}こちらは シロガネやまへの\n"
+	.string "{JPN}みちです.\p"
+    .string "{JPN}とても つよい ポケモンが\nいますよ.$"
 
 VictoryRoadGate_Text_RightBlackBelt:
-    .string "Off to the POKéMON LEAGUE, are you?\p"
-    .string "The ELITE FOUR are so strong it's\n"
-    .string "scary, and they're ready for you!$"
+    .string "{JPN}ポケモンリーグへ いくのですね?\p"
+	.string "{JPN}エリートよんは おそろしいほど\n"
+    .string "{JPN}つよくて あなたを まってますよ!$"

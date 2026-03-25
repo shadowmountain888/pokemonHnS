@@ -31,7 +31,7 @@ SaffronCity_SilphCo_EventScript_Refused::
 	end
 
 SaffronCity_SilphCo_Text_Refused:
-	.string "Oh...$"
+	.string "{JPN}ああ...$"
 
 SaffronCity_SilphCo_EventScript_TreeckoChosen::
 	closemessage
@@ -93,29 +93,29 @@ SaffronCity_SilphCo_Movement_StevenLeave:
 
 
 SaffronCity_SilphCo_Text_Steven1:
-	.string "Hello...\n"
-	.string "You're breaking up...\l"
-	.string "I think it depends on my dad.\l"
-	.string "I see...\n"
-	.string "I'll be on my way. See you soon.$"
+	.string "{JPN}もしもし...\n"
+	.string "{JPN}でんぱが わるいな...\l"
+	.string "{JPN}とうちゃんしだいかな\l"
+	.string "{JPN}そうか...\n"
+	.string "{JPN}それじゃ いくよ また あおう$"
 SaffronCity_SilphCo_Text_Steven2:
-	.string "STEVEN: You are... I remember your\n"
-	.string "eyes.\p"
-	.string "When I see a trainer whose eyes\n"
-	.string "twinkle, I always remember.\p"
-	.string "You have a POKéDEX! So you are\n"
-	.string "also in search of POKéMON!\l"
-	.string "Let me see...\p"
-	.string "I think I can help you with that.\p"
-	.string "Let's say that you have stones in\n"
-	.string "front of you. Which color would\l"
-	.string " you pick?$"
+	.string "{JPN}ダイゴ: きみは... その ひとみに\n"
+	.string "{JPN}みおぼえが あるな\p"
+	.string "{JPN}ひとみが かがやく トレーナーを\n"
+	.string "{JPN}みると いつも おぼえているんだ\p"
+	.string "{JPN}ポケモンずかんを もってるね!\n"
+	.string "{JPN}きみも ポケモンを さがしているのか!\l"
+	.string "{JPN}ちょっと みせてくれ...\p"
+	.string "{JPN}きみの やくに たてると おもうよ\p"
+	.string "{JPN}めのまえに いしが あったとしよう\n"
+	.string "{JPN}どんな いろを えらぶ?$"
+	.string ""
 SaffronCity_SilphCo_Text_Steven3:
-	.string "You chose correctly! I'll give you\n"
-	.string "{STR_VAR_1}!$"
+	.string "{JPN}ただしい せんたくだ!\n"
+	.string "{JPN}{STR_VAR_1}を あげよう!$"
 SaffronCity_SilphCo_Text_Steven4:
-	.string "Take good care of it. Your caring\n"
-	.string "for it will make me very happy.$"
+	.string "{JPN}たいせつに そだててくれ\n"
+	.string "{JPN}きみが かわいがってくれれば\lぼくも とても うれしいよ$"
 
 SaffronCity_SilphCo_EventScript_Receptionist::
 	msgbox SilphCo_Text_Receptionist, MSGBOX_NPC
@@ -138,24 +138,24 @@ SaffronCity_SilphCo_EventScript_Sign2::
 	end
 
 SilphCo_Text_Sign1:
-	.string "SILPH CO.\n"
-	.string "1F RECEPTION.$"
+	.string "{JPN}シルフカンパニー\n"
+	.string "{JPN}1F うけつけ$"
 
 SilphCo_Text_Sign2:
-	.string "SILPH CO.\n"
-	.string "ELEVATOR OUT OF SERVICE$"
+	.string "{JPN}シルフカンパニー\n"
+	.string "{JPN}エレベーター こしょうちゅう$"
 
 SilphCo_Text_Receptionist:
-	.string "Welcome. This is SILPH CO.'s HEAD\n"
-	.string "OFFICE BUILDING.$"
+	.string "{JPN}いらっしゃいませ ここは\n"
+	.string "{JPN}シルフカンパニーの ほんしゃです$"
 
 SilphCo_Text_Officer:
-	.string "Only employees are permitted to\n"
-	.string "go upstairs.\p"
-	.string "But since you came such a long\n"
-	.string "way,\p"
-	.string "have this neat little souvenir.$"
+	.string "{JPN}2かいから うえは しゃいん\n"
+	.string "{JPN}いがい はいれません\p"
+	.string "{JPN}でも はるばる きてくれたので\n"
+	.string "{JPN}きねんひんを どうぞ$"
+	.string ""
 
 SilphCo_Text_Officer_GotUpGrade:
-	.string "It's SILPH CO.'s latest product.\p"
-	.string "It's not for sale anywhere yet.$"
+	.string "{JPN}シルフカンパニーの\n"
+	.string "{JPN}さいしん せいひんです\pまだ はんばいしていません$"

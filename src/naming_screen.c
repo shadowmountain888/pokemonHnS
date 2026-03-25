@@ -46,7 +46,12 @@ enum {
 };
 
 #define KBROW_COUNT 4
-#define KBCOL_COUNT 8
+#define KBCOL_COUNT 19
+
+// Special keyboard char values for dakuten/handakuten keys on the grid
+// These are intercepted in KeyboardKeyHandler_Character before buffering
+#define KB_CHAR_DAKUTEN    0xF0
+#define KB_CHAR_HANDAKUTEN 0xF1
 
 enum {
     GFXTAG_BACK_BUTTON,
@@ -83,12 +88,12 @@ enum {
     WIN_COUNT,
 };
 
-// The constants for the pages are needlessly complicated because GF didn't keep the indexing order consistent
 // This set is used for sNamingScreen->currentPage. It uses the order that the pages are cycled in
+// JP cycle: ひらがな(LOWER) → カタカナ(UPPER) → ABC(SYMBOLS) → ひらがな
 enum {
-    KBPAGE_SYMBOLS,
-    KBPAGE_LETTERS_UPPER,
     KBPAGE_LETTERS_LOWER,
+    KBPAGE_LETTERS_UPPER,
+    KBPAGE_SYMBOLS,
     KBPAGE_COUNT,
 };
 
@@ -277,38 +282,68 @@ static const struct WindowTemplate sWindowTemplates[WIN_COUNT + 1] =
     DUMMY_WIN_TEMPLATE
 };
 
-// This handles what characters get inserted when a key is pressed
-// The keys shown on the keyboard are handled separately by sNamingScreenKeyboardText
+// JP keyboard matching JP Emerald layout
+// Page 1 = Hiragana, Page 2 = Katakana: 5+5+7 grouped columns (17 usable + 2 blank = 19)
+// Page 3 = ABC: 19 columns, no groups
+// 0x00 = blank/gap cell (cursor skips these)
+// KB_CHAR_DAKUTEN/KB_CHAR_HANDAKUTEN = special keys that apply dakuten to last char
 static const u8 sKeyboardChars[KBPAGE_COUNT][KBROW_COUNT][KBCOL_COUNT] = {
     [KEYBOARD_LETTERS_LOWER] = {
-        __("abcdef ."),
-        __("ghijkl ,"),
-        __("mnopqrs "),
-        __("tuvwxyz "),
+        // あいうえお  なにぬねの  やゆよ!?[][]
+        {0x01,0x02,0x03,0x04,0x05, 0x00, 0x15,0x16,0x17,0x18,0x19, 0x00, 0x24,0x25,0x26,0xAB,0xAC, 0x00,0x00},
+        // かきくけこ  はひふへほ  わをん゛゜[][]
+        {0x06,0x07,0x08,0x09,0x0A, 0x00, 0x1A,0x1B,0x1C,0x1D,0x1E, 0x00, 0x2C,0x2D,0x2E,KB_CHAR_DAKUTEN,KB_CHAR_HANDAKUTEN, 0x00,0x00},
+        // さしすせそ  まみむめも  ゃゅょっー[][]
+        {0x0B,0x0C,0x0D,0x0E,0x0F, 0x00, 0x1F,0x20,0x21,0x22,0x23, 0x00, 0x34,0x35,0x36,0x50,0xAE, 0x00,0x00},
+        // たちつてと  らりるれろ  ぁぃぅぇぉ[][]
+        {0x10,0x11,0x12,0x13,0x14, 0x00, 0x27,0x28,0x29,0x2A,0x2B, 0x00, 0x2F,0x30,0x31,0x32,0x33, 0x00,0x00},
     },
     [KEYBOARD_LETTERS_UPPER] = {
-        __("ABCDEF ."),
-        __("GHIJKL ,"),
-        __("MNOPQRS "),
-        __("TUVWXYZ "),
+        // アイウエオ  ナニヌネノ  ヤユヨ!?[][]
+        {0x51,0x52,0x53,0x54,0x55, 0x00, 0x65,0x66,0x67,0x68,0x69, 0x00, 0x74,0x75,0x76,0xAB,0xAC, 0x00,0x00},
+        // カキクケコ  ハヒフヘホ  ワヲン゛゜[][]
+        {0x56,0x57,0x58,0x59,0x5A, 0x00, 0x6A,0x6B,0x6C,0x6D,0x6E, 0x00, 0x7C,0x7D,0x7E,KB_CHAR_DAKUTEN,KB_CHAR_HANDAKUTEN, 0x00,0x00},
+        // サシスセソ  マミムメモ  ャュョッー[][]
+        {0x5B,0x5C,0x5D,0x5E,0x5F, 0x00, 0x6F,0x70,0x71,0x72,0x73, 0x00, 0x84,0x85,0x86,0xA0,0xAE, 0x00,0x00},
+        // タチツテト  ラリルレロ  ァィゥェォ[][]
+        {0x60,0x61,0x62,0x63,0x64, 0x00, 0x77,0x78,0x79,0x7A,0x7B, 0x00, 0x7F,0x80,0x81,0x82,0x83, 0x00,0x00},
     },
     [KEYBOARD_SYMBOLS] = {
-        __("01234   "),
-        __("56789   "),
-        __("!?♂♀/-  "),
-        __("…“”‘'   "),
+        // ABCDEFGHIJKLMNOPQRS
+        {0xBB,0xBC,0xBD,0xBE,0xBF,0xC0,0xC1,0xC2,0xC3,0xC4,0xC5,0xC6,0xC7,0xC8,0xC9,0xCA,0xCB,0xCC,0xCD},
+        // TUVWXYZ 0123456789
+        {0xCE,0xCF,0xD0,0xD1,0xD2,0xD3,0xD4, 0x00, 0xA1,0xA2,0xA3,0xA4,0xA5,0xA6,0xA7,0xA8,0xA9,0xAA, 0x00},
+        // abcdefghijklmnopqrs
+        {0xD5,0xD6,0xD7,0xD8,0xD9,0xDA,0xDB,0xDC,0xDD,0xDE,0xDF,0xE0,0xE1,0xE2,0xE3,0xE4,0xE5,0xE6,0xE7},
+        // tuvwxyz .·…""''/♂♀
+        {0xE8,0xE9,0xEA,0xEB,0xEC,0xED,0xEE, 0x00, 0xAD,0xAF,0xB0,0xB1,0xB2,0xB3,0xB4,0xBA,0xB5,0xB6, 0x00},
     }
 };
 
 static const u8 sPageColumnCounts[KBPAGE_COUNT] = {
-    [KEYBOARD_LETTERS_LOWER] = KBCOL_COUNT,
-    [KEYBOARD_LETTERS_UPPER] = KBCOL_COUNT,
-    [KEYBOARD_SYMBOLS]       = 6
+    [KEYBOARD_LETTERS_LOWER] = 17, // 5+gap+5+gap+5(+2 blank) = 17 usable columns
+    [KEYBOARD_LETTERS_UPPER] = 17,
+    [KEYBOARD_SYMBOLS]       = KBCOL_COUNT // 19 columns for ABC page
 };
+// Pixel X positions per column per page (8px per char, gaps between kana groups)
 static const u8 sPageColumnXPos[KBPAGE_COUNT][KBCOL_COUNT] = {
-    [KEYBOARD_LETTERS_LOWER] = {0, 12, 24, 56, 68, 80, 92, 123},
-    [KEYBOARD_LETTERS_UPPER] = {0, 12, 24, 56, 68, 80, 92, 123},
-    [KEYBOARD_SYMBOLS]       = {0, 22, 44, 66, 88, 110}
+    [KEYBOARD_LETTERS_LOWER] = {
+        0, 8, 16, 24, 32,   // あ-お
+        40,                   // gap (blank)
+        48, 56, 64, 72, 80,  // な-の
+        88,                   // gap (blank)
+        96, 104, 112, 120, 128, // や-?/゛゜
+    },
+    [KEYBOARD_LETTERS_UPPER] = {
+        0, 8, 16, 24, 32,
+        40,
+        48, 56, 64, 72, 80,
+        88,
+        96, 104, 112, 120, 128,
+    },
+    [KEYBOARD_SYMBOLS] = {
+        0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120, 128, 136, 144
+    }
 };
 
 static const u8 *const gSilverPresetNames[] = {
@@ -389,6 +424,8 @@ static u8 GetTextEntryPosition(void);
 static void DeleteTextCharacter(void);
 static bool8 AddTextCharacter(void);
 static void BufferCharacter(u8);
+static u8 GetCharAtKeyboardPos(s16, s16);
+static void ApplyDakuten(void);
 static void SaveInputText(void);
 static void LoadGfx(void);
 static void CreateHelperTasks(void);
@@ -595,18 +632,19 @@ static void Task_NamingScreen(u8 taskId)
 }
 
 // Which gfx/pal to load for the swap page button
+// Cycle: ひらがな → カタカナ → ABC → ひらがな
 static const u8 sPageToNextGfxId[KBPAGE_COUNT] =
 {
-    [KBPAGE_SYMBOLS]       = PAGE_SWAP_UPPER,
-    [KBPAGE_LETTERS_UPPER] = PAGE_SWAP_LOWER,
-    [KBPAGE_LETTERS_LOWER] = PAGE_SWAP_OTHERS
+    [KBPAGE_LETTERS_LOWER] = PAGE_SWAP_UPPER,  // ひらがな page shows "カナ" button
+    [KBPAGE_LETTERS_UPPER] = PAGE_SWAP_OTHERS,  // カタカナ page shows "ABC" button
+    [KBPAGE_SYMBOLS]       = PAGE_SWAP_LOWER,   // ABC page shows "かな" button
 };
 
 static const u8 sPageToNextKeyboardId[KBPAGE_COUNT] =
 {
-    [KBPAGE_SYMBOLS]       = KEYBOARD_LETTERS_UPPER,
-    [KBPAGE_LETTERS_UPPER] = KEYBOARD_LETTERS_LOWER,
-    [KBPAGE_LETTERS_LOWER] = KEYBOARD_SYMBOLS
+    [KBPAGE_LETTERS_LOWER] = KEYBOARD_LETTERS_UPPER, // ひらがな → カタカナ
+    [KBPAGE_LETTERS_UPPER] = KEYBOARD_SYMBOLS,        // カタカナ → ABC
+    [KBPAGE_SYMBOLS]       = KEYBOARD_LETTERS_LOWER,  // ABC → ひらがな
 };
 
 static const u8 sPageToKeyboardId[KBPAGE_COUNT] =
@@ -634,13 +672,13 @@ static u8 CurrentPageToKeyboardId(void)
 static bool8 MainState_FadeIn(void)
 {
     DrawBgTilemap(3, gNamingScreenBackground_Tilemap);
-    sNamingScreen->currentPage = KBPAGE_LETTERS_UPPER;
-    DrawBgTilemap(2, gNamingScreenKeyboardLower_Tilemap);
-    DrawBgTilemap(1, gNamingScreenKeyboardUpper_Tilemap);
-    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_2], KEYBOARD_LETTERS_LOWER);
-    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_1], KEYBOARD_LETTERS_UPPER);
-    NamingScreen_Dummy(2, KEYBOARD_LETTERS_LOWER);
-    NamingScreen_Dummy(1, KEYBOARD_LETTERS_UPPER);
+    sNamingScreen->currentPage = KBPAGE_LETTERS_LOWER;
+    DrawBgTilemap(2, gNamingScreenKeyboardUpper_Tilemap);
+    DrawBgTilemap(1, gNamingScreenKeyboardLower_Tilemap);
+    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_2], KEYBOARD_LETTERS_UPPER);
+    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_1], KEYBOARD_LETTERS_LOWER);
+    NamingScreen_Dummy(2, KEYBOARD_LETTERS_UPPER);
+    NamingScreen_Dummy(1, KEYBOARD_LETTERS_LOWER);
     DrawTextEntry();
     DrawTextEntryBox();
     PrintControls();
@@ -1132,7 +1170,7 @@ static void CreateSprites(void)
 
 static void CreateCursorSprite(void)
 {
-    sNamingScreen->cursorSpriteId = CreateSprite(&sSpriteTemplate_Cursor, 38, 88, 1);
+    sNamingScreen->cursorSpriteId = CreateSprite(&sSpriteTemplate_Cursor, 28, 89, 1);
     SetCursorInvisibility(TRUE);
     gSprites[sNamingScreen->cursorSpriteId].oam.priority = 1;
     gSprites[sNamingScreen->cursorSpriteId].oam.objMode = ST_OAM_OBJ_BLEND;
@@ -1146,11 +1184,11 @@ static void SetCursorPos(s16 x, s16 y)
     struct Sprite *cursorSprite = &gSprites[sNamingScreen->cursorSpriteId];
 
     if (x < sPageColumnCounts[CurrentPageToKeyboardId()])
-        cursorSprite->x = sPageColumnXPos[CurrentPageToKeyboardId()][x] + 38;
+        cursorSprite->x = sPageColumnXPos[CurrentPageToKeyboardId()][x] + 28;
     else
         cursorSprite->x = 0;
 
-    cursorSprite->y = y * 16 + 88;
+    cursorSprite->y = y * 16 + 89;
     cursorSprite->sPrevX = cursorSprite->sX;
     cursorSprite->sPrevY = cursorSprite->sY;
     cursorSprite->sX = x;
@@ -1494,6 +1532,11 @@ static bool8 HandleKeyboardEvent(void)
         MoveCursorToOKButton();
         return FALSE;
     }
+    else if (input == INPUT_LR_BUTTON)
+    {
+        ApplyDakuten();
+        return FALSE;
+    }
     else
     {
         return sKeyboardKeyHandlers[keyRole](input);
@@ -1505,13 +1548,32 @@ static bool8 KeyboardKeyHandler_Character(u8 input)
     TryStartButtonFlash(BUTTON_COUNT, FALSE, FALSE);
     if (input == INPUT_A_BUTTON)
     {
-        bool8 textFull = AddTextCharacter();
+        s16 x, y;
+        u8 ch;
 
-        SquishCursor();
-        if (textFull)
+        GetCursorPos(&x, &y);
+        ch = GetCharAtKeyboardPos(x, y);
+
+        // Blank cell — do nothing
+        if (ch == 0x00)
+            return FALSE;
+
+        // Dakuten/handakuten key — apply to last entered char
+        if (ch == KB_CHAR_DAKUTEN || ch == KB_CHAR_HANDAKUTEN)
         {
-            SetInputState(INPUT_STATE_OVERRIDE);
-            sNamingScreen->state = STATE_MOVE_TO_OK_BUTTON;
+            ApplyDakuten();
+            return FALSE;
+        }
+
+        {
+            bool8 textFull = AddTextCharacter();
+
+            SquishCursor();
+            if (textFull)
+            {
+                SetInputState(INPUT_STATE_OVERRIDE);
+                sNamingScreen->state = STATE_MOVE_TO_OK_BUTTON;
+            }
         }
     }
     return FALSE;
@@ -1619,6 +1681,8 @@ static void Input_Enabled(struct Task *task)
         task->tKeyboardEvent = INPUT_SELECT;
     else if (JOY_NEW(START_BUTTON))
         task->tKeyboardEvent = INPUT_START;
+    else if (JOY_NEW(L_BUTTON) || JOY_NEW(R_BUTTON))
+        task->tKeyboardEvent = INPUT_LR_BUTTON;
     else
         HandleDpadMovement(task);
 }
@@ -1678,6 +1742,21 @@ static void HandleDpadMovement(struct Task *task)
     if (cursorX > GetCurrentPageColumnCount())
         cursorX = 0;
 
+    // Skip blank cells (0x00) when moving horizontally
+    if (sDpadDeltaX[input] != 0 && cursorX < GetCurrentPageColumnCount())
+    {
+        s16 dir = sDpadDeltaX[input];
+        while (cursorX >= 0 && cursorX < GetCurrentPageColumnCount()
+               && sKeyboardChars[CurrentPageToKeyboardId()][cursorY][cursorX] == 0x00)
+        {
+            cursorX += dir;
+        }
+        // If we went past the edge, wrap to button column or first col
+        if (cursorX < 0)
+            cursorX = GetCurrentPageColumnCount();
+        else if (cursorX >= GetCurrentPageColumnCount())
+            cursorX = GetCurrentPageColumnCount();
+    }
 
     // Handle moving on/off the button column
     if (sDpadDeltaX[input] != 0)
@@ -1722,6 +1801,15 @@ static void HandleDpadMovement(struct Task *task)
             cursorY = KBROW_COUNT - 1;
         if (cursorY > KBROW_COUNT - 1)
             cursorY = 0;
+
+        // After vertical movement, if landed on blank cell, shift left to nearest non-blank
+        if (sDpadDeltaY[input] != 0
+            && cursorX < GetCurrentPageColumnCount()
+            && sKeyboardChars[CurrentPageToKeyboardId()][cursorY][cursorX] == 0x00)
+        {
+            while (cursorX > 0 && sKeyboardChars[CurrentPageToKeyboardId()][cursorY][cursorX] == 0x00)
+                cursorX--;
+        }
     }
     SetCursorPos(cursorX, cursorY);
 }
@@ -1878,6 +1966,106 @@ static void BufferCharacter(u8 ch)
     sNamingScreen->textBuffer[index] = ch;
 }
 
+// Dakuten/handakuten cycle table
+// Each entry: {base, dakuten, handakuten} — 0 means no variant
+// Pressing L/R cycles: base → dakuten → handakuten → base
+static const u8 sDakutenTable[][3] = {
+    // Hiragana か-row
+    {0x06, 0x37, 0},    // か → が
+    {0x07, 0x38, 0},    // き → ぎ
+    {0x08, 0x39, 0},    // く → ぐ
+    {0x09, 0x3A, 0},    // け → げ
+    {0x0A, 0x3B, 0},    // こ → ご
+    // Hiragana さ-row
+    {0x0B, 0x3C, 0},    // さ → ざ
+    {0x0C, 0x3D, 0},    // し → じ
+    {0x0D, 0x3E, 0},    // す → ず
+    {0x0E, 0x3F, 0},    // せ → ぜ
+    {0x0F, 0x40, 0},    // そ → ぞ
+    // Hiragana た-row
+    {0x10, 0x41, 0},    // た → だ
+    {0x11, 0x42, 0},    // ち → ぢ
+    {0x12, 0x43, 0},    // つ → づ
+    {0x13, 0x44, 0},    // て → で
+    {0x14, 0x45, 0},    // と → ど
+    // Hiragana は-row (has both dakuten and handakuten)
+    {0x1A, 0x46, 0x4B}, // は → ば → ぱ
+    {0x1B, 0x47, 0x4C}, // ひ → び → ぴ
+    {0x1C, 0x48, 0x4D}, // ふ → ぶ → ぷ
+    {0x1D, 0x49, 0x4E}, // へ → べ → ぺ
+    {0x1E, 0x4A, 0x4F}, // ほ → ぼ → ぽ
+    // Katakana カ-row
+    {0x56, 0x87, 0},    // カ → ガ
+    {0x57, 0x88, 0},    // キ → ギ
+    {0x58, 0x89, 0},    // ク → グ
+    {0x59, 0x8A, 0},    // ケ → ゲ
+    {0x5A, 0x8B, 0},    // コ → ゴ
+    // Katakana サ-row
+    {0x5B, 0x8C, 0},    // サ → ザ
+    {0x5C, 0x8D, 0},    // シ → ジ
+    {0x5D, 0x8E, 0},    // ス → ズ
+    {0x5E, 0x8F, 0},    // セ → ゼ
+    {0x5F, 0x90, 0},    // ソ → ゾ
+    // Katakana タ-row
+    {0x60, 0x91, 0},    // タ → ダ
+    {0x61, 0x92, 0},    // チ → ヂ
+    {0x62, 0x93, 0},    // ツ → ヅ
+    {0x63, 0x94, 0},    // テ → デ
+    {0x64, 0x95, 0},    // ト → ド
+    // Katakana ハ-row (has both dakuten and handakuten)
+    {0x6A, 0x96, 0x9B}, // ハ → バ → パ
+    {0x6B, 0x97, 0x9C}, // ヒ → ビ → ピ
+    {0x6C, 0x98, 0x9D}, // フ → ブ → プ
+    {0x6D, 0x99, 0x9E}, // ヘ → ベ → ペ
+    {0x6E, 0x9A, 0x9F}, // ホ → ボ → ポ
+};
+
+static void ApplyDakuten(void)
+{
+    u8 pos = GetTextEntryPosition();
+    u8 i;
+    u8 ch;
+
+    // Find the last entered character (pos points to next empty slot)
+    if (pos == 0)
+        return;
+    pos--;
+
+    ch = sNamingScreen->textBuffer[pos];
+
+    for (i = 0; i < ARRAY_COUNT(sDakutenTable); i++)
+    {
+        if (ch == sDakutenTable[i][0])
+        {
+            // Base → dakuten
+            sNamingScreen->textBuffer[pos] = sDakutenTable[i][1];
+            break;
+        }
+        else if (ch == sDakutenTable[i][1])
+        {
+            // Dakuten → handakuten (if available) or back to base
+            if (sDakutenTable[i][2] != 0)
+                sNamingScreen->textBuffer[pos] = sDakutenTable[i][2];
+            else
+                sNamingScreen->textBuffer[pos] = sDakutenTable[i][0];
+            break;
+        }
+        else if (sDakutenTable[i][2] != 0 && ch == sDakutenTable[i][2])
+        {
+            // Handakuten → base
+            sNamingScreen->textBuffer[pos] = sDakutenTable[i][0];
+            break;
+        }
+    }
+
+    if (i < ARRAY_COUNT(sDakutenTable))
+    {
+        DrawTextEntry();
+        CopyBgTilemapBufferToVram(3);
+        PlaySE(SE_SELECT);
+    }
+}
+
 static void SaveInputText(void)
 {
     u8 i;
@@ -1928,7 +2116,7 @@ static void NamingScreen_Dummy(u8 bg, u8 page)
 static void DrawTextEntry(void)
 {
     u8 i;
-    u8 temp[2];
+    u8 temp[4]; // Expanded for {JPN} prefix (2 bytes) + char + EOS
     u16 extraWidth;
     u8 maxChars = sNamingScreen->template->maxChars;
     u16 x = sNamingScreen->inputCharBaseXPos - 0x40;
@@ -1937,9 +2125,12 @@ static void DrawTextEntry(void)
 
     for (i = 0; i < maxChars; i++)
     {
-        temp[0] = sNamingScreen->textBuffer[i];
-        temp[1] = gText_ExpandedPlaceholder_Empty[0];
-        extraWidth = (IsWideLetter(temp[0]) == TRUE) ? 2 : 0;
+        // Prepend {JPN} so kana bytes render through JP glyph table, not Latin
+        temp[0] = EXT_CTRL_CODE_BEGIN;
+        temp[1] = EXT_CTRL_CODE_JPN;
+        temp[2] = sNamingScreen->textBuffer[i];
+        temp[3] = gText_ExpandedPlaceholder_Empty[0];
+        extraWidth = (IsWideLetter(temp[2]) == TRUE) ? 2 : 0;
 
         AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY], FONT_NORMAL, temp, i * 8 + x + extraWidth, 1, TEXT_SKIP_DRAW, NULL);
     }
@@ -1991,9 +2182,9 @@ static void PrintKeyboardKeys(u8 window, u8 page)
 
 static const u8 *const sNextKeyboardPageTilemaps[] =
 {
-    [KBPAGE_SYMBOLS] = gNamingScreenKeyboardUpper_Tilemap,
-    [KBPAGE_LETTERS_UPPER] = gNamingScreenKeyboardLower_Tilemap, // lower
-    [KBPAGE_LETTERS_LOWER] = gNamingScreenKeyboardSymbols_Tilemap  // symbols
+    [KBPAGE_LETTERS_LOWER] = gNamingScreenKeyboardUpper_Tilemap,  // next after ひらがな is カタカナ
+    [KBPAGE_LETTERS_UPPER] = gNamingScreenKeyboardSymbols_Tilemap, // next after カタカナ is ABC
+    [KBPAGE_SYMBOLS]       = gNamingScreenKeyboardLower_Tilemap,   // next after ABC is ひらがな
 };
 
 // There are always 2 keyboard pages drawn, the current page and the one that will shown next if the player swaps
@@ -2169,7 +2360,7 @@ static const struct NamingScreenTemplate sWaldaWordsScreenTemplate =
     .title = gText_TellHimTheWords,
 };
 
-static const u8 sText_RivalsName[] = _("Rival's Name?");
+static const u8 sText_RivalsName[] = _("{JPN}ライバルの なまえは?");
 static const struct NamingScreenTemplate sRivalNamingScreenTemplate =
 {
     .copyExistingString = FALSE,

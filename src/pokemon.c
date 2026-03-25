@@ -7384,8 +7384,13 @@ u32 GetBoxMonData3(struct BoxPokemon *boxMon, s32 field, u8 *data)
                 i < 5 && boxMon->nickname[i] != EOS;
                 data[retVal] = boxMon->nickname[i], retVal++, i++) {}
 
+            // Don't append {ENG} after JP nicknames when game language is Japanese.
+            // The {ENG} tag would reset the font renderer to Latin mode, causing
+            // garbled text in battle messages after the Pokemon name.
+            #if GAME_LANGUAGE != LANGUAGE_JAPANESE
             data[retVal++] = EXT_CTRL_CODE_BEGIN;
             data[retVal++] = EXT_CTRL_CODE_ENG;
+            #endif
             data[retVal] = EOS;
         }
         else
@@ -7785,8 +7790,14 @@ void SetBoxMonData(struct BoxPokemon *boxMon, s32 field, const void *dataArg)
     case MON_DATA_NICKNAME:
     {
         s32 i;
+        const u8 *src = data;
+        // Strip {JPN} prefix (0xFC 0x15) before storing.
+        // GetBoxMonData adds its own {JPN} for LANGUAGE_JAPANESE when reading,
+        // so storing the prefix causes a double-prefix bug (only 3 kana visible).
+        if (src[0] == EXT_CTRL_CODE_BEGIN && src[1] == EXT_CTRL_CODE_JPN)
+            src += 2;
         for (i = 0; i < POKEMON_NAME_LENGTH; i++)
-            boxMon->nickname[i] = data[i];
+            boxMon->nickname[i] = src[i];
         break;
     }
     case MON_DATA_LANGUAGE:

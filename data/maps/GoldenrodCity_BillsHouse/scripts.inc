@@ -60,71 +60,51 @@ GoldenrodCity_BillsHouse_EventScript_Bill_Refused::
 	end
 
 BillHouse_Text_TakeThisEevee:
-    .string "BILL: Hi, {PLAYER}! Do us a favor and\n"
-    .string "take this EEVEE.\p"
-    .string "It was left in our care while\n"
-    .string "I was away working on my system.\p"
-    .string "Someone has to take care of it,\n"
-    .string "but I don't like being outside.\p"
-    .string "Can I count on you to play with it,\n"
-    .string "{PLAYER}?$"
-
+	.string "{JPN}マサキやあ{PLAYER}！おねがいが\nあるんだこのイーブイをもらって\pぼくがシステムのしごとをしている\nあいだにあずかったんだ\pだれかがせわをしないといけないが\nぼくはそとにでるのがにがてで..\p{PLAYER}いっしょにあそんで\nくれるかな？$"
 BillHouse_Text_CountingOnYou:
-    .string "BILL: I knew you'd come through!\p"
-    .string "Way to go! You're the real deal!\p"
-    .string "OK, I'm counting on you.\p"
-    .string "Take good care of it!$"
-
+    .string "{JPN}さすがやな\n"
+	.string "{JPN}よっだいとうりょう！\l"
+	.string "{JPN}にくいねーッ\p"
+	.string "{JPN}ほなたのんだで\n"
+	.string "{JPN}だいじにかわいがったりや！$"
 BillHouse_Text_ReceivedEevee:
-    .string "{PLAYER} received EEVEE!$"
-
+    .string "{JPN}{PLAYER}は\n"
+	.string "{JPN}イーブイをもらった！$"
 BillHouse_Text_EeveeMayEvolve:
-    .string "BILL: PROF.ELM claims EEVEE may\n"
-    .string "evolve in new and unknown ways.$"
-
+	.string "{JPN}マサキウツギはかせによると\nイーブイはあたらしいしんかを\nするかもしれないそうだよ$"
 BillHouse_Text_PartyFull:
-    .string "Whoa, wait. You can't carry any\n"
-    .string "more POKéMON.$"
-
+    .string "{JPN}ってあかんがな\n"
+	.string "{JPN}それいじょうポケモンもてへんやん$"
 BillHouse_Text_NoEevee:
-    .string "Oh… Now what to do?$"
-
+    .string "{JPN}そーかいな..$"
 BillHouse_Text_PopWontWork:
-    .string "BILL: My pop, he won't work. All he\n"
-    .string "does is goof off all day long.\p"
-    .string "He's getting to be a real headache…$"
-
+	.string "{JPN}マサキおやじはしごとをしない\nいちにちじゅうあそんでばかりで\pほんとうにあたまがいたいよ..$"
 BillHouse_Text_MomBeforeEcruteak:
-    .string "Oh, you collect POKéMON? My son\n"
-    .string "BILL is an expert.\p"
-    .string "He just got called to the POKéMON\n"
-    .string "CENTER in ECRUTEAK CITY.\p"
-    .string "My husband went off to the GAME\n"
-    .string "CORNER without being called…$"
-
+    .string "{JPN}あらあなたポケモンあつめてるの\n"
+	.string "{JPN}わたしのむすこも\l"
+	.string "{JPN}ポケモンにくわしいのよ\p"
+	.string "{JPN}マサキっていうんだけど\n"
+	.string "{JPN}いまエンジュのポケモンセンターに\l"
+	.string "{JPN}よばれていったわ$"
 BillHouse_Text_MomAfterEcruteak:
-    .string "My husband was once known as a\n"
-    .string "POKéMANIAC.\p"
-    .string "BILL must have taken after his\n"
-    .string "father.$"
-
+	.string "{JPN}しゅじんはむかしポケモンマニア\nとよばれていたのよ\pマサキはおとうさんににたのね$"
 BillHouse_Text_SisterUsefulNumber:
-    .string "Are you a TRAINER?\p"
-    .string "I've got a useful phone number\n"
-    .string "for you.$"
-
+    .string "{JPN}あなたポケモントレーナー？\p"
+	.string "{JPN}だったらーあたしが\n"
+	.string "{JPN}すてきなでんわばんごう\l"
+	.string "{JPN}おしえてあげようか？$"
 BillHouse_Text_RecordedBillsNumber:
-    .string "{PLAYER} recorded BILL's number.$"
-
+	.string "{JPN}{PLAYER}はマサキのでんわばんごうを\nポケギアにとうろくした！$"
 BillHouse_Text_SisterRefusedNumber:
-    .string "My brother made the PC POKéMON\n"
-    .string "storage system.\p"
-    .string "I was going to give you BILL's\n"
-    .string "number…$"
-
+    .string "{JPN}パソコンでポケモンをあずかる\n"
+	.string "{JPN}システムをつくったの\l"
+	.string "{JPN}あたしのおにいちゃんなの\p"
+	.string "{JPN}あなたにマサキにいちゃんの\n"
+	.string "{JPN}でんわばんごうをとうろく\l"
+	.string "{JPN}してあげようとおもったのにぃ$"
 BillHouse_Text_SisterPhoneFull:
-    .string "You can't record any more numbers.$"
-
+	.string "{JPN}これいじょうでんわばんごうは\nとうろくできません$"
 BillHouse_Text_SisterStorageSystem:
-    .string "My big brother BILL made the PC\n"
-    .string "POKéMON storage system.$"
+    .string "{JPN}パソコンでポケモンをあずかる\n"
+	.string "{JPN}システムをつくったの\l"
+	.string "{JPN}あたしのおにいちゃんなの！$"

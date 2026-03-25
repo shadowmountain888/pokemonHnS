@@ -387,160 +387,154 @@ SlateportCity_Harbor_EventScript_TradedScanner::
 	end
 
 SlateportCity_Harbor_Text_FerryServiceUnavailable:
-	.string "I beg your pardon?\n"
-	.string "You're looking for a ship?\p"
-	.string "I'm sorry, the ferry service isn't\n"
-	.string "available at present…$"
-
+	.string "{JPN}もうしわけございません.\n"
+	.string "{JPN}ふねをおさがしですか?\p"
+	.string "{JPN}もうしわけありませんが \n"
+	.string "{JPN}フェリーサービスは\lげんざいりようできません...$"
 SlateportCity_Harbor_Text_MayISeeYourTicket:
-	.string "Hello, are you here for the ferry?\n"
-	.string "May I see your TICKET?$"
+	.string "{JPN}こんにちは フェリーで\n"
+	.string "{JPN}りょこうされますか?\nチケットを みせて\nください.$"
 
 SlateportCity_Harbor_Text_YouMustHaveTicket:
-	.string "{PLAYER} doesn't have the TICKET…\p"
-	.string "I'm terribly sorry.\p"
-	.string "You must have a TICKET to board\n"
-	.string "the ferry.$"
+	.string "{JPN}{PLAYER}は チケットを\n"
+	.string "{JPN}もっていない...\p"
+	.string "{JPN}ほんとうにもうしわけ\n"
+	.string "{JPN}ございません.\pフェリーにのるには\nチケットがひつようです.$"
 
 SlateportCity_Harbor_Text_FlashedTicketWhereTo:
-	.string "{PLAYER} flashed the TICKET.\p"
-	.string "Perfect! That's all you need!\p"
-	.string "And where would you like to go?$"
+	.string "{JPN}{PLAYER}は チケットを\n"
+	.string "{JPN}みせた.\p"
+	.string "{JPN}かんぺき! じゅんびは\nばんたんです!\pどちらに いかれますか?$"
 
 SlateportCity_Harbor_Text_SailAnotherTime:
-	.string "Please sail with us another time!$"
+	.string "{JPN}また こんどの きかいに\nごりよう ください!$"
 
 SlateportCity_Harbor_Text_LilycoveItIs:
-	.string "LILYCOVE CITY it is, then!$"
+	.string "{JPN}ミナモシティ ですね!$"
 
 SlateportCity_Harbor_Text_BattleFrontierItIs:
-	.string "BATTLE FRONTIER it is, then!$"
+	.string "{JPN}バトルフロンティア ですね!$"
 
 SlateportCity_Harbor_Text_PleaseBoardFerry:
-	.string "Please board the ferry and wait for\n"
-	.string "departure.$"
+	.string "{JPN}フェリーに のって\n"
+	.string "{JPN}しゅっぱつまで おまちください.$"
 
 SlateportCity_Harbor_Text_WhereWouldYouLikeToGo:
-	.string "Then, where would you like to go?$"
+	.string "{JPN}では どちらに いかれますか?$"
 
 SlateportCity_Harbor_Text_LoveToGoDeepUnderwaterSomeday:
-	.string "A journey to the bottom of the sea…\n"
-	.string "I wonder what it'd be like?\p"
-	.string "I'd love to go deep underwater like\n"
-	.string "that someday.$"
+	.string "{JPN}うみのそこへのたび...\n"
+	.string "{JPN}どんなかんじなんでしょう?\p"
+	.string "{JPN}いつかふかいうみのそこに\n"
+	.string "{JPN}いってみたいです.$"
 
 SlateportCity_Harbor_Text_AbnormalWeather:
-	.string "For a ship to sail safely, we need to\n"
-	.string "know about the weather!\p"
-	.string "Speaking of weather, I heard something\n"
-	.string "from a guy at the WEATHER INSTITUTE.\p"
-	.string "He was saying abnormal weather has\n"
-	.string "been reported all over the place!\p"
-	.string "You should visit the WEATHER INSTITUTE\n"
-	.string "and ask around!$"
+	.string "{JPN}ふねが あんぜんに こうかい\n"
+	.string "{JPN}するには てんきが だいじだ!\p"
+	.string "{JPN}そういえば きしょうけんきゅうじょの\n"
+	.string "{JPN}ひとから きいたはなしが ある.\p"
+	.string "{JPN}せかいじゅうで いじょうきしょうが\n"
+	.string "{JPN}ほうこく されてるらしい!\p"
+	.string "{JPN}きしょうけんきゅうじょに いって\n"
+	.string "{JPN}はなしを きいてみるといい!$"
 
 SlateportCity_Harbor_Text_SubTooSmallForMe:
-	.string "I wanted to go with CAPT. STERN on\n"
-	.string "the ocean floor exploration.\p"
-	.string "But the sub's too small for me.\p"
-	.string "If I squeezed in, there wouldn't be\n"
-	.string "any room for the CAPTAIN…$"
-
+	.string "{JPN}クスノキ せんちょう といっしょに\n"
+	.string "{JPN}かいていたんさに いきたかったんだ.\p"
+	.string "{JPN}でも せんすいかんが ちいさすぎて\n"
+	.string "{JPN}ぼくには むりだよ.\p"
+	.string "{JPN}もし ぼくが のりこんだら\nせんちょうの ばしょが なくなっちゃう...$"
 SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum:
-	.string "CAPT. STERN: Those thugs…\p"
-	.string "They're the same lot who tried to rob\n"
-	.string "the DEVON GOODS at the MUSEUM.$"
+	.string "{JPN}クスノキせんちょう: あの あくとうども...\p"
+	.string "{JPN}はくぶつかんで デボンのしなを\n"
+	.string "{JPN}ぬすもうとした れんちゅうと おなじだ.$"
 
 SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
-	.string "ARCHIE: Oh?\n"
-	.string "Not you again…\p"
-	.string "You are tenacious to track us here,\n"
-	.string "that much I will give you.\p"
-	.string "But now…\n"
-	.string "No one can stop us! No one!\p"
-	.string "Or, will you follow us back to our\n"
-	.string "HIDEOUT in LILYCOVE CITY?\p"
-	.string "Fwahahahaha…$"
-
+	.string "{JPN}アクア: おや?\n"
+	.string "{JPN}またおまえか...\p"
+	.string "{JPN}ここまでおいかけてくるとは\n"
+	.string "{JPN}しつこいやつだ.\p"
+	.string "{JPN}だがいまでは...\n"
+	.string "{JPN}だれにもとめられん! だれにも!\p"
+	.string "{JPN}それともわれらがアジトの\n"
+	.string "{JPN}ミナモシティまで\l"
+	.string "{JPN}おいかけてくるか?\pふぁっはっはっは...$"
 SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine:
-	.string "CAPT. STERN: Why…\p"
-	.string "Why would TEAM AQUA steal my\n"
-	.string "SUBMARINE EXPLORER 1?\p"
-	.string "They can't be after the slumbering\n"
-	.string "POKéMON at the bottom of the sea…\p"
-	.string "But even if I were to chase them,\n"
-	.string "I don't stand a chance against them…$"
-
+	.string "{JPN}クスノキかんちょう: なぜ...\p"
+	.string "{JPN}なぜアクアだんが ぼくの\n"
+	.string "{JPN}せんすいかん エクスプローラー1を\l"
+	.string "{JPN}ぬすんだんだ?\p"
+	.string "{JPN}うみのそこでねむっている\n"
+	.string "{JPN}ポケモンがめあてとは\l"
+	.string "{JPN}おもえないが...\pぼくがおいかけても\nかれらにはかなわない...$"
 SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
-	.string "CAPT. STERN: Oh, {PLAYER}{KUN}…\p"
-	.string "Okay… So TEAM AQUA left before you\n"
-	.string "could stop them…\p"
-	.string "Oh, no, don't blame yourself.\n"
-	.string "You're not responsible for this.\p"
-	.string "Trying to catch a submarine…\n"
-	.string "It's impossible for most people.\p"
-	.string "You would need a POKéMON that knows\n"
-	.string "how to DIVE…\p"
-	.string "Perhaps if you went out to\n"
-	.string "MOSSDEEP CITY…\p"
-	.string "A lot of divers live out there, so\n"
-	.string "someone might teach you…$"
-
+	.string "{JPN}クスノキかんちょう: おお \n"
+	.string "{JPN}{PLAYER}くん...\p"
+	.string "{JPN}そうか... アクアだんは\n"
+	.string "{JPN}きみがとめるまえに\l"
+	.string "{JPN}いってしまったのか...\p"
+	.string "{JPN}いや じぶんをせめては\n"
+	.string "{JPN}いけないよ.\p"
+	.string "{JPN}きみのせいじゃない.\p"
+	.string "{JPN}せんすいかんをつかまえるなんて\n"
+	.string "{JPN}ふつうのひとには\l"
+	.string "{JPN}むりなことだ.\p"
+	.string "{JPN}ダイビングをおぼえた\n"
+	.string "{JPN}ポケモンがひつようだ...\pミナモシティにいって\nみるといい...\pダイバーがおおくすんでいるから\nだれかがおしえてくれる\lかもしれない...$"
 SlateportCity_Harbor_Text_NeedDiveToCatchSub:
-	.string "CAPT. STERN: Trying to catch a\n"
-	.string "submarine… It's impossible.\p"
-	.string "You would need a POKéMON that knows\n"
-	.string "how to DIVE…\p"
-	.string "Perhaps if you went out to\n"
-	.string "MOSSDEEP CITY…\p"
-	.string "A lot of divers live out there, so\n"
-	.string "someone might teach you…$"
-
+	.string "{JPN}クスノキかんちょう: せんすいかんを\n"
+	.string "{JPN}つかまえるなんて...\l"
+	.string "{JPN}むりなことだ.\p"
+	.string "{JPN}ダイビングをおぼえた\n"
+	.string "{JPN}ポケモンがひつようだ...\p"
+	.string "{JPN}ミナモシティにいって\n"
+	.string "{JPN}みるといい...\p"
+	.string "{JPN}ダイバーがおおくすんでいるから\nだれかがおしえてくれる\lかもしれない...$"
 SlateportCity_Harbor_Text_WontBeLongBeforeWeFinishFerry:
-	.string "CAPT. STERN: Oh, yes.\n"
-	.string "MR. BRINEY came to our SHIPYARD.\p"
-	.string "It won't be long now before we finish\n"
-	.string "making the ferry!$"
+	.string "{JPN}センチョウ:ああ そうそう.\n"
+	.string "{JPN}ハギろうじんが ぞうせんじょに.\p"
+	.string "{JPN}もうすぐ フェリーが\n"
+	.string "{JPN}かんせいするよ!$"
 
 SlateportCity_Harbor_Text_FinishedMakingFerry:
-	.string "CAPT. STERN: {PLAYER}{KUN}!\p"
-	.string "We finally finished making the ferry\n"
-	.string "S.S. TIDAL!\p"
-	.string "We couldn't have done it without\n"
-	.string "your friend MR. BRINEY.\p"
-	.string "Please go for a short cruise on it!$"
+	.string "{JPN}センチョウ:{PLAYER}くん!\p"
+	.string "{JPN}ついに フェリー\n"
+	.string "{JPN}タイドリッパーごうが かんせいした!\p"
+	.string "{JPN}ハギろうじんの おかげだよ.\p"
+	.string "{JPN}ぜひ たんきかんこうに\n"
+	.string "{JPN}でかけてくれ!$"
 
 SlateportCity_Harbor_Text_WouldYouTradeScanner:
-	.string "CAPT. STERN: Oh?\n"
-	.string "{PLAYER}{KUN}, that item you have…\p"
-	.string "That's a SCANNER! That would sure\n"
-	.string "help us on our explorations.\p"
-	.string "{PLAYER}{KUN}, would you trade your\n"
-	.string "SCANNER for something?\p"
-	.string "Like, say, a DEEPSEATOOTH or\n"
-	.string "a DEEPSEASCALE that I have?$"
+	.string "{JPN}クスノキかんちょう: おや?\n"
+	.string "{JPN}{PLAYER}くん そのアイテムは...\p"
+	.string "{JPN}それはスキャナーだね!\n"
+	.string "{JPN}ぼくらのたんさくにやくだつよ.\p"
+	.string "{JPN}{PLAYER}くん そのスキャナーを\n"
+	.string "{JPN}なにかとこうかんしてくれないか?\p"
+	.string "{JPN}たとえば ぼくがもっている\n"
+	.string "{JPN}しんかいのキバや\lしんかいのウロコと?$"
 
 SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow:
-	.string "CAPT. STERN: Are you certain?\n"
-	.string "It's useless to you, {PLAYER}{KUN}…\p"
-	.string "Well, okay, then. If you want to trade\n"
-	.string "your SCANNER, let me know.$"
+	.string "{JPN}クスノキかんちょう: ほんとうに?\n"
+	.string "{JPN}きみにはいらないものなのに\n"
+	.string "{JPN}{PLAYER}くん...\p"
+	.string "{JPN}まあ いいよ.スキャナーを\nこうかんしたくなったら\lこえをかけてくれ.$"
 
 SlateportCity_Harbor_Text_TradeForDeepSeaTooth:
-	.string "CAPT. STERN: So you'll trade it for\n"
-	.string "my DEEPSEATOOTH?$"
+	.string "{JPN}センチョウ:それと わたしの\n"
+	.string "{JPN}しんかいのキバを こうかんかい?$"
 
 SlateportCity_Harbor_Text_TradeForDeepSeaScale:
-	.string "CAPT. STERN: So you'll trade it for\n"
-	.string "my DEEPSEASCALE?$"
+	.string "{JPN}センチョウ:それと わたしの\n"
+	.string "{JPN}しんかいのウロコを こうかんかい?$"
 
 SlateportCity_Harbor_Text_WhichOneDoYouWant:
-	.string "CAPT. STERN: Which one do you want?$"
+	.string "{JPN}センチョウ:どちらが ほしいかな?$"
 
 SlateportCity_Harbor_Text_HandedScannerToStern:
-	.string "{PLAYER} handed the SCANNER to\n"
-	.string "CAPT. STERN.$"
+	.string "{JPN}{PLAYER}は スキャナーを\n"
+	.string "{JPN}センチョウに わたした.$"
 
 SlateportCity_Harbor_Text_ThisWillHelpResearch:
-	.string "CAPT. STERN: Thanks, {PLAYER}{KUN}!\n"
-	.string "This will help our research a lot!$"
+	.string "{JPN}センチョウ:ありがとう {PLAYER}くん!\n"
+	.string "{JPN}これで けんきゅうが すすむよ!$"

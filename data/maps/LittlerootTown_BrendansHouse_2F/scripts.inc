@@ -273,40 +273,39 @@ PlayersHouse_2F_EventScript_GameCube::
 	end
 
 PlayersHouse_2F_Text_ClockIsStopped:
-	.string "The clock is stopped…\p"
-	.string "Better set it and start it before\n"
-	.string "heading downstairs!$"
+	.string "{JPN}とけいが とまってる...\p"
+	.string "{JPN}かいだんを おりるまえに\n"
+	.string "{JPN}じこくを あわせて うごかそう!$"
 
 PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
-	.string "MOM: {PLAYER}, how do you like your\n"
-	.string "new room?\p"
-	.string "Good! Everything's put away neatly!\p"
-	.string "They finished moving everything in\n"
-	.string "downstairs, too.\p"
-	.string "POKéMON movers are so convenient!\p"
-	.string "Oh, you should make sure that\n"
-	.string "everything's all there on your desk.$"
+	.string "{JPN}ママ: {PLAYER} あたらしい\n"
+	.string "{JPN}へやは どう?\p"
+	.string "{JPN}いいわね! きちんと\n"
+	.string "{JPN}かたづいてるじゃない!\p"
+	.string "{JPN}したも ぜんぶ\n"
+	.string "{JPN}ひっこしが おわったのよ.\p"
+	.string "{JPN}ポケモンの ひっこしやさんって\n"
+	.string "{JPN}べんりね!\pあ つくえの うえの ものが\nぜんぶ あるか みてね.$"
 
 PlayersHouse_2F_Text_Notebook:
-	.string "{PLAYER} flipped open the notebook.\p"
-	.string "ADVENTURE RULE NO. 1\n"
-	.string "Open the MENU with START.\p"
-	.string "ADVENTURE RULE NO. 2\n"
-	.string "Record your progress with SAVE.\p"
-	.string "The remaining pages are blank…$"
-
+	.string "{JPN}{PLAYER}は てちょうを ひらいた.\p"
+	.string "{JPN}ぼうけんのルール その1\n"
+	.string "{JPN}スタートボタンで メニューを ひらく.\p"
+	.string "{JPN}ぼうけんのルール その2\n"
+	.string "{JPN}セーブで きろくを のこす.\p"
+	.string "{JPN}のこりの ページは まっしろだ...$"
 Common_Text_LookCloserAtMap:
-	.string "{PLAYER} took a closer look at the\n"
-	.string "REGION MAP.$"
+	.string "{JPN}{PLAYER}は ちほうマップを\n"
+	.string "{JPN}じっくりと みた.$"
 
 PlayersHouse_2F_Text_ItsAGameCube:
-	.string "It's a Nintendo GameCube.\p"
-	.string "A Game Boy Advance is connected to\n"
-	.string "serve as the Controller.$"
+	.string "{JPN}ニンテンドー ゲームキューブだ.\p"
+	.string "{JPN}ゲームボーイアドバンスが\n"
+	.string "{JPN}コントローラーとして つながってる.$"
 
 Common_Text_ReceivedMon:
-	.string "{PLAYER} received {STR_VAR_1}!$"
+	.string "{JPN}{PLAYER}は {STR_VAR_1}を\nもらった!$"
 
 Common_Text_PartyIsFull:
-	.string "Whoa, wait. You can't carry any\n"
-	.string "more POKéMON.$"	
+	.string "{JPN}あ ちょっとまって. これいじょう\n"
+	.string "{JPN}ポケモンは つれて あるけないよ.$"

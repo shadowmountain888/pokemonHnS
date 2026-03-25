@@ -154,19 +154,18 @@ LilycoveCity_DepartmentStore_5F_EventScript_LittleGirl::
 	end
 
 LilycoveCity_DepartmentStore_5F_Text_PlaceFullOfCuteDolls:
-	.string "This place is full of cute DOLLS.\p"
-	.string "I should buy some for me, instead of\n"
-	.string "just for my children.$"
+	.string "{JPN}ここは かわいい にんぎょうが\n"
+	.string "{JPN}いっぱいだね.\p"
+	.string "{JPN}こどもの ぶんだけじゃなく\nわたしの ぶんも かっちゃおうかな.$"
 
 LilycoveCity_DepartmentStore_5F_Text_GettingDollInsteadOfPokemon:
-	.string "I'm not big enough to raise POKéMON,\n"
-	.string "so I'm getting a cute DOLL instead.$"
+	.string "{JPN}わたしは まだ ポケモンを\n"
+	.string "{JPN}そだてるには ちいさいから\nかわいい にんぎょうに するの.$"
 
 LilycoveCity_DepartmentStore_5F_Text_SellManyCuteMatsHere:
-	.string "They sell many cute MATS here.\p"
-	.string "I wonder which one I should get?\n"
-	.string "Maybe I'll buy them all…$"
-
+	.string "{JPN}ここでは かわいい マットを\n"
+	.string "{JPN}たくさん うってるのね.\p"
+	.string "{JPN}どれに しようかしら?\nぜんぶ かっちゃおうかな...$"
 LilycoveCity_DepartmentStore_5F_Text_ClosedRooftopForWeather:
-	.string "I think they closed the rooftop\n"
-	.string "because the weather is wild today.$"
+	.string "{JPN}きょうは てんきが わるいから\n"
+	.string "{JPN}おくじょうが しまってるんだと\nおもうよ.$"

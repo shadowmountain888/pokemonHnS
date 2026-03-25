@@ -35,41 +35,37 @@ Route4_EventScript_Sign::
 	end
 
 Route4_Text_BirdKeeperHank_Seen:
-	.string "I'm raising my POKéMON. Want to battle\n"
-	.string "with me?$"
+	.string "{JPN}ぼくは ポケモンを そだててるんだ.\n"
+	.string "{JPN}いっしょに バトルしない?$"
 
 Route4_Text_BirdKeeperHank_Beaten:
-	.string "Ack! I lost that one…$"
-
+	.string "{JPN}Ack! I lost that one...$"
 Route4_Text_BirdKeeperHank_AfterBattle:
-	.string "If you have a specific POKéMON that you\n"
-	.string "want to raise, put it out first, then\l"
-	.string "switch it right away.\p"
-	.string "That's how to do it.$"
+	.string "{JPN}とくていの ポケモンを そだてたいなら\n"
+	.string "{JPN}さいしょに だして すぐに\l"
+	.string "{JPN}こうたいするんだ.\p"
+	.string "{JPN}それが コツだよ.$"
 
 Route4_Text_PicnickerHope_Seen:
-	.string "I have a feeling that I can win.\p"
-	.string "Let's see if I'm right!$"
+	.string "{JPN}なんだか かてそうな きがするの.\p"
+	.string "{JPN}ほんとうか たしかめましょ!$"
 
 Route4_Text_PicnickerHope_Beaten:
-	.string "Aww, you are too strong.$"
+	.string "{JPN}あーあ あなた つよすぎるのよ.$"
 
 Route4_Text_PicnickerHope_AfterBattle:
-	.string "I heard CLEFAIRY appear at MT.MOON.\p"
-	.string "But where could they be?$"
+	.string "{JPN}おつきみやまに ピッピが でるって\n"
+	.string "{JPN}きいたことがあるの.\pでも どこにいるのかしら?$"
 
 Route4_Text_PicnickerSharon_Seen:
-	.string "Um…\n"
-	.string "I…$"
-
+	.string "{JPN}Um...\n"
+	.string "{JPN}I...$"
 Route4_Text_PicnickerSharon_Beaten:
-	.string "…$"
-
+	.string "{JPN}...$"
 Route4_Text_PicnickerSharon_AfterBattle:
-	.string "……I'll go train some more…$"
-
+	.string "{JPN}...I'll go train some more...$"
 Route4_Text_MtMoonSquareSign:
-	.string "MT.MOON NEW ENTRANCE\n"
-	.string "DUE TO CAVE-IN\p"
-	.string "WATCH YOUR STEP$"
+	.string "{JPN}おつきみやま あたらしい いりぐち\n"
+	.string "{JPN}どうくつの くずれにより\p"
+	.string "{JPN}あしもとに ちゅうい$"
 

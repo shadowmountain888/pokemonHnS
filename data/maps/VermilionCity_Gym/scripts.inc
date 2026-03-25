@@ -287,143 +287,142 @@ VermilionCity_Gym_EventScript_Surge_Defeated::
 	end
 
 VermilionGym_Text_LtSurgeIntro:
-	.string "SURGE: Hey, you little tyke!\p"
-	.string "I have to hand it to you.\n"
-	.string "It may not be very smart to\l"
-	.string "challenge me, but it takes guts!\p"
-	.string "When it comes to electric\n"
-	.string "POKéMON, I'm number one!\p"
-	.string "I've never lost on the\n"
-	.string "battlefield.\p"
-	.string "I'll zap you just like I did my\n"
-	.string "enemies in war!$"
+	.string "{JPN}マチス: おい ちびっこ!\p"
+	.string "{JPN}たいしたもんだな.\p"
+	.string "{JPN}おれに ちょうせんするなんて\n"
+	.string "{JPN}あたまが わるいが\l"
+	.string "{JPN}どきょうは あるぜ!\p"
+	.string "{JPN}でんきタイプの ポケモンなら\n"
+	.string "{JPN}おれが ナンバーワンだ!\p"
+	.string "{JPN}せんじょうで いちども\n"
+	.string "{JPN}まけたことは ない.\p"
+	.string "{JPN}せんそうで てきを やっつけた\nように きみも やっつけて\lやる!$"
 
 VermilionGym_Text_LtSurgeWinLoss:
-	.string "SURGE: Arrrgh! You are strong!\p"
-	.string "OK, kid. You get THUNDERBADGE!$"
+	.string "{JPN}マチス: ぐあああ! つよいな!\p"
+	.string "{JPN}よし ぼうず.\nオレンジバッジを やる!$"
 
 VermilionGym_Text_ReceivedThunderBadge:
-	.string "{PLAYER} received THUNDERBADGE.$"
+	.string "{JPN}{PLAYER}は オレンジバッジを\nもらった!$"
 
 VermilionGym_Text_ThunderBadgeInfo:
-	.string "SURGE: THUNDERBADGE increases\n"
-	.string "POKéMON's speed.\p"
-	.string "Consider it proof that you\n"
-	.string "defeated me.\p"
-	.string "You wear it proudly, hear?$"
+	.string "{JPN}マチス: オレンジバッジは\n"
+	.string "{JPN}ポケモンの すばやさを\l"
+	.string "{JPN}あげるぜ.\p"
+	.string "{JPN}おれに かったあかしだ.\p"
+	.string "{JPN}ほこりを もって つけろよ!$"
 
 VermilionGym_Text_LtSurgeTm:
-	.string "And take this TM. It served me\n"
-	.string "well in the war!$"
+	.string "{JPN}それと この わざマシンも\n"
+	.string "{JPN}やる. せんそうで やくに\lたったからな!$"
 
 VermilionGym_Text_LtSurgeThunderstone:
-	.string "And take this stone. It has real\n"
-	.string "thunder power!$"
+	.string "{JPN}それと この いしも やる.\n"
+	.string "{JPN}ほんものの かみなりの ちから\nが あるぜ!$"
 
 
 VermilionGym_Text_LtSurgePostBattle:
-	.string "SURGE: Hey, kid! Still slugging\n"
-	.string "and chugging away?\p"
-	.string "My POKéMON and I are still at it!$"
+	.string "{JPN}マチス: おい ぼうず!\n"
+	.string "{JPN}まだ がんばってるか?\p"
+	.string "{JPN}おれと ポケモンも\nまだまだ げんえきだぜ!$"
 
 VermilionGym_Text_SurgeRematch:
-	.string "SURGE: So, you're now KANTO\n"
-	.string "CHAMPION!\p"
-	.string "Impressive work, kid!\n"
-	.string "But don't think I'm done!\p"
-	.string "How about we have a go again?$"
+	.string "{JPN}マチス: なんと きみは\n"
+	.string "{JPN}カントーチャンピオンに!\p"
+	.string "{JPN}たいしたもんだ ぼうず!\n"
+	.string "{JPN}でも おれは まけんぞ!\p"
+	.string "{JPN}もう いっかい しょうぶ\nしないか?$"
 
 VermilionGym_Text_SurgeRematchDefeat:
-	.string "SURGE: Arrrgh! You're still just\n"
-	.string "as strong!$"
+	.string "{JPN}マチス: ぐあああ! まだまだ\n"
+	.string "{JPN}つよいじゃないか!$"
 
 VermilionGym_Text_GentlemanGregorySeen:
-	.string "You're here to defeat LT.SURGE?\p"
-	.string "Not if I can help it!$"
+	.string "{JPN}マチスたいちょうを たおしに\n"
+	.string "{JPN}きたのか?\pそうは させん!$"
 
 VermilionGym_Text_GentlemanGregoryBeaten:
-	.string "Sorry I failed you,\n"
-	.string "LT.SURGE, sir!$"
+	.string "{JPN}マチスたいちょう もうしわけ\n"
+	.string "{JPN}ありません!$"
 
 VermilionGym_Text_GentlemanGregoryAfter:
-	.string "When I was still in the army,\n"
-	.string "LT.SURGE saved my life.$"
+	.string "{JPN}わたしが ぐんたいに いたとき\n"
+	.string "{JPN}マチスたいちょうに いのちを\lすくわれたのです.$"
 
 VermilionGym_Text_GuitaristVincentSeen:
-	.string "LT.SURGE recognized my potential\n"
-	.string "with electric POKéMON.\p"
-	.string "Think you can beat me?$"
+	.string "{JPN}マチスたいちょうが でんき\n"
+	.string "{JPN}ポケモンでの わたしの のうりょく\l"
+	.string "{JPN}を みとめてくれた.\pきみに かてると おもうか?$"
 
 VermilionGym_Text_GuitaristVincentBeaten:
-	.string "Ooh, how shocking!$"
+	.string "{JPN}うう ショックだ!$"
 
 VermilionGym_Text_GuitaristVincentAfter:
-	.string "Mom told me not to quit my\n"
-	.string "day job, but what am I supposed\l"
-	.string "to do when I'm not finding\l"
-	.string "success there either?$"
+	.string "{JPN}かあちゃんに しごとを\n"
+	.string "{JPN}やめるなって いわれたけど\l"
+	.string "{JPN}そっちでも うまく いって\l"
+	.string "{JPN}ないんだよね.$"
 
 VermilionGym_Text_JugglerHortonSeen:
-	.string "I'm going to take you down!\n"
-	.string "Prepare to be shocked!$"
+	.string "{JPN}きみを たおしてやる!\n"
+	.string "{JPN}ビリビリに してやるぜ!$"
 
 VermilionGym_Text_JugglerHortonBeaten:
-	.string "Gwaaah! I was overpowered…$"
-
+	.string "{JPN}ぐわあああ!ちからで\nまけてしまった...$"
 VermilionGym_Text_JugglerHortonAfter:
-	.string "Don't get too comfortable about\n"
-	.string "beating me…\p"
-	.string "LT.SURGE is tough.$"
+	.string "{JPN}おれにかったからって\n"
+	.string "{JPN}ちょうしにのるなよ...\p"
+	.string "{JPN}マチスたいちょうは\nつよいぞ$"
 
 VermilionCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "LT. SURGE has a nickname.\p"
-    .string "People refer to him as the\n"
-    .string "Lightning American!\p"
-    .string "He's an expert on electric\n"
-    .string "POKéMON.\p"
-    .string "FLYING/WATER-type POKéMON match\n"
-    .string "poorly against the ELECTRIC type.\p"
-    .string "Beware of paralysis, too.\p"
-    .string "LT. SURGE is very cautious.\p"
-    .string "He's locked himself in, so it won't\n"
-    .string "be easy getting to him.$"
+    .string "{JPN}よう!\n"
+	.string "{JPN}みらいの チャンピオン!\p"
+    .string "{JPN}マチスには あだなが あるんだ.\p"
+	.string "{JPN}でんきにんげんって よばれて\n"
+    .string "{JPN}いるぜ!\p"
+	.string "{JPN}でんきポケモンの エキスパート\n"
+    .string "{JPN}なんだ.\p"
+	.string "{JPN}ひこう みずタイプは でんき\n"
+    .string "{JPN}タイプに よわいぞ.\p"
+	.string "{JPN}mひまも きをつけろよ.\p"
+    .string "{JPN}マチスは とても しんちょうだ.\p"
+	.string "{JPN}じぶんを とじこめてるから\n"
+    .string "{JPN}かんたんには あえないぜ.$"
 
 VermilionCity_Gym_Text_GymGuyPostVictory::
-	.string "Whew! That was an electrifying\n"
-	.string "bout!\p"
-	.string "It sure made me nervous.$"
+	.string "{JPN}ふう! でんげきてきな\n"
+	.string "{JPN}たたかいだったな!\p"
+	.string "{JPN}こっちまで どきどき したぜ.$"
 
 VermilionCity_Gym_Text_GymStatue::
-    .string "VERMILION POKéMON GYM\n"
-    .string "LEADER: LT. SURGE\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE, RED$"
+    .string "{JPN}クチバ ポケモンジム\n"
+	.string "{JPN}ジムリーダー:マチス\p"
+	.string "{JPN}しょうりした トレーナー:\n"
+	.string "{JPN}グリーン レッド$"
 
 
 VermilionCity_Gym_Text_GymStatuePlayerWon::
-    .string "VERMILION POKéMON GYM\n"
-    .string "LEADER: LT. SURGE\p"
-    .string "WINNING TRAINERS:\n"
-    .string "BLUE, RED, {PLAYER}$"
+    .string "{JPN}クチバ ポケモンジム\n"
+	.string "{JPN}ジムリーダー:マチス\p"
+    .string "{JPN}しょうりした トレーナー:\n"
+	.string "{JPN}グリーン レッド {PLAYER}$"
 
 VermilionCity_Gym_Text_NopeOnlyTrashHere::
-    .string "Nope!\n"
-    .string "There's only trash here.$"
+    .string "{JPN}だめ!\n"
+	.string "{JPN}ごみしか ないよ.$"
 
 VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened::
-    .string "Hey! There's a switch under the\n"
-    .string "trash! Turn it on!\p"
-    .string "The first electric lock opened!$"
+    .string "{JPN}おや! ごみのしたに スイッチが!\n"
+	.string "{JPN}おしてみよう!\p"
+    .string "{JPN}だい1の でんきじょうが\nはずれた!$"
 
 VermilionCity_Gym_Text_SecondLockOpened::
-    .string "The second electric lock opened!\n"
-    .string "The motorized door opened!$"
+    .string "{JPN}だい2の でんきじょうが\n"
+	.string "{JPN}はずれた!\nじどうドアが あいた!$"
 
 VermilionCity_Gym_Text_OnlyTrashLocksWereReset::
-    .string "Nope!\n"
-    .string "There's only trash here.\p"
-    .string "Hey!\n"
-    .string "The electric locks were reset!$"
+    .string "{JPN}だめ!\n"
+	.string "{JPN}ごみしか ないよ.\p"
+    .string "{JPN}あ!\n"
+	.string "{JPN}でんきじょうが リセットされた!$"
 

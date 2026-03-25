@@ -1,96 +1,94 @@
 gContestHallPaintingCaption::
-	.string "{STR_VAR_1}\n"
-	.string "{STR_VAR_2}'s {STR_VAR_3}$"
+	.string "{JPN}コンテスト$"
 
 @ Unused
 gContestPaintingContest::
-	.string "CONTEST$"
+	.string "{JPN}ノーマルランク$"
 
 gContestRankNormal::
-	.string "NORMAL RANK$"
+	.string "{JPN}スーパーランク$"
 
 gContestRankSuper::
-	.string "SUPER RANK$"
+	.string "{JPN}ハイパーランク$"
 
 gContestRankHyper::
-	.string "HYPER RANK$"
+	.string "{JPN}マスターランク$"
 
 gContestRankMaster::
-	.string "MASTER RANK$"
+	.string "{JPN}つうしん$"
 
 gContestLink::
-	.string "LINK$"
+	.string "{JPN}かっこよさ$"
 
 gContestCoolness::
-	.string "COOLNESS$"
+	.string "{JPN}うつくしさ$"
 
 gContestBeauty::
-	.string "BEAUTY$"
+	.string "{JPN}かわいさ$"
 
 gContestCuteness::
-	.string "CUTENESS$"
+	.string "{JPN}かしこさ$"
 
 gContestSmartness::
-	.string "SMARTNESS$"
+	.string "{JPN}たくましさ$"
 
 gContestToughness::
-	.string "TOUGHNESS$"
+	.string "{JPN}スーパー クール\n"
+	.string "{JPN}ノンストップ {STR_VAR_1}$"
 
 gContestPaintingCool1::
-	.string "Nonstop supercool--\n"
-	.string "the inestimable {STR_VAR_1}$"
+	.string "{JPN}グッドルッキン ポケモン {STR_VAR_1}$"
 
 gContestPaintingCool2::
-	.string "Hey, there!\n"
-	.string "The good-looking POKéMON {STR_VAR_1}$"
+	.string "{JPN}マーベラス ワンダフル\n"
+	.string "{JPN}グレート {STR_VAR_1}$"
 
 gContestPaintingCool3::
-	.string "The marvelous, wonderful, and\n"
-	.string "very great {STR_VAR_1}$"
+	.string "{JPN}こんせいき さいごの ビーナス\n"
+	.string "{JPN}ビューティー {STR_VAR_1}$"
 
 gContestPaintingBeauty1::
-	.string "This century's last Venus--\n"
-	.string "the beautiful {STR_VAR_1}$"
+	.string "{JPN}{STR_VAR_1} クンの マブシイ\n"
+	.string "{JPN}キラキラ スマイル$"
 
 gContestPaintingBeauty2::
-	.string "{STR_VAR_1}'s dazzling,\n"
-	.string "glittering smile$"
+	.string "{JPN}ポケモンセンター の\n"
+	.string "{JPN}スーパー アイドル {STR_VAR_1}$"
 
 gContestPaintingBeauty3::
-	.string "POKéMON CENTER's super idol--\n"
-	.string "the incomparable {STR_VAR_1}$"
+	.string "{JPN}ラブリー スウィート {STR_VAR_1} ちゃん$"
 
 gContestPaintingCute1::
-	.string "The lovely and sweet {STR_VAR_1}$"
+	.string "{JPN}プリティー {STR_VAR_1}たんの\n"
+	.string "{JPN}おすまし ショット$"
 
 gContestPaintingCute2::
-	.string "The pretty {STR_VAR_1}'s\n"
-	.string "winning portrait$"
+	.string "{JPN}こっち むいて!\n"
+	.string "{JPN}キュート ポケモン {STR_VAR_1} ちゃん$"
 
 gContestPaintingCute3::
-	.string "Give us a wink!\n"
-	.string "The cutie POKéMON {STR_VAR_1}$"
+	.string "{JPN}かしこさ マエストロ\n"
+	.string "{JPN}ワイズ ポケモン {STR_VAR_1}$"
 
 gContestPaintingSmart1::
-	.string "The smartness maestro--\n"
-	.string "the wise POKéMON {STR_VAR_1}$"
+	.string "{JPN}えらばれた ポケモン...\n"
+	.string "{JPN}ポケモンの なかの ポケモン {STR_VAR_1}$"
 
 gContestPaintingSmart2::
-	.string "{STR_VAR_1}--the one chosen\n"
-	.string "above all POKéMON$"
+	.string "{JPN}エクセレント {STR_VAR_1} の\n"
+	.string "{JPN}ゆうがな ひととき$"
 
 gContestPaintingSmart3::
-	.string "The excellent {STR_VAR_1}'s\n"
-	.string "moment of elegance$"
+	.string "{JPN}パワフル マッスル\n"
+	.string "{JPN}ハッスル {STR_VAR_1}$"
 
 gContestPaintingTough1::
-	.string "The powerfully muscular\n"
-	.string "speedster {STR_VAR_1}$"
+	.string "{JPN}ストロング ストロンガー\n"
+	.string "{JPN}ストロンゲスト {STR_VAR_1}$"
 
 gContestPaintingTough2::
-	.string "The strong, stronger, and\n"
-	.string "strongest {STR_VAR_1}$"
+	.string "{JPN}タフネス マイティー\n"
+	.string "{JPN}ハイパーポケモン {STR_VAR_1}!$"
 
 gContestPaintingTough3::
-	.string "The mighty tough\n"
-	.string "hyper POKéMON {STR_VAR_1}$"
+	.string "{JPN}ナゾノクサ$"

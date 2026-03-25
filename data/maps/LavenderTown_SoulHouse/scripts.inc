@@ -15,29 +15,28 @@ LavenderTownSoulHouse_EventScript_Granny::
 	end
 
 MrFuji_Text_Main:
-	.string "MR.FUJI: Welcome.\p"
-	.string "Hmm… You appear to be raising\n"
-	.string "your POKéMON in a kind and\l"
-	.string "loving manner.\p"
-	.string "POKéMON lovers come here to pay\n"
-	.string "their respects to departed\l"
-	.string "POKéMON.\p"
-	.string "Please offer condolences for the\n"
-	.string "souls of the departed POKéMON.\p"
-	.string "I'm sure that will make them\n"
-	.string "happy.$"
+	.string "{JPN}フジろうじん: ようこそ.\p"
+	.string "{JPN}ふむ... あなたは ポケモンを\n"
+	.string "{JPN}やさしく あいじょうをもって\l"
+	.string "{JPN}そだてているようじゃな.\p"
+	.string "{JPN}ポケモンを あいする ひとたちが\n"
+	.string "{JPN}ここへ きて なくなった\l"
+	.string "{JPN}ポケモンに おいのりするのじゃ.\n"
+	.string "{JPN}なくなった ポケモンの たましいに\n"
+	.string "{JPN}ついとうを ささげてくだされ.\p"
+	.string "{JPN}そうすれば ポケモンたちも\n"
+	.string "{JPN}きっと よろこんでくれるじゃろう.$"
 
 SoulHouse_Text_Teacher:
-	.string "There are other graves of POKéMON\n"
-	.string "here, I think.\p"
-	.string "There are many chambers that only\n"
-	.string "MR.FUJI may enter.$"
+	.string "{JPN}ここには ほかにも ポケモンの\n"
+	.string "{JPN}おはかが あると おもいます.\p"
+	.string "{JPN}フジろうじんしか はいれない\n"
+	.string "{JPN}へやが たくさん あります.$"
 
 SoulHouse_Text_Lass:
-	.string "I came with my mom to visit\n"
-	.string "POKéMON graves…$"
-
+	.string "{JPN}おかあさんと いっしょに\n"
+	.string "{JPN}ポケモンの おはかに\lおまいりに きました...$"
 SoulHouse_Text_Granny:
-	.string "The POKéMON that lived with me…\p"
-	.string "I loved them like my\n"
-	.string "grandchildren…$"
+	.string "{JPN}わたしと いっしょに くらしていた\n"
+	.string "{JPN}ポケモンたち...\p"
+	.string "{JPN}まごのように\nかわいがっていました...$"

@@ -492,7 +492,7 @@ u8 GetPlayerTextSpeedDelay(void)
 u8 AddStartMenuWindow(u8 numActions)
 {
     if (sStartMenuWindowId == WINDOW_NONE)
-        sStartMenuWindowId = AddWindowParameterized(0, 22, 1, 7, (numActions * 2) + 2, 15, 0x139);
+        sStartMenuWindowId = AddWindowParameterized(0, 23, 1, 6, (numActions * 2) + 2, 15, 0x139);
     return sStartMenuWindowId;
 }
 
@@ -2118,6 +2118,9 @@ void BufferSaveMenuText(u8 textId, u8 *dest, u8 color)
     switch (textId)
     {
         case SAVE_MENU_NAME:
+            // Prepend {JPN} so kana bytes render correctly
+            *(string++) = EXT_CTRL_CODE_BEGIN;
+            *(string++) = EXT_CTRL_CODE_JPN;
             StringCopy(string, gSaveBlock2Ptr->playerName);
             break;
         case SAVE_MENU_CAUGHT:

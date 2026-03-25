@@ -58,41 +58,41 @@ FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale::
 	end
 
 FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor:
-	.string "I'm the MOVE TUTOR.\p"
-	.string "I know all the moves that POKéMON\n"
-	.string "learn--every one of them--and I can\l"
-	.string "teach POKéMON those moves.\p"
-	.string "I can teach a move to a POKéMON\n"
-	.string "of yours if you'd like.\p"
-	.string "I'll do it for a HEART SCALE.\n"
-	.string "I'm collecting those now.$"
+	.string "{JPN}わたしは わざおしえです.\p"
+	.string "{JPN}ポケモンが おぼえる わざを\n"
+	.string "{JPN}すべて しっているのです.\l"
+	.string "{JPN}そして ポケモンに おしえることが\l"
+	.string "{JPN}できます.\p"
+	.string "{JPN}あなたの ポケモンに わざを\n"
+	.string "{JPN}おしえることも できますよ.\p"
+	.string "{JPN}ハートのウロコ 1まいで\nおしえます.\lいま あつめているんです.$"
 
 FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
-	.string "Oh! That's it! That's an honest to\n"
-	.string "goodness HEART SCALE!\p"
-	.string "Let me guess, you want me to teach\n"
-	.string "a move?$"
+	.string "{JPN}おお! それです! それは\n"
+	.string "{JPN}ほんものの ハートのウロコ\l"
+	.string "{JPN}ですね!\p"
+	.string "{JPN}もしかして わざを おしえて\nほしいのですか?$"
 
 FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon:
-	.string "Which POKéMON needs tutoring?$"
+	.string "{JPN}どの ポケモンに おしえますか?$"
 
 FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove:
-	.string "Which move should I teach?$"
+	.string "{JPN}どの わざを おしえましょうか?$"
 
 FallarborTown_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon:
-	.string "Sorry…\p"
-	.string "It doesn't appear as if I have any move\n"
-	.string "I can teach that POKéMON.$"
+	.string "{JPN}すみません...\p"
+	.string "{JPN}そのポケモンに おしえられる\n"
+	.string "{JPN}わざは ないようですね$"
 
 FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale:
-	.string "{PLAYER} handed over one HEART SCALE\n"
-	.string "in exchange.$"
+	.string "{JPN}{PLAYER}は ハートのウロコを\n"
+	.string "{JPN}1まい わたした!$"
 
 FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
-	.string "If your POKéMON need to learn a move,\n"
-	.string "come back with a HEART SCALE.$"
+	.string "{JPN}ポケモンに わざを おぼえさせたい\n"
+	.string "{JPN}ときは ハートのウロコを\lもってきて くださいね.$"
 
 FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg:
-	.string "Hunh? There isn't a single move that\n"
-	.string "I can teach an EGG.$"
+	.string "{JPN}え? タマゴに おしえられる\n"
+	.string "{JPN}わざは ひとつも ありませんね.$"
 

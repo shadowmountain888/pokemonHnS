@@ -19,16 +19,14 @@ SootopolisCity_House2_EventScript_DontKnowAboutOrbs::
 	return
 
 SootopolisCity_House2_Text_DidYouKnowAboutMtPyreOrbs:
-	.string "MT. PYRE…\p"
-	.string "At its peak are two orbs placed side\n"
-	.string "by side. Did you know?$"
+	.string "{JPN}おくりびやま...\p"
+	.string "{JPN}その ちょうじょうには ふたつの\n"
+	.string "{JPN}たまが ならんで おいてあるのを\nしってるかい?$"
 
 SootopolisCity_House2_Text_YesTwoOrbsSideBySide:
-	.string "Yes, two orbs side by side…\p"
-	.string "The sight of them together…\n"
-	.string "It is somehow soothing…$"
-
+	.string "{JPN}そう ふたつの たまが\n"
+	.string "{JPN}ならんでいるのじゃ...\p"
+	.string "{JPN}それらが いっしょに ある\nこうけいは...\nなぜか こころが やすらぐのう...$"
 SootopolisCity_House2_Text_OughtToVisitAndSee:
-	.string "Is that so?\n"
-	.string "Perhaps you ought to visit and see…$"
-
+	.string "{JPN}そうなのかい?\n"
+	.string "{JPN}きっと いちど いって みるべき\nじゃろうな...$"

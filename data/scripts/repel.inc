@@ -24,8 +24,7 @@ EventScript_RepelWoreOff_End:
 	end
 
 Text_RepelWoreOff:
-	.string "REPEL's effect wore off…$"
+	.string "{JPN}むしよけスプレーの こうかが\nきれた...$"
 
 Text_RepelWoreOff_UseAnother:
-	.string "REPEL's effect wore off…\n"
-	.string "Use another?$"
+	.string "{JPN}むしよけスプレーの こうかが\nきれた... もう1つ つかう?$"

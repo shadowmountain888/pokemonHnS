@@ -529,378 +529,356 @@ BattleFrontier_BattlePyramidLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattlePyramidLobby_Text_WelcomeToBattlePyramid:
-	.string "Where the courage of TRAINERS\n"
-	.string "is put to the test!\p"
-	.string "Welcome to the BATTLE PYRAMID!\p"
-	.string "I am your guide to\n"
-	.string "the Battle Quest.$"
+	.string "{JPN}トレーナーの ゆうきが\n"
+	.string "{JPN}ためされる ばしょ!\p"
+	.string "{JPN}バトルピラミッドへ\n"
+	.string "{JPN}ようこそ!\p"
+	.string "{JPN}わたくしは バトルクエストの\nあんないやくです$"
 
 BattleFrontier_BattlePyramidLobby_Text_EmbarkOnChallenge:
-	.string "Have you the courage to embark on\n"
-	.string "the Battle Quest challenge?$"
+	.string "{JPN}あなたには バトルクエストの\n"
+	.string "{JPN}ちょうせんに たちむかう\lゆうきが おありですか?$"
 
 BattleFrontier_BattlePyramidLobby_Text_AwaitFutureChallenge:
-	.string "We await your challenge in the future!$"
+	.string "{JPN}またの ちょうせんを\nおまちしております!$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid:
-	.string "The Battle Quest is a battling\n"
-	.string "event in which you must explore\l"
-	.string "the PYRAMID and try to reach the top.\p"
-	.string "In the PYRAMID are seven floors of\n"
-	.string "mazes, all of them filled with not only\l"
-	.string "skilled TRAINERS but also wild POKéMON.\p"
-	.string "You must enter with three POKéMON,\n"
-	.string "none of them holding an item.\p"
-	.string "On your ascent, you will be provided\n"
-	.string "with a BATTLE BAG for items.\p"
-	.string "If you fail in your challenge, any item\n"
-	.string "placed in the BATTLE BAG disappears.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, you must select “REST”\l"
-	.string "and save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "{JPN}バトルクエストとは ピラミッドを\n"
+	.string "{JPN}たんけんして ちょうじょうを\l"
+	.string "{JPN}めざす バトルイベントです\p"
+	.string "{JPN}ピラミッドには 7かいの\n"
+	.string "{JPN}めいろがあり そこには じゅくれんした\l"
+	.string "{JPN}トレーナーや やせいポケモンがいます\p"
+	.string "{JPN}3ひきの ポケモンで ちょうせんし\n"
+	.string "{JPN}どうぐを もたせてはいけません\p"
+	.string "{JPN}とちゅうで バトルバッグが\n"
+	.string "{JPN}もらえて どうぐをいれられます\p"
+	.string "{JPN}ちょうせんに しっぱいすると\n"
+	.string "{JPN}バトルバッグの どうぐは きえます\p"
+	.string "{JPN}ちょうせんを ちゅうだんするときは\n"
+	.string "{JPN}やすむを えらんで\l"
+	.string "{JPN}セーブしてください\p"
+	.string "{JPN}セーブせずに ちゅうだんすると\n"
+	.string "{JPN}しっかくになります$"
 
 BattleFrontier_BattlePyramidLobby_Text_WhichLevelMode:
-	.string "The PYRAMID offers two courses,\n"
-	.string "NORMAL and HARD.\l"
-	.string "Which will you enter?$"
+	.string "{JPN}ピラミッドには ノーマルと\n"
+	.string "{JPN}ハードの 2つのコースがあります\l"
+	.string "{JPN}どちらに ちょうせんしますか?$"
 
 BattleFrontier_BattlePyramidLobby_Text_SelectThreeMons:
-	.string "Very good. Now, please select the three\n"
-	.string "POKéMON you wish to accompany you.$"
+	.string "{JPN}よろしい では いっしょに つれていく\n"
+	.string "{JPN}3ひきの ポケモンを えらんでください$"
 
 BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "A slight problem, adventurer!\p"
-	.string "You seem to not have the three\n"
-	.string "POKéMON qualified for the challenge.\p"
-	.string "Please also remember to take all\n"
-	.string "items from your POKéMON.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "When you are ready, please have\n"
-	.string "a word with me.$"
+	.string "{JPN}ちょっと もんだいが ありますね!\p"
+	.string "{JPN}ちょうせんに ひつような 3ひきの\n"
+	.string "{JPN}ポケモンが そろっていないようです\p"
+	.string "{JPN}ポケモンの どうぐも\n"
+	.string "{JPN}すべて はずしてください\p"
+	.string "{JPN}タマゴ{STR_VAR_1}は しゅつじょう\n"
+	.string "{JPN}できません\p"
+	.string "{JPN}じゅんびが できたら\nおこえがけください$"
 
 BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50:
-	.string "A slight problem, adventurer!\p"
-	.string "You seem to not have the three\n"
-	.string "POKéMON qualified for the challenge.\p"
-	.string "The three POKéMON must be different.\p"
-	.string "Please also remember to take all\n"
-	.string "items from your POKéMON.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "When you are ready, please have\n"
-	.string "a word with me.$"
+	.string "{JPN}ちょっと もんだいが ありますね!\p"
+	.string "{JPN}ちょうせんに ひつような 3ひきの\n"
+	.string "{JPN}ポケモンが そろっていないようです\p"
+	.string "{JPN}3ひきの ポケモンは\n"
+	.string "{JPN}ちがう しゅるいでなければいけません\p"
+	.string "{JPN}ポケモンの どうぐも\n"
+	.string "{JPN}すべて はずしてください\p"
+	.string "{JPN}タマゴ{STR_VAR_1}は しゅつじょう\n"
+	.string "{JPN}できません\pじゅんびが できたら\nおこえがけください$"
 
 BattleFrontier_BattlePyramidLobby_Text_OkayToSaveBeforeChallenge:
-	.string "Before you enter the BATTLE PYRAMID,\n"
-	.string "the game must be saved. Is that okay?$"
+	.string "{JPN}バトルピラミッドに はいるまえに\n"
+	.string "{JPN}セーブが ひつようです よろしいですか?$"
 
 BattleFrontier_BattlePyramidLobby_Text_ShowYouIntoPyramid:
-	.string "Very good. I will now show you into\n"
-	.string "the BATTLE PYRAMID.$"
+	.string "{JPN}よろしい では バトルピラミッドに\n"
+	.string "{JPN}ごあんないいたします$"
 
 BattleFrontier_BattlePyramidLobby_Text_WeWillHoldBagForSafekeeping:
-	.string "We will hold your BAG for safekeeping,\n"
-	.string "{PLAYER}, while you are exploring.$"
+	.string "{JPN}たんけんちゅう {PLAYER}さんの\n"
+	.string "{JPN}バッグは こちらで\lおあずかりいたします$"
 
 BattleFrontier_BattlePyramidLobby_Text_PleaseTakePreviousBattleBag:
-	.string "In exchange, please take this BATTLE\n"
-	.string "BAG, the one you used previously.$"
+	.string "{JPN}そのかわり ぜんかいつかった\n"
+	.string "{JPN}バトルバッグを おうけとりください$"
 
 BattleFrontier_BattlePyramidLobby_Text_PleaseTakeThisBattleBag:
-	.string "In exchange, please take this\n"
-	.string "BATTLE BAG.$"
+	.string "{JPN}そのかわり この バトルバッグを\n"
+	.string "{JPN}おうけとりください$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExchangedBagForBattleBag:
-	.string "{PLAYER} exchanged the BAG for\n"
-	.string "the BATTLE BAG.$"
+	.string "{JPN}{PLAYER}は バッグを バトルバッグと\n"
+	.string "{JPN}こうかんした!$"
 
 BattleFrontier_BattlePyramidLobby_Text_StepOnFloorPanel:
-	.string "When you step on this floor panel,\n"
-	.string "you will be transported to a higher\l"
-	.string "floor in the PYRAMID.\p"
-	.string "I hope for your sake that your\n"
-	.string "quest goes safely!$"
+	.string "{JPN}この ゆかパネルに のると\n"
+	.string "{JPN}ピラミッドの うえの かいに\l"
+	.string "{JPN}てんそうされます\p"
+	.string "{JPN}あなたの クエストが ぶじに\n"
+	.string "{JPN}すすむことを いのっています!$"
 
 BattleFrontier_BattlePyramidLobby_Text_DidntSaveBeforeQuittingTakeBag:
-	.string "A major problem, explorer!\p"
-	.string "You did not save before ending\n"
-	.string "your challenge the last time.\p"
-	.string "Consequently, your challenge has\n"
-	.string "been disqualified, I'm sorry to say.\p"
-	.string "Here is the BAG we've been holding\n"
-	.string "for you.\p"
-	.string "{PLAYER} got the BAG back.$"
+	.string "{JPN}おおきな もんだいが ありました!\p"
+	.string "{JPN}ぜんかい ちょうせんを おわる\n"
+	.string "{JPN}まえに セーブしていませんでしたね\p"
+	.string "{JPN}そのため ざんねんながら\n"
+	.string "{JPN}ちょうせんは しっかくになりました\p"
+	.string "{JPN}おあずかりしていた バッグを\n"
+	.string "{JPN}おかえしします\p"
+	.string "{JPN}{PLAYER}は バッグを とりかえした!$"
 
 BattleFrontier_BattlePyramidLobby_Text_YouveConqueredPyramid:
-	.string "Excellent to see you back!\p"
-	.string "You've conquered the PYRAMID!\n"
-	.string "How splendid!$"
+	.string "{JPN}おかえりなさい!\p"
+	.string "{JPN}ピラミッドを せいはしましたね!\n"
+	.string "{JPN}すばらしいです!$"
 
 BattleFrontier_BattlePyramidLobby_Text_MonHoldingItemCannotTake:
-	.string "Ah, a slight problem.\p"
-	.string "At least one POKéMON is holding\n"
-	.string "an item.\p"
-	.string "I'm sorry to say, items obtained in\n"
-	.string "the PYRAMID cannot be taken away.$"
+	.string "{JPN}ちょっと もんだいがあります\p"
+	.string "{JPN}ポケモンが どうぐを\n"
+	.string "{JPN}mっているようですね\p"
+	.string "{JPN}ざんねんですが ピラミッドで\n"
+	.string "{JPN}てにいれた どうぐは\lもちかえれません$"
 
 BattleFrontier_BattlePyramidLobby_Text_HeldItemsMovedToBag:
-	.string "All items held by your POKéMON will be\n"
-	.string "moved to your BATTLE BAG, {PLAYER}.$"
+	.string "{JPN}ポケモンが もっている どうぐは\n"
+	.string "{JPN}すべて {PLAYER}さんの\lバトルバッグに いどうします$"
 
 BattleFrontier_BattlePyramidLobby_Text_BagCannotHoldPickItemsToKeep:
-	.string "The BATTLE BAG cannot hold all your\n"
-	.string "items, I'm sorry to say.\p"
-	.string "Please pick the items you'll keep in the\n"
-	.string "BATTLE BAG, and with your POKéMON.$"
+	.string "{JPN}バトルバッグに すべての どうぐが\n"
+	.string "{JPN}はいりません ざんねんです\p"
+	.string "{JPN}バトルバッグと ポケモンに のこす\n"
+	.string "{JPN}どうぐを えらんでください$"
 
 BattleFrontier_BattlePyramidLobby_Text_LeastOneMonHoldingItem:
-	.string "At least one POKéMON is still\n"
-	.string "holding an item.$"
+	.string "{JPN}まだ ポケモンが どうぐを\n"
+	.string "{JPN}もっているようですね$"
 
 BattleFrontier_BattlePyramidLobby_Text_PickItemsToKeep:
-	.string "Please pick the items you'll keep in the\n"
-	.string "BATTLE BAG, and with your POKéMON.$"
+	.string "{JPN}バトルバッグと ポケモンに のこす\n"
+	.string "{JPN}どうぐを えらんでください$"
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_ReturnedEverythingMonsHeld:
-	.string "{PLAYER} returned everything that\n"
-	.string "the POKéMON held.$"
+	.string "{JPN}{PLAYER}は ポケモンが もっていた\n"
+	.string "{JPN}どうぐを すべて かえした!$"
 
 BattleFrontier_BattlePyramidLobby_Text_UsedBattleBagWillBeKept:
-	.string "The BATTLE BAG you used will be kept\n"
-	.string "in readiness for your next challenge.\p"
-	.string "{PLAYER} turned the BATTLE BAG over\n"
-	.string "for the BAG's return.$"
+	.string "{JPN}つかった バトルバッグは つぎの\n"
+	.string "{JPN}ちょうせんのため おあずかりします\p"
+	.string "{JPN}{PLAYER}は バトルバッグを わたし\n"
+	.string "{JPN}バッグを うけとった!$"
 
 BattleFrontier_BattlePyramidLobby_Text_RecordResultsWait:
-	.string "I must record your results.\n"
-	.string "Please wait.$"
+	.string "{JPN}けっかを きろくしますので\n"
+	.string "{JPN}しばらく おまちください$"
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_ForConqueringPyramidTakeThis:
-	.string "As a memento for conquering\n"
-	.string "the BATTLE PYRAMID, please take this.$"
+	.string "{JPN}バトルピラミッドを せいはした\n"
+	.string "{JPN}きねんに これを どうぞ!$"
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_ReceivedPrizeItem:
-	.string "{PLAYER} received the prize\n"
-	.string "{STR_VAR_1}.$"
+	.string "{JPN}{PLAYER}は しょうひんの\n"
+	.string "{JPN}{STR_VAR_1}を もらった!$"
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_BagIsFull:
-	.string "…Ah…\n"
-	.string "Your BAG appears to be filled.\p"
-	.string "Please return after you've organized\n"
-	.string "your BAG's contents.$"
+	.string "{JPN}...ああ...\n"
+	.string "{JPN}あなたの バッグは\l"
+	.string "{JPN}いっぱいのようですね.\p"
+	.string "{JPN}バッグの なかみを\nせいりしてから\lもどってきてください.$"
 
 BattleFrontier_BattlePyramidLobby_Text_DisappointingHereIsBag:
-	.string "How disappointing for you…\p"
-	.string "Here is the BAG we've been holding\n"
-	.string "for you.\p"
-	.string "{PLAYER} got the BAG back.$"
+	.string "{JPN}ざんねんでしたね...\p"
+	.string "{JPN}おあずかりしていた\n"
+	.string "{JPN}バッグを おかえしします.\p"
+	.string "{JPN}{PLAYER}は バッグを\nうけとった!$"
 
 BattleFrontier_BattlePyramidLobby_Text_LookForwardToNextChallenge:
-	.string "We look forward to your\n"
-	.string "next challenge!$"
+	.string "{JPN}つぎの ちょうせんを\n"
+	.string "{JPN}たのしみに しています!$"
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_HereIsPrize:
-	.string "We have been looking forward to\n"
-	.string "your arrival!\p"
-	.string "Here is your prize for conquering\n"
-	.string "the PYRAMID.$"
+	.string "{JPN}あなたが くるのを\n"
+	.string "{JPN}まっていました!\p"
+	.string "{JPN}ピラミッドを せいはした\n"
+	.string "{JPN}しょうひんです どうぞ!$"
 
 BattleFrontier_BattlePyramidLobby_Text_TellYouWhatMisfortunesAwait:
-	.string "Welcome…\p"
-	.string "I shall be pleased to tell you what\n"
-	.string "misfortunes await in the PYRAMID…$"
-
+	.string "{JPN}いらっしゃいませ...\p"
+	.string "{JPN}ピラミッドで あなたを\n"
+	.string "{JPN}まちうけている わざわいを\lおしえして さしあげましょう...$"
 BattleFrontier_BattlePyramidLobby_Text_Aah:
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "… … … … … …\n"
-	.string "Aah!$"
+	.string "{JPN}... ... ... ... ... ...\n"
+	.string "{JPN}... ... ... ... ... ...\p"
+	.string "{JPN}... ... ... ... ... ...\n"
+	.string "{JPN}あああ!$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintParalysis:
-	.string "I see a shower of sparks…\p"
-	.string "…And in it, I see your POKéMON\n"
-	.string "struggling with paralysis…$"
-
+	.string "{JPN}ひばなの あらしが みえます...\p"
+	.string "{JPN}そのなかで あなたの ポケモンが\n"
+	.string "{JPN}まひに くるしんでいる\lすがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintPoison:
-	.string "I see poison…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from the effects of poison…$"
-
+	.string "{JPN}どくが みえます...\p"
+	.string "{JPN}あなたの ポケモンが\n"
+	.string "{JPN}どくの こうかに\lくるしんでいる すがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintBurn:
-	.string "I see bright red flames…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from burns…$"
-
+	.string "{JPN}あかく もえる ほのおが\n"
+	.string "{JPN}みえます...\p"
+	.string "{JPN}あなたの ポケモンが\nやけどに くるしんでいる\lすがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintPPWaste:
-	.string "I sense the tremendous pressure of\n"
-	.string "unrequited anger…\p"
-	.string "It is a curse…\p"
-	.string "…And, I see your POKéMON drained of\n"
-	.string "Power Points and having no recourse\l"
-	.string "but to use STRUGGLE…$"
-
+	.string "{JPN}むくわれない いかりの\n"
+	.string "{JPN}きょうだいな あっぱくを\l"
+	.string "{JPN}かんじます...\p"
+	.string "{JPN}それは のろいです...\p"
+	.string "{JPN}あなたの ポケモンが\n"
+	.string "{JPN}パワーポイントを うしない\lあがくしか てだてが ない\lすがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintLevitate:
-	.string "I see POKéMON loftily airborne…\p"
-	.string "…And, I see your POKéMON frustrated\n"
-	.string "by powerless GROUND-type moves…$"
-
+	.string "{JPN}たかく そらに うかんだ\n"
+	.string "{JPN}ポケモンが みえます...\p"
+	.string "{JPN}あなたの ポケモンが\nじめんタイプの わざが\lきかずに こまっている\lすがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintTrapAbility:
-	.string "I sense terrific energy rising from\n"
-	.string "the ground below…\p"
-	.string "…And, I see your POKéMON unable to\n"
-	.string "escape the power's clutches…$"
-
+	.string "{JPN}あしもとから たちのぼる\n"
+	.string "{JPN}きょうだいな エネルギーを\l"
+	.string "{JPN}かんじます...\p"
+	.string "{JPN}あなたの ポケモンが\nその ちからの とりこに\lなって にげられない\lすがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintIce:
-	.string "I see ICE-type POKéMON…\p"
-	.string "…And, I see your POKéMON fighting\n"
-	.string "the freezing effects of ice…$"
-
+	.string "{JPN}こおりタイプの ポケモンが\n"
+	.string "{JPN}みえます...\p"
+	.string "{JPN}あなたの ポケモンが\nこおりの こうかと\lたたかっている すがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintExplosion:
-	.string "I see a flurry of moves that imperil\n"
-	.string "the user…\p"
-	.string "…And, I see your POKéMON falling\n"
-	.string "to them…$"
-
+	.string "{JPN}つかいてを きけんに さらす\n"
+	.string "{JPN}わざの あらしが みえます...\p"
+	.string "{JPN}あなたの ポケモンが\n"
+	.string "{JPN}それらに たおれる\lすがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintPsychic:
-	.string "I see PSYCHIC-type POKéMON…\p"
-	.string "…And, I see your POKéMON in torment\n"
-	.string "from PSYCHIC moves…$"
-
+	.string "{JPN}エスパータイプの ポケモンが\n"
+	.string "{JPN}みえます...\p"
+	.string "{JPN}あなたの ポケモンが\nエスパーの わざに\lくるしめられている\lすがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintRock:
-	.string "I see ROCK-type POKéMON…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from ROCK moves…$"
-
+	.string "{JPN}いわタイプの ポケモンが\n"
+	.string "{JPN}みえます...\p"
+	.string "{JPN}あなたの ポケモンが\nいわの わざに\lくるしんでいる すがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintFighting:
-	.string "I see FIGHTING-type POKéMON…\p"
-	.string "…And, I see your POKéMON pummeled\n"
-	.string "by FIGHTING moves…$"
-
+	.string "{JPN}かくとうタイプの ポケモンが\n"
+	.string "{JPN}みえます...\p"
+	.string "{JPN}あなたの ポケモンが\nかくとうの わざで\lなぐられている すがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintWeather:
-	.string "RAIN DANCE… SUNNY DAY…\n"
-	.string "SANDSTORM… HAIL…\p"
-	.string "I see POKéMON that become stronger\n"
-	.string "with the weather…\p"
-	.string "…And, I see your POKéMON confounded\n"
-	.string "by different types of moves…$"
-
+	.string "{JPN}あまごい... にほんばれ...\n"
+	.string "{JPN}すなあらし... あられ...\p"
+	.string "{JPN}てんきで つよくなる\n"
+	.string "{JPN}ポケモンが みえます...\p"
+	.string "{JPN}あなたの ポケモンが\n"
+	.string "{JPN}さまざまなタイプの わざに\lこんらんしている すがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintBug:
-	.string "I see BUG-type POKéMON…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from different kinds of attacks…$"
-
+	.string "{JPN}むしタイプの ポケモンが\n"
+	.string "{JPN}みえます...\p"
+	.string "{JPN}あなたの ポケモンが\nさまざまな しゅるいの\lこうげきに くるしんでいる\lすがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintDark:
-	.string "I see DARK-type POKéMON…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from DARK-type moves…$"
-
+	.string "{JPN}あくタイプの ポケモンが\n"
+	.string "{JPN}みえます...\p"
+	.string "{JPN}あなたの ポケモンが\nあくタイプの わざに\lくるしんでいる すがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintWater:
-	.string "I see WATER-type POKéMON…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from WATER-type moves…$"
-
+	.string "{JPN}みずタイプの ポケモンが\n"
+	.string "{JPN}みえます...\p"
+	.string "{JPN}あなたの ポケモンが\nみずタイプの わざに\lくるしんでいる すがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintGhost:
-	.string "I see GHOST-type POKéMON…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from GHOST-type moves…$"
-
+	.string "{JPN}ゴーストタイプの ポケモンが\n"
+	.string "{JPN}みえます...\p"
+	.string "{JPN}あなたの ポケモンが\nゴーストタイプの わざに\lくるしんでいる すがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintSteel:
-	.string "I see STEEL-type POKéMON…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from enormously powerful moves…$"
-
+	.string "{JPN}はがねタイプの ポケモンが\n"
+	.string "{JPN}みえます...\p"
+	.string "{JPN}あなたの ポケモンが\nきょうだいな いりょくの わざに\lくるしんでいる すがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintFlyingDragon:
-	.string "I see flying POKéMON…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from enormously powerful moves…$"
-
+	.string "{JPN}そらを とぶ ポケモンが\n"
+	.string "{JPN}みえます...\p"
+	.string "{JPN}あなたの ポケモンが\nきょうだいな いりょくの わざに\lくるしんでいる すがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintStoneEvolve:
-	.string "I see those that have evolved from\n"
-	.string "the power of stones…\p"
-	.string "I also sense fire, water,\n"
-	.string "and electricity…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from those three powers…$"
-
+	.string "{JPN}いしの ちからで しんかした\n"
+	.string "{JPN}ものたちが みえます...\p"
+	.string "{JPN}ほのお みず でんきの\n"
+	.string "{JPN}ちからも かんじます...\p"
+	.string "{JPN}あなたの ポケモンが\n"
+	.string "{JPN}その みっつの ちからに\lくるしんでいる すがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_HintNormal:
-	.string "I see NORMAL-type POKéMON…\p"
-	.string "…And, I see your POKéMON suffering\n"
-	.string "from enormously powerful moves…$"
-
+	.string "{JPN}ノーマルタイプの ポケモンが\n"
+	.string "{JPN}みえます...\p"
+	.string "{JPN}あなたの ポケモンが\nきょうだいな いりょくの わざに\lくるしんでいる すがたが みえます...$"
 BattleFrontier_BattlePyramidLobby_Text_BelieveMyFortunesOrNot:
-	.string "Whether you believe my fortunes\n"
-	.string "or not, the choice is yours…\p"
-	.string "The future can be changed anytime…\n"
-	.string "I wish you safe passage…$"
-
+	.string "{JPN}わたしの うらないを\n"
+	.string "{JPN}しんじるか しんじないかは\l"
+	.string "{JPN}あなたしだいです...\p"
+	.string "{JPN}みらいは いつでも\nかえることが できます...\nごあんぜんを いのります...$"
 BattleFrontier_BattlePyramidLobby_Text_TrainersNoticeRunning:
-	.string "Did you know?\p"
-	.string "If you run fast, TRAINERS may notice\n"
-	.string "and come after you for a battle.\p"
-	.string "So, if you want to avoid TRAINERS,\n"
-	.string "don't catch their eyes, but sneak\l"
-	.string "cautiously and quietly past them.$"
+	.string "{JPN}しってましたか?\p"
+	.string "{JPN}はやく はしると トレーナーに\n"
+	.string "{JPN}きづかれて バトルを しかけられる\l"
+	.string "{JPN}かもしれません.\p"
+	.string "{JPN}トレーナーを さけたいなら\n"
+	.string "{JPN}めを あわせずに そっと\lしずかに とおりすぎましょう.$"
 
 BattleFrontier_BattlePyramidLobby_Text_LostLotOfItems:
-	.string "Awaaaaaaarrrrgh!\p"
-	.string "I had a whole lot of items, but I lost\n"
-	.string "them all when I lost!\p"
-	.string "Awaaaaaaarrrrgh!$"
+	.string "{JPN}うわあああああああ!\p"
+	.string "{JPN}たくさん どうぐを もっていたのに\n"
+	.string "{JPN}まけて ぜんぶ うしなっちゃった!\p"
+	.string "{JPN}うわあああああああ!$"
 
 BattleFrontier_BattlePyramidLobby_Text_YouveDefeatedPyramidKing:
-	.string "Welcome back!\n"
-	.string "You've done the unthinkable!\p"
-	.string "You've defeated the PYRAMID KING\n"
-	.string "and conquered the BATTLE PYRAMID!$"
+	.string "{JPN}おかえりなさい!\n"
+	.string "{JPN}しんじられないことを やりましたね!\p"
+	.string "{JPN}ピラミッドキングを たおして\n"
+	.string "{JPN}バトルピラミッドを せいはした!$"
 
 BattleFrontier_BattlePyramidLobby_Text_GiveYouTheseBattlePoints:
-	.string "Young explorer!\n"
-	.string "In commendation of your courage,\l"
-	.string "we give you these Battle Point(s)!$"
+	.string "{JPN}わかき たんけんか よ!\n"
+	.string "{JPN}あなたの ゆうきを たたえ\l"
+	.string "{JPN}バトルポイントを さしあげます!$"
 
 BattleFrontier_BattlePyramidLobby_Text_RulesAreListed:
-	.string "The Battle Quest rules are listed.$"
+	.string "{JPN}バトルクエストの ルールが\nかかれています.$"
 
 BattleFrontier_BattlePyramidLobby_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "{JPN}どの こうもくを よみますか?$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainMonRules:
-	.string "When the PYRAMID is conquered,\n"
-	.string "the wild POKéMON that appear in it\l"
-	.string "are replaced by different kinds.\p"
-	.string "Explore, observe, and learn what kinds\n"
-	.string "of wild POKéMON you may encounter.$"
+	.string "{JPN}ピラミッドを せいはすると\n"
+	.string "{JPN}そこに でる やせいポケモンが\l"
+	.string "{JPN}べつの しゅるいに かわります.\p"
+	.string "{JPN}たんけんして かんさつして\n"
+	.string "{JPN}どんな やせいポケモンに\lであえるか まなびましょう.$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainTrainerRules:
-	.string "TRAINERS are lying in wait for you\n"
-	.string "inside the PYRAMID.\p"
-	.string "On each floor, there are up to\n"
-	.string "eight TRAINERS.\p"
-	.string "When you defeat a TRAINER, you will\n"
-	.string "get a helpful hint for your adventure.$"
+	.string "{JPN}ピラミッドの なかには\n"
+	.string "{JPN}トレーナーが まちぶせしています.\p"
+	.string "{JPN}かくフロアに さいだい\n"
+	.string "{JPN}8にんの トレーナーが います.\p"
+	.string "{JPN}トレーナーを たおすと\n"
+	.string "{JPN}たんけんに やくだつ ヒントが\lもらえます.$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules:
-	.string "The mazes in the PYRAMID rearrange\n"
-	.string "themselves every time you enter it.\p"
-	.string "The mazes are poorly lit.\n"
-	.string "You must advance with caution.\p"
-	.string "The light grows brighter whenever you\n"
-	.string "defeat a wild POKéMON or a TRAINER.$"
+	.string "{JPN}ピラミッドの めいろは\n"
+	.string "{JPN}はいる たびに かわります.\p"
+	.string "{JPN}めいろは くらく\n"
+	.string "{JPN}ちゅういして すすまねばなりません.\p"
+	.string "{JPN}やせいポケモンや トレーナーを\n"
+	.string "{JPN}たおすと あかりが あかるくなります.$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules:
-	.string "The BATTLE BAG serves as your BAG\n"
-	.string "while in the PYRAMID.\p"
-	.string "There are two separate BATTLE BAGS--\n"
-	.string "one each for the NORMAL and\l"
-	.string "HARD level adventures.\p"
-	.string "They each can hold up to 99 pieces\n"
-	.string "of ten kinds of items.\p"
-	.string "The contents of the BATTLE BAG are\n"
-	.string "lost if you fail in your quest.$"
+	.string "{JPN}バトルバッグは ピラミッドないで\n"
+	.string "{JPN}つかう バッグです.\p"
+	.string "{JPN}バトルバッグは 2つ あります.\n"
+	.string "{JPN}ノーマルレベルと ハードレベル\l"
+	.string "{JPN}それぞれに ひとつずつです.\p"
+	.string "{JPN}それぞれ 10しゅるいの どうぐを\n"
+	.string "{JPN}99こまで いれられます.\p"
+	.string "{JPN}たんけんに しっぱいすると\n"
+	.string "{JPN}バトルバッグの なかみは\lうしなわれます.$"
 

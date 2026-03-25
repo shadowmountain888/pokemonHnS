@@ -51,39 +51,38 @@ PacifidlogTown_House3_EventScript_Girl::
 	end
 
 PacifidlogTown_House3_Text_WillingToTradeIt:
-	.string "Check out this {STR_VAR_2}!\p"
-	.string "It's the {STR_VAR_2} that I caught\n"
-	.string "yesterday to celebrate my birthday!\p"
-	.string "Oh, I can see that you want it!\n"
-	.string "After all, it's priceless!\p"
-	.string "I'll tell you what. I might be willing\n"
-	.string "to trade it for a {STR_VAR_1}.$"
+	.string "{JPN}みてくれよ この{STR_VAR_2}を!\p"
+	.string "{JPN}たんじょうびの きねんに\n"
+	.string "{JPN}きのう つかまえた {STR_VAR_2}だ!\p"
+	.string "{JPN}おお きみも ほしそうだな!\n"
+	.string "{JPN}なんたって ちょうきちょうだからな!\p"
+	.string "{JPN}よし こうしよう\n"
+	.string "{JPN}{STR_VAR_1}と こうかんしてくれるなら\nかんがえてもいいぞ$"
 
 PacifidlogTown_House3_Text_ItsSubtlyDifferentThankYou:
-	.string "Oh, so this is a {STR_VAR_1}?\p"
-	.string "It's sort of like a {STR_VAR_2},\n"
-	.string "and yet it's subtly different.\p"
-	.string "Thank you!$"
+	.string "{JPN}おお これが {STR_VAR_1}か?\p"
+	.string "{JPN}{STR_VAR_2}に にているけど\n"
+	.string "{JPN}どこか びみょうに ちがうな\p"
+	.string "{JPN}ありがとう!$"
 
 PacifidlogTown_House3_Text_WontAcceptAnyLessThanRealMon:
-	.string "No, no, no! I won't accept any\n"
-	.string "less than a real {STR_VAR_1}!$"
+	.string "{JPN}だめ だめ だめ!\n"
+	.string "{JPN}ほんものの {STR_VAR_1}じゃないと\nこうかん できないよ!$"
 
 PacifidlogTown_House3_Text_NotDesperateOrAnything:
-	.string "Oh, so you're not going to go through\n"
-	.string "with this?\p"
-	.string "That's cool. I'm not desperate to make\n"
-	.string "a trade or anything.$"
+	.string "{JPN}あれ? やっぱり\n"
+	.string "{JPN}こうかん やめるのか?\p"
+	.string "{JPN}そうか べつに むりに\n"
+	.string "{JPN}こうかんしたいわけじゃないからな$"
 
 PacifidlogTown_House3_Text_ReallyWantedToGetBagon:
-	.string "I know I could go looking for one\n"
-	.string "on my own, but…\p"
-	.string "But I really wanted to get a BAGON\n"
-	.string "that another TRAINER caught…$"
-
+	.string "{JPN}じぶんで さがしに いくことも\n"
+	.string "{JPN}できるけど...\p"
+	.string "{JPN}でも ほんとうは べつの\n"
+	.string "{JPN}トレーナーが つかまえた\nタツベイが ほしかったんだ...$"
 PacifidlogTown_House3_Text_IsThatAPokedex:
-	.string "Is that a POKéDEX?\p"
-	.string "Did you get to meet a lot of different\n"
-	.string "POKéMON?\p"
-	.string "I wish I was like you.$"
+	.string "{JPN}それって ポケモンずかん?\p"
+	.string "{JPN}たくさんの いろんな\n"
+	.string "{JPN}ポケモンに あえたんだろうな?\p"
+	.string "{JPN}ぼくも きみの ようになりたいよ$"
 

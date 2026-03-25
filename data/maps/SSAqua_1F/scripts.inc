@@ -240,43 +240,43 @@ SSAqua_1F_Movement_GrandpaLeave:
 	step_end
 
 SSAqua_1F_Text_Sailor1_ToVermilion:
-    .string "FAST SHIP S.S.AQUA is en route to\n"
-    .string "VERMILION CITY.\p"
-    .string "We will make an announcement when\n"
-    .string "we arrive.$"
+    .string "{JPN}こうそくせん アクアごうは\n"
+	.string "{JPN}クチバシティに むかって\n"
+    .string "{JPN}います.\p"
+	.string "{JPN}とうちゃくしましたら\nおしらせいたします.$"
 
 SSAqua_1F_Text_Sailor1_ToOlivine:
-    .string "FAST SHIP S.S.AQUA is en route to\n"
-    .string "OLIVINE CITY.\p"
-    .string "We will make an announcement when\n"
-    .string "we arrive.$"
+    .string "{JPN}こうそくせん アクアごうは\n"
+	.string "{JPN}アサギシティに むかって\n"
+    .string "{JPN}います.\p"
+	.string "{JPN}とうちゃくしましたら\nおしらせいたします.$"
 
 SSAqua_1F_Text_Sailor2_FirstTime:
-    .string "Here's your cabin.\p"
-    .string "If your POKéMON are hurt, take a\n"
-    .string "nap in the bed.\p"
-    .string "That will heal them.$"
+    .string "{JPN}こちらが あなたの\n"
+	.string "{JPN}キャビンです.\p"
+    .string "{JPN}ポケモンが きずついたら\n"
+	.string "{JPN}ベッドで ひとやすみ\nしてください.\pかいふくしますよ.$"
 
 SSAqua_1F_Text_Sailor3:
-    .string "The passengers are all trainers.\p"
-    .string "They're all itching to battle in\n"
-    .string "their cabins.$"
+    .string "{JPN}おきゃくさんは みんな\n"
+	.string "{JPN}トレーナーです.\p"
+    .string "{JPN}キャビンで バトルを\nしたがってますよ.$"
 
 SSAqua_1F_Text_Grandpa:
-    .string "Whoa! Excuse me. I was in a hurry!\p"
-    .string "My granddaughter is missing!\p"
-    .string "She's just a wee girl. If you see\n"
-    .string "her, please let me know!$"
+    .string "{JPN}おっと! すまんすまん.\n"
+	.string "{JPN}いそいでおってのう!\p"
+    .string "{JPN}まごむすめが いなくなって\n"
+	.string "{JPN}しまったんじゃ!\pちいさな おんなのこじゃ.\nみかけたら おしえてくれ!$"
 
 SSAqua_1F_Text_Sailor1_InOlivine:
-    .string "FAST SHIP S.S.AQUA has arrived in\n"
-    .string "OLIVINE CITY.$"
+    .string "{JPN}こうそくせん アクアごうは\n"
+	.string "{JPN}アサギシティに\nとうちゃくしました.$"
 
 SSAqua_1F_Text_Sailor1_InVermilion:
-    .string "FAST SHIP S.S.AQUA has arrived in\n"
-    .string "VERMILION CITY.$"
+    .string "{JPN}こうそくせん アクアごうは\n"
+	.string "{JPN}クチバシティに\nとうちゃくしました.$"
 
 
 SSAqua_1F_Text_SailorDoorArrived:
-    .string "We have arrived in VERMILION CITY.\n"
-    .string "Would you like to disembark?$"
+    .string "{JPN}クチバシティに\n"
+	.string "{JPN}とうちゃくしました.\nげせんしますか?$"

@@ -17,9 +17,7 @@ EcruteakCity_SageOffice1_EventScript_Sign::
 	end
 
 EcruteakCity_SageOffice1_Text_Sign:
-	.string "The bell of tin rings clearly for\n"
-	.string "those under the tower's wing.$"
-
+	.string "{JPN}すずのねはとうのもとに\nすむものにとってあきらか$"
 EcruteakCity_SageOffice2_EventScript_SageA::
 	lock
 	faceplayer
@@ -90,63 +88,27 @@ EcruteakCity_SageOffice2_Movement_StandAside:
 	step_end
 
 EcruteakTinTowerEntrance_Text_SageNoBadge:
-	.string "TIN TOWER is off limits to the\n"
-	.string "unworthy. Sorry but you'll have\l"
-	.string "to leave.$"
-
+	.string "{JPN}すずのとうはふさわしくない\nもののりっぷはきんしじゃ\lもうしわけないがかえってくれ$"
 EcruteakTinTowerEntrance_Text_SageWithBadge:
-	.string "TIN TOWER is off limits to anyone\n"
-	.string "without ECRUTEAK GYM's BADGE.\p"
-	.string "Ah!\p"
-	.string "ECRUTEAK's GYM BADGE! Please, go\n"
-	.string "right through.$"
-
+	.string "{JPN}すずのとうはエンジュジムの\nバッジなしではいっぷきんしじゃ\pおお！\pエンジュのジムバッジ！\nどうぞとおってくだされ$"
 EcruteakTinTowerEntrance_Text_SageNoClearBell:
-	.string "A momentous event has occurred.\p"
-	.string "I beg your pardon, but I must ask\n"
-	.string "you to leave.\p"
-	.string "…What soothes the soul…\p"
-	.string "The WISE TRIO say things that are\n"
-	.string "so very difficult to understand…$"
-
+	.string "{JPN}じゅうだいなできごとが\nおこったのじゃ\pもうしわけないがかえって\nもらわねばならん\p..こころをいやすもの..\pさんけんじゃのことばは\nとてもむずかしいのう..$"
 EcruteakTinTowerEntrance_Text_SageHearsClearBell1:
-	.string "A momentous event has occurred.\p"
-	.string "I beg your pardon, but I must ask\n"
-	.string "you to leave.\p"
-	.string "..............................$"
+	.string "{JPN}じゅうだいな できごとが\n"
+	.string "{JPN}おこりました.\p"
+	.string "{JPN}もうしわけ ありませんが\n"
+	.string "{JPN}でていって いただけませんか.\p...$"
 EcruteakTinTowerEntrance_Text_SageHearsClearBell2:
-	.string "Ah!\p"
-	.string "The sound of that CLEAR BELL!\p"
-	.string "It… It's sublime!\p"
-	.string "I've never heard so beautiful a\n"
-	.string "sound before!\p"
-	.string "That bell's chime is indicative of\n"
-	.string "the bearer's soul.\p"
-	.string "You…\p"
-	.string "You may be able to make it through\n"
-	.string "TIN TOWER.\p"
-	.string "Please, do go on.$"
-
+	.string "{JPN}さあおとおりなさいまし..$"
 EcruteakTinTowerEntrance_Text_SagePleaseDoGoOn:
-	.string "Please, do go on.$"
-
+	.string "{JPN}さあおとおりなさいまし..$"
 EcruteakTinTowerEntrance_Text_SageDone:
-	.string "That bell's chime is indicative of\n"
-	.string "the bearer's soul.\p"
-	.string "You…\n"
-	.string "Truly are worthy.$"
-
+	.string "{JPN}そのすずのねは\nもつもののこころをあらわす\pきみは..\nまことにふさわしいな$"
 EcruteakTinTowerEntrance_Text_WanderingSage:
-	.string "The TIN TOWER ahead is a nine-\n"
-	.string "tier tower of divine beauty.\p"
-	.string "It soothes the soul of all who\n"
-	.string "see it.$"
-
+	.string "{JPN}まえにあるすずのとうは\nきゅうそうのしんせいなとうじゃ\pそれをみるすべてのもののこころを\nいやしてくれるのじゃ$"
 EcruteakTinTowerEntrance_Text_WanderingSageClearBell:
-	.string "The TIN TOWER shook! A POKéMON must\n"
-	.string "have returned to the top!$"
-
+	.string "{JPN}スズのとうがゆれました！\p"
+	.string "{JPN}きっとホウオウが..\n"
+	.string "{JPN}ホウオウがもどってきたのです！$"
 EcruteakTinTowerEntrance_Text_Gramps:
-	.string "Two towers… Two POKéMON…\p"
-	.string "But when one burned down, both\n"
-	.string "POKéMON flew away, never to return.$"
+	.string "{JPN}ふたつのとう..\nふたひきのポケモン..\pだがひとつがやけおちると\nりょうほうとびさっていった$"

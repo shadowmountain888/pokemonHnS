@@ -50,32 +50,31 @@ RustboroCity_House1_EventScript_Hiker::
 	end
 
 RustboroCity_House1_Text_IllTradeIfYouWant:
-	.string "Huh? My POKéMON is cute?\n"
-	.string "Sure, I knew that.\p"
-	.string "But if you really want, I'm willing\n"
-	.string "to trade it to you.\p"
-	.string "I'll trade you my {STR_VAR_2} for\n"
-	.string "a {STR_VAR_1} if you want.$"
+	.string "{JPN}え? わたしの ポケモンが\n"
+	.string "{JPN}かわいいって?\p"
+	.string "{JPN}そんなの あたりまえよ.\p"
+	.string "{JPN}\n"
+	.string "{JPN}でも どうしても ほしいなら\n"
+	.string "{JPN}こうかん してあげる.\p{STR_VAR_1}と わたしの\n{STR_VAR_2}を こうかんするわ.$"
 
 RustboroCity_House1_Text_PleaseBeGoodToMyPokemon:
-	.string "Eheheh…\n"
-	.string "Please be good to my POKéMON.$"
+	.string "{JPN}えへへ...\n"
+	.string "{JPN}わたしの ポケモンを\nよろしく おねがいします$"
 
 RustboroCity_House1_Text_DoesntLookLikeMonToMe:
-	.string "Huh? That doesn't look anything like\n"
-	.string "a {STR_VAR_1} to me.$"
+	.string "{JPN}え? それって {STR_VAR_1}じゃ\n"
+	.string "{JPN}ないでしょ.$"
 
 RustboroCity_House1_Text_YouDontWantToThatsOkay:
-	.string "Oh, if you don't want to, that's okay.\n"
-	.string "But my POKéMON is cute, you know…$"
-
+	.string "{JPN}あ いやなら いいですよ.\n"
+	.string "{JPN}でも わたしの ポケモン\nかわいいんですよ...$"
 RustboroCity_House1_Text_AnyPokemonCanBeCute:
-	.string "Any POKéMON can be cute if you raise\n"
-	.string "it with care and kindness.$"
+	.string "{JPN}どんな ポケモンでも あいじょうを\n"
+	.string "{JPN}かけて そだてれば かわいくなるの.$"
 
 RustboroCity_House1_Text_AllSortsOfPlaces:
-	.string "In all sorts of places, there are all\n"
-	.string "sorts of POKéMON and people.\p"
-	.string "I find that fascinating, so I go to all\n"
-	.string "sorts of places.$"
+	.string "{JPN}いろんな ばしょに いろんな\n"
+	.string "{JPN}ポケモンと ひとが いるのよ.\p"
+	.string "{JPN}それが おもしろくて あちこち\n"
+	.string "{JPN}たびを してるの.$"
 

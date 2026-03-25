@@ -26,56 +26,56 @@ CeladonCity_Apartments_3F_EventScript_CharacterDesigner::
 	end
 
 GameFreak_Text_GameDesigner:
-	.string "Is that right?\p"
-	.string "I'm the GAME DESIGNER!\p"
-	.string "Filling up your POKéDEX is tough,\n"
-	.string "but don't give up!$"
+	.string "{JPN}そうなの?\p"
+	.string "{JPN}わたしが ゲームデザイナー\n"
+	.string "{JPN}よ!\p"
+	.string "{JPN}ポケモンずかんを かんせい\nさせるのは たいへんだけど\lがんばって!$"
 
 GameFreak_Text_GameDesignerCompletedPokedex:
-	.string "Wow! Excellent! You completed\n"
-	.string "your POKéDEX!\p"
-	.string "Congratulations!$"
+	.string "{JPN}わあ! すばらしいわ!\n"
+	.string "{JPN}ポケモンずかんが かんせい\l"
+	.string "{JPN}してるじゃない!\pおめでとう!$"
 
 GameFreak_Text_GraphicArtist:
-	.string "I'm the GRAPHIC ARTIST.\p"
-	.string "I drew you!$"
+	.string "{JPN}ぼくは グラフィックアーティ\n"
+	.string "{JPN}スト だよ.\pきみを かいたんだ!$"
 
 GameFreak_Text_GraphicArtistPrintDiploma:
-	.string "I'm the GRAPHIC ARTIST.\p"
-	.string "Oh, you completed your POKéDEX?\p"
-	.string "Want me to print out your\n"
-	.string "DIPLOMA?$"
+	.string "{JPN}ぼくは グラフィックアーティ\n"
+	.string "{JPN}スト だよ.\p"
+	.string "{JPN}あ ポケモンずかんが\n"
+	.string "{JPN}かんせいしたんだね?\pそつぎょうしょうじょうを\nいんさつしようか?$"
 
 GameFreak_Text_GraphicArtistRefused:
-	.string "Give me a shout if you want your\n"
-	.string "DIPLOMA printed.$"
+	.string "{JPN}そつぎょうしょうじょうが\n"
+	.string "{JPN}ほしくなったら こえを\lかけてよ.$"
 
 GameFreak_Text_GraphicArtistError:
-	.string "Something's wrong. I'll have to\n"
-	.string "cancel printing.$"
+	.string "{JPN}なにか おかしいな.\n"
+	.string "{JPN}いんさつを ちゅうしするよ.$"
 
 GameFreak_Text_Programmer:
-	.string "Who, me? I'm the PROGRAMMER.\p"
-	.string "Play the slot machines!$"
+	.string "{JPN}ぼく? ぼくは プログラマー\n"
+	.string "{JPN}だよ.\pスロットマシンで\nあそんでよ!$"
 
 GameFreak_Text_CharacterDesigner:
-	.string "Aren't the TWINS adorable?\p"
-	.string "JASMINE's pretty too.\p"
-	.string "Oh, I love them!$"
+	.string "{JPN}ふたごちゃんって かわいい\n"
+	.string "{JPN}でしょ?\p"
+	.string "{JPN}ミカンも きれいだし.\pああ だいすき!$"
 
 CeladonMansion3F_Text_DevRoomSign:
-	.string "GAME FREAK DEVELOPMENT ROOM$"
+	.string "{JPN}ゲームフリーク かいはつしつ$"
 
 CeladonMansion3F_Text_Drawing:
-	.string "It's a detailed drawing of a\n"
-	.string "pretty girl.$"
+	.string "{JPN}かわいい おんなのこの\n"
+	.string "{JPN}こまかい えが かいてある.$"
 
 CeladonMansion3F_Text_GameProgram:
-	.string "It's the game program. Messing\n"
-	.string "with it could put a bug in the\n"
-	.string "game!$"
+	.string "{JPN}ゲームの プログラムだ.\n"
+	.string "{JPN}いじったら ゲームに バグが\l"
+	.string "{JPN}はいっちゃうかも!$"
 
 CeladonMansion3F_Text_ReferenceMaterial:
-	.string "It's crammed with reference\n"
-	.string "materials. There's even a\n"
-	.string "POKé DOLL.$"
+	.string "{JPN}しりょうが ぎっしり つまって\n"
+	.string "{JPN}いる.ポケにんぎょうまで\l"
+	.string "{JPN}あるよ.$"

@@ -101,34 +101,34 @@ BattleFrontier_RankingHall_EventScript_Boy::
 	end
 
 BattleFrontier_RankingHall_Text_ExplainRankingHall:
-	.string "This is the RANKING HALL.\p"
-	.string "This is where we recognize the immortal\n"
-	.string "TRAINERS who left great records in\l"
-	.string "BATTLE FRONTIER events.$"
+	.string "{JPN}ここは ランキングホールです.\p"
+	.string "{JPN}バトルフロンティアで\n"
+	.string "{JPN}すばらしい きろくを のこした\l"
+	.string "{JPN}でんせつの トレーナーたちを\lたたえる ばしょです.$"
 
 BattleFrontier_RankingHall_Text_DomePikeFactoryRecords:
-	.string "BATTLE DOME, BATTLE PIKE,\n"
-	.string "and BATTLE FACTORY Records$"
+	.string "{JPN}バトルドーム バトルパイク \n"
+	.string "{JPN}バトルファクトリーの きろく$"
 
 BattleFrontier_RankingHall_Text_PalaceArenaPyramidRecords:
-	.string "BATTLE PALACE, BATTLE ARENA,\n"
-	.string "and BATTLE PYRAMID Records$"
+	.string "{JPN}バトルパレス バトルアリーナ \n"
+	.string "{JPN}バトルピラミッドの きろく$"
 
 BattleFrontier_RankingHall_Text_IsYourNameOnThisList:
-	.string "Hi, is your name on this list?$"
+	.string "{JPN}こんにちは! きみの なまえは\nこの リストに のってるかい?$"
 
 BattleFrontier_RankingHall_Text_WowThatsSuper:
-	.string "Wow, that's super!\n"
-	.string "I'll have to try harder, too!$"
+	.string "{JPN}わあ すごいね!\n"
+	.string "{JPN}ぼくも もっと がんばらなくちゃ!$"
 
 BattleFrontier_RankingHall_Text_WorkHarderIfYouSawFriendsName:
-	.string "Oh, is that right?\p"
-	.string "If you saw your friend's name up here,\n"
-	.string "I bet it would make you work harder!$"
+	.string "{JPN}あ そうなんだ.\p"
+	.string "{JPN}もし ともだちの なまえが\n"
+	.string "{JPN}ここに のってたら\lもっと がんばろうって\lきもちに なるよね!$"
 
 BattleFrontier_RankingHall_Text_MyNamesNotUpThere:
-	.string "Hmm…\n"
-	.string "My name's not up there…\p"
-	.string "Well, it's only natural since I haven't\n"
-	.string "taken any challenges yet.$"
+	.string "{JPN}うーん...\n"
+	.string "{JPN}わたしの なまえが のってない...\p"
+	.string "{JPN}まあ まだ ちょうせんして\n"
+	.string "{JPN}ないから しかたないか...$"
 

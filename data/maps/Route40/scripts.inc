@@ -17,16 +17,16 @@ Route40_EventScript_Simon::
 	end
 
 Route40_Text_SwimmermSimonSeen:
-	.string "You have to warm up before\n"
-	.string "going into the water.\p"
-	.string "That's basic.$"
+	.string "{JPN}みずにはいるまえには\n"
+	.string "{JPN}じゅんびうんどうが ひつようだ.\p"
+	.string "{JPN}それが きほんだよ.$"
 
 Route40_Text_SwimmermSimonBeaten:
-	.string "OK! Uncle! I give!$"
+	.string "{JPN}まいった! まけだ!$"
 
 Route40_Text_SwimmermSimonAfter:
-	.string "CIANWOOD CITY is a good\n"
-	.string "distance away from here.$"
+	.string "{JPN}タンバシティは\n"
+	.string "{JPN}ここから かなりとおいぞ.$"
 
 Route40_EventScript_Randall::
 	trainerbattle_single TRAINER_RANDALL, Route40_Text_SwimmermRandallSeen, Route40_Text_SwimmermRandallBeaten
@@ -34,16 +34,15 @@ Route40_EventScript_Randall::
 	end
 
 Route40_Text_SwimmermRandallSeen:
-	.string "Hey, you're young and fit!\p"
-	.string "Don't ride your POKéMON!\n"
-	.string "Swim!$"
+	.string "{JPN}きみは わかくて\n"
+	.string "{JPN}げんきそうだな!\p"
+	.string "{JPN}ポケモンに のるんじゃなくて\nおよごうぜ!$"
 
 Route40_Text_SwimmermRandallBeaten:
-	.string "Uh-oh. I lost…$"
-
+	.string "{JPN}あーあ.まけちゃった...$"
 Route40_Text_SwimmermRandallAfter:
-	.string "Swimming exercises your\n"
-	.string "entire body. It's healthy.$"
+	.string "{JPN}すいえいは ぜんしんうんどうに\n"
+	.string "{JPN}なるから けんこうてきだよ.$"
 
 Route40_EventScript_Elaine::
 	trainerbattle_single TRAINER_ELAINE, Route40_Text_SwimmerfElaineSeen, Route40_Text_SwimmerfElaineBeaten
@@ -51,16 +50,16 @@ Route40_EventScript_Elaine::
 	end
 
 Route40_Text_SwimmerfElaineSeen:
-	.string "Are you going to CIANWOOD?\p"
-	.string "How about a quick battle\n"
-	.string "first?$"
+	.string "{JPN}タンバシティに いくの?\p"
+	.string "{JPN}\n"
+	.string "{JPN}ちょっと しょうぶしない?$"
 
 Route40_Text_SwimmerfElaineBeaten:
-	.string "I lost that one!$"
+	.string "{JPN}まけちゃった!$"
 
 Route40_Text_SwimmerfElaineAfter:
-	.string "I'd say I'm a better swimmer\n"
-	.string "than you. Yeah!$"
+	.string "{JPN}およぎなら あなたより\n"
+	.string "{JPN}うまいとおもうわ. そうよ!$"
 
 Route40_EventScript_Paula::
 	trainerbattle_single TRAINER_PAULA, Route40_Text_SwimmerfPaulaSeen, Route40_Text_SwimmerfPaulaBeaten
@@ -68,16 +67,16 @@ Route40_EventScript_Paula::
 	end
 
 Route40_Text_SwimmerfPaulaSeen:
-	.string "No inner tube for me.\p"
-	.string "I'm hanging on to a sea\n"
-	.string "POKéMON!$"
+	.string "{JPN}うきわなんて いらないの.\p"
+	.string "{JPN}うみの ポケモンに\n"
+	.string "{JPN}つかまってるから!$"
 
 Route40_Text_SwimmerfPaulaBeaten:
-	.string "Ooh, I'm feeling dizzy!$"
+	.string "{JPN}うう  めがまわる!$"
 
 Route40_Text_SwimmerfPaulaAfter:
-	.string "While I float like this,\n"
-	.string "the waves carry me along.$"
+	.string "{JPN}こうやって うかんでいると\n"
+	.string "{JPN}なみが はこんでくれるの.$"
 
 Route40_EventScript_Woman1::
 	lock
@@ -88,8 +87,8 @@ Route40_EventScript_Woman1::
 	end
 
 Route40_Text_Lass1:
-	.string "Although you can't see it from here,\n"
-	.string "CIANWOOD is across the sea.$"
+	.string "{JPN}ここからは みえないけれど\n"
+	.string "{JPN}タンバシティは うみのむこうよ.$"
 
 Route40_EventScript_Woman2::
 	lock
@@ -100,11 +99,11 @@ Route40_EventScript_Woman2::
 	end
 
 Route40_Text_Lass2:
-	.string "I came to OLIVINE by ship to see\n"
-	.string "the sights and soak up the\l"
-	.string "atmosphere.\p"
-	.string "Being a port, it feels so\n"
-	.string "different from a big city.$"
+	.string "{JPN}ふねで アサギシティに きて\n"
+	.string "{JPN}けしきを みたり ふんいきを\l"
+	.string "{JPN}あじわったりしてるの.\p"
+	.string "{JPN}みなとまちだから\n"
+	.string "{JPN}おおきなまちとは ちがうかんじ.$"
 
 Route40_EventScript_Youngster::
 	lock
@@ -115,42 +114,41 @@ Route40_EventScript_Youngster::
 	end
 
 Route40_Text_StandingYoungster:
-	.string "Have you gone to the TRAINER\n"
-	.string "HILL?\p"
-	.string "I think a lot of tough trainers\n"
-	.string "have gathered there already.\p"
-	.string "But since you have so many BADGES\n"
-	.string "you shouldn't do badly at all.$"
+	.string "{JPN}トレーナーズスクールには\n"
+	.string "{JPN}iったことある?\p"
+	.string "{JPN}つよいトレーナーたちが\n"
+	.string "{JPN}もう たくさんあつまってると\l"
+	.string "{JPN}おもうよ.\p"
+	.string "{JPN}でも きみは バッジを\nたくさんもってるから\lだいじょうぶだよ.$"
 
 Route40_Text_Monica:
-	.string "MONICA: Glad to meet you.\n"
-	.string "I'm MONICA of the WEEKDAY FAMILY.\p"
-	.string "I bet you can't guess my favorite\n"
-	.string "day of the week!$"
+	.string "{JPN}モニカ: はじめまして.\n"
+	.string "{JPN}わたし ようびきょうだいの\l"
+	.string "{JPN}モニカよ.\p"
+	.string "{JPN}わたしのすきな ようびが\nなにか あててみて!$"
 
 Route40_Text_MonicaGivesGift:
-	.string "That's right!\p"
-	.string "As a token of our friendship,\n"
-	.string "I have a gift for you!$"
+	.string "{JPN}せいかい!\p"
+	.string "{JPN}ともだちのしるしに\n"
+	.string "{JPN}プレゼントがあるの!$"
 
 Route40_Text_MonicaGaveGift:
-	.string "MONICA: It's an item that raises\n"
-	.string "the power of FLYING-type moves.\p"
-	.string "You should equip a bird\n"
-	.string "POKéMON with that item.$"
+	.string "{JPN}モニカ: ひこうタイプのわざの\n"
+	.string "{JPN}いりょくを あげるどうぐよ.\p"
+	.string "{JPN}とりの ポケモンに\n"
+	.string "{JPN}mたせてあげて.$"
 
 Route40_Text_MonicaMonday:
-	.string "MONICA: My brothers and\n"
-	.string "sisters are all over the place.\p"
-	.string "See if you could find\n"
-	.string "them all!$"
+	.string "{JPN}モニカ: わたしの きょうだいは\n"
+	.string "{JPN}あちこちに いるのよ.\p"
+	.string "{JPN}みんなを さがしてみて!$"
+	.string ""
 
 Route40_Text_MonicaNotMonday:
-	.string "MONICA: I don't think today\n"
-	.string "is Monday. How sad…$"
-
+	.string "{JPN}モニカ: きょうは\n"
+	.string "{JPN}げつようびじゃないみたい.\lざんねんだなあ...$"
 Route40_Text_MonicaNope:
-	.string "Not that one.$"
+	.string "{JPN}それは ちがうわ.$"
 
 Rotue40_EventScript_Monica::
 	lock

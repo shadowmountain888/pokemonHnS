@@ -75,33 +75,32 @@ SSAqua_RoomSSE_Movement_PlayerEnter:
     step_end
 
 SSAqua_RoomSSE_Text_CantFindGranddaughter:
-    .string "Oh, hello…\p"
-    .string "I still can't find my\n"
-    .string "granddaughter.\p"
-    .string "If she's on the ship,\n"
-    .string "that's OK.\p"
-    .string "She's an energetic child,\n"
-    .string "so she may be bugging someone\l"
-    .string "I'm worried…$"
-
+    .string "{JPN}あら こんにちは...\p"
+	.string "{JPN}まだ まごむすめが\n"
+    .string "{JPN}みつからないの.\p"
+	.string "{JPN}せんのなかに いるなら\n"
+    .string "{JPN}いいんだけど.\n"
+	.string "{JPN}げんきなこなので だれかに\n"
+    .string "{JPN}めいわくを かけてるかも\l"
+	.string "{JPN}しんぱいだわ...$"
 SSAqua_RoomSSE_Text_EntertainedGranddaughter:
-    .string "{PLAYER}, was it?\n"
-    .string "I heard you entertained my\l"
-    .string "granddaughter.\p"
-    .string "I want to thank you for that.$"
+    .string "{JPN}{PLAYER}くんじゃな?\n"
+	.string "{JPN}まごむすめの あいてを\l"
+    .string "{JPN}してくれたと きいたぞ.\p"
+	.string "{JPN}ありがとう ございました.$"
 
 SSAqua_RoomSSE_Text_GrandpaHaveThis:
-    .string "I know! I'd like you\n"
-    .string "to have this!$"
+    .string "{JPN}そうじゃ! これを\n"
+	.string "{JPN}もっていきなさい!$"
 
 SSAqua_RoomSSE_Text_GrandpaTravelling:
-    .string "We're traveling around\n"
-    .string "the world.$"
+    .string "{JPN}わしらは せかいじゅうを\n"
+	.string "{JPN}たびして まわっとるんじゃ.$"
 
 SSAqua_RoomSSE_Text_GranddaughterWasPlaying:
-    .string "Grandpa, here I am!\n"
-    .string "I was playing with\l"
-    .string "the CAPTAIN and this person!$"
+    .string "{JPN}おじいちゃん! ここにいるよ!\n"
+	.string "{JPN}せんちょうさんと このひとと\l"
+    .string "{JPN}あそんでたの!$"
 
 SSAqua_RoomSSE_Text_GranddaughterHadFun:
-    .string "I had lots of fun playing!$"
+    .string "{JPN}とっても たのしかったよ!$"

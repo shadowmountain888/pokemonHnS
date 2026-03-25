@@ -264,106 +264,86 @@ BattleFrontier_BattlePikeThreePathRoom_Movement_HintGiverReturnToPos:
 	step_end
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom1:
-	.string "You are currently in\n"
-	.string "the 1st room…$"
-
+	.string "{JPN}げんざい あなたは\n"
+	.string "{JPN}1ばんめの へやに います...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom3:
-	.string "You are currently in\n"
-	.string "the 3rd room…$"
-
+	.string "{JPN}げんざい あなたは\n"
+	.string "{JPN}3ばんめの へやに います...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom5:
-	.string "You are currently in\n"
-	.string "the 5th room…$"
-
+	.string "{JPN}げんざい あなたは\n"
+	.string "{JPN}5ばんめの へやに います...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom7:
-	.string "You are currently in\n"
-	.string "the 7th room…$"
-
+	.string "{JPN}げんざい あなたは\n"
+	.string "{JPN}7ばんめの へやに います...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom9:
-	.string "You are currently in\n"
-	.string "the 9th room…$"
-
+	.string "{JPN}げんざい あなたは\n"
+	.string "{JPN}9ばんめの へやに います...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom11:
-	.string "You are currently in\n"
-	.string "the 11th room…$"
-
+	.string "{JPN}げんざい あなたは\n"
+	.string "{JPN}11ばんめの へやに います...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom13:
-	.string "You are currently in\n"
-	.string "the 13th room…$"
-
+	.string "{JPN}げんざい あなたは\n"
+	.string "{JPN}13ばんめの へやに います...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_ContinueWithChallenge:
-	.string "Will you continue with\n"
-	.string "your challenge?$"
+	.string "{JPN}ちょうせんを\n"
+	.string "{JPN}つづけますか?$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SaveChallengeAndQuit:
-	.string "Would you like to save your challenge\n"
-	.string "and quit the game for now?$"
+	.string "{JPN}ちょうせんを セーブして\n"
+	.string "{JPN}げーむを しゅうりょう しますか?$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_RetireFromChallenge:
-	.string "Do you wish to retire from your\n"
-	.string "Battle Choice challenge?$"
+	.string "{JPN}バトルチョイス ちょうせんを\n"
+	.string "{JPN}りたい しますか?$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_AwaitingReturnSaveBeforeResume:
-	.string "We've been awaiting your return…\p"
-	.string "Before resuming your Battle Choice\n"
-	.string "challenge, let me save the game…$"
-
+	.string "{JPN}おかえりを おまちして おりました...\p"
+	.string "{JPN}バトルチョイスの ちゃれんじを\n"
+	.string "{JPN}さいかいする まえに\lセーブを させて いただきます...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_PleaseEnjoyChallenge:
-	.string "Please do enjoy your Battle Choice\n"
-	.string "challenge…$"
-
+	.string "{JPN}バトルチョイスの ちゃれんじを\n"
+	.string "{JPN}どうぞ おたのしみください...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_SavingYourData:
-	.string "I am saving your data…\n"
-	.string "A little time, please…$"
-
+	.string "{JPN}データを セーブして います...\n"
+	.string "{JPN}しばらく おまち ください...$"
 BattleFrontier_BattlePike_Text_PathBlockedNoTurningBack:
-	.string "The path is blocked!\n"
-	.string "And there is no turning back…$"
-
+	.string "{JPN}みちが ふさがって いる!\n"
+	.string "{JPN}そして もどることも できない...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_FindingItDifficultToChoose:
-	.string "I beg your pardon, but…\p"
-	.string "Are you perhaps finding it difficult\n"
-	.string "to choose your path?$"
+	.string "{JPN}しつれいですが...\p"
+	.string "{JPN}もしかして どのみちを えらぶか\n"
+	.string "{JPN}まよって いらっしゃいますか?$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_ApologizeForImpertinence:
-	.string "I see…\n"
-	.string "I apologize for my impertinence…$"
-
+	.string "{JPN}そうですか...\n"
+	.string "{JPN}しつれいを いたしました...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutRightPath:
-	.string "Ah, let me see… There is something\n"
-	.string "about the path on the right…$"
-
+	.string "{JPN}ああ そうですね... みぎのみちには\n"
+	.string "{JPN}なにか ありますね...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutCenterPath:
-	.string "Ah, let me see… There is something\n"
-	.string "about the path in the center…$"
-
+	.string "{JPN}ああ そうですね... まんなかのみちには\n"
+	.string "{JPN}なにか ありますね...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutLeftPath:
-	.string "Ah, let me see… There is something\n"
-	.string "about the path on the left…$"
-
+	.string "{JPN}ああ そうですね... ひだりのみちには\n"
+	.string "{JPN}なにか ありますね...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon:
-	.string "It seems to have the distinct aroma\n"
-	.string "of POKéMON wafting around it…$"
-
+	.string "{JPN}ポケモンの どくとくな においが\n"
+	.string "{JPN}ただよって いるようですね...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople:
-	.string "Is it… A TRAINER?\n"
-	.string "I sense the presence of people…$"
-
+	.string "{JPN}トレーナーでしょうか?\n"
+	.string "{JPN}ひとの けはいを かんじます...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_HeardWhispering:
-	.string "I seem to have heard something…\n"
-	.string "It may have been whispering…$"
-
+	.string "{JPN}なにか きこえたような...\n"
+	.string "{JPN}ささやきごえだったかも しれません...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_WaveOfNostaliga:
-	.string "For some odd reason, I felt a wave\n"
-	.string "of nostalgia coming from it…$"
-
+	.string "{JPN}なぜか なつかしい きもちが\n"
+	.string "{JPN}わいてくるのを かんじました...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_TerrifyingEvent:
-	.string "I am sorry to say…\p"
-	.string "A terrifying event, yes, a horrible one,\n"
-	.string "is about to befall you…\p"
-	.string "I urge you to pay the utmost care\n"
-	.string "and prepare for the worst…$"
-
+	.string "{JPN}もうしわけ ございませんが...\p"
+	.string "{JPN}おそろしい できごと そうです\n"
+	.string "{JPN}ひどい できごとが\l"
+	.string "{JPN}あなたに ふりかかろうとして います...\p"
+	.string "{JPN}じゅうぶんに きをつけて\nsいあくの じたいに そなえてください...$"
 BattleFrontier_BattlePikeThreePathRoom_Text_DreadfulPresence:
-	.string "From every path I sense a dreadful\n"
-	.string "presence…$"
+	.string "{JPN}どのみちからも おそろしい\n"
+	.string "{JPN}けはいを かんじます...$"

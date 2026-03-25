@@ -17,11 +17,11 @@ BattleFrontier_Lounge9_Heal::
 	end
 
 BattleFrontier_Lounge9_Heal_TEXT:
-	.string "Hi! Welcome to the TRAINING DOJO!\n"
-	.string "I will heal your POKéMON.$"
+	.string "{JPN}こんにちは!\n"
+	.string "{JPN}しゅぎょうどうじょうへ\lようこそ!\pあなたの ポケモンを\nかいふく させて\lいただきます$"
 
 BattleFrontier_Lounge9_Heal_TEXT2:
-	.string "We hope to see you again!$"
+	.string "{JPN}また おこし ください!$"
 
 BattleFrontier_Lounge9_EV_No:
 	msgbox BattleFrontier_Lounge9_EV_No_TEXT, MSGBOX_DEFAULT
@@ -170,55 +170,55 @@ BattleFrontier_Lounge9_EV_SPD_Yes::
 	end
 
 BattleFrontier_Lounge9_EV_HP_TEXT:
-	.string "Hi ya buddy! I can train your\n"
-	.string "POKéMON in HEALTH POINTS.\p"
-	.string "Are you ready?$"
+	.string "{JPN}やあ ともだち!\n"
+	.string "{JPN}きみの ポケモンの\l"
+	.string "{JPN}HP を きたえて あげるよ\pじゅんびは いいかい?$"
 
 BattleFrontier_Lounge9_EV_HP_TEXT2:
-	.string "Go WAILORD!$"
+	.string "{JPN}いけ! ホエルオー!$"
 
 BattleFrontier_Lounge9_EV_ATK_TEXT:
-	.string "OSHA! I can train your POKéMON\n"
-	.string "in ATTACK.\p"
-	.string "Are you ready?$"
+	.string "{JPN}オシャ! きみの ポケモンの\n"
+	.string "{JPN}こうげきを きたえて あげるぞ\p"
+	.string "{JPN}じゅんびは いいか?$"
 
 BattleFrontier_Lounge9_EV_ATK_TEXT2:
-	.string "Go GALLADE!$"
+	.string "{JPN}いけ! エルレイド!$"
 
 BattleFrontier_Lounge9_EV_SATK_TEXT:
-	.string "Bonjour! I can train your POKéMON\n"
-	.string "in SPECIAL ATTACK.\p"
-	.string "Are you ready?$"
+	.string "{JPN}ボンジュール! きみの ポケモンの\n"
+	.string "{JPN}とくこうを きたえて あげるよ\p"
+	.string "{JPN}じゅんびは いいかい?$"
 
 BattleFrontier_Lounge9_EV_SATK_TEXT2:
-	.string "Go GARDEVOIR!$"
+	.string "{JPN}いけ! サーナイト!$"
 	
 BattleFrontier_Lounge9_EV_DEF_TEXT:
-	.string "Sup' kid! I can train your\n"
-	.string "POKéMON in DEFENSE.\p"
-	.string "Are you ready?$"
+	.string "{JPN}よう! きみの ポケモンの\n"
+	.string "{JPN}ぼうぎょを きたえて やるぜ\p"
+	.string "{JPN}じゅんびは いいか?$"
 
 BattleFrontier_Lounge9_EV_DEF_TEXT2:
-	.string "Go AGGRON!$"
+	.string "{JPN}いけ! ボスゴドラ!$"
 
 BattleFrontier_Lounge9_EV_SDEF_TEXT:
-	.string "Bonjour mon trainer! I can train your\n"
-	.string "POKéMON in SPECIAL DEFENSE.\p"
-	.string "Are you ready?$"
+	.string "{JPN}ボンジュール モントレーナー!\n"
+	.string "{JPN}きみの ポケモンの とくぼうを\l"
+	.string "{JPN}きたえて あげるよ\pじゅんびは いいかい?$"
 
 BattleFrontier_Lounge9_EV_SDEF_TEXT2:
-	.string "Go LUDICOLO!$"
+	.string "{JPN}いけ! ルンパッパ!$"
 
 BattleFrontier_Lounge9_EV_SPD_TEXT:
-	.string "Hmph… I can train your\n"
-	.string "POKéMON in SPEED.\p"
-	.string "Are you ready?$"
+	.string "{JPN}ふん... きみの\n"
+	.string "{JPN}ポケモンのすばやさを\n"
+	.string "{JPN}きたえてやろう.\pじゅんびはいいか?$"
 
 BattleFrontier_Lounge9_EV_SPD_TEXT2:
-	.string "Go SCEPTILE!$"
+	.string "{JPN}いけ! ジュカイン!$"
 
 BattleFrontier_Lounge9_EV_No_TEXT:
-	.string "No? Okay.$"
+	.string "{JPN}だめ? わかった$"
 
 @Columns text
 
@@ -227,31 +227,31 @@ BattleFrontier_Lounge9_EV_Column::
 	end
 
 BattleFrontier_Lounge9_EV_Column_Text:
-    .string "Welcome to the TRAINING DOJO!\p"
-    .string "Here, you will find various types of\n"
-    .string "training to improve POKéMON STATS.\p"
-    .string "EV RESET:\n"
-    .string "EV-MAN can reset a POKéMON's EVs to\l"
-    .string "zero. He is on the right column.\p"
-    .string "EV TRAINING:\n"
-    .string "Six trainers focus on each STAT, from\l"
-    .string "left to right: DEF - ATK - HP - SPD -\l"
-    .string "SP.ATK - SP.DEF.\p"
-    .string "TIP: A MACHO BRACE multiplies EVs\n"
-    .string "earned by 5!\p"
-    .string "After becoming the HOENN CHAMPION,\n"
-    .string "you unlock the following options:\p"
-    .string "IV TRAINING & HIDDEN POWER:\n"
-    .string "IV-MAN trains POKéMON to maximize IVs.\l"
-    .string "He can also adjust IVs to change the\l"
-    .string "type of HIDDEN POWER.\p"
-    .string "EXPERIENCE TRAINING:\n"
-    .string "The EXPERIENCE NURSE on the bottom\l"
-    .string "left offers training for your team.\p"
-    .string "ABILITY SWAPPER:\n"
-    .string "The ABILITY EXPERT on the top left can\l"
-    .string "swap between the abilities a POKéMON\l"
-    .string "can naturally have.$"
+    .string "{JPN}しゅぎょうどうじょうへ ようこそ!\p"
+	.string "{JPN}ここでは ポケモンの のうりょくを\n"
+    .string "{JPN}あげる いろいろな しゅぎょうが\l"
+	.string "{JPN}できるぞ\p"
+    .string "{JPN}きそポイント リセット:\n"
+	.string "{JPN}EV マンが ポケモンの\l"
+    .string "{JPN}きそポイントを ゼロにしてくれる\l"
+	.string "{JPN}かれは みぎれつに いるぞ\p"
+    .string "{JPN}きそポイント しゅぎょう:\n"
+	.string "{JPN}6にんの トレーナーが かくのうりょく\l"
+    .string "{JPN}に とくか している\l"
+	.string "{JPN}ひだりから:ぼうぎょ こうげき\l"
+    .string "{JPN}HP すばやさ とくこう とくぼう\p"
+	.string "{JPN}ヒント:きょうせいギプスは\n"
+    .string "{JPN}きそポイントを 5ばいに してくれる!\p"
+	.string "{JPN}ホウエンちほうの チャンピオンに\n"
+    .string "{JPN}なったあとは つぎの きのうが\l"
+	.string "{JPN}かいほう される:\p"
+    .string "{JPN}こたいち しゅぎょう めざパ:\n"
+	.string "{JPN}IV マンが ポケモンの こたいちを\l"
+    .string "{JPN}さいだいに してくれる\l"
+	.string "{JPN}めざめるパワーの タイプも\l"
+    .string "{JPN}かえられる\p"
+	.string "{JPN}けいけんち しゅぎょう:\n"
+    .string "{JPN}ひだりしたの けいけんちナースが\nチーム ぜんたいを きたえてくれる\pとくせい こうかん:\nひだりうえの とくせいエキスパートが\nポケモンが もつ とくせいを\lこうかんしてくれる$"
 
 @EV RESET
 
@@ -356,47 +356,47 @@ BattleFrontier_Lounge9_EV_SetZeroProceed::
 	end
 
 BattleFrontier_Lounge9_EV_SetZeroText:
-    .string "Greetings, trainer. My name is EVAN,\n"
-    .string "though I am commonly referred to as\n"
-    .string "EV-MAN.\p"
-    .string "I am the owner of this facility,\n"
-    .string "where I conduct training alongside my\n"
-    .string "brother, IVAN.\p"
-    .string "Should you wish to reset a POKéMON's\n"
-    .string "EVs entirely, please speak to me.$"
+    .string "{JPN}こんにちは トレーナー\n"
+	.string "{JPN}わたしの なまえは イーブイ\l"
+    .string "{JPN}みんなには EV マンと よばれている\p"
+	.string "{JPN}ここは わたしの しせつで\n"
+    .string "{JPN}あに の アイブイと いっしょに\l"
+	.string "{JPN}しゅぎょうを おこなっている\p"
+    .string "{JPN}もし ポケモンの きそポイントを\n"
+	.string "{JPN}かんぜんに リセットしたければ\lわたしに こえを かけてくれ$"
 
 BattleFrontier_Lounge9_EV_SetZeroTextNoIntro:
-    .string "EV-MAN: Welcome back.\n"
-    .string "Would you like me to reset all your\l"
-    .string "POKéMON's EFFORT VALUES?$"
+    .string "{JPN}EV マン:おかえり\n"
+	.string "{JPN}きみの ポケモンぜんいんの\l"
+    .string "{JPN}きそポイントを リセットしようか?$"
 
 BattleFrontier_Lounge9_EV_SetZeroText2:
-	.string "Which POKéMON EVs should I reset\n"
-	.string "to zero?$"
+	.string "{JPN}どの ポケモンの きそポイントを\n"
+	.string "{JPN}ゼロに リセットしようか?$"
 
 BattleFrontier_Lounge9_EV_SetZeroText3:
-    .string "Phew! That was tough, but I made it!\n"
-    .string "All of its EVs have been reset to zero!$"
+    .string "{JPN}ふう! たいへんだったが\n"
+	.string "{JPN}なんとか できた!\lきそポイントが ぜんぶ ゼロに\lなったぞ!$"
 
 BattleFrontier_Lounge9_EV_SetZeroTextEgg:
-	.string "Sorry, that will not work.$"
+	.string "{JPN}すまない それは\nできないんだ$"
 
 BattleFrontier_Lounge9_EV_SetZeroTextNo:
-	.string "Come back if you need to!$"
+	.string "{JPN}ひつようなときは また きてくれ!$"
 
 BattleFrontier_Lounge9_EV_SetZeroMoneyText:
-    .string "This process is rather difficult.\n"
-    .string "It will cost 20,000¥.\l"
-    .string "Would you like to proceed?$"
+    .string "{JPN}これは かなり こんなんな\n"
+	.string "{JPN}かてい なんだ\l"
+    .string "{JPN}20000えんが かかる\lつづけるかい?$"
 
 BattleFrontier_Lounge9_EV_SetZeroTextNoMoney:
-    .string "You don't have enough money.\p"
-    .string "Come back when you do.$"
+    .string "{JPN}おかねが たりないようだね\p"
+	.string "{JPN}たまったら また きてくれ$"
 
 BattleFrontier_Lounge9_EV_SetZeroTextSure:
-    .string "Are you sure you want to reset this\n"
-    .string "POKéMON's EVs?\p"
-    .string "This process cannot be undone.$"
+    .string "{JPN}ほんとうに この ポケモンの\n"
+	.string "{JPN}きそポイントを リセット するかい?\p"
+    .string "{JPN}この かてい は もとには\lもどせないぞ$"
 
 @IV setter to 31 (all of them) &&&& HIDDEN POWER Type selector
 
@@ -483,10 +483,10 @@ BattleFrontier_Lounge9_IV_Continue_Question_CustomOrMax::
 	end
 
 EventScript_IVSetter_Text_CustomizeIVs:
-	.string "CUSTOMIZE$"
+	.string "{JPN}カスタマイズ$"
 
 EventScript_IVSetter_Text_SetMax:
-	.string "SET to MAX$"
+	.string "{JPN}さいだいち に せっと$"
 
 BattleFrontier_Lounge9_IV_SetMax::
 	faceplayer
@@ -946,130 +946,128 @@ BattleFrontier_Lounge9_MultichoiceIVs_SetType_Dark::
 	end
 
 BattleFrontier_Lounge9_IV_TextNoChampion:
-	.string "Hmm? What?\p"
-	.string "Oh, you're a trainer. But not one I\n"
-	.string "would call strong…\p"
-	.string "Try beating the POKéMON LEAGUE and\n"
-	.string "come back again.\p"
-	.string "I will show you the strongest\n"
-	.string "training routine of the region!$"
+	.string "{JPN}ん? なんだ?\p"
+	.string "{JPN}ああ きみはトレーナーか.\n"
+	.string "{JPN}だが つよいとは\n"
+	.string "{JPN}いえないな...\p"
+	.string "{JPN}ポケモンリーグをたおして\n"
+	.string "{JPN}また きてくれ.\p"
+	.string "{JPN}このちほうで いちばん\nつよいトレーニングを\nおしえてやろう!$"
 
 BattleFrontier_Lounge9_IV_Text_CustomizeIVs:
-	.string "Would you like to set the IVs to\n"
-	.string "a certain value to allow different\l"
-	.string "HIDDEN POWER types?\p"
-	.string "Or should I set all IVs to 31?$"
+	.string "{JPN}こせいち を とくていの あたい に\n"
+	.string "{JPN}せっと して ちがう めざめる\l"
+	.string "{JPN}パワー の タイプ を つくりますか?\p"
+	.string "{JPN}それとも すべて の こせいち を\n31 に せっと しましょうか?$"
 
 BattleFrontier_Lounge9_IV_Text_CustomizeIVs_SetType:
-	.string "Which type of HIDDEN POWER are you\n"
-	.string "looking for?$"
+	.string "{JPN}どの タイプ の めざめるパワー を\n"
+	.string "{JPN}おさがし ですか?$"
 
 EventScript_IVSetter_Type_Fighting:
-	.string "FIGHTING TYPE$"
+	.string "{JPN}かくとうタイプ$"
 
 EventScript_IVSetter_Type_Flying:
-	.string "FLYING TYPE$"
+	.string "{JPN}ひこうタイプ$"
 
 EventScript_IVSetter_Type_Poison:
-	.string "POISON TYPE$"
+	.string "{JPN}どくタイプ$"
 
 EventScript_IVSetter_Type_Ground:
-	.string "GROUND TYPE$"
+	.string "{JPN}じめんタイプ$"
 
 EventScript_IVSetter_Type_Rock:
-	.string "ROCK TYPE$"
+	.string "{JPN}いわタイプ$"
 
 EventScript_IVSetter_Type_Bug:
-	.string "BUG TYPE$"
+	.string "{JPN}むしタイプ$"
 
 EventScript_IVSetter_Type_Ghost:
-	.string "GHOST TYPE$"
+	.string "{JPN}ゴーストタイプ$"
 
 EventScript_IVSetter_Type_Steel:
-	.string "STEEL TYPE$"
+	.string "{JPN}はがねタイプ$"
 
 EventScript_IVSetter_Type_Fairy:
-	.string "FAIRY TYPE$"
+	.string "{JPN}フェアリータイプ$"
 
 EventScript_IVSetter_Type_Fire:
-	.string "FIRE TYPE$"
+	.string "{JPN}ほのおタイプ$"
 
 EventScript_IVSetter_Type_Water:
-	.string "WATER TYPE$"
+	.string "{JPN}みずタイプ$"
 
 EventScript_IVSetter_Type_Grass:
-	.string "GRASS TYPE$"
+	.string "{JPN}くさタイプ$"
 
 EventScript_IVSetter_Type_Electric:
-	.string "ELECTRIC TYPE$"
+	.string "{JPN}でんきタイプ$"
 
 EventScript_IVSetter_Type_Psychic:
-	.string "PSYCHIC TYPE$"
+	.string "{JPN}エスパータイプ$"
 
 EventScript_IVSetter_Type_Ice:
-	.string "ICE TYPE$"
+	.string "{JPN}こおりタイプ$"
 
 EventScript_IVSetter_Type_Dragon:
-	.string "DRAGON TYPE$"
+	.string "{JPN}ドラゴンタイプ$"
 
 EventScript_IVSetter_Type_Dark:
-	.string "DARK TYPE$"
+	.string "{JPN}あくタイプ$"
 
 BattleFrontier_Lounge9_IV_Text_SetMaxQuestion:
-	.string "Then, I will set all IVs to the maximum\n"
-	.string "value, which is 31. Should I continue?$"
+	.string "{JPN}では すべて の こせいち を\n"
+	.string "{JPN}さいだいち の 31 に せっと します.\lつづけて よろしい ですか?$"
 
 BattleFrontier_Lounge9_IV_TextFirstTime:
-    .string "Hey! It's you! Great to\n"
-    .string "see you around here!\p"
-    .string "Wait… You don't know me?\p"
-    .string ". . .\p"
-    .string ". . .\p"
-    .string "Oh, right! I saw you on TV not\n"
-    .string "long ago!\p"
-    .string "I'm IVAN, but you can call me\n"
-    .string "IV-MAN!\p"
-    .string "Yes, I'm the brother of EV-MAN.\n"
-    .string "no surprise there.\p"
-    .string "And you…\p"
-    .string "You're {PLAYER}, the one who\n"
-    .string "recently won the POKéMON LEAGUE!\p"
-    .string "Your last battle was amazing.\n"
-    .string "I learned so much from watching you\n"
-    .string "that I joined your FAN CLUB!\p"
-    .string "After that, I decided to get\n"
-    .string "stronger myself, so I created the\n"
-    .string "ultimate training routine.\p"
-    .string "For POKéMON, of course!\n"
-    .string "If you want, we can train together to\n"
-    .string "maximize your POKéMON's potential.\p"
-    .string "But… to endure this training, a\n"
-    .string "POKéMON must be fully prepared.\p"
-    .string "Only those who have reached the\n"
-    .string "MAXIMUM LEVEL can withstand it.\p"
-    .string "Do you want to try it?\p"
-    .string "It's a tough and lengthy process,\n"
-    .string "so I need 100,000¥ to set it up.\p"
-    .string "Just tell me when you're ready!$"
+    .string "{JPN}おお! きみか!\n"
+	.string "{JPN}ここでみかけるとは\n"
+    .string "{JPN}うれしいぞ!\p"
+	.string "{JPN}まて... きみは わたしを\n"
+    .string "{JPN}しらないのか?\p"
+	.string "{JPN}...\p"
+    .string "{JPN}...\p"
+	.string "{JPN}そうか! きみを\n"
+    .string "{JPN}テレビでみたぞ!\p"
+	.string "{JPN}わたしは アイバン だが\n"
+    .string "{JPN}アイブイマンと よんでくれ!\p"
+	.string "{JPN}そう わたしは\n"
+	.string "{JPN}イーブイマンのあにきだ.\n"
+	.string "{JPN}とうぜんだろう?\p"
+    .string "{JPN}そして きみは...\p"
+	.string "{JPN}きみは {PLAYER} \n"
+    .string "{JPN}さいきん ポケモンリーグを\n"
+	.string "{JPN}せいはしたひとだ!\p"
+    .string "{JPN}きみの さいごのたたかいは\n"
+	.string "{JPN}すばらしかった.\n"
+    .string "{JPN}みていて おおくをまなんだ.\n"
+	.string "{JPN}だから きみの\n"
+    .string "{JPN}ファンクラブに はいったぞ!\p"
+	.string "{JPN}そのあと わたしも\n"
+	.string "{JPN}つよくなろうと\n"
+	.string "{JPN}きめたんだ.\n"
+    .string "{JPN}そして きゅうきょくの\n"
+	.string "{JPN}トレーニングを つくりだした.\p"
+    .string "{JPN}もちろん ポケモンのためにだ!\n"
+	.string "{JPN}きみが のぞむなら\n"
+    .string "{JPN}いっしょに トレーニングして\nきみの ポケモンの\nのうりょくを さいだいに\nひきだせるぞ.\pだが... この トレーニングに\nたえるには ポケモンは\nじゅうぶんな じゅんびが\nひつようだ.\nレベル100に たっした\nポケモンだけが\nたえられるのだ.\pためしてみるか?\pきびしくて ながい\nかていなので\n100000えんが ひつようだ.\pじゅんびが できたら\nおしえてくれ!$"
 
 BattleFrontier_Lounge9_IV_Text1:
-	.string "IV-MAN: Hi! Are you here for the ultimate\n"
-	.string "training routine in all of HOENN?\p"
-	.string "It costs 100.000¥, but it's worth it!\n"
-	.string "Shall we begin?$"
+	.string "{JPN}こせいちマン: やあ! ホウエンちほう\n"
+	.string "{JPN}さいこう の きゅうきょく トレーニング\l"
+	.string "{JPN}メニュー を うけに きたのかい?\p"
+	.string "{JPN}100.000えん かかるけど それだけ の\nかち は あるよ!\lはじめよう か?$"
 
 BattleFrontier_Lounge9_IV_Text_No:
-	.string "Oh… Well, see you another time.$"
-
+	.string "{JPN}おお... では\nまた こんどな.$"
 BattleFrontier_Lounge9_IV_Text_NoLevel:
-	.string "I don't think your POKéMON has reached\n"
-	.string "its maximum LEVEL…$"
-
+	.string "{JPN}きみの ポケモンは\n"
+	.string "{JPN}まだ さいこうレベルに\nたっしていないようだな...$"
 BattleFrontier_Lounge9_IV_Finish:
-	.string "Phew… I'm exhausted…\n"
-	.string "What about your POKéMON?\p"
-	.string "You should rest a bit before going.\p"
-	.string "Well, see you soon!$"
+	.string "{JPN}ふう... つかれた...\n"
+	.string "{JPN}きみの ポケモンは\n"
+	.string "{JPN}どうだ?\p"
+	.string "{JPN}いく まえに すこし\nやすんだほうがいい.\pでは また あおう!$"
 
 @Chansey training
 
@@ -1103,21 +1101,20 @@ BattleFrontier_Lounge9_NurseChampion:
 	end
 
 BattleFrontier_Lounge9_NurseChampionText:
-	.string "I'm the EXPERIENCE NURSE!\n"
-	.string "Unfortunately, I can't battle you\l"
-	.string "unless you become the CHAMPION.$"
+	.string "{JPN}わたし は けいけんち ナース よ!\n"
+	.string "{JPN}ざんねん だけど あなた が チャンピオン\l"
+	.string "{JPN}に ならない と バトル できないの.$"
 
 BattleFrontier_Lounge9_NurseIntro:
-	.string "Let's go, BLISSEY!$"
+	.string "{JPN}いくわよ ハピナス!$"
 
 BattleFrontier_Lounge9_NurseDefeat:
-	.string "Oh no… BLISSEY, use SOFT-BOILED!$"
-
+	.string "{JPN}ああ... ハピナス \nタマゴうみを つかって!$"
 BattleFrontier_Lounge9_NurseRepeat:
-	.string "If you want, we can battle again!$"
+	.string "{JPN}よろしければ また バトル\nしましょう!$"
 
 BattleFrontier_Lounge9_NurseRepeat2:
-	.string "Ready for a battle?$"
+	.string "{JPN}バトルの じゅんびは\nできてる?$"
 
 @Ability swapper
 
@@ -1184,27 +1181,27 @@ BattleFrontier_Lounge9_Ability_Finish:
 	end
 
 BattleFrontier_Lounge9_Ability_Finish_Text:
-	.string "That's it! You're welcome!$"
+	.string "{JPN}できあがり! どういたしまして!$"
 
 BattleFrontier_Lounge9_Ability_Text1:
-	.string "Welcome! I'm the ABILITY EXPERT!\p"
-	.string "I can swap POKéMON's abilities in\n"
-	.string "a heartbeat, only for 25.000¥!\p"
-	.string "Would you like me to swap any\n"
-	.string "POKéMON's ability?$"
+	.string "{JPN}いらっしゃい!\n"
+	.string "{JPN}とくせいエキスパートです!\p"
+	.string "{JPN}ポケモンの とくせいを\n"
+	.string "{JPN}あっというまに いれかえます!\n"
+	.string "{JPN}25000えんです!\pどのポケモンの とくせいを\nいれかえますか?$"
 
 BattleFrontier_Lounge9_Ability_Text_No:
-	.string "Sure. I'll be here if you need me.$"
+	.string "{JPN}はい.ひつようなときは\nこえを かけてください.$"
 
 BattleFrontier_Lounge9_Ability_Text_Cant:
-	.string "I cannot do that. This POKéMON\n"
-	.string "does not have a second ABILITY!$"
+	.string "{JPN}それは むりです.\n"
+	.string "{JPN}このポケモンには\n2つめの とくせいが ありません!$"
 
 BattleFrontier_Lounge9_Ability_Text_NoChampion:
-	.string "Welcome! I'm the ABILITY EXPERT!\p"
-	.string "I can swap POKéMON's abilities\n"
-	.string "in a heartbeat.\p"
-	.string "Unfortunately, my back hurts and\n"
-	.string "I can't work today.\p"
-	.string "Come again later!$"
+	.string "{JPN}いらっしゃい!\n"
+	.string "{JPN}とくせいエキスパートです!\p"
+	.string "{JPN}ポケモンの とくせいを\n"
+	.string "{JPN}あっというまに いれかえられます.\p"
+	.string "{JPN}あいにく こしが いたくて\n"
+	.string "{JPN}きょうは しごとが できません.\pまた こんど きてください!$"
 

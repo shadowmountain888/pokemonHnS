@@ -27,24 +27,24 @@ Route12_House_EventScript_SuperRodGot::
 	end
 
 Route12_House_Text_OfferSuperRod:
-	.string "I'm the FISHING GURU's younger\n"
-	.string "brother.\p"
-	.string "I can see that you like fishing.\p"
-	.string "There's no doubt in my mind at\n"
-	.string "all!\p"
-	.string "So? I know I'm right.$"
+	.string "{JPN}わたしは つりめいじんの\n"
+	.string "{JPN}おとうとです.\p"
+	.string "{JPN}あなたは つりが すきですね.\p"
+	.string "{JPN}まちがいありません!\p"
+	.string "{JPN}どうです? わたしの みたては\n"
+	.string "{JPN}ただしいでしょう?$"
 
 Route12_House_Text_GiveSuperRod:
-	.string "Yes, yes. Just as I thought!\p"
-	.string "Here, fishing fan! Take this--\n"
-	.string "it's a SUPER ROD.$"
+	.string "{JPN}やはり そのとおりでした!\p"
+	.string "{JPN}つりずきの あなたに これを\n"
+	.string "{JPN}さしあげましょう!\lスーパーロッドです!$"
 
 Route12_House_Text_GaveSuperRod:
-	.string "Try your hand at fishing wherever\n"
-	.string "there is water.\p"
-	.string "Remember--you can catch different\n"
-	.string "POKéMON using different RODS.$"
+	.string "{JPN}みずの あるところなら\n"
+	.string "{JPN}どこでも つりを してください.\p"
+	.string "{JPN}つかう つりざおに よって\n"
+	.string "{JPN}つれる ポケモンが ちがいますよ.$"
 
 Route12_House_Text_DontWantSuperRod:
-	.string "Huh? My own eyes deceived me?$"
+	.string "{JPN}え? わたしの めが\nくるっていたのですか?$"
 

@@ -39,28 +39,25 @@ GoldenrodDeptStore1_EventScript_Directory::
 	end
 
 GoldenrodDeptStor1_Text_Receptionist:
-    .string "Welcome to GOLDENROD DEPT.STORE.$"
-
+    .string "{JPN}いらっしゃいませ！\n"
+	.string "{JPN}コガネひゃっかてんです$"
 GoldenrodDeptStore1_Text_Gentleman:
-    .string "The DEPT.STORE has a decent\n"
-    .string "selection.\p"
-    .string "But some items are only available\n"
-    .string "as GAME CORNER prizes.$"
-
+    .string "{JPN}コガネのひゃっかてんには\n"
+	.string "{JPN}いろんなものがそろっとる\p"
+	.string "{JPN}でもねこのまちの\n"
+	.string "{JPN}ゲームコーナーのけいひんでないと\l"
+	.string "{JPN}てにはいらないものもあるんだよ$"
 GoldenrodDeptStore1_Text_PokefanF:
-    .string "I'm raring to shop again today!$"
-
+    .string "{JPN}さあきょうも\n"
+	.string "{JPN}たくさんおかいものするわよ！$"
 GoldenrodDeptStore1_Text_BugCatcher:
-    .string "Mom's good at bargain hunting.\p"
-    .string "She always buys stuff at lower\n"
-    .string "prices.$"
-
+    .string "{JPN}おかあさんはかいものじょうず\p"
+	.string "{JPN}ちょっとやすいねだんで\n"
+	.string "{JPN}どうぐをかってくるよ$"
 GoldenrodDeptStore1_Text_Directory:
-    .string "1F SERVICE COUNTER\n"
-	.string "YOU ARE HERE.\p"
-    .string "2F TRAINER'S MARKET\p"
-    .string "3F BATTLE COLLECTION\p"
-    .string "4F MEDICINE BOX\p"
-    .string "5F TM CORNER\p"
-    .string "6F TRANQUIL SQUARE\p"
-    .string "ROOFTOP LOOKOUT$"
+    .string "{JPN}1かい..サービスカウンター\n"
+	.string "{JPN}2かい..トレーナーズマーケット\l"
+	.string "{JPN}3かい..バトルコレクション\l"
+	.string "{JPN}4かい..メディシンボックス\l"
+	.string "{JPN}5かい..わざマシンコーナー\l"
+	.string "{JPN}6かい..いこいのひろば$"

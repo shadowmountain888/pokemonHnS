@@ -392,104 +392,71 @@ VioletCity_EventScript_GymSign::
 	end
 
 VioletCity_Text_LiquidJustice:
-	.string "Look around!\p"
-	.string "It's easy to see what POKéMON\n"
-	.string "you can catch in an area without\l"
-	.string "having to run around in tall\l"
-	.string "grass all day!$"
-
+	.string "{JPN}まわりをみてごらん！\pその ちいきに どんな\nポケモンが いるかが\lいちにちじゅう くさむらを\lはしりまわらなくても わかるよ！$"
 VioletCity_Text_EarlAsksIfYouBeatFalkner:
-	.string "Hello!\n"
-	.string "You are trainer?\p"
-	.string "Battle GYM LEADER,\n"
-	.string "win you did?$"
-
+	.string "{JPN}はーいあなたトレーナーですね\n"
+	.string "{JPN}ジムリーダーにはかてましたかあ？$"
 VioletCity_Text_VeryNiceIndeed:
-	.string "Ooh, la la!\n"
-	.string "Very indeed nice!$"
-
+	.string "{JPN}それはすーごいですねー！$"
 VioletCity_Text_FollowEarl:
-	.string "Is that so? Then study shall\n"
-	.string "you! Follow me!$"
-
+	.string "{JPN}そーですかー\n"
+	.string "{JPN}それではべんきょーするですよ\l"
+	.string "{JPN}ではついてくるですよー$"
 VioletCity_Text_HereTeacherIAm:
-	.string "Here, teacher I am.\n"
-	.string "Good it is you study here!$"
-
+	.string "{JPN}ワタシここのせんせー！\p"
+	.string "{JPN}あなたここで\n"
+	.string "{JPN}べんきょーするといいねー$"
 VioletCity_Text_Lass:
-	.string "Ghosts are rumored to appear\n"
-	.string "in SPROUT TOWER.\p"
-	.string "They say that GHOST-type\n"
-	.string "moves can bypass the defenses\p"
-	.string "of tough POKéMON like ONIX\n"
-	.string "and GEODUDE.$"
-
+	.string "{JPN}マダツボミのとうには\nおばけがでるって うわさよ\pゴーストタイプの わざなら\nイワークや イシツブテみたいな\pかたい ポケモンの ぼうぎょを\nとっぱできるんですって$"
 VioletCity_Text_Boy:
-	.string "Hey, you're a POKéMON trainer?\p"
-	.string "If you head to the ACADEMY,\n"
-	.string "you might learn something new!$"
-
+	.string "{JPN}おっ きみ ポケモン\nトレーナーなの？\pアカデミーに いけば\nなにか あたらしいことを\nまなべるかもよ！$"
 VioletCity_Text_Gramps:
-	.string "FALKNER, from the VIOLET\n"
-	.string "POKéMON GYM, is a fine trainer!\p"
-	.string "He inherited his father's gym\n"
-	.string "and has done a great job with\l"
-	.string "it.$"
-
+	.string "{JPN}キキョウポケモンジムの\n"
+	.string "{JPN}ハヤトはすごうでのトレーナー！\p"
+	.string "{JPN}ちちおやのあとをついで\n"
+	.string "{JPN}りっぱにジムをまもっとるぞ！$"
 VioletCity_Text_Youngster:
-	.string "I saw a wiggly tree up ahead!\p"
-	.string "If you touch it, it squirms\n"
-	.string "and dances! Cool!$"
-
+	.string "{JPN}さっき ゆれてる きを\nみつけたんだ！\pさわると クネクネして\nおどるんだぜ！ すげーよ！$"
 VioletCity_Text_Sign:
-	.string "VIOLET CITY\p"
-	.string "The City of Nostalgic Scents$"
-
+	.string "{JPN}ここはキキョウシティ\n"
+	.string "{JPN}なつかしいかおりのまち$"
 VioletCity_Text_GymSign:
-	.string "VIOLET CITY POKéMON GYM\p"
-	.string "LEADER: FALKNER, The Elegant\n"
-	.string "Master of Flying POKéMON$"
-
+	.string "{JPN}キキョウシティポケモンジム\n"
+	.string "{JPN}リーダーハヤト\l"
+	.string "{JPN}かれいなるひこうポケモンつかい！$"
 VioletCity_Text_SproutTowerSign:
-	.string "SPROUT TOWER\p"
-	.string "Experience the Way of POKéMON$"
-
+	.string "{JPN}ここはマダツボミのとう\p"
+	.string "{JPN}ポケモンしゅぎょうをつうじて\n"
+	.string "{JPN}まよいをたちきりなされよ$"
 VioletCity_Text_EarlsAcademySign:
-	.string "EARL'S POKéMON ACADEMY$"
-
+	.string "{JPN}アールの ポケモン アカデミー$"
 VioletCity_Text_Pichu:
-	.string "PICHU: Chuuuu!$"
-
+	.string "{JPN}ピチュー: ちゅーう！$"
 VioletCity_Text_Bellsprout:
-	.string "BELLSPROUT: Sprouuuut.$"
-
+	.string "{JPN}マダツボミ: まだつぼみー$"
 VioletCity_Text_Rattata:
-	.string "RATTATA: RATTATARATTA!$"
-
+	.string "{JPN}コラッタ: ころころった！$"
 VioletCity_Text_Elm_Call:
-	.string "PROF.ELM: Hello, {PLAYER}? We\n"
-	.string "discovered something about the EGG!\p"
-	.string "My assistant is at the POKéMON\n"
-	.string "CENTER in VIOLET CITY.\p"
-	.string "Could you talk to him?$"
+	.string "{JPN}ウツギはかせ: もしもし {PLAYER}くん?\n"
+	.string "{JPN}タマゴについて はっけんが あったんじゃ!\p"
+	.string "{JPN}わたしの じょしゅが キキョウシティの\n"
+	.string "{JPN}ポケモンセンターに いるんじゃ\p"
+	.string "{JPN}かれと はなしてくれるかな?$"
 
 VioletCity_Text_Kimono_Girl1:
-.string "Me oh my...\n"
-.string "That EGG must be...!$"
-
+.string "{JPN}あれまそのタマゴは..！$"
 VioletCity_Text_Kimono_Girl2:
-.string "I see...\p"
-.string "So it was handed from MR. POKéMON\n"
-.string "to PROF.ELM, then from \l"
-.string "PROF.ELM to you.\p"
-.string "Now I get it...$"
-
+	.string "{JPN}ふんふんなるほど..\n"
+	.string "{JPN}ポケモンじいはんから\l"
+	.string "{JPN}ウツギはんへ\p"
+	.string "{JPN}そしてウツギはんから\n"
+	.string "{JPN}あんさんへ\p"
+	.string "{JPN}そうどすかあ..$"
 VioletCity_Text_Kimono_Girl3:
-.string "That EGG is truly an important EGG.\p"
-.string "Please do take good care of it\n"
-.string "for me. Is that understood?$"
-
+	.string "{JPN}それはほんまにだいじな\n"
+	.string "{JPN}タマゴやさかいに\l"
+	.string "{JPN}しっかりそだてておくれやす\p"
+	.string "{JPN}よろしおすな？$"
 VioletCity_Text_Kimono_Girl4:
-.string "I am counting on you.$"
-
+.string "{JPN}ほなたのんますえー$"
 

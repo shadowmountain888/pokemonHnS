@@ -135,188 +135,182 @@ FortreeCity_Gym_EventScript_GymStatue::
 	end
 
 FortreeCity_Gym_Text_GymGuideAdvice:
-	.string "Yo, how's it going, CHAMPION-\n"
-	.string "bound {PLAYER}?\p"
-	.string "FORTREE GYM LEADER WINONA is\n"
-	.string "a master of FLYING-type POKéMON.\p"
-	.string "She's waiting at the back of this GYM,\n"
-	.string "behind the rotating doors.\p"
-	.string "She's waiting for new challengers\n"
-	.string "who are trying to take wing!\p"
-	.string "Okay, go for it!$"
+	.string "{JPN}よう ちょうしはどうだい \n"
+	.string "{JPN}チャンピオンを めざす {PLAYER}!\p"
+	.string "{JPN}ヒワマキジムリーダーの ナギは\n"
+	.string "{JPN}ひこうタイプの ポケモンの\l"
+	.string "{JPN}たつじんだよ.\p"
+	.string "{JPN}かいてんドアの おくで\n"
+	.string "{JPN}きみを まっている.\p"
+	.string "{JPN}はばたこうとする\n"
+	.string "{JPN}あたらしい ちょうせんしゃを\lまっているんだ!\pよし がんばれ!$"
 
 FortreeCity_Gym_Text_GymGuidePostVictory:
-	.string "You did it!\n"
-	.string "You've achieved liftoff!$"
+	.string "{JPN}やったな!\n"
+	.string "{JPN}りりく せいこうだ!$"
 
 FortreeCity_Gym_Text_JaredIntro:
-	.string "Behold the elegant battle style of\n"
-	.string "BIRD POKéMON!$"
+	.string "{JPN}とりポケモンの\n"
+	.string "{JPN}エレガントな たたかいスタイルを\lみるがいい!$"
 
 FortreeCity_Gym_Text_JaredDefeat:
-	.string "You…\n"
-	.string "You're strong…$"
-
+	.string "{JPN}きみは...\n"
+	.string "{JPN}きみは つよい...$"
 FortreeCity_Gym_Text_JaredPostBattle:
-	.string "A TRAINER has to be smart to keep\n"
-	.string "up with unexpected turns of events.\p"
-	.string "Do you have the smarts to get to\n"
-	.string "our LEADER?$"
+	.string "{JPN}トレーナーは よそくできない\n"
+	.string "{JPN}できごとに ついていくために\l"
+	.string "{JPN}かしこくなければ ならない.\p"
+	.string "{JPN}われらのリーダーまで\nたどりつく あたまは\lきみに あるのかな?$"
 
 FortreeCity_Gym_Text_EdwardoIntro:
-	.string "The lovers of BIRD POKéMON aspire\n"
-	.string "to join this GYM.\p"
-	.string "As a member of the FORTREE GYM,\n"
-	.string "I'm not allowed to lose!$"
+	.string "{JPN}とりポケモンを あいする ものたちが\n"
+	.string "{JPN}このジムに はいることを\l"
+	.string "{JPN}あこがれているのだ.\p"
+	.string "{JPN}ヒワマキジムの いちいんとして\nまけることは ゆるされない!$"
 
 FortreeCity_Gym_Text_EdwardoDefeat:
-	.string "It was too much of a load for me\n"
-	.string "to bear…$"
-
+	.string "{JPN}わたしには おもすぎる\n"
+	.string "{JPN}あいてだった...$"
 FortreeCity_Gym_Text_EdwardoPostBattle:
-	.string "The world is huge, and there are\n"
-	.string "countless tough TRAINERS.\p"
-	.string "I'm going to keep training and make\n"
-	.string "myself even stronger.$"
+	.string "{JPN}せかいは ひろくて\n"
+	.string "{JPN}かぞえきれないほどの\l"
+	.string "{JPN}つよいトレーナーが いる.\p"
+	.string "{JPN}おれは くんれんを つづけて\nもっと つよくなるつもりだ.$"
 
 FortreeCity_Gym_Text_FlintIntro:
-	.string "There's no need for WINONA, our GYM\n"
-	.string "LEADER, to deal with you!\p"
-	.string "I'm plenty good enough for you!$"
+	.string "{JPN}われらのジムリーダー ナギが\n"
+	.string "{JPN}きみの あいてを する\l"
+	.string "{JPN}ひつようなんて ない!\pおれで じゅうぶんだ!$"
 
 FortreeCity_Gym_Text_FlintDefeat:
-	.string "WINONA, I…\n"
-	.string "I lost!$"
+	.string "{JPN}ナギ! ぼくは...\n"
+	.string "{JPN}ぼくは まけた!$"
 
 FortreeCity_Gym_Text_FlintPostBattle:
-	.string "WINONA is cute and she's strong.\n"
-	.string "She's the ultimate LEADER!\p"
-	.string "Blush…$"
-
+	.string "{JPN}ナギは かわいくて つよい.\n"
+	.string "{JPN}さいこうの リーダーだ!\p"
+	.string "{JPN}てれる...$"
 FortreeCity_Gym_Text_AshleyIntro:
-	.string "WINONA taught me personally!\n"
-	.string "You can't beat me easily!$"
+	.string "{JPN}ナギが じきじきに\n"
+	.string "{JPN}おしえてくれたのよ!\nかんたんには かてないわ!$"
 
 FortreeCity_Gym_Text_AshleyDefeat:
-	.string "I was beaten…$"
-
+	.string "{JPN}まけてしまった...$"
 FortreeCity_Gym_Text_AshleyPostBattle:
-	.string "Thanks to WINONA, the people of\n"
-	.string "FORTREE can live without fear.$"
+	.string "{JPN}ナギの おかげで\n"
+	.string "{JPN}ヒワマキの ひとたちは\lふあんなく くらせるのよ.$"
 
 FortreeCity_Gym_Text_HumbertoIntro:
-	.string "When WINONA takes to battle, her face\n"
-	.string "shines with beautiful determination…\p"
-	.string "I'm not letting you witness that\n"
-	.string "lovely sight!$"
+	.string "{JPN}ナギが たたかうとき かのじょの\n"
+	.string "{JPN}かおは うつくしい けついで\l"
+	.string "{JPN}かがやく...\p"
+	.string "{JPN}そんな すてきな すがたを\nきみには みせないぞ!$"
 
 FortreeCity_Gym_Text_HumbertoDefeat:
-	.string "Urk!\n"
-	.string "I couldn't stop you.$"
+	.string "{JPN}うっ!\n"
+	.string "{JPN}とめられなかった.$"
 
 FortreeCity_Gym_Text_HumbertoPostBattle:
-	.string "You'd better watch it!\n"
-	.string "Don't get distracted staring at WINONA\l"
-	.string "or you'll go crashing down in a heap!$"
+	.string "{JPN}きを つけたほうが いいぞ!\n"
+	.string "{JPN}ナギを みつめて きが\l"
+	.string "{JPN}ちってしまわないように!$"
 
 FortreeCity_Gym_Text_DariusIntro:
-	.string "You'd better know that there are all\n"
-	.string "sorts of FLYING-type POKéMON.\p"
-	.string "You do know that, right?$"
+	.string "{JPN}ひこうタイプの ポケモンには\n"
+	.string "{JPN}いろんな しゅるいが いることを\l"
+	.string "{JPN}しっているだろうな?\pしってるよな?$"
 
 FortreeCity_Gym_Text_DariusDefeat:
-	.string "You seem to know your stuff!$"
+	.string "{JPN}きみは よく しっているようだ!$"
 
 FortreeCity_Gym_Text_DariusPostBattle:
-	.string "Sure, you beat me all right.\n"
-	.string "But you'd better watch it! Our LEADER\l"
-	.string "WINONA's POKéMON are all business.$"
+	.string "{JPN}たしかに きみに まけたよ.\n"
+	.string "{JPN}しかし きを つけろよ! われらの\l"
+	.string "{JPN}リーダー ナギの ポケモンは\lほんきだからな.$"
 
 FortreeCity_Gym_Text_WinonaIntro:
-	.string "I am WINONA. I am the LEADER of\n"
-	.string "the FORTREE POKéMON GYM.\p"
-	.string "I have become one with BIRD POKéMON\n"
-	.string "and have soared the skies…\p"
-	.string "However grueling the battle, we have\n"
-	.string "triumphed with grace…\p"
-	.string "Witness the elegant choreography\n"
-	.string "of BIRD POKéMON and I!$"
+	.string "{JPN}わたしは ナギ.ヒワマキジムの\n"
+	.string "{JPN}リーダーです.\p"
+	.string "{JPN}とりポケモンと ひとつになり\n"
+	.string "{JPN}そらを まいあがってきました...\p"
+	.string "{JPN}どんなに きびしい たたかいでも\n"
+	.string "{JPN}ゆうがに しょうりしてきました...\p"
+	.string "{JPN}とりポケモンと わたしの\n"
+	.string "{JPN}うつくしい れんけいを みよ!$"
 
 FortreeCity_Gym_Text_WinonaDefeat:
-	.string "Never before have I seen a TRAINER\n"
-	.string "command POKéMON with more grace\l"
-	.string "than I…\p"
-	.string "In recognition of your prowess,\n"
-	.string "I present to you this GYM BADGE.$"
+	.string "{JPN}わたしより ゆうがに ポケモンを\n"
+	.string "{JPN}しきする トレーナーを みたのは\l"
+	.string "{JPN}はじめてです...\p"
+	.string "{JPN}あなたの ちからを みとめ\n"
+	.string "{JPN}この ジムバッジを おわたしします.$"
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
-	.string "{PLAYER} received the FEATHER BADGE\n"
-	.string "from WINONA.$"
+	.string "{JPN}{PLAYER}は ナギから\n"
+	.string "{JPN}フェザーバッジを てにいれた!$"
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
-	.string "With the FEATHER BADGE, all POKéMON up\n"
-	.string "to LV 70, even those received through\l"
-	.string "trades, will obey your every command.\p"
-	.string "You will also be able to use\n"
-	.string "the HM move FLY outside of battle,\p"
-	.string "even if the POKéMON does not know it.\p"
-	.string "The only requirement is that the\n"
-	.string "POKéMON has to be a FLYING TYPE.\p"
-	.string "And this…\n"
-	.string "This is a gift from me.$"
+	.string "{JPN}フェザーバッジが あれば レベル70\n"
+	.string "{JPN}までの ポケモンは こうかんで\l"
+	.string "{JPN}もらったものでも いうことをききます.\p"
+	.string "{JPN}ひこうタイプの ポケモンなら\n"
+	.string "{JPN}そのわざを おぼえていなくても\l"
+	.string "{JPN}そらをとぶが つかえるように\l"
+	.string "{JPN}なります.\p"
+	.string "{JPN}そして これは...\n"
+	.string "{JPN}わたしからの おくりものです.$"
+	.string ""
 
 FortreeCity_Gym_Text_ExplainAerialAce:
-	.string "TM40 contains AERIAL ACE.\p"
-	.string "Its speed…\n"
-	.string "No POKéMON should be able to avoid it.\p"
-	.string "… … … … … …$"
-
+	.string "{JPN}わざマシン40には つばめがえしが\n"
+	.string "{JPN}はいっています.\p"
+	.string "{JPN}そのスピード...\n"
+	.string "{JPN}どんなポケモンも よけられません.\p... ... ... ... ... ...$"
 FortreeCity_Gym_Text_RegisteredWinona:
-	.string "Registered GYM LEADER WINONA\n"
-	.string "in the POKéNAV.$"
+	.string "{JPN}ジムリーダー ナギを\n"
+	.string "{JPN}ポケナビに とうろくした.$"
 
 FortreeCity_Gym_Text_WinonaPostBattle:
-	.string "Though I fell to you, I will remain\n"
-	.string "devoted to BIRD POKéMON.$"
+	.string "{JPN}あなたに やぶれたけれど\n"
+	.string "{JPN}とりポケモンへの あいを\lわすれることは ありません.$"
 
 FortreeCity_Gym_Text_GymStatue:
-	.string "FORTREE CITY POKéMON GYM$"
+	.string "{JPN}ヒワマキシティ ポケモンジム$"
 
 FortreeCity_Gym_Text_GymStatueCertified:
-	.string "FORTREE CITY POKéMON GYM\p"
-	.string "WINONA'S CERTIFIED TRAINERS:\n"
-	.string "{PLAYER}$"
+	.string "{JPN}ヒワマキシティ ポケモンジム\p"
+	.string "{JPN}ナギ こうにん トレーナー:\n"
+	.string "{JPN}{PLAYER}$"
 
 FortreeCity_Gym_Text_WinonaPreRematch:
-	.string "WINONA: We humans can never escape\n"
-	.string "gravity's pull on the ground.\p"
-	.string "But by striving for excellence,\n"
-	.string "we have the power to soar!\p"
-	.string "You have scaled the pinnacle as\n"
-	.string "the reigning CHAMPION.\p"
-	.string "Please, allow me to see your power\n"
-	.string "at full flight!$"
+	.string "{JPN}ナギ: わたしたち にんげんは\n"
+	.string "{JPN}じゅうりょくに ひかれて\l"
+	.string "{JPN}ちじょうから のがれられない.\p"
+	.string "{JPN}でも たかい りそうを\n"
+	.string "{JPN}めざすことで そらに\l"
+	.string "{JPN}はばたく ちからを てに\l"
+	.string "{JPN}いれることが できるの!\p"
+	.string "{JPN}あなたは ちょうじょうを\nきわめて チャンピオンの\lざに ついている.\pどうか あなたの ちからを\nぜんりょくで みせて\lくださいな!$"
 
 FortreeCity_Gym_Text_WinonaRematchDefeat:
-	.string "I failed to reach your height again…$"
-
+	.string "{JPN}また あなたの たかさに\nとどかなかった...$"
 FortreeCity_Gym_Text_WinonaPostRematch:
-	.string "WINONA: Even though I have lost,\n"
-	.string "the wings of my heart remain unbroken.\p"
-	.string "I can rise and soar again and\n"
-	.string "yet again.\p"
-	.string "I am convinced of it!$"
+	.string "{JPN}ナギ: まけてしまったけれど\n"
+	.string "{JPN}こころの つばさは\l"
+	.string "{JPN}おれていません.\p"
+	.string "{JPN}また たちあがって\n"
+	.string "{JPN}そらに はばたくことが\lできるの.\nそう しんじています!$"
 
 FortreeCity_Gym_Text_WinonaRematchNeedTwoMons:
-	.string "WINONA: We humans can never escape\n"
-	.string "gravity's pull on the ground.\p"
-	.string "But by striving for excellence,\n"
-	.string "we have the power to soar!\p"
-	.string "You have scaled the pinnacle as\n"
-	.string "the reigning CHAMPION.\p"
-	.string "Please, allow me to see your power\n"
-	.string "at full flight!\p"
-	.string "Oh, no… Do you have but one\n"
-	.string "POKéMON with you?\p"
-	.string "Please return with two POKéMON\n"
-	.string "at the very least.$"
+	.string "{JPN}ナギ: わたしたち にんげんは\n"
+	.string "{JPN}じゅうりょくに しばられ じめんを\l"
+	.string "{JPN}はなれることが できません.\p"
+	.string "{JPN}でも たかみを めざすことで\n"
+	.string "{JPN}そらを まう ちからを\l"
+	.string "{JPN}もつことができるのです!\p"
+	.string "{JPN}あなたは チャンピオンとして\n"
+	.string "{JPN}ちょうじょうに たっています.\p"
+	.string "{JPN}ぜひとも あなたの ちからを\n"
+	.string "{JPN}ぜんりょくで みせてください!\p"
+	.string "{JPN}あら... ポケモンが 1ぴきしか\n"
+	.string "{JPN}いないのですか?\pさいていでも 2ひきは つれて\nきてくださいね.$"

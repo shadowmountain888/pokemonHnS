@@ -37,66 +37,64 @@ PewterCity_Gym_EventScript_Brock_Defeated::
 
 
 PewterCity_Gym_Text_Brock_Intro:
-	.string "BROCK: Wow, it's not often that we get a\n"
-	.string "challenger from JOHTO.\p"
-	.string "I'm BROCK, the PEWTER GYM LEADER.\p"
-	.string "I'm an expert on ROCK-type POKéMON.\p"
-	.string "My POKéMON are impervious to most\n"
-	.string "physical attacks. You'll have a hard\l"
-	.string "time inflicting any damage.\p"
-	.string "Come on!$"
-
+	.string "{JPN}ジョウトから\n"
+	.string "{JPN}ちょうせんとはめずらしい！\p"
+	.string "{JPN}おれはニビポケモンジム\n"
+	.string "{JPN}リーダーのタケシ！\l"
+	.string "{JPN}いわタイプのエキスパートさ！\p"
+	.string "{JPN}ちょっとやそっとのこうげきじゃ\n"
+	.string "{JPN}おれのポケモンたちはへいき\l"
+	.string "{JPN}いたくもかゆくもないぜ！\p"
+	.string "{JPN}かかってこい！$"
 PewterCity_Gym_Text_Brock_WinLoss:
-	.string "BROCK: Your POKéMON's powerful attacks\n"
-	.string "overcame my rock-hard defense…\p"
-	.string "You're stronger than I expected…\p"
-	.string "Go ahead--take this BADGE.$"
-
+	.string "{JPN}..まもりをうわまわる\n"
+	.string "{JPN}きょうれつなこうげき..\l"
+	.string "{JPN}おれのよそういじょうだ..！\p"
+	.string "{JPN}さあこのバッジを\n"
+	.string "{JPN}もっていってくれ！$"
 PewterCity_Gym_Text_ReceivedBoulderBadge:
-	.string "{PLAYER} received BOULDERBADGE.$"
-
+	.string "{JPN}{PLAYER}はタケシから\n"
+	.string "{JPN}グレーバッジをもらった！$"
 PewterCity_Gym_Text_Brock_BoulderBadge:
-	.string "BROCK: {PLAYER}, thanks. I enjoyed\n"
-	.string "battling you, even though I am a bit\l"
-	.string "upset.\p"
-	.string "That BOULDERBADGE will make your\n"
-	.string "POKéMON even more powerful.$"
+	.string "{JPN}ブロック: {PLAYER} ありがとう.\n"
+	.string "{JPN}ちょっと くやしいけど\l"
+	.string "{JPN}たのしい たたかいだったよ.\p"
+	.string "{JPN}その グレーバッジが きみの\n"
+	.string "{JPN}ポケモンを もっと つよく\lしてくれるだろう.$"
 
 PewterCity_Gym_Text_Brock_FightDone:
-	.string "BROCK: The world is huge. There are\n"
-	.string "still many strong trainers like you.\p"
-	.string "Just wait and see. I'm going to become\n"
-	.string "a lot stronger too.$"
-
+	.string "{JPN}よのなかはひろいな..\n"
+	.string "{JPN}こんなにつよいトレーナーが\l"
+	.string "{JPN}まだまだたくさんいるんだ\p"
+	.string "{JPN}おれももっともっと\n"
+	.string "{JPN}つよいトレーナーになるよ！$"
 PewterCity_Gym_Text_CamperJerry_Seen:
-	.string "The trainers of this GYM use ROCK-type\n"
-	.string "POKéMON.\p"
-	.string "The ROCK-type has high DEFENSE.\p"
-	.string "Battles could end up going a long time.\n"
-	.string "Are you ready for this?$"
+	.string "{JPN}このジムの トレーナーは\n"
+	.string "{JPN}いわタイプの ポケモンを\l"
+	.string "{JPN}つかうんだ.\p"
+	.string "{JPN}いわタイプは ぼうぎょが\n"
+	.string "{JPN}たかいんだよ.\pたたかいは ながびくかも\nしれない.じゅんびは\lできてるかい?$"
 
 PewterCity_Gym_Text_CamperJerry_Beaten:
-	.string "I have to win these battles…$"
-
+	.string "{JPN}I have to win these battles...$"
 PewterCity_Gym_Text_CamperJerry_AfterBattle:
-	.string "Hey, you! Trainer from JOHTO! BROCK is\n"
-	.string "tough. He'll punish you if you don't\l"
-	.string "take him seriously.$"
+	.string "{JPN}おい きみ! ジョウトの\n"
+	.string "{JPN}トレーナー! ブロックは\l"
+	.string "{JPN}つよいぞ.\pまじめに たたかわないと\nひどいめに あうからな!$"
 
 PewterCity_Gym_Text_Guide:
-	.string "Yo! CHAMP in making! You're really\n"
-	.string "rocking.\p"
-	.string "Are you battling the GYM LEADERS of\n"
-	.string "KANTO?\p"
-	.string "They're strong and dedicated people,\n"
-	.string "just like JOHTO's GYM LEADERS.$"
-
+	.string "{JPN}おーす！\n"
+	.string "{JPN}みらいのレジェンド！\p"
+	.string "{JPN}みたところ..\n"
+	.string "{JPN}ちょうしはよさそうだな！\p"
+	.string "{JPN}カントーのジムリーダーと\n"
+	.string "{JPN}たたかってるかい？\p"
+	.string "{JPN}ジョウトにまけずおとらず\n"
+	.string "{JPN}てごわいヤツらだぜ！$"
 PewterCity_Gym_Text_Guide_Win:
-	.string "Yo! CHAMP in making! That GYM didn't\n"
-	.string "give you much trouble.\p"
-	.string "The way you took charge was really\n"
-	.string "inspiring. I mean that seriously.$"
-
+	.string "{JPN}さすがはみらいのレジェンド！\n"
+	.string "{JPN}あぶなげないたたかいだったぜ！\l"
+	.string "{JPN}かんどうしたよいやホント！$"
 PewterCity_Gym_EventScript_GymGuy::
 	goto_if_set FLAG_DEFEATED_PEWTER_GYM, PewterCity_Gym_EventScript_GymGuyAfter
 	msgbox PewterCity_Gym_Text_Guide, MSGBOX_NPC
@@ -120,15 +118,15 @@ PewterCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 PewterCity_Gym_Text_GymStatue::
-    .string "PEWTER POKéMON GYM\n"
-    .string "LEADER: BROCK\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE, RED$"
+    .string "{JPN}ニビ ポケモンジム\n"
+	.string "{JPN}リーダー: ブロック\p"
+	.string "{JPN}かった トレーナー:\n"
+	.string "{JPN}グリーン レッド$"
 
 PewterCity_Gym_Text_GymStatuePlayerWon::
-    .string "PEWTER POKéMON GYM\n"
-    .string "LEADER: BROCK\p"
-    .string "WINNING TRAINERS:\n"
-	.string "BLUE, RED, {PLAYER}$"
+    .string "{JPN}ニビ ポケモンジム\n"
+	.string "{JPN}リーダー: ブロック\p"
+    .string "{JPN}かった トレーナー:\n"
+	.string "{JPN}グリーン レッド {PLAYER}$"
 
 

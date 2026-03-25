@@ -12,12 +12,12 @@ VermilionPortIndoor_EventScript_Nerd::
 	end
 
 VermilionPortPassage_Text_Teacher:
-	.string "The FAST SHIP sails every day!$"
+	.string "{JPN}こうそくせんは まいにち\nうんこうしています!$"
 
 VermilionPort_Text_SuperNerd:
-	.string "You came from JOHTO?\p"
-	.string "I hear many rare POKéMON live\n"
-	.string "over there.$"
+	.string "{JPN}きみは ジョウトから\n"
+	.string "{JPN}きたのかい?\p"
+	.string "{JPN}あちらには めずらしい\nポケモンが たくさん\lすんでいるって きいたよ.$"
 
 VermilionPort_EventScript_Sailor::
 	lock
@@ -164,46 +164,46 @@ VermilionPort_Movement_BoatLeave:
 	step_end
 
 VermilionPort_Text_SailorCantSail:
-	.string "There's been a break-in at the\n"
-	.string "POWER PLANT, so we cannot set sail\l"
-	.string "until the THIEF is found.$"
+	.string "{JPN}はつでんしょに どろぼうが\n"
+	.string "{JPN}はいったので はんにんが\l"
+	.string "{JPN}みつかるまで しゅっこう\lできません.$"
 
 VermilionPort_Text_NoPass:
-    .string "{PLAYER} tried to show the\n"
-    .string "{STR_VAR_1}…\p"
-    .string "…But no {STR_VAR_1}!\p"
-    .string "Sorry!\n"
-    .string "You may board only if you have an\l"
-    .string "{STR_VAR_1}.$"
+    .string "{JPN}{PLAYER}は\n"
+	.string "{JPN}{STR_VAR_1}を\n"
+	.string "{JPN}みせようとした...\p"
+	.string "{JPN}...でも {STR_VAR_1}を\n"
+    .string "{JPN}もっていない!\p"
+	.string "{JPN}すみません!\n{STR_VAR_1}を\lもっているかただけ\lのせることができます.$"
 
 VermilionPort_Text_SailorGetOnBoard:
-    .string "We're departing soon.\n"
-    .string "Please get on board.$"
+    .string "{JPN}まもなく しゅっぱつします.\n"
+	.string "{JPN}ごじょうせん ください.$"
 
 VermilionPort_Text_CantBoard:
-    .string "Sorry. You can't board now.$"
+    .string "{JPN}すみません. いまは ごじょうせん\nできません.$"
 
 VermilionPort_Text_WhereSail:
-    .string "Where would you like to sail?$"
+    .string "{JPN}どちらまで いかれますか?$"
 
 VermilionPort_Text_AskBoard:
-    .string "Welcome to FAST SHIP S.S.AQUA.\p"
-    .string "Will you be boarding today?$"
+    .string "{JPN}こうそくせん アクアごうへ\n"
+	.string "{JPN}ようこそ.\pきょうは ごじょうせん\nされますか?$"
 
 VermilionPort_Text_AskTicket:
-    .string "May I see your S.S.TICKET?$"
+    .string "{JPN}ふなちけっとを\nおみせください.$"
 
 VermilionPort_Text_ComeAgain:
-    .string "We hope to see you again!$"
+    .string "{JPN}またの ごりよう\nおまちしています!$"
 
 VermilionPort_Text_FlashTicket:
-    .string "{PLAYER} flashed the S.S.TICKET.\p"
-    .string "That's it. Thank you!$"
+    .string "{JPN}{PLAYER}は ふなちけっとを\n"
+	.string "{JPN}みせた.\pはい. ありがとう\nございます!$"
 
 VermilionPort_Text_NoTicket:
-    .string "{PLAYER} tried to show the\n"
-    .string "S.S.TICKET…\p"
-    .string "…But no TICKET!\p"
-    .string "Sorry!\n"
-    .string "You may board only\l"
-    .string "if you have an S.S.TICKET.$"
+    .string "{JPN}{PLAYER}は\n"
+	.string "{JPN}ふねのチケットを\n"
+	.string "{JPN}みせようとした...\p"
+	.string "{JPN}...でも チケットを\n"
+    .string "{JPN}もっていない!\p"
+	.string "{JPN}すみません!\nふねのチケットを\lもっているかただけ\lのせることができます.$"

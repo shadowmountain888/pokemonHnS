@@ -27,16 +27,15 @@ GoldenrodDeptStore3_EventScript_Rocker::
 	end
 
 GoldenrodDeptStore_Text_3FSuperNerd:
-    .string "I, I, I'm really impatient!\p"
-    .string "I use X SPEED in battle to speed up\n"
-    .string "my POKéMON.$"
-
+    .string "{JPN}おおれせっかちだから\n"
+	.string "{JPN}ポポケモンしょうぶのときも\l"
+	.string "{JPN}スピーダーつかって\l"
+	.string "{JPN}ポケモンのすばやさあげてる！$"
 GoldenrodDeptStore_Text_3FRocker:
-    .string "Hey! When you battle, do you use X\n"
-    .string "SPECIAL?\p"
-    .string "It's awesome. It really jacks up\n"
-    .string "SPECIAL ATTACK!$"
-
+    .string "{JPN}おうたたかうときポケモンに\n"
+	.string "{JPN}スペシャルアップはつかってるか？\p"
+	.string "{JPN}とくしゅのうりょくがあがって\n"
+	.string "{JPN}ばっちりいいかんじだぜ！$"
 GoldenrodDeptStore_Text_3FDirectory:
-    .string "For Victory Seekers\p"
-    .string "3F BATTLE COLLECTION$"
+    .string "{JPN}しょうぶにかつために\n"
+	.string "{JPN}3かい..バトルコレクション$"

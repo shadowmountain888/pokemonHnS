@@ -276,78 +276,58 @@ GoldenrodCity_GameCorner_EventScript_Pharmacist::
 	end
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_YouWantPrize:
-	.string "{STR_VAR_1} is what you want?$"
-
+	.string "{JPN}{STR_VAR_1}がほしいんですね？$"
 GoldenrodCity_GameCorner_Text_PlayerObtainedTheMon:
-	.string "{PLAYER} got {STR_VAR_1}!$"
-
+	.string "{JPN}{PLAYER}は{STR_VAR_1}を\nてにいれた！$"
 GoldenrodGamecorner_Text_GiveNicknameToThisMon:
-	.string "Nickname {STR_VAR_1}?$"
-
+	.string "{JPN}{STR_VAR_1}にニックネームを\nつけますか？$"
 GoldenrodCity_GameCorner_Text_PrizeVendorIntro:
-    .string "Welcome!\p"
-    .string "We exchange your game coins for\n"
-    .string "fabulous prizes!$"
+    .string "{JPN}いらっしゃいませ!\p"
+	.string "{JPN}ゲームコインと\n"
+    .string "{JPN}すてきなしょうひんを\lこうかんしますよ!$"
 
 GoldenrodCity_GameCorner_Text_PrizeVendorWhichPrize:
-    .string "Which prize would you like?$"
-
+	.string "{JPN}どのしょうひんにしますか？$"
 GoldenrodCity_GameCorner_Text_PrizeVendorHereYouGo:
-    .string "Here you go!$"
-
+    .string "{JPN}おおわかきトレーナーよ！\n"
+	.string "{JPN}うみはいいぞー！\p"
+	.string "{JPN}うーみーはーあおいーなー\n"
+	.string "{JPN}しょっぱーいーなーっと！$"
 GoldenrodCity_GameCorner_Text_PrizeVendorNeedMoreCoins:
-    .string "Sorry! You need more coins.$"
-
+    .string "{JPN}きみのもってるそれって\n"
+	.string "{JPN}ポケギアだろ？\l"
+	.string "{JPN}いいなあかっこいいなあ$"
 GoldenrodCity_GameCorner_Text_PrizeVendorNoMoreRoom:
-    .string "Sorry. You can't carry any more.$"
-
+    .string "{JPN}ってあかんがな\n"
+	.string "{JPN}それいじょうポケモンもてへんやん$"
 GoldenrodCity_GameCorner_Text_PrizeVendorQuit:
-    .string "OK. Please save your coins and come\n"
-    .string "again!$"
-
+    .string "{JPN}くらいよみちはきけん！\n"
+	.string "{JPN}くらいうみもきけんがいっぱい！\p"
+	.string "{JPN}とうだいのあかりがないと\n"
+	.string "{JPN}ふねはうごけないんだ$"
 GoldenrodCity_GameCorner_Text_PrizeVendorNoCoinCase:
-    .string "Oh? You don't have a COIN CASE.$"
-
+	.string "{JPN}あら？コインケースを\nもっていませんね$"
 GoldenrodCity_GameCorner_Text_Pharmacist:
-    .string "I always play this slot machine.\n"
-    .string "It pays out more than others,\l"
-    .string "I think.$"
-
+	.string "{JPN}いつもこのスロットマシンで\nあそんでるよ\lほかよりあたりがおおいと\nおもうんだ$"
 GoldenrodCity_GameCorner_Text_Woman:
-    .string "I can't stop winning!$"
-
+	.string "{JPN}かちっぱなしでとまらないの！$"
 GoldenrodCity_GameCorner_Text_PokefanM1:
-    .string "I just love this new slot machine.\p"
-    .string "It's more of a challenge than the\n"
-    .string "ones in CELADON.$"
-
+	.string "{JPN}このあたらしいスロットマシン\nだいすきなんだ\pタマムシのものより\nやりがいがあるよ$"
 GoldenrodCity_GameCorner_Text_CooltrainerM:
-    .string "Life is a gamble. I'm going to pull\n"
-    .string "till I drop!$"
-
+	.string "{JPN}じんせいはギャンブルだ！\nたおれるまでひっぱるぜ！$"
 GoldenrodCity_GameCorner_Text_PokefanF:
-    .string "Roulette…\p"
-    .string "I prefer it over the slots because\n"
-    .string "it's easier to figure the odds.\p"
-    .string "But the payout is much lower.$"
+    .string "{JPN}ルーレット...\p"
+	.string "{JPN}スロットより かくりつが\n"
+    .string "{JPN}わかりやすいから すきなの\p"
+	.string "{JPN}でも はいとうは ずっと\nひくいのよね$"
 
 GoldenrodCity_GameCorner_Text_CooltrainerF:
-    .string "I won't quit until I win!$"
-
+	.string "{JPN}かつまではやめないわ！$"
 GoldenrodCity_GameCorner_Text_Gentleman:
-    .string "I taught ICE BEAM to my POKéMON.\p"
-    .string "It was hard to get enough coins for\n"
-    .string "it, but it was worth it.$"
-
+	.string "{JPN}ポケモンにれいとうビームを\nおぼえさせたよ\pコインをためるのはたいへん\nだったがやったかいがあった$"
 GoldenrodCity_GameCorner_Text_PokefanM2:
-    .string "I couldn't win at the slots, and I\n"
-    .string "blew it on roulette.\p"
-    .string "I got so furious, I tossed out my\n"
-    .string "COIN CASE in the UNDERGROUND.$"
-
+	.string "{JPN}スロットでかてなくて\nルーレットでもだめだった\pむかつくからコインケースを\nちかがいにすてちまったよ$"
 GoldenrodCity_GameCorner_Text_MoveTutorInside:
-    .string "Wahahah! The coins keep rolling in!$"
-
+	.string "{JPN}わははは！コインがどんどん\nはいってくるぞー！$"
 GoldenrodCity_GameCorner_Text_LeftTheirDrink:
-    .string "Someone left their drink.\p"
-    .string "It smells sweet.$"
+	.string "{JPN}だれかののみものが\nのこっている\pあまいにおいがする$"

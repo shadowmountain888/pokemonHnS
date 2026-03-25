@@ -7,20 +7,20 @@ MagmaHideout_3F_2R_EventScript_Grunt10::
 	end
 
 MagmaHideout_3F_2R_Text_Grunt10Intro:
-	.string "I understand everything our leader\n"
-	.string "says. But you know what?\p"
-	.string "Doing stuff like digging up a super-\n"
-	.string "ancient POKéMON and ripping off\l"
-	.string "someone's METEORITE…\p"
-	.string "I think we're going a little too far.\n"
-	.string "What do you think?$"
+	.string "{JPN}おれはリーダーのいうこと\n"
+	.string "{JPN}ぜんぶわかるけどさあ...\p"
+	.string "{JPN}ちょうこだいポケモンを\n"
+	.string "{JPN}ほりおこしたり\l"
+	.string "{JPN}ひとのいんせきをうばったり...\p"
+	.string "{JPN}ちょっとやりすぎじゃない?\n"
+	.string "{JPN}きみはどうおもう?$"
 
 MagmaHideout_3F_2R_Text_Grunt10Defeat:
-	.string "Yeah, I think we are doing something\n"
-	.string "wrong somehow.$"
+	.string "{JPN}ああ どこか まちがった\n"
+	.string "{JPN}ことを してるんじゃないかな.$"
 
 MagmaHideout_3F_2R_Text_Grunt10PostBattle:
-	.string "You know, losing to you cleared my mind.\p"
-	.string "The next time I see our leader,\n"
-	.string "I'm going to ask him about what we do.$"
+	.string "{JPN}きみに まけて あたまが\n"
+	.string "{JPN}すっきりしたよ.\p"
+	.string "{JPN} ボスに あったら \nぼくらの やってることについて\nきいてみるつもりだ.$"
 

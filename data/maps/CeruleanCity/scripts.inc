@@ -27,35 +27,36 @@ CeruleanCity_EventScript_Guard::
 	end
 
 CeruleanCity_Text_ThisIsCeruleanCave::
-    .string "This is CERULEAN CAVE.\p"
-    .string "Horribly strong POKéMON live inside\n"
-    .string "there.\p"
-    .string "It takes a very special TRAINER to\n"
-    .string "be allowed inside there.\p"
-    .string "You'd have to be strong enough to\n"
-    .string "become the KANTO POKéMON LEAGUE\l"
-    .string "CHAMPION for starters.\p"
-    .string "And, you would have to have\n"
-    .string "made a great achievement.$"
+    .string "{JPN}ここは ハナダのどうくつ だよ.\p"
+	.string "{JPN}ものすごく つよい ポケモンが\n"
+    .string "{JPN}すんでいるんだ.\p"
+	.string "{JPN}とくべつな トレーナーじゃ\n"
+    .string "{JPN}ないと なかに はいれないよ.\p"
+	.string "{JPN}まずは カントーポケモンリーグの\l"
+    .string "{JPN}チャンピオンに なれるくらい\l"
+	.string "{JPN}つよくないと だめだね.\p"
+    .string "{JPN}そして すばらしい じっせきを\n"
+	.string "{JPN}のこしていないと いけないんだ.$"
 
 CeruleanCity_Text_CooltrainerM1:
-	.string "KANTO's POWER PLANT?\p"
-	.string "It's near the end of ROUTE 9, the\n"
-	.string "road that heads east from here.\p"
-	.string "I think there was an accident of\n"
-	.string "some sort there.$"
-
+	.string "{JPN}カントーのはつでんしょなら\n"
+	.string "{JPN}ひがしにのびている\l"
+	.string "{JPN}9ばんどうろのさきだよ\p"
+	.string "{JPN}じこがあったらしいけどね$"
 CeruleanCity_Text_CooltrainerM2:
-	.string "You're collecting every single\n"
-	.string "kind of POKéMON?\p"
-	.string "That must be quite a challenge,\n"
-	.string "but it sounds fun too.$"
-
+	.string "{JPN}ほほう！\n"
+	.string "{JPN}すべてのポケモンをあつめてる？\p"
+	.string "{JPN}たいへんだろうが\n"
+	.string "{JPN}やりがいもあるんだろうな$"
 CeruleanCity_Text_SuperNerd:
-	.string "The CAPE in the north is a good\n"
-	.string "place for dates.\p"
-	.string "Girls like it!$"
-
+	.string "{JPN}きたにあるみさきは\n"
+	.string "{JPN}おんなのこたちににんきの\l"
+	.string "{JPN}デートスポットさ！\p"
+	.string "{JPN}ここだけのはなし..\p"
+	.string "{JPN}ジムリーダーのカスミちゃんも\n"
+	.string "{JPN}みさきのあたりでときどき\l"
+	.string "{JPN}もくげきされているとか..\p"
+	.string "{JPN}だいショーック！！$"
 CeruleanCity_EventScript_Slowbro::
 	lock
 	faceplayer
@@ -67,8 +68,7 @@ CeruleanCity_EventScript_Slowbro::
 	end
 
 CeruleanCity_Text_Slowbro:
-	.string "SLOWBRO: Yarah?$"
-
+	.string "{JPN}やーあ？$"
 CeruleanCity_EventScript_SlowbroWoman::
 	msgbox CeruleanCity_Text_CooltrainerF1, MSGBOX_NPC
 	turnobject LOCALID_CERULEAN_WOMAN, DIR_EAST
@@ -86,15 +86,18 @@ CeruleanCity_EventScript_SlowbroWoman::
 	end
 
 CeruleanCity_Text_CooltrainerF1:
-	.string "My SLOWBRO and I make an awesome\n"
-	.string "combination!$"
-
+	.string "{JPN}わたしとヤドランのコンビ\n"
+	.string "{JPN}すごいんだから！\p"
+	.string "{JPN}さあヤドラン\n"
+	.string "{JPN}サイコキネシスだすのよ！\p"
+	.string "{JPN}...！！\p"
+	.string "{JPN}ヤドランの\n"
+	.string "{JPN}サイコキネシスさくれつ！$"
 CeruleanCity_Text_CooltrainerF2:
-	.string "SLOWBRO, show me your CONFUSION!$"
+	.string "{JPN}ヤドラン! ねんりきを\nみせて!$"
 
 CeruleanCity_Text_CooltrainerF3:
-	.string "…$"
-
+	.string "{JPN}...$"
 CeruleanCity_EventScript_Fisher::
 	goto_if_eq VAR_CERULEAN_CITY_STATE, 2, CeruleanCity_EventScript_FisherDuringRocket
 	msgbox CeruleanCity_Text_Fisher, MSGBOX_NPC
@@ -105,25 +108,22 @@ CeruleanCity_EventScript_FisherDuringRocket::
 	end
 
 CeruleanCity_Text_Fisher:
-	.string "I'm a huge fan of CERULEAN GYM's\n"
-	.string "MISTY.$"
-
+	.string "{JPN}ハナダジムのカスミちゃん！\n"
+	.string "{JPN}ぼくだいファンなんだ！$"
 CeruleanCity_Text_Fisher_RocketTip:
-	.string "I saw this shady guy go off toward\n"
-	.string "CERULEAN's CAPE.$"
-
+	.string "{JPN}くろいふくのあやしいやつが\n"
+	.string "{JPN}みさきのほうへにげていったよ！$"
 CeruleanCity_EventScript_Youngster::
 	msgbox CeruleanCity_Text_Youngster1, MSGBOX_NPC
 	end
 
 CeruleanCity_Text_Youngster1:
-	.string "The cave north of town has\n"
-	.string "horribly powerful POKéMON in it.$"
+	.string "{JPN}まちの きたにある どうくつには\n"
+	.string "{JPN}とてつもなく つよい ポケモンが\nいるんだって!$"
 
 CeruleanCity_Text_Youngster2:
-	.string "Ayuh?\p"
-	.string "My ITEMFINDER is responding…$"
-
+	.string "{JPN}あれ?\p"
+	.string "{JPN}どうぐファインダーが はんのう してるよ...$"
 CeruleanCity_EventScript_Sign::
 	msgbox CeruleanCity_Text_Sign, MSGBOX_SIGN
 	end
@@ -145,31 +145,25 @@ CeruleanCity_EventScript_CapeSign::
 	end
 
 CeruleanCity_Text_Sign:
-	.string "CERULEAN CITY\p"
-	.string "A Mysterious Blue Aura Surrounds It$"
+	.string "{JPN}ハナダシティ\p"
+	.string "{JPN}しんぴてきな あおいオーラに\nつつまれた まち$"
 
 CeruleanCity_Text_GymSign:
-	.string "CERULEAN CITY\n"
-	.string "POKéMON GYM\n"
-	.string "LEADER: MISTY\p"
-	.string "The Tomboyish Mermaid$"
-
+	.string "{JPN}ハナダシティポケモンジム\n"
+	.string "{JPN}リーダーカスミ\l"
+	.string "{JPN}おてんばにんぎょ$"
 CeruleanCity_Text_BikeShopSign:
-	.string "There's a notice here…\p"
-	.string "The BIKE SHOP has moved to\n"
-	.string "GOLDENROD CITY in JOHTO…$"
-
+	.string "{JPN}おしらせが あるよ...\p"
+	.string "{JPN}じてんしゃやさんは\n"
+	.string "{JPN}コガネシティに ひっこししました...$"
 CeruleanCity_Text_PoliceSign:
-	.string "There's a notice here…\p"
-	.string "Stamp out thievery and make the\n"
-	.string "city a friendlier, more cheerful\l"
-	.string "place!\p"
-	.string "CERULEAN POLICE$"
-
+	.string "{JPN}..チラシがはってある！\p"
+	.string "{JPN}ドロボーはやめましょう\n"
+	.string "{JPN}みんななかよくあかるいまち\l"
+	.string "{JPN}..ハナダけいさつより$"
 CeruleanCity_Text_CapeSign:
-	.string "CERULEAN CAPE\n"
-	.string "AHEAD$"
+	.string "{JPN}ハナダのみさき\n"
+	.string "{JPN}さき$"
 
 CeruleanCity_Text_LockedDoor:
-	.string "It's locked…$"
-
+	.string "{JPN}..カギがかかっている！$"

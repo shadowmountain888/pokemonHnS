@@ -15,8 +15,8 @@ Route22_EventScript_Sign::
 	end
 
 Route22_Text_VictoryRoadEntranceSign:
-	.string "POKéMON LEAGUE\p"
-	.string "VICTORY ROAD ENTRANCE$"
+	.string "{JPN}ポケモンリーグ\p"
+	.string "{JPN}チャンピオンロード いりぐち$"
 
 Route22_EventScript_ResetActivation::
 	setvar VAR_TEMP_0, 0
@@ -286,61 +286,61 @@ Route22_Movement_CelebiPush:
 
 
 Route22_Text_Silver1:
-	.string "{RIVAL}: You told me...\n"
-	.string "you were the number one in the whole\l"
-	.string "world!\p"
-	.string "Are you gonna quit?\p"
-	.string "What are you going to do now?$"
+	.string "{JPN}{RIVAL}: あんたが いったんだ...\n"
+	.string "{JPN}せかいで いちばん つよいって!\l"
+	.string "{JPN}いったじゃないか!\p"
+	.string "{JPN}やめるつもりなのか?\p"
+	.string "{JPN}これから どうするんだよ?$"
 
 Route22_Text_Giovanni1:
-	.string "....................\p"
-	.string "GIOVANNI: One must acknowledge one's\n"
-	.string "defeat before he can move on...\p"
-	.string "I will go solo... for now...\p"
-	.string "So that one day I will form a\n"
-	.string "stronger organization!$"
+	.string "{JPN}...\p"
+	.string "{JPN}ジョバンニ: はいぼくを みとめて\n"
+	.string "{JPN}はじめて まえに すすめる...\p"
+	.string "{JPN}ひとりで やっていく... いまは\n"
+	.string "{JPN}な...\p"
+	.string "{JPN}いつか もっと つよい\nそしきを つくるために!$"
 
 Route22_Text_Silver2:
-	.string "{RIVAL}: What aspect of you was\n"
-	.string "number one?\p"
-	.string "Gathering so many only to be\n"
-	.string "defeated by a mere child!$"
+	.string "{JPN}{RIVAL}: あんたの どこが\n"
+	.string "{JPN}せかいいちだったんだよ?\p"
+	.string "{JPN}こんなに おおぜい あつめて\n"
+	.string "{JPN}こどもに まけるなんて!$"
 
 Route22_Text_Giovanni2:
-	.string "GIOVANNI: Putting together the\n"
-	.string "potential of many is how you\l"
-	.string "produce a huge power...\l"
-	.string "That's what an organization is...\l"
-	.string "That's the strength of organization\p"
-	.string "I failed... to make the best use of\n"
-	.string "my subordinates' potential...!\p"
-	.string "But you shall witness one day the\n"
-	.string "revival of me and my TEAM ROCKET!$"
+	.string "{JPN}ジョバンニ: おおくのものの\n"
+	.string "{JPN}ちからを あわせることで\l"
+	.string "{JPN}きょだいな ちからを うむ...\l"
+	.string "{JPN}それが そしきというものだ...\l"
+	.string "{JPN}それが そしきの つよさなのだ\p"
+	.string "{JPN}だが わたしは ぶかたちの\n"
+	.string "{JPN}ちからを いかしきれなかった...!\p"
+	.string "{JPN}いつか わたしと ロケットだんの\n"
+	.string "{JPN}ふっかつを みることになるぞ!$"
 
 Route22_Text_Silver3:
-	.string "{RIVAL}: I don't understand you!\p"
-	.string "You don't make any sense!$"
+	.string "{JPN}{RIVAL}: わからないよ!\p"
+	.string "{JPN}あんたの いってること\nぜんぜん わからない!$"
 
 Route22_Text_Giovanni3:
-	.string ".......................\p"
-	.string "GIOVANNI: One day you will\n"
-	.string "understand.$"
+	.string "{JPN}...\p"
+	.string "{JPN}ジョバンニ: いつか わかるときが\n"
+	.string "{JPN}くる.$"
 
 Route22_Text_Silver4:
-	.string "{RIVAL}: I don't want to\n"
-	.string "Understand you!\p"
-	.string "I will never become someone like\n"
-	.string "you.\p"
-	.string "A coward when you're alone and\n"
-	.string "acting like a tyrant when you're\l"
-	.string "in front of other cowards!\p"
-	.string "I will become strong!\p"
-	.string "I will become a stronger man all\n"
-	.string "by myself!$"
+	.string "{JPN}{RIVAL}: わかりたくない!\n"
+	.string "{JPN}あんたのことなんて!\p"
+	.string "{JPN}あんたみたいには ぜったい\n"
+	.string "{JPN}ならない.\p"
+	.string "{JPN}ひとりのときは よわむしで\n"
+	.string "{JPN}なかまが いると きょうあくに\l"
+	.string "{JPN}なるような やつには!\p"
+	.string "{JPN}つよくなってやる!\p"
+	.string "{JPN}ひとりで もっと つよい おとこに\n"
+	.string "{JPN}なってやる!$"
 
 Route22_Text_Silver5:
-	.string "ALL BY MYSELF!$"
+	.string "{JPN}ひとりで だ!$"
 
 Route22_Text_Silver6:
-	.string "{RIVAL}: ... What are you staring at?$"
+	.string "{JPN}{RIVAL}: ... なにを みてるんだよ?$"
 

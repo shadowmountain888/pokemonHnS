@@ -184,6 +184,10 @@ void ConvertInternationalPlayerNameStripChar(u8 *str, u8 removeChar)
 
 void ConvertInternationalContestantName(u8 *str)
 {
+    // In a Japanese game, no {ENG} suffix needed on JP contestant names.
+    #if GAME_LANGUAGE == LANGUAGE_JAPANESE
+    return;
+    #else
     if (*str++ == EXT_CTRL_CODE_BEGIN && *str++ == EXT_CTRL_CODE_JPN)
     {
         while (*str != EOS)
@@ -198,6 +202,7 @@ void ConvertInternationalContestantName(u8 *str)
         *str++ = EXT_CTRL_CODE_ENG;
         *str = EOS;
     }
+    #endif
 }
 
 void TVShowConvertInternationalString(u8 *dest, const u8 *src, int language)

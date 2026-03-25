@@ -33,64 +33,58 @@ Route8_EventScript_Tom::
 	end
 
 Route8_Text_BikerDwayneSeen:
-	.string "We're the KANTO POKéMON FEDERATION\n"
-	.string "trainer group.\p"
-	.string "We'll drive you under our wheels!$"
+	.string "{JPN}おれたちは カントーポケモン\n"
+	.string "{JPN}れんごうの トレーナーぐんだん\n"
+	.string "{JPN}だぜ!\pおまえを しゃりんの したに\nおいこんでやるぜ!$"
 
 Route8_Text_BikerDwayneBeaten:
-	.string "S-sorry!$"
+	.string "{JPN}す すまねえ!$"
 
 Route8_Text_BikerDwayneAfter:
-	.string "The KANTO POKéMON FEDERATION will\n"
-	.string "never fall!$"
+	.string "{JPN}カントーポケモンれんごうは\n"
+	.string "{JPN}ぜったいに たおれねえぜ!$"
 
 Route8_Text_BikerHarrisSeen:
-	.string "The cops shut down our\n"
-	.string "UNDERGROUND PATH!\p"
-	.string "That really fries me!$"
+	.string "{JPN}けいさつが おれたちの\n"
+	.string "{JPN}ちかつうろを とじやがった!\p"
+	.string "{JPN}ほんとに むかつくぜ!$"
 
 Route8_Text_BikerHarrisBeaten:
-	.string "F-forgive me!$"
+	.string "{JPN}ゆ ゆるしてくれ!$"
 
 Route8_Text_BikerHarrisAfter:
-	.string "Wiped out by some punk from\n"
-	.string "JOHTO…$"
-
+	.string "{JPN}ジョウトの がきに\n"
+	.string "{JPN}やられちまった...$"
 Route8_Text_BikerZekeSeen:
-	.string "We're the KANTO POKéMON FEDERA-\n"
-	.string "TION!\n"
-	.string "Right on!$"
+	.string "{JPN}おれたちは カントーポケモン\n"
+	.string "{JPN}れんごうだ!\n"
+	.string "{JPN}よろしくな!$"
 
 Route8_Text_BikerZekeBeaten:
-	.string "Yikes! Sorry!$"
+	.string "{JPN}うわあ! すまねえ!$"
 
 Route8_Text_BikerZekeAfter:
-	.string "We'll try not to disturb anyone\n"
-	.string "from now on…$"
-
+	.string "{JPN}もう だれにも めいわく\n"
+	.string "{JPN}かけないようにする...$"
 Route8_Text_SupernerdSamSeen:
-	.string "How does the MAGNET TRAIN work?$"
+	.string "{JPN}リニアは どうやって\nうごくんだろう?$"
 
 Route8_Text_SupernerdSamBeaten:
-	.string "I just want to see the MAGNET\n"
-	.string "TRAIN…$"
-
+	.string "{JPN}リニアを みてみたいん\n"
+	.string "{JPN}だよな...$"
 Route8_Text_SupernerdSamAfter:
-	.string "The power of magnets is awesome!$"
+	.string "{JPN}じしゃくの ちからって\nすごいよね!$"
 
 Route8_Text_SupernerdTomSeen:
-	.string "Hm… You've got many GYM BADGES.$"
-
+	.string "{JPN}ふむ... きみは ジムバッジを\nたくさん もってるね$"
 Route8_Text_SupernerdTomBeaten:
-	.string "Just as I thought… You're tough!$"
-
+	.string "{JPN}やっぱりな... きみは\nつよいよ!$"
 Route8_Text_SupernerdTomAfter:
-	.string "GYM BADGES give you advantages in\n"
-	.string "battles.$"
+	.string "{JPN}ジムバッジは バトルで\n"
+	.string "{JPN}ゆうりに なるんだよ.$"
 
 Route8_Text_LockedDoor:
-	.string "It's locked…$"
-
+	.string "{JPN}かぎが かかっている...$"
 Route8_Text_UndergroundPathSign:
-	.string "The flyer's torn.\p"
-	.string "It's impossible to read…$"
+	.string "{JPN}チラシがはがされている！\n"
+	.string "{JPN}よめない..$"

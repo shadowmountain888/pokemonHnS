@@ -22,54 +22,50 @@ MagmaHideout_2F_1R_EventScript_Grunt5::
 	end
 
 MagmaHideout_2F_1R_Text_Grunt14Intro:
-	.string "What, what, what?\p"
-	.string "Only TEAM MAGMA members are supposed\n"
-	.string "to be in here!\p"
-	.string "But you're not dressed in TEAM MAGMA's\n"
-	.string "uniform…\p"
-	.string "You rouse my suspicion!\n"
-	.string "Battle with me!$"
+	.string "{JPN}なに なに なに?\p"
+	.string "{JPN}ここには マグマだんの\n"
+	.string "{JPN}メンバーしか はいれない\n"
+	.string "{JPN}はずなのに!\p"
+	.string "{JPN}でも きみは マグマだんの\n"
+	.string "{JPN}ユニフォームを きていない...\p"
+	.string "{JPN}あやしいやつだ!\nしょうぶだ!$"
 
 MagmaHideout_2F_1R_Text_Grunt14Defeat:
-	.string "Aiyiyi…\n"
-	.string "My pride as a TEAM MAGMA member…$"
-
+	.string "{JPN}あいたた...\n"
+	.string "{JPN}マグマだんいんとしての\nプライドが...$"
 MagmaHideout_2F_1R_Text_Grunt14PostBattle:
-	.string "If you suffer from chills, you should\n"
-	.string "join TEAM MAGMA.$"
+	.string "{JPN}もし さむけが するなら\n"
+	.string "{JPN}マグマだんに はいるべきだ$"
 
 MagmaHideout_2F_1R_Text_Grunt3Intro:
-	.string "Hold it right there!\p"
-	.string "You don't really expect me to keep\n"
-	.string "my trap shut and let you waltz by me?$"
+	.string "{JPN}ちょっと まて!\p"
+	.string "{JPN}おれが だまって\n"
+	.string "{JPN}とおしてくれると おもうか?$"
 
 MagmaHideout_2F_1R_Text_Grunt3Defeat:
-	.string "Ooh wow!\n"
-	.string "I concede!$"
+	.string "{JPN}うわあ!\n"
+	.string "{JPN}まいったよ!$"
 
 MagmaHideout_2F_1R_Text_Grunt3PostBattle:
-	.string "Maybe it would've been better if I did\n"
-	.string "just let you go unchallenged…$"
-
+	.string "{JPN}そのまま みのがして\n"
+	.string "{JPN}おけば よかったかも\nしれない...$"
 MagmaHideout_2F_1R_Text_Grunt4Intro:
-	.string "Ahah!\n"
-	.string "An intruder!$"
+	.string "{JPN}あはっ!\n"
+	.string "{JPN}しんにゅうしゃだ!$"
 
 MagmaHideout_2F_1R_Text_Grunt4Defeat:
-	.string "Graaah!$"
+	.string "{JPN}ぐらあああ!$"
 
 MagmaHideout_2F_1R_Text_Grunt4PostBattle:
-	.string "I've already lost.\p"
-	.string "Do I really need to keep running\n"
-	.string "around in a circle?$"
+	.string "{JPN}もう まけちゃったよ\p"
+	.string "{JPN}ほんとうに ぐるぐる はしり\n"
+	.string "{JPN}まわる ひつようが あるのか?$"
 
 MagmaHideout_2F_1R_Text_Grunt5Intro:
-	.string "Oh, oh!\n"
-	.string "An intruder!$"
+	.string "{JPN}おお おお!\n"
+	.string "{JPN}しんにゅうしゃだ!$"
 
 MagmaHideout_2F_1R_Text_Grunt5Defeat:
-	.string "Mutter…$"
-
+	.string "{JPN}ぶつぶつ...$"
 MagmaHideout_2F_1R_Text_Grunt5PostBattle:
-	.string "Actually, I'm no expert at battling…$"
-
+	.string "{JPN}じつは せんとうは\nそんなに とくいじゃ\nないんだ...$"

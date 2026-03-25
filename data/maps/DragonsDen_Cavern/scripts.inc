@@ -23,10 +23,10 @@ DragonsDen_EventScript_ClairRematch::
     end
 
 DragonsDen_Text_Clair:
-    .string "{PLAYER}… So you're here.\p"
-	.string "If you think you can keep up,\n"
-	.string "with me, come to the FIGHTING\l"
-	.string "DOJO in SAFFRON.$"
+    .string "{JPN}{PLAYER}... そこにいるのね.\p"
+	.string "{JPN}わたしについてこられる\n"
+	.string "{JPN}というなら ヤマブキの\l"
+	.string "{JPN}かくとうどうじょうにきなさい.$"
 
 DragonsDen_Cavern_Trigger_ClairLeft::
 	lock
@@ -137,34 +137,34 @@ DragonsDen_Cavern_Movement_ClairLeaveRight:
 	step_end
 
 DragonsDen_Cavern_Text_ClairGiveDragonclaw:
-    .string "CLAIR: WAIT!\p"
-	.string "I'm sorry about this.\n"
-    .string "Here, take this as my apology.$"
+    .string "{JPN}イブキ: ちょっと まって!\p"
+	.string "{JPN}ごめんなさい.\n"
+    .string "{JPN}これを おわびに うけとって.$"
 
 DragonsDen_Cavern_Text_ClairDescribeDragonclaw:
-    .string "That contains DRAGON CLAW.\p"
-    .string "No, it doesn't have anything to\n"
-    .string "do with my nails.\p"
-    .string "If you don't want it, you don't\n"
-    .string "have to take it.$"
+    .string "{JPN}それには ドラゴンクロー が\n"
+	.string "{JPN}はいってるの.\p"
+    .string "{JPN}いいえ  わたしの つめとは\n"
+	.string "{JPN}かんけいないわ.\p"
+    .string "{JPN}いらないなら\nうけとらなくてもいいのよ.$"
 
 DragonsDen_Cavern_Text_ClairWhatsTheMatter:
-    .string "What's the matter? Aren't\n"
-    .string "you going on to the POKéMON\l"
-    .string "LEAGUE?\p"
-    .string "After you become CHAMPION, you\n"
-    .string "can rematch any GYM LEADER you\l"
-    .string "want.\p"
-    .string "Go to the POKéMON LEAGUE.\p"
-    .string "Do you know how to get there?\p"
-    .string "From here, go to NEW BARK TOWN.\p"
-    .string "Then SURF east to POKéMON LEAGUE.\p"
-    .string "The route there is very tough.\p"
-    .string "Don't you dare lose at the POKéMON\n"
-    .string "LEAGUE!\p"
-    .string "If you do, I'll feel even worse\n"
-    .string "about having lost to you!\p"
-    .string "Give it everything you've got.$"
+    .string "{JPN}どうしたの? ポケモンリーグに\n"
+	.string "{JPN}いかないの?\p"
+    .string "{JPN}チャンピオンになったら\n"
+	.string "{JPN}どのジムリーダーとでも\l"
+    .string "{JPN}さいせんできるのよ.\p"
+	.string "{JPN}ポケモンリーグに いきなさい.\p"
+    .string "{JPN}みちは わかる?\p"
+	.string "{JPN}ここから ワカバタウンに いって.\p"
+    .string "{JPN}それから ひがしに なみのりして\n"
+	.string "{JPN}ポケモンリーグよ.\p"
+    .string "{JPN}そのルートは とても きびしいわ.\p"
+	.string "{JPN}ポケモンリーグで まけちゃ\n"
+    .string "{JPN}だめよ!\p"
+	.string "{JPN}もし まけたら わたしが\n"
+    .string "{JPN}あなたに まけたことが\l"
+	.string "{JPN}もっと いやになるから!\pぜんりょくで がんばって.$"
 
 DragonsDen_Cavern_EventScript_Darin::
 	trainerbattle_single TRAINER_DARIN DragonsDen_Cavern_Text_CooltrainermDarinSeen, DragonsDen_Cavern_Text_CooltrainermDarinBeaten
@@ -203,68 +203,66 @@ DragonsDen_Cavern_EventScript_Item_PP_Max::
 
 
 DragonsDen_Cavern_Text_DragonShrineSign:
-    .string "DRAGON SHRINE\p"
-    .string "A shrine honoring the dragon\n"
-    .string "POKéMON\p"
-    .string "said to have lived in DRAGON'S\n"
-    .string "DEN.$"
+    .string "{JPN}ドラゴンのほこら\p"
+	.string "{JPN}りゅうのあなに すんでいたと\n"
+    .string "{JPN}いわれる\p"
+	.string "{JPN}ドラゴンポケモンを まつる\n"
+    .string "{JPN}ほこら.$"
 
 DragonsDen_Cavern_Text_SilverTraining1:
-    .string "…\n"
-    .string "What? {PLAYER}?\p"
-    .string "…No, I won't battle you now…\p"
-    .string "My POKéMON aren't ready to beat\n"
-    .string "you.\p"
-    .string "I can't push them too hard now.\p"
-    .string "I have to be disciplined to become\n"
-    .string "the greatest POKéMON trainer…$"
-
+    .string "{JPN}...\n"
+	.string "{JPN}{PLAYER}か?\p"
+    .string "{JPN}...いいや いまは\n"
+	.string "{JPN}たたかわない...\p"
+    .string "{JPN}おれのポケモンは\n"
+	.string "{JPN}おまえにかつじゅんびが\l"
+    .string "{JPN}できていない.\p"
+	.string "{JPN}いまはむりをさせる\nわけにはいかない.\pさいきょうのポケモン\nトレーナーになるには\lきりつがひつようなんだ...$"
 DragonsDen_Cavern_Text_SilverTraining2:
-    .string "…\p"
-    .string "Whew…\p"
-    .string "Learn to stay out of my way…$"
-
+    .string "{JPN}...\p"
+	.string "{JPN}...ふう...\p"
+	.string "{JPN}じゃまをするな...$"
 DragonsDen_Cavern_Text_CooltrainermDarinSeen:
-    .string "You! How dare you enter\n"
-    .string "uninvited!$"
+    .string "{JPN}きみ! ゆるしもなく はいって\n"
+	.string "{JPN}くるなんて!$"
 
 DragonsDen_Cavern_Text_CooltrainermDarinBeaten:
-    .string "S-strong!$"
+    .string "{JPN}つ つよい!$"
 
 DragonsDen_Cavern_Text_CooltrainermDarinAfter:
-    .string "The SHRINE ahead is home to the\n"
-    .string "MASTER of our dragon-user clan.\p"
-    .string "You're not allowed to just go in!$"
+    .string "{JPN}おくの ほこらには わたしたち\n"
+	.string "{JPN}ドラゴンつかいのいちぞくの\l"
+    .string "{JPN}マスターが おられる.\pかってに はいっては だめだ!$"
 
 DragonsDen_Cavern_Text_CooltrainerfCaraSeen:
-    .string "You shouldn't be in here!$"
+    .string "{JPN}あなた ここに いては だめよ!$"
 
 DragonsDen_Cavern_Text_CooltrainerfCaraBeaten:
-    .string "Oh yikes, I lost!$"
+    .string "{JPN}あら やだ まけちゃった!$"
 
 DragonsDen_Cavern_Text_CooltrainerfCaraAfter:
-    .string "Soon I'm going to get permission\n"
-    .string "from our MASTER to use dragons.\p"
-    .string "When I do, I'm going to become an\n"
-    .string "admirable dragon trainer and gain\l"
-    .string "our MASTER's approval.$"
+    .string "{JPN}もうすぐ マスターから\n"
+	.string "{JPN}ドラゴンを つかう きょかを\l"
+    .string "{JPN}もらうの.\p"
+	.string "{JPN}そうしたら りっぱな\n"
+    .string "{JPN}ドラゴンつかいになって\lマスターに みとめてもらうわ.$"
 
 DragonsDen_Cavern_Text_TwinsLeaandPia1Seen:
-    .string "It's a stranger we don't know.$"
+    .string "{JPN}しらない ひとだ.$"
 
 DragonsDen_Cavern_Text_TwinsLeaandPia1Beaten:
-    .string "Ouchies.$"
+    .string "{JPN}いたーい.$"
 
 DragonsDen_Cavern_Text_TwinsLeaandPia1After:
-    .string "It was like having to battle\n"
-    .string "LANCE.$"
+    .string "{JPN}ワタルと たたかうみたいだった.$"
+	.string ""
 
 DragonsDen_Cavern_Text_TwinsLeaandPia2Seen:
-    .string "Who are you?$"
+    .string "{JPN}だれ?$"
 
 DragonsDen_Cavern_Text_TwinsLeaandPia2Beaten:
-    .string "Meanie.$"
+    .string "{JPN}いじわる.$"
 
 DragonsDen_Cavern_Text_TwinsLeaandPia2After:
-    .string "We'll tell on you.\p"
-    .string "MASTER will be angry with you.$"
+    .string "{JPN}いいつけてやる.\p"
+	.string "{JPN}マスターが おこるよ.$"

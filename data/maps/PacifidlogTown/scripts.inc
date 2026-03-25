@@ -28,27 +28,27 @@ PacifidlogTown_EventScript_TownSign::
 	end
 
 PacifidlogTown_Text_FastRunningCurrent:
-	.string "The sea between PACIFIDLOG and\n"
-	.string "SLATEPORT has a fast-running tide.\p"
-	.string "If you decide to SURF, you could end\n"
-	.string "up swept away somewhere else.$"
+	.string "{JPN}パシフィックログタウンと\n"
+	.string "{JPN}カイナのあいだのうみは\l"
+	.string "{JPN}ながれがはやいんだ.\p"
+	.string "{JPN}なみのりをつかうときは\nきをつけないと\lながされちゃうよ.$"
 
 PacifidlogTown_Text_NeatHousesOnWater:
-	.string "See, isn't it neat?\n"
-	.string "These houses are on water!\p"
-	.string "I was born here!$"
+	.string "{JPN}ほら すごいでしょう?\n"
+	.string "{JPN}いえがみずのうえにあるんだよ!\p"
+	.string "{JPN}わたしはここでうまれたの!$"
 
 PacifidlogTown_Text_SkyPillarTooScary:
-	.string "The SKY PILLAR?\p"
-	.string "…Oh, you must mean that tall, tall\n"
-	.string "tower a little further out.\p"
-	.string "If you asked me, I wouldn't climb it.\n"
-	.string "It's too scary to get up that high.\p"
-	.string "Life at sea level in PACIFIDLOG,\n"
-	.string "that suits me fine.$"
+	.string "{JPN}そらのはしら?\p"
+	.string "{JPN}...ああ きっと あの たかーい\n"
+	.string "{JPN}たかーい とうの ことだね.\p"
+	.string "{JPN}わたしなら のぼらないよ.\n"
+	.string "{JPN}あんなに たかいところ こわすぎる.\p"
+	.string "{JPN}かいめんの パシフィックログで\n"
+	.string "{JPN}くらすのが いちばんだよ.$"
 
 PacifidlogTown_Text_TownSign:
-	.string "PACIFIDLOG TOWN\p"
-	.string "“Where the morning sun smiles upon\n"
-	.string "the waters.”$"
+	.string "{JPN}パシフィックログタウン\p"
+	.string "{JPN}あさのひがみずべにほほえむ\n"
+	.string "{JPN}まち$"
 

@@ -247,20 +247,19 @@ TrainerHill_Entrance_EventScript_ManTrainerHillClosed2::
 	end
 
 TrainerHill_Entrance_Text_HereToGetMoney:
-    .string "I'm here to make some cash!\n"
-    .string "Why? Because every time you reach\l"
-    .string "the top, you get a money reward!\p"
-    .string "I wonder when they'll finally open.\n"
-    .string "I can't wait!$"
+    .string "{JPN}おれは おかねを かせぎに\n"
+	.string "{JPN}きたんだ!\n"
+    .string "{JPN}なんでって? ここは てっぺんに\l"
+	.string "{JPN}とうたつするたび しょうきんが\l"
+    .string "{JPN}もらえるからな!\pいつ ひらくんだろう.\nまちきれないよ!$"
 
 TrainerHill_Entrance_Text_Money:
-    .string "Every time you reach the top,\n"
-    .string "you earn some money.\p"
-    .string "I heard you can win up to 1.000.000¥\n"
-    .string "if you finish within ten minutes!\p"
-    .string "But if it takes longer, the reward\n"
-    .string "will be reduced…$"
-
+    .string "{JPN}てっぺんに とうたつする たびに\n"
+	.string "{JPN}おかねが もらえるよ.\p"
+    .string "{JPN}10ぷんいないに ゴールすれば\n"
+	.string "{JPN}1,000,000えんまで もらえるって\l"
+    .string "{JPN}きいたことが あるよ!\p"
+	.string "{JPN}でも それよりも おそいと\nほうしゅうは へっちゃうんだ...$"
 TrainerHill_Entrance_EventScript_Girl::
 	goto_if_unset FLAG_SYS_GAME_CLEAR, TrainerHill_Entrance_EventScript_GirlTrainerHillClosed
 	msgbox TrainerHill_Entrance_Text_FriendsTryingToReachTimeBoardTop, MSGBOX_NPC
@@ -324,165 +323,165 @@ TrainerHill_Entrance_Pokemart_Basic:
 @	end
 
 TrainerHill_Entrance_Text_StillGettingReady:
-	.string "This is the TRAINER HILL where\n"
-	.string "you may enjoy tag battles with many\l"
-	.string "TRAINERS.\p"
-	.string "Unfortunately, we're still getting\n"
-	.string "things ready. Please come back later!$"
+	.string "{JPN}ここは たくさんの トレーナーと\n"
+	.string "{JPN}タッグバトルを たのしめる\l"
+	.string "{JPN}トレーナーヒルです.\p"
+	.string "{JPN}ざんねんながら まだ じゅんびちゅう\n"
+	.string "{JPN}です. またあとで きてください!$"
 
 TrainerHill_Entrance_Text_WelcomeToTrainerHill:
-	.string "Welcome!\p"
-	.string "This is the TRAINER HILL where\n"
-	.string "you may enjoy tag battles with many\l"
-	.string "TRAINERS!$"
+	.string "{JPN}いらっしゃいませ!\p"
+	.string "{JPN}ここは たくさんの トレーナーと\n"
+	.string "{JPN}タッグバトルを たのしめる\l"
+	.string "{JPN}トレーナーヒルです!$"
 
 TrainerHill_Entrance_Text_SaveGameBeforeEnter:
-	.string "Is this your first visit here?\p"
-	.string "Before you enter, please save\n"
-	.string "your game.$"
+	.string "{JPN}はじめての おこしでしょうか?\p"
+	.string "{JPN}はいる まえに セーブを\n"
+	.string "{JPN}してくださいね.$"
 
 TrainerHill_Entrance_Text_TrainersUpToFloorX:
-	.string "Let's see…\n"
-	.string "The TRAINERS here now are…\p"
-	.string "Up to floor no. {STR_VAR_1}.$"
+	.string "{JPN}えーっと...\n"
+	.string "{JPN}いまここにいる トレーナーは...\p"
+	.string "{JPN}{STR_VAR_1}かいまでだね.$"
 
 TrainerHill_Entrance_Text_TrainersInEveryRoom:
-	.string "Let's see…\n"
-	.string "The TRAINERS here now are…\p"
-	.string "There appear to be TRAINERS gathered\n"
-	.string "in every room.$"
+	.string "{JPN}えーっと...\n"
+	.string "{JPN}いまここにいる トレーナーは...\p"
+	.string "{JPN}どの へやにも トレーナーが\n"
+	.string "{JPN}あつまって いるようだね.$"
 
 TrainerHill_Entrance_Text_LikeToChallengeTrainers:
-	.string "Would you like to challenge the\n"
-	.string "waiting TRAINERS?$"
+	.string "{JPN}まっている トレーナーたちに\n"
+	.string "{JPN}ちょうせん しますか?$"
 
 TrainerHill_Entrance_Text_TimeProgessGetSetGo:
-	.string "I will time your progress.\n"
-	.string "Best of luck!\p"
-	.string "On your marks…\p"
-	.string "Get set…\p"
-	.string "Go!$"
+	.string "{JPN}きみの しんこうを けいそく\n"
+	.string "{JPN}するよ. がんばって!\p"
+	.string "{JPN}よーい...\p"
+	.string "{JPN}どん!$"
+	.string ""
 
 TrainerHill_Entrance_Text_PleaseVisitUsAgain:
-	.string "Please do visit us again!$"
+	.string "{JPN}また おこし くださいね!$"
 
 TrainerHill_Entrance_Text_TooBadTremendousEffort:
-	.string "That was too bad.\p"
-	.string "I think you put in a tremendous\n"
-	.string "effort in your battling.\p"
-	.string "Please come back and try again!$"
+	.string "{JPN}ざんねんでしたね.\p"
+	.string "{JPN}でも すばらしい たたかいぶりを\n"
+	.string "{JPN}みせて いただきました.\p"
+	.string "{JPN}また ちょうせんしに きてください!$"
 
 TrainerHill_Entrance_Text_HopeYouGiveItYourBest:
-	.string "I hope you give it your best.$"
+	.string "{JPN}がんばって くださいね.$"
 
 TrainerHill_Entrance_Text_MovedReceptionHereForSwitch:
-	.string "When the TRAINERS switch places,\n"
-	.string "the movement can be hectic.\p"
-	.string "To avoid the stampede, we moved\n"
-	.string "the reception counter here.\p"
-	.string "I'm sorry for the inconvenience.$"
+	.string "{JPN}トレーナーたちが いりかわるとき\n"
+	.string "{JPN}うごきが はげしくなるんです.\p"
+	.string "{JPN}あらしを さけるため うけつけを\n"
+	.string "{JPN}ここに いどう させました.\p"
+	.string "{JPN}ごめいわくを おかけします.$"
 
 TrainerHill_Entrance_Text_ThankYouForPlaying:
-	.string "Thank you for playing!$"
+	.string "{JPN}おつかれさまでした!$"
 
 TrainerHill_Entrance_Text_ExplainTrainerHill:
-	.string "Here at the TRAINER HILL, we conduct\n"
-	.string "an event called the Time Attack.\p"
-	.string "It is a race that measures how long\n"
-	.string "you take to reach our owner on\l"
-	.string "the rooftop from this counter.\p"
-	.string "The fastest times are posted on\n"
-	.string "the Time Board--try competing with\l"
-	.string "your friends.\p"
-	.string "In TRAINER battles along the way,\n"
-	.string "neither Exp. Points nor money will\l"
-	.string "be awarded.$"
+	.string "{JPN}トレーナーヒルでは タイムアタックと\n"
+	.string "{JPN}いう イベントを おこなっています.\p"
+	.string "{JPN}ここから おくじょうの オーナーまで\n"
+	.string "{JPN}どのくらい じかんが かかるかを\l"
+	.string "{JPN}きそう きょうそうです.\p"
+	.string "{JPN}さいこう きろくは タイムボードに\n"
+	.string "{JPN}のります. ともだちと きそって\l"
+	.string "{JPN}みてくださいね.\p"
+	.string "{JPN}とちゅうの トレーナーせんでは\n"
+	.string "{JPN}けいけんちも おかねも てにはいり\l"
+	.string "{JPN}ません.$"
 
 @ Unused
 TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon:
-	.string "Oh, I'm sorry, but you appear to have\n"
-	.string "only one POKéMON with you.\p"
-	.string "You will need at least two POKéMON\n"
-	.string "to enter this event.$"
+	.string "{JPN}すみませんが ポケモンが\n"
+	.string "{JPN}いっぴき しか いませんね.\p"
+	.string "{JPN}この イベントに さんかするには\n"
+	.string "{JPN}さいてい にひきの ポケモンが\lひつようです.$"
 
 TrainerHill_Roof_Text_YouFinallyCameBravo:
-	.string "Hm! Hm!\p"
-	.string "You finally came!\n"
-	.string "Yes, you have arrived!\p"
-	.string "Wait! Don't say it!\n"
-	.string "I know why you came all the way\l"
-	.string "here by yourself!\p"
-	.string "You wanted to see me, the owner\n"
-	.string "of the TRAINER HILL, because…\p"
-	.string "You want to form a tag team with me!\n"
-	.string "Wa-hoo!\p"
-	.string "…Uh?\n"
-	.string "That's not it?\p"
-	.string "Anyway, I watched you on your way up.\n"
-	.string "Marvelous battling! Bravo, indeed!$"
+	.string "{JPN}ほっほ! ほっほ!\p"
+	.string "{JPN}ついに きたね!\n"
+	.string "{JPN}そう  とうちゃく したんだ!\p"
+	.string "{JPN}まて! いわなくても いい!\n"
+	.string "{JPN}きみが ひとりで ここまで\l"
+	.string "{JPN}きた りゆうは わかってる!\p"
+	.string "{JPN}きみは わたしに あいたかった\n"
+	.string "{JPN}んだ  トレーナーヒルの\l"
+	.string "{JPN}オーナーで ある わたしに...\p"
+	.string "{JPN}わたしと タッグチームを くみ\n"
+	.string "{JPN}たかったんだろう!\n"
+	.string "{JPN}ワッホー!\p"
+	.string "{JPN}え?\n"
+	.string "{JPN}ちがうって?\pまあ いいや  きみが のぼって\nくるのを みてたよ.\nすばらしい たたかいっぷり!\nブラボーだ!$"
 
 TrainerHill_Roof_Text_HaveTheMostMarvelousGift:
-	.string "For a marvelous someone like you,\n"
-	.string "I have the most marvelous gift,\l"
-	.string "plus some money for your effort!$"
+	.string "{JPN}すばらしい きみには すてきな\n"
+	.string "{JPN}プレゼントと がんばったぶんの\l"
+	.string "{JPN}しょうきんを あげよう!$"
 
 TrainerHill_Roof_Text_FullUpBeBackLaterForThis:
-	.string "Oh, no, full up with things!\n"
-	.string "You'll be back later for this!$"
+	.string "{JPN}おや これは いっぱいだね!\n"
+	.string "{JPN}また あとで とりに きてくれ!$"
 
 TrainerHill_Roof_Text_GotHereMarvelouslyQuickly:
-	.string "Oh, hold on here! Did you possibly get\n"
-	.string "here marvelously quickly?\p"
-	.string "How splendid! You needn't have\n"
-	.string "hurried so to see me!\p"
-	.string "That is so delightful. I'll have the Time\n"
-	.string "Board at the reception updated!$"
+	.string "{JPN}おや ちょっと まって! もしかして\n"
+	.string "{JPN}すごく はやく ついたのかい?\p"
+	.string "{JPN}それは すばらしい! そんなに\n"
+	.string "{JPN}iそいで あいに こなくても\l"
+	.string "{JPN}よかったのに!\p"
+	.string "{JPN}とても うれしいよ. うけつけの\nタイムボードを こうしん させよう!$"
 
 TrainerHill_Roof_Text_YouWerentVeryQuick:
-	.string "But, oh…\n"
-	.string "You weren't very quick getting here.$"
+	.string "{JPN}でも  あー...\n"
+	.string "{JPN}ここまで くるのに じかんが\nかかり すぎたね.$"
 
 TrainerHill_Roof_Text_ArriveZippierNextTime:
-	.string "Perhaps it would please me more if you\n"
-	.string "arrived zippier next time.\p"
-	.string "Then, I should be pleased to form\n"
-	.string "a tag team with you!\p"
-	.string "Until we meet again, amigo!$"
+	.string "{JPN}こんどは もっと はやく きて\n"
+	.string "{JPN}くれたら うれしいな.\p"
+	.string "{JPN}そのときは きみと タッグチームを\n"
+	.string "{JPN}くんで みたいものだ!\p"
+	.string "{JPN}また あおう アミーゴ!$"
 
 @ Unused
 TrainerHill_Roof_Text_BuiltTrainerHillToFindPartner:
-	.string "I had the TRAINER HILL built for but\n"
-	.string "one reason and one only!\p"
-	.string "To find the most suitable partner\n"
-	.string "with whom I may form a tag team!$"
+	.string "{JPN}わたしが トレーナーヒルを つくった\n"
+	.string "{JPN}りゆうは ひとつだけなんだ!\p"
+	.string "{JPN}タッグチームを くめる さいてきな\n"
+	.string "{JPN}パートナーを みつけるためにね!$"
 
 TrainerHill_Entrance_Text_ChallengeTime:
-	.string "{STR_VAR_1} min. {STR_VAR_2}.{STR_VAR_3} sec.$"
+	.string "{JPN}{STR_VAR_1}ふん {STR_VAR_2}.{STR_VAR_3}びょう$"
 
 TrainerHill_Entrance_Text_WhatSortOfTrainersAreAhead:
-	.string "Who knows what sort of TRAINERS\n"
-	.string "and POKéMON combos are ahead?\p"
-	.string "All I know is that I'll knock aside\n"
-	.string "anyone that stands in my way!$"
+	.string "{JPN}どんな トレーナーや ポケモンの\n"
+	.string "{JPN}くみあわせが まってるか\l"
+	.string "{JPN}わからないけど\p"
+	.string "{JPN}じゃまする やつは みんな\nけちらして やるぜ!$"
 
 TrainerHill_Entrance_Text_CantWaitToTestTheWaters:
-	.string "I heard tough TRAINERS come to this\n"
-	.string "TRAINER HILL from all over.\p"
-	.string "I can't wait to test the waters!\p"
-	.string "I'll knock aside anyone that stands\n"
-	.string "in my way!$"
+	.string "{JPN}つよい トレーナーが せかいじゅうから\n"
+	.string "{JPN}トレーナーヒルに あつまるって\l"
+	.string "{JPN}きいたぜ!\p"
+	.string "{JPN}はやく ためして みたいよ!\p"
+	.string "{JPN}じゃまする やつは みんな\nなぎたおしてやる!$"
 
 TrainerHill_Entrance_Text_FriendsTryingToReachTimeBoardTop:
-	.string "Do you see the Time Board over there?\p"
-	.string "My friends and I are trying to see who\n"
-	.string "can reach the top in the least time.$"
+	.string "{JPN}あそこの タイムボード みえる?\p"
+	.string "{JPN}ともだちと だれが いちばん はやく\n"
+	.string "{JPN}てっぺんに つけるか きそってるんだ.$"
 
 TrainerHill_Entrance_Text_DoYouKnowWhenTheyOpen:
-	.string "Do you know when they're opening\n"
-	.string "this place up?\p"
-	.string "I'm waiting here to be the first\n"
-	.string "challenger ever!$"
+	.string "{JPN}いつ ひらくか しってる?\p"
+	.string "{JPN}いちばん さいしょの ちょうせんしゃに\n"
+	.string "{JPN}なるために まってるんだ!$"
+	.string ""
 
 TrainerHill_Elevator_Text_ReturnToReception:
-	.string "Would you like to return to\n"
-	.string "the reception counter?$"
+	.string "{JPN}うけつけまで もどりますか?$"
+	.string ""

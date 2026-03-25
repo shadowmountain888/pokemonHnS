@@ -39,30 +39,30 @@ CaveOfOrigin_UnusedRubySapphireMap1_Kirlia::
 	end
 
 CaveOfOrigin_UnusedRubySapphireMap1_Scientist1_Text:
-	.string "I have seen this kind of rock structure\n"
-	.string "in other places, like in ROUTE 132.\p"
-	.string "What is the meaning of these rock\n"
-	.string "formations?\p"
-	.string "I'm totally sure that they are man-made.\n"
-	.string "Do you have any clue?$"
+	.string "{JPN}このしゅるいの いわの こうぞうを\n"
+	.string "{JPN}132ばんどうろなど ほかのばしょでも\l"
+	.string "{JPN}みたことが あるんです.\p"
+	.string "{JPN}これらの いわの けいせいぶつには\n"
+	.string "{JPN}どのような いみが あるのでしょうか?\p"
+	.string "{JPN}じんこうてきに つくられたものだと\nかくしんしています.\lなにか てがかりは ありませんか?$"
 
 CaveOfOrigin_UnusedRubySapphireMap1_Scientist2_Text:
-	.string "Every time there's a thunderstorm, some\n"
-	.string "lighting strikes end up hitting this\l"
-	.string "small island. Isn't that suspicious?\p"
-	.string "We think there's a POKéMON living\n"
-	.string "here whose only nourishment are\l"
-	.string "lightning strikes.$"
+	.string "{JPN}らいうのたびに いくつかの かみなりが\n"
+	.string "{JPN}この ちいさな しまに おちているん\l"
+	.string "{JPN}です.あやしいと おもいませんか?\p"
+	.string "{JPN}かみなりだけを えいようにしている\n"
+	.string "{JPN}ポケモンが ここに すんでいると\l"
+	.string "{JPN}かんがえています.$"
 
 CaveOfOrigin_UnusedRubySapphireMap1_Scientist3_Text:
-	.string "We are researching a strange\n"
-	.string "phenomenon that has been happening\l"
-	.string "for a few months. This island is\l"
-	.string "unhabited by humans, so something\l"
-	.string "happening here is extremely myterious,\l"
-	.string "to say the least.\p"
-	.string "KIRI is also looking for clues.\n"
-	.string "We need to unravel this mystery.$"
+	.string "{JPN}すうかげつかん つづいている\n"
+	.string "{JPN}ふしぎな げんしょうを けんきゅう\l"
+	.string "{JPN}しています.この しまには にんげんが\l"
+	.string "{JPN}すんでいないので ここでおこって\l"
+	.string "{JPN}いることは きょくたんに なぞめいて\l"
+	.string "{JPN}います.\p"
+	.string "{JPN}キリも てがかりを さがしています.\n"
+	.string "{JPN}この なぞを かいめい しなければ\lなりません.$"
 
 CaveOfOrigin_UnusedRubySapphireMap1_Kirlia_Text:
-	.string "KIRI: Kir!$"
+	.string "{JPN}キリ:キリ!$"

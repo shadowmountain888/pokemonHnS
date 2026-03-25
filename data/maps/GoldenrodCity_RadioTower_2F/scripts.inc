@@ -96,99 +96,56 @@ GoldenrodCity_RadioTower_2F_EventScript_Jigglypuff::
 	end
 
 RadioTower2FBuenaPasswordIsHelpText:
-	.string "BUENA: Huh? Today's password?\n"
-	.string "HELP, of course!$"
+	.string "{JPN}ブエナ:え?きょうの\n"
+	.string "{JPN}あいことばって?\lもちろん たすけて よ!$"
 
 GoldenrodCity_RadioTower_2F_Text_SuperNerd:
-	.string "You can listen to the radio\n"
-	.string "anywhere. Tune in!$"
-
+	.string "{JPN}ラジオはどこでもきけるよ\nチューンインしてね！$"
 GoldenrodCity_RadioTower_2F_Text_Policeman:
-	.string "Restricted access beyond this\n"
-	.string "point.$"
-
+	.string "{JPN}ここからさきは\nたちいりきんしです$"
 GoldenrodCity_RadioTower_2F_Text_Teacher:
-	.string "Lullabies on the radio may make\n"
-	.string "POKéMON sleep.$"
-
+	.string "{JPN}ラジオのこもりうたで\nポケモンがねちゃうかも$"
 GoldenrodCity_RadioTower_2F_Text_TeacherRockets:
-	.string "Why would they want to take over\n"
-	.string "the RADIO TOWER?$"
-
+	.string "{JPN}なぜラジオとうを\nのっとろうとするのかしら？$"
 GoldenrodCity_RadioTower_2F_Text_Jigglypuff:
-	.string "JIGGLYPUFF: Jiggly…$"
-
+	.string "{JPN}プリンプリン.$"
 GoldenrodCity_RadioTower_2F_Text_BlackBelt1:
-	.string "Sorry. Authorized personnel only\n"
-	.string "beyond this point.\p"
-	.string "It wasn't that way before.\p"
-	.string "There's something wrong with the\n"
-	.string "DIRECTOR…$"
-
+	.string "{JPN}すみません かんけいしゃいがい\nたちいりきんしです\pまえはこんなじゃなかったのに\pきょくちょうのようすが\nなんかおかしくて.$"
 GoldenrodCity_RadioTower_2F_Text_BlackBelt2:
-	.string "Feel free to look around anywhere.\p"
-	.string "The DIRECTOR is nice again, just\n"
-	.string "as he was before.$"
-
+	.string "{JPN}どこでもじゆうに\nみてまわってください\pきょくちょうもまえのように\nやさしくなりましたから$"
 GoldenrodCity_RadioTower_2F_Text_GruntM4Seen:
-	.string "Three years ago, TEAM ROCKET was\n"
-	.string "forced to disband.\p"
-	.string "But we're making a comeback here!$"
-
+	.string "{JPN}さんねんまえロケットだんは\nかいさんさせられた\pだがここでふっかつするぜ！$"
 GoldenrodCity_RadioTower_2F_Text_GruntM4Beaten:
-	.string "Gwah! Don't get cute!$"
-
+	.string "{JPN}ぐわあ！ちょうしにのるなよ！$"
 GoldenrodCity_RadioTower_2F_Text_GruntM4After:
-	.string "We won't let you ruin our plans\n"
-	.string "for our comeback!$"
-
+	.string "{JPN}オレたちのふっかつけいかくを\nじゃまはさせないぞ！$"
 GoldenrodCity_RadioTower_2F_Text_GruntM5Seen:
-	.string "We're TEAM ROCKET, the exploiters\n"
-	.string "of POKéMON!\p"
-	.string "We love being evil! Scared?$"
-
+	.string "{JPN}オレたちはロケットだん\nポケモンをあくようするだんたい\pあくじがすきなんだ！こわいか？$"
 GoldenrodCity_RadioTower_2F_Text_GruntM5Beaten:
-	.string "You think you're a hero?$"
-
+	.string "{JPN}じぶんがヒーローだとおもってるのか？$"
 GoldenrodCity_RadioTower_2F_Text_GruntM5After:
-	.string "We're not always evil. We just do\n"
-	.string "whatever we like.$"
-
+	.string "{JPN}オレたちはいつもあくじゃない\nすきなようにやってるだけさ$"
 GoldenrodCity_RadioTower_2F_Text_GruntM6Seen:
-	.string "Hey, hey! Keep out of our way!$"
-
+	.string "{JPN}おいおい！じゃまするんじゃねえ！$"
 GoldenrodCity_RadioTower_2F_Text_GruntM6Beaten:
-	.string "Arggh. I give up.$"
-
+	.string "{JPN}あ-あ まいったよ$"
 GoldenrodCity_RadioTower_2F_Text_GruntM6After:
-	.string "Our EXECUTIVES are trying to take\n"
-	.string "this place over.\p"
-	.string "They have some big plan. I wonder\n"
-	.string "what that is?$"
-
+	.string "{JPN}オレたちのかんぶたちが\nここをのっとろうとしてる\pなにかおおきなけいかくがあるらしい\nいったいなんだろうな？$"
 GoldenrodCity_RadioTower_2F_Text_GruntF2Seen:
-	.string "Hahaha!\p"
-	.string "How boring. It was far too easy\n"
-	.string "to take over this place!\p"
-	.string "Come on, keep me amused!$"
+	.string "{JPN}ははは!\p"
+	.string "{JPN}つまらないね.ここを\n"
+	.string "{JPN}のっとるのは あまりにも\l"
+	.string "{JPN}かんたんだったよ!\pさあ わたしを\nたのしませてよ!$"
 
 GoldenrodCity_RadioTower_2F_Text_GruntF2Beaten:
-	.string "Wh-who are you?$"
-
+	.string "{JPN}だ だれなのよあんた？$"
 GoldenrodCity_RadioTower_2F_Text_GruntF2After:
-	.string "You beat me, and I won't forget\n"
-	.string "it!$"
-
+	.string "{JPN}わたしにかつなんて\nわすれないからね！$"
 GoldenrodCity_RadioTower_2F_Text_BuenaShowPromo:
-	.string "BUENA: Tune in to my PASSWORD\n"
-	.string "SHOW!$"
-
+	.string "{JPN}ブエナ:あいことばしょうを\nきいてくださいね！$"
 GoldenrodCity_RadioTower_2F_Text_SalesSign:
-	.string "2F SALES$"
-
+	.string "{JPN}2F えいぎょうぶ$"
 GoldenrodCity_RadioTower_2F_Text_OakTalkSign:
-	.string "PROF.OAK'S POKéMON TALK\p"
-	.string "The Hottest Show on the Air!$"
-
+	.string "{JPN}オーキドはかせの\pポケモンこうざ\pでんぱにのってるいちばんの\nにんきばんぐみ！$"
 GoldenrodCity_RadioTower_2F_Text_PokemonRadioSign:
-	.string "Anywhere, Anytime POKéMON Radio$"
+	.string "{JPN}どこでもいつでもポケモンラジオ$"

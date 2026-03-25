@@ -26,27 +26,26 @@ LavenderTown_PokemonCenter_EventScript_YoungsterReturnedMachinePart::
 	end
 
 LavenderTown_PokemonCenter1F_Text_Gentleman:
-	.string "To the north of LAVENDER is ROCK\n"
-	.string "TUNNEL. Go through it to get to\l"
-	.string "the POWER PLANT.$"
+	.string "{JPN}シオンタウンの きたには\n"
+	.string "{JPN}イワヤマトンネルが あるよ.\l"
+	.string "{JPN}そこを とおると はつでんしょに\lいけるんだ.$"
 
 LavenderTown_PokemonCenter1F_Text_Teacher:
-	.string "There's a radio program that plays\n"
-	.string "POKé FLUTE music.\p"
-	.string "Oh? Ah, your radio needs a RADIO\n"
-	.string "UPGRADE to tune into it.\p"
-	.string "Maybe the RADIO STATION here\n"
-	.string "in town can provide you one?$"
+	.string "{JPN}ポケモンのふえの おんがくを\n"
+	.string "{JPN}ながす ラジオばんぐみが\l"
+	.string "{JPN}あるのよ.\p"
+	.string "{JPN}あら? あなたの ラジオには\n"
+	.string "{JPN}ラジオカードが ひつようね.\p"
+	.string "{JPN}このまちの ラジオきょくで\nもらえるかも しれないわよ?$"
 
 LavenderTown_PokemonCenter1F_Text_Youngster:
-	.string "If the POWER PLANT isn't running,\n"
-	.string "the MAGNET TRAIN won't run either…\p"
-	.string "It also means the RADIO STATION\n"
-	.string "can't broadcast…$"
-
+	.string "{JPN}はつでんしょが うごいて\n"
+	.string "{JPN}いないと リニアも うごかない\n"
+	.string "{JPN}よね...\p"
+	.string "{JPN}ラジオきょくも ほうそう\nできないし...$"
 LavenderTown_PokemonCenter1F_Text_Youngster_ReturnedMachinePart:
-	.string "The DIRECTOR of the RADIO STATION\n"
-	.string "sure was happy.\p"
-	.string "He said they're back on the air\n"
-	.string "because the POWER PLANT is running\l"
-	.string "smoothly again.$"
+	.string "{JPN}ラジオきょくの きょくちょうさんが\n"
+	.string "{JPN}とても よろこんでいたよ.\p"
+	.string "{JPN}はつでんしょが また うごいて\n"
+	.string "{JPN}ほうそうが さいかいできるって\l"
+	.string "{JPN}いってたんだ.$"

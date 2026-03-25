@@ -212,64 +212,64 @@ SaffronCity_CopyCatsHouse_2F_EventScript_CopycatAfterDollReturned_Female::
 	end
 
 Copycat_Text_Male_1:
-	.string "{PLAYER}: Hi! Do you like POKéMON?\p"
-	.string "{PLAYER}: Uh, no, I just asked you.\p"
-	.string "{PLAYER}: Huh? You're strange!$"
+	.string "{JPN}{PLAYER}: はーい! きみは ポケモンが\n"
+	.string "{JPN}すき?\p"
+	.string "{JPN}{PLAYER}: えーっと いや いま\nきいたのは ぼくだよ.\p{PLAYER}: はあ? へんな こだね!$"
 
 Copycat_Text_QuickMimicking:
-	.string "COPYCAT: Hmm? Quit mimicking?\p"
-	.string "But that's my favorite hobby!$"
+	.string "{JPN}ものまねむすめ: えー? ものまね\n"
+	.string "{JPN}やめろって?\pでも これが わたしの\nいちばんの しゅみなのよ!$"
 
 Copycat_Text_Male_2:
-	.string "{PLAYER}: Hi! I heard that you\n"
-	.string "lost your favorite POKé DOLL.\p"
-	.string "{PLAYER}: If I find it, you'll give\n"
-	.string "me a rail PASS?\p"
-	.string "{PLAYER}: I'll go find it for you.\p"
-	.string "You think you lost it when you\n"
-	.string "went to VERMILION CITY?$"
+	.string "{JPN}{PLAYER}: はーい! きみの だいじな\n"
+	.string "{JPN}ポケモンにんぎょうを なくした\l"
+	.string "{JPN}って きいたよ.\p"
+	.string "{JPN}{PLAYER}: もし みつけたら\n"
+	.string "{JPN}でんしゃの パスを くれるの?\p"
+	.string "{JPN}{PLAYER}: さがしてくるよ.\p"
+	.string "{JPN}クチバシティに いったときに\nなくしたと おもうって?$"
 
 Copycat_Text_Worried:
-	.string "COPYCAT: Pardon?\p"
-	.string "I shouldn't decide what you\n"
-	.string "should do?\p"
-	.string "But I'm really worried… What if\n"
-	.string "someone finds it?$"
+	.string "{JPN}ものまねむすめ: え?\p"
+	.string "{JPN}あなたが なにを するかは\n"
+	.string "{JPN}わたしが きめることじゃない?\p"
+	.string "{JPN}でも ほんとうに しんぱい...\n"
+	.string "{JPN}だれかに みつかったら\nどうしよう?$"
 
 Copycat_Text_GiveDoll:
-	.string "COPYCAT: Yay! That's my CLEFAIRY\n"
-	.string "POKé DOLL!\p"
-	.string "See the tear where the right leg\n"
-	.string "is sewn on? That's proof!$"
+	.string "{JPN}ものまねむすめ: やったあ! わたしの\n"
+	.string "{JPN}ピッピにんぎょうよ!\p"
+	.string "{JPN}みぎあしの ぬいめの\n"
+	.string "{JPN}やぶれてるところ みて!\lそれが しょうこよ!$"
 
 Copycat_Text_GivePass:
-	.string "OK. Here's the MAGNET TRAIN PASS\n"
-	.string "like I promised!$"
+	.string "{JPN}はい! やくそくどおり\n"
+	.string "{JPN}リニアパスを あげる!$"
 
 Copycat_Text_ExplainPass:
-	.string "COPYCAT: That's the PASS for the\n"
-	.string "MAGNET TRAIN.\p"
-	.string "The rail company man gave me\n"
-	.string "that when they tore down our old\l"
-	.string "house for the STATION.$"
+	.string "{JPN}ものまねむすめ: それは リニアの\n"
+	.string "{JPN}パスよ.\p"
+	.string "{JPN}えきを つくるのに ふるい\n"
+	.string "{JPN}いえを こわすとき でんしゃがいしゃ\l"
+	.string "{JPN}の ひとが くれたのよ.$"
 
 Copycat_Text_Male_3:
-	.string "{PLAYER}: Hi! Thanks a lot for the\n"
-	.string "rail PASS!\p"
-	.string "{PLAYER}: Pardon?\p"
-	.string "{PLAYER}: Is it that fun to mimic\n"
-	.string "my every move?$"
+	.string "{JPN}{PLAYER}: はーい! でんしゃの パス\n"
+	.string "{JPN}ありがとう!\p"
+	.string "{JPN}{PLAYER}: えっ?\p"
+	.string "{JPN}{PLAYER}: ぼくの まねを するのが\n"
+	.string "{JPN}そんなに たのしいの?$"
 
 Copycat_Text_ItsAScream:
-	.string "COPYCAT: You bet! It's a scream!$"
+	.string "{JPN}ものまねむすめ: そうよ!\nとっても たのしいのよ!$"
 
 Copycat_Text_Dodrio1:
-	.string "DODRIO: Gii giii!$"
+	.string "{JPN}ドードリオ: ギー ギーー!$"
 
 Copycat_Text_Dodrio2:
-	.string "MIRROR, MIRROR ON THE WALL,\n"
-	.string "WHO'S THE FAIREST ONE OF ALL?$"
+	.string "{JPN}かがみよ かがみ せかいで\n"
+	.string "{JPN}いちばん うつくしいのは だれ?$"
 
 Copycat_Text_2FDoll:
-	.string "This is a rare POKéMON! Huh?\p"
-	.string "It's only a doll…$"
+	.string "{JPN}これは めずらしい ポケモン!\n"
+	.string "{JPN}あれ?\pにんぎょうだった...$"

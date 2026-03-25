@@ -70,20 +70,20 @@ PetalburgCity_Mart_EventScript_Man::
 	end
 
 PetalburgCity_Mart_Text_WeakWillGrowStronger:
-	.string "Even if a POKéMON is weak now,\n"
-	.string "it will grow stronger.\p"
-	.string "The most important thing is love!\n"
-	.string "Love for your POKéMON!$"
+	.string "{JPN}たとえ ポケモンが いまは\n"
+	.string "{JPN}よわくても つよくなるよ.\p"
+	.string "{JPN}いちばん だいじなのは あい!\n"
+	.string "{JPN}ポケモンへの あいだよ!$"
 
 PetalburgCity_Mart_Text_RepelIsUseful:
-	.string "Do you use REPEL?\n"
-	.string "It keeps POKéMON away, so it's\l"
-	.string "useful when you're in a hurry.$"
+	.string "{JPN}むしよけスプレー つかってる?\n"
+	.string "{JPN}ポケモンを よせつけないから\l"
+	.string "{JPN}iそがしいときに べんりだよ.$"
 
 PetalburgCity_Mart_Text_TakeSomeAntidotesWithYou:
-	.string "Do you have any ANTIDOTES with\n"
-	.string "you?\p"
-	.string "If you walk around with a poisoned\n"
-	.string "POKéMON, it will lose HP until it faints.\l"
-	.string "Take some ANTIDOTES with you.$"
+	.string "{JPN}どくけしを もってるかい?\p"
+	.string "{JPN}\n"
+	.string "{JPN}どくになった ポケモンと あるくと\n"
+	.string "{JPN}HPが へって きぜつするまで\l"
+	.string "{JPN}へるんだ. どくけしを もって\nいったほうが いいよ.$"
 

@@ -28,42 +28,40 @@ Route17_EventScript_Charles::
 	end
 
 Route17_Text_BikerRileySeen:
-	.string "Hey, you! You're from JOHTO, huh?$"
+	.string "{JPN}おい きみ!ジョウトちほう\nから きたんだな?$"
 
 Route17_Text_BikerRileyBeaten:
-	.string "Whoa, you kick!$"
+	.string "{JPN}うわあ つよいじゃないか!$"
 
 Route17_Text_BikerRileyAfterBattle:
-	.string "Don't get cocky, you JOHTO punk!$"
+	.string "{JPN}ちょうしに のるなよ \nジョウトの やつめ!$"
 
 Route17_Text_BikerJoelSeen:
-	.string "Wow. That's a cool BICYCLE!$"
+	.string "{JPN}わあ.かっこいい\nじてんしゃだな!$"
 
 Route17_Text_BikerJoelBeaten:
-	.string "But you don't just look cool…$"
-
+	.string "{JPN}でも きみは かっこいいだけじゃ\nないんだな...$"
 Route17_Text_BikerJoelAfterBattle:
-	.string "I look cool, but I'm weak, so I'm\n"
-	.string "not really cool.\p"
-	.string "I have to train harder…$"
-
+	.string "{JPN}おれは かっこよく みえるけど\n"
+	.string "{JPN}よわいから ほんとうは\n"
+	.string "{JPN}かっこよくないんだ.\pもっと きたえなくちゃ...$"
 Route17_Text_BikerGlennSeen:
-	.string "Hey! Want to have a speed battle?$"
+	.string "{JPN}おい!スピードしょうぶ\nしないか?$"
 
 Route17_Text_BikerGlennBeaten:
-	.string "Yikes! You've got awesome torque!$"
+	.string "{JPN}うひゃあ!すごい\nパワーだ!$"
 
 Route17_Text_BikerGlennAfterBattle:
-	.string "Hands-free riding is considered\n"
-	.string "cool on CYCLING ROAD.$"
+	.string "{JPN}りょうてばなしは\n"
+	.string "{JPN}サイクリングロードで\nかっこいいと されるんだ.$"
 
 Route17_Text_BikerCharlesSeen:
-	.string "We're fearless highway stars!$"
+	.string "{JPN}おれたちは きょうふしらずの\nハイウェイスターさ!$"
 
 Route17_Text_BikerCharlesBeaten:
-	.string "Arrrgh! Crash and burn!$"
+	.string "{JPN}ぐわあああ!クラッシュだ!$"
 
 Route17_Text_BikerCharlesAfterBattle:
-	.string "Reckless driving causes accidents!\n"
-	.string "Take it easy!$"
+	.string "{JPN}むぼうな うんてんは\n"
+	.string "{JPN}じこの もと!\nきを つけろよ!$"
 

@@ -41,3 +41,30 @@ build/
 /pokeemerald-*.png
 /pokeemerald_modern-*.png
 *.cfg
+.env
+.claude/
+CLAUDE.md
+PROJECT_HISTORY.md
+*.nds
+.gitattributes
+handoff.md
+eo315bugs.txt
+preproc_err.txt
+preproc_out.txt
+*.cheats
+graphics_backup/
+graphics_extracted/
+scripts/
+hgss_jp_text.json
+jp_emerald_index.json
+jp_emerald_strings.txt
+jp_trainer_text.json
+src/tx_rac_menu_translations.json
+src/tx_rac_viewer_translations.json
+data/text/tv.inc.translated
+*\ 2.inc
+*\ 2.h
+*\ 2.json
+*\ 2
+*\ 3
+*\ 3.h

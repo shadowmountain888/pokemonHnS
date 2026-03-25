@@ -43,22 +43,22 @@ BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_NotYet::
 	end
 
 BattleFrontier_PokemonCenter_1F_Text_DisableChallenges_NotYet::
-	.string "You still haven't beaten the game!\p"
-	.string "I can't disable any challenge until\n"
-	.string "you defeat the strongest trainer.$"
+	.string "{JPN}まだ ゲームを クリアして\n"
+	.string "{JPN}いないね!\p"
+	.string "{JPN}の トレーナーを たおすまで\nチャレンジを むこうに できないよ$"
 
 BattleFrontier_PokemonCenter_1F_Text_DisableChallenges:
-	.string "Congratulations for beating the game!\p"
-	.string "You can now disable some challenges,\n"
-	.string "if you feel like it.\p"
-	.string "Keep in mind that you won't be able to\n"
-	.string "enable them again.\p"
-	.string "Also, if any of the challenges are not\n"
-	.string "enabled, nothing will happen if you try\l"
-	.string "to disable them.$"
+	.string "{JPN}ゲーム クリア おめでとう!\p"
+	.string "{JPN}よかったら いくつかの\n"
+	.string "{JPN}チャレンジを むこうに できるよ\p"
+	.string "{JPN}ただし いちど むこうにすると\n"
+	.string "{JPN}もう もどせないから きをつけてね\p"
+	.string "{JPN}また チャレンジが ゆうこうでない\n"
+	.string "{JPN}ばあいは むこうにしようとしても\l"
+	.string "{JPN}なにも おこらないよ$"
 
 BattleFrontier_PokemonCenter_1F_Text_Done:
-	.string "Done!$"
+	.string "{JPN}できた!$"
 
 @evo limit
 BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_EvoLimit_Ask:
@@ -77,10 +77,10 @@ BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_EvoLimit:
 	end
 
 EventScript_MultichoiceDisableChallenge_Text_Challenge_EvoLimit:
-	.string "EVOLUTION LIMIT$"
+	.string "{JPN}しんかせいげん$"
 
 EventScript_MultichoiceDisableChallenge_Text_Challenge_EvoLimit_Disable:
-	.string "Disable EVOLUTION LIMIT?$"
+	.string "{JPN}しんかせいげんを むこうにする?$"
 
 @mirror
 BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_Mirror_Ask:
@@ -99,10 +99,10 @@ BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_Mirror:
 	end
 
 EventScript_MultichoiceDisableChallenge_Text_Challenge_Mirror:
-	.string "MIRROR$"
+	.string "{JPN}ミラー$"
 
 EventScript_MultichoiceDisableChallenge_Text_Challenge_Mirror_Disable:
-	.string "Disable MIRROR challenge?$"
+	.string "{JPN}ミラーチャレンジを むこうにする?$"
 
 @mirror thief
 BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_MirrorThief_Ask:
@@ -121,10 +121,10 @@ BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_MirrorThief:
 	end
 
 EventScript_MultichoiceDisableChallenge_Text_Challenge_MirrorThief:
-	.string "MIRROR THIEF$"
+	.string "{JPN}ミラーシーフ$"
 
 EventScript_MultichoiceDisableChallenge_Text_Challenge_MirrorThief_Disable:
-	.string "Disable MIRROR THIEF challenge?$"
+	.string "{JPN}ミラーシーフチャレンジを\nむこうにする?$"
 
 @Expensive Challenge
 BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_Expensive_Ask:
@@ -143,10 +143,10 @@ BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_Expensive:
 	end
 
 EventScript_MultichoiceDisableChallenge_Text_Challenge_Expensive:
-	.string "ULTRA EXPENSIVE!$"
+	.string "{JPN}ウルトラこうか!$"
 
 EventScript_MultichoiceDisableChallenge_Text_Challenge_Expensive_Disable:
-	.string "Disable ULTRA EXPENSIVE?$"
+	.string "{JPN}ウルトラこうかを むこうにする?$"
 
 @one type
 BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_OneType_Ask:
@@ -165,10 +165,10 @@ BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_OneType:
 	end
 
 EventScript_MultichoiceDisableChallenge_Text_Challenge_OneType:
-	.string "ONE TYPE CHALLENGE$"
+	.string "{JPN}ワンタイプチャレンジ$"
 
 EventScript_MultichoiceDisableChallenge_Text_Challenge_OneType_Disable:
-	.string "Disable ONE TYPE CHALLENGE?$"
+	.string "{JPN}ワンタイプチャレンジを\nむこうにする?$"
 
 @party limit
 BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_PartyLimit_Ask:
@@ -187,10 +187,10 @@ BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_PartyLimit:
 	end
 
 EventScript_MultichoiceDisableChallenge_Text_Challenge_PartyLimit:
-	.string "PARTY LIMIT$"
+	.string "{JPN}パーティーせいげん$"
 
 EventScript_MultichoiceDisableChallenge_Text_Challenge_PartyLimit_Disable:
-	.string "Disable PARTY LIMIT?$"
+	.string "{JPN}パーティーせいげんを\nむこうにする?$"
 
 @no item player
 BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_NoItemPlayer_Ask:
@@ -209,10 +209,10 @@ BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_NoItemPlayer:
 	end
 
 EventScript_MultichoiceDisableChallenge_Text_Challenge_NoItemPlayer:
-	.string "NO ITEM (PLAYER)$"
+	.string "{JPN}アイテムなし(プレイヤー)$"
 
 EventScript_MultichoiceDisableChallenge_Text_Challenge_NoItemPlayer_Disable:
-	.string "Disable NO ITEM (PLAYER)?$"
+	.string "{JPN}アイテムなし(プレイヤー)を\nむこうにする?$"
 
 @no item TRAINER
 BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_NoItemTrainer_Ask:
@@ -231,10 +231,10 @@ BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_NoItemTrainer:
 	end
 
 EventScript_MultichoiceDisableChallenge_Text_Challenge_NoItemTrainer:
-	.string "NO ITEM (PLAYER)$"
+	.string "{JPN}アイテムなし(プレイヤー)$"
 
 EventScript_MultichoiceDisableChallenge_Text_Challenge_NoItemTrainer_Disable:
-	.string "Disable NO ITEM (PLAYER)?$"
+	.string "{JPN}アイテムなし(プレイヤー)を\nむこうにする?$"
 
 @pkcenter challenge
 BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_PokecenterChal_Ask:
@@ -253,10 +253,10 @@ BattleFrontier_PokemonCenter_1F_EventScript_DisableChallenges_PokecenterChal:
 	end
 
 EventScript_MultichoiceDisableChallenge_Text_Challenge_PokecenterChal:
-	.string "POKéCENTER CHALLENGE$"
+	.string "{JPN}ポケモンセンターチャレンジ$"
 
 EventScript_MultichoiceDisableChallenge_Text_Challenge_PokecenterChal_Disable:
-	.string "Disable POKéCENTER CHALLENGE?$"
+	.string "{JPN}ポケモンセンターチャレンジを\nむこうにする?$"
 
 BattleFrontier_PokemonCenter_1F_EventScript_SchoolKid::
 	msgbox BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon, MSGBOX_NPC
@@ -281,22 +281,22 @@ BattleFrontier_PokemonCenter_1F_EventScript_Skitty::
 	end
 
 BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon:
-	.string "There was someone here using a \n"
-	.string "POKéMON I've never seen before.\p"
-	.string "I never learned about it at\n"
-	.string "TRAINER'S SCHOOL at least.\p"
-	.string "I wonder where you can catch POKéMON\n"
-	.string "like that.$"
+	.string "{JPN}ここに みたことのない\n"
+	.string "{JPN}ポケモンを つかっている ひとが\n"
+	.string "{JPN}いたんだ\p"
+	.string "{JPN}トレーナーズスクールでも\n"
+	.string "{JPN}ならわなかったよ\p"
+	.string "{JPN}ああいう ポケモンって\nどこで つかまえられるのかな$"
 
 BattleFrontier_PokemonCenter_1F_Text_NextStopBattleArena:
-	.string "Okay! Next stop, the BATTLE ARENA!\n"
-	.string "I'd better get the right POKéMON from\l"
-	.string "the PC Storage System.$"
+	.string "{JPN}よし! つぎは バトルアリーナ!\n"
+	.string "{JPN}パソコンから ただしい ポケモンを\l"
+	.string "{JPN}だしておかなくちゃ$"
 
 BattleFrontier_PokemonCenter_1F_Text_GoingThroughEveryChallenge:
-	.string "Giggle… I'm going to go through every\n"
-	.string "challenge with just this baby!$"
+	.string "{JPN}くすくす... このこだけで\n"
+	.string "{JPN}ぜんぶのちゃれんじを\lクリアしちゃうんだから!$"
 
 BattleFrontier_PokemonCenter_1F_Text_Skitty:
-	.string "SKITTY: Mya myaaah!$"
+	.string "{JPN}エネコ: みゃー みゃーん!$"
 

@@ -52,16 +52,16 @@ EventScript_CancelCut::
 	end
 
 Text_WantToCut:
-	.string "This tree looks like it can be\n"
-	.string "CUT down!\p"
-	.string "Would you like to CUT it?$"
+	.string "{JPN}この きは いあいぎりで\n"
+	.string "{JPN}きれそうだ!\p"
+	.string "{JPN}いあいぎりを つかいますか?$"
 
 Text_MonUsedFieldMove:
-	.string "{STR_VAR_1} used {STR_VAR_2}!$"
+	.string "{JPN}{STR_VAR_1}は {STR_VAR_2}を つかった!$"
 
 Text_CantCut:
-	.string "This tree looks like it can be\n"
-	.string "CUT down!$"
+	.string "{JPN}この きは いあいぎりで\n"
+	.string "{JPN}きれそうだ!$"
 
 @ Use rock smash from party menu
 EventScript_UseRockSmash::
@@ -156,7 +156,7 @@ EventScript_EndHeadbutt::
 	end
 
 Text_MonUsedHeadbutt::
-	.string "{STR_VAR_1} used HEADBUTT!$"
+	.string "{JPN}{STR_VAR_1}は ずつきを つかった!$"
 
 
 EventScript_FollowerFieldMove:
@@ -317,20 +317,20 @@ EventScript_CancelSmash::
 	end
 
 Text_WantToSmash:
-	.string "This rock appears to be breakable.\n"
-	.string "Would you like to use ROCK SMASH?$"
+	.string "{JPN}この いわは くだけそうだ.\n"
+	.string "{JPN}いわくだきを つかいますか?$"
 
 Text_CantSmash:
-	.string "It's a rugged rock, but a POKéMON\n"
-	.string "may be able to smash it.$"
+	.string "{JPN}ゴツゴツした いわだ.\n"
+	.string "{JPN}ポケモンなら くだけるかも.$"
 
 Text_WantToHeadbutt:
-	.string "This tree may house POKéMON.\n"
-	.string "Would you like to use HEADBUTT?$"
+	.string "{JPN}ポケモンが すんでいそうな きだ.\n"
+	.string "{JPN}ずつきを つかいますか?$"
 
 Text_CantHeadbutt:
-	.string "It's a small tree, but a wild\n"
-	.string "POKéMON may be living within.$"
+	.string "{JPN}ちいさな きだが やせいの\n"
+	.string "{JPN}ポケモンが すんでいるかも.$"
 
 EventScript_StrengthBoulder::
 	lockall
@@ -377,20 +377,20 @@ EventScript_CancelStrength::
 	end
 
 Text_WantToStrength:
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.\p"
-	.string "Would you like to use STRENGTH?$"
+	.string "{JPN}おおきな いわだが ポケモンなら\n"
+	.string "{JPN}おせるかもしれない.\p"
+	.string "{JPN}かいりきを つかいますか?$"
 
 Text_MonUsedStrength:
-	.string "{STR_VAR_1} used STRENGTH!$"
+	.string "{JPN}{STR_VAR_1}は かいりきを つかった!$"
 
 Text_CantStrength:
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.$"
+	.string "{JPN}おおきな いわだが ポケモンなら\n"
+	.string "{JPN}おせるかもしれない.$"
 
 Text_StrengthActivated:
-	.string "STRENGTH made it possible to move\n"
-	.string "boulders around.$"
+	.string "{JPN}かいりきで いわを\n"
+	.string "{JPN}おせるようになった!$"
 
 EventScript_UseWaterfall::
 	lockall
@@ -416,15 +416,15 @@ EventScript_EndWaterfall::
 	end
 
 Text_CantWaterfall:
-	.string "A wall of water is crashing down with\n"
-	.string "a mighty roar.$"
+	.string "{JPN}はげしい みずが\n"
+	.string "{JPN}ながれおちている.$"
 
 Text_WantToWaterfall:
-	.string "It's a large waterfall.\n"
-	.string "Would you like to use WATERFALL?$"
+	.string "{JPN}おおきな たきだ.\n"
+	.string "{JPN}たきのぼりを つかいますか?$"
 
 Text_MonUsedWaterfall:
-	.string "{STR_VAR_1} used WATERFALL.$"
+	.string "{JPN}{STR_VAR_1}は たきのぼりを つかった.$"
 
 EventScript_UseDive::
 	lockall
@@ -542,34 +542,34 @@ Movement_WhirlpoolWest:
 	step_end
 
 Text_CantWhirlpool:
-	.string "The water is swirling and spinning\n"
-	.string "around with a mighty roar.$"
+	.string "{JPN}みずが はげしく うずまいて\n"
+	.string "{JPN}ゴウゴウと なっている.$"
 
 Text_CantDive:
-	.string "The sea is deep here. A POKéMON\n"
-	.string "may be able to go underwater.$"
+	.string "{JPN}うみが ふかい. ポケモンなら\n"
+	.string "{JPN}もぐれるかもしれない.$"
 
 Text_WantToDive:
-	.string "The sea is deep here.\n"
-	.string "Would you like to use DIVE?$"
+	.string "{JPN}うみが ふかい.\n"
+	.string "{JPN}ダイビングを つかいますか?$"
 
 Text_MonUsedDive:
-	.string "{STR_VAR_1} used WHIRLPOOL.$"
+	.string "{JPN}{STR_VAR_1}は うずしおを つかった.$"
 
 Text_CantSurface:
-	.string "Light is filtering down from above.\n"
-	.string "A POKéMON may be able to surface.$"
+	.string "{JPN}うえから ひかりが さしこんでいる.\n"
+	.string "{JPN}ポケモンなら うかべるかも.$"
 
 Text_WantToSurface:
-	.string "Light is filtering down from above.\n"
-	.string "Would you like to use DIVE?$"
+	.string "{JPN}うえから ひかりが さしこんでいる.\n"
+	.string "{JPN}ダイビングを つかいますか?$"
 
 EventScript_FailSweetScent::
 	msgbox Text_FailSweetScent, MSGBOX_SIGN
 	end
 
 Text_FailSweetScent:
-	.string "Looks like there's nothing here…$"
+	.string "{JPN}なにも でてこない みたいだ...$"
 
 SetTimeEncounters::
 	callnative SetTimeBasedEncounters

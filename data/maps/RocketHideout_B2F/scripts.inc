@@ -177,11 +177,11 @@ RocketHideout_B2F_Movement_MurkrowGate2:
 	step_end
 
 RocketHideout_B2F_Text_MurkrowUnlock:
-    .string "MURKROW screamed the password,\n"
-    .string "mimicking the voice of PETREL.\p"
-    .string "..................\n"
-    .string "The voice-recognition system\l"
-    .string "unlocked the door!$"
+    .string "{JPN}ヤミカラスが ペトレルの こえを\n"
+	.string "{JPN}まねして あいことばを いった.\p"
+    .string "{JPN}...\n"
+	.string "{JPN}おんせいにんしき システムが\l"
+    .string "{JPN}とびらの ロックを かいじょした!$"
 
 @============================================================================================================================================
 
@@ -259,40 +259,40 @@ RocketHideout_B2F_Movement_Lance:
 	step_end
 
 RocketHideout_B2F_Text_ArianaHoldIt:
-    .string "ARIANA: Hold it right there!$"
+    .string "{JPN}アリアナ: そこで とまりなさい!$"
 
 RocketHideout_B2F_Text_ArianaChallenge:
-    .string "ARIANA: We can't let a brat like you\n"
-    .string "do as you please forever.\p"
-    .string "It'll hurt Team Rocket's pride over\n"
-    .string "and over again. Making it lessen,\l"
-    .string "you see.\p"
-    .string "...So, it's time to finish you.\n"
-    .string "However strong you may be,\p"
-    .string "if the two of us fight at the same\n"
-    .string "time, you'll have no chance of\l"
-    .string "winning. Don't you agree?\p"
-    .string "Hee hee hee! Sorry, baby.\n"
-    .string "Now, get ready to be thrashed.$"
+    .string "{JPN}アリアナ: あんたみたいな がきに\n"
+	.string "{JPN}いつまでも すきかってに させる\l"
+    .string "{JPN}わけには いかないの.\p"
+	.string "{JPN}ロケットだんの プライドが\n"
+    .string "{JPN}きずつくのよ.\l"
+	.string "{JPN}どんどん おちていく のよ.\p"
+    .string "{JPN}...だから あんたを\n"
+	.string "{JPN}おわりに してあげる.\p"
+    .string "{JPN}いくら つよくても\n"
+	.string "{JPN}ふたりで かかれば\l"
+    .string "{JPN}かてっこ ないでしょ?\p"
+	.string "{JPN}うふふふ! ざんねんね.\nぼこぼこに されなさい!$"
 
 RocketHideout_B2F_Text_LanceInterrupt:
-    .string "LANCE: Hold it!\n"
-    .string "A two-on-one battle?\p"
-    .string "That is so unfair!\n"
-    .string "Typical of Team Rocket to be so\l"
-    .string "sneaky.\p"
-    .string "Allow me to join the battle!$"
+    .string "{JPN}ワタル: まて!\n"
+	.string "{JPN}2たい1の バトル?\p"
+    .string "{JPN}それは ひきょうだ!\n"
+	.string "{JPN}ロケットだんらしい\l"
+    .string "{JPN}きたない てだな.\p"
+	.string "{JPN}ぼくも せんとうに さんかしよう!$"
 
 RocketHideout_B2F_Text_ArianaOutraged:
-    .string "ARIANA: What? You had an accomplice?\n"
-    .string "Where is your sense of dignity?\p"
-    .string "As interim boss in place of GIOVANNI,\n"
-    .string "I'll show you how wrong it is to meddle\l"
-    .string "with Team Rocket!$"
+    .string "{JPN}アリアナ: なに? なかまが いたの?\n"
+	.string "{JPN}プライドって ものが ないの?\p"
+    .string "{JPN}サカキさまの かわりの\n"
+	.string "{JPN}りんじボスとして ロケットだんに\l"
+    .string "{JPN}さからう まちがいを おしえてあげる!$"
 
 RocketHideout_B2F_Text_LanceChooseMons:
-    .string "LANCE: Quickly {PLAYER}, choose\n"
-	.string "your POKéMON!$"
+    .string "{JPN}ワタル: はやく {PLAYER}\n"
+	.string "{JPN}ポケモンを えらぶんだ!$"
 
 RocketHideout_B2F_EventScript_ReadyForBattlePrompt::
 	msgbox RocketHideout_B2F_Text_LanceChooseMons, MSGBOX_DEFAULT
@@ -604,92 +604,92 @@ RocketHideout_B2F_Movement_DragoniteFinalExit:
 	step_end
 
 RocketHideout_B2F_Text_GruntLoss:
-    .string "....................$"
+    .string "...$"
 
 RocketHideout_B2F_Text_ArianaLoss:
-    .string "Tch, you really are strong.\n"
-    .string "It's too bad.\p"
-    .string "If you were to join Team Rocket,\n"
-    .string "you could become an Executive.$"
+    .string "{JPN}ちっ ほんとうに つよいのね.\n"
+	.string "{JPN}ざんねんだわ.\p"
+    .string "{JPN}ロケットだんに はいれば\n"
+	.string "{JPN}かんぶに なれたのに.$"
 
 RocketHideout_Text_ArianaRetreat:
-    .string "ARIANA: But that's fine.\n"
-    .string "The broadcast experiment was a\l"
-    .string "total success.\p"
-    .string "It doesn't matter what happens to\n"
-    .string "this hideout now.\p"
-    .string "We have much bigger plans.\n"
-    .string "You'll come to appreciate Team\l"
-    .string "Rocket's true power soon enough.\p"
-    .string "Enjoy yourself while you can...\n"
-    .string "Hee hee hee...$"
+    .string "{JPN}アリアナ: でも いいの.\n"
+	.string "{JPN}でんぱの じっけんは\l"
+    .string "{JPN}だいせいこうだった.\p"
+	.string "{JPN}ここの アジトが どうなっても\n"
+    .string "{JPN}かまわないの.\p"
+	.string "{JPN}もっと おおきな けいかくが\n"
+    .string "{JPN}あるのよ. ロケットだんの\l"
+	.string "{JPN}ほんとうの ちからを しるがいい.\n"
+    .string "{JPN}いまのうちに たのしみなさい...\n"
+	.string "{JPN}うふふふ...$"
 
 RocketHideout_Text_LanceStepBack:
-    .string "Sorry, {PLAYER}. I saw how well you\n"
-    .string "were doing, so I just hung back.\p"
-    .string "Now all there is left to do is to turn\n"
-    .string "off that odd radio signal.$"
+    .string "{JPN}すまない {PLAYER}. きみが\n"
+	.string "{JPN}がんばってるのを みてたから\l"
+    .string "{JPN}うしろで みていたよ.\p"
+	.string "{JPN}あとは あの へんな でんぱを\nとめるだけだな.$"
 
 
 RocketHideout_B2F_Text_LanceElectrodeFaint:
-    .string "It's this machine that's causing\n"
-    .string "all the problems.\p"
-    .string "I don't see a switch on it…\p"
-    .string "We have no choice. We have to\n"
-    .string "make all the ELECTRODE faint.\p"
-    .string "That should stop this machine\n"
-    .string "from transmitting that strange\l"
-    .string "signal.\p"
-    .string "It's no fault of the POKéMON, so\n"
-    .string "it makes me feel guilty.\p"
-    .string "{PLAYER}, let's split the job.$"
+    .string "{JPN}このきかいが すべての\n"
+	.string "{JPN}もんだいの げんいんだ.\p"
+    .string "{JPN}スイッチが みあたらない...\p"
+	.string "{JPN}しかたない.すべての\n"
+    .string "{JPN}マルマインを きぜつ\l"
+	.string "{JPN}させるしかない.\p"
+    .string "{JPN}そうすれば このきかいの\n"
+	.string "{JPN}へんなでんぱを とめる\l"
+    .string "{JPN}ことが できるはずだ.\p"
+	.string "{JPN}ポケモンに つみはないのに\n"
+    .string "{JPN}もうしわけない きもちだ.\p{PLAYER} やくわりを\nわけて やろう.$"
 
 RocketHideout_B2F_Text_LanceSide:
-    .string "LANCE: Leave this side to me.$"
+    .string "{JPN}ワタル: こちらがわは\nぼくに まかせろ.$"
 
 RocketHideout_B2F_Text_LanceElectrodeDone:
-    .string "LANCE: That odd signal has\n"
-    .string "finally stopped.\p"
-    .string "The LAKE should be back to\n"
-    .string "normal.\p"
-    .string "You're the hero! Let me thank\n"
-    .string "you on behalf of all the\l"
-    .string "POKéMON.\p"
-    .string "Oh, yes. You should take this.\n"
-    .string "I found it here, but I don't\l"
-    .string "have any need for it.$"
+    .string "{JPN}ワタル: あの へんな しんごうが\n"
+	.string "{JPN}やっと とまったな.\p"
+    .string "{JPN}みずうみも もとに\n"
+	.string "{JPN}もどっただろう.\p"
+    .string "{JPN}きみが ヒーローだ! すべての\n"
+	.string "{JPN}ポケモンの かわりに\l"
+    .string "{JPN}おれいを いわせてくれ.\p"
+	.string "{JPN}そうそう. これを もっていけ.\n"
+    .string "{JPN}ここで みつけたが ぼくには\l"
+	.string "{JPN}ひつような ないんだ.$"
 
 RocketHideout_B2F_Text_LanceWhirlpool:
-    .string "That's WHIRLPOOL. Teach it to a\n"
-    .string "POKéMON to get across wild water.\p"
-    .string "But keep this in mind.\p"
-    .string "You can use that out of battle\n"
-    .string "only with the BADGE from\l"
-    .string "MAHOGANY GYM.$"
+    .string "{JPN}それは うずしおだ. ポケモンに\n"
+	.string "{JPN}おぼえさせれば あれた みずの\l"
+    .string "{JPN}うえを わたれる.\p"
+	.string "{JPN}だが おぼえておけ.\p"
+    .string "{JPN}せんとういがいで つかうには\n"
+	.string "{JPN}チョウジジムの バッジが\lひつようだ.$"
 
 RocketHideout_B2F_Text_LanceMonMaster:
-    .string "{PLAYER}…\p"
-    .string "The journey to becoming the\n"
-    .string "POKéMON MASTER is long and\l"
-    .string "difficult.\p"
-    .string "Knowing that, will you keep\n"
-    .string "going?\p"
-    .string "…\p"
-    .string "I see. No, you're right.\p"
-    .string "If you would give up that easily,\n"
-    .string "you would have never chased that\l"
-    .string "dream in the first place.\p"
-    .string "I look forward to seeing you\n"
-    .string "again!$"
+    .string "{JPN}{PLAYER}...\p"
+	.string "{JPN}ポケモンマスターになる\n"
+    .string "{JPN}たびは ながく つらい\l"
+	.string "{JPN}ものだ.\p"
+    .string "{JPN}それを しっても\n"
+	.string "{JPN}あきらめずに いくか?\p"
+    .string "{JPN}...\p"
+	.string "{JPN}そうか.いや きみの\n"
+    .string "{JPN}いうとおりだ.\p"
+	.string "{JPN}かんたんに あきらめるなら\n"
+    .string "{JPN}はじめから そのゆめを\l"
+	.string "{JPN}おわなかったろうからな.\n"
+    .string "{JPN}また あえるひを\nたのしみにしている!$"
 
 RocketHideout_B2F_Text_B2FTransmitter:
-    .string "It's the radio transmitter that's\n"
-    .string "sending the sinister signal.\p"
-    .string "It's working at full capacity.$"
+    .string "{JPN}あくいに みちた しんごうを\n"
+	.string "{JPN}おくっている ラジオの\l"
+    .string "{JPN}そうしんきだ.\pフルパワーで うごいている.$"
 
 RocketHideout_B2F_Text_B2FDeactivateTransmitter:
-    .string "The radio transmitter has finally\n"
-    .string "stopped its evil broadcast.$"
+    .string "{JPN}ラジオそうしんきが ついに\n"
+	.string "{JPN}あくの ほうそうを とめた.$"
 
 
 @===========================================================================================================================================
@@ -773,28 +773,28 @@ RocketHideout_B2F_Movement_DragoniteGoDeeper:
 	step_end
 
 RocketHideout_B2F_Text_LanceHeals1:
-    .string "LANCE: Are you all right?\p"
-    .string "Your POKéMON are hurt and tired.\p"
-    .string "Here, give them some of my\n"
-    .string "medicine.$"
+    .string "{JPN}ワタル: だいじょうぶか?\p"
+	.string "{JPN}きみの ポケモンが\n"
+    .string "{JPN}きずついて つかれている.\p"
+	.string "{JPN}ほら  ぼくの くすりを\nつかってくれ.$"
 
 RocketHideout_B2F_Text_LanceHeals2:
-    .string "LANCE: {PLAYER}, let's give it\n"
-    .string "our best for POKéMON.$"
+    .string "{JPN}ワタル: {PLAYER}  ポケモンの\n"
+	.string "{JPN}ために がんばろう.$"
 
 RocketHideout_B2F_Text_GruntM17Seen:
-    .string "The door won't open?\p"
-    .string "Well, duh. It has to have a\n"
-    .string "password that only TEAM ROCKET\l"
-    .string "knows.$"
+    .string "{JPN}ドアが ひらかない?\n"
+	.string "{JPN}あたりまえだろ. ロケットだんしか\n"
+    .string "{JPN}しらない あいことばが いるんだ.$"
+	.string ""
 
 RocketHideout_B2F_Text_GruntM17Beaten:
-    .string "What? I lost?$"
+    .string "{JPN}なんだと? まけた?$"
 
 RocketHideout_B2F_Text_GruntM17After:
-    .string "Heh, I'm just a GRUNT.\p"
-    .string "I don't know the password.\n"
-    .string "Too bad for you.$"
+    .string "{JPN}へっ  おれは ただの したっぱだ.\p"
+	.string "{JPN}あいことばなんて しらないぜ.\n"
+    .string "{JPN}ざんねんだったな.$"
 
 RocketHideout_B2F_EventScript_Grunt14::
 	trainerbattle_single TRAINER_GRUNT_14 RocketHideout_B2F_Text_GruntM17Seen, RocketHideout_B2F_Text_GruntM17Beaten
@@ -802,36 +802,33 @@ RocketHideout_B2F_EventScript_Grunt14::
 	end
 
 RocketHideout_B2F_Text_GruntM18Seen:
-    .string "Oh, a kid? I don't really like\n"
-    .string "this, but eliminate you I must.$"
+    .string "{JPN}おお  がきか? あまり\n"
+	.string "{JPN}きにいらないが けすしかない.$"
 
 RocketHideout_B2F_Text_GruntM18Beaten:
-    .string "I knew I'd lose…$"
-
+    .string "{JPN}やっぱり まけちゃった...$"
 RocketHideout_B2F_Text_GruntM18After:
-    .string "I got wiped out on the last\n"
-    .string "mission by a kid too.\p"
-    .string "When we were abducting POKéMON,\n"
-    .string "this kid with long red hair and\l"
-    .string "mean-looking eyes just\l"
-    .string "creamed me…$"
-
+    .string "{JPN}ぜんかいの にんむでも\n"
+	.string "{JPN}ガキに やられたんだ.\p"
+    .string "{JPN}ポケモンを さらっていたら\n"
+	.string "{JPN}ながい あかいかみで\l"
+    .string "{JPN}いじわるそうな めをした\l"
+	.string "{JPN}ガキに ボコボコに\lされちまった...$"
 RocketHideout_B2F_EventScript_Grunt15::
 	trainerbattle_single TRAINER_GRUNT_15 RocketHideout_B2F_Text_GruntM18Seen, RocketHideout_B2F_Text_GruntM18Beaten
 	msgbox RocketHideout_B2F_Text_GruntM18After, MSGBOX_AUTOCLOSE
 	end
 
 RocketHideout_B2F_Text_GruntM19Seen:
-    .string "You rotten little pest!$"
+    .string "{JPN}うざったい ちいさな がきめ!$"
 
 RocketHideout_B2F_Text_GruntM19Beaten:
-    .string "Grrrr…$"
-
+    .string "{JPN}ぐぬぬ...$"
 RocketHideout_B2F_Text_GruntM19After:
-    .string "Heh, only the boss knows the\n"
-    .string "password for that door.\p"
-    .string "Where's the boss? Who knows?\n"
-    .string "Go look for yourself.$"
+    .string "{JPN}へっ  あの ドアの あいことばは\n"
+	.string "{JPN}ボスしか しらないんだ.\p"
+    .string "{JPN}ボスが どこに いるかって?\n"
+	.string "{JPN}しらないね. じぶんで さがせよ.$"
 
 RocketHideout_B2F_EventScript_Grunt16::
 	trainerbattle_single TRAINER_GRUNT_16 RocketHideout_B2F_Text_GruntM19Seen, RocketHideout_B2F_Text_GruntM19Beaten

@@ -28,15 +28,13 @@ VioletCity_Mart_EventScript_Rocker::
 	end
 	
 VioletCity_Mart_Text_Granny:
-	.string "When you first catch a POKéMON,\n"
-	.string "it may be weak.\p"
-	.string "But it will eventually grow to\n"
-	.string "be strong.\p"
-	.string "It's important to treat POKéMON\n"
-	.string "with love.$"
-
+	.string "{JPN}つかまえたばかりじゃ\n"
+	.string "{JPN}よわいポケモンでもそだてりゃ\l"
+	.string "{JPN}いつかはつよくなりますよ\p"
+	.string "{JPN}だいじなのはポケモンへの\n"
+	.string "{JPN}あいじょうだとおもいます$"
 VioletCity_Mart_Text_CooltrainerM:
-	.string "POKéMON can hold items like\n"
-	.string "POTION and ANTIDOTE.\p"
-	.string "But they don't appear to know\n"
-	.string "how to use man-made items.$"
+	.string "{JPN}ポケモンもどうぐもてるけど\n"
+	.string "{JPN}キズぐすりとかどくけしとか\l"
+	.string "{JPN}ひとがつくったどうぐは\l"
+	.string "{JPN}つかいかたがわからんようだな$"

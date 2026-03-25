@@ -96,140 +96,133 @@ Route34_EventScript_Item_SuperPotion::
 
 
 Route34_Text_YoungsterSamuel_Seen:
-	.string "Hey! I'm looking for MANKEY!$"
+	.string "{JPN}おい!オレはマンキーを\nさがしているんだ!$"
 
 Route34_Text_YoungsterSamuel_Beaten:
-	.string "Beaten by a passing stranger!$"
+	.string "{JPN}とおりがかりのやつに\nまけちまった!$"
 
 Route34_Text_YoungsterSamuel_After:
-	.string "I'm going to train even harder.\p"
-	.string "After all, I'm trying to become\n"
-	.string "a GYM LEADER.$"
+	.string "{JPN}もっとはげしくしゅぎょうを\n"
+	.string "{JPN}するぞ.\p"
+	.string "{JPN}なにしろオレは\nジムリーダーになりたいんだ.$"
 
 Route34_Text_YoungsterIan_Seen:
-	.string "I'm the best in my class at\n"
-	.string "POKéMON.$"
+	.string "{JPN}クラスいちポケモンが\n"
+	.string "{JPN}つよいのはオレだ!$"
 
 Route34_Text_YoungsterIan_Beaten:
-	.string "No! There are better trainers…$"
-
+	.string "{JPN}だめだ! もっと つよい\nトレーナーが いるんだ...$"
 Route34_Text_YoungsterIan_After:
-	.string "I'm trying hard so I can be the\n"
-	.string "star in my class.$"
+	.string "{JPN}クラスのスターになるために\n"
+	.string "{JPN}がんばっているんだ.$"
 
 Route34_Text_CamperTodd_Seen:
-	.string "I'm confident in my ability to\n"
-	.string "raise POKéMON.\p"
-	.string "Want to see?$"
+	.string "{JPN}ポケモンをそだてるのには\n"
+	.string "{JPN}じしんがあるぞ.\p"
+	.string "{JPN}みてみるか?$"
 
 Route34_Text_CamperTodd_Beaten:
-	.string "Did I screw up my training?$"
+	.string "{JPN}しゅぎょうをまちがえたかな?$"
 
 Route34_Text_CamperTodd_After:
-	.string "Maybe I should take one to DAY-CARE,\n"
-	.string "or maybe use some items…$"
-
+	.string "{JPN}そだてやに あずけるか\n"
+	.string "{JPN}どうぐを つかってみるか...$"
 Route34_Text_PicnickerGina_Seen:
-	.string "Are you a TRAINER?\p"
-	.string "Let's have a practice battle.$"
+	.string "{JPN}あなたトレーナー?\p"
+	.string "{JPN}れんしゅうしあいしない?$"
 
 Route34_Text_PicnickerGina_Beaten:
-	.string "Oh, no! I just can't win…$"
-
+	.string "{JPN}あー だめ! かてないよー...$"
 Route34_Text_PicnickerGina_After:
-	.string "You're too strong to be a\n"
-	.string "practice partner.$"
+	.string "{JPN}れんしゅうあいてには\n"
+	.string "{JPN}つよすぎるわ.$"
 
 Route34_Text_OfficerKeith_Seen:
-	.string "Who goes there?\n"
-	.string "What are you up to?$"
+	.string "{JPN}だれだ!\n"
+	.string "{JPN}なにをしているんだ?$"
 
 Route34_Text_OfficerKeith_Win:
-	.string "You're a tough little kid.$"
+	.string "{JPN}つよいこどもだな.$"
 
 Route34_Text_OfficerKeith_After:
-	.string "Yep, nothing wrong today.\p"
-	.string "Be good and stay out of trouble.$"
+	.string "{JPN}よし きょうもいじょうなしだ.\p"
+	.string "{JPN}いいこにして\nトラブルはおこすなよ.$"
 
 Route34_Text_OfficerKeith_Daytime:
-	.string "I'm on patrol for suspicious\n"
-	.string "individuals.$"
-
+	.string "{JPN}あやしいにんげんがいないか\n"
+	.string "{JPN}みまわっているのです$"
 Route34_Text_PokefanBrandon_Seen:
-	.string "I just got my POKéMON back from\n"
-	.string "DAY-CARE.\p"
-	.string "Let's see how much stronger it got!$"
+	.string "{JPN}そだてやからポケモンを\n"
+	.string "{JPN}ひきとったばかりなんだ.\p"
+	.string "{JPN}どのくらいつよくなったか\nみてみよう!$"
 
 Route34_Text_PokefanBrandon_Beaten:
-	.string "Why does it end this way?$"
+	.string "{JPN}どうしてこんなことに?$"
 
 Route34_Text_PokefanBrandon_After:
-	.string "My POKéMON came back with new moves.\p"
-	.string "That confounded me to no end!$"
+	.string "{JPN}ポケモンがあたらしいわざを\n"
+	.string "{JPN}おぼえてかえってきた.\pそれがこんらんのもとだった!$"
 
 Route34_Text_Sign_IlexForest:
-	.string "ILEX FOREST\n"
-	.string "THROUGH THE GATE$"
+	.string "{JPN}ウバメのもり\n"
+	.string "{JPN}ゲートをとおって$"
 
 Route34_Text_Sign_Route34:
-	.string "ROUTE 34\n"
-	.string "GOLDENROD CITY - AZALEA TOWN\p"
-	.string "ILEX FOREST SOMEWHERE BETWEEN$"
+	.string "{JPN}34ばんどうろ\n"
+	.string "{JPN}コガネシティーヒワダタウン\p"
+	.string "{JPN}ウバメのもり そのちゅうかん$"
 
 Route34_Text_TrainerTips:
-	.string "TRAINER TIPS\p"
-	.string "BERRY trees grow new BERRIES\n"
-	.string "several times a day.\p"
-	.string "Note which trees bear which\n"
-	.string "BERRIES.$"
+	.string "{JPN}トレーナーのコツ\p"
+	.string "{JPN}きのみのきは1にちになんども\n"
+	.string "{JPN}あたらしいきのみがなります.\p"
+	.string "{JPN}どのきにどのきのみがなるか\n"
+	.string "{JPN}おぼえておきましょう.$"
 
 Route34_Text_CooltrainerIrene_Seen:
-	.string "IRENE: Who are you?!$"
-
+	.string "{JPN}ちょっとちょっと！\n"
+	.string "{JPN}あなただれなのよっ！$"
 Route34_Text_CooltrainerIrene_Beaten:
-	.string "IRENE: Ohhh! You're too strong!$"
+	.string "{JPN}アイリーン:うう!つよすぎる!$"
 
 Route34_Text_CooltrainerIrene_After1:
-	.string "IRENE: My sister KATE will get you\n"
-	.string "for this!$"
+	.string "{JPN}アイリーン:あねのケイトが\n"
+	.string "{JPN}かたきをとってくれる!$"
 
 Route34_Text_CooltrainerIrene_After2:
-	.string "IRENE: Isn't this beach great?\p"
-	.string "It's our secret little getaway!$"
+	.string "{JPN}アイリーン:このビーチって\n"
+	.string "{JPN}すてきでしょ?\pわたしたちの\nひみつのばしょなの!$"
 
 Route34_Text_CooltrainerJenn_Seen:
-	.string "JENN: What the...?\n"
-	.string "What are you doing?$"
-
+	.string "{JPN}ちょっとちょっと！\n"
+	.string "{JPN}なにしにきたのよっ！$"
 Route34_Text_CooltrainerJenn_Beaten:
-	.string "JENN: So sorry, IRENE! Dear Sis!$"
+	.string "{JPN}ジェン:アイリーン!\nごめんなさい!$"
 
 Route34_Text_CooltrainerJenn_After1:
-	.string "JENN: Don't get cocky! My sister\n"
-	.string "KATE is tough!$"
+	.string "{JPN}ジェン:ちょうしにのるな!\n"
+	.string "{JPN}あねのケイトはつよいのよ!$"
 
 Route34_Text_CooltrainerJenn_After2:
-	.string "JENN: Sunlight makes your body\n"
-	.string "stronger.$"
+	.string "{JPN}ジェン:たいようのひかりが\n"
+	.string "{JPN}からだをつよくするのよ.$"
 
 Route34_Text_CooltrainerKate_Seen:
-	.string "KATE: I must pay you back for\n"
-	.string "taking care of my sisters!$"
-
+	.string "{JPN}いもうとたちを\n"
+	.string "{JPN}ずいぶんかわいがってくれたわね！$"
 Route34_Text_CooltrainerKate_Beaten:
-	.string "KATE: No! I can't believe I lost.$"
+	.string "{JPN}ケイト:まさか!まけるなんて\nしんじられない.$"
 
 Route34_Text_CooltrainerKate_GiveSoftSand:
-	.string "KATE: You are so strong.\n"
-	.string "We lost with no excuses...\p"
-	.string "Here, take this!$"
-
+	.string "{JPN}つよいのね\n"
+	.string "{JPN}まけたわかんぺきに..\p"
+	.string "{JPN}これをあげるわ！$"
 Route34_Text_CooltrainerKate_After:
-	.string "KATE: I'm sorry we jumped you.\p"
-	.string "We never expected anyone to find\n"
-	.string "us here. You sure startled us.$"
-
+	.string "{JPN}ごめんなさい\n"
+	.string "{JPN}いきなりたたかいをいどんで\p"
+	.string "{JPN}だれもこないとおもってたから\n"
+	.string "{JPN}すこしびっくりしたの$"
 
 Route34_Text_Sign_DayCare:
-	.string "DAY-CARE\p"
-	.string "LET US RAISE YOUR POKéMON FOR YOU!$"
+	.string "{JPN}ここはそだてや\n"
+	.string "{JPN}あなたのポケモンそだてます$"

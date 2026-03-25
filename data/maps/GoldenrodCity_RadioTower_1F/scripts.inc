@@ -50,19 +50,19 @@ RadioTower1F_EventScript_Whitney::
 	end
 
 RadioTower1F_Text_Whitney1::
-	.string "WHITNEY: Hi!\p"
-	.string "My name is WHITNEY!\p"
-	.string "I heard about the QUIZ to win a\n"
-	.string "RADIO, so I came here to get\l"
-	.string "one...\p"
-	.string "But this QUIZ is so hard!$"
+	.string "{JPN}アカネ: こんにちは!\p"
+	.string "{JPN}わたし アカネよ!\p"
+	.string "{JPN}ラジオが もらえる クイズの\n"
+	.string "{JPN}ことを きいて ここに きたの...\p"
+	.string "{JPN}でも このクイズ とっても\n"
+	.string "{JPN}むずかしいの!$"
 
 RadioTower1F_Text_Whitney2::
-	.string "WHITNEY: Wow, you did it!\p"
-	.string "I thought the answer to the third\n"
-	.string "question was surely apricorns!\l"
-	.string "Oops!\p"
-	.string "It's time to go back to the GYM!$"
+	.string "{JPN}アカネ: すごいじゃない!\p"
+	.string "{JPN}だいさんもんの こたえは\n"
+	.string "{JPN}ぜったいに きのみだと おもった!\l"
+	.string "{JPN}あらら!\p"
+	.string "{JPN}ジムに もどる じかんね!$"
 
 RadioTower1F_EventScript_Reception::
 	lock
@@ -167,103 +167,68 @@ GoldenrodCity_RadioTower_1F_EventScript_Sign::
 	end
 
 RadioTower1F_Text_ReceptionistWelcome:
-    .string "Welcome!$"
-
+    .string "{JPN}はじめまして！こちらは\n"
+	.string "{JPN}グローバルトレードステーション\l"
+	.string "{JPN}りゃくしてGTSです！\p"
+	.string "{JPN}こちらでは\n"
+	.string "{JPN}WiーFiコネクションをつかって\p"
+	.string "{JPN}せかいじゅうのひとと\n"
+	.string "{JPN}ポケモンのこうかんがたのしめます\p"
+	.string "{JPN}ポケモングローバルこうかんを\n"
+	.string "{JPN}ごきぼうですか？$"
 RadioTower1F_Text_ReceptionistNoTours:
-    .string "Hello. I'm sorry, but we're not\n"
-    .string "offering any tours today.$"
-
+	.string "{JPN}こんにちは もうしわけ\nございませんがきょうは\lけんがくはやっておりません$"
 RadioTower1F_Text_RadioCardWomanOfferQuiz:
-    .string "We have a special QUIZ campaign on\n"
-    .string "right now.\p"
-    .string "Answer five questions correctly to\n"
-    .string "win a RADIO.\p"
-    .string "You and your POKéMON can use it to\n"
-    .string "play music anytime, anywhere.\p"
-    .string "Would you like to take the QUIZ?$"
+    .string "{JPN}いまは とくべつクイズ\n"
+	.string "{JPN}キャンペーンちゅうなの.\p"
+    .string "{JPN}ごもんを せいかいすると\n"
+	.string "{JPN}ラジオが もらえるのよ.\p"
+    .string "{JPN}あなたと あなたのポケモンが\n"
+	.string "{JPN}いつでも どこでも おんがくを\l"
+    .string "{JPN}たのしめるわ.\pクイズに ちょうせん してみる?$"
 
 RadioTower1F_Text_QuizQuestion1:
-    .string "Question 1:\p"
-    .string "Is there a POKéMON that appears only\n"
-    .string "in the daytime?$"
-
+	.string "{JPN}だい1もん！\pひるまにしかでてこない\nポケモンはいる？$"
 RadioTower1F_Text_QuizQuestion2:
-    .string "Correct!\n"
-    .string "Question 2:\p"
-    .string "Is this statement correct?\p"
-    .string "You can't buy a BERRY at a MART.$"
-
+	.string "{JPN}せいかい！\nだい2もん！\pつぎのぶんしょうは\nただしいでしょうか？\pフレンドリィショップでは\nきのみはうっていない$"
 RadioTower1F_Text_QuizQuestion3:
-    .string "Bull's-eye!\n"
-    .string "Question 3:\p"
-    .string "KURT, the POKéBALL creator, uses\n"
-	.string "apricorns as ingredients?$"
+    .string "{JPN}せいかい!\n"
+	.string "{JPN}だいさんもん:\p"
+    .string "{JPN}ポケボールを つくるひと\n"
+	.string "{JPN}ガンテツは きのみを ざいりょうに\lつかう?$"
 
 RadioTower1F_Text_QuizQuestion4:
-    .string "So far so good!\n"
-    .string "Question 4:\p"
-    .string "Is FALKNER the VIOLET GYM LEADER\n"
-    .string "who uses bird POKéMON?$"
+    .string "{JPN}いまのところ じゅんちょうね!\n"
+	.string "{JPN}だいよんもん:\p"
+    .string "{JPN}ハヤトは キキョウジムリーダーで\n"
+	.string "{JPN}ひこうタイプの ポケモンを\lつかう?$"
 
 RadioTower1F_Text_QuizQuestion5:
-    .string "Wow! Right again!\n"
-    .string "Here's the final question:\p"
-    .string "Do GOLDENROD GAME CORNER's slots\n"
-    .string "have CHARMANDER on their reels?$"
-
+	.string "{JPN}おお！またせいかい！\nさいごのもんだいです！\pコガネゲームコーナーの\nスロットのリールには\nヒトカゲがある？$"
 RadioTower1F_Text_QuizWin:
-    .string "Bingo! You got it!\n"
-    .string "Congratulations!\p"
-    .string "Here's your prize, a RADIO!$"
-
+	.string "{JPN}ビンゴ！せいかいです！\nおめでとうございます！\pしょうひんのラジオです！$"
 RadioTower1F_Text_PokegearRadio:
-    .string "{PLAYER}'s POKéGEAR can now double as\n"
-    .string "a RADIO!$"
-
+	.string "{JPN}{PLAYER}のポケギアに\nラジオきのうがついた！$"
 RadioTower1F_Text_TuneIn:
-    .string "Please tune in to our RADIO shows.$"
-
+	.string "{JPN}ラジオばんぐみを\nきいてくださいね！$"
 RadioTower1F_Text_WrongAnswer:
-    .string "Oh, dear.\n"
-    .string "Sorry, but you got it wrong.\p"
-    .string "Please try again!$"
-
+	.string "{JPN}あらまあ.\nざんねんですがまちがいです\pまたちょうせんしてくださいね！$"
 RadioTower1F_Text_DeclineQuiz:
-    .string "Oh. I see. Please see me if you\n"
-    .string "change your mind.$"
-
+    .string "{JPN}はいはい..いいえなのね\n"
+	.string "{JPN}わかりましたよ\l"
+	.string "{JPN}きがむいたらまたおいでなさいよ$"
 RadioTower1F_Text_Lass:
-    .string "BEN is a fabulous DJ.\p"
-    .string "His sweet voice makes me melt!$"
-
+	.string "{JPN}ベンってすてきなDJなの\pあまいこえにうっとりしちゃう！$"
 RadioTower1F_Text_Youngster:
-    .string "I love MARY, from POKéMON TALK.\p"
-    .string "I only know what she sounds like,\n"
-    .string "though.$"
-
+	.string "{JPN}ぼくポケモンだいすきクラブの\nメアリーがだいすきなんだ\pこえしかしらないけどね$"
 RadioTower1F_Text_GruntM3Seen:
-    .string "We've finally taken over the\n"
-    .string "RADIO TOWER!\p"
-    .string "Now everyone will get to experience\n"
-    .string "the true terror of TEAM ROCKET!\p"
-    .string "We'll show you how scary we are!$"
-
+	.string "{JPN}ついにラジオとうを\nのっとったぞ！\pみんなにロケットだんの\nほんとうのおそろしさを\nあじわわせてやる！\pおれたちのおそろしさを\nおしえてやるぜ！$"
 RadioTower1F_Text_GruntM3Beaten:
-    .string "Too strong! I'm sorry boss…$"
-
+	.string "{JPN}つよすぎる！ボス.すみません.$"
 RadioTower1F_Text_GruntM3After:
-    .string "You're too strong.\p"
-    .string "Our plan could be ruined. I must\n"
-    .string "warn the others…$"
-
+	.string "{JPN}きみはつよすぎる\pさくせんがだいなしになる\nなかまにしらせなければ.$"
 RadioTower1F_Text_Directory:
-    .string "1F RECEPTION\n"
-    .string "2F SALES\p"
-    .string "3F PERSONNEL\n"
-    .string "4F PRODUCTION\p"
-    .string "5F DIRECTOR'S OFFICE$"
-
-
+	.string "{JPN}1F うけつけ\n2F えいぎょう\p3F じんじ\n4F せいさく\p5F しゃちょうしつ$"
 GoldenrodCity_RadioTower_1F_EventScript_LotteryClerk::
 	lock
 	faceplayer
@@ -372,79 +337,33 @@ GoldenrodCity_RadioTower_1F_EventScript_GivePrizeFromEarlier::
 	end
 
 GoldenrodCity_RadioTower_1F_Text_LotteryCornerDrawTicket:
-	.string "This is the POKéMON LOTTERY CORNER.\p"
-	.string "If the LOTO TICKET's number matches\n"
-	.string "the ID number of any of your POKéMON,\l"
-	.string "you will receive a fabulous gift.\p"
-	.string "Would you like to draw a POKéMON\n"
-	.string "LOTO TICKET?$"
-
+	.string "{JPN}ここはポケモンくじコーナーです\pくじのばんごうがきみの\nポケモンのIDばんごうと\lいっちすればすてきなしょうひんを\nプレゼント！\pポケモンくじをひいてみますか？$"
 GoldenrodCity_RadioTower_1F_Text_ComeBackTomorrow:
-	.string "Please come back tomorrow.$"
-
+	.string "{JPN}またあしたきてくださいね$"
 GoldenrodCity_RadioTower_1F_Text_PleaseVisitAgain:
-	.string "Please do visit again.$"
-
+	.string "{JPN}それではまたおこしください$"
 GoldenrodCity_RadioTower_1F_Text_PleasePickTicket:
-	.string "Please pick a LOTO TICKET.\n"
-	.string "…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
-
+	.string "{JPN}くじをひいてください\n...$"
 GoldenrodCity_RadioTower_1F_Text_TicketNumberIsXPleaseWait:
-	.string "The LOTO TICKET number is {STR_VAR_1}.\p"
-	.string "I need to run a check on this number\n"
-	.string "to see if it matches any of your\l"
-	.string "POKéMON's ID numbers. Please wait.$"
-
+	.string "{JPN}くじのばんごうは{STR_VAR_1}です\pこのばんごうがきみの\nポケモンのIDばんごうと\lいっちするかしらべますので\nしょうしょうおまちください$"
 GoldenrodCity_RadioTower_1F_Text_TicketMatchesPartyMon:
-	.string "Congratulations!\p"
-	.string "The ID number of your team's\n"
-	.string "{STR_VAR_1} matches your\l"
-	.string "LOTO TICKET's number!$"
-
+	.string "{JPN}おめでとうございます！\nてもちの{STR_VAR_1}の\nIDばんごうがくじの\lばんごうといっちしました！$"
 GoldenrodCity_RadioTower_1F_Text_TicketMatchesPCMon:
-	.string "Congratulations!\p"
-	.string "The ID number of your PC-boxed\n"
-	.string "{STR_VAR_1} matches your\l"
-	.string "LOTO TICKET's number!$"
-
+	.string "{JPN}おめでとうございます！\nパソコンのボックスにいる\n{STR_VAR_1}のIDばんごうが\lくじのばんごうといっちしました！$"
 GoldenrodCity_RadioTower_1F_Text_NoNumbersMatched:
-	.string "I'm sorry.\n"
-	.string "None of the numbers matched.$"
-
+	.string "{JPN}ざんねんです\nばんごうはいっちしませんでした$"
 GoldenrodCity_RadioTower_1F_Text_TwoDigitsMatched:
-	.string "Two digits matched, so you win the\n"
-	.string "third prize!\l"
-	.string "You've won the {STR_VAR_1}!$"
-
+	.string "{JPN}にけたあたり！\nさんとうしょうです！\lおめでとうございます！\n{STR_VAR_1}のかちです！$"
 GoldenrodCity_RadioTower_1F_Text_ThreeDigitsMatched:
-	.string "Three digits matched, so you win the\n"
-	.string "second prize!\l"
-	.string "You've won the {STR_VAR_1}!$"
-
+	.string "{JPN}さんけたあたり！\nにとうしょうです！\lおめでとうございます！\n{STR_VAR_1}のかちです！$"
 GoldenrodCity_RadioTower_1F_Text_FourDigitsMatched:
-	.string "Four digits matched, so you win the\n"
-	.string "first prize!\l"
-	.string "You've won the {STR_VAR_1}!$"
-
+	.string "{JPN}よんけたあたり！\nいっとうしょうです！\lおめでとうございます！\n{STR_VAR_1}のかちです！$"
 GoldenrodCity_RadioTower_1F_Text_AllFiveDigitsMatched:
-	.string "Oh, my goodness, all five digits\n"
-	.string "matched!\p"
-	.string "You've won the jackpot prize!\n"
-	.string "You've won the {STR_VAR_1}!$"
-
+	.string "{JPN}わあ！ごけたぜんぶ\nあたりです！\pだいとうりょう！\n{STR_VAR_1}のかちです！$"
 GoldenrodCity_RadioTower_1F_Text_NoRoomForThis:
-	.string "Oh?\n"
-	.string "You seem to have no room for this.\p"
-	.string "Please make room in your BAG and\n"
-	.string "let me know.$"
-
+	.string "{JPN}あら？\nもちものがいっぱいですね\pバッグにばしょをつくって\nまたきてくださいね$"
 GoldenrodCity_RadioTower_1F_Text_PrizeWeveBeenHolding:
-	.string "{PLAYER}?\n"
-	.string "Yes, I've been expecting you.\p"
-	.string "This is the prize we've been holding\n"
-	.string "for you.$"
-
+	.string "{JPN}{PLAYER}さん？\nおまちしてましたよ\pこれがおあずかりしていた\nけいひんです$"
 GoldenrodCity_RadioTower_1F_Text_PleaseVisitAgain2:
-	.string "Please do visit again.$"
-
+	.string "{JPN}それではまたおこしください$"
 

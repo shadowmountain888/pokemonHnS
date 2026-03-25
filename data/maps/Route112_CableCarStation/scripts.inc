@@ -87,12 +87,12 @@ Route112_CableCarStation_Movement_ExitCableCar:
 	step_end
 
 Route112_CableCarStation_Text_CableCarReadyGetOn:
-	.string "The CABLE CAR is ready to go up.\n"
-	.string "Would you like to be on it?$"
+	.string "{JPN}ケーブルカーの じゅんびが\n"
+	.string "{JPN}できました.\lのりますか?$"
 
 Route112_CableCarStation_Text_StepThisWay:
-	.string "Please step this way.$"
+	.string "{JPN}こちらへ どうぞ.$"
 
 Route112_CableCarStation_Text_RideAnotherTime:
-	.string "Please ride with us another time.$"
+	.string "{JPN}また こんどご りようください.$"
 

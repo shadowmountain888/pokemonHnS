@@ -336,7 +336,7 @@ static void ChooseMapVariant(void)
 static inline void RegionMapEnsureVariantSelected(void)
 {
     // If you prefer, you can just call ChooseMapVariant() unconditionally here;
-    // it’s cheap and covers cases where the flag changes mid-session.
+    // it's cheap and covers cases where the flag changes mid-session.
     if (sActiveEntries == NULL || sActiveRegionLayout == NULL)
         ChooseMapVariant();
 }
@@ -1348,7 +1348,7 @@ static void InitMapBasedOnPlayerLocation(void)
     xOnMap = x;
 
     // 3) Get the section rect from the *active layout grid* (matches the art on screen)
-    //    If the section isn’t present on this layout, fall back to the active entries table.
+    //    If the section isn't present on this layout, fall back to the active entries table.
     u16 ex = 0, ey = 0, ew = 1, eh = 1;
     {
         u16 minx = MAP_WIDTH, miny = MAP_HEIGHT, maxx = 0, maxy = 0;

@@ -30,38 +30,37 @@ CeladonGameCorner_EventScript_Gramps::
 	end
 
 CeladonGameCorner_Text_PokefanM:
-	.string "The slot machines are all state\n"
-	.string "of the art.$"
+	.string "{JPN}スロットマシンは\n"
+	.string "{JPN}ぜんぶ さいしんがただよ$"
 
 CeladonGameCorner_Text_Teacher:
-	.string "It's this machine I want.\p"
-	.string "It cleaned me out yesterday, so it\n"
-	.string "should pay out today.$"
+	.string "{JPN}わたしが ねらってるのは\n"
+	.string "{JPN}このマシンなの\p"
+	.string "{JPN}きのうは すっからかんに\nされたから きょうは\nはらってくれるはずよ$"
 
 CeladonGameCorner_Text_FishingGuru:
-	.string "I think this slot machine will pay\n"
-	.string "out…\p"
-	.string "The odds vary among machines.$"
+	.string "{JPN}このスロットマシンは\n"
+	.string "{JPN}あたりそうだな...\p"
+	.string "{JPN}かくりつは マシンによって\nちがうんだよ$"
 
 CeladonGameCorner_Text_Fisher1:
-	.string "Gahahaha!\p"
-	.string "The coins just keep popping out!\p"
-	.string "Hm? What, kid? You want to play?\p"
-	.string "I'll share my luck with you!$"
+	.string "{JPN}がはははは!\p"
+	.string "{JPN}コインが どんどん\n"
+	.string "{JPN}でてくるじゃないか!\p"
+	.string "{JPN}ん? なんだ こぞう?\nやってみたいのか?\pおじさんの うんを\nわけてやろう!$"
 
 CeladonGameCorner_Text_Fisher2:
-	.string "Gahahaha!\p"
-	.string "It makes me feel good to do nice\n"
-	.string "things for other people!$"
+	.string "{JPN}がはははは!\p"
+	.string "{JPN}ひとに しんせつにすると\n"
+	.string "{JPN}きもちが いいもんだな!$"
 
 CeladonGameCorner_Text_GymGuide:
-	.string "Hey! CHAMP in making!\p"
-	.string "Are you playing the slots too?\p"
-	.string "I'm trying to get enough coins for\n"
-	.string "a prize POKéMON.\p"
-	.string "But I don't have enough coins yet…$"
-
+	.string "{JPN}おお! みらいのチャンピオン!\p"
+	.string "{JPN}きみも スロットで\n"
+	.string "{JPN}あそんでるのかい?\p"
+	.string "{JPN}しょうひんの ポケモンを\n"
+	.string "{JPN}もらうために\lコインを ためてるんだ\pでも まだ\nコインが たりないんだよな...$"
 CeladonGameCorner_Text_Gramps:
-	.string "Hmmm… The odds are surely\n"
-	.string "better for PIKACHU's line,\l"
-	.string "but... what to do?$"
+	.string "{JPN}うーむ... ピカチュウの\n"
+	.string "{JPN}ならびの ほうが\l"
+	.string "{JPN}かくりつは よさそうじゃが...\lどうしたものかのう?$"

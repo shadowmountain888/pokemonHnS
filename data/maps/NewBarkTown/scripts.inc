@@ -219,56 +219,45 @@ NewBarkTown_Movement_FaceDown:
 	step_end
 
 NewBarkTown_Text_LabSign:
-	.string "PROF.ELM'S LAB$"
-
+	.string "{JPN}ウツギポケモンけんきゅうじょ$"
 NewBarkTown_Text_Door:
-	.string "The door is locked.$"
-
+	.string "{JPN}ドアにかぎがかかっている$"
 NewBarkTown_Text_Wooper:
-	.string "WOOPER: Woooooop.$"
-
+	.string "{JPN}ウパーウパー！$"
 NewBarkTown_Text_FatManState2:
-	.string "Wow, your POKéGEAR is impressive!\n"
-	.string "Did your mom get it for you?$"
-
+	.string "{JPN}おお！かっこいいポケギアだね！\nおかあさんにかってもらったのか？$"
 NewBarkTown_Text_FatManState3:
-	.string "Yo, {PLAYER}!\p"
-	.string "I hear PROF.ELM discovered\n"
-	.string "some new POKéMON.$"
-
+	.string "{JPN}よっ！{PLAYER}\p"
+	.string "{JPN}ウツギはかせがあたらしい\n"
+	.string "{JPN}ポケモンみつけたんだってな$"
 NewBarkTown_Text_LassState2:
-	.string "Wait, {PLAYER}!\p"
-	.string "It's dangerous to go out\n"
-	.string "without a POKéMON!\p"
-	.string "Wild POKéMON jump out of the grass\n"
-	.string "on the way to the next town.$"
-
+	.string "{JPN}もう！ポケモンをつれないで\n"
+	.string "{JPN}どうろへでるなんてあぶないよ！\p"
+	.string "{JPN}となりまちまでは\n"
+	.string "{JPN}やせいのポケモンがとびだす\l"
+	.string "{JPN}くさむらばかりなんだから！$"
 NewBarkTown_Text_LassState3:
-	.string "Oh! Your POKéMON is adorable!\n"
-	.string "I wish I had one!$"
-
+	.string "{JPN}あら！かわいいポケモン！\n"
+	.string "{JPN}あたしもほしいなあ$"
 NewBarkTown_Text_LassState4:
-	.string "Hi, {PLAYER}! Leaving again?\p"
-	.string "You should tell your mom if\n"
-	.string "you are leaving.$"
-
+	.string "{JPN}あら{PLAYER}くん\n"
+	.string "{JPN}またでかけるの？\p"
+	.string "{JPN}でかけるときはおかあさんに\n"
+	.string "{JPN}ちゃんといわないとね！$"
 NewBarkTown_Text_LassState5:
-	.string "Call your mom on your POKéGEAR\n"
-	.string "to let her know how you're doing.$\p"
-
+	.string "{JPN}ポケギアがあればいつでも\n"
+	.string "{JPN}おかあさんにげんきなこえを\l"
+	.string "{JPN}きかせてあげられるね$"
 NewBarkTown_Text_Silver1:
-	.string ". . .\p"
-	.string "So this is the famous ELM\n"
-	.string "POKéMON LAB…$"
-
+	.string "...\p"
+	.string "{JPN}ここがゆうめいな\n"
+	.string "{JPN}ウツギポケモンけんきゅうじょ..$"
 NewBarkTown_Text_Silver2:
-	.string "…What are you staring at?$"
-
+	.string "{JPN}..なんだよ\n"
+	.string "{JPN}ひとのことじろじろみてんなよ$"
 NewBarkTown_Text_Sign:
-	.string "NEW BARK TOWN\p"
-	.string "The Town Where the Winds of\n"
-	.string "a New Beginning Blow$"
-
+	.string "{JPN}ここはワカバタウン\n"
+	.string "{JPN}はじまりつげるかぜのまち$"
 NewBarkTown_EventScript_PlayersHouseMailbox::
 	msgbox NewBarkTown_Text_PlayersHouse, MSGBOX_SIGN
 	end
@@ -278,7 +267,6 @@ NewBarkTown_EventScript_ElmsHouseMailbox::
 	end
 
 NewBarkTown_Text_PlayersHouse:
-	.string "{PLAYER}'S HOUSE$"
-
+	.string "{JPN}ここは{PLAYER}のいえ$"
 NewBarkTown_Text_ElmsHouse:
-	.string "PROF.ELM'S HOUSE$"
+	.string "{JPN}ウツギはかせの いえ$"

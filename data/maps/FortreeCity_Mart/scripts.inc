@@ -41,18 +41,18 @@ FortreeCity_Mart_EventScript_Boy::
 	end
 
 FortreeCity_Mart_Text_SuperRepelBetter:
-	.string "SUPER REPEL lasts a long time,\n"
-	.string "and it gets the job done.\p"
-	.string "It's much better than an ordinary\n"
-	.string "REPEL.$"
+	.string "{JPN}スーパーむしよけは ながく\n"
+	.string "{JPN}もつし こうかてきだよ.\p"
+	.string "{JPN}ふつうの むしよけより\n"
+	.string "{JPN}ずっと いいね!$"
 
 FortreeCity_Mart_Text_StockUpOnItems:
-	.string "I always stock up on more items than\n"
-	.string "I'm sure I'll need.\p"
-	.string "You never know what might happen.\n"
-	.string "Better to be safe than sorry!$"
+	.string "{JPN}わたしは いつも ひつような\n"
+	.string "{JPN}ぶんより おおく かっておくの.\p"
+	.string "{JPN}なにが おこるか わからないから\n"
+	.string "{JPN}そなえあれば うれいなし よ!$"
 
 FortreeCity_Mart_Text_RareCandyMakesMonGrow:
-	.string "A RARE CANDY makes a POKéMON grow\n"
-	.string "immediately by one level.$"
+	.string "{JPN}ふしぎな アメは ポケモンを\n"
+	.string "{JPN}すぐに 1レベル せいちょう させる.$"
 

@@ -67,44 +67,44 @@ NationalPark_Normal_EventScript_Persian::
 
 
 NationalPark_Normal_Text_Lass:
-	.string "Look! Check out my bag!\p"
-	.string "I printed out my favorites from my\n"
-	.string "POKéDEX and stuck them on my bag.$"
+	.string "{JPN}みて!わたしのかばん!\p"
+	.string "{JPN}ポケモンずかんから きにいった\n"
+	.string "{JPN}のを プリントして はったの!$"
 
 NationalPark_Normal_Text_PokefanF:
-	.string "This is MAIL I got from my daughter.\n"
-	.string "It cheers me up.$"
+	.string "{JPN}これは むすめから もらった\n"
+	.string "{JPN}メールなの.げんきが でるわ.$"
 
 NationalPark_Normal_Text_Teacher1:
-	.string "Pay attention, please!\p"
-	.string "…Oops, I have to quit thinking like\n"
-	.string "a teacher all the time.\p"
-	.string "You must be a POKéMON trainer.\p"
-	.string "Since you're working so hard, I\n"
-	.string "want you to have this.$"
+	.string "{JPN}ちゅうもくしてください!\p"
+	.string "{JPN}...あっ いつもせんせいみたいに\n"
+	.string "{JPN}かんがえちゃだめですね.\p"
+	.string "{JPN}あなたはポケモントレーナー\n"
+	.string "{JPN}ですね.\p"
+	.string "{JPN}がんばってるから \nこれをあげましょう.$"
 
 NationalPark_Normal_Text_Teacher1_QuickClaw:
-	.string "Let a POKéMON hold that QUICK CLAW.\p"
-	.string "Sometimes it will strike first\n"
-	.string "during battle.$"
+	.string "{JPN}ポケモンに そのせんせいのツメを\n"
+	.string "{JPN}もたせてごらんなさい.\p"
+	.string "{JPN}バトルで ときどき さきに\nこうげきできますよ.$"
 
 NationalPark_Normal_Text_Youngster1:
-	.string "I'm playing with stickers I printed\n"
-	.string "from my POKéDEX.$"
+	.string "{JPN}ポケモンずかんから プリントした\n"
+	.string "{JPN}シールで あそんでるんだ.$"
 
 NationalPark_Normal_Text_Youngster2:
-	.string "I get the other guy's POKéDEX sticker\n"
-	.string "if I win.$"
+	.string "{JPN}かったら あいての ポケモンずかん\n"
+	.string "{JPN}シールが もらえるんだ.$"
 
 NationalPark_Normal_Text_Teacher2:
-	.string "I take walks in the PARK, but I\n"
-	.string "never go into the grass.\p"
-	.string "Trainers always want to battle…\p"
-	.string "You must have been in many battles.\n"
-	.string "Let me heal your POKéMON for you.$"
+	.string "{JPN}こうえんをさんぽしますが \n"
+	.string "{JPN}くさむらにははいりません.\p"
+	.string "{JPN}トレーナーはいつもたたかいたがる\n"
+	.string "{JPN}んです...\p"
+	.string "{JPN}あなたもたくさんたたかって\nきたでしょうね.\nポケモンをかいふくしてあげます.$"
 
 NationalPark_Normal_Text_Persian:
-	.string "PERSIAN: Fufushaa!$"
+	.string "{JPN}ペルシアン:フフシャー!$"
 
 NationalPark_Normal_EventScript_Jack::
 	trainerbattle_single TRAINER_JACK NationalPark_Normal_Text_SchoolboyJack1_Seen, NationalPark_Normal_Text_SchoolboyJack1_Beaten
@@ -135,65 +135,63 @@ NationalPark_Normal_EventScript_Item_Soothe_Bell::
 	end
 
 NationalPark_Normal_Text_SchoolboyJack1_Seen:
-	.string "The world of POKéMON is deep.\p"
-	.string "There are still lots of things we\n"
-	.string "don't know.\p"
-	.string "But I know more than you do!$"
+	.string "{JPN}ポケモンのせかいは ふかいんだ.\p"
+	.string "{JPN}まだまだ わからないことが\n"
+	.string "{JPN}いっぱい あるんだ.\p"
+	.string "{JPN}でも きみより ぼくのほうが\nしってるぞ!$"
 
 NationalPark_Normal_Text_SchoolboyJack1_Beaten:
-	.string "Wha-wha-what?$"
+	.string "{JPN}な な なんだってー?$"
 
 NationalPark_Normal_Text_SchoolboyJack_After:
-	.string "There is a lot to learn.\p"
-	.string "For example…\p"
-	.string "There are 50 kinds of TMs.\p"
-	.string "Traded POKéMON level up faster.$"
+	.string "{JPN}おぼえることがたくさん\n"
+	.string "{JPN}あります.\p"
+	.string "{JPN}たとえば...\p"
+	.string "{JPN}wざマシンは50しゅるい\nあります.\pこうかんしたポケモンは\nレベルアップがはやいんです.$"
 
 NationalPark_Normal_Text_PokefanFBeverly1_Seen:
-	.string "My POKéMON are simply darling.\p"
-	.string "Let me tell you how proud my\n"
-	.string "darlings make me.$"
+	.string "{JPN}わたしのポケモンは とっても\n"
+	.string "{JPN}かわいいのよ.\p"
+	.string "{JPN}じまんのこたちが どんなに\nすばらしいか おしえてあげる!$"
 
 NationalPark_Normal_Text_PokefanFBeverly1_Beaten:
-	.string "I can beat you in pride, but…$"
-
+	.string "{JPN}プライドではまけないけど...$"
 NationalPark_Normal_Text_PokefanFBeverly_After:
-	.string "I must say, your POKéMON are quite\n"
-	.string "cute, too.$"
+	.string "{JPN}あなたのポケモンも なかなか\n"
+	.string "{JPN}かわいいじゃない.$"
 
 NationalPark_Normal_Text_PokefanmWilliam_Seen:
-	.string "We adore our POKéMON, even if they\n"
-	.string "dislike us.\p"
-	.string "That's what being a FAN is about.$"
+	.string "{JPN}ポケモンに きらわれても\n"
+	.string "{JPN}あいしつづける.\p"
+	.string "{JPN}それが ファンというものだ!$"
 
 NationalPark_Normal_Text_PokefanmWilliam_Beaten:
-	.string "M-my POKéMON!$"
+	.string "{JPN}ぼ ぼくのポケモン!$"
 
 NationalPark_Normal_Text_PokefanmWilliam_After:
-	.string "I lost the battle, but my POKéMON win\n"
-	.string "the prize for being most lovely.$"
+	.string "{JPN}しょうぶは まけたけど\n"
+	.string "{JPN}かわいさでは ゆうしょうだ.$"
 
 NationalPark_Normal_Text_LassKrise_Seen:
-	.string "Hello? Why are you staring at me?\p"
-	.string "Oh, a battle?$"
+	.string "{JPN}なあに?なんで じーっと\n"
+	.string "{JPN}みてるの?\pあ バトル?$"
 
 NationalPark_Normal_Text_LassKrise_Beaten:
-	.string "…Hmmm…$"
-
+	.string "{JPN}...うーん...$"
 NationalPark_Normal_Text_LassKrise_After:
-	.string "I thought you were staring at me\n"
-	.string "because I'm cute!$"
+	.string "{JPN}わたしが かわいいから\n"
+	.string "{JPN}みつめてたのかと おもった!$"
 
 NationalPark_Normal_Text_Sign_RelaxationSquare:
-	.string "RELAXATION SQUARE\n"
-	.string "NATIONAL PARK$"
+	.string "{JPN}やすらぎひろば\n"
+	.string "{JPN}しぜんこうえん$"
 
 NationalPark_Normal_Text_Sign_BattleNotice:
-	.string "What is this notice?\p"
-	.string "Please battle only in the grass.\p"
-	.string "NATIONAL PARK WARDEN'S OFFICE$"
+	.string "{JPN}おしらせ\p"
+	.string "{JPN}バトルは くさむらで\n"
+	.string "{JPN}おねがいします.\pしぜんこうえん かんりにん$"
 
 NationalPark_Normal_Text_TrainerTips:
-	.string "TRAINER TIPS\p"
-	.string "Print out MAIL by opening it then\n"
-	.string "pressing START.$"
+	.string "{JPN}トレーナーのコツ\p"
+	.string "{JPN}メールを ひらいてから\n"
+	.string "{JPN}スタートボタンで プリントできる.$"

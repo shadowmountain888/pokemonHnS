@@ -45,73 +45,70 @@ Route13_EventScript_DirectionsSign::
 	end
 
 Route13_Text_PokefanmAlexSeen:
-	.string "Bow down before my regal POKéMON!$"
+	.string "{JPN}わたしの おうさまポケモンの\nまえに ひれふすがよい!$"
 
 Route13_Text_PokefanmAlexBeaten:
-	.string "How… How dare you mock royalty!$"
-
+	.string "{JPN}How... How dare you mock royalty!$"
 Route13_Text_PokefanmAlexAfterBattle:
-	.string "Doesn't everyone wish to someday\n"
-	.string "be a king?$"
+	.string "{JPN}だれでも いつかは おうさまに\n"
+	.string "{JPN}なりたいと おもうものでしょう?$"
 
 Route13_Text_PokefanmJoshuaSeen:
-	.string "Nihihi! Would you like to battle\n"
-	.string "my PIKACHU gang?$"
+	.string "{JPN}にひひ! わたしの ピカチュウだんと\n"
+	.string "{JPN}バトルしてみない?$"
 
 Route13_Text_PokefanmJoshuaBeaten:
-	.string "PI-PIKACHU!$"
+	.string "{JPN}ピ ピカチュウ!$"
 
 Route13_Text_PokefanmJoshuaAfterBattle:
-	.string "You look like you have many\n"
-	.string "POKéMON, but PIKACHU\l"
-	.string "is still the best.$"
+	.string "{JPN}きみは たくさんの ポケモンを\n"
+	.string "{JPN}もってるみたいだけど\l"
+	.string "{JPN}やっぱり ピカチュウが さいこうよ.$"
 
 Route13_Text_BirdKeeperPerrySeen:
-	.string "Agility is the key attribute of\n"
-	.string "bird POKéMON.$"
+	.string "{JPN}すばやさこそが とりポケモンの\n"
+	.string "{JPN}かぎとなる のうりょくだ.$"
 
 Route13_Text_BirdKeeperPerryBeaten:
-	.string "You beat me with your speed…$"
-
+	.string "{JPN}You beat me with your speed...$"
 Route13_Text_BirdKeeperPerryAfterBattle:
-	.string "Your POKéMON are remarkably well-\n"
-	.string "trained.$"
+	.string "{JPN}きみの ポケモンは すばらしく\n"
+	.string "{JPN}よく きたえられているな.$"
 
 Route13_Text_BirdKeeperBretSeen:
-	.string "Check out my POKéMON. Just look\n"
-	.string "at their coloring and their\l"
-	.string "plumage.$"
+	.string "{JPN}わたしの ポケモンを みてくれ!\n"
+	.string "{JPN}この いろどりと はねの\l"
+	.string "{JPN}うつくしさを!$"
 
 Route13_Text_BirdKeeperBretBeaten:
-	.string "Shoot! Not good enough!$"
+	.string "{JPN}ちぇっ! まだまだ だった!$"
 
 Route13_Text_BirdKeeperBretAfterBattle:
-	.string "If you groom them, POKéMON get\n"
-	.string "happy.$"
+	.string "{JPN}ていねいに せわを すると\n"
+	.string "{JPN}ポケモンは よろこぶのです.$"
 
 Route13_Text_HikerKennySeen:
-	.string "I should go to ROCK TUNNEL to get\n"
-	.string "myself an ONIX.$"
+	.string "{JPN}イワヤマトンネルに いって\n"
+	.string "{JPN}イワークを つかまえよう かな.$"
 
 Route13_Text_HikerKennyBeaten:
-	.string "I lost…$"
-
+	.string "{JPN}I lost...$"
 Route13_Text_HikerKennyAfterBattle:
-	.string "Geological features don't appear\n"
-	.string "to change.\p"
-	.string "But they actually change, little\n"
-	.string "by little.$"
+	.string "{JPN}ちけいは ぜんぜん かわらない\n"
+	.string "{JPN}ように みえるが\p"
+	.string "{JPN}じっさいは すこしずつ\n"
+	.string "{JPN}かわっているんだよ.$"
 
 Route13_Text_TrainerTips:
-	.string "TRAINER TIPS\p"
-	.string "Look! Right there, at the left\n"
-	.string "side of the post.$"
+	.string "{JPN}トレーナーの こころえ\p"
+	.string "{JPN}みろ! あそこだ かんばんの\n"
+	.string "{JPN}ひだりがわを.$"
 
 Route13_Text_Sign:
-	.string "ROUTE 13\p"
-	.string "NORTH TO SILENCE BRIDGE$"
+	.string "{JPN}13ばんどうろ\p"
+	.string "{JPN}きたへ サイレンスブリッジ$"
 
 Route13_Text_DirectionsSign:
-	.string "NORTH TO LAVENDER TOWN\p"
-	.string "WEST TO FUCHSIA CITY$"
+	.string "{JPN}きたへ シオンタウン\p"
+	.string "{JPN}にしへ セキチクシティ$"
 

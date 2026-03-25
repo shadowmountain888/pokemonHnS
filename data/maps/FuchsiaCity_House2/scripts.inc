@@ -16,23 +16,22 @@ FuchsiaCity_House2_EventScript_Photo::
 	end
 
 FuchsiaCity_House2_Text_WardensGranddaughter1:
-	.string "My grandpa is the SAFARI ZONE\n"
-	.string "WARDEN.\p"
-	.string "At least he was…\p"
-	.string "He decided to go on a vacation and\n"
-	.string "took off overseas all by himself.\p"
-	.string "He quit running SAFARI ZONE just\n"
-	.string "like that.$"
+	.string "{JPN}わたしの おじいちゃんは\n"
+	.string "{JPN}サファリゾーンの えんちょうなの.\p"
+	.string "{JPN}すくなくとも まえは そうだった...\p"
+	.string "{JPN}きゅうに きゅうかを とるって\n"
+	.string "{JPN}いって ひとりで かいがいに\l"
+	.string "{JPN}いっちゃったのよ.\p"
+	.string "{JPN}サファリゾーンも そのまま\nやめちゃったの.$"
 
 FuchsiaCity_House2_Text_WardensGranddaughter2:
-	.string "Many people were disappointed that\n"
-	.string "SAFARI ZONE closed down, but Grandpa\l"
-	.string "is so stubborn…$"
-
+	.string "{JPN}サファリゾーンが しまって\n"
+	.string "{JPN}がっかりした ひとが おおいけど\l"
+	.string "{JPN}おじいちゃんって がんこだから...$"
 FuchsiaCity_House2_Text_WardenPhoto:
-	.string "It's a photo of a grinning old man\n"
-	.string "who's surrounded by POKéMON.$"
+	.string "{JPN}にこにこしている\n"
+	.string "{JPN}おじいさんが ポケモンに\nかこまれている しゃしんだ$"
 
 FuchsiaCity_House2_Text_SafariZonePhoto:
-	.string "It's a photo of a huge grassy plain\n"
-	.string "with rare POKéMON frolicking in it.$"
+	.string "{JPN}おおきな くさはらで\n"
+	.string "{JPN}めずらしい ポケモンが\nたのしそうに あそんでいる\nしゃしんだ$"

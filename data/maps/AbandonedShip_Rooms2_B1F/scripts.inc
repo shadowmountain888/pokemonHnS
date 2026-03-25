@@ -8,8 +8,8 @@ AbandonedShip_Rooms2_B1F_EventScript_Camper::
 	end
 
 AbandonedShip_Rooms2_B1F_Text_PerfectPlaceToGoExploring:
-	.string "This is a perfect place to go exploring!\n"
-	.string "It's exciting here!\p"
-	.string "I bet there're amazing treasures on\n"
-	.string "board.$"
+	.string "{JPN}ここは たんけんするのに\n"
+	.string "{JPN}さいこうの ばしょだね!\n"
+	.string "{JPN}とっても わくわくするよ!\p"
+	.string "{JPN}ふねの なかには すごい\nたからものが ねむってるに\nちがいないよ!$"
 

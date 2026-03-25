@@ -90,73 +90,69 @@ AquaHideout_B2F_EventScript_Grunt8::
 	end
 
 AquaHideout_B2F_Text_MattIntro:
-	.string "Hehehe…\p"
-	.string "Got here already, did you?\n"
-	.string "We underestimated you!\p"
-	.string "But this is it!\p"
-	.string "I'm a cut above the GRUNTS you've seen\n"
-	.string "so far.\p"
-	.string "I'm not stalling for time.\n"
-	.string "I'm going to pulverize you!$"
+	.string "{JPN}へへへ...\p"
+	.string "{JPN}もう ここまで きたのか?\n"
+	.string "{JPN}きみを みくびってたよ!\p"
+	.string "{JPN}だが ここまでだ!\p"
+	.string "{JPN}おれは きみが いままで\n"
+	.string "{JPN}あった したっぱとは ちがう.\p"
+	.string "{JPN}じかんかせぎじゃない.\n"
+	.string "{JPN}きみを こなごなに してやる!$"
 
 AquaHideout_B2F_Text_MattDefeat:
-	.string "Hehehe…\n"
-	.string "So, I lost, too…$"
-
+	.string "{JPN}へへへ...\n"
+	.string "{JPN}おれも まけちまった...$"
 AquaHideout_B2F_Text_OurBossGotThroughHisPreparations:
-	.string "Hehehe!\p"
-	.string "While I was toying with you, our BOSS\n"
-	.string "got through his preparations!$"
+	.string "{JPN}へへへ!\p"
+	.string "{JPN}おれが きみと あそんでる\n"
+	.string "{JPN}あいだに  ボスは じゅんび\lを おえちゃったぜ!$"
 
 AquaHideout_B2F_Text_MattPostBattle:
-	.string "Hehehe!\p"
-	.string "Our BOSS has already gone on his way to\n"
-	.string "some cave under the sea!\p"
-	.string "If you're going to give chase, you'd\n"
-	.string "better search the big, wide sea beyond\l"
-	.string "LILYCOVE.\p"
-	.string "But will you find it then?\n"
-	.string "Hehehe!$"
+	.string "{JPN}へへへ!\p"
+	.string "{JPN}うちの ボスは もう うみの\n"
+	.string "{JPN}そこの どうくつに むかった\l"
+	.string "{JPN}からな!\p"
+	.string "{JPN}もし おいかけるなら\n"
+	.string "{JPN}ミナモシティの むこうの\l"
+	.string "{JPN}おおきな うみを さがすんだな!\p"
+	.string "{JPN}でも みつけられるかな?\nへへへ!$"
 
 AquaHideout_B2F_Text_Grunt4Intro:
-	.string "Wahahah, I grew weary of waiting!\n"
-	.string "You owe me a battle, too!$"
+	.string "{JPN}わははは  まちくたびれたぜ!\n"
+	.string "{JPN}おまえとも しょうぶだ!$"
 
 AquaHideout_B2F_Text_Grunt4Defeat:
-	.string "Tired of waiting…\n"
-	.string "Lost and dazed…$"
-
+	.string "{JPN}まつのに つかれた...\n"
+	.string "{JPN}まけて ぼんやり...$"
 AquaHideout_B2F_Text_Grunt4PostBattle:
-	.string "BOSS…\n"
-	.string "Is this good enough?$"
+	.string "{JPN}ボス...\n"
+	.string "{JPN}これで いいんですか?$"
 
 AquaHideout_B2F_Text_Grunt6Intro:
-	.string "Warp panels, the HIDEOUT's pride\n"
-	.string "and joy!\p"
-	.string "You're clueless about where you are,\n"
-	.string "aren't you?\p"
-	.string "Fluster and tire out the enemy, then\n"
-	.string "lower the boom! That's our plan!$"
+	.string "{JPN}ワープパネルは アジトの\n"
+	.string "{JPN}じまんなんだぜ!\p"
+	.string "{JPN}じぶんが どこにいるか\n"
+	.string "{JPN}わからないだろ?\p"
+	.string "{JPN}てきを まよわせて つかれさせて\n"
+	.string "{JPN}から どかーんと いく!\lそれが おれたちの さくせんだ!$"
 
 AquaHideout_B2F_Text_Grunt6Defeat:
-	.string "What's wrong with you?\n"
-	.string "You're not tired at all!$"
+	.string "{JPN}なんなんだ おまえは?\n"
+	.string "{JPN}ぜんぜん つかれてないじゃ\lないか!$"
 
 AquaHideout_B2F_Text_Grunt6PostBattle:
-	.string "That reminds me… I can't remember\n"
-	.string "where I put the MASTER BALL.\p"
-	.string "If I fail to guard it, our BOSS will\n"
-	.string "chew me out…$"
-
+	.string "{JPN}そういえば... マスターボールを\n"
+	.string "{JPN}どこに おいたか おもいだせない.\p"
+	.string "{JPN}まもりに しっぱいしたら ボスに\n"
+	.string "{JPN}しかられちまう...$"
 AquaHideout_B2F_Text_Grunt8Intro:
-	.string "When I joined TEAM AQUA, the first\n"
-	.string "thing I had to learn was how these\l"
-	.string "warp panels connected.$"
+	.string "{JPN}アクアだんに はいった とき\n"
+	.string "{JPN}さいしょに おぼえたのが\l"
+	.string "{JPN}この ワープパネルの つながりだ!$"
 
 AquaHideout_B2F_Text_Grunt8Defeat:
-	.string "I was too occupied thinking about\n"
-	.string "the warp panels…$"
-
+	.string "{JPN}ワープパネルの ことを\n"
+	.string "{JPN}かんがえすぎてた...$"
 AquaHideout_B2F_Text_Grunt8PostBattle:
-	.string "I'll have to learn about how I can\n"
-	.string "battle more effectively…$"
+	.string "{JPN}もっと こうかてきに\n"
+	.string "{JPN}たたかう ほうほうを まなばないと...$"

@@ -52,100 +52,97 @@ AbandonedShip_Rooms2_1F_EventScript_Garrison::
 	end
 
 AbandonedShip_Rooms2_1F_Text_DanIntro:
-	.string "DAN: While searching for treasures,\n"
-	.string "we discovered a TRAINER!$"
+	.string "{JPN}ダン: たからものを さがしてたら\n"
+	.string "{JPN}トレーナーを はっけんしたぞ!$"
 
 AbandonedShip_Rooms2_1F_Text_DanDefeat:
-	.string "DAN: We couldn't win even though\n"
-	.string "we worked together…$"
-
+	.string "{JPN}ダン: きょうりょくしても\n"
+	.string "{JPN}かてなかった...$"
 AbandonedShip_Rooms2_1F_Text_DanPostBattle:
-	.string "DAN: We can't find any treasures…\n"
-	.string "I wonder if someone got them already?$"
+	.string "{JPN}ダン: たからものが\n"
+	.string "{JPN}みつからない...\nだれかに とられちゃったのかな?$"
 
 AbandonedShip_Rooms2_1F_Text_DanNotEnoughMons:
-	.string "DAN: You don't even have two POKéMON.\n"
-	.string "You can't expect to beat us like that.$"
+	.string "{JPN}ダン: ポケモンが 2ひきも いないのか.\n"
+	.string "{JPN}それじゃ ぼくらには かてないよ.$"
 
 AbandonedShip_Rooms2_1F_Text_KiraIntro:
-	.string "KIRA: Oh?\n"
-	.string "We were searching for treasures.\l"
-	.string "But we discovered a TRAINER instead!$"
+	.string "{JPN}キラ: あら?\n"
+	.string "{JPN}たからものを さがしてたのに\l"
+	.string "{JPN}トレーナーを みつけちゃった!$"
 
 AbandonedShip_Rooms2_1F_Text_KiraDefeat:
-	.string "KIRA: Ooh, so strong!$"
+	.string "{JPN}キラ: うわあ つよーい!$"
 
 AbandonedShip_Rooms2_1F_Text_KiraPostBattle:
-	.string "KIRA: Where could the treasures be?\p"
-	.string "I've already decided what I'm buying\n"
-	.string "when we find the treasures!$"
+	.string "{JPN}キラ: たからものは どこかしら?\p"
+	.string "{JPN}たからものを みつけたら なにを\n"
+	.string "{JPN}かおうか もう きめてるの!$"
 
 AbandonedShip_Rooms2_1F_Text_KiraNotEnoughMons:
-	.string "KIRA: Oh, you don't have two POKéMON?\n"
-	.string "We'll have to battle some other time!$"
+	.string "{JPN}キラ: あら ポケモンが 2ひきいないの?\n"
+	.string "{JPN}それじゃ こんどに しましょう!$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRegister:
-	.string "KIRA: Oh, you make me so angry!\n"
-	.string "I'm going to register you for that!$"
+	.string "{JPN}キラ: もう むかつく!\n"
+	.string "{JPN}でんわばんごう とうろくしちゃうから!$"
 
 AbandonedShip_Rooms2_1F_Text_DanRematchIntro:
-	.string "DAN: We've been searching for\n"
-	.string "treasures all this time.\p"
-	.string "Our POKéMON have grown stronger, too.\n"
-	.string "Let us show you, okay?$"
+	.string "{JPN}ダン: ずっと たからものを\n"
+	.string "{JPN}さがしつづけてたんだ.\p"
+	.string "{JPN}ぼくらの ポケモンも つよくなった.\n"
+	.string "{JPN}みせてあげようか?$"
 
 AbandonedShip_Rooms2_1F_Text_DanRematchDefeat:
-	.string "DAN: You're strong, as usual!$"
+	.string "{JPN}ダン: あいかわらず つよいなあ!$"
 
 AbandonedShip_Rooms2_1F_Text_DanPostRematch:
-	.string "DAN: We can't find any treasures,\n"
-	.string "we lose at POKéMON…\p"
-	.string "I want to go home… But if I say that,\n"
-	.string "she gets all angry with me…$"
-
+	.string "{JPN}ダン: たからものは みつからないし\n"
+	.string "{JPN}ポケモンバトルは まけるし...\p"
+	.string "{JPN} かえりたいよ... でも そんなこと\n"
+	.string "{JPN}いったら かのじょに おこられるし...$"
 AbandonedShip_Rooms2_1F_Text_DanRematchNotEnoughMons:
-	.string "DAN: You don't even have two POKéMON.\n"
-	.string "You can't expect to beat us like that.$"
+	.string "{JPN}ダン: ポケモンが 2ひきも いないのか.\n"
+	.string "{JPN}それじゃ ぼくらには かてないよ.$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchIntro:
-	.string "KIRA: Oh? We meet again!\p"
-	.string "Just like us, you still haven't given up\n"
-	.string "searching for treasures, have you?\p"
-	.string "Want to make it so the loser has\n"
-	.string "to give up searching?$"
+	.string "{JPN}キラ: あら? また あったわね!\p"
+	.string "{JPN}わたしたちと おなじで あなたも\n"
+	.string "{JPN}たからものさがしを あきらめてない?\p"
+	.string "{JPN}まけたほうが たからものさがしを\n"
+	.string "{JPN}やめるって のは どう?$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchDefeat:
-	.string "KIRA: Oh, we lost again…$"
-
+	.string "{JPN}キラ: あー また まけちゃった...$"
 AbandonedShip_Rooms2_1F_Text_KiraPostRematch:
-	.string "KIRA: We're not leaving until we raise\n"
-	.string "our POKéMON some more and we find\l"
-	.string "the treasures here!$"
+	.string "{JPN}キラ: ポケモンを もっと そだてて\n"
+	.string "{JPN}ここの たからものを みつけるまで\l"
+	.string "{JPN}かえらないわよ!$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchNotEnoughMons:
-	.string "KIRA: Oh, you don't have two POKéMON?\n"
-	.string "We'll have to battle some other time!$"
+	.string "{JPN}キラ: あら ポケモンが 2ひきいないの?\n"
+	.string "{JPN}それじゃ こんどに しましょう!$"
 
 AbandonedShip_Rooms2_1F_Text_JaniIntro:
-	.string "I'm not good at swimming,\n"
-	.string "but I am good at battles!$"
+	.string "{JPN}およぐのは にがてだけど\n"
+	.string "{JPN}バトルは とくいなのよ!$"
 
 AbandonedShip_Rooms2_1F_Text_JaniDefeat:
-	.string "Oops.\n"
-	.string "That didn't go very well.$"
+	.string "{JPN}あらら.\n"
+	.string "{JPN}うまく いかなかったわね.$"
 
 AbandonedShip_Rooms2_1F_Text_JaniPostBattle:
-	.string "Walking around barefoot in this ship\n"
-	.string "is kind of gross.$"
+	.string "{JPN}このふねのなかを はだしで\n"
+	.string "{JPN}あるくのって きもちわるいね.$"
 
 AbandonedShip_Rooms2_1F_Text_GarrisonIntro:
-	.string "Strength and compassion…\n"
-	.string "Those are a TRAINER's treasures!$"
+	.string "{JPN}つよさと やさしさ...\n"
+	.string "{JPN}それが トレーナーの たからもの!$"
 
 AbandonedShip_Rooms2_1F_Text_GarrisonDefeat:
-	.string "Ah, there is something about you\n"
-	.string "that sparkles.$"
+	.string "{JPN}ああ きみには なにか\n"
+	.string "{JPN}ひかるものが あるね.$"
 
 AbandonedShip_Rooms2_1F_Text_GarrisonPostBattle:
-	.string "In a cabin somewhere on board,\n"
-	.string "I saw something sparkle.$"
+	.string "{JPN}どこかの きゃくしつで\n"
+	.string "{JPN}ひかるものを みたよ.$"

@@ -57,16 +57,19 @@ Debug_Script_1_Closemessage::
 	end
 
 Debug_Script_1_Text:
-	.string "WARNING! ENTERING THE CHALLENGES\n"
-	.string "MENU COULD MESS YOUR SAVE DATA.\p"
-	.string "SOME OPTIONS MAY NOT WORK UNLESS A\n"
-	.string "NEW GAME IS STARTED. PLEASE BACKUP\p"
-	.string "YOUR DATA BEFORE PRESSING YES.$"
+	.string "{JPN}けいこく! チャレンジメニューに\n"
+	.string "{JPN}はいると セーブデータが\l"
+	.string "{JPN}こわれるかもしれません\p"
+	.string "{JPN}はじめから ゲームを はじめないと\n"
+	.string "{JPN}つかえない こうもくも あります\p"
+	.string "{JPN}はい を おすまえに\n"
+	.string "{JPN}バックアップしてください$"
 
 Debug_Script_1_Text2:
-	.string "ALL OPTIONS YOU CHOSE AT THE START\n"
-	.string "OF THE GAME WILL RESET AND YOU\l"
-	.string "WILL HAVE TO ENABLE THEM AGAIN.$"
+	.string "{JPN}ゲームかいしじに えらんだ\n"
+	.string "{JPN}すべての オプションが リセット\l"
+	.string "{JPN}されます もういちど せっていを\l"
+	.string "{JPN}やりなおしてください$"
 
 Debug_Script_2::
 	special ToggleShinyColors
@@ -86,13 +89,13 @@ Debug_Script_3::
 	end
 
 Text_Easy_Mode::
-	.string "Easy mode is {STR_VAR_1}$"
+	.string "{JPN}イージーモード: {STR_VAR_1}$"
 
 Text_Normal_Mode::
-	.string "Normal mode is {STR_VAR_1}$"
+	.string "{JPN}ノーマルモード: {STR_VAR_1}$"
 
 Text_Hard_Mode::
-	.string "Hard mode is {STR_VAR_1}$"
+	.string "{JPN}ハードモード: {STR_VAR_1}$"
 
 Debug_Script_4::
 	end
@@ -120,16 +123,16 @@ Debug_CheckSaveBlock::
 	end
 
 Debug_SaveBlock1Size::
-	.string "SaveBlock1 size: {STR_VAR_1}b/{STR_VAR_2}b.\n"
-	.string "Free space: {STR_VAR_3}b.$"
+	.string "SaveBlock1: {STR_VAR_1}b/{STR_VAR_2}b\n"
+	.string "{JPN}あき: {STR_VAR_3}b$"
 
 Debug_SaveBlock2Size::
-	.string "SaveBlock2 size: {STR_VAR_1}b/{STR_VAR_2}b.\n"
-	.string "Free space: {STR_VAR_3}b.$"
+	.string "SaveBlock2: {STR_VAR_1}b/{STR_VAR_2}b\n"
+	.string "{JPN}あき: {STR_VAR_3}b$"
 
 Debug_PokemonStorageSize::
-	.string "{PKMN}Storage size: {STR_VAR_1}b/{STR_VAR_2}b.\n"
-	.string "Free space: {STR_VAR_3}b.$"
+	.string "{PKMN}Storage: {STR_VAR_1}b/{STR_VAR_2}b\n"
+	.string "{JPN}あき: {STR_VAR_3}b$"
 
 Debug_HatchAnEgg::
 	lockall
@@ -157,7 +160,8 @@ DebugScript_HatchAnEgg_CantForceHatch::
 	end
 
 DebugScript_HatchAnEgg_Text_EmptyParty::
-	.string "You have no Pokémon nor Eggs.$"
+	.string "{JPN}ポケモンも タマゴも いません$"
 
 DebugScript_HatchAnEgg_Text_NotAnEgg::
-	.string "That's not a Pokémon Egg.$"
+	.string "{JPN}それは ポケモンのタマゴでは\n"
+	.string "{JPN}ありません$"

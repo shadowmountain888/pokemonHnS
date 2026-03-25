@@ -173,28 +173,28 @@ Route123_EventScript_RematchFernando::
 	end
 
 Route123_Text_LoveGrassMonsHaveAny:
-	.string "I love GRASS-type POKéMON!\p"
-	.string "Do you have any GRASS-type POKéMON?$"
+	.string "{JPN}わたし くさタイプの\n"
+	.string "{JPN}ポケモンが だいすきなの!\pあなたは くさタイプの\nポケモンを もっている?$"
 
 Route123_Text_YouLikeGrassMonsTooHaveThis:
-	.string "Oh?\p"
-	.string "You like GRASS-type POKéMON, too,\n"
-	.string "don't you?\p"
-	.string "I'm so happy, you can have this!\n"
-	.string "It's a token of our friendship.$"
+	.string "{JPN}あら?\p"
+	.string "{JPN}あなたも くさタイプの\n"
+	.string "{JPN}ポケモンが すきなのね?\p"
+	.string "{JPN}うれしいわ! これを\n"
+	.string "{JPN}もらってちょうだい!\nわたしたちの ゆうじょうの\nしるしよ!$"
 
 Route123_Text_CheckTreesWithMyGrassMon:
-	.string "I check trees with my GRASS-type\n"
-	.string "POKéMON. I'm like a tree doctor.$"
+	.string "{JPN}わたしは くさタイプの\n"
+	.string "{JPN}ポケモンと いっしょに\nきの けんさを してるの.\nまるで きの おいしゃさんね.$"
 
 Route123_Text_RouteSign:
-	.string "{RIGHT_ARROW} ROUTE 123\n"
-	.string "{LEFT_ARROW} ROUTE 118$"
+	.string "{JPN}{RIGHT_ARROW} 123ばんどうろ\n"
+	.string "{JPN}{LEFT_ARROW} 118ばんどうろ$"
 
 Route123_Text_RouteSignMtPyre:
-	.string "{UP_ARROW} MT. PYRE\n"
-	.string "“Forbidden to the faint of heart.”$"
+	.string "{JPN}{UP_ARROW} おくりびやま\n"
+	.string "{JPN}よわいこころの ものは\n きんし.$"
 
 Route123_Text_BerryMastersHouse:
-	.string "BERRY MASTER'S HOUSE$"
+	.string "{JPN}きのみめいじんの いえ$"
 

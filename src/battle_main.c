@@ -281,7 +281,7 @@ const struct SpriteTemplate gUnusedBattleInitSprite =
     .callback = SpriteCB_UnusedBattleInit,
 };
 
-static const u8 sText_ShedinjaJpnName[] = _("ヌケニン"); // Nukenin
+static const u8 sText_ShedinjaJpnName[] = _("{JPN}ヌケニン"); // Nukenin
 
 const struct OamData gOamData_BattleSpriteOpponentSide =
 {
@@ -794,25 +794,25 @@ const u8 gTypeEffectiveness_Old[366] = //Gen 6 type chart, and it's the one read
 
 const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1] =
 {
-    [TYPE_NORMAL] = _("NORMAL"),
-    [TYPE_FIGHTING] = _("FIGHT"),
-    [TYPE_FLYING] = _("FLYING"),
-    [TYPE_POISON] = _("POISON"),
-    [TYPE_GROUND] = _("GROUND"),
-    [TYPE_ROCK] = _("ROCK"),
-    [TYPE_BUG] = _("BUG"),
-    [TYPE_GHOST] = _("GHOST"),
-    [TYPE_STEEL] = _("STEEL"),
+    [TYPE_NORMAL] = _("{JPN}ノーマル"),
+    [TYPE_FIGHTING] = _("{JPN}かくとう"),
+    [TYPE_FLYING] = _("{JPN}ひこう"),
+    [TYPE_POISON] = _("{JPN}どく"),
+    [TYPE_GROUND] = _("{JPN}じめん"),
+    [TYPE_ROCK] = _("{JPN}いわ"),
+    [TYPE_BUG] = _("{JPN}むし"),
+    [TYPE_GHOST] = _("{JPN}ゴースト"),
+    [TYPE_STEEL] = _("{JPN}はがね"),
     [TYPE_MYSTERY] = _("???"),
-    [TYPE_FIRE] = _("FIRE"),
-    [TYPE_WATER] = _("WATER"),
-    [TYPE_GRASS] = _("GRASS"),
-    [TYPE_ELECTRIC] = _("ELECTR"),
-    [TYPE_PSYCHIC] = _("PSYCHC"),
-    [TYPE_ICE] = _("ICE"),
-    [TYPE_DRAGON] = _("DRAGON"),
-    [TYPE_DARK] = _("DARK"),
-    [TYPE_FAIRY] = _("FAIRY"),
+    [TYPE_FIRE] = _("{JPN}ほのお"),
+    [TYPE_WATER] = _("{JPN}みず"),
+    [TYPE_GRASS] = _("{JPN}くさ"),
+    [TYPE_ELECTRIC] = _("{JPN}でんき"),
+    [TYPE_PSYCHIC] = _("{JPN}エスパー"),
+    [TYPE_ICE] = _("{JPN}こおり"),
+    [TYPE_DRAGON] = _("{JPN}ドラゴン"),
+    [TYPE_DARK] = _("{JPN}あく"),
+    [TYPE_FAIRY] = _("{JPN}フェアリー"),
 };
 
 // This is a factor in how much money you get for beating a trainer.
@@ -913,13 +913,13 @@ static void (* const sEndTurnFuncsTable[])(void) =
     [B_OUTCOME_MON_TELEPORTED]    = HandleEndTurn_FinishBattle,
 };
 
-const u8 gStatusConditionString_PoisonJpn[] = _("どく$$$$$");
-const u8 gStatusConditionString_SleepJpn[] = _("ねむり$$$$");
-const u8 gStatusConditionString_ParalysisJpn[] = _("まひ$$$$$");
-const u8 gStatusConditionString_BurnJpn[] = _("やけど$$$$");
-const u8 gStatusConditionString_IceJpn[] = _("こおり$$$$");
-const u8 gStatusConditionString_ConfusionJpn[] = _("こんらん$$$");
-const u8 gStatusConditionString_LoveJpn[] = _("メロメロ$$$");
+const u8 gStatusConditionString_PoisonJpn[] = _("{JPN}どく$$$$$");
+const u8 gStatusConditionString_SleepJpn[] = _("{JPN}ねむり$$$$");
+const u8 gStatusConditionString_ParalysisJpn[] = _("{JPN}まひ$$$$$");
+const u8 gStatusConditionString_BurnJpn[] = _("{JPN}やけど$$$$");
+const u8 gStatusConditionString_IceJpn[] = _("{JPN}こおり$$$$");
+const u8 gStatusConditionString_ConfusionJpn[] = _("{JPN}こんらん$$$");
+const u8 gStatusConditionString_LoveJpn[] = _("{JPN}メロメロ$$$");
 
 const u8 * const gStatusConditionStringsTable[][2] =
 {

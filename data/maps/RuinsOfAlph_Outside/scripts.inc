@@ -18,7 +18,7 @@ RuinsOfAlph_Outside_EventScript_Quagsire::
 	end
 
 RuinsOfAlph_Outside_Text_Quagsire:
-	.string "QUAGSIRE: Quag Quag$"
+	.string "{JPN}ヌオー: ヌオー ヌオー$"
 
 RuinsOfAlph_Outside_EventScript_Stan::
 	trainerbattle_single TRAINER_STAN, RuinsOfAlph_Outside_Text_SuperNerdStan_Seen, RuinsOfAlph_Outside_Text_SuperNerdStan_Beaten
@@ -84,74 +84,69 @@ RuinsOfAlph_Outside_EventScript_Sign3::
 	end
 
 RuinsOfAlph_Outside_Text_Scientist:
-	.string "Hm? That's a POKéDEX, isn't it?\n"
-	.string "May I see it?\p"
-	.string "There are so many kinds of\n"
-	.string "POKéMON.\p"
-	.string "Hm? What's this?\p"
-	.string "What is this POKéMON?\p"
-	.string "It looks like the strange\n"
-	.string "writing on the walls of the\p"
-	.string "RUINS.\p"
-	.string "If those drawings are really\n"
-	.string "POKéMON, there should be many\n"
-	.string "more.\p"
-	.string "I know! Let me upgrade your\n"
-	.string "POKéDEX. Follow me.$"
+	.string "{JPN}ん? それは ポケモンずかん\n"
+	.string "{JPN}ですね?\n"
+	.string "{JPN}みせて もらえますか?\p"
+	.string "{JPN}とても たくさんの しゅるいの\n"
+	.string "{JPN}ポケモンが いるんですね.\p"
+	.string "{JPN}ん? これは?\p"
+	.string "{JPN}この ポケモンは なんでしょう?\p"
+	.string "{JPN}いせきの かべに かいてある\n"
+	.string "{JPN}ふしぎな もじに\p"
+	.string "{JPN}にているようですが.\p"
+	.string "{JPN}もし あの えが ほんとうに\n"
+	.string "{JPN}ポケモンなら もっと たくさん\n"
+	.string "{JPN}iるはずです.\p"
+	.string "{JPN}そうだ! あなたの ポケモンずかんを\nパワーアップして あげましょう.\nついてきて ください.$"
 
 RuinsOfAlph_Outside_Text_SuperNerdStan_Seen:
-	.string "What do you want? I'm studying--\n"
-	.string "don't disturb me!$"
+	.string "{JPN}なんの ようだい? けんきゅうちゅう\n"
+	.string "{JPN}なんだ-- じゃまするな!$"
 
 RuinsOfAlph_Outside_Text_SuperNerdStan_Beaten:
-	.string "Sorry…\n"
-	.string "I'm frustrated by our lack of\p"
-	.string "real understanding…$"
-
+	.string "{JPN}ごめん...\n"
+	.string "{JPN}ぼくらの りかいが たりなくて\p"
+	.string "{JPN}くやしいよ...$"
 RuinsOfAlph_Outside_Text_SuperNerdStan_After:
-	.string "The RUINS are from about 1500\n"
-	.string "years ago.\p"
-	.string "Nobody knows who built them.\p"
-	.string "It's also not known if the POKéMON\n"
-	.string "statues have any meaning.\p"
-	.string "It's all one big mystery…$"
-
+	.string "{JPN}アルフのいせきは やく1500ねん\n"
+	.string "{JPN}まえの ものなんだ.\p"
+	.string "{JPN}だれが つくったのかは\n"
+	.string "{JPN}だれも しらない.\p"
+	.string "{JPN}ポケモンの せきぞうに いみが\n"
+	.string "{JPN}あるのかも わからないんだ.\pすべてが なぞに つつまれて\nいるよ...$"
 RuinsOfAlph_Outside_Text_PsychicNathan_Seen:
-	.string "Hmmm… This is a strange place.$"
-
+	.string "{JPN}うーん... ここは ふしぎな\nばしょだ.$"
 RuinsOfAlph_Outside_Text_PsychicNathan_Beaten:
-	.string "…$"
-
+	.string "{JPN}...$"
 RuinsOfAlph_Outside_Text_PsychicNathan_After:
-	.string "I like thinking here.$"
+	.string "{JPN}ここで かんがえごとを するのが\nすきなんだ.$"
 
 RuinsOfAlph_Outside_Text_MysteryChamberSign:
-	.string "MYSTERY STONE PANEL CHAMBER$"
+	.string "{JPN}なぞの いしばん のへや$"
 
 RuinsOfAlph_Outside_Text_MainSign:
-	.string "RUINS OF ALPH\n"
-	.string "VISITORS WELCOME$"
+	.string "{JPN}アルフの いせき\n"
+	.string "{JPN}けんがく じゆう$"
 
 RuinsOfAlph_Outside_Text_ResearchSign:
-	.string "RUINS OF ALPH RESEARCH CENTER\p"
-	.string "THE AUTHORITY ON THE\n"
-	.string "RUINS OF ALPH$"
+	.string "{JPN}アルフのいせき けんきゅうセンター\p"
+	.string "{JPN}アルフのいせきの\n"
+	.string "{JPN}けんきゅうきかん$"
 
 RuinsOfAlph_Outside_Text_Fisher1:
-	.string "While exploring the RUINS, we\n"
-	.string "suddenly noticed an odd presence.\p"
-	.string "We all got scared and ran away.\n"
-	.string "You should be careful too.$"
+	.string "{JPN}いせきを たんけんしていたら\n"
+	.string "{JPN}きゅうに へんな けはいがしたんだ.\p"
+	.string "{JPN}みんな こわくなって\n"
+	.string "{JPN}にげちゃったよ.\nきみも きをつけたほうが いいよ.$"
 
 RuinsOfAlph_Outside_Text_Fisher2:
-	.string "The RUINS hide a huge secret!\p"
-	.string "…I think…$"
-
+	.string "{JPN}アルフのいせきには おおきな\n"
+	.string "{JPN}ひみつが かくされているんだ!\p...たぶん...$"
 RuinsOfAlph_Outside_Text_Youngster1:
-	.string "There are many kinds of UNOWN, so\n"
-	.string "we use them for our secret codes.$"
+	.string "{JPN}アンノーンには いろんな かたちが\n"
+	.string "{JPN}あるから ひみつの あんごうに\nつかってるんだ.$"
 
 RuinsOfAlph_Outside_Text_Youngster2:
-	.string "A… H… E… A… D… Hmm…\p"
-	.string "What?\p"
-	.string "I'm decoding this message!$"
+	.string "{JPN}A... H... E... A... D... うーん...\p"
+	.string "{JPN}なに?\p"
+	.string "{JPN}あんごうを かいどく してるんだ!$"

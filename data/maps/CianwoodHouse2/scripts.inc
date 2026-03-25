@@ -26,21 +26,27 @@ CianwoodHouse2_EventScript_Twin::
 	end
 	
 CianwoodCity_Text_LugiaHouseTeacher:
-	.string "You came from OLIVINE?\p"
-	.string "Do you remember the four islands\n"
-	.string "along the way?\p"
-	.string "I heard that a mythical sea crea-\n"
-	.string "ture is hiding in them.$"
-
+	.string "{JPN}おっ？かんこうきゃくか？\n"
+	.string "{JPN}だったらしゃしんとってけー\p"
+	.string "{JPN}そとにカメラあっただろ？\n"
+	.string "{JPN}あれをおいたのわしー！\p"
+	.string "{JPN}ほかにもわしのしんせきが\n"
+	.string "{JPN}カメラもってあちこちに\l"
+	.string "{JPN}あらわれるとおもうけど..\l"
+	.string "{JPN}まずはここで1まいとってけー\p"
+	.string "{JPN}カメラしらべれば\n"
+	.string "{JPN}じどうでしゃしんとれっから\l"
+	.string "{JPN}ポケモンといっしょに\l"
+	.string "{JPN}たびのおもいでのこしてけー！$"
 CianwoodCity_Text_LugiaHouseLass:
-	.string "I heard that you can only see it\n"
-	.string "if you have a SILVER WING.\p"
-	.string "It must have the same scent as\n"
-	.string "the creature.$"
+	.string "{JPN}ぎんのはねを もっていないと\n"
+	.string "{JPN}みることが できないって\l"
+	.string "{JPN}きいたことが あるの.\p"
+	.string "{JPN}おなじ においが するのかも\nしれないわね.$"
 
 CianwoodCity_Text_LugiaHouseTwin:
-	.string "I've heard that the whirlpools\n"
-	.string "around the islands are caused by\l"
-	.string "the sea creature.\p"
-	.string "You might need a special move\n"
-	.string "to get past them.$"
+	.string "{JPN}しまのまわりの うずしおは\n"
+	.string "{JPN}うみの いきものが おこしてる\l"
+	.string "{JPN}って きいたことが あるよ.\p"
+	.string "{JPN}とくべつな わざが ないと\n"
+	.string "{JPN}とおれないかも しれないね.$"

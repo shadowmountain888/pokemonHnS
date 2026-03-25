@@ -125,100 +125,100 @@ Route27_EventScript_TohjoFallsSign::
     end
 
 Route27_Text_FisherHey:
-    .string "Hey!$"
+    .string "{JPN}おーい!$"
 
 Route27_Text_FisherMessage:
-    .string "Do you know what you just did?\p"
-    .string "You've taken your first step into\n"
-    .string "KANTO.\p"
-    .string "Check your POKéGEAR MAP and see.$"
+    .string "{JPN}きみ じぶんが なにをしたか\n"
+	.string "{JPN}わかるかい?\p"
+    .string "{JPN}きみは カントーちほうへの\n"
+	.string "{JPN}だいいっぽを ふみだしたんだ\pポケギアの マップを\nかくにんしてみたまえ$"
 
 Route27_Text_CooltrainermBlakeSeen:
-    .string "You look pretty strong.\n"
-    .string "Let me battle you!$"
+    .string "{JPN}きみ けっこう つよそうだな\n"
+	.string "{JPN}しょうぶしよう!$"
 
 Route27_Text_CooltrainermBlakeBeaten:
-    .string "Yow!$"
+    .string "{JPN}うわあ!$"
 
 Route27_Text_CooltrainermBlakeAfter:
-    .string "If you prevail on this harsh trek,\n"
-    .string "the truth will be revealed!\p"
-    .string "Heh, sorry, I just wanted to say\n"
-    .string "something cool.$"
+    .string "{JPN}この きびしいたびじで\n"
+	.string "{JPN}しょうりすれば しんじつがあきらかに!\p"
+    .string "{JPN}へへ ごめん なんか かっこいい\n"
+	.string "{JPN}ことを いってみたかったんだ$"
 
 Route27_Text_CooltrainermBrianSeen:
-    .string "Hm? You're good, aren't you?$"
+    .string "{JPN}ふむ? きみ うまいね?$"
 
 Route27_Text_CooltrainermBrianBeaten:
-    .string "Just as I thought!$"
+    .string "{JPN}おもったとおりだ!$"
 
 Route27_Text_CooltrainermBrianAfter:
-    .string "A good trainer can recognize other\n"
-    .string "good trainers.$"
+    .string "{JPN}いいトレーナーは ほかの\n"
+	.string "{JPN}いいトレーナーが わかるものさ$"
 
 Route27_Text_CooltrainerfReenaSeen:
-    .string "You shouldn't underestimate the\n"
-    .string "wild POKéMON in these parts.$"
+    .string "{JPN}このあたりの やせいポケモンを\n"
+	.string "{JPN}あなどってはいけないわよ$"
 
 Route27_Text_CooltrainerfReenaBeaten:
-    .string "Oh! You're much too strong!$"
+    .string "{JPN}あら! あなた つよすぎるわ!$"
 
 Route27_Text_CooltrainerfReenaAfter:
-    .string "You're just a kid, but you're not\n"
-    .string "to be underestimated either.$"
+    .string "{JPN}あなた こどもなのに\n"
+	.string "{JPN}あなどれないわね$"
 
 Route27_Text_CooltrainerfMeganSeen:
-    .string "It's rare to see anyone come here.\p"
-    .string "Are you training on your own?$"
+    .string "{JPN}ここに くるひとは めずらしいわ\p"
+	.string "{JPN}ひとりで しゅぎょうしてるの?$"
 
 Route27_Text_CooltrainerfMeganBeaten:
-    .string "Oh! You're really strong!$"
+    .string "{JPN}あら! ほんとうに つよいのね!$"
 
 Route27_Text_CooltrainerfMeganAfter:
-    .string "I'm checking out pre- and post-\n"
-    .string "evolution POKéMON.\p"
-    .string "Evolution really does make\n"
-    .string "POKéMON stronger.\p"
-    .string "But evolved forms also learn\n"
-    .string "moves later on.$"
+    .string "{JPN}しんかまえと しんかあとの\n"
+	.string "{JPN}ポケモンを しらべてるのよ\p"
+    .string "{JPN}しんかすると ほんとうに\n"
+	.string "{JPN}ポケモンは つよくなるの\p"
+    .string "{JPN}でも しんかけいは わざを\n"
+	.string "{JPN}おそくに おぼえるのよね$"
 
 Route27_Text_PsychicGilbertSeen:
-    .string "Don't say a thing!\p"
-    .string "Let me guess what you're thinking.\p"
-    .string "Mmmmmmm…\p"
-    .string "I got it! You're on the POKéMON\n"
-    .string "LEAGUE challenge!$"
+    .string "{JPN}なにも いわないで!\p"
+	.string "{JPN}きみが かんがえてることを\n"
+    .string "{JPN}あててみせよう.\p"
+	.string "{JPN}うーーーん...\p"
+    .string "{JPN}わかったぞ! きみは ポケモン\nリーグに ちょうせんするんだ!$"
 
 Route27_Text_PsychicGilbertBeaten:
-    .string "You're too much!$"
+    .string "{JPN}きみは つよすぎるよ!$"
 
 Route27_Text_PsychicGilbertAfter:
-    .string "With your skills, you'll do well at\n"
-    .string "the LEAGUE.\p"
-    .string "That's what my premonition says.$"
+    .string "{JPN}きみの じつりょくなら リーグでも\n"
+	.string "{JPN}やっていけるよ\p"
+    .string "{JPN}ぼくの よげんが そういってる$"
 
 Route27_Text_BirdKeeperJoseSeen:
-    .string "Tweet! Tweet! Tetweet!$"
+    .string "{JPN}ぴー! ぴー! ぴぴー!$"
 
 Route27_Text_BirdKeeperJoseBeaten:
-    .string "Tweet!$"
+    .string "{JPN}ぴー!$"
 
 Route27_Text_BirdKeeperJoseAfter:
-    .string "BIRD KEEPERS like me mimic bird\n"
-    .string "whistles to command POKéMON.$"
+    .string "{JPN}ぼくたち とりつかいは とりの\n"
+	.string "{JPN}なきごえを まねて ポケモンを\nしきするんだ$"
 
 TohjoFalls_Text_Sign:
-    .string "TOHJO FALLS\p"
-    .string "THE LINK BETWEEN KANTO AND JOHTO$"
+    .string "{JPN}トージョーのたき\p"
+	.string "{JPN}カントーと ジョウトーを むすぶ$"
 
 Route27_Text_FisherScottSeen:
-    .string "I'm feeling great today!\p"
-    .string "I feel like I could boot even the\n"
-    .string "LEAGUE CHAMP!$"
+    .string "{JPN}きょうは ちょうしがいいぞ!\p"
+	.string "{JPN}リーグチャンピオンにでも\n"
+    .string "{JPN}かてそうなきぶんだ!$"
 
 Route27_Text_FisherScottBeaten:
-    .string "No! Not in this battle!$"
+    .string "{JPN}だめだ! このしょうぶじゃ!$"
 
 Route27_Text_FisherScottAfter:
-    .string "Just like in fishing, it's all over\n"
-    .string "in POKéMON if you give up.$"
+    .string "{JPN}つりと おなじで ポケモンも\n"
+	.string "{JPN}あきらめたら おわりなんだ$"

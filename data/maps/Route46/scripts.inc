@@ -34,49 +34,48 @@ Route46_EventScript_Item_Revive::
 	end
 
 Route46_Text_HikerBaileySeen:
-	.string "Awright! I'll show you the\n"
-	.string "power of mountain POKéMON!$"
+	.string "{JPN}よし!やまの ポケモンの\n"
+	.string "{JPN}ちからを みせてやるぜ!$"
 
 Route46_Text_HikerBaileyBeaten:
-	.string "Mercy! You showed me your\n"
-	.string "power!$"
+	.string "{JPN}まいった! きみの ちからを\n"
+	.string "{JPN}みせつけられたよ!$"
 
 Route46_Text_HikerBaileyAfterBattle:
-	.string "It's over. I don't mind.\n"
-	.string "We HIKERS are like that.$"
+	.string "{JPN}おわりだ.きにしないさ.\n"
+	.string "{JPN}われら やまおとこは そういう\nものだからな.$"
 
 Route46_Text_CamperTedSeen:
-	.string "I'm raising POKéMON too!\p"
-	.string "Will you battle with me?$"
+	.string "{JPN}おれも ポケモンを そだててる!\p"
+	.string "{JPN}\nしょうぶしてくれるかい?$"
 
 Route46_Text_CamperTedBeaten:
-	.string "Wha…?$"
-
+	.string "{JPN}な...なんだって...?$"
 Route46_Text_CamperTedAfterBattle:
-	.string "I did my best but came up\n"
-	.string "short.\p"
-	.string "No excuses--I admit I lost.$"
+	.string "{JPN}さいぜんを つくしたけど\n"
+	.string "{JPN}ちからおよばなかった.\p"
+	.string "{JPN}\nいいわけなし まけをみとめる.$"
 
 Route46_Text_PicnickerErinSeen:
-	.string "I raise POKéMON too!\p"
-	.string "Will you battle with me?$"
+	.string "{JPN}わたしも ポケモンを そだててる!\p"
+	.string "{JPN}\nしょうぶしてくれる?$"
 
 Route46_Text_PicnickerErinBeaten:
-	.string "Oh, rats!$"
+	.string "{JPN}ああ もう!$"
 
 Route46_Text_PicnickerErinAfterBattle:
-	.string "I've been to many GYMS, but the\n"
-	.string "GYM in GOLDENROD is my favorite.\p"
-	.string "It's filled with pretty flowers!$"
+	.string "{JPN}いろんな ジムに いったけど\n"
+	.string "{JPN}コガネシティの ジムが いちばん!\p"
+	.string "{JPN}\nきれいな はなで いっぱいなの!$"
 
 Route46_Text_PicnickerErin2Beaten:
-	.string "Aww… I keep losing all the time!\p"
-	.string "I'll just have to try harder!\n"
-	.string "Anyway, thanks for battling\n"
-	.string "me again and again.\p"
-	.string "Here's that present from the\n"
-	.string "other time.$"
+	.string "{JPN}あーあ... いつも\n"
+	.string "{JPN}まけちゃうなあ!\p"
+	.string "{JPN}もっと がんばらなくちゃ!\n"
+	.string "{JPN}でも なんども バトル\n"
+	.string "{JPN}してくれて ありがとう.\p"
+	.string "{JPN}このまえの おれいを\nどうぞ.$"
 
 Route46_Text_Sign:
-	.string "ROUTE 46\n"
-	.string "MOUNTAIN RD. AHEAD$"
+	.string "{JPN}ここは46ばんどうろ\n"
+	.string "{JPN}このさきマウンテンロード$"

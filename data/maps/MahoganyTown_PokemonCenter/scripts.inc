@@ -21,19 +21,20 @@ MahoganyTown_PokemonCenter_EventScript_Girl::
 	end
 
 MahoganyTown_PokemonCenter_Text_PokefanM:
-    .string "What's this? TEAM ROCKET has come\n"
-    .string "back?\p"
-    .string "I saw some men in black at LAKE OF\n"
-    .string "RAGE…$"
-
+    .string "{JPN}ヤナギさんはポケモンと50ねん\n"
+	.string "{JPN}つきあっているつわものだ！\p"
+	.string "{JPN}それに..みてのとおり\n"
+	.string "{JPN}こおりついたこのジムで\l"
+	.string "{JPN}ひとびとをふるえあがらせる\l"
+	.string "{JPN}こうげきをしかけてくるぞ！\p"
+	.string "{JPN}こおらされるかくごはいいか？\p"
+	.string "{JPN}おっとちがった！\n"
+	.string "{JPN}こおりにまけないように\l"
+	.string "{JPN}あついとうしをもやしているか！？$"
 MahoganyTown_PokemonCenter_Text_Youngster:
-    .string "I stop my POKéMON from evolving too\n"
-    .string "early.\p"
-    .string "I make them learn certain moves\n"
-    .string "before I let them evolve.$"
-
+    .string "{JPN}ヤナギさんもすごいが\n"
+	.string "{JPN}かったおまえもすごかったぞ！\p"
+	.string "{JPN}ねんれいをこえた\n"
+	.string "{JPN}あついバトルだったぜ！$"
 MahoganyTown_PokemonCenter_Text_CooltrainerF:
-    .string "POKéMON do become stronger when they\n"
-    .string "evolve,\p"
-    .string "but they also learn moves more\n"
-    .string "slowly.$"
+    .string "{JPN}チョウジタウンポケモンジム$"

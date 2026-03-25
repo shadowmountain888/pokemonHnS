@@ -26,26 +26,24 @@ PalletTown_EventScript_OaksLabSign::
 	end	
 
 PalletTown_Text_Teacher:
-	.string "I'm raising POKéMON too.\p"
-	.string "They serve as my private\n"
-	.string "guards.$"
-
+	.string "{JPN}わたしも\n"
+	.string "{JPN}ポケモンをそだててるの！\l"
+	.string "{JPN}いまじゃガードマンのかわりよ！$"
 PalletTown_Text_Fisher:
-	.string "Technology is incredible!\p"
-	.string "You can now trade POKéMON\n"
-	.string "across time like e-mail.$"
-
+	.string "{JPN}かがくのちからってすげー！\p"
+	.string "{JPN}ジョウトにはうみのむこうの\n"
+	.string "{JPN}くにのひとたちと\l"
+	.string "{JPN}ポケモンをこうかんできる\l"
+	.string "{JPN}しせつがあるんだってな！$"
 PalletTown_Text_Sign:
-	.string "PALLET TOWN\p"
-	.string "A Tranquil Setting of Peace\n"
-	.string "& Purity$"
+	.string "{JPN}マサラタウン\p"
+	.string "{JPN}しんじつと りそうの いろ\n"
+	.string "{JPN}あおと みどりに かこまれた まち$"
 
 PalletTown_Text_RedsHouseSign:
-	.string "RED'S HOUSE$"
-
+	.string "{JPN}ここはレッドのいえ$"
 PalletTown_Text_OaksLabSign:
-	.string "OAK POKéMON\n"
-	.string "RESEARCH LAB$"
-
+	.string "{JPN}ここはオーキドはかせの\n"
+	.string "{JPN}ポケモンけんきゅうじょ$"
 PalletTown_Text_BluesHouseSign:
-	.string "BLUE'S HOUSE$"
+	.string "{JPN}ここはグリーンのいえ$"

@@ -16,11 +16,11 @@ BlackthornCity_House1EventScript_Dratini::
 	end
 
 BlackthornCity_House1_Text_Granny:
-	.string "A clan of trainers who can freely\n"
-	.string "command dragons live right here in\l"
-	.string "BLACKTHORN.\p"
-	.string "As a result, there are many legends\n"
-	.string "about dragons in this town.$"
-
+	.string "{JPN}このフスベシティには\n"
+	.string "{JPN}ドラゴンをじゆうにあやつれる\l"
+	.string "{JPN}いちぞくがすんでおる\p"
+	.string "{JPN}そのためかこのまちには\n"
+	.string "{JPN}ドラゴンにまつわるでんせつが\l"
+	.string "{JPN}たくさんのこされておるんじゃよ$"
 BlackthornCity_House1_Text_Dratini:
-	.string "DRATINI: Draa!$"
+	.string "{JPN}リュー$"

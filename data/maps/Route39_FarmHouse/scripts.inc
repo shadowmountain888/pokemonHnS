@@ -80,63 +80,56 @@ Route39_FarmHouse_EventScript_FarmerM_NotEnough::
 	end
 
 Route39_Text_FarmerMSickCow:
-	.string "My MILTANK ain't givin' me\n"
-	.string "milk no more.\p"
-	.string "This here FARM's got famous milk.\p"
-	.string "Most everyone wants a drink.\p"
-	.string "It'll give me lots o' milk if'n\n"
-	.string "I feed it lots o' BERRIES,\l"
-	.string "I reckon.$"
-
+	.string "{JPN}オラのミルタンク\n"
+	.string "{JPN}ミルクをださなくなってんだー\p"
+	.string "{JPN}オラんちのミルクはゆうめいだ\n"
+	.string "{JPN}みんなのみてえいってるのにのー\p"
+	.string "{JPN}オレンのみをいっぱいたべさせりゃ\n"
+	.string "{JPN}げんきになって\l"
+	.string "{JPN}おいしいミルクをたくさん\l"
+	.string "{JPN}だしてくれるんだけどもな$"
 Route39_Text_FarmerMBuyMilk:
-	.string "How'd you like my MOOMOO MILK?\p"
-	.string "It's my pride and joy, there.\p"
-	.string "Give it to POKéMON to restore HP!\p"
-	.string "I'll give it to ya fer just\n"
-	.string "¥500.$"
-
+	.string "{JPN}ぼくじょうじまんの\n"
+	.string "{JPN}モーモーミルクはいらんかー？\p"
+	.string "{JPN}ポケモンにのませりゃ\l"
+	.string "{JPN}たいりょくかいふくってもんだ！\p"
+	.string "{JPN}いまならいっぽん500¥だー$"
 Route39_Text_FarmerMGotMilk:
-	.string "Here ya go!\n"
-	.string "Drink up'n enjoy!$"
-
+	.string "{JPN}たっぷりのんでくれー！$"
 Route39_Text_FarmerMNoMoney:
-	.string "Sorry, there.\n"
-	.string "No cash, no sale!$"
-
+	.string "{JPN}あややおかねがたりないねー！$"
 Route39_Text_FarmerMNoRoom:
-	.string "I reckon yer PACK's full.$"
-
+	.string "{JPN}あややにもつがいっぱいだなー！$"
 Route39_Text_FarmerMNoSale:
-	.string "You don't want it?\n"
-	.string "Come again, hear?$"
-
+	.string "{JPN}いらんかー？\n"
+	.string "{JPN}じゃまたきてくれなー$"
 Route39FarmHouse_Text_WouldYouLikeAnother:
-	.string "How bout another?$"
+	.string "{JPN}もう いっぽん いかが?$"
 
 Route39_Text_GotMilk:
-	.string "{PLAYER} got MOOMOO MILK.$"
+	.string "{JPN}{PLAYER}は モーモーミルクを\nてにいれた!$"
 
 Route39_Text_FarmerMMilking:
-	.string "I best go do my milkin'.$"
-
+	.string "{JPN}んじゃちちしぼりでもはじめっかー$"
 Route39_Text_FarmerFInTrouble:
-	.string "Our milk even goes out to\n"
-	.string "KANTO.\p"
-	.string "So if our own MILTANK won't\n"
-	.string "give us any milk, we're in trouble.$"
-
+	.string "{JPN}うちのミルクは\n"
+	.string "{JPN}カントーにもしゅっかしてるんだ\p"
+	.string "{JPN}だからミルタンクが\n"
+	.string "{JPN}おいしいミルクだしてくれんと\l"
+	.string "{JPN}オラたちもこまるんだー$"
 Route39_Text_FarmerFHealedMiltank:
-	.string "You fixed our MILTANK, hon.\n"
-	.string "Now it gives MOOMOO MILK again.\p"
-	.string "Here's somethin' fer your trouble.$"
-
+	.string "{JPN}ミルタンクが\n"
+	.string "{JPN}おいしいミルクだしはじめたのは\l"
+	.string "{JPN}あんたのおかげだー\p"
+	.string "{JPN}これあんたにやるよ\n"
+	.string "{JPN}うけとってくれー$"
 Route39_Text_FarmerFSnatchSpeech:
-	.string "That there's SNATCH.\p"
-	.string "It's a tricky move that lets\n"
-	.string "a POKéMON steal a foe's move\l"
-	.string "right before it's used.\p"
-	.string "If more than one POKéMON use\n"
-	.string "SNATCH, only the slowest one\l"
-	.string "will end up stealing the move.\p"
-	.string "Use it smart, hon. Timing is\n"
-	.string "everything.$"
+	.string "{JPN}それは よこどりよ.\p"
+	.string "{JPN} とっても トリッキーな わざで\n"
+	.string "{JPN}あいての わざを つかう ちょくぜんに\l"
+	.string "{JPN}よこどり しちゃうのよ.\p"
+	.string "{JPN} もし ふくすうの ポケモンが\n"
+	.string "{JPN}よこどりを つかうと いちばん\l"
+	.string "{JPN}おそい ポケモンだけが わざを\l"
+	.string "{JPN}よこどり できるの.\p"
+	.string "{JPN} うまく つかいなさいね.\nタイミングが すべてよ.$"

@@ -2314,9 +2314,15 @@ static void MainMenu_FormatSavegameText(void)
 
 static void MainMenu_FormatSavegamePlayer(void)
 {
+    u8 nameBuf[PLAYER_NAME_LENGTH + 3]; // +3 for {JPN} prefix (2 bytes) + safety
+
     StringExpandPlaceholders(gStringVar4, gText_ContinueMenuPlayer);
     AddTextPrinterParameterized3(2, FONT_NORMAL, 0, 17, sTextColor_MenuInfo, TEXT_SKIP_DRAW, gStringVar4);
-    AddTextPrinterParameterized3(2, FONT_NORMAL, GetStringRightAlignXOffset(FONT_NORMAL, gSaveBlock2Ptr->playerName, 100), 17, sTextColor_MenuInfo, TEXT_SKIP_DRAW, gSaveBlock2Ptr->playerName);
+    // Prepend {JPN} so kana bytes render through JP glyph table, not Latin
+    nameBuf[0] = EXT_CTRL_CODE_BEGIN;
+    nameBuf[1] = EXT_CTRL_CODE_JPN;
+    StringCopy(nameBuf + 2, gSaveBlock2Ptr->playerName);
+    AddTextPrinterParameterized3(2, FONT_NORMAL, GetStringRightAlignXOffset(FONT_NORMAL, nameBuf, 100), 17, sTextColor_MenuInfo, TEXT_SKIP_DRAW, nameBuf);
 }
 
 static void MainMenu_FormatSavegameTime(void)

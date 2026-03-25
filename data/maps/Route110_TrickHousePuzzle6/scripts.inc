@@ -43,45 +43,42 @@ Route110_TrickHousePuzzle6_EventScript_Sebastian::
 	end
 
 Route110_TrickHousePuzzle6_Text_WroteSecretCodeLockOpened:
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is my life.”\n"
-	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "{JPN}{PLAYER}は ひみつの あいことばを\n"
+	.string "{JPN}ドアに かきこんだ.\p"
+	.string "{JPN}カラクリだいおうが わがじんせい\n"
+	.string "{JPN}                \p"
+	.string "{JPN}かぎが かちっと ひらいた!$"
 
 Route110_TrickHousePuzzle6_Text_SophiaIntro:
-	.string "When I heard there was a strange\n"
-	.string "house, I had to check it out.$"
+	.string "{JPN}ふしぎな いえが あるって\n"
+	.string "{JPN}きいたから みに きたのよ$"
 
 Route110_TrickHousePuzzle6_Text_SophiaDefeat:
-	.string "I've discovered a tough TRAINER!$"
+	.string "{JPN}つよい トレーナーを\nはっけん したわ!$"
 
 Route110_TrickHousePuzzle6_Text_SophiaPostBattle:
-	.string "I'm sure having a good time checking\n"
-	.string "this place out.\p"
-	.string "It's a challenge I've found worth\n"
-	.string "repeating!$"
+	.string "{JPN}ここを たんけん するのって\n"
+	.string "{JPN}とても たのしいの\p"
+	.string "{JPN}なんども ちょうせん したく\n"
+	.string "{JPN}なる ばしょ だわね!$"
 
 Route110_TrickHousePuzzle6_Text_BennyIntro:
-	.string "Maybe I could get my BIRD POKéMON\n"
-	.string "to fly over the wall…$"
-
+	.string "{JPN}とりポケモンで かべを\n"
+	.string "{JPN}とびこえさせようかな   $"
 Route110_TrickHousePuzzle6_Text_BennyDefeat:
-	.string "Gwaaah! I blew it!$"
+	.string "{JPN}ぐわあああ! しっぱい した!$"
 
 Route110_TrickHousePuzzle6_Text_BennyPostBattle:
-	.string "Ehehehe… I guess I lost because\n"
-	.string "I was trying to cheat.$"
+	.string "{JPN}えへへへ    ずるを しようと\n"
+	.string "{JPN}したから まけちゃった$"
 
 Route110_TrickHousePuzzle6_Text_SebastianIntro:
-	.string "I'm getting dizzy from these rotating\n"
-	.string "doors…$"
-
+	.string "{JPN}このかいてんドアで\n"
+	.string "{JPN}めが まわっちゃうよ   $"
 Route110_TrickHousePuzzle6_Text_SebastianDefeat:
-	.string "Everything's spinning around and\n"
-	.string "around. I can't take this anymore…$"
-
+	.string "{JPN}ぐるぐる まわって\n"
+	.string "{JPN}もう だめだ   $"
 Route110_TrickHousePuzzle6_Text_SebastianPostBattle:
-	.string "You don't seem to be affected at all.\n"
-	.string "Or do you have your poker face on?$"
+	.string "{JPN}きみは まったく えいきょうを\n"
+	.string "{JPN}uけて いない みたいだね\pそれとも ポーカーフェイスを\nきめこんで いるのかな?$"
 

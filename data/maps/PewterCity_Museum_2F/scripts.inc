@@ -23,25 +23,25 @@ PewterCity_Museum_2F_EventScript_Meteor::
 	end
 
 PewterCity_Museum_2F_Text_Nerd:
-	.string "They say that meteorites struck\n"
-	.string "BIRTH ISLAND.\p"
-	.string "We would love to display them here\n"
-	.string "in our museum, but...\p"
-	.string "These meteorites are said to emit\n"
-	.string "strange energy and cannot be\l"
-	.string "carried away...$"
-
+	.string "{JPN}ニビのちかくに\n"
+	.string "{JPN}いんせきがおちたんだそうだよ\p"
+	.string "{JPN}そんなめずらしいもの\n"
+	.string "{JPN}ぜひうちのはくぶつかんに\l"
+	.string "{JPN}かざってみたいものだけど..\p"
+	.string "{JPN}なんかふしぎなエネルギーが\n"
+	.string "{JPN}でているみたいでね\l"
+	.string "{JPN}はこびだせないらしいんだ..$"
 PewterCity_Museum_2F_Text_AskedDaddyToCatchPikachu::
-    .string "I want a PIKACHU!\n"
-    .string "It's so cute!\p"
-    .string "I asked my daddy to catch me one!$"
+    .string "{JPN}ピカチュウが ほしいの!\n"
+	.string "{JPN}とっても かわいいの!\p"
+    .string "{JPN}パパに つかまえて もらうように\nたのんだの!$"
 
 PewterCity_Museum_2F_Text_PikachuSoonIPromise::
-    .string "Yeah, a PIKACHU soon, I promise!$"
+    .string "{JPN}そうよ きっと すぐに\nピカチュウを つかまえるわ!$"
 
 PewterCity_Museum_2F_Text_SpaceShuttle::
-    .string "Space Shuttle$"
+    .string "{JPN}スペースシャトル$"
 
 PewterCity_Museum_2F_Text_MeteoriteThatFellOnMtMoon::
-    .string "A meteorite that fell on MT. MOON.\n"
-    .string "It is thought to be a MOON STONE.$"
+    .string "{JPN}おつきみやまに おちた いんせき.\n"
+	.string "{JPN}つきのいしだと かんがえられて\nいる.$"

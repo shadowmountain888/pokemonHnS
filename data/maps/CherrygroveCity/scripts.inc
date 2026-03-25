@@ -277,120 +277,97 @@ CherryGroveCity_Silver_AfterBattle::
 	end
 
 CherrygroveCity_Text_GuideGentIntro:
-	.string "You're a rookie trainer,\n"
-	.string "aren't you? I can tell!\p"
-	.string "That's OK! Everyone is a\n"
-	.string "rookie at some point!\p"
-	.string "If you'd like, I can teach\n"
-	.string "you a few things.$"
-
+	.string "{JPN}おまえさんしんまいトレーナーか？\n"
+	.string "{JPN}ずぼしじゃな！\p"
+	.string "{JPN}よいよい\n"
+	.string "{JPN}だれだってはじめてはある\p"
+	.string "{JPN}わしがいろいろとおしえてやるから\n"
+	.string "{JPN}しんぱいはいらん\l"
+	.string "{JPN}さあわしについてこい！$"
 CherrygroveCity_Text_GuideGentTourStart:
-	.string "OK, then!\n"
-	.string "Follow me!$"
-
+	.string "{JPN}おまえさんしんまいトレーナーか？\n"
+	.string "{JPN}ずぼしじゃな！\p"
+	.string "{JPN}よいよい\n"
+	.string "{JPN}だれだってはじめてはある\p"
+	.string "{JPN}わしがいろいろとおしえてやるから\n"
+	.string "{JPN}しんぱいはいらん\l"
+	.string "{JPN}さあわしについてこい！$"
 CherrygroveCity_Text_GuideGentPokecenter:
-	.string "This is a POKéMON CENTER.\p"
-	.string "They heal your POKéMON in no\n"
-	.string "time at all.\p"
-	.string "You'll be relying on them a lot,\n"
-	.string "so you better learn about them.$"
-
+	.string "{JPN}ここはポケモンセンター！\n"
+	.string "{JPN}きずついたポケモンをあずけると\l"
+	.string "{JPN}あっというまになおしてくれる！\p"
+	.string "{JPN}これからさきなんかいも\n"
+	.string "{JPN}せわになるじゃろう\l"
+	.string "{JPN}おぼえておいたほうがええぞ！$"
 CherrygroveCity_Text_GuideGentMart:
-	.string "This is a POKéMON MART.\p"
-	.string "They sell BALLS for catching wild\n"
-	.string "POKéMON and other useful items.$"
-
+	.string "{JPN}ここはフレンドリィショップ！\n"
+	.string "{JPN}ポケモンをつかまえるボールとか\l"
+	.string "{JPN}いろんなグッズをうってるぞ！$"
 CherrygroveCity_Text_GuideGentRoute30:
-	.string "ROUTE 30 is out this way.\p"
-	.string "Trainers will be battling\n"
-	.string "their prized POKéMON there.$"
-
+	.string "{JPN}このさきは30ばんどうろじゃ！\pトレーナーたちが\nじまんのポケモンで\lたたかっておるぞ！$"
 CherrygroveCity_Text_GuideGentSea:
-	.string "This is the sea, as you can see.\p"
-	.string "Some POKéMON are found only in\n"
-	.string "in water.$"
-
+	.string "{JPN}ここはごらんのとおりうみ！\p"
+	.string "{JPN}みずのなかにしかいない\n"
+	.string "{JPN}ポケモンもおるんじゃ！$"
 CherrygroveCity_Text_GuideGentMap:
-	.string "Here…\p"
-	.string "It's my house! Thanks for\n"
-	.string "your company.\p"
-	.string "Oh, and if you're ever lost, check\n"
-	.string "the MAP on your POKéGEAR!\p"
-	.string "I wish you luck on your journey!$"
-
+	.string "{JPN}ここは..\pわしのいえじゃ！\nつきあってくれてありがとう\pみちにまよったときは\nポケギアのマップをみるんじゃ！\pたびのぶじをいのっておるぞ！$"
 CherrygroveCity_Text_GuideGentDecline:
-	.string "Oh… It's something I enjoy\n"
-	.string "doing…\p"
-	.string "Fine. Come see me whenever\n"
-	.string "you like.$"
-
+	.string "{JPN}そうか..わしのたのしみ\nなんじゃがなあ..\pよいよい！いつでも\nあそびにくるんじゃぞ$"
 CherrygroveCity_Text_RivalSeen:
-	.string "… … … … … … … …\p"
-	.string "You got a POKéMON at the LAB.\p"
-	.string "What a waste.\n"
-	.string "A wimp like you.\p"
-	.string "… … … … … … … …\p"
-	.string "Don't you get what I'm saying?\n"
-	.string "Well, I too, have a good POKéMON.\p"
-	.string "I'll show you what I mean!$"
-
+	.string "...\p"
+	.string "{JPN}おまえさっきけんきゅうじょで\n"
+	.string "{JPN}ポケモンもらってたな\p"
+	.string "{JPN}おまえみたいなよわいやつには\n"
+	.string "{JPN}もったいないポケモンだぜ\p"
+	.string "...\p"
+	.string "{JPN}なんだよなにいわれてるのか\n"
+	.string "{JPN}わからないのか？\p"
+	.string "{JPN}..だったらしかたない\n"
+	.string "{JPN}オレもいいポケモンもってるんだ\l"
+	.string "{JPN}どういうことかおしえてやるよ$"
 CherrygroveCity_Text_SilverWin:
-	.string "Humph. Are you happy you won?$"
-
+	.string "{JPN}フン！かってうれしいか？$"
 CherrygroveCity_Text_RivalAfter:
-	.string "… … … … … … … …\p"
-	.string "Do you want to know who I am?\p"
-	.string "I'm going to be the world's\n"
-	.string "greatest POKéMON trainer.$"
-
+	.string "...\p"
+	.string "{JPN}オレがだれだかしりたいか？\n"
+	.string "{JPN}それは..\p"
+	.string "{JPN}せかいでいちばんつよい\n"
+	.string "{JPN}ポケモントレーナーになるおとこさ$"
 CherrygroveCity_Text_RivalID:
-	.string "Give it back!\n"
-	.string "That's my TRAINER CARD!\p"
-	.string "Oh no!\n"
-	.string "You saw my name...$"
-
+	.string "{JPN}かえせ！それは\n"
+	.string "{JPN}オレがおとしたトレーナーカード\p"
+	.string "{JPN}ふん..\n"
+	.string "{JPN}オレのなまえをみたのか..$"
 CherrygroveCity_Text_TeacherHaveMapCard:
-	.string "When you're with POKéMON,\n"
-	.string "going anywhere is fun.$"
-
+	.string "{JPN}ポケモンといっしょなら\n"
+	.string "{JPN}どこにいくのもたのしいわよね$"
 CherrygroveCity_Text_YoungsterNoPokedex:
-	.string "MR. POKéMON's house is still\n"
-	.string "farther up ahead.$"
-
+	.string "{JPN}ポケモンじいさんのいえは\nもっとさきにあるよ$"
 CherrygroveCity_Text_YoungsterHavePokedex:
-	.string "I battled the trainers on the\n"
-	.string "road.\p"
-	.string "My POKéMON lost. They're a\n"
-	.string "mess! I must take them to a\l"
-	.string "POKéMON CENTER.$"
-
+	.string "{JPN}どうろにたってるトレーナーと\n"
+	.string "{JPN}ゆうかんにたたかったんだけど..\p"
+	.string "{JPN}ぼくのポケモン\n"
+	.string "{JPN}まけてボロボロになっちゃった\l"
+	.string "{JPN}ポケモンセンターにいかないと..$"
 CherrygroveCity_Text_MysticWaterGuyBefore:
-	.string "A POKéMON I caught had an\n"
-	.string "item.\p"
-	.string "I think it's MYSTIC WATER.\p"
-	.string "I don't need it, so do you\n"
-	.string "want it?$"
-
+	.string "{JPN}このまえつったポケモンが\n"
+	.string "{JPN}どうぐをもってたよ\p"
+	.string "{JPN}しんぴのしずくっていうらしいけど\n"
+	.string "{JPN}わしポケモンつるだけだから\l"
+	.string "{JPN}よかったらきみもっていきなよ$"
 CherrygroveCity_Text_MysticWaterGuyAfter:
-	.string "Back to fishing for me, then.$"
-
+	.string "{JPN}さてとんじゃつりをつづけるか$"
 CherrygroveCity_Text_CitySign:
-	.string "CHERRYGROVE CITY\p"
-	.string "The City of Cute, Fragrant\n"
-	.string "Flowers$"
-
+	.string "{JPN}ここはヨシノシティ\n"
+	.string "{JPN}はなのかおりただようまち$"
 CherrygroveCity_Text_GuideGentsHouseSign:
-	.string "GUIDE GENT'S HOUSE$"
-
+	.string "{JPN}あんないじいさんのいえ$"
 CherryGroveCity_Text_Staryu:
-	.string "STARYU: Yuuuuuuuu.$"
-
+	.string "{JPN}ヒトデマン:ヒューーーーー$"
 CherryGroveCity_Text_Corsola:
-	.string "CORSOLA: Corsola! La!$"
-
+	.string "{JPN}サニーゴ:サニーゴ！ゴ！$"
 CherryGroveCity_Text_Krabby:
-	.string "KRABBY: KOOOOKEEE!$"
-
+	.string "{JPN}クラブ:クラーーーブ！$"
 CherryGroveCity_Movement_Trigger_Gent:
 	walk_down
 	walk_left

@@ -31,26 +31,23 @@ CeladonDeptStore5_EventScript_Falkner::
 	end
 
 CeladonDeptStore5_Text_Falkner:
-	.string "{PLAYER}. I didn't expect to see\n"
-	.string "you here.\p"
-	.string "I'm picking up gear for my\n"
-	.string "bird POKéMON.\p"
-	.string "If you want to face me again, I'll\n"
-	.string "be at the DOJO in SAFFRON CITY.$"
+	.string "{JPN}{PLAYER}.ここで きみに\n"
+	.string "{JPN}あうとは おもわなかったよ.\p"
+	.string "{JPN}ぼくの とりポケモンの\n"
+	.string "{JPN}どうぐを かいに きたんだ.\p"
+	.string "{JPN}もう いちど しょうぶしたけりゃ\n"
+	.string "{JPN}ヤマブキシティの どうじょうに\nいるから きてくれ.$"
 
 CeladonDeptStore5F_Text_Gentleman:
-	.string "I want to buy some items that\n"
-	.string "raise POKéMON stats, but I don't\l"
-	.string "have enough money…$"
-
+	.string "{JPN}ポケモンの のうりょくを\n"
+	.string "{JPN}あげる どうぐが ほしいんだが\l"
+	.string "{JPN}おかねが たりないんだ...$"
 CeladonDeptStore5F_Text_Sailor:
-	.string "I want PP UP, so I can raise the\n"
-	.string "PP of moves. But you can't buy it…$"
-
+	.string "{JPN}ポイントアップが ほしいんだ!\n"
+	.string "{JPN}わざの PPを ふやせるからな\lでも うってないんだよな...$"
 CeladonDeptStore5F_Text_Teacher:
-	.string "Using items on them makes POKéMON\n"
-	.string "happy.\p"
-	.string "They hate certain items, though…$"
-
+	.string "{JPN}どうぐを つかうと ポケモンは\n"
+	.string "{JPN}よろこぶのよ\p"
+	.string "{JPN}でも きらいな どうぐも\nあるから きをつけてね...$"
 CeladonDeptStore5F_Text_Directory:
-	.string "5F: DRUG STORE$"
+	.string "{JPN}5F: くすりや$"

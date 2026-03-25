@@ -2149,7 +2149,7 @@ static const struct ObjectEventGraphicsInfo *SpeciesToGraphicsInfo(u16 species, 
 }
 
 //Hns
-#define FOLLOWER_PAL_TAG_BASE  0x5000   // any 16-bit range that doesn’t clash with your other tags
+#define FOLLOWER_PAL_TAG_BASE  0x5000   // any 16-bit range that doesn't clash with your other tags
 #define FOLLOWER_SHINY_OFFSET  0x0800   // optional shiny offset inside the follower range
 
 

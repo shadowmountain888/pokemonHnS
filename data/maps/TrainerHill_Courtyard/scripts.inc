@@ -67,42 +67,41 @@ TrainerHill_Courtyard_EventScript_Sailor::
 	end
 
 BattleTowerOutsideYoungsterText:
-	.string "Wow, the TRAINER HILL is huge!\p"
-	.string "There must be many kinds of\n"
-	.string "POKéMON in there!$"
+	.string "{JPN}わあ トレーナーヒルって\n"
+	.string "{JPN}でっかいね!\p"
+	.string "{JPN}あの なかには いろんな\nしゅるいの ポケモンが\nいるんだろうなあ!$"
 
 BattleTowerOutsideBeautyText:
-	.string "In the BATTLE TENTS, you can\n"
-	.string "use only three POKéMON.\p"
-	.string "It's so hard to decide which\n"
-	.string "three should go into battle…$"
-
+	.string "{JPN}バトルテントでは\n"
+	.string "{JPN}ポケモンを3ひきしか\l"
+	.string "{JPN}つかえないの.\p"
+	.string "{JPN}どの3ひきを\nせんとうにださせるか\lきめるのがたいへんで...$"
 BattleTowerOutsideSailorText:
-	.string "Hehehe, I snuck out from work.\p"
-	.string "I can't bail out until I've won!\p"
-	.string "I have to win it all. That I must!$"
+	.string "{JPN}へへへ しごとを\n"
+	.string "{JPN}さぼっちゃった.\p"
+	.string "{JPN}かつまでは ぜったい\nかえれないよ!\pぜんぶ かたなきゃ\nだめなんだ!$"
 
 BattleTowerOutsideSignText:
-	.string "{UP_ARROW} TRAINER HILL ENTRANCE\p"
-	.string "“Scale the heights, you hot-blooded\n"
-	.string "TRAINERS!”\p"
-	.string "{RIGHT_ARROW} BATTLE TENTS.$"
+	.string "{JPN}{UP_ARROW} トレーナーヒル いりぐち\p"
+	.string "{JPN}のぼれ! あつきこころの\n"
+	.string "{JPN}トレーナーたちよ!\p"
+	.string "{JPN}{RIGHT_ARROW} バトルテント.$"
 
 BattleTower_Battle_Tent_Text_Factory:
-	.string "BATTLE TENT: FACTORY\n"
-	.string "“Find it! The ultimate POKéMON!”$"
+	.string "{JPN}バトルテント:ファクトリー\n"
+	.string "{JPN}みつけろ! きゅうきょくの ポケモン!$"
 
 BattleTower_Battle_Tent_Text_Palace:
-	.string "BATTLE TENT: PALACE\n"
-	.string "“Feast Your Eyes on Battles!”$"
+	.string "{JPN}バトルテント:パレス\n"
+	.string "{JPN}みよ! たたかいの うつくしさを!$"
 
 BattleTower_Battle_Tent_Text_Arena:
-	.string "BATTLE TENT: ARENA\n"
-	.string "“May the Greatest Teams Gather!”$"
+	.string "{JPN}バトルテント:アリーナ\n"
+	.string "{JPN}さいきょうの チーム あつまれ!$"
 
 BattleTowerOutsideText_Closed:
-	.string "The TRAINER HILL is currently\n"
-	.string "closed for repairs.$"
+	.string "{JPN}トレーナーヒルは げんざい\n"
+	.string "{JPN}しゅうりのため へいかん\nしています.$"
 
 
 TrainerHill_Courtyard_EventScript_LeftMoveTutor::
@@ -450,221 +449,220 @@ TrainerHill_Courtyard_EventScript_ChooseNewMove::
 	end
 
 TrainerHill_Courtyard_Text_LeftTutorIntro:
-	.string "Buhahaha!\p"
-	.string "You couldn't tell it from looking now,\n"
-	.string "but I used to be one tough TRAINER.\p"
-	.string "I had a reputation as the toughest\n"
-	.string "BEAUTY around, I tell you!\p"
-	.string "… … … … … …\p"
-	.string "What is it now?\n"
-	.string "You don't believe me.\p"
-	.string "I'm not like that blowhard woman over\n"
-	.string "there. I'm actually talented!\p"
-	.string "Let me prove it to you.\n"
-	.string "I can teach your POKéMON special and\l"
-	.string "yet cute moves.\p"
-	.string "But my lessons don't come free.\n"
-	.string "How about paying for the moves I teach\l"
-	.string "with a wee bit of Battle Points?$"
+	.string "{JPN}ぶはははは!\p"
+	.string "{JPN}いまのすがたからは\n"
+	.string "{JPN}そうぞうできないでしょうが\l"
+	.string "{JPN}わたしはむかし\l"
+	.string "{JPN}つよいトレーナーだったのよ!\p"
+	.string "{JPN}いちばんつよいビューティー\n"
+	.string "{JPN}としてゆうめいだったの!\p"
+	.string "{JPN}... ... ... ... ... ...\p"
+	.string "{JPN}なによ?\n"
+	.string "{JPN}しんじられないっていうの?\p"
+	.string "{JPN}あっちにいるほらふきおんなとは\n"
+	.string "{JPN}ちがうのよ.\l"
+	.string "{JPN}わたしはほんとうにうでがたつの!\p"
+	.string "{JPN}それをしょうめいしてあげる.\n"
+	.string "{JPN}あなたのポケモンに\l"
+	.string "{JPN}とくべつでかわいいわざを\lおしえてあげられるのよ.\pでもただじゃないわ.\nおしえるわざのだいきんを\lバトルポイントで\lはらってくれる?$"
 
 TrainerHill_Courtyard_Text_LeftTutorWelcomeBack:
-	.string "Buhahaha!\p"
-	.string "Are you back to learn special and\n"
-	.string "yet cute POKéMON moves?$"
+	.string "{JPN}ぶはははは!\p"
+	.string "{JPN}とくべつで かわいい\n"
+	.string "{JPN}ポケモンの わざを\nおそわりに もどってきたのか?$"
 
 TrainerHill_Courtyard_Text_TeachWhichMove:
-	.string "Fine, fine, look here!\n"
-	.string "Which move should I teach?$"
+	.string "{JPN}よし よし みてみろ!\n"
+	.string "{JPN}どの わざを おしえようか?$"
 
 TrainerHill_Courtyard_Text_MoveWillBeXBattlePoints:
-	.string "The move {STR_VAR_1}, is it?\n"
-	.string "That will be {STR_VAR_2} Battle Points, okay?$"
+	.string "{JPN}{STR_VAR_1}だな?\n"
+	.string "{JPN}それは {STR_VAR_2}バトルポイント\nだが いいか?$"
 
 TrainerHill_Courtyard_Text_TeachMoveToWhichMon:
-	.string "Fine, fine, now pick the POKéMON\n"
-	.string "I should teach the move to.$"
+	.string "{JPN}よし よし つぎは\n"
+	.string "{JPN}どの ポケモンに わざを\nおしえるか えらんでくれ.$"
 
 TrainerHill_Courtyard_Text_HaventGotEnoughPoints:
-	.string "What the…\n"
-	.string "You haven't got enough Battle Points!$"
+	.string "{JPN}なんですって...\n"
+	.string "{JPN}バトルポイントが\nたりないじゃない!$"
 
 TrainerHill_Courtyard_Text_IllTakeBattlePoints:
-	.string "Do you see how skilled I am now?\n"
-	.string "I'll take your Battle Points, thanks!$"
+	.string "{JPN}わたしの うでまえを\n"
+	.string "{JPN}みたろう?\nバトルポイント いただくぞ!$"
 
 TrainerHill_Courtyard_Text_YouDontWantTo:
-	.string "What's that?\n"
-	.string "You don't want to…\p"
-	.string "If you want to see how skilled I am,\n"
-	.string "you come see me anytime!$"
+	.string "{JPN}なんですって?\n"
+	.string "{JPN}やりたくないって...\p"
+	.string "{JPN}わたしのうでまえを\n"
+	.string "{JPN}みたくなったら\lいつでもきなさい!$"
 
 TrainerHill_Courtyard_Text_RightTutorIntro:
-	.string "Ihihihi!\p"
-	.string "I know it's hard to see now, but I used\n"
-	.string "to be one fantastic TRAINER.\p"
-	.string "I had a reputation as the most\n"
-	.string "invincible SWIMMER around, I tell you!\p"
-	.string "… … … … … …\p"
-	.string "What's wrong?\n"
-	.string "You don't believe me.\p"
-	.string "I'm not like that buffoonish woman over\n"
-	.string "there. I'm actually experienced!\p"
-	.string "I can prove it to you.\n"
-	.string "I can teach your POKéMON hard and\l"
-	.string "yet pretty moves.\p"
-	.string "But my lessons don't come free.\n"
-	.string "How about paying for the moves I teach\l"
-	.string "with a wee bit of Battle Points?$"
+	.string "{JPN}いひひひ!\p"
+	.string "{JPN}いまはこんなふうけいだけど\n"
+	.string "{JPN}むかしはすばらしい\l"
+	.string "{JPN}トレーナーだったのよ!\p"
+	.string "{JPN}さいきょうのスイマーとして\n"
+	.string "{JPN}ゆうめいだったんだから!\p"
+	.string "{JPN}... ... ... ... ... ...\p"
+	.string "{JPN}どうしたの?\n"
+	.string "{JPN}しんじてくれないのね.\p"
+	.string "{JPN}あっちにいるばかげたおんなとは\n"
+	.string "{JPN}ちがうのよ.\l"
+	.string "{JPN}わたしはほんとうにけいけんが\l"
+	.string "{JPN}あるんだから!\p"
+	.string "{JPN}それをしょうめいしてあげる.\n"
+	.string "{JPN}あなたのポケモンに\l"
+	.string "{JPN}つよくてきれいなわざを\lおしえることができるの.\pでもただじゃないわ.\nおしえるわざのだいきんを\lバトルポイントで\lはらってくれる?$"
 
 TrainerHill_Courtyard_Text_RightTutorWelcomeBack:
-	.string "Ihihihi!\p"
-	.string "Have you come to learn hard and\n"
-	.string "yet pretty POKéMON moves?$"
+	.string "{JPN}いひひひ!\n"
+	.string "{JPN}かたくて きれいな\n"
+	.string "{JPN}ポケモンの わざを\nならいに きたのかい?$"
 
 TrainerHill_Courtyard_Text_ThinkLadiesDontGetAlong:
-	.string "Those ladies, the way they bad-mouth\n"
-	.string "each other, you probably think that\l"
-	.string "they don't get along.\p"
-	.string "But if that were true, they wouldn't\n"
-	.string "stay out here together, would they?$"
+	.string "{JPN}あの ふたり おたがいの\n"
+	.string "{JPN}わるぐちばかり いってるから\l"
+	.string "{JPN}なかが わるいと おもうだろう?\p"
+	.string "{JPN}でも ほんとうに なかが\n"
+	.string "{JPN}わるかったら いっしょに\nここに いないと おもうよ.$"
 
 TrainerHill_Courtyard_Text_LadiesWereStrongAndBeautiful:
-	.string "When I was just a wee YOUNGSTER,\n"
-	.string "those ladies were strong and beautiful.\p"
-	.string "They were idols among us TRAINERS.\p"
-	.string "Even now, age hasn't dulled their\n"
-	.string "abilities.\p"
-	.string "In fact, their POKéMON moves have\n"
-	.string "grown even more polished.\p"
-	.string "But… For some reason, I can't help\n"
-	.string "but feel this…\p"
-	.string "Time is so cruel…$"
-
+	.string "{JPN}わたしがまだちいさな\n"
+	.string "{JPN}たんぱんこぞうだったとき\l"
+	.string "{JPN}あのふたりはつよくて\l"
+	.string "{JPN}うつくしかったんだ.\p"
+	.string "{JPN}トレーナーたちのあこがれ\n"
+	.string "{JPN}だったんだよ.\p"
+	.string "{JPN}いまでも としはとったけど\n"
+	.string "{JPN}うでまえはおとろえていない.\p"
+	.string "{JPN}じっさい ポケモンのわざは\n"
+	.string "{JPN}もっとみがかれているよ.\pでも... どうしてだろう...\nこんなきもちになるのは...\pときのながれって\nざんこくだなあ...$"
 TrainerHill_Courtyard_Text_SoftboiledDesc::
-	.string "Recovers up to\n"
-	.string "half the user's\n"
-	.string "maximum HP.$"
+	.string "{JPN}じぶんの さいだい\n"
+	.string "{JPN}HPの はんぶんまで\n"
+	.string "{JPN}かいふく する.$"
 
 TrainerHill_Courtyard_Text_SeismicTossDesc::
-	.string "Inflicts damage\n"
-	.string "identical to the\n"
-	.string "user's level.$"
+	.string "{JPN}つかうがわの\n"
+	.string "{JPN}レベルと おなじ\n"
+	.string "{JPN}ダメージを あたえる.$"
 
 TrainerHill_Courtyard_Text_DreamEaterDesc::
-	.string "Recovers half the\n"
-	.string "damage inflicted\n"
-	.string "on a sleeping foe.$"
+	.string "{JPN}ねむっている あいてに\n"
+	.string "{JPN}あたえた ダメージの\n"
+	.string "{JPN}はんぶんを かいふく.$"
 
 TrainerHill_Courtyard_Text_MegaPunchDesc::
-	.string "A strong punch\n"
-	.string "thrown with\n"
-	.string "incredible power.$"
+	.string "{JPN}すさまじい ちからで\n"
+	.string "{JPN}くりだす\n"
+	.string "{JPN}つよい パンチ.$"
 
 TrainerHill_Courtyard_Text_MegaKickDesc::
-	.string "An extremely\n"
-	.string "powerful kick with\n"
-	.string "intense force.$"
+	.string "{JPN}ものすごい ちからで\n"
+	.string "{JPN}あいてを ける\n"
+	.string "{JPN}きょうりょくな キック.$"
 
 TrainerHill_Courtyard_Text_BodySlamDesc::
-	.string "A full-body slam\n"
-	.string "that may cause\n"
-	.string "paralysis.$"
+	.string "{JPN}ぜんしんで あいてに\n"
+	.string "{JPN}たいあたりして\n"
+	.string "{JPN}まひさせることがある.$"
 
 TrainerHill_Courtyard_Text_RockSlideDesc::
-	.string "Large boulders\n"
-	.string "are hurled. May\n"
-	.string "cause flinching.$"
+	.string "{JPN}おおきな いわを\n"
+	.string "{JPN}らっかさせて こうげき.\n"
+	.string "{JPN}ひるませることがある.$"
 
 TrainerHill_Courtyard_Text_CounterDesc::
-	.string "Retaliates any\n"
-	.string "physical hit with\n"
-	.string "double the power.$"
+	.string "{JPN}ぶつり こうげきを\n"
+	.string "{JPN}うけたとき その\n"
+	.string "{JPN}2ばいの いりょくで はんげき.$"
 
 TrainerHill_Courtyard_Text_ThunderWaveDesc::
-	.string "A weak jolt of\n"
-	.string "electricity that\n"
-	.string "paralyzes the foe.$"
+	.string "{JPN}よわい でんきを\n"
+	.string "{JPN}あびせかけて\n"
+	.string "{JPN}あいてを まひさせる.$"
 
 TrainerHill_Courtyard_Text_SwordsDanceDesc::
-	.string "A fighting dance\n"
-	.string "that sharply\n"
-	.string "raises ATTACK.$"
+	.string "{JPN}たたかいの まいを\n"
+	.string "{JPN}おどって じぶんの\n"
+	.string "{JPN}こうげきりょくを あげる.$"
 
 TrainerHill_Courtyard_Text_DefenseCurlDesc::
-	.string "Curls up to con-\n"
-	.string "ceal weak spots\n"
-	.string "and raise DEFENSE.$"
+	.string "{JPN}からだを まるめて\n"
+	.string "{JPN}じゃくてんを かくし\n"
+	.string "{JPN}ぼうぎょりょくを あげる.$"
 
 TrainerHill_Courtyard_Text_SnoreDesc::
-	.string "A loud attack\n"
-	.string "that can be used\n"
-	.string "only while asleep.$"
+	.string "{JPN}ねむっている\n"
+	.string "{JPN}あいだだけ つかえる\n"
+	.string "{JPN}おおきな こえの こうげき$"
 
 TrainerHill_Courtyard_Text_MudSlapDesc::
-	.string "Hurls mud in the\n"
-	.string "foe's face to re-\n"
-	.string "duce its accuracy.$"
+	.string "{JPN}あいての かおに\n"
+	.string "{JPN}どろを なげつけて\n"
+	.string "{JPN}めいちゅうを さげる$"
 
 TrainerHill_Courtyard_Text_SwiftDesc::
-	.string "Sprays star-\n"
-	.string "shaped rays\n"
-	.string "that never miss.$"
+	.string "{JPN}ほしのかたちの\n"
+	.string "{JPN}ひかりを はっしゃして\n"
+	.string "{JPN}かならず あたる$"
 
 TrainerHill_Courtyard_Text_IcyWindDesc::
-	.string "A chilling attack\n"
-	.string "that lowers the\n"
-	.string "foe's SPEED.$"
+	.string "{JPN}つめたい かぜで\n"
+	.string "{JPN}こうげきして\n"
+	.string "{JPN}あいての すばやさを さげる$"
 
 TrainerHill_Courtyard_Text_EndureDesc::
-	.string "Endures any at-\n"
-	.string "tack for 1 turn,\n"
-	.string "leaving 1HP.$"
+	.string "{JPN}どんな こうげきでも\n"
+	.string "{JPN}1ターン たえて\n"
+	.string "{JPN}HP 1で のこる$"
 
 TrainerHill_Courtyard_Text_PsychUpDesc::
-	.string "Copies the foe's\n"
-	.string "effect(s) and\n"
-	.string "gives to the user.$"
+	.string "{JPN}あいての のうりょく\n"
+	.string "{JPN}へんかを コピーして\n"
+	.string "{JPN}じぶんに かける$"
 
 TrainerHill_Courtyard_Text_IcePunchDesc::
-	.string "An icy punch\n"
-	.string "that may\n"
-	.string "freeze the foe.$"
+	.string "{JPN}つめたい パンチで\n"
+	.string "{JPN}こうげき あいてを\n"
+	.string "{JPN}こおらせることがある$"
 
 TrainerHill_Courtyard_Text_ThunderPunchDesc::
-	.string "An electrified\n"
-	.string "punch that may\n"
-	.string "paralyze the foe.$"
+	.string "{JPN}でんきを こめた\n"
+	.string "{JPN}パンチで こうげき\n"
+	.string "{JPN}まひさせることがある$"
 
 TrainerHill_Courtyard_Text_FirePunchDesc::
-	.string "A fiery punch\n"
-	.string "that may burn\n"
-	.string "the foe.$"
+	.string "{JPN}ほのおの パンチで\n"
+	.string "{JPN}こうげき あいてを\n"
+	.string "{JPN}やけどさせることがある$"
 
 TrainerHill_Courtyard_Text_ElementalTutorIntro::
-	.string "Zzzzzz…\p"
-	.string "What, how, what?\p"
-	.string "Oh, sorry, I was snoozing a bit.\p"
-	.string "I'm the ELEMENTAL TUTOR.\p"
-	.string "I have the power to teach the most\n"
-	.string "powerful moves to GRASS, FIRE and\l"
-	.string "WATER TYPE POKéMON.\p"
-	.string "Did you come to learn such a strong\n"
-	.string "power?$"
+	.string "{JPN}zzzzz...\p"
+	.string "{JPN}なに なに なに?\p"
+	.string "{JPN}あ ごめん\n"
+	.string "{JPN}ちょっとうとうとしてた.\p"
+	.string "{JPN}わたしはエレメンタルせんせい.\p"
+	.string "{JPN}くさ ほのお みずタイプの\n"
+	.string "{JPN}ポケモンにさいきょうのわざを\l"
+	.string "{JPN}おしえるちからをもっている.\p"
+	.string "{JPN}そんなつよいちからを\nまなびにきたのかい?$"
 
 TrainerHill_Courtyard_Text_ElementalTutorWelcomeBack:
-	.string "Zzzzzz…\p"
-	.string "What, how, what, who?\p"
-	.string "Oh, did you come to learn the\n"
-	.string "power of my strongest moves?$"
+	.string "{JPN}zzzzz...\p"
+	.string "{JPN}なに なに なに だれ?\p"
+	.string "{JPN}あ さいきょうのわざの\n"
+	.string "{JPN}ちからをまなびにきたのかい?$"
 
 TrainerHill_Courtyard_Text_TeachWhichMoveElemental::
-	.string "Which move do you think is suitable\n"
-	.string "for your POKéMON?$"
+	.string "{JPN}どの わざが あなたの\n"
+	.string "{JPN}ポケモンに ふさわしいと おもいますか?$"
 
 TrainerHill_Courtyard_Text_StrongElementalMoveDesc::
-	.string "Powerful, but\n"
-	.string "leaves the user\n"
-	.string "immobile one turn.$"
+	.string "{JPN}きょうりょくだが\n"
+	.string "{JPN}つぎのターン\n"
+	.string "{JPN}うごけなくなる$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_EventScript_ClerkWelcome::
 	msgbox TrainerHill_Courtyard_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize, MSGBOX_DEFAULT
@@ -1110,299 +1108,296 @@ TrainerHill_Courtyard_ExchangeServiceCorner_EventScript_OldWTMan::
 	end
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_YouAlreadyHaveThis:
-	.string "You already have this item.$"
+	.string "{JPN}そのアイテムは すでに もっています$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_EventScript_OldWTMan_Text:
-	.string "Hi! If you are looking for the\n"
-	.string "WONDERTRADE, they're now located in\l"
-	.string "every POKéMON CENTER. Have fun!$"
+	.string "{JPN}こんにちは! ふしぎなこうかんを\n"
+	.string "{JPN}おさがしでしたら いまは すべての\l"
+	.string "{JPN}\nポケモンセンターに ありますよ!\pたのしんでくださいね!$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
-	.string "Hello, this is the EXCHANGE SERVICE\n"
-	.string "CORNER.\p"
-	.string "We exchange the Battle Points you\n"
-	.string "have collected for lovely prizes.\p"
-	.string "Please choose a prize from this list.$"
+	.string "{JPN}いらっしゃいませ こちらは\n"
+	.string "{JPN}こうかんサービスコーナーです\p"
+	.string "{JPN}あつめた バトルポイントを\n"
+	.string "{JPN}すてきな しょうひんと\l"
+	.string "{JPN}こうかんしています\pこのリストから しょうひんを\nえらんでください$"
 
 @ Unused
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_PleaseChoosePrize:
-	.string "Please choose a prize from this list.$"
+	.string "{JPN}このリストから しょうひんを\nえらんでください$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmKissPoster:
-	.string "You've chosen the KISS POSTER.\n"
-	.string "Is that correct?$"
+	.string "{JPN}キスポスターを\n"
+	.string "{JPN}えらばれましたね\nよろしいですか?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmKissCushion:
-	.string "You've chosen the KISS CUSHION.\n"
-	.string "Is that correct?$"
+	.string "{JPN}キスクッションを\n"
+	.string "{JPN}えらばれましたね\nよろしいですか?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmSmoochumDoll:
-	.string "You've chosen the SMOOCHUM DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}ムチュールにんぎょうを\n"
+	.string "{JPN}えらばれましたね\nよろしいですか?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmTogepiDoll:
-	.string "You've chosen the TOGEPI DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}トゲピーにんぎょうを\n"
+	.string "{JPN}えらばれましたね\nよろしいですか?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmMeowthDoll:
-	.string "You've chosen the MEOWTH DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}ニャースにんぎょうを\n"
+	.string "{JPN}えらばれましたね\nよろしいですか?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmClefairyDoll:
-	.string "You've chosen the CLEFAIRY DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}ピッピにんぎょうを\n"
+	.string "{JPN}えらばれましたね\nよろしいですか?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmDittoDoll:
-	.string "You've chosen the DITTO DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}メタモンにんぎょうを\n"
+	.string "{JPN}えらばれましたね\nよろしいですか?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmCyndaquilDoll:
-	.string "You've chosen the CYNDAQUIL DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}ヒノアラシにんぎょうを\n"
+	.string "{JPN}えらばれましたね\nよろしいですか?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmChikoritaDoll:
-	.string "You've chosen the CHIKORITA DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}チコリータにんぎょうを\n"
+	.string "{JPN}えらばれましたね\nよろしいですか?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmTotodileDoll:
-	.string "You've chosen the TOTODILE DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}ワニノコにんぎょうを\n"
+	.string "{JPN}えらばれましたね\nよろしいですか?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmLaprasDoll:
-	.string "You've chosen the LAPRAS DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}ラプラスのにんぎょうを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmSnorlaxDoll:
-	.string "You've chosen the SNORLAX DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}カビゴンのにんぎょうを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmVenusaurDoll:
-	.string "You've chosen the VENUSAUR DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}フシギバナのにんぎょうを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmCharizardDoll:
-	.string "You've chosen the CHARIZARD DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}リザードンのにんぎょうを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmBlastoiseDoll:
-	.string "You've chosen the BLASTOISE DOLL.\n"
-	.string "Is that correct?$"
+	.string "{JPN}カメックスのにんぎょうを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmProtein:
-	.string "You've chosen the PROTEIN.\n"
-	.string "Is that correct?$"
+	.string "{JPN}タウリンを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmCalcium:
-	.string "You've chosen the CALCIUM.\n"
-	.string "Is that correct?$"
+	.string "{JPN}リゾチウムを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmIron:
-	.string "You've chosen the IRON.\n"
-	.string "Is that correct?$"
+	.string "{JPN}ブロムヘキシンを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmZinc:
-	.string "You've chosen the ZINC.\n"
-	.string "Is that correct?$"
+	.string "{JPN}キトサンを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmCarbos:
-	.string "You've chosen the CARBOS.\n"
-	.string "Is that correct?$"
+	.string "{JPN}インドメタシンを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmHpUp:
-	.string "You've chosen the HP UP.\n"
-	.string "Is that correct?$"
+	.string "{JPN}マックスアップを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmBrightpowder:
-	.string "You've chosen the BRIGHTPOWDER.\n"
-	.string "Is that correct?$"
+	.string "{JPN}ひかりのこなを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmWhiteHerb:
-	.string "You've chosen the WHITE HERB.\n"
-	.string "Is that correct?$"
+	.string "{JPN}しろいハーブを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmQuickClaw:
-	.string "You've chosen the QUICK CLAW.\n"
-	.string "Is that correct?$"
+	.string "{JPN}せんせいのツメを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmMentalHerb:
-	.string "You've chosen the MENTAL HERB.\n"
-	.string "Is that correct?$"
+	.string "{JPN}メンタルハーブを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmChoiceBand:
-	.string "You've chosen the CHOICE BAND.\n"
-	.string "Is that correct?$"
+	.string "{JPN}こだわりハチマキを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmKingsRock:
-	.string "You've chosen the KING'S ROCK.\n"
-	.string "Is that correct?$"
+	.string "{JPN}おうじゃのしるしを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmFocusBand:
-	.string "You've chosen the FOCUS BAND.\n"
-	.string "Is that correct?$"
+	.string "{JPN}きあいのハチマキを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmScopeLens:
-	.string "You've chosen the SCOPE LENS.\n"
-	.string "Is that correct?$"
+	.string "{JPN}ピントレンズを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmLeftovers:
-	.string "You've chosen the LEFTOVERS.\n"
-	.string "Is that correct?$"
+	.string "{JPN}たべのこしを\n"
+	.string "{JPN}えらびましたね?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_WellSendItToPC:
-	.string "Thank you!\n"
-	.string "We'll send it to your PC at home.$"
+	.string "{JPN}ありがとうございます!\n"
+	.string "{JPN}パソコンにおくりますね$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_HereIsYourPrize:
-	.string "Here is your prize!$"
+	.string "{JPN}しょうひんをどうぞ!$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_DontHaveEnoughPoints:
-	.string "I'm so sorry…\n"
-	.string "You don't have enough Battle Points…$"
-
+	.string "{JPN}もうしわけございません...\n"
+	.string "{JPN}バトルポイントが\nたりません...$"
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_PCIsFull:
-	.string "I'm so sorry…\n"
-	.string "Your PC appears to be full…$"
-
+	.string "{JPN}もうしわけございません...\n"
+	.string "{JPN}パソコンがいっぱいのようです...$"
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt:
-	.string "I'm so sorry…\n"
-	.string "You don't have space to hold it…$"
-
+	.string "{JPN}もうしわけございません...\n"
+	.string "{JPN}もつばしょがありません...$"
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ThankYouVisitWithPoints:
-	.string "Thank you very much.\p"
-	.string "Please visit us when you have\n"
-	.string "saved up Battle Points.$"
+	.string "{JPN}ありがとうございました\p"
+	.string "{JPN}バトルポイントがたまったら\n"
+	.string "{JPN}またきてくださいね$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_WishIHadAllDolls:
-	.string "Oh, they're so nice!\n"
-	.string "I wish I had them!\l"
-	.string "Cute cushions!\l"
-	.string "Big plush DOLLS!\l"
-	.string "Little plush DOLLS!\l"
-	.string "I wish I had them all!$"
+	.string "{JPN}ああ!とってもすてき!\n"
+	.string "{JPN}わたしもほしいな!\l"
+	.string "{JPN}かわいいクッション!\l"
+	.string "{JPN}おおきなぬいぐるみ!\l"
+	.string "{JPN}ちいさなぬいぐるみ!\l"
+	.string "{JPN}ぜんぶほしいわあ!$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_GetYouAnythingYouWant:
-	.string "Leave it to your mommy!\p"
-	.string "If it's anything you want, I'll go\n"
-	.string "through anything to get it, honey!$"
+	.string "{JPN}おかあさんにまかせて!\p"
+	.string "{JPN}あなたのほしいものなら\n"
+	.string "{JPN}なんでもてにいれてあげる!$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ItemsWillGetMonTougher:
-	.string "If I can get hold of the items here,\n"
-	.string "my POKéMON will get tougher.\p"
-	.string "You bet they will!\n"
-	.string "No question about it!$"
+	.string "{JPN}ここのアイテムを てにいれたら\n"
+	.string "{JPN}おれの ポケモンは つよくなる.\p"
+	.string "{JPN}もちろん つよくなるぞ!\n"
+	.string "{JPN}まちがいなしだ!$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
-	.string "Hah?\n"
-	.string "What are you gawking at?\p"
-	.string "I don't like you staring at my plush\n"
-	.string "doll like that.\p"
-	.string "If you want it, go get one yourself!\n"
-	.string "Isn't that right, SMOOCHUM?$"
+	.string "{JPN}はあ?\n"
+	.string "{JPN}なに みてるんだ?\p"
+	.string "{JPN}あたしの ぬいぐるみを\n"
+	.string "{JPN}そんなに みつめないでよ.\p"
+	.string "{JPN}ほしいなら じぶんで とりなさい!\n"
+	.string "{JPN}そうよね ムチュール?$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
-	.string "Did you know?\p"
-	.string "If you stretch your record at any of\n"
-	.string "the BATTLE facilities, they start\l"
-	.string "giving you more and more Battle Points.$"
+	.string "{JPN}しってる?\p"
+	.string "{JPN}バトルしせつで きろくを のばすと\n"
+	.string "{JPN}どんどん たくさんの\l"
+	.string "{JPN}バトルポイントが もらえるのよ.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_KissPosterDesc::
-	.string "A large poster with a SMOOCHUM print.$"
+	.string "{JPN}ムチュールが かかれた\nおおきな ポスター.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_KissCushionDesc::
-	.string "A SMOOCHUM cushion.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}ムチュールの クッション.\n"
+	.string "{JPN}マットや つくえに おける.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_SmoochumDollDesc::
-	.string "A SMOOCHUM DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}ムチュールの ぬいぐるみ.\n"
+	.string "{JPN}マットや つくえに おける.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_TogepiDollDesc::
-	.string "A TOGEPI DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}トゲピーの ぬいぐるみ.\n"
+	.string "{JPN}マットや つくえに おける.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_MeowthDollDesc::
-	.string "A MEOWTH DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}ニャースの ぬいぐるみ.\n"
+	.string "{JPN}マットや つくえに おける.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ClefairyDollDesc::
-	.string "A CLEFAIRY DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}ピッピの ぬいぐるみ.\n"
+	.string "{JPN}マットや つくえに おける.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_DittoDollDesc::
-	.string "A DITTO DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}メタモンの ぬいぐるみ.\n"
+	.string "{JPN}マットや つくえに おける.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_CyndaquilDollDesc::
-	.string "A CYNDAQUIL DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}ヒノアラシの ぬいぐるみ.\n"
+	.string "{JPN}マットや つくえに おける.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ChikoritaDollDesc::
-	.string "A CHIKORITA DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}チコリータの ぬいぐるみ.\n"
+	.string "{JPN}マットや つくえに おける.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_TotodileDollDesc::
-	.string "A TOTODILE DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}ワニノコの ぬいぐるみ.\n"
+	.string "{JPN}マットや つくえに おける.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_LargeDollDesc::
-	.string "A large DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "{JPN}おおきな ぬいぐるみ.\n"
+	.string "{JPN}マットや つくえに おける.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ProteinDesc::
-	.string "A strange ticket that will get\n"
-	.string "you to an abandoned island.$"
+	.string "{JPN}はなれじまに いくことが\n"
+	.string "{JPN}できる ふしぎな チケット$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_CalciumDesc::
-	.string "A strange ticket that will get\n"
-	.string "you to an abandoned island.$"
+	.string "{JPN}はいきょされた しまへ\n"
+	.string "{JPN}つれていってくれる ふしぎなチケット.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_IronDesc::
-	.string "A strange ticket that will get\n"
-	.string "you to an abandoned island.$"
+	.string "{JPN}はいきょされた しまへ\n"
+	.string "{JPN}つれていってくれる ふしぎなチケット.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ZincDesc::
-	.string "An… old map? Maybe\n"
-	.string "it will get you somewhere.$"
+	.string "{JPN}ふるい... ちず?\n"
+	.string "{JPN}どこかへいけるかも.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_CarbosDesc::
-	.string "x10 EV gain, but halves speed.$"
+	.string "{JPN}EV 10ばい しゅとく.\nただし すばやさが はんぶん.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_HPUpDesc::
-	.string "A peculiar box made\n"
-	.string "by SILPH CO.$"  
+	.string "{JPN}シルフカンパニーが つくった\n"
+	.string "{JPN}きみょうな はこ.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_LeftoversDesc::
-	.string "A hold item that gradually restores\n"
-	.string "HP in battle.$"
+	.string "{JPN}せんとうちゅう HPを すこしずつ\n"
+	.string "{JPN}かいふくする もちもの.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_WhiteHerbDesc::
-	.string "A hold item that restores any\n"
-	.string "lowered stat.$"
+	.string "{JPN}さがった のうりょくを\n"
+	.string "{JPN}もとにもどす もちもの.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_QuickClawDesc::
-	.string "A hold item that occasionally allows\n"
-	.string "the first strike.$"
+	.string "{JPN}たまに せんせい こうげきが\n"
+	.string "{JPN}できる もちもの.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_MentalHerbDesc::
-	.string "A hold item that snaps POKéMON out\n"
-	.string "of infatuation.$"
+	.string "{JPN}ポケモンの メロメロを\n"
+	.string "{JPN}なおす もちもの.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_BrightpowderDesc::
-	.string "A hold item that casts a glare to\n"
-	.string "reduce accuracy.$"
+	.string "{JPN}ひかりで てきの めいちゅうりつを\n"
+	.string "{JPN}さげる もちもの.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ChoiceBandDesc::
-	.string "Raises a move's power, but permits\n"
-	.string "only that move.$"
+	.string "{JPN}わざの いりょくは あがるが\n"
+	.string "{JPN}そのわざしか つかえない.$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_KingsRockDesc::
-	.string "A hold item that may cause flinching\n"
-	.string "when the foe is hit.$"
+	.string "{JPN}あいてを ひるませることが\n"
+	.string "{JPN}ある もちもの$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_FocusBandDesc::
-	.string "A hold item that occasionally\n"
-	.string "prevents fainting.$"
+	.string "{JPN}ひんしを まれに\n"
+	.string "{JPN}ふせぐ もちもの$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ScopeLensDesc::
-	.string "A hold item that raises the\n"
-	.string "critical-hit rate.$"
+	.string "{JPN}きゅうしょりつを\n"
+	.string "{JPN}あげる もちもの$"

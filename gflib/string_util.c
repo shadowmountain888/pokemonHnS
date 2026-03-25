@@ -812,6 +812,12 @@ s32 StringCompareWithoutExtCtrlCodes(const u8 *str1, const u8 *str2)
 
 void ConvertInternationalString(u8 *s, u8 language)
 {
+    // In a Japanese game, JP strings don't need {JPN}...{ENG} wrapping.
+    // The wrapping was designed for English games to handle traded JP Pokemon.
+    // The {ENG} suffix resets font mode and causes garbled text after names.
+    #if GAME_LANGUAGE == LANGUAGE_JAPANESE
+    return;
+    #else
     if (language == LANGUAGE_JAPANESE)
     {
         u8 i;
@@ -833,6 +839,7 @@ void ConvertInternationalString(u8 *s, u8 language)
         s[0] = EXT_CTRL_CODE_BEGIN;
         s[1] = EXT_CTRL_CODE_JPN;
     }
+    #endif
 }
 
 void StripExtCtrlCodes(u8 *str)

@@ -21,37 +21,37 @@ CeladonCity_PokemonCenter_EventScript_Eusine::
 	end
 
 CeladonCity_PokemonCenter1F_Text_CooltrainerF:
-	.string "ERIKA is a master of grass\n"
-	.string "POKéMON.\p"
-	.string "She'll make you pay if you don't\n"
-	.string "watch yourself.$"
+	.string "{JPN}エリカは くさタイプの\n"
+	.string "{JPN}ポケモンの たつじんよ.\p"
+	.string "{JPN}ゆだんしてると\n"
+	.string "{JPN}いたいめに あうわよ.$"
 
 CeladonCity_PokemonCenter1F_Text_Pharmacist:
-	.string "TEAM ROCKET's hideout is in the\n"
-	.string "basement of the GAME CORNER.\p"
-	.string "Oh, wait. That was three years\n"
-	.string "ago.$"
+	.string "{JPN}ロケットだんの アジトは\n"
+	.string "{JPN}ゲームコーナーの ちかにあった.\p"
+	.string "{JPN}あ  まてよ. それは\n"
+	.string "{JPN}3ねんまえの はなしだった.$"
 
 Celadon_Text_Eusine1:
-	.string "EUSINE: Hi!\p"
-	.string "I'm back visiting my hometown.\p"
-	.string "It's been quite a while.$"
+	.string "{JPN}ミナキ: やあ!\p"
+	.string "{JPN}きょうどに かえって\n"
+	.string "{JPN}きたんだ.\pひさしぶりだなあ.$"
 
 Celadon_Text_EusineLeaves:
-	.string "{PLAYER}, have you heard?\p"
-	.string "There have been fresh rumors of a\n"
-	.string "rainbow-colored POKéMON\n"
-	.string "appearing at TIN TOWER.\p"
-	.string "I've just had my party healed,\n"
-	.string "so now I'm headed to ECRUTEAK.\p"
-	.string "I'll be seeing you, {PLAYER}!$"
+	.string "{JPN}{PLAYER}  きいたか?\p"
+	.string "{JPN}スズのとうに にじいろの\n"
+	.string "{JPN}ポケモンが あらわれたという\n"
+	.string "{JPN}あたらしい うわさが あるんだ.\p"
+	.string "{JPN}ポケモンも かいふくしたし\n"
+	.string "{JPN}エンジュシティに むかうよ.\n"
+	.string "{JPN}また あおう  {PLAYER}!$"
 
 Celadon_Text_NoBeasts:
-	.string "Oh, by the way, {PLAYER}.\p"
-	.string "Have you caught the legendary\n"
-	.string "POKéMON RAIKOU and ENTEI?\p"
-	.string "<……><……><……>\p"
-	.string "Okay…\p"
-	.string "If you catch even one, I hope\n"
-	.string "that you'll inform me.\p"
-	.string "I'm counting on you, {PLAYER}!$"
+	.string "{JPN}ところで {PLAYER}.\p"
+	.string "{JPN}でんせつの ポケモン\n"
+	.string "{JPN}ライコウと エンテイは\l"
+	.string "{JPN}つかまえたかい?\p"
+	.string "{JPN}<...><...><...>\p"
+	.string "{JPN}そうか...\p"
+	.string "{JPN}どちらか いっぴきでも\n"
+	.string "{JPN}つかまえたら\lしらせてくれよ.\pたのんだぞ {PLAYER}!$"

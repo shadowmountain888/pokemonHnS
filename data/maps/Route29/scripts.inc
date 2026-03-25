@@ -34,7 +34,7 @@ Route29_Trigger_Monview::
 	end
 
 Route29_Text_PressAorB:
-	.string "Press A or B to stop viewing.$"
+	.string "{JPN}Aボタンか Bボタンで\nひょうじを やめられるよ$"
 
 Route29_EventScript_OldMan::
 	lock
@@ -158,89 +158,86 @@ Route29_EventScript_ItemPotion::
 	end
 
 Route29_Text_OldMan1:
-	.string "POKéMON hide in the grass.\n"
-	.string "Who knows when they'll pop out…$"
-
+	.string "{JPN}ポケモンは くさむらに\n"
+	.string "{JPN}かくれて いるんじゃ.\lいつ とびだして くるか\nわからんのう...$"
 Route29_Text_OldMan2:
-	.string "I've seen you a couple times.\n"
-	.string "How many POKéMON have you caught?\p"
-	.string "Would you like me to tell you\n"
-	.string "how to catch POKéMON?$"
+	.string "{JPN}きみのこと なんかいか\n"
+	.string "{JPN}みたことが あるのう\p"
+	.string "{JPN}なんびきの ポケモンを\n"
+	.string "{JPN}つかまえたのかな?\pポケモンの つかまえかたを\nおしえて やろうか?$"
 
 Route29_Text_OldManExplanation:
-	.string "If you weaken them first,\n"
-	.string "POKéMON are easier to catch.\p"
-	.string "Then, throw a ball at them from\n"
-	.string "your bag! Any ball will do.\p"
-	.string "If you want to learn more,\n"
-	.string "go to the ACADEMY in VIOLET CITY!\p"
-	.string "The students there know a lot\n"
-	.string "about POKéMON.$"
+	.string "{JPN}まず ポケモンを よわらせてから\n"
+	.string "{JPN}のほうが つかまえやすいぞい\p"
+	.string "{JPN}それから バッグから ボールを\n"
+	.string "{JPN}なげるんじゃ! どのボールでもよい\p"
+	.string "{JPN}もっと しりたければ\n"
+	.string "{JPN}キキョウシティの\l"
+	.string "{JPN}トレーナーズスクールに いけ!\p"
+	.string "{JPN}そこの せいとたちは\nポケモンの ことを よく しっとるぞ$"
 
 Route29_Text_OldManDeclined:
-	.string "Oh. Fine, then.\p"
-	.string "Check every route to find\n"
-	.string "different types of POKéMON.\p"
-	.string "Your POKéDEX shows where you can\n"
-	.string "find them too!\p"
-	.string "If you want to learn more,\n"
-	.string "go to the ACADEMY in VIOLET CITY!\p"
-	.string "The students know a lot about\n"
-	.string "POKéMON.$"
+	.string "{JPN}そうか それなら いいじゃろう\p"
+	.string "{JPN}いろんな ルートを まわって\n"
+	.string "{JPN}いろんな ポケモンを さがすのじゃ\p"
+	.string "{JPN}ポケモンずかんで どこに いるかも\n"
+	.string "{JPN}わかるからの!\p"
+	.string "{JPN}もっと しりたければ\n"
+	.string "{JPN}キキョウシティの\l"
+	.string "{JPN}トレーナーズスクールに いけ!\p"
+	.string "{JPN}せいとたちは ポケモンの ことを\nよく しっとるぞ$"
 
 Route29_Text_Youngster:
-	.string "Yo. How are your POKéMON?\p"
-	.string "If they're weak and not ready\n"
-	.string "for battle, keep out of the grass.$"
-
+	.string "{JPN}よお\n"
+	.string "{JPN}おまえのポケモンげんき？\p"
+	.string "{JPN}ポケモンがよわってきて\n"
+	.string "{JPN}たたかわせたくないときは\l"
+	.string "{JPN}なるべくくさむらをよけて\l"
+	.string "{JPN}あるいたほうがいいよ$"
 Route29_Text_Lass:
-	.string "See those ledges?\n"
-	.string "It's scary to jump off them.\p"
-	.string "But you can go to NEW BARK\n"
-	.string "without walking through the grass.$"
-
+	.string "{JPN}そこにだんさがあるじゃない？\p"
+	.string "{JPN}とびおりるのはこわいけど\n"
+	.string "{JPN}くさむらをあるかずに\l"
+	.string "{JPN}ワカバまでいけるのよね！$"
 Route29_Text_Girl:
-	.string "I wanted to take a break,\n"
-	.string "so I saved to record my progress.$"
-
+	.string "{JPN}ちょっとひとやすみしたいから\n"
+	.string "{JPN}レポートかいてんだよ$"
 Route29_Text_Boy_WaitingForDay:
-	.string "I'm waiting for POKéMON that\n"
-	.string "appear only later in the day.$"
-
+	.string "{JPN}ひるしかでないポケモン\n"
+	.string "{JPN}つかまえるためここでまってんだ$"
 Route29_Text_Boy_WaitingForNight:
-	.string "I'm waiting for POKéMON that\n"
-	.string "appear only at night.$"
-
+	.string "{JPN}よるしかでないポケモン\n"
+	.string "{JPN}つかまえるためここでまってんだ$"
 Route29_Text_MeetTuscany:
-	.string "TUSCANY: I do believe that this\n"
-	.string "is the first time we've met?\p"
-	.string "I'm TUSCANY of the WEEKDAY FAMILY.\p"
-	.string "If you can guess my favorite day,\n"
-	.string "I'll give you a reward.$"
+	.string "{JPN}タスカニー: はじめまして ですわね?\p"
+	.string "{JPN}わたくし ようびきょうだいの\n"
+	.string "{JPN}タスカニーと もうします\p"
+	.string "{JPN}わたくしの すきな ようびを\n"
+	.string "{JPN}あてて くださったら\lプレゼントを さしあげますわ$"
 
 Route29_Text_TuscanyNope:
-	.string "Not quite!$"
+	.string "{JPN}ざんねん! ちがいますわ!$"
 
 Route29_Text_TuscanyGivesGift:
-	.string "Yes! By way of introduction,\n"
-	.string "please accept this gift, a SILK\l"
-	.string "SCARF.$"
+	.string "{JPN}せいかい! はじめまして の\n"
+	.string "{JPN}しるしに シルクのスカーフを\l"
+	.string "{JPN}さしあげますわ$"
 
 Route29_Text_TuscanyGaveGift:
-	.string "TUSCANY: Wouldn't you agree\n"
-	.string "that it is most adorable?\p"
-	.string "It strengthens NORMAL-type\n"
-	.string "moves.\p"
-	.string "I am certain it will be of use.$"
+	.string "{JPN}タスカニー: とても すてきでしょう?\p"
+	.string "{JPN}ノーマルタイプの わざの\n"
+	.string "{JPN}いりょくが あがりますのよ\p"
+	.string "{JPN}きっと やくに たちますわ$"
+	.string ""
 
 Route29_Text_TuscanyTuesday:
-	.string "TUSCANY: Have you met MONICA,\n"
-	.string "my older sister?\p"
-	.string "Or my younger brother, WESLEY?\p"
-	.string "I am the third of seven\n"
-	.string "children.$"
+	.string "{JPN}タスカニー: わたくしの あね\n"
+	.string "{JPN}モニカには あったこと ありまして?\p"
+	.string "{JPN}おとうと の ウェズリーは\n"
+	.string "{JPN}いかがかしら?\p"
+	.string "{JPN}わたくしは 7にん きょうだいの\n3ばんめ ですの$"
 
 Route29_Text_Sign1:
-	.string "ROUTE 29\p"
-	.string "CHERRYGROVE CITY - NEW BARK TOWN$"
+	.string "{JPN}29ばん どうろ\p"
+	.string "{JPN}ヨシノシティ - ワカバタウン$"
 

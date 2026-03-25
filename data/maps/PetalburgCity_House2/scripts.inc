@@ -10,15 +10,15 @@ PetalburgCity_House2_EventScript_SchoolKid::
 	end
 
 PetalburgCity_House2_Text_NormanBecameGymLeader:
-	.string "NORMAN became our town's new\n"
-	.string "GYM LEADER.\p"
-	.string "I think he called his family over from\n"
-	.string "somewhere far away.$"
+	.string "{JPN}センリが わたしたちの\n"
+	.string "{JPN}まちの あたらしい ジムリーダーに\l"
+	.string "{JPN}なったんだ.\p"
+	.string "{JPN}とおいところから かぞくを\nよんだって きいたよ.$"
 
 PetalburgCity_House2_Text_BattledNormanOnce:
-	.string "I battled NORMAN once, but, whew,\n"
-	.string "he was way too strong.\p"
-	.string "How would I put it?\p"
-	.string "I just got the feeling that he\n"
-	.string "lives for POKéMON.$"
+	.string "{JPN}いちど センリと たたかったけど\n"
+	.string "{JPN}ふう  つよすぎるよ.\p"
+	.string "{JPN}なんて いったら いいのかな?\p"
+	.string "{JPN}かれは ポケモンのために\n"
+	.string "{JPN}いきてるって かんじだった.$"
 

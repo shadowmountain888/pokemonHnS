@@ -140,43 +140,37 @@ Route39_Barn_EventScript_TwinsAfter::
 	end
 
 Route39_Text_BarnTwinMoomooIsSick:
-	.string "MOOMOO is sick…\p"
-	.string "She needs lots of ORAN BERRIES.$"
-
+	.string "{JPN}モーモーげんきがないの..\n"
+	.string "{JPN}だいこうぶつのオレンのみを\l"
+	.string "{JPN}たくさんあげないと..$"
 Route39_Text_BarnTwinFeedingMoomoo:
-	.string "MOOMOO is all better!\n"
-	.string "Thank you!$"
+	.string "{JPN}ミルタンクが\n"
+	.string "{JPN}げんきになったよ!\nありがとう!$"
 
 Route39_Text_MoomooWeakMoo:
-	.string "MILTANK: …Moo…$"
-
+	.string "{JPN}ンモー！$"
 Route39_Text_BarnCryIsWeak:
-	.string "Its cry is weak…\n"
-	.string "Give an ORAN BERRY to MILTANK?$"
-
+	.string "{JPN}{PLAYER}は\n"
+	.string "{JPN}オレンのみをあげた！$"
 Route39_Text_MoomooHappyMoo:
-	.string "MILTANK: Mooo!$"
-
+	.string "{JPN}ンモー！$"
 Route39_Text_BarnGaveBerry:
-	.string "{PLAYER} gave an ORAN BERRY to\n"
-	.string "MILTANK.$"
-
+	.string "{JPN}{PLAYER}は\n"
+	.string "{JPN}オレンのみをあげた！$"
 Route39_Text_BarnLittleHealthier:
-	.string "MILTANK became a little\n"
-	.string "healthier!$"
-
+	.string "{JPN}ミルタンクは\n"
+	.string "{JPN}ちょっぴりげんきになった！$"
 Route39_Text_BarnQuiteHealthy:
-	.string "MILTANK became quite\n"
-	.string "healthy!$"
-
+	.string "{JPN}ミルタンクは\n"
+	.string "{JPN}とってもげんきになった！$"
 Route39_Text_BarnTotallyHealthy:
-	.string "MILTANK became totally\n"
-	.string "healthy!$"
-
+	.string "{JPN}ミルタンクは\n"
+	.string "{JPN}とってもげんきになった！$"
 Route39_Text_BarnNoBerries:
-	.string "{PLAYER} has no ORAN BERRIES…$"
-
+	.string "{JPN}{PLAYER}は\n"
+	.string "{JPN}オレンのみをもっていない$"
 Route39_Text_BarnRefusedBerry:
-	.string "{PLAYER} wouldn't give an\n"
-	.string "ORAN BERRY.\p"
-	.string "MILTANK looks sad.$"
+	.string "{JPN}{PLAYER}は\n"
+	.string "{JPN}オレンのみをあげなかった..\p"
+	.string "{JPN}ミルタンクは\n"
+	.string "{JPN}かなしいめをしてる..$"

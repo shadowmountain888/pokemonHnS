@@ -53,13 +53,13 @@ Route110_SeasideCyclingRoadSouthEntrance_EventScript_ClearCyclingRoad::
 	end
 
 Route110_SeasideCyclingRoadSouthEntrance_Text_GoAllOutOnCyclingRoad:
-	.string "On CYCLING ROAD, you can go all out\n"
-	.string "and cycle as fast as you'd like.\p"
-	.string "It feels great to go that fast, but try\n"
-	.string "not to crash into anyone!$"
+	.string "{JPN}サイクリングロードでは おもいきり\n"
+	.string "{JPN}はしって だいじょうぶですよ.\p"
+	.string "{JPN}そのスピードは きもちいいですが\n"
+	.string "{JPN}ひとに ぶつからないよう きをつけて!$"
 
 Route110_SeasideCyclingRoadSouthEntrance_Text_TooDangerousToWalk:
-	.string "Sorry, you can't walk on CYCLING\n"
-	.string "ROAD. It's too dangerous.\p"
-	.string "Please come back with a BIKE.$"
+	.string "{JPN}すみません サイクリングロードは\n"
+	.string "{JPN}あるいては いけません.あぶないです.\p"
+	.string "{JPN}じてんしゃで きてくださいね.$"
 

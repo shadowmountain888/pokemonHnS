@@ -324,198 +324,188 @@ Route32_Movement_SlowpokeRight::
 	step_end
 
 Route32_Text_CooltrainerM_WhatsTheHurry:
-	.string "Wait up!\n"
-	.string "What's the hurry?$"
-
+	.string "{JPN}かーっ！！\n"
+	.string "{JPN}またれいーっ！！$"
 Route32_Text_CooltrainerM_AideIsWaiting:
-	.string "{PLAYER}, right?\n"
-	.string "Some guy wearing glasses\p"
-	.string "was looking for you.\p"
-	.string "See for yourself. He's waiting for\n"
-	.string "you at the POKéMON CENTER.$"
-
+	.string "{JPN}{PLAYER}とはおぬしのことだな？\n"
+	.string "{JPN}おぬしをさがしとる\l"
+	.string "{JPN}メガネのおとこがおったぞ\p"
+	.string "{JPN}フレンドリィショップで\n"
+	.string "{JPN}おぬしをまっているだろう\l"
+	.string "{JPN}いってみなさい！$"
 Route32_Text_CooltrainerM_SproutTower:
-	.string "Have you gone to SPROUT TOWER?\n"
-	.string "If you ever visit VIOLET CITY,\p"
-	.string "they'll expect you to train there.\n"
-	.string "That's basic for trainers.\p"
-	.string "Go to SPROUT TOWER!$"
+	.string "{JPN}シントウに いったことは\n"
+	.string "{JPN}あるかい?\n"
+	.string "{JPN}キキョウシティに いったら\p"
+	.string "{JPN}\n"
+	.string "{JPN}そこで しゅぎょうすることに\nなるんだ.\pトレーナーの きほんだからね.\p\nシントウに いってみなよ!$"
 
 Route32_Text_CooltrainerM_VioletGym:
-	.string "Have you gone to the POKéMON GYM?\n"
-	.string "You can test your POKéMON and\p"
-	.string "yourself there.\n"
-	.string "It's a rite of passage for all\p"
-	.string "trainers!$"
-
+	.string "{JPN}ポケモンジムにはいったのか？\n"
+	.string "{JPN}ポケモンジムによって\l"
+	.string "{JPN}おのれとポケモンをきたえる\p"
+	.string "{JPN}トレーナーのじょうしきではないか\n"
+	.string "{JPN}いってみなさい！$"
 Route32_Text_CooltrainerM_HaveThisSeed:
-	.string "You have some good POKéMON there.\n"
-	.string "It must be from the training you\p"
-	.string "gave them around VIOLET CITY.\n"
-	.string "The training at the GYM must have\p"
-	.string "been especially helpful. As a\n"
-	.string "souvenir of VIOLET CITY, take this.\p"
-	.string "It increases the power of GRASS-\n"
-	.string "type moves.$"
-
+	.string "{JPN}うむいいポケモンをつれておる\n"
+	.string "{JPN}それもこれもキキョウで\l"
+	.string "{JPN}いろいろきたえたからだろう\p"
+	.string "{JPN}とくにポケモンジムでの\n"
+	.string "{JPN}しゅぎょうはためになったはず\p"
+	.string "{JPN}よし！キキョウにきたきねんだ\n"
+	.string "{JPN}これをもっていきなさい\p"
+	.string "{JPN}ポケモンにもたせると\n"
+	.string "{JPN}くさタイプのわざのいりょくが\l"
+	.string "{JPN}あがるというしろものだ！$"
 Route32_Text_CooltrainerM_Experiences:
-	.string "Your experiences in VIOLET CITY\n"
-	.string "should be useful for your journey.$"
-
+	.string "{JPN}キキョウでのけいけんは\n"
+	.string "{JPN}そなたのたびにやくだつであろう$"
 Route32_Text_SlowpokeTailOffer:
-	.string "How would you like to have this\n"
-	.string "tasty, nutritious SLOWPOKETAIL?\p"
-	.string "For you right now, just\n"
-	.string "¥1,000,000!\p"
-	.string "You'll want this!$"
-
+	.string "{JPN}うまくてえいようまんてんの\n"
+	.string "{JPN}おいしいシッポはいらない？\p"
+	.string "{JPN}いまならたったの100まんえん\n"
+	.string "{JPN}どうかうでしょ？$"
 Route32_Text_ThoughtKidsLoaded:
-	.string "Tch! I thought kids\n"
-	.string "these days were loaded…$"
-
+	.string "{JPN}おかねたりないぞ！\p"
+	.string "{JPN}ちっ！さいきんのこどもは\n"
+	.string "{JPN}かねもちだとおもってたが..$"
 Route32_Text_RefusedSlowpokeTail:
-	.string "You don't want it?\n"
-	.string "Then scram. Shoo!$"
-
+	.string "{JPN}いらないのか！\n"
+	.string "{JPN}じゃああっちいった！いった！$"
 Route32_Text_FisherJustin_Seen:
-	.string "Whoa!\p"
-	.string "You made me lose that fish!$"
+	.string "{JPN}うわあ!\p"
+	.string "{JPN}\nさかなを にがしちゃったじゃないか!$"
 
 Route32_Text_FisherJustin_Beaten:
-	.string "Sploosh!$"
+	.string "{JPN}ざっぱーん!$"
 
 Route32_Text_FisherJustin_After:
-	.string "Calm, collected… The essence of\n"
-	.string "fishing and POKéMON is the same.$"
+	.string "{JPN}おちついて しずかに...\n"
+	.string "{JPN}つりと ポケモンの しんずい\nは おなじなんだ$"
 
 Route32_Text_FisherRalph1_Seen:
-	.string "I'm really good at both\n"
-	.string "fishing and POKéMON.\p"
-	.string "I'm not about to lose to any kid!$"
+	.string "{JPN}つりも ポケモンも\n"
+	.string "{JPN}りょうほう とくいなんだ.\p"
+	.string "{JPN}\nこどもには まけないぞ!$"
 
 Route32_Text_FisherRalph1_Beaten:
-	.string "Tch! I tried to rush\n"
-	.string "things…$"
-
+	.string "{JPN}ちっ! あせり\n"
+	.string "{JPN}すぎたな...$"
 Route32_Text_FisherRalph1_After:
-	.string "Fishing is a lifelong\n"
-	.string "passion.\p"
-	.string "POKéMON are lifelong friends!$"
+	.string "{JPN}つりは いっしょうの\n"
+	.string "{JPN}しゅみだよ.\p"
+	.string "{JPN}\nポケモンは いっしょうの\nともだちだ!$"
 
 Route32_Text_FisherHenry_Seen:
-	.string "My POKéMON? Freshly caught!$"
+	.string "{JPN}おれの ポケモンは\nとれたてだぞ!$"
 
 Route32_Text_FisherHenry_Beaten:
-	.string "SPLASH?$"
+	.string "{JPN}はねる?$"
 
 Route32_Text_FisherHenry_After:
-	.string "Freshly caught POKéMON are\n"
-	.string "no match for properly raised ones.$"
+	.string "{JPN}とれたての ポケモンは\n"
+	.string "{JPN}よく そだてた ポケモンに\nかなわないなあ.$"
 
 Route32_Text_YoungsterAlbert_Seen:
-	.string "I haven't seen you around before.\n"
-	.string "So you think you are pretty tough?$"
+	.string "{JPN}きみ はじめて みるね.\n"
+	.string "{JPN}つよいと おもってるのかい?$"
 
 Route32_Text_YoungsterAlbert_Beaten:
-	.string "You're strong!$"
+	.string "{JPN}つよいなあ!$"
 
 Route32_Text_YoungsterAlbert_After:
-	.string "I'm going to try to be the\n"
-	.string "best with my favorites.\p"
-	.string "I'm not using the same tough\n"
-	.string "POKéMON as everyone else.$"
+	.string "{JPN}ぼくは すきな ポケモンで\n"
+	.string "{JPN}さいきょうを めざすんだ.\p"
+	.string "{JPN}\n"
+	.string "{JPN}みんなと おなじような\nつよい ポケモンは つかわない.$"
 
 Route32_Text_YoungsterGordon_Seen:
-	.string "I found some good POKéMON\n"
-	.string "in the grass!\p"
-	.string "I think they'll do it for me!$"
+	.string "{JPN}くさむらで いい ポケモンを\n"
+	.string "{JPN}みつけたんだ!\p"
+	.string "{JPN}\nこれなら やってくれるよ!$"
 
 Route32_Text_YoungsterGordon_Beaten:
-	.string "Darn. I thought I could win.$"
+	.string "{JPN}ちくしょう.かてると\nおもったのに.$"
 
 Route32_Text_YoungsterGordon_After:
-	.string "The grass is full of\n"
-	.string "clingy things.$"
+	.string "{JPN}くさむらって べたべた\n"
+	.string "{JPN}するものが いっぱいだ.$"
 
 Route32_Text_CamperRoland_Seen:
-	.string "That glance… It's intriguing.$"
-
+	.string "{JPN}その ひとみ...\nきょうみぶかいな$"
 Route32_Text_CamperRoland_Beaten:
-	.string "Hmmm. This is disappointing.$"
-
+	.string "{JPN}あらら\n"
+	.string "{JPN}そりゃざんねんだねえ$"
 Route32_Text_CamperRoland_After:
-	.string "If you don't want to battle,\n"
-	.string "just avoid eye contact.$"
+	.string "{JPN}バトルしたくないなら\n"
+	.string "{JPN}めを あわせないことだ.$"
 
 Route32_Text_PicnickerLiz1_Seen:
-	.string "Uh-huh. Yeah, and you know…\p"
-	.string "Pardon? Battle? I'm on the phone.\n"
-	.string "Oh, all right. But make it fast.$"
+	.string "{JPN}うんうん そうそう\n"
+	.string "{JPN}それでね...\p"
+	.string "{JPN}えっ? しょうぶ?\nでんわちゅうなの\nしかたないわね\nてっとりばやくやりましょ$"
 
 Route32_Text_PicnickerLiz1_Beaten:
-	.string "Oh! I've got to relieve\n"
-	.string "my anger!$"
+	.string "{JPN}ああ! はらがたつわ!$"
+	.string ""
 
 Route32_Text_PicnickerLiz1_After:
-	.string "I was having a nice chat too.$"
+	.string "{JPN}たのしく おしゃべり\nしてたのに.$"
 
 Route32_Text_BirdKeeperPeter_Seen:
-	.string "That BADGE! It's from VIOLET CITY!\n"
-	.string "You beat FALKNER?$"
+	.string "{JPN}そのバッジ! キキョウシティの\n"
+	.string "{JPN}バッジだ!\nハヤトに かったのか?$"
 
 Route32_Text_BirdKeeperPeter_Beaten:
-	.string "I know what my weaknesses are.$"
+	.string "{JPN}じぶんの よわさが\nわかったよ.$"
 
 Route32_Text_BirdKeeperPeter_After:
-	.string "I should train again at the\n"
-	.string "GYM in VIOLET CITY.$"
+	.string "{JPN}キキョウシティの ジムで\n"
+	.string "{JPN}もう いちど しゅぎょうしよう.$"
 
 Route32_Text_RoarIntro:
-	.string "WROOOOAR! PEOPLE RUN WHEN I\n"
-	.string "ROAR! BUT YOU CAME LOOKING!\p"
-	.string "THAT PLEASES ME! NOW TAKE THIS!$"
-
+	.string "{JPN}うおおおっ！\p"
+	.string "{JPN}ほえるとみんなにげだすけど\n"
+	.string "{JPN}きみはきてくれたあああっ！\l"
+	.string "{JPN}かんどうだあああっ！\l"
+	.string "{JPN}これをもっていってよおおおっ！$"
 Route32_Text_RoarOutro:
-	.string "WROOOOAR! IT'S ROAR!\p"
-	.string "EVEN POKéMON RUN FROM A GOOD\n"
-	.string "ROAR!$"
-
+	.string "{JPN}うおおおっ！\n"
+	.string "{JPN}なかみはほえる！\l"
+	.string "{JPN}ほえるとポケモンもにげだすよ$"
 Route32_Text_MeetFrieda:
-	.string "FRIEDA: Yahoo!\p"
-	.string "I'm FRIEDA of the WEEKDAY FAMILY!\n"
-	.string "Nice to meet you!\p"
-	.string "If you can guess my favorite day,\n"
-	.string "I'll give you a reward.$"
+	.string "{JPN}フリーダ: やっほー!\p"
+	.string "{JPN}\n"
+	.string "{JPN}わたし ようびきょうだいの\n"
+	.string "{JPN}フリーダよ! よろしく!\p"
+	.string "{JPN}\nわたしの すきな ようびを\nあててくれたら\nごほうびを あげる!$"
 
 Route32_Text_FriedaGivesGift:
-	.string "Here's a POISON BARB for you!$"
+	.string "{JPN}どくバリを あげる!$"
 
 Route32_Text_FriedaGaveGift:
-	.string "FRIEDA: Give it to a POKéMON\n"
-	.string "that has POISON-type moves.\p"
-	.string "Oh!\p"
-	.string "It's wicked!\p"
-	.string "You'll be shocked how good it\n"
-	.string "makes poison moves!$"
+	.string "{JPN}フリーダ: どくタイプの わざを\n"
+	.string "{JPN}おぼえた ポケモンに\n"
+	.string "{JPN}もたせてね.\p"
+	.string "{JPN}\n"
+	.string "{JPN}お!\p"
+	.string "{JPN}\nすごいわよ!\p\nどくの わざが びっくりするほど\nつよくなるの!$"
 
 Route32_Text_FriedaFriday:
-	.string "FRIEDA: Hiya! What day do\n"
-	.string "you like?\p"
-	.string "I love Friday. No doubt about\n"
-	.string "it!\p"
-	.string "Don't you think it's great too?$"
+	.string "{JPN}フリーダ: やっほー! きみは\n"
+	.string "{JPN}なんようびが すき?\p"
+	.string "{JPN}\n"
+	.string "{JPN}わたしは きんようび!\n"
+	.string "{JPN}ぜったい きんようびよ!\p\nきみも すてきだと\nおもわない?$"
 
 Route32_Text_FriedaNope:
-	.string "FRIEDA: Not that one!$"
+	.string "{JPN}フリーダ: それじゃないわ!$"
 
 Route32_Text_Sign1:
-	.string "ROUTE 32\p"
-	.string "VIOLET CITY - AZALEA TOWN$"
-
+	.string "{JPN}ここは32ばんどうろ\n"
+	.string "{JPN}みなみヒワダタウン$"
 Route32_Text_Sign2:
-	.string "RUINS OF ALPH\n"
-	.string "EAST ENTRANCE$"
-
+	.string "{JPN}アルフのいせき\n"
+	.string "{JPN}ひがしがわいりぐち$"
 Route32_Text_Sign3:
-	.string "UNION CAVE\n"
-	.string "AHEAD$"
+	.string "{JPN}このさきつながりのどうくつ$"

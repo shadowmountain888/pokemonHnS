@@ -55,76 +55,76 @@ SeafoamIslands_Gym_EventScript_GymStatuePostVictory::
 	end
 
 SeafoamIslands_Gym_Text_GymStatue::
-    .string "CINNABAR POKéMON GYM\n"
-    .string "LEADER: BLAINE\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE, RED$"
+    .string "{JPN}グレンタウン ポケモンジム\n"
+	.string "{JPN}ジムリーダー: カツラ\p"
+	.string "{JPN}\n"
+	.string "{JPN}しょうりした トレーナー:\nグリーン レッド$"
 
 SeafoamIslands_Gym_Text_GymStatuePlayerWon::
-    .string "CINNABAR POKéMON GYM\n"
-    .string "LEADER: BLAINE\p"
-    .string "WINNING TRAINERS:\n"
-	.string "BLUE, RED, {PLAYER}$"
+    .string "{JPN}グレンタウン ポケモンジム\n"
+	.string "{JPN}ジムリーダー: カツラ\p"
+    .string "{JPN}\n"
+	.string "{JPN}しょうりした トレーナー:\nグリーン レッド {PLAYER}$"
 
 SeafoamIslands_Gym_Text_TM:
-	.string "Take this too. This TM contains\n"
-	.string "the awesome OVERHEAT.\p"
-	.string "I hope your next opponent has an\n"
-	.string "extra BURN HEAL! Waaah!$"
+	.string "{JPN}これも もっていけ.この\n"
+	.string "{JPN}わざマシンには すごい\l"
+	.string "{JPN}オーバーヒートが はいってるぞ.\p"
+	.string "{JPN}\nつぎの あいては やけどなおしを\nよういしておいたほうが いいな!\lワーハハハ!$"
 SeafoamIslands_Gym_Text_BlaineIntro:
-	.string "BLAINE: Waaah!\p"
-	.string "My GYM in CINNABAR burned down.\p"
-	.string "My fire-breathing POKéMON and I are\n"
-	.string "homeless because of the volcano.\p"
-	.string "Waaah!\p"
-	.string "But I'm back in business as a GYM\n"
-	.string "LEADER here in this cave.\p"
-	.string "If you can beat me, I'll give you\n"
-	.string "a BADGE.\p"
-	.string "Ha! You'd better have BURN HEAL!$"
+	.string "{JPN}カツラ: ワーハハハ!\p"
+	.string "{JPN}\n"
+	.string "{JPN}グレンタウンの わしの ジムは\n"
+	.string "{JPN}やけてしまったのじゃ.\p"
+	.string "{JPN}\n"
+	.string "{JPN}かざんの せいで ほのおを はく\n"
+	.string "{JPN}ポケモンたちと わしは\l"
+	.string "{JPN}いえを うしなってしまった.\p"
+	.string "{JPN}\n"
+	.string "{JPN}ワーハハハ!\p\nしかし わしは この どうくつで\nジムリーダーとして ふっかつじゃ!\p\nわしに かてたら バッジを\nやろうぞ.\p\nハハ! やけどなおしを\nよういしておくんじゃな!$"
 
 SeafoamIslands_Gym_Text_BlaineWinLoss:
-	.string "BLAINE: Awesome. I've burned out…\p"
-	.string "You've earned VOLCANOBADGE!$"
+	.string "{JPN}カツラ: すばらしい.わしは\n"
+	.string "{JPN}もえつきてしまったわい...\pきみは ボルケノバッジを\nかちとった!$"
 
 SeafoamIslands_Gym_Text_ReceivedVolcanoBadge:
-	.string "{PLAYER} received VOLCANOBADGE.$"
+	.string "{JPN}{PLAYER}は ボルケーノバッジを\nてにいれた!$"
 
 SeafoamIslands_Gym_Text_BlaineAfterBattle:
-	.string "BLAINE: I did lose this time, but\n"
-	.string "I'm going to win the next time.\p"
-	.string "When I rebuild my CINNABAR GYM,\n"
-	.string "we'll have to have a rematch.$"
+	.string "{JPN}カツラ: こんかいは まけたが\n"
+	.string "{JPN}つぎは かつぞ.\p"
+	.string "{JPN}\n"
+	.string "{JPN}グレンタウンの ジムを さいけん\nしたら また しょうぶじゃ!$"
 
 SeafoamIslands_Gym_Text_BlaineFightDone:
-	.string "BLAINE: My fire POKéMON will be\n"
-	.string "even stronger.\p"
-	.string "Just you watch!$"
+	.string "{JPN}カツラ: わしの ほのおポケモンは\n"
+	.string "{JPN}もっと つよくなるぞ.\p"
+	.string "{JPN}\nみておれ!$"
 
 SeafoamIslands_Gym_Text_BlaineRematch:
-	.string "BLAINE: Whoa!\p"
-	.string "I see you've become the KANTO\n"
-	.string "CHAMPION!\p"
-	.string "That's blazing!\p"
-	.string "Your skills are top-notch.\p"
-	.string "I'm always up for a battle.\p"
-	.string "Want to have a rematch with me?$"
+	.string "{JPN}カツラ: おお!\p"
+	.string "{JPN}\n"
+	.string "{JPN}きみは カントーちゃんぴおんに\n"
+	.string "{JPN}なったのじゃな!\p"
+	.string "{JPN}\n"
+	.string "{JPN}もえあがるぞ!\p"
+	.string "{JPN}\nきみの うでまえは いちりゅうじゃ.\p\nわしは いつでも しょうぶ\nたいきじゃ.\p\nわしと もういちど しょうぶ\nするかね?$"
 
 SeafoamIslands_Gym_Text_BlaineRematchDefeat:
-	.string "BLAINE: Your skills are truly fiery!\p"
-	.string "You've burned right through my\n"
-	.string "defenses.$"
+	.string "{JPN}カツラ: きみの うでまえは\n"
+	.string "{JPN}ほんとうに ほのおのようじゃ!\p"
+	.string "{JPN}\nわしの ぼうぎょを やききって\nしまったぞ!$"
 
 SeafoamIslands_Gym_Text_GymGuideWin:
-	.string "Yo!\p"
-	.string "… Huh? It's over already?\p"
-	.string "Sorry, sorry!\p"
-	.string "CINNABAR GYM was gone, so I didn't\n"
-	.string "know where to find you.\p"
-	.string "But, hey, you're plenty strong even\n"
-	.string "without my advice. I knew you'd win!$"
+	.string "{JPN}よお!\p"
+	.string "{JPN}...あれ? もうおわったのか?\p"
+	.string "{JPN}ごめん ごめん!\p"
+	.string "{JPN}グレンジムが なくなって\n"
+	.string "{JPN}しまったから きみを みつけ\l"
+	.string "{JPN}られなかったんだ.\p"
+	.string "{JPN}でも きみは わたしの アドバイス\nなしでも じゅうぶん つよいな.\lかつと おもってたよ!$"
 
 SeafoamIslands_Gym_Text_GymGuideWin2:
-	.string "A POKéMON GYM can be anywhere as\n"
-	.string "long as the GYM LEADER is there.\p"
-	.string "There's no need for a building.$"
+	.string "{JPN}ポケモンジムは ジムリーダーが\n"
+	.string "{JPN}いれば どこでも なりたつのじゃ.\p"
+	.string "{JPN}\nたてものは ひつようないぞ.$"

@@ -902,127 +902,127 @@ Route110_TrickHousePuzzle5_Movement_MechadollShake:
 	step_end
 
 Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened:
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is a genius.”\n"
-	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "{JPN}{PLAYER}は ドアに かかれた\n"
+	.string "{JPN}ひみつの あんごうを かきとめた.\p"
+	.string "{JPN}カラクリだいおうは てんさいだ.\n"
+	.string "{JPN}                  \p"
+	.string "{JPN}カチッと おとを たてて\nかぎが あいた!$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Intro:
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 1 AM I!\p"
-	.string "IF YOU ANSWER QUIZZES CORRECTLY,\n"
-	.string "THEN YOU WILL GO TO MECHADOLL 5.\l"
-	.string "THEN YOU CAN OBTAIN THE SECRET CODE.$"
+	.string "{JPN}カチャカチャ   \n"
+	.string "{JPN}メカドール1 だ!\p"
+	.string "{JPN}クイズに せいかい すれば\n"
+	.string "{JPN}メカドール5の ところまで いける.\l"
+	.string "{JPN}そして ひみつの あんごうが\lてに はいるぞ.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1:
-	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these POKéMON is not found\n"
-	.string "on ROUTE 110. Which one is it?$"
+	.string "{JPN}メカドール1 クイズ.\p"
+	.string "{JPN}このなかで 110ばんどうろに\n"
+	.string "{JPN}いないポケモンは どれでしょう?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2:
-	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these POKéMON is not of the\n"
-	.string "WATER type. Which one is it?$"
+	.string "{JPN}メカドール1 クイズ.\p"
+	.string "{JPN}このなかで みずタイプでない\n"
+	.string "{JPN}ポケモンは どれでしょう?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3:
-	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these POKéMON does not use\n"
-	.string "LEECH LIFE. Which one is it?$"
+	.string "{JPN}メカドール1 クイズ.\p"
+	.string "{JPN}このなかで きゅうけつを\n"
+	.string "{JPN}おぼえないポケモンは どれ?$"
 
 Route110_TrickHousePuzzle5_Text_CorrectGoThrough:
-	.string "CONGRATULATIONS. CORRECT YOU ARE.\n"
-	.string "GO THROUGH. PLEASE.$"
+	.string "{JPN}おめでとう.せいかいです.\n"
+	.string "{JPN}どうぞ おとおりください.$"
 
 Route110_TrickHousePuzzle5_Text_DisappointmentError:
-	.string "BZZZT. DISAPPOINTMENT.\n"
-	.string "ERROR.$"
+	.string "{JPN}ブッブー.ざんねんです.\n"
+	.string "{JPN}エラーです.$"
 
 Route110_TrickHousePuzzle5_Text_Wahahahaha:
-	.string "WAHAHAHAHA! WAHAHAHAHA!\n"
-	.string "CLICKETY-CLACK!$"
+	.string "{JPN}わはははは!わはははは!\n"
+	.string "{JPN}カチカチカチ!$"
 
 Route110_TrickHousePuzzle5_Text_WaitForNextChallenge:
-	.string "YOUR NEXT CHALLENGE WE WAIT FOR.$"
+	.string "{JPN}つぎのちょうせんを おまちして\nおります.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Intro:
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 2 AM I!\p"
-	.string "MECHADOLL 1'S QUIZ DIFFICULTY LEVEL\n"
-	.string "IS SET TOO LOW.$"
+	.string "{JPN}カチャカチャ   \n"
+	.string "{JPN}メカドール2 だ!\p"
+	.string "{JPN}メカドール1の クイズの\n"
+	.string "{JPN}なんいどは ひくすぎる.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1:
-	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these POKéMON did WALLY\n"
-	.string "borrow from your father?$"
+	.string "{JPN}メカドール2 クイズ.\p"
+	.string "{JPN}ミツルが きみのおとうさんから\n"
+	.string "{JPN}かりたポケモンは どれ?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
-	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these POKéMON was chasing\n"
-	.string "PROF. BIRCH?$"
+	.string "{JPN}メカドール2 クイズ.\p"
+	.string "{JPN}オダマキはかせを おいかけていた\n"
+	.string "{JPN}ポケモンは どれでしょう?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:
-	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these POKéMON did TEAM AQUA\n"
-	.string "use in PETALBURG FOREST?$"
+	.string "{JPN}メカドール2 クイズ.\n"
+	.string "{JPN}トウカのもりで アクアだんが\n"
+	.string "{JPN}つかったポケモンは どれ?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Intro:
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 3 AM I!\p"
-	.string "MATTERS OF MONEY ARE MY SOLE FOCUS.$"
+	.string "{JPN}カチャカチャ   \n"
+	.string "{JPN}メカドール3 だ!\n"
+	.string "{JPN}おかねの ことしか かんがえない.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1:
-	.string "MECHADOLL 3 QUIZ.\p"
-	.string "Which costs more?\n"
-	.string "Three HARBOR MAILS or one BURN HEAL?$"
+	.string "{JPN}メカドール3 クイズ.\p"
+	.string "{JPN}どちらがたかいでしょう?\n"
+	.string "{JPN}ハーバーメール3つ それとも\nやけどなおし1つ?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2:
-	.string "MECHADOLL 3 QUIZ.\p"
-	.string "Sell one GREAT BALL and buy\n"
-	.string "one POTION. How much money remains?$"
+	.string "{JPN}メカドール3 クイズ.\p"
+	.string "{JPN}スーパーボールを1つうって\n"
+	.string "{JPN}キズぐすりを1つかったら\nおかねは いくらのこる?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3:
-	.string "MECHADOLL 3 QUIZ.\p"
-	.string "Do one REPEL and SODA POP cost\n"
-	.string "more than one SUPER POTION?$"
+	.string "{JPN}メカドール3 クイズ.\p"
+	.string "{JPN}むしよけスプレーと サイダーを\n"
+	.string "{JPN}あわせて スーパーキズぐすり\nより たかいですか?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Intro:
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 4 THAT IS ME!\p"
-	.string "MY QUIZ IS AN OBJECT OF BEAUTY.$"
+	.string "{JPN}カチャカチャ   \n"
+	.string "{JPN}メカドール4 だ!\p"
+	.string "{JPN}わたしの クイズは びじゅつひん だ.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1:
-	.string "MECHADOLL 4 QUIZ.\p"
-	.string "In SEASHORE HOUSE, were there more men\n"
-	.string "or women?$"
+	.string "{JPN}メカドール4 クイズ.\p"
+	.string "{JPN}うみのいえでは おとこのひとと\n"
+	.string "{JPN}おんなのひと どちらがおおい?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2:
-	.string "MECHADOLL 4 QUIZ.\p"
-	.string "In LAVARIDGE TOWN, were there more\n"
-	.string "elderly men or elderly women?$"
+	.string "{JPN}メカドール4 クイズ.\p"
+	.string "{JPN}フエンタウンでは おじいさんと\n"
+	.string "{JPN}おばあさん どちらがおおい?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3:
-	.string "MECHADOLL 4 QUIZ.\p"
-	.string "In the TRAINER'S SCHOOL, how many\n"
-	.string "girl students were there?$"
+	.string "{JPN}メカドール4 クイズ.\p"
+	.string "{JPN}トレーナーズスクールには\n"
+	.string "{JPN}おんなのこのせいとが\nなんにんいましたか?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Intro:
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 5 AM I!\p"
-	.string "THE MASTER'S BEST AND PROUDEST\n"
-	.string "ACHIEVEMENT AM I.$"
+	.string "{JPN}カチャカチャ   \n"
+	.string "{JPN}メカドール5 だ!\p"
+	.string "{JPN}マスターの さいこうで\n"
+	.string "{JPN}もっとも ほこらしい さくひんだ.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
-	.string "MECHADOLL 5 QUIZ.\p"
-	.string "In SLATEPORT's POKéMON FAN CLUB,\n"
-	.string "how many POKéMON were there?$"
+	.string "{JPN}メカドール5 クイズ.\p"
+	.string "{JPN}カイナシティの ポケモンだいすき\n"
+	.string "{JPN}クラブには ポケモンが\nなんびきいましたか?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2:
-	.string "MECHADOLL 5 QUIZ.\p"
-	.string "In FORTREE CITY, how many\n"
-	.string "tree houses were there?$"
+	.string "{JPN}メカドール5 クイズ.\p"
+	.string "{JPN}ヒワマキシティには きのうえの\n"
+	.string "{JPN}いえが なんけんありましたか?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:
-	.string "MECHADOLL 5 QUIZ.\p"
-	.string "On the CYCLING ROAD, how many\n"
-	.string "TRIATHLETES were there?$"
+	.string "{JPN}メカドール5 クイズ.\n"
+	.string "{JPN}サイクリングロードには\n"
+	.string "{JPN}トライアスリートが\nなんにんいましたか?$"

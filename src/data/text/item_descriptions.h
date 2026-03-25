@@ -3,602 +3,611 @@ static const u8 sDummyDesc[] = _(
 
 // Pokeballs
 static const u8 sMasterBallDesc[] = _(
-    "The best BALL that\n"
-    "catches a POKéMON\n"
-    "without fail.");
+    "{JPN}やせいのポケモンをかならず\n"
+    "つかまえることができる\n"
+    "さいこうせいのうのボール。");
 
 static const u8 sUltraBallDesc[] = _(
-    "A better BALL with\n"
-    "a higher catch rate\n"
-    "than a GREAT BALL.");
+    "{JPN}スーパーボールよりもさらに\n"
+    "ポケモンをつかまえやすくなった\n"
+    "すごくせいのうのいいボール。");
 
 static const u8 sGreatBallDesc[] = _(
-    "A good BALL with a\n"
-    "higher catch rate\n"
-    "than a POKé BALL.");
+    "{JPN}モンスターボールよりもさらに\n"
+    "ポケモンをつかまえやすくなった\n"
+    "すこしせいのうのいいボール。");
 
 static const u8 sPokeBallDesc[] = _(
-    "A tool used for\n"
-    "catching wild\n"
-    "POKéMON.");
+    "{JPN}やせいのポケモンになげて\n"
+    "つかまえるためのボール。\n"
+    "カプセルしきになっている。");
 
 static const u8 sSafariBallDesc[] = _(
-    "A special BALL that\n"
-    "is used only in the\n"
-    "SAFARI ZONE.");
+    "{JPN}だいしつげんのなかだけで\n"
+    "つかうとくべつなボール。\n"
+    "めいさいがらになっている。");
 
 static const u8 sNetBallDesc[] = _(
-    "A BALL that works\n"
-    "well on WATER- and\n"
-    "BUG-type POKéMON.");
+    "{JPN}みずタイプとむしタイプの\n"
+    "ポケモンがつかまえやすくなる\n"
+    "ちょっとかわったボール。");
 
 static const u8 sDiveBallDesc[] = _(
-    "A BALL that works\n"
-    "better on POKéMON\n"
-    "on the ocean floor.");
+    "{JPN}みずのせかいでくらしている\n"
+    "ポケモンがつかまえやすくなる\n"
+    "ちょっとかわったボール。");
 
 static const u8 sNestBallDesc[] = _(
-    "A BALL that works\n"
-    "better on weaker\n"
-    "POKéMON.");
+    "{JPN}つかまえるやせいのポケモンが\n"
+    "よわいほどつかまえやすくなる\n"
+    "ちょっとかわったボール。");
 
 static const u8 sRepeatBallDesc[] = _(
-    "A BALL that works\n"
-    "better on POKéMON\n"
-    "caught before.");
+    "{JPN}つかまえたことのある\n"
+    "ポケモンがつかまえやすくなる\n"
+    "ちょっとかわったボール。");
 
 static const u8 sTimerBallDesc[] = _(
-    "A BALL that gains\n"
-    "power in battles\n"
-    "taking many turns.");
+    "{JPN}ターンすうがかかればかかるほど\n"
+    "ポケモンがつかまえやすくなる\n"
+    "ちょっとかわったボール。");
 
 static const u8 sLuxuryBallDesc[] = _(
-    "A cozy BALL that\n"
-    "makes POKéMON\n"
-    "more friendly.");
+    "{JPN}つかまえたやせいポケモンが\n"
+    "とてもなつきやすくなる\n"
+    "いごこちのいいボール。");
 
 static const u8 sPremierBallDesc[] = _(
-    "A rare BALL made\n"
-    "in commemoration\n"
-    "of some event.");
+    "{JPN}なにかのきねんのしなとして\n"
+    "とくべつにつくられた\n"
+    "ちょっとめずらしいボール。");
 
 
 //gsc balls
 static const u8 sLoveBallDesc[] = _(
-    "A BALL that works\n"
-    "well on FAIRY and\n"
-    "PSYCHIC POKéMON.");
+    "{JPN}じぶんのポケモンとせいべつが\n"
+    "ちがうとつかまえやすくなる\n"
+    "ちょっとかわったボール。");
 
 static const u8 sLureBallDesc[] = _(
-    "A BALL that works\n"
-    "well on WATER and\n"
-    "DRAGON POKéMON.");
+    "{JPN}つりざおでつりあげたポケモンだと\n"
+    "つかまえやすくなる\n"
+    "ちょっとかわったボール。");
 
 static const u8 sFriendBallDesc[] = _(
-    "A BALL that works\n"
-    "well on BUG and\n"
-    "GRASS POKéMON.");
+    "{JPN}つかまえたやせいポケモンが\n"
+    "すぐになついてくれる\n"
+    "ちょっとかわったボール。");
 
 static const u8 sHeavyBallDesc[] = _(
-    "Works well on\n"
-    "ROCK, GROUND and\n"
-    "STEEL POKéMON.");
+    "{JPN}たいじゅうのおもいポケモンが\n"
+    "つかまえやすくなる\n"
+    "ちょっとかわったボール。");
 
 static const u8 sMoonBallDesc[] = _(
-    "Works well on\n"
-    "DARK, GHOST and\n"
-    "POISON POKéMON.");
+    "{JPN}つきのいしでしんかするポケモンが\n"
+    "つかまえやすくなる\n"
+    "ちょっとかわったボール。");
 
 static const u8 sLevelBallDesc[] = _(
-    "Works well on\n"
-    "NORMAL, FLYING\n"
-    "and ICE POKéMON.");
+    "{JPN}じぶんのポケモンよりレベルが\n"
+    "ひくいほどつかまえやすくなる\n"
+    "ちょっとかわったボール。");
 
 static const u8 sFastBallDesc[] = _(
-    "Works well on\n"
-    "ELECTRIC, FIGHTING\n"
-    "and FIRE POKéMON.");
+    "{JPN}すばやさのたかいポケモンが\n"
+    "つかまえやすくなる\n"
+    "ちょっとかわったボール。");
 
 static const u8 sGSBallDesc[] = _(
-    "A mysterious ball.\n"
-    "Maybe KURT can\n"
-    "identify it.");
+    "{JPN}ふしぎなボール。\n"
+    "ガンテツなら\n"
+    "わかるかもしれない。");
 
 
 // Medicine
 static const u8 sPotionDesc[] = _(
-    "Restores the HP of\n"
-    "a POKéMON by\n"
-    "20 points.");
+    "{JPN}スプレーしきのキズぐすり。\n"
+    "ポケモン1ひきのHPを\n"
+    "20だけかいふくする。");
 
 static const u8 sAntidoteDesc[] = _(
-    "Heals a poisoned\n"
-    "POKéMON.");
+    "{JPN}スプレーしきのくすり。\n"
+    "ポケモン1ひきのどくの\n"
+    "じょうたいをかいふくする。");
 
 static const u8 sBurnHealDesc[] = _(
-    "Heals POKéMON\n"
-    "of a burn.");
+    "{JPN}スプレーしきのくすり。\n"
+    "ポケモン1ひきのやけどの\n"
+    "じょうたいをかいふくする。");
 
 static const u8 sIceHealDesc[] = _(
-    "Defrosts a frozen\n"
-    "POKéMON.");
+    "{JPN}スプレーしきのくすり。\n"
+    "ポケモン1ひきのこおりの\n"
+    "じょうたいをかいふくする。");
 
 static const u8 sAwakeningDesc[] = _(
-    "Awakens a sleeping\n"
-    "POKéMON.");
+    "{JPN}スプレーしきのくすり。\n"
+    "ポケモン1ひきのねむりの\n"
+    "じょうたいをかいふくする。");
 
 static const u8 sParalyzeHealDesc[] = _(
-    "Heals a paralyzed\n"
-    "POKéMON.");
+    "{JPN}スプレーしきのくすり。\n"
+    "ポケモン1ひきのまひの\n"
+    "じょうたいをかいふくする。");
 
 static const u8 sFullRestoreDesc[] = _(
-    "Fully restores the\n"
-    "HP and status of a\n"
-    "POKéMON.");
+    "{JPN}ポケモン1ひきのHPと\n"
+    "じょうたいいじょうをすべて\n"
+    "かいふくする。");
 
 static const u8 sMaxPotionDesc[] = _(
-    "Fully restores the\n"
-    "HP of a POKéMON.");
+    "{JPN}スプレーしきのキズぐすり。\n"
+    "ポケモン1ひきのHPを\n"
+    "すべてかいふくする。");
 
 static const u8 sHyperPotionDesc[] = _(
-    "Restores the HP of\n"
-    "a POKéMON by\n"
-    "200 points.");
+    "{JPN}スプレーしきのキズぐすり。\n"
+    "ポケモン1ひきのHPを\n"
+    "200だけかいふくする。");
 
 static const u8 sSuperPotionDesc[] = _(
-    "Restores the HP of\n"
-    "a POKéMON by\n"
-    "50 points.");
+    "{JPN}スプレーしきのキズぐすり。\n"
+    "ポケモン1ひきのHPを\n"
+    "50だけかいふくする。");
 
 static const u8 sFullHealDesc[] = _(
-    "Heals all the\n"
-    "status problems of\n"
-    "one POKéMON.");
+    "{JPN}スプレーしきのくすり。\n"
+    "ポケモン1ひきのじょうたいの\n"
+    "いじょうをすべてかいふくする。");
 
 static const u8 sReviveDesc[] = _(
-    "Revives a fainted\n"
-    "POKéMON with half\n"
-    "its HP.");
+    "{JPN}ひんしになってしまった\n"
+    "ポケモン1ひきのHPを\n"
+    "はんぶんまでかいふくする。");
 
 static const u8 sMaxReviveDesc[] = _(
-    "Revives a fainted\n"
-    "POKéMON with all\n"
-    "its HP.");
+    "{JPN}ひんしになってしまった\n"
+    "ポケモン1ひきのHPを\n"
+    "すべてかいふくする。");
 
 static const u8 sFreshWaterDesc[] = _(
-    "A mineral water\n"
-    "that restores HP\n"
-    "by 50 points.");
+    "{JPN}ミネラルたっぷりのみず。\n"
+    "ポケモン1ひきのHPを\n"
+    "50だけかいふくする。");
 
 static const u8 sSodaPopDesc[] = _(
-    "A fizzy soda drink\n"
-    "that restores HP\n"
-    "by 60 points.");
+    "{JPN}シュワっとはじけるソーダ。\n"
+    "ポケモン1ひきのHPを\n"
+    "60だけかいふくする。");
 
 static const u8 sLemonadeDesc[] = _(
-    "A very sweet drink\n"
-    "that restores HP\n"
-    "by 80 points.");
+    "{JPN}とてもあまいジュース。\n"
+    "ポケモン1ひきのHPを\n"
+    "80だけかいふくする。");
 
 static const u8 sMoomooMilkDesc[] = _(
-    "A nutritious milk\n"
-    "that restores HP\n"
-    "by 100 points.");
+    "{JPN}えいようまんてんのミルク。\n"
+    "ポケモン1ひきのHPを\n"
+    "100だけかいふくする。");
 
 static const u8 sEnergyPowderDesc[] = _(
-    "A bitter powder\n"
-    "that restores HP\n"
-    "by 50 points.");
+    "{JPN}とてもにがいこなぐすり。\n"
+    "ポケモン1ひきのHPを\n"
+    "50だけかいふくする。");
 
 static const u8 sEnergyRootDesc[] = _(
-    "A bitter root\n"
-    "that restores HP\n"
-    "by 200 points.");
+    "{JPN}とてもにがいねっこ。\n"
+    "ポケモン1ひきのHPを\n"
+    "200だけかいふくする。");
 
 static const u8 sHealPowderDesc[] = _(
-    "A bitter powder\n"
-    "that heals all\n"
-    "status problems.");
+    "{JPN}とてもにがいこなぐすり。\n"
+    "ポケモン1ひきのじょうたいの\n"
+    "いじょうをすべてかいふくする。");
 
 static const u8 sRevivalHerbDesc[] = _(
-    "A very bitter herb\n"
-    "that revives a\n"
-    "fainted POKéMON.");
+    "{JPN}とてもにがいやくそう。\n"
+    "ひんしのポケモン1ひきの\n"
+    "HPをすべてかいふくする。");
 
 static const u8 sEtherDesc[] = _(
-    "Restores the PP\n"
-    "of a selected move\n"
-    "by 10.");
+    "{JPN}ポケモンがおぼえている\n"
+    "わざのうち1つのPPを\n"
+    "10だけかいふくする。");
 
 static const u8 sMaxEtherDesc[] = _(
-    "Fully restores the\n"
-    "PP of a selected\n"
-    "move.");
+    "{JPN}ポケモンがおぼえている\n"
+    "わざのうち1つのPPを\n"
+    "すべてかいふくする。");
 
 static const u8 sElixirDesc[] = _(
-    "Restores the PP\n"
-    "of all moves by 10.");
+    "{JPN}ポケモンがおぼえている\n"
+    "4つのわざのPPを\n"
+    "10ずつかいふくする。");
 
 static const u8 sMaxElixirDesc[] = _(
-    "Fully restores the\n"
-    "PP of a POKéMON's\n"
-    "moves.");
+    "{JPN}ポケモンがおぼえている\n"
+    "4つのわざのPPを\n"
+    "すべてかいふくする。");
 
 static const u8 sLavaCookieDesc[] = _(
-    "A local specialty\n"
-    "that heals all\n"
-    "status problems.");
+    "{JPN}フエンめいぶつのせんべい。\n"
+    "ポケモン1ひきのじょうたい\n"
+    "いじょうをかいふくする。");
 
 static const u8 sBlueFluteDesc[] = _(
-    "A glass flute that\n"
-    "awakens sleeping\n"
-    "POKéMON.");
+    "{JPN}ガラスせいのあおいふえ。\n"
+    "ポケモン1ひきのねむりの\n"
+    "じょうたいをかいふくする。");
 
 static const u8 sYellowFluteDesc[] = _(
-    "A glass flute that\n"
-    "snaps POKéMON\n"
-    "out of confusion.");
+    "{JPN}ガラスせいのきいろいふえ。\n"
+    "ポケモン1ひきのこんらんの\n"
+    "じょうたいをかいふくする。");
 
 static const u8 sRedFluteDesc[] = _(
-    "A glass flute that\n"
-    "snaps POKéMON\n"
-    "out of attraction.");
+    "{JPN}ガラスせいのあかいふえ。\n"
+    "ポケモン1ひきのメロメロの\n"
+    "じょうたいをかいふくする。");
 
 static const u8 sBlackFluteDesc[] = _(
-    "A glass flute that\n"
-    "keeps away wild\n"
-    "POKéMON.");
+    "{JPN}ガラスせいのくろいふえ。\n"
+    "ふくとやせいのポケモンが\n"
+    "でてきにくくなる。");
 
 static const u8 sWhiteFluteDesc[] = _(
-    "A glass flute that\n"
-    "lures wild POKéMON.");
+    "{JPN}ガラスせいのしろいふえ。\n"
+    "ふくとやせいのポケモンが\n"
+    "でてきやすくなる。");
 
 static const u8 sBerryJuiceDesc[] = _(
-    "A 100% pure juice\n"
-    "that restores HP\n"
-    "by 20 points.");
+    "{JPN}きのみ100%のジュース。\n"
+    "ポケモン1ひきのHPを\n"
+    "20だけかいふくする。");
 
 static const u8 sSacredAshDesc[] = _(
-    "Fully revives and\n"
-    "restores all\n"
-    "fainted POKéMON.");
+    "{JPN}ひんしになってしまった\n"
+    "ポケモンぜんいんのHPを\n"
+    "すべてかいふくする。");
 
 // Collectibles
 static const u8 sShoalSaltDesc[] = _(
-    "Salt obtained from\n"
-    "deep inside the\n"
-    "SHOAL CAVE.");
+    "{JPN}あさせのほらあなのなかで\n"
+    "みつけたきれいなしお。\n"
+    "ものすごくしょっぱい。");
 
 static const u8 sShoalShellDesc[] = _(
-    "A seashell found\n"
-    "deep inside the\n"
-    "SHOAL CAVE.");
+    "{JPN}あさせのほらあなのなかで\n"
+    "みつけたきれいなかいがら。\n"
+    "あおとしろのしまもよう。");
 
 static const u8 sRedShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+    "{JPN}あかいちいさなかけら。\n"
+    "むかしにつくられたなにかの\n"
+    "どうぐのいちぶらしい。");
 
 static const u8 sBlueShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+    "{JPN}あおいちいさなかけら。\n"
+    "むかしにつくられたなにかの\n"
+    "どうぐのいちぶらしい。");
 
 static const u8 sYellowShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+    "{JPN}きいろいちいさなかけら。\n"
+    "むかしにつくられたなにかの\n"
+    "どうぐのいちぶらしい。");
 
 static const u8 sGreenShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+    "{JPN}みどりのちいさなかけら。\n"
+    "むかしにつくられたなにかの\n"
+    "どうぐのいちぶらしい。");
 
 static const u8 sFertilizerDesc[] = _(
-    "Used to instantly\n"
-    "grow berry trees.\n"
-    "Has a funny smell.");
+    "{JPN}きのみのきをすぐに\n"
+    "そだてるためのひりょう。\n"
+    "へんなにおいがする。");
 
 // Vitamins
 static const u8 sHPUpDesc[] = _(
-    "Raises the base HP\n"
-    "of one POKéMON.");
+    "{JPN}ポケモンのえいようドリンク。\n"
+    "ポケモン1ひきのHPの\n"
+    "きそポイントをあげる。");
 
 static const u8 sProteinDesc[] = _(
-    "Raises the base\n"
-    "ATTACK stat of one\n"
-    "POKéMON.");
+    "{JPN}ポケモンのえいようドリンク。\n"
+    "ポケモン1ひきのこうげきの\n"
+    "きそポイントをあげる。");
 
 static const u8 sIronDesc[] = _(
-    "Raises the base\n"
-    "DEFENSE stat of\n"
-    "one POKéMON.");
+    "{JPN}ポケモンのえいようドリンク。\n"
+    "ポケモン1ひきのぼうぎょの\n"
+    "きそポイントをあげる。");
 
 static const u8 sCarbosDesc[] = _(
-    "Raises the base\n"
-    "SPEED stat of one\n"
-    "POKéMON.");
+    "{JPN}ポケモンのえいようドリンク。\n"
+    "ポケモン1ひきのすばやさの\n"
+    "きそポイントをあげる。");
 
 static const u8 sCalciumDesc[] = _(
-    "Raises the base\n"
-    "SP. ATK stat of one\n"
-    "POKéMON.");
+    "{JPN}ポケモンのえいようドリンク。\n"
+    "ポケモン1ひきのとくこうの\n"
+    "きそポイントをあげる。");
 
 static const u8 sRareCandyDesc[] = _(
-    "Raises the level\n"
-    "of a POKéMON by\n"
-    "one.");
+    "{JPN}エネルギーのつまったアメ。\n"
+    "あたえるとポケモン1ひきの\n"
+    "レベルが1だけあがる。");
 
 static const u8 sPPUpDesc[] = _(
-    "Raises the maximum\n"
-    "PP of a selected\n"
-    "move.");
+    "{JPN}ポケモンがおぼえている\n"
+    "わざのうち1つのPPの\n"
+    "さいだいちをすこしあげる。");
 
 static const u8 sZincDesc[] = _(
-    "Raises the base\n"
-    "SP. DEF stat of one\n"
-    "POKéMON.");
+    "{JPN}ポケモンのえいようドリンク。\n"
+    "ポケモン1ひきのとくぼうの\n"
+    "きそポイントをあげる。");
 
 static const u8 sPPMaxDesc[] = _(
-    "Raises the PP of a\n"
-    "move to its maximum\n"
-    "points.");
+    "{JPN}おぼえているわざのうち\n"
+    "1つのPPのさいだいちを\n"
+    "さいこうまであげる。");
 
 // Battle items
 static const u8 sGuardSpecDesc[] = _(
-    "Prevents stat\n"
-    "reduction when\n"
-    "used in battle.");
+    "{JPN}せんとうちゅう5ターンのあいだ\n"
+    "みかたののうりょくを\n"
+    "さげられなくするどうぐ。");
 
 static const u8 sDireHitDesc[] = _(
-    "Raises the\n"
-    "critical-hit ratio\n"
-    "during one battle.");
+    "{JPN}せんとうちゅうきゅうしょに\n"
+    "あたりやすくなるどうぐ。\n"
+    "ひっこめるともとにもどる。");
 
 static const u8 sXAttackDesc[] = _(
-    "Raises the stat\n"
-    "ATTACK during one\n"
-    "battle.");
+    "{JPN}せんとうちゅうのポケモンの\n"
+    "こうげきをあげるどうぐ。\n"
+    "ひっこめるともとにもどる。");
 
 static const u8 sXDefendDesc[] = _(
-    "Raises the stat\n"
-    "DEFENSE during one\n"
-    "battle.");
+    "{JPN}せんとうちゅうのポケモンの\n"
+    "ぼうぎょをあげるどうぐ。\n"
+    "ひっこめるともとにもどる。");
 
 static const u8 sXSpeedDesc[] = _(
-    "Raises the stat\n"
-    "SPEED during one\n"
-    "battle.");
+    "{JPN}せんとうちゅうのポケモンの\n"
+    "すばやさをあげるどうぐ。\n"
+    "ひっこめるともとにもどる。");
 
 static const u8 sXAccuracyDesc[] = _(
-    "Raises accuracy\n"
-    "of attack moves\n"
-    "during one battle.");
+    "{JPN}せんとうちゅうのポケモンの\n"
+    "めいちゅうをあげるどうぐ。\n"
+    "ひっこめるともとにもどる。");
 
 static const u8 sXSpecialDesc[] = _(
-    "Raises the stat\n"
-    "SP. ATK during one\n"
-    "battle.");
+    "{JPN}せんとうちゅうのポケモンの\n"
+    "とくこうをあげるどうぐ。\n"
+    "ひっこめるともとにもどる。");
 
 static const u8 sPokeDollDesc[] = _(
-    "Use to flee from\n"
-    "any battle with\n"
-    "a wild POKéMON.");
+    "{JPN}ポケモンのきをひかせるどうぐ。\n"
+    "やせいポケモンとのせんとうから\n"
+    "ぜったいににげられる。");
 
 static const u8 sFluffyTailDesc[] = _(
-    "Use to flee from\n"
-    "any battle with\n"
-    "a wild POKéMON.");
+    "{JPN}ポケモンのきをひかせるどうぐ。\n"
+    "やせいポケモンとのせんとうから\n"
+    "ぜったいににげられる。");
 
 // Field items
 static const u8 sSuperRepelDesc[] = _(
-    "Repels weak wild\n"
-    "POKéMON for 200\n"
-    "steps.");
+    "{JPN}200ぽすすむあいだ\n"
+    "よわいやせいのポケモンが\n"
+    "まったくでてこなくなる。");
 
 static const u8 sMaxRepelDesc[] = _(
-    "Repels weak wild\n"
-    "POKéMON for 250\n"
-    "steps.");
+    "{JPN}250ぽすすむあいだ\n"
+    "よわいやせいのポケモンが\n"
+    "まったくでてこなくなる。");
 
 static const u8 sEscapeRopeDesc[] = _(
-    "Use to escape\n"
-    "instantly from a\n"
-    "cave or a dungeon.");
+    "{JPN}ながくてじょうぶなヒモ。\n"
+    "どうくつやダンジョンから\n"
+    "ぬけだすことができる。");
 
 static const u8 sRepelDesc[] = _(
-    "Repels weak wild\n"
-    "POKéMON for 100\n"
-    "steps.");
+    "{JPN}100ぽすすむあいだ\n"
+    "よわいやせいのポケモンが\n"
+    "まったくでてこなくなる。");
 
 // Evolution stones
 static const u8 sSunStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+    "{JPN}あるとくていのポケモンを\n"
+    "しんかさせるふしぎないし。\n"
+    "たいようのようにあかい。");
 
 static const u8 sMoonStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+    "{JPN}あるとくていのポケモンを\n"
+    "しんかさせるふしぎないし。\n"
+    "よぞらのようにくろい。");
 
 static const u8 sFireStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+    "{JPN}あるとくていのポケモンを\n"
+    "しんかさせるふしぎないし。\n"
+    "だいだいいろをしている。");
 
 static const u8 sThunderStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+    "{JPN}あるとくていのポケモンを\n"
+    "しんかさせるふしぎないし。\n"
+    "いなずまのもようがある。");
 
 static const u8 sWaterStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+    "{JPN}あるとくていのポケモンを\n"
+    "しんかさせるふしぎないし。\n"
+    "すんだみずいろをしている。");
 
 static const u8 sLeafStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+    "{JPN}あるとくていのポケモンを\n"
+    "しんかさせるふしぎないし。\n"
+    "はっぱのもようがある。");
 
 // Valuable items
 static const u8 sTinyMushroomDesc[] = _(
-    "A plain mushroom\n"
-    "that would sell\n"
-    "at a cheap price.");
+    "{JPN}ちいさなめずらしいキノコ。\n"
+    "いちぶのマニアのあいだでは\n"
+    "けっこうにんきがたかい。");
 
 static const u8 sBigMushroomDesc[] = _(
-    "A rare mushroom\n"
-    "that would sell at a\n"
-    "high price.");
+    "{JPN}おおきなめずらしいキノコ。\n"
+    "いちぶのマニアのあいだでは\n"
+    "とてもにんきがたかい。");
 
 static const u8 sPearlDesc[] = _(
-    "A pretty pearl\n"
-    "that would sell at a\n"
-    "cheap price.");
+    "{JPN}きれいなぎんいろにひかる\n"
+    "すこしちいさめのしんじゅ。\n"
+    "ショップでやすくうれる。");
 
 static const u8 sBigPearlDesc[] = _(
-    "A lovely large pearl\n"
-    "that would sell at a\n"
-    "high price.");
+    "{JPN}きれいなぎんいろにひかる\n"
+    "かなりおおつぶのしんじゅ。\n"
+    "ショップでたかくうれる。");
 
 static const u8 sStardustDesc[] = _(
-    "Beautiful red sand.\n"
-    "Can be sold at a\n"
-    "high price.");
+    "{JPN}てざわりがサラサラの\n"
+    "あかくてきれいなすな。\n"
+    "ショップでたかくうれる。");
 
 static const u8 sStarPieceDesc[] = _(
-    "A red gem shard.\n"
-    "It would sell for a\n"
-    "very high price.");
+    "{JPN}キラキラとあかくひかる\n"
+    "きれいなほうせきのかけら。\n"
+    "ショップでたかくうれる。");
 
 static const u8 sNuggetDesc[] = _(
-    "A nugget of pure\n"
-    "gold. Can be sold at\n"
-    "a high price.");
+    "{JPN}キラキラときんいろにひかる\n"
+    "じゅんきんせいのたま。\n"
+    "ショップでたかくうれる。");
 
 static const u8 sBigNuggetDesc[] = _(
-    "Big nugget of pure\n"
-    "gold. Can be sold at\n"
-    "a very high price.");
+    "{JPN}おおきなじゅんきんせいのたま。\n"
+    "ショップでとてもたかく\n"
+    "うることができる。");
 
 static const u8 sHeartScaleDesc[] = _(
-    "A lovely scale.\n"
-    "It is coveted by\n"
-    "collectors.");
+    "{JPN}きれいなハートのかたちの\n"
+    "とてもめずらしいウロコ。\n"
+    "にじいろにうすくかがやく。");
 
 // Mail
 static const u8 sOrangeMailDesc[] = _(
-    "A ZIGZAGOON-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "{JPN}ジグザグマがらのメール。\n"
+    "ポケモンにもたせて\n"
+    "つかう。");
 
 static const u8 sHarborMailDesc[] = _(
-    "A WINGULL-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "{JPN}キャモメがらのメール。\n"
+    "ポケモンにもたせて\n"
+    "つかう。");
 
 static const u8 sGlitterMailDesc[] = _(
-    "A PIKACHU-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "{JPN}ピカチュウがらのメール。\n"
+    "ポケモンにもたせて\n"
+    "つかう。");
 
 static const u8 sMechMailDesc[] = _(
-    "A MAGNEMITE-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "{JPN}コイルがらのメール。\n"
+    "ポケモンにもたせて\n"
+    "つかう。");
 
 static const u8 sWoodMailDesc[] = _(
-    "A SLAKOTH-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "{JPN}ナマケロがらのメール。\n"
+    "ポケモンにもたせて\n"
+    "つかう。");
 
 static const u8 sWaveMailDesc[] = _(
-    "A WAILMER-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "{JPN}ホエルコがらのメール。\n"
+    "ポケモンにもたせて\n"
+    "つかう。");
 
 static const u8 sBeadMailDesc[] = _(
-    "MAIL featuring a\n"
-    "sketch of the\n"
-    "holding POKéMON.");
+    "{JPN}もっているポケモンの\n"
+    "イラストがのっている\n"
+    "メール。");
 
 static const u8 sShadowMailDesc[] = _(
-    "A DUSKULL-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "{JPN}ヨマワルがらのメール。\n"
+    "ポケモンにもたせて\n"
+    "つかう。");
 
 static const u8 sTropicMailDesc[] = _(
-    "A BELLOSSOM-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+    "{JPN}キレイハナがらのメール。\n"
+    "ポケモンにもたせて\n"
+    "つかう。");
 
 static const u8 sDreamMailDesc[] = _(
-    "MAIL featuring a\n"
-    "sketch of the\n"
-    "holding POKéMON.");
+    "{JPN}もっているポケモンの\n"
+    "イラストがのっている\n"
+    "メール。");
 
 static const u8 sFabMailDesc[] = _(
-    "A gorgeous-print\n"
-    "MAIL to be held\n"
-    "by a POKéMON.");
+    "{JPN}ゴージャスながらのメール。\n"
+    "ポケモンにもたせて\n"
+    "つかう。");
 
 static const u8 sRetroMailDesc[] = _(
-    "MAIL featuring the\n"
-    "drawings of three\n"
-    "POKéMON.");
+    "{JPN}3びきのポケモンの\n"
+    "イラストがのっている\n"
+    "メール。");
 
 // Berries
 static const u8 sCheriBerryDesc[] = _(
-    "A hold item that\n"
-    "heals paralysis\n"
-    "in battle.");
+    "{JPN}ポケモンにつかったり\n"
+    "もたせたりすると\n"
+    "まひをかいふくする。");
 
 static const u8 sChestoBerryDesc[] = _(
-    "A hold item that\n"
-    "awakens POKéMON\n"
-    "in battle.");
+    "{JPN}ポケモンにつかったり\n"
+    "もたせたりすると\n"
+    "ねむりをかいふくする。");
 
 static const u8 sPechaBerryDesc[] = _(
-    "A hold item that\n"
-    "heals poisoning\n"
-    "in battle.");
+    "{JPN}ポケモンにつかったり\n"
+    "もたせたりすると\n"
+    "どくをかいふくする。");
 
 static const u8 sRawstBerryDesc[] = _(
-    "A hold item that\n"
-    "heals a burn in\n"
-    "battle.");
+    "{JPN}ポケモンにつかったり\n"
+    "もたせたりすると\n"
+    "やけどをかいふくする。");
 
 static const u8 sAspearBerryDesc[] = _(
-    "A hold item that\n"
-    "defrosts POKéMON\n"
-    "in battle.");
+    "{JPN}ポケモンにつかったり\n"
+    "もたせたりすると\n"
+    "こおりをかいふくする。");
 
 static const u8 sLeppaBerryDesc[] = _(
-    "A hold item that\n"
-    "restores 10 PP in\n"
-    "battle.");
+    "{JPN}ポケモンにつかったり\n"
+    "もたせたりすると\n"
+    "PPを10だけかいふくする。");
 
 static const u8 sOranBerryDesc[] = _(
-    "A hold item that\n"
-    "restores 10 HP in\n"
-    "battle.");
+    "{JPN}ポケモンにつかったり\n"
+    "もたせたりすると\n"
+    "HPを10だけかいふくする。");
 
 static const u8 sPersimBerryDesc[] = _(
-    "A hold item that\n"
-    "heals confusion\n"
-    "in battle.");
+    "{JPN}ポケモンにつかったり\n"
+    "もたせたりすると\n"
+    "こんらんをかいふくする。");
 
 static const u8 sLumBerryDesc[] = _(
-    "A hold item that\n"
-    "heals any status\n"
-    "problem in battle.");
+    "{JPN}ポケモンにつかったり\n"
+    "もたせたりするとすべての\n"
+    "じょうたいいじょうをかいふくする。");
 
 static const u8 sSitrusBerryDesc[] = _(
-    "A hold item that\n"
-    "restores 25% HP in\n"
-    "battle.");
+    "{JPN}ポケモンにつかったり\n"
+    "もたせたりすると\n"
+    "HPをすこしだけかいふくする。");
 
 static const u8 sSitrusBerryDesc_Old[] = _(
     "A hold item that\n"
@@ -606,325 +615,325 @@ static const u8 sSitrusBerryDesc_Old[] = _(
     "battle.");
 
 static const u8 sFigyBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+    "{JPN}もたせるとピンチのときHPを\n"
+    "かいふくできる。からいあじが\n"
+    "きらいだとこんらんもしてしまう。");
 
 static const u8 sWikiBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+    "{JPN}もたせるとピンチのときHPを\n"
+    "かいふくできる。しぶいあじが\n"
+    "きらいだとこんらんもしてしまう。");
 
 static const u8 sMagoBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+    "{JPN}もたせるとピンチのときHPを\n"
+    "かいふくできる。あまいあじが\n"
+    "きらいだとこんらんもしてしまう。");
 
 static const u8 sAguavBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+    "{JPN}もたせるとピンチのときHPを\n"
+    "かいふくできる。にがいあじが\n"
+    "きらいだとこんらんもしてしまう。");
 
 static const u8 sIapapaBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+    "{JPN}もたせるとピンチのときHPを\n"
+    "かいふくできる。すっぱいあじが\n"
+    "きらいだとこんらんもしてしまう。");
 
 static const u8 sRazzBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow RAZZ.");
+    "{JPN}シンオウちほうではポフィンという\n"
+    "ポケモンにあげるおかしの\n"
+    "ざいりょうとしてゆうめい。");
 
 static const u8 sBlukBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow BLUK.");
+    "{JPN}シンオウちほうではポフィンという\n"
+    "ポケモンにあげるおかしの\n"
+    "ざいりょうとしてゆうめい。");
 
 static const u8 sNanabBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow NANAB.");
+    "{JPN}シンオウちほうではポフィンという\n"
+    "ポケモンにあげるおかしの\n"
+    "ざいりょうとしてゆうめい。");
 
 static const u8 sWepearBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow WEPEAR.");
+    "{JPN}シンオウちほうではポフィンという\n"
+    "ポケモンにあげるおかしの\n"
+    "ざいりょうとしてゆうめい。");
 
 static const u8 sPinapBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow PINAP.");
+    "{JPN}シンオウちほうではポフィンという\n"
+    "ポケモンにあげるおかしの\n"
+    "ざいりょうとしてゆうめい。");
 
 static const u8 sPomegBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base HP.");
+    "{JPN}ポケモンにあげると\n"
+    "とてもなつきやすくなるが\n"
+    "HPのきそポイントはさがる。");
 
 static const u8 sKelpsyBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base ATTACK.");
+    "{JPN}ポケモンにあげると\n"
+    "とてもなつきやすくなるが\n"
+    "こうげきのきそポイントはさがる。");
 
 static const u8 sQualotBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base DEFENSE.");
+    "{JPN}ポケモンにあげると\n"
+    "とてもなつきやすくなるが\n"
+    "ぼうぎょのきそポイントはさがる。");
 
 static const u8 sHondewBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base SP. ATK.");
+    "{JPN}ポケモンにあげると\n"
+    "とてもなつきやすくなるが\n"
+    "とくこうのきそポイントはさがる。");
 
 static const u8 sGrepaBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base SP. DEF.");
+    "{JPN}ポケモンにあげると\n"
+    "とてもなつきやすくなるが\n"
+    "とくぼうのきそポイントはさがる。");
 
 static const u8 sTamatoBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base SPEED.");
+    "{JPN}ポケモンにあげると\n"
+    "とてもなつきやすくなるが\n"
+    "すばやさのきそポイントはさがる。");
 
 static const u8 sCornnBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow CORNN.");
+    "{JPN}シンオウちほうではポフィンという\n"
+    "ポケモンにあげるおかしの\n"
+    "ざいりょうとしてゆうめい。");
 
 static const u8 sMagostBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow MAGOST.");
+    "{JPN}シンオウちほうではポフィンという\n"
+    "ポケモンにあげるおかしの\n"
+    "ざいりょうとしてゆうめい。");
 
 static const u8 sRabutaBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow RABUTA.");
+    "{JPN}シンオウちほうではポフィンという\n"
+    "ポケモンにあげるおかしの\n"
+    "ざいりょうとしてゆうめい。");
 
 static const u8 sNomelBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow NOMEL.");
+    "{JPN}シンオウちほうではポフィンという\n"
+    "ポケモンにあげるおかしの\n"
+    "ざいりょうとしてゆうめい。");
 
 static const u8 sSpelonBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow SPELON.");
+    "{JPN}シンオウちほうではポフィンという\n"
+    "ポケモンにあげるおかしの\n"
+    "ざいりょうとしてゆうめい。");
 
 static const u8 sPamtreBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow PAMTRE.");
+    "{JPN}シンオウちほうではポフィンという\n"
+    "ポケモンにあげるおかしの\n"
+    "ざいりょうとしてゆうめい。");
 
 static const u8 sWatmelBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow WATMEL.");
+    "{JPN}シンオウちほうではポフィンという\n"
+    "ポケモンにあげるおかしの\n"
+    "ざいりょうとしてゆうめい。");
 
 static const u8 sDurinBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow DURIN.");
+    "{JPN}シンオウちほうではポフィンという\n"
+    "ポケモンにあげるおかしの\n"
+    "ざいりょうとしてゆうめい。");
 
 static const u8 sBelueBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow BELUE.");
+    "{JPN}シンオウちほうではポフィンという\n"
+    "ポケモンにあげるおかしの\n"
+    "ざいりょうとしてゆうめい。");
 
 static const u8 sLiechiBerryDesc[] = _(
-    "A hold item that\n"
-    "raises ATTACK in\n"
-    "a pinch.");
+    "{JPN}ポケモンにもたせると\n"
+    "ピンチのときじぶんの\n"
+    "こうげきがあがる。");
 
 static const u8 sGanlonBerryDesc[] = _(
-    "A hold item that\n"
-    "raises DEFENSE in\n"
-    "a pinch.");
+    "{JPN}ポケモンにもたせると\n"
+    "ピンチのときじぶんの\n"
+    "ぼうぎょがあがる。");
 
 static const u8 sSalacBerryDesc[] = _(
-    "A hold item that\n"
-    "raises SPEED in\n"
-    "a pinch.");
+    "{JPN}ポケモンにもたせると\n"
+    "ピンチのときじぶんの\n"
+    "すばやさがあがる。");
 
 static const u8 sPetayaBerryDesc[] = _(
-    "A hold item that\n"
-    "raises SP. ATK in\n"
-    "a pinch.");
+    "{JPN}ポケモンにもたせると\n"
+    "ピンチのときじぶんの\n"
+    "とくこうがあがる。");
 
 static const u8 sApicotBerryDesc[] = _(
-    "A hold item that\n"
-    "raises SP. DEF in\n"
-    "a pinch.");
+    "{JPN}ポケモンにもたせると\n"
+    "ピンチのときじぶんの\n"
+    "とくぼうがあがる。");
 
 static const u8 sLansatBerryDesc[] = _(
-    "A hold item that\n"
-    "ups the critical-\n"
-    "hit rate in a pinch.");
+    "{JPN}ポケモンにもたせると\n"
+    "ピンチのときこうげきが\n"
+    "きゅうしょにあたりやすくなる。");
 
 static const u8 sStarfBerryDesc[] = _(
-    "A hold item that\n"
-    "sharply boosts a\n"
-    "stat in a pinch.");
+    "{JPN}ポケモンにもたせると\n"
+    "ピンチのときどれか1つの\n"
+    "のうりょくがぐーんとあがる。");
 
 static const u8 sEnigmaBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow a mystery.");
+    "{JPN}ポケモンにもたせると\n"
+    "こうかばつぐんのわざを\n"
+    "うけたときHPをかいふくする。");
 
 // Hold items
 static const u8 sBrightPowderDesc[] = _(
-    "A hold item that\n"
-    "casts a glare to\n"
-    "reduce accuracy.");
+    "{JPN}キラキラひかるこな。もたせると\n"
+    "ひかりがあいてをまどわして\n"
+    "わざがめいちゅうしにくくなる。");
 
 static const u8 sWhiteHerbDesc[] = _(
-    "A hold item that\n"
-    "restores any\n"
-    "lowered stat.");
+    "{JPN}もたせたポケモンののうりょくが\n"
+    "さがったときいちどだけもとの\n"
+    "じょうたいにもどす。");
 
 static const u8 sMachoBraceDesc[] = _(
-    "A hold item that\n"
-    "promotes growth,\n"
-    "but reduces SPEED.");
+    "{JPN}かたくておもいギプス。\n"
+    "もたせるとすばやさはさがるが\n"
+    "ふつうよりつよくそだちやすい。");
 
 static const u8 sExpShareDesc[] = _(
-    "Turning it on\n"
-    "gives all POKéMON\n"
-    "EXP. points.");
+    "{JPN}もたせたポケモンはせんとうに\n"
+    "でなくてもけいけんちを\n"
+    "わけてもらえるべんりなそうち。");
 
 static const u8 sExpShareSmallDesc[] = _(
-    "A hold item that\n"
-    "gets EXP. points\n"
-    "from battles.");
+    "{JPN}もたせたポケモンはせんとうに\n"
+    "でなくてもけいけんちを\n"
+    "わけてもらえるべんりなそうち。");
 
 static const u8 sQuickClawDesc[] = _(
-    "A hold item that\n"
-    "occasionally allows\n"
-    "the first strike.");
+    "{JPN}かるくてするどいツメ。\n"
+    "もたせるとあいてよりさきに\n"
+    "こうどうできることがある。");
 
 static const u8 sSootheBellDesc[] = _(
-    "A hold item that\n"
-    "calms spirits and\n"
-    "fosters friendship.");
+    "{JPN}ここちよいねいろのすず。\n"
+    "もたせたポケモンはこころが\n"
+    "やすらぎなつきやすくなる。");
 
 static const u8 sMentalHerbDesc[] = _(
-    "A hold item that\n"
-    "snaps POKéMON out\n"
-    "of infatuation.");
+    "{JPN}もたせたポケモンがメロメロの\n"
+    "じょうたいになったときに\n"
+    "いちどだけかいふくする。");
 
 static const u8 sChoiceBandDesc[] = _(
-    "Raises a move's\n"
-    "power, but permits\n"
-    "only that move.");
+    "{JPN}ちょっとこだわったハチマキ。\n"
+    "もたせるとこうげきはあがるが\n"
+    "おなじわざしかだせなくなる。");
 
 static const u8 sKingsRockDesc[] = _(
-    "Makes foe flinch.\n"
-    "Evolves SLOWPOKE\n"
-    "and POLIWHIRL.");
+    "{JPN}もたせるとこうげきして\n"
+    "ダメージをあたえたときに\n"
+    "あいてをひるませることがある。");
 
 static const u8 sSilverPowderDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "BUG-type moves.");
+    "{JPN}ぎんいろにかがやくこな。\n"
+    "もたせるとむしタイプの\n"
+    "わざのいりょくがあがる。");
 
 static const u8 sAmuletCoinDesc[] = _(
-    "Doubles money in\n"
-    "battle if the\n"
-    "holder takes part.");
+    "{JPN}もたせたポケモンがいちどでも\n"
+    "せんとうにかおをだすと\n"
+    "おかねが2ばいもらえる。");
 
 static const u8 sCleanseTagDesc[] = _(
-    "A hold item that\n"
-    "helps repel wild\n"
-    "POKéMON.");
+    "{JPN}いちばんまえのポケモンに\n"
+    "もたせるとやせいポケモンが\n"
+    "でてきにくくなる。");
 
 static const u8 sSoulDewDesc[] = _(
-    "Hold item: raises\n"
-    "SP. ATK & SP. DEF of\n"
-    "LATIOS & LATIAS.");
+    "{JPN}ラティオスまたはラティアスに\n"
+    "もたせるととくこうととくぼうが\n"
+    "あがるふしぎなたま。");
 
 static const u8 sDeepSeaToothDesc[] = _(
-    "A hold item that\n"
-    "raises the SP. ATK\n"
-    "of CLAMPERL.");
+    "{JPN}パールルにもたせると\n"
+    "とくこうがあがるキバ。\n"
+    "するどくぎんいろにひかる。");
 
 static const u8 sDeepSeaScaleDesc[] = _(
-    "A hold item that\n"
-    "raises the SP. DEF\n"
-    "of CLAMPERL.");
+    "{JPN}パールルにもたせると\n"
+    "とくぼうがあがるウロコ。\n"
+    "うすいピンクいろにひかる。");
 
 static const u8 sSmokeBallDesc[] = _(
-    "A hold item that\n"
-    "assures fleeing\n"
-    "from wild POKéMON.");
+    "{JPN}もたせたポケモンはやせいの\n"
+    "ポケモンとのせんとうから\n"
+    "ぜったいににげられる。");
 
 static const u8 sEverstoneDesc[] = _(
-    "A wondrous hold\n"
-    "item that prevents\n"
-    "evolution.");
+    "{JPN}ポケモンにもたせると\n"
+    "そのあいだしんかしなくなる\n"
+    "ふしぎないし。");
 
 static const u8 sFocusBandDesc[] = _(
-    "A hold item that\n"
-    "occasionally\n"
-    "prevents fainting.");
+    "{JPN}もたせるとひんしになりそうな\n"
+    "わざをうけてもHPを1だけ\n"
+    "のこしてたえることがある。");
 
 static const u8 sLuckyEggDesc[] = _(
-    "A hold item that\n"
-    "boosts EXP. points\n"
-    "earned in battle.");
+    "{JPN}しあわせがつまったタマゴ。\n"
+    "もたせたポケモンはもらえる\n"
+    "けいけんちがすこしふえる。");
 
 static const u8 sScopeLensDesc[] = _(
-    "A hold item that\n"
-    "improves the\n"
-    "critical-hit rate.");
+    "{JPN}じゃくてんがみえるレンズ。\n"
+    "もたせたポケモンのわざが\n"
+    "きゅうしょにあたりやすくなる。");
 
 static const u8 sMetalCoatDesc[] = _(
-    "Boosts STEEL.\n"
-    "Evolves ONIX,\n"
-    "SCYTHER, MAGNETON.");
+    "{JPN}とくしゅなきんぞくのまく。\n"
+    "もたせるとはがねタイプの\n"
+    "わざのいりょくがあがる。");
 
 static const u8 sLeftoversDesc[] = _(
-    "A hold item that\n"
-    "gradually restores\n"
-    "HP in battle.");
+    "{JPN}もたせるとポケモンのHPが\n"
+    "せんとうのあいだすこしずつ\n"
+    "かいふくする。");
 
 static const u8 sDragonScaleDesc[] = _(
-    "Evolves a\n"
-    "SEA-DRAGON\n"
-    "POKéMON.");
+    "{JPN}かたくてじょうぶなウロコ。\n"
+    "ドラゴンタイプのポケモンが\n"
+    "もっていることがある。");
 
 static const u8 sLightBallDesc[] = _(
-    "A hold item that\n"
-    "raises the SP. ATK\n"
-    "of PIKACHU.");
+    "{JPN}ピカチュウにもたせると\n"
+    "こうげきととくこうのいりょくが\n"
+    "あがるふしぎなたま。");
 
 static const u8 sSoftSandDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "GROUND-type moves.");
+    "{JPN}さわるとサラサラするすな。\n"
+    "もたせるとじめんタイプの\n"
+    "わざのいりょくがあがる。");
 
 static const u8 sHardStoneDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "ROCK-type moves.");
+    "{JPN}ぜったいにわれないいし。\n"
+    "もたせるといわタイプの\n"
+    "わざのいりょくがあがる。");
 
 static const u8 sMiracleSeedDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "GRASS-type moves.");
+    "{JPN}せいめいがやどるタネ。\n"
+    "もたせるとくさタイプの\n"
+    "わざのいりょくがあがる。");
 
 static const u8 sBlackGlassesDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "DARK-type moves.");
+    "{JPN}あやしくみえるメガネ。\n"
+    "もたせるとあくタイプの\n"
+    "わざのいりょくがあがる。");
 
 static const u8 sBlackBeltDesc[] = _(
-    "A hold item that\n"
-    "boosts FIGHTING-\n"
-    "type moves.");
+    "{JPN}きがひきしまるおび。\n"
+    "もたせるとかくとうタイプの\n"
+    "わざのいりょくがあがる。");
 
 static const u8 sMagnetDesc[] = _(
-    "A hold item that\n"
-    "boosts ELECTRIC-\n"
-    "type moves.");
+    "{JPN}きょうりょくなじしゃく。\n"
+    "もたせるとでんきタイプの\n"
+    "わざのいりょくがあがる。");
 
 static const u8 sFairyGemDesc[] = _(
     "A hold item that\n"
@@ -932,869 +941,850 @@ static const u8 sFairyGemDesc[] = _(
     "type moves.");
 
 static const u8 sMysticWaterDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "WATER-type moves.");
+    "{JPN}しずくのかたちのほうせき。\n"
+    "もたせるとみずタイプの\n"
+    "わざのいりょくがあがる。");
 
 static const u8 sSharpBeakDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "FLYING-type moves.");
+    "{JPN}ながくとがったくちばし。\n"
+    "もたせるとひこうタイプの\n"
+    "わざのいりょくがあがる。");
 
 static const u8 sPoisonBarbDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "POISON-type moves.");
+    "{JPN}どくのあるちいさなハリ。\n"
+    "もたせるとどくタイプの\n"
+    "わざのいりょくがあがる。");
 
 static const u8 sNeverMeltIceDesc[] = _(
-    "Boosts ICE-type.\n"
-    "Evolves EEVEE.");
+    "{JPN}ねつをよせつけないこおり。\n"
+    "もたせるとこおりタイプの\n"
+    "わざのいりょくがあがる。");
 
 static const u8 sSpellTagDesc[] = _(
-    "Boosts GHOST-type.\n"
-    "Evolves a mischi-\n"
-    "evous POKéMON.");
+    "{JPN}あやしくてぶきみなおふだ。\n"
+    "もたせるとゴーストタイプの\n"
+    "わざのいりょくがあがる。");
 
 static const u8 sTwistedSpoonDesc[] = _(
-    "A hold item that\n"
-    "boosts PSYCHIC-\n"
-    "type moves.");
+    "{JPN}ねんりきをこめたスプーン。\n"
+    "もたせるとエスパータイプの\n"
+    "わざのいりょくがあがる。");
 
 static const u8 sCharcoalDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "FIRE-type moves.");
+    "{JPN}ものをもやすねんりょう。\n"
+    "もたせるとほのおタイプの\n"
+    "わざのいりょくがあがる。");
 
 static const u8 sDragonFangDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "DRAGON-type moves.");
+    "{JPN}かたくてするどいキバ。\n"
+    "もたせるとドラゴンタイプの\n"
+    "わざのいりょくがあがる。");
 
 static const u8 sSilkScarfDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "NORMAL-type moves.");
+    "{JPN}はだざわりのよいスカーフ。\n"
+    "もたせるとノーマルタイプの\n"
+    "わざのいりょくがあがる。");
 
 static const u8 sUpGradeDesc[] = _(
-    "A peculiar box made\n"
-    "by SILPH CO. Evolves\n"
-    "a computer POKéMON.");
+    "{JPN}なかにいろんなじょうほうが\n"
+    "つまったとうめいのきかい。\n"
+    "シルフカンパニーせい。");
 
 static const u8 sShellBellDesc[] = _(
-    "A hold item that\n"
-    "restores HP upon\n"
-    "striking the foe.");
+    "{JPN}もたせたポケモンがこうげきして\n"
+    "あいてにダメージをあたえたとき\n"
+    "HPをすこしかいふくできる。");
 
 static const u8 sSeaIncenseDesc[] = _(
-    "A hold item that\n"
-    "slightly boosts\n"
-    "WATER-type moves.");
+    "{JPN}ふしぎなかおりのおこう。\n"
+    "もたせるとみずタイプの\n"
+    "わざのいりょくがあがる。");
 
 static const u8 sLaxIncenseDesc[] = _(
-    "A hold item that\n"
-    "slightly lowers the\n"
-    "foe's accuracy.");
+    "{JPN}もたせるとおこうのふしぎな\n"
+    "かおりがあいてをまどわせて\n"
+    "わざがめいちゅうしにくくなる。");
 
 static const u8 sLuckyPunchDesc[] = _(
-    "A hold item that\n"
-    "raises CHANSEY's\n"
-    "critical-hit rate.");
+    "{JPN}こううんをよぶグローブ。\n"
+    "ラッキーにもたせるとわざが\n"
+    "きゅうしょにあたりやすくなる。");
 
 static const u8 sMetalPowderDesc[] = _(
-    "A hold item that\n"
-    "raises DITTO's\n"
-    "DEFENSE.");
+    "{JPN}メタモンにもたせるとぼうぎょが\n"
+    "あがるふしぎなこな。\n"
+    "とてもこまかくてかたい。");
 
 static const u8 sThickClubDesc[] = _(
-    "A hold item that \n"
-    "raises CUBONE or\n"
-    "MAROWAK's ATTACK.");
+    "{JPN}なにかのかたいホネ。\n"
+    "カラカラまたはガラガラに\n"
+    "もたせるとこうげきがあがる。");
 
 static const u8 sStickDesc[] = _(
-    "A hold item that\n"
-    "raises FARFETCH'D's\n"
-    "critical-hit ratio.");
+    "{JPN}とてもながくてかたいクキ。\n"
+    "カモネギにもたせるとわざが\n"
+    "きゅうしょにあたりやすくなる。");
 
 static const u8 sRedScarfDesc[] = _(
-    "A hold item that\n"
-    "raises COOL in\n"
-    "CONTESTS.");
+    "{JPN}ポケモンにもたせてシンオウの\n"
+    "コンテストにさんかさせると\n"
+    "いつもよりかっこよくみられる。");
 
 static const u8 sBlueScarfDesc[] = _(
-    "A hold item that\n"
-    "raises BEAUTY in\n"
-    "CONTESTS.");
+    "{JPN}ポケモンにもたせてシンオウの\n"
+    "コンテストにさんかさせると\n"
+    "いつもよりうつくしくみられる。");
 
 static const u8 sPinkScarfDesc[] = _(
-    "A hold item that\n"
-    "raises CUTE in\n"
-    "CONTESTS.");
+    "{JPN}ポケモンにもたせてシンオウの\n"
+    "コンテストにさんかさせると\n"
+    "いつもよりかわいらしくみられる。");
 
 static const u8 sGreenScarfDesc[] = _(
-    "A hold item that\n"
-    "raises SMART in\n"
-    "CONTESTS.");
+    "{JPN}ポケモンにもたせてシンオウの\n"
+    "コンテストにさんかさせると\n"
+    "いつもよりかしこくみられる。");
 
 static const u8 sYellowScarfDesc[] = _(
-    "A hold item that\n"
-    "raises TOUGH in\n"
-    "CONTESTS.");
+    "{JPN}ポケモンにもたせてシンオウの\n"
+    "コンテストにさんかさせると\n"
+    "いつもよりたくましくみられる。");
 
 // Key items
 static const u8 sMachBikeDesc[] = _(
-    "A bicycle. Press {R_BUTTON}\n"
-    "while stationary to\n"
-    "change gears.");
+    "{JPN}じてんしゃ。とまっているとき\n"
+    "{R_BUTTON}をおすとギアチェンジ\n"
+    "ができる。");
 
 static const u8 sCoinCaseDesc[] = _(
-    "A case that holds\n"
-    "up to 9,999 COINS.");
+    "{JPN}ゲームコーナーでてにいれた\n"
+    "コインを50000まいまで\n"
+    "いれることができるケース。");
 
 static const u8 sItemfinderDesc[] = _(
-    "A device that\n"
-    "signals an invisible\n"
-    "item by sound.");
+    "{JPN}みえないどうぐにはんのうして\n"
+    "おととひかりでおしえてくれる\n"
+    "さいしんのきかい。");
 
 static const u8 sRadioDesc[] = _(
-    "A shiny new radio\n"
-    "that plays music.");
+    "{JPN}おんがくがきける\n"
+    "ピカピカのラジオ。");
 
 static const u8 sOldRodDesc[] = _(
-    "Use by any body of\n"
-    "water to fish for\n"
-    "wild POKéMON.");
+    "{JPN}ふるくてボロいつりざお。\n"
+    "みずのあるばしょでつかうと\n"
+    "ポケモンがつれる。");
 
 static const u8 sGoodRodDesc[] = _(
-    "A decent fishing\n"
-    "rod for catching\n"
-    "wild POKéMON.");
+    "{JPN}あたらしくていいつりざお。\n"
+    "みずのあるばしょでつかうと\n"
+    "ポケモンがつれる。");
 
 static const u8 sSuperRodDesc[] = _(
-    "The best fishing\n"
-    "rod for catching\n"
-    "wild POKéMON.");
+    "{JPN}さいしんのすごいつりざお。\n"
+    "みずのあるばしょでつかうと\n"
+    "ポケモンがつれる。");
 
 static const u8 sSSTicketDesc[] = _(
-    "The ticket required\n"
-    "for sailing on a\n"
-    "ferry.");
+    "{JPN}こうそくせんアクアごうにのるとき\n"
+    "ひつようなふねのチケット。\n"
+    "ふねのえがかかれている。");
 
 static const u8 sContestPassDesc[] = _(
-    "The pass required\n"
-    "for entering\n"
-    "POKéMON CONTESTS.");
+    "{JPN}もっていればポケモンコンテストに\n"
+    "さんかすることができる。\n"
+    "きねんリボンがかかれている。");
 
 static const u8 sWailmerPailDesc[] = _(
-    "A tool used for\n"
-    "watering BERRIES\n"
-    "and plants.");
+    "{JPN}きのみやしょくぶつに\n"
+    "みずをやるための\n"
+    "ジョウロ。");
 
 static const u8 sDevonGoodsDesc[] = _(
-    "A package that\n"
-    "contains DEVON's\n"
-    "machine parts.");
+    "{JPN}デボンコーポレーションの\n"
+    "きかいのぶひんがはいった\n"
+    "にもつ。");
 
 static const u8 sSootSackDesc[] = _(
-    "A sack used to\n"
-    "gather and hold\n"
-    "volcanic ash.");
+    "{JPN}かざんばいをあつめて\n"
+    "いれておくための\n"
+    "ふくろ。");
 
 static const u8 sBasementKeyDesc[] = _(
-    "The key for\n"
-    "GOLDENROD\n"
-    "UNDERGROUND.");
+    "{JPN}コガネシティの\n"
+    "ちかつうろにはいるための\n"
+    "カギ。");
 
 static const u8 sAcroBikeDesc[] = _(
-    "A folding bicycle\n"
-    "capable of jumps\n"
-    "and wheelies.");
+    "{JPN}ジャンプやウイリーができる\n"
+    "おりたたみしきの\n"
+    "じてんしゃ。");
 
 static const u8 sPokeblockCaseDesc[] = _(
-    "A case for holding\n"
-    "{POKEBLOCK}S made with\n"
-    "a BERRY BLENDER.");
+    "{JPN}きのみブレンダーでつくった\n"
+    "{POKEBLOCK}をいれておく\n"
+    "ケース。");
 
 static const u8 sLetterDesc[] = _(
-    "A letter to STEVEN\n"
-    "from the PRESIDENT\n"
-    "of the DEVON CORP.");
+    "{JPN}デボンコーポレーションの\n"
+    "しゃちょうからダイゴへの\n"
+    "てがみ。");
 
 static const u8 sEonTicketDesc[] = _(
-    "The ticket for a\n"
-    "ferry to a distant\n"
-    "southern island.");
+    "{JPN}とおいみなみのしまへ\n"
+    "わたるふねのチケット。");
 
 static const u8 sRedOrbDesc[] = _(
-    "A red, glowing orb\n"
-    "said to contain an\n"
-    "ancient power.");
+    "{JPN}ホウエンちほうのでんせつと\n"
+    "ふかいかかわりがあるといわれる\n"
+    "あおくかがやくたま。");
 
 static const u8 sBlueOrbDesc[] = _(
-    "A blue, glowing orb\n"
-    "said to contain an\n"
-    "ancient power.");
+    "{JPN}ホウエンちほうのでんせつと\n"
+    "ふかいかかわりがあるといわれる\n"
+    "あかくかがやくたま。");
 
 static const u8 sScannerDesc[] = _(
-    "A device found\n"
-    "inside the\n"
-    "ABANDONED SHIP.");
+    "{JPN}すてられぶねのなかで\n"
+    "みつかったきかい。");
 
 static const u8 sGoGogglesDesc[] = _(
-    "Nifty goggles that\n"
-    "protect eyes from\n"
-    "desert sandstorms.");
+    "{JPN}さばくのすなあらしから\n"
+    "めをまもってくれる\n"
+    "べんりなゴーグル。");
 
 static const u8 sMeteoriteDesc[] = _(
-    "A meteorite found\n"
-    "at METEOR FALLS.");
+    "{JPN}りゅうせいのたきで\n"
+    "みつかったいんせき。");
 
 static const u8 sRoom1KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+    "{JPN}すてられぶねのなかの\n"
+    "とびらをあけるカギ。");
 
 static const u8 sRoom2KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+    "{JPN}すてられぶねのなかの\n"
+    "とびらをあけるカギ。");
 
 static const u8 sRoom4KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+    "{JPN}すてられぶねのなかの\n"
+    "とびらをあけるカギ。");
 
 static const u8 sRoom6KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+    "{JPN}すてられぶねのなかの\n"
+    "とびらをあけるカギ。");
 
 static const u8 sStorageKeyDesc[] = _(
-    "The key to the\n"
-    "storage inside the\n"
-    "ABANDONED SHIP.");
+    "{JPN}トバリシティのはずれにある\n"
+    "ギンガだんのあやしい\n"
+    "そうこにはいるためのカギ。");
 
 static const u8 sRootFossilDesc[] = _(
-    "A fossil of an\n"
-    "ancient, seafloor-\n"
-    "dwelling POKéMON.");
+    "{JPN}おおむかしうみにすんでいた\n"
+    "こだいポケモンのカセキ。\n"
+    "ねっこのいちぶらしい。");
 
 static const u8 sClawFossilDesc[] = _(
-    "A fossil of an\n"
-    "ancient, seafloor-\n"
-    "dwelling POKéMON.");
+    "{JPN}おおむかしうみにすんでいた\n"
+    "こだいポケモンのカセキ。\n"
+    "ツメのいちぶらしい。");
 
 static const u8 sDevonScopeDesc[] = _(
-    "A device by DEVON\n"
-    "that signals any\n"
-    "unseeable POKéMON.");
+    "{JPN}デボンがつくったきかい。\n"
+    "みえないポケモンを\n"
+    "みつけだすことができる。");
 
 //HnS JOHTO ITEMS START
 
 static const u8 sClearBellDesc[] = _(
-    "Old fashioned bell\n"
-    "that makes a\n"
-    "gentle ringing.");
+    "{JPN}こころやすまるねいろがきける\n"
+    "とてもふるめかしいスズ。");
 
 static const u8 sLostItemDesc[] = _(
-    "The POKéDOLL lost\n"
-    "by the copycat.");
+    "{JPN}モノマネむすめがなくした\n"
+    "ピッピのにんぎょう。");
 
 static const u8 sMachinePartDesc[] = _(
-    "Important machine\n"
-    "part stolen from\n"
-    "the POWER PLANT.");
+    "{JPN}はつでんしょからぬすまれた\n"
+    "だいじなきかいのぶひん。");
 
 static const u8 sMysteryEggDesc[] = _(
-    "Obtained from MR.\n"
-    "POKéMON. Who knows\n"
-    "what's inside?");
+    "{JPN}ポケモンじいさんから\n"
+    "もらったタマゴ。なにが\n"
+    "うまれてくるのかな?");
 
 static const u8 sPassDesc[] = _(
-    "A ticket for\n"
-    "riding the Magnet\n"
-    "Train.");
+    "{JPN}リニアモーターカーに\n"
+    "のるためのきっぷ。");
 
 static const u8 sRainbowWingDesc[] = _(
-    "A mystical\n"
-    "rainbow feather\n"
-    "that sparkles.");
+    "{JPN}にじいろにひかりかがやく\n"
+    "ふしぎなはね。");
 
 static const u8 sRedScaleDesc[] = _(
-    "A scale from the\n"
-    "red GYARADOS.\n"
-    "It glows red.");
+    "{JPN}いかりのみずうみにあらわれた\n"
+    "あかいギャラドスのウロコ。\n"
+    "ほのおのようにあかくかがやく。");
 
 static const u8 sSecretPotionDesc[] = _(
-    "A fantastic\n"
-    "medicine from the\n"
-    "Cianwood pharmacy.");
+    "{JPN}タンバシティのくすりやでもらった\n"
+    "どんなポケモンでもたちまち\n"
+    "げんきになるすごいくすり。");
 
 static const u8 sSilverWingDesc[] = _(
-    "A strange silvery\n"
-    "feather that\n"
-    "sparkles.");
+    "{JPN}ぎんいろにひかりかがやく\n"
+    "ふしぎなはね。");
 
 static const u8 sRageCandyBarDesc[] = _(
-    "A famous candy in\n"
-    "Mahogany Town.");
+    "{JPN}チョウジめいぶつのまんじゅう。\n"
+    "おみやげひんとしてゆうめい。");
 
 static const u8 sTidalBellDesc[] = _(
-    "Old-fashioned bell\n"
-    "with a gentle,\n"
-    "soothing sound.");
+    "{JPN}こころやすまるねいろがきける\n"
+    "とてもふるめかしいスズ。");
 
 
 
 // TMs/HMs
 static const u8 sTM01Desc[] = _(
-    "Powerful, but makes\n"
-    "the user flinch if\n"
-    "hit by the foe.");
+    "{JPN}せいしんをたかめてこうげきする。\n"
+    "わざをだすまえにこうげきを\n"
+    "うけるとしっぱいする。");
 
 static const u8 sTM02Desc[] = _(
-    "Hooks and slashes\n"
-    "the foe with long,\n"
-    "sharp claws.");
+    "{JPN}するどくとがったきょだいな\n"
+    "ツメでひっかいてこうげきする。");
 
 static const u8 sTM03Desc[] = _(
-    "Generates an\n"
-    "ultrasonic wave\n"
-    "that may confuse.");
+    "{JPN}みずのしんどうをあたえて\n"
+    "こうげきする。あいてをこんらんの\n"
+    "じょうたいにすることがある。");
 
 static const u8 sTM04Desc[] = _(
-    "Raises SP. ATK and\n"
-    "SP. DEF by focusing\n"
-    "the mind.");
+    "{JPN}しずかにせいしんをとういつして\n"
+    "こころをしずめることでじぶんの\n"
+    "とくこうととくぼうをあげる。");
 
 static const u8 sTM05Desc[] = _(
-    "A savage roar that\n"
-    "makes the foe flee \n"
-    "to end the battle.");
+    "{JPN}あいてをにがしてひかえポケモンを\n"
+    "ひきずりだす。やせいポケモンなら\n"
+    "せんとうはおわる。");
 
 static const u8 sTM06Desc[] = _(
-    "Poisons the foe\n"
-    "with a toxin that\n"
-    "gradually worsens.");
+    "{JPN}もうどくのじょうたいにする。\n"
+    "ターンすうがすすむほどどくの\n"
+    "ダメージりょうはふえる。");
 
 static const u8 sTM07Desc[] = _(
-    "Creates a hailstorm\n"
-    "that damages all\n"
-    "types except ICE.");
+    "{JPN}5ターンのあいだあられを\n"
+    "ふらしてこおりタイプいがいの\n"
+    "ポケモンにダメージをあたえる。");
 
 static const u8 sTM08Desc[] = _(
-    "Bulks up the body\n"
-    "to boost both\n"
-    "ATTACK & DEFENSE.");
+    "{JPN}ちからをこめてきんにくを\n"
+    "あつくすることでじぶんの\n"
+    "こうげきとぼうぎょをあげる。");
 
 static const u8 sTM09Desc[] = _(
-    "Shoots 2 to 5 seeds\n"
-    "in a row to strike\n"
-    "the foe.");
+    "{JPN}タネをいきおいよく2ー5かい\n"
+    "はっしゃしてこうげきする。");
 
 static const u8 sTM10Desc[] = _(
-    "The attack power\n"
-    "varies among\n"
-    "different POKéMON.");
+    "{JPN}おぼえるポケモンのかくされた\n"
+    "のうりょくでわざのタイプと\n"
+    "いりょくがかわる。");
 
 static const u8 sTM11Desc[] = _(
-    "Raises the power of\n"
-    "FIRE-type moves\n"
-    "for 5 turns.");
+    "{JPN}5ターンのあいだひざしを\n"
+    "つよくしてほのおタイプの\n"
+    "わざのいりょくをあげる。");
 
 static const u8 sTM12Desc[] = _(
-    "Enrages the foe so\n"
-    "it can only use\n"
-    "attack moves.");
+    "{JPN}あいてをおこらせて2ー4ターンの\n"
+    "あいだダメージをあたえるわざ\n"
+    "いがいだせないようにする。");
 
 static const u8 sTM13Desc[] = _(
-    "Fires an icy cold\n"
-    "beam that may\n"
-    "freeze the foe.");
+    "{JPN}れいきのビームをはっしゃして\n"
+    "こうげきする。あいてをこおりの\n"
+    "じょうたいにすることがある。");
 
 static const u8 sTM14Desc[] = _(
-    "A brutal snow-and-\n"
-    "wind attack that\n"
-    "may freeze the foe.");
+    "{JPN}はげしいふぶきをぶつけて\n"
+    "こうげきする。あいてをこおりの\n"
+    "じょうたいにすることがある。");
 
 static const u8 sTM15Desc[] = _(
-    "Powerful, but needs\n"
-    "recharging the\n"
-    "next turn.");
+    "{JPN}つよいこうせんをはっしゃする。\n"
+    "つかったつぎのターンははんどうで\n"
+    "うごけなくなる。");
 
 static const u8 sTM16Desc[] = _(
-    "Creates a wall of\n"
-    "light that lowers\n"
-    "SP. ATK damage.");
+    "{JPN}5ターンのあいだふしぎなかべで\n"
+    "あいてからうけるとくしゅわざの\n"
+    "ダメージをよわめる。");
 
 static const u8 sTM17Desc[] = _(
-    "Negates all damage,\n"
-    "but may fail if used\n"
-    "in succession.");
+    "{JPN}こうげきをまったくうけない。\n"
+    "わざをれんぞくでだすとしっぱい\n"
+    "しやすくなる。");
 
 static const u8 sTM18Desc[] = _(
-    "Raises the power of\n"
-    "WATER-type moves\n"
-    "for 5 turns.");
+    "{JPN}5ターンのあいだあめをふらして\n"
+    "みずタイプのわざのいりょくを\n"
+    "あげる。");
 
 static const u8 sTM19Desc[] = _(
-    "Recovers half the\n"
-    "HP of the damage \n"
-    "this move inflicts.");
+    "{JPN}ようぶんをすいとりこうげきする。\n"
+    "あたえたダメージのはんぶんの\n"
+    "HPをかいふくできる。");
 
 static const u8 sTM20Desc[] = _(
-    "Prevents status\n"
-    "abnormality with a\n"
-    "mystical power.");
+    "{JPN}ふしぎなちからにまもられて\n"
+    "どくまひやけどねむりなどの\n"
+    "じょうたいいじょうにならない。");
 
 static const u8 sTM21Desc[] = _(
-    "The less the user\n"
-    "likes you, the more\n"
-    "powerful this move.");
+    "{JPN}ふまんをはらすためにぜんりょくで\n"
+    "こうげきする。なついていないほど\n"
+    "いりょくはあがる。");
 
 static const u8 sTM22Desc[] = _(
-    "Absorbs sunlight in\n"
-    "the 1st turn, then\n"
-    "attacks next turn.");
+    "{JPN}1ターンめにひかりをあつめて\n"
+    "2ターンめにひかりのこうせんを\n"
+    "はっしゃしてこうげきする。");
 
 static const u8 sTM23Desc[] = _(
-    "Slams the foe with\n"
-    "a hard tail. It may\n"
-    "lower DEFENSE.");
+    "{JPN}かたいシッポでこうげきする。\n"
+    "ダメージをあたえたあいての\n"
+    "ぼうぎょをさげることがある。");
 
 static const u8 sTM24Desc[] = _(
-    "A powerful electric\n"
-    "attack that may\n"
-    "cause paralysis.");
+    "{JPN}つよいでんげきをあびせて\n"
+    "こうげきする。あいてをまひの\n"
+    "じょうたいにすることがある。");
 
 static const u8 sTM25Desc[] = _(
-    "Strikes the foe\n"
-    "with a thunderbolt.\n"
-    "It may paralyze.");
+    "{JPN}はげしいかみなりをおとして\n"
+    "こうげきする。あいてをまひの\n"
+    "じょうたいにすることがある。");
 
 static const u8 sTM26Desc[] = _(
-    "Causes a quake\n"
-    "that has no effect\n"
-    "on flying foes.");
+    "{JPN}たたかっているポケモンすべてに\n"
+    "じしんのしょうげきをあたえて\n"
+    "こうげきする。");
 
 static const u8 sTM27Desc[] = _(
-    "The more the user\n"
-    "likes you, the more\n"
-    "powerful this move.");
+    "{JPN}トレーナーのためにぜんりょくで\n"
+    "こうげきする。なついているほど\n"
+    "いりょくはあがる。");
 
 static const u8 sTM28Desc[] = _(
-    "Digs underground\n"
-    "the 1st turn, then\n"
-    "strikes next turn.");
+    "{JPN}1ターンめにもぐり2ターンめで\n"
+    "こうげきする。どうくつでつかうと\n"
+    "そとにだっしゅつできる。");
 
 static const u8 sTM29Desc[] = _(
-    "A powerful psychic\n"
-    "attack that may\n"
-    "lower SP. DEF.");
+    "{JPN}つよいねんりきをおくって\n"
+    "こうげきする。あいてのとくぼうを\n"
+    "さげることがある。");
 
 static const u8 sTM30Desc[] = _(
-    "Hurls a dark lump\n"
-    "at the foe. It may\n"
-    "lower SP. DEF.");
+    "{JPN}くろいかげのかたまりをなげて\n"
+    "こうげきする。あいてのとくぼうを\n"
+    "さげることがある。");
 
 static const u8 sTM31Desc[] = _(
-    "Destroys barriers\n"
-    "like LIGHT SCREEN\n"
-    "and causes damage.");
+    "{JPN}こぶしなどでこうげきする。\n"
+    "ひかりのかべやリフレクターも\n"
+    "はかいできる。");
 
 static const u8 sTM32Desc[] = _(
-    "Creates illusory\n"
-    "copies to enhance\n"
-    "elusiveness.");
+    "{JPN}すばやいうごきでぶんしんを\n"
+    "つくる。あいてをまどわせることで\n"
+    "かいひりつをあげる。");
 
 static const u8 sTM33Desc[] = _(
-    "Creates a wall of\n"
-    "light that weakens\n"
-    "physical attacks.");
+    "{JPN}5ターンのあいだふしぎなかべで\n"
+    "あいてからうけるぶつりわざの\n"
+    "ダメージをよわめる。");
 
 static const u8 sTM34Desc[] = _(
-    "Zaps the foe with a\n"
-    "jolt of electricity\n"
-    "that never misses.");
+    "{JPN}でんげきをすばやくあびせて\n"
+    "こうげきする。こうげきはかならず\n"
+    "めいちゅうする。");
 
 static const u8 sTM35Desc[] = _(
-    "Looses a stream of\n"
-    "fire that may burn\n"
-    "the foe.");
+    "{JPN}はげしいほのおをはっしゃして\n"
+    "こうげきする。あいてをやけどの\n"
+    "じょうたいにすることがある。");
 
 static const u8 sTM36Desc[] = _(
-    "Hurls sludge at the\n"
-    "foe. It may poison\n"
-    "the foe.");
+    "{JPN}きたないヘドロをなげつける。\n"
+    "あいてをどくのじょうたいに\n"
+    "することがある。");
 
 static const u8 sTM37Desc[] = _(
-    "Causes a sandstorm\n"
-    "that hits the foe\n"
-    "over several turns.");
+    "{JPN}5ターンのあいだすなあらしで\n"
+    "じめんいわはがねタイプいがいに\n"
+    "ダメージをあたえる。");
 
 static const u8 sTM38Desc[] = _(
-    "A powerful fire\n"
-    "attack that may\n"
-    "burn the foe.");
+    "{JPN}だいのじのほのおですべてを\n"
+    "やきつくす。あいてをやけどの\n"
+    "じょうたいにすることがある。");
 
 static const u8 sTM39Desc[] = _(
-    "Stops the foe from\n"
-    "moving with rocks.\n"
-    "May lower SPEED.");
+    "{JPN}いわをなげつけこうげきする。\n"
+    "おちたいわがうごきをふうじて\n"
+    "あいてのすばやさをさげる。");
 
 static const u8 sTM40Desc[] = _(
-    "An extremely fast\n"
-    "attack that can't\n"
-    "be avoided.");
+    "{JPN}すばやいうごきでほんろうする。\n"
+    "こうげきはかならずあいてに\n"
+    "めいちゅうする。");
 
 static const u8 sTM41Desc[] = _(
-    "Prevents the foe\n"
-    "from using the same\n"
-    "move in a row.");
+    "{JPN}いちゃもんをつけておなじわざを\n"
+    "れんぞくでだせないようにする。");
 
 static const u8 sTM42Desc[] = _(
-    "Raises ATTACK when\n"
-    "poisoned, burned,\n"
-    "or paralyzed.");
+    "{JPN}どくまひやけどのじょうたいで\n"
+    "わざをだすと2ばいのいりょくで\n"
+    "こうげきできる。");
 
 static const u8 sTM43Desc[] = _(
-    "Adds an effect to\n"
-    "attack depending\n"
-    "on the location.");
+    "{JPN}くさむらやみずべどうくつなど\n"
+    "たたかうばしょによってあたえる\n"
+    "ついかこうかがかわる。");
 
 static const u8 sTM44Desc[] = _(
-    "The user sleeps for\n"
-    "2 turns to restore\n"
-    "health and status.");
+    "{JPN}2ターンのあいだねむりつづける。\n"
+    "HPとからだのいじょうを\n"
+    "すべてかいふくする。");
 
 static const u8 sTM45Desc[] = _(
-    "Makes it tough to\n"
-    "attack a foe of the\n"
-    "opposite gender.");
+    "{JPN}♂なら♀を♀なら♂をゆうわくして\n"
+    "メロメロにする。メロメロになった\n"
+    "あいてはわざがだしにくくなる。");
 
 static const u8 sTM46Desc[] = _(
-    "While attacking,\n"
-    "it may steal the\n"
-    "foe's held item.");
+    "{JPN}こうげきとどうじにもちものを\n"
+    "ぬすむ。じぶんにもちものが\n"
+    "あるとしっぱいする。");
 
 static const u8 sTM47Desc[] = _(
-    "Spreads hard-\n"
-    "edged wings and\n"
-    "slams into the foe.");
+    "{JPN}かたいつばさをおおきくひろげて\n"
+    "たいあたりする。じぶんの\n"
+    "ぼうぎょをあげることがある。");
 
 static const u8 sTM48Desc[] = _(
-    "Switches abilities\n"
-    "with the foe on the\n"
-    "turn this is used.");
+    "{JPN}ちょうのうりょくでじぶんの\n"
+    "とくせいとあいてのとくせいを\n"
+    "いれかえる。");
 
 static const u8 sTM49Desc[] = _(
-    "Steals the effects\n"
-    "of the move the foe\n"
-    "is trying to use.");
+    "{JPN}あいてがつかおうとするかいふくや\n"
+    "のうりょくへんかのわざを\n"
+    "よこどりしてじぶんにつかう。");
 
 static const u8 sTM50Desc[] = _(
-    "Enables full-power\n"
-    "attack, but sharply\n"
-    "lowers SP. ATK.");
+    "{JPN}フルパワーでほのおのこうげき。\n"
+    "つかったあとじぶんのとくこうは\n"
+    "がくっとさがる。");
 
 
 static const u8 sHM01Desc[] = _(
-    "Attacks the foe\n"
-    "with sharp blades\n"
-    "or claws.");
+    "{JPN}カマやツメなどのするどいもので\n"
+    "きりつけてこうげきする。\n"
+    "ほそいきをきることもできる。");
 
 static const u8 sHM02Desc[] = _(
-    "Flies up on the\n"
-    "first turn, then\n"
-    "attacks next turn.");
+    "{JPN}1ターンめでそらへとびあがって\n"
+    "2ターンめでこうげきする。\n"
+    "しっているまちにいどうもできる。");
 
 static const u8 sHM03Desc[] = _(
-    "Creates a huge\n"
-    "wave, then crashes\n"
-    "it down on the foe.");
+    "{JPN}おおきななみをおこして\n"
+    "すべてのポケモンをこうげきする。\n"
+    "みずのうえをすすむこともできる。");
 
 static const u8 sHM04Desc[] = _(
-    "Builds enormous\n"
-    "power, then slams\n"
-    "the foe.");
+    "{JPN}こんしんのちからでこうげきする。\n"
+    "おもいいわをおすこともできる。");
 
 static const u8 sHM05Desc[] = _(
-    "Looses a powerful\n"
-    "blast of light that\n"
-    "reduces accuracy.");
+    "{JPN}はげしくうずまくみずのなかに\n"
+    "あいてをとじこめてこうげきする。\n"
+    "うずのうえをとおることもできる。");
 
 static const u8 sHM06Desc[] = _(
-    "A rock-crushingly\n"
-    "tough attack that\n"
-    "may lower DEFENSE.");
+    "{JPN}いわをくだくようなパンチで\n"
+    "こうげきする。ひびわれたいわを\n"
+    "こわすこともできる。");
 
 static const u8 sHM07Desc[] = _(
-    "Attacks the foe\n"
-    "with enough power\n"
-    "to climb waterfalls.");
+    "{JPN}たきをさかのぼるようなすさまじい\n"
+    "いきおいでとっしんこうげきする。\n"
+    "たきをのぼることもできる。");
 
 static const u8 sHM08Desc[] = _(
-    "Traps and hurts the\n"
-    "foe in a whirlpool\n"
-    "for 2-5 turns.");
+    "{JPN}とっしんこうげきでこんらん\n"
+    "させることがある。ごつごつした\n"
+    "いわをのぼることもできる。");
 
 // FireRed/LeafGreen key items
 static const u8 sOaksParcelDesc[] = _(
-    "A parcel for PROF.\n"
-    "OAK from a POKéMON\n"
-    "MART's clerk.");
+    "{JPN}フレンドリィショップの\n"
+    "てんいんからオーキドはかせへの\n"
+    "おとどけもの。");
 
 static const u8 sPokeFluteDesc[] = _(
-    "A sweet-sounding\n"
-    "flute that awakens\n"
-    "POKéMON.");
+    "{JPN}きもちのよいおとが\n"
+    "ポケモンのねむりを\n"
+    "さましてくれるフエ。");
 
 static const u8 sSecretKeyDesc[] = _(
-    "The key to the\n"
-    "CINNABAR ISLAND\n"
-    "GYM's entrance.");
+    "{JPN}きまったばしょでつかうことで\n"
+    "とくしゅなでんきしんごうをだして\n"
+    "とびらをあけるハイテクなカギ。");
 
 static const u8 sBikeVoucherDesc[] = _(
-    "A voucher for\n"
-    "obtaining a bicycle\n"
-    "from the BIKE SHOP.");
+    "{JPN}サイクルショップで\n"
+    "じてんしゃにかえられる\n"
+    "ひきかえけん。");
 
 static const u8 sGoldTeethDesc[] = _(
-    "Gold dentures lost\n"
-    "by the SAFARI\n"
-    "ZONE's WARDEN.");
+    "{JPN}サファリゾーンのえんちょうが\n"
+    "なくしたきんのいれば。");
 
 static const u8 sOldAmberDesc[] = _(
-    "A stone containing\n"
-    "the genes of an\n"
-    "ancient POKéMON.");
+    "{JPN}こだいポケモンのいでんしが\n"
+    "とじこめられているコハク。\n"
+    "あかみをおびてすけている。");
 
 static const u8 sCardKeyDesc[] = _(
-    "A card-type door\n"
-    "key used in the\n"
-    "RADIO TOWER.");
+    "{JPN}ラジオとうのシャッターをあける\n"
+    "カードしきのカギ。");
 
 static const u8 sLiftKeyDesc[] = _(
-    "An elevator key\n"
-    "used in TEAM\n"
-    "ROCKET's HIDEOUT.");
+    "{JPN}ロケットだんアジトの\n"
+    "エレベーターをうごかす\n"
+    "カギ。");
 
 static const u8 sHelixFossilDesc[] = _(
-    "A piece of an\n"
-    "ancient marine\n"
-    "POKéMON's seashell.");
+    "{JPN}おおむかしうみにすんでいた\n"
+    "こだいポケモンのカセキ。\n"
+    "かいがらのいちぶらしい。");
 
 static const u8 sDomeFossilDesc[] = _(
-    "A piece of an\n"
-    "ancient marine\n"
-    "POKéMON's shell.");
+    "{JPN}おおむかしうみにすんでいた\n"
+    "こだいポケモンのカセキ。\n"
+    "こうらのいちぶらしい。");
 
 static const u8 sSilphScopeDesc[] = _(
-    "SILPH CO's scope\n"
-    "makes unseeable\n"
-    "POKéMON visible.");
+    "{JPN}シルフカンパニーがつくった\n"
+    "みえないポケモンを\n"
+    "みえるようにするスコープ。");
 
 static const u8 sBicycleDesc[] = _(
-    "A folding bicycle\n"
-    "that is faster than\n"
-    "the RUNNING SHOES.");
+    "{JPN}ランニングシューズよりも\n"
+    "はやくはしることができる\n"
+    "おりたたみしきのじてんしゃ。");
 
 static const u8 sTownMapDesc[] = _(
-    "Can be viewed\n"
-    "anytime. Shows your\n"
-    "present location.");
+    "{JPN}いつでもてがるにみることが\n"
+    "できるべんりなちず。\n"
+    "じぶんのばしょもわかる。");
 
 static const u8 sVSSeekerDesc[] = _(
-    "A rechargeable unit\n"
-    "that flags battle-\n"
-    "ready TRAINERS.");
+    "{JPN}たたかいたいトレーナーを\n"
+    "おしえてくれるきかい。\n"
+    "あるくとでんちがたまる。");
 
 static const u8 sFameCheckerDesc[] = _(
-    "Stores information\n"
-    "on famous people\n"
-    "for instant recall.");
+    "{JPN}ゆうめいなひとのじょうほうを\n"
+    "きろくしていつでも\n"
+    "よべるきかい。");
 
 static const u8 sTMCaseDesc[] = _(
-    "A convenient case \n"
-    "that holds TMs and\n"
-    "HMs.");
+    "{JPN}わざマシンとひでんマシンを\n"
+    "いれておくための\n"
+    "べんりなケース。");
 
 static const u8 sBerryPouchDesc[] = _(
-    "A convenient\n"
-    "container that\n"
-    "holds BERRIES.");
+    "{JPN}きのみをいれておくための\n"
+    "べんりなポーチ。");
 
 static const u8 sTeachyTVDesc[] = _(
-    "A TV set tuned to\n"
-    "an advice program\n"
-    "for TRAINERS.");
+    "{JPN}トレーナーのための\n"
+    "アドバイスばんぐみが\n"
+    "みられるテレビ。");
 
 static const u8 sTriPassDesc[] = _(
-    "A pass for ferries\n"
-    "between ONE, TWO,\n"
-    "and THREE ISLAND.");
+    "{JPN}1のしま 2のしま 3のしまの\n"
+    "あいだをむすぶふねの\n"
+    "パス。");
 
 static const u8 sRainbowPassDesc[] = _(
-    "For ferries serving\n"
-    "VERMILION and the\n"
-    "SEVII ISLANDS.");
+    "{JPN}クチバとナナシマのあいだを\n"
+    "むすぶふねのパス。");
 
 static const u8 sTeaDesc[] = _(
-    "A thirst-quenching\n"
-    "tea prepared by an\n"
-    "old lady.");
+    "{JPN}おばあさんがいれてくれた\n"
+    "のどのかわきをいやす\n"
+    "おちゃ。");
 
 static const u8 sMysticTicketDesc[] = _(
-    "A ticket required\n"
-    "to board the ship\n"
-    "to NAVEL ROCK.");
+    "{JPN}へそのいわへむかうふねに\n"
+    "のるためのチケット。");
 
 static const u8 sAuroraTicketDesc[] = _(
-    "A ticket required\n"
-    "to board the ship\n"
-    "to BIRTH ISLAND.");
+    "{JPN}たんじょうのしまへむかう\n"
+    "ふねにのるための\n"
+    "チケット。");
 
 static const u8 sPowderJarDesc[] = _(
-    "Stores BERRY\n"
-    "POWDER made using\n"
-    "a BERRY CRUSHER.");
+    "{JPN}きのみクラッシャーでつくった\n"
+    "きのみのこなをいれておく\n"
+    "ビン。");
 
 static const u8 sRubyDesc[] = _(
-    "An exquisite, red-\n"
-    "glowing gem that\n"
-    "symbolizes passion.");
+    "{JPN}じょうねつをしょうちょうする\n"
+    "あかくかがやくうつくしい\n"
+    "ほうせき。");
 
 static const u8 sSapphireDesc[] = _(
-    "A brilliant blue gem\n"
-    "that symbolizes\n"
-    "honesty.");
+    "{JPN}せいじつさをしょうちょうする\n"
+    "あおくかがやくうつくしい\n"
+    "ほうせき。");
 
 // Emerald-specific key items
 static const u8 sMagmaEmblemDesc[] = _(
-    "A medal-like item in\n"
-    "the same shape as\n"
-    "TEAM MAGMA's mark.");
+    "{JPN}マグマだんのマークとおなじ\n"
+    "かたちをしたメダルのような\n"
+    "どうぐ。");
 
 static const u8 sOldSeaMapDesc[] = _(
-    "A faded sea chart\n"
-    "that shows the way\n"
-    "to a certain island.");
+    "{JPN}あるしまへのいきかたが\n"
+    "しるされたふるびた\n"
+    "かいず。");
 //mints
 static const u8 sAdamantMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to ADAMANT.\n"
-    "+ATK, -SP.ATK");
+    "{JPN}ポケモンのせいかくを\n"
+    "いじっぱりにかえる\n"
+    "ミント。");
 
 static const u8 sBoldMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to BOLD.\n"
-    "+DEF, -ATK");
+    "{JPN}ポケモンのせいかくを\n"
+    "ずぶといにかえる\n"
+    "ミント。");
 
 static const u8 sBraveMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to BRAVE.\n"
-    "+ATK, -SPD");
+    "{JPN}ポケモンのせいかくを\n"
+    "ゆうかんにかえる\n"
+    "ミント。");
 
 static const u8 sCalmMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to CALM.\n"
-    "+SP.DEF, -ATK");
+    "{JPN}ポケモンのせいかくを\n"
+    "おだやかにかえる\n"
+    "ミント。");
 
 static const u8 sCarefulMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to CAREFUL.\n"
-    "+SP.DEF, -SP.ATK");
+    "{JPN}ポケモンのせいかくを\n"
+    "しんちょうにかえる\n"
+    "ミント。");
 
 static const u8 sGentleMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to GENTLE.\n"
-    "+SP.DEF, -DEF");
+    "{JPN}ポケモンのせいかくを\n"
+    "おとなしいにかえる\n"
+    "ミント。");
 
 static const u8 sHastyMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to HASTY.\n"
-    "+SPD, -DEF");
+    "{JPN}ポケモンのせいかくを\n"
+    "せっかちにかえる\n"
+    "ミント。");
 
 static const u8 sImpishMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to IMPISH.\n"
-    "+DEF, -SP.ATK");
+    "{JPN}ポケモンのせいかくを\n"
+    "わんぱくにかえる\n"
+    "ミント。");
 
 static const u8 sJollyMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to JOLLY.\n"
-    "+SPD, -SP.ATK");
+    "{JPN}ポケモンのせいかくを\n"
+    "ようきにかえる\n"
+    "ミント。");
 
 static const u8 sLaxMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to LAX.\n"
-    "+DEF, -SP.DEF");
+    "{JPN}ポケモンのせいかくを\n"
+    "のうてんきにかえる\n"
+    "ミント。");
 
 static const u8 sLonelyMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to LONELY.\n"
-    "+ATK, -DEF");
+    "{JPN}ポケモンのせいかくを\n"
+    "さみしがりにかえる\n"
+    "ミント。");
 
 static const u8 sMildMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to MILD.\n"
-    "+SP.ATK, -DEF");
+    "{JPN}ポケモンのせいかくを\n"
+    "おっとりにかえる\n"
+    "ミント。");
 
 static const u8 sModestMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to MODEST.\n"
-    "+SP.ATK, -ATK");
+    "{JPN}ポケモンのせいかくを\n"
+    "ひかえめにかえる\n"
+    "ミント。");
 
 static const u8 sNaiveMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to NAIVE.\n"
-    "+SPD, -SP.DEF");
+    "{JPN}ポケモンのせいかくを\n"
+    "むじゃきにかえる\n"
+    "ミント。");
 
 static const u8 sNaughtyMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to NAUGHTY.\n"
-    "+ATK, -SP.DEF");
+    "{JPN}ポケモンのせいかくを\n"
+    "やんちゃにかえる\n"
+    "ミント。");
 
 static const u8 sQuietMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to QUIET.\n"
-    "+SP.ATK, -SPD");
+    "{JPN}ポケモンのせいかくを\n"
+    "れいせいにかえる\n"
+    "ミント。");
 
 static const u8 sRashMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to RASH.\n"
-    "+SP.ATK, -SP.DEF");
+    "{JPN}ポケモンのせいかくを\n"
+    "うっかりやにかえる\n"
+    "ミント。");
 
 static const u8 sRelaxedMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to RELAXED.\n"
-    "+DEF, -SPD");
+    "{JPN}ポケモンのせいかくを\n"
+    "のんきにかえる\n"
+    "ミント。");
 
 static const u8 sSassyMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to SASSY.\n"
-    "+SP.DEF, -SPD");
+    "{JPN}ポケモンのせいかくを\n"
+    "なまいきにかえる\n"
+    "ミント。");
 
 static const u8 sSeriousMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to SERIOUS.\n"
-    "NEUTRAL STATS");
+    "{JPN}ポケモンのせいかくを\n"
+    "まじめにかえる\n"
+    "ミント。");
 
 static const u8 sTimidMintDesc[] = _(
-    "Changes POKéMON\n"
-    "nature to TIMID.\n"
-    "+SPD, -ATK");
+    "{JPN}ポケモンのせいかくを\n"
+    "おくびょうにかえる\n"
+    "ミント。");
 
 static const u8 sInfiniteRepel[] = _(
-    "Repels POKéMON\n"
-    "until you\n"
-    "turn it off.");
+    "{JPN}オフにするまでずっと\n"
+    "やせいポケモンを\n"
+    "よせつけない。");
 
 static const u8 sInfiniteRareCandy[] = _(
-    "Gives 999 RARE\n"
-    "CANDIES for your\n"
-    "personal uses.");
+    "{JPN}ふしぎなアメを999こ\n"
+    "じゆうにつかえる\n"
+    "とくべつなどうぐ。");
 
 static const u8 sHealingHeart[] = _(
-    "This soft heart\n"
-    "fully heals your\n"
-    "POKéMON party.");
+    "{JPN}やさしいハートのちからで\n"
+    "てもちポケモンを\n"
+    "すべてかいふくする。");

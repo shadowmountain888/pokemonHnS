@@ -42,34 +42,32 @@ PewterCity_Museum_1F_EventScript_Bones::
 	end
 
 PewterCity_Museum_1F_Text_Recptionist:
-	.string "Welcome!\p"
-	.string "Just to let you know, all the large\n"
-	.string "specimens have been taken to the\l"
-	.string "other museums for display.\p"
-	.string "So for now, admission is free of\n"
-	.string "charge!\p"
-	.string "Please go ahead.$"
-
+	.string "{JPN}いらっしゃいませ\p"
+	.string "{JPN}げんざいおおきなひょうほんは\n"
+	.string "{JPN}よそのはくぶつかんへ\l"
+	.string "{JPN}かしだしちゅうなんです\p"
+	.string "{JPN}ですからいまだけとくべつに\n"
+	.string "{JPN}にゅうじょうむりょう！\p"
+	.string "{JPN}どうぞ\n"
+	.string "{JPN}ごじゆうにおはいりください$"
 PewterCity_Museum_1F_Text_FossilWoman:
-	.string "You must be a strong trainer.\p"
-	.string "We don't have much use for the\n"
-	.string "fossils on the counter over there.\p"
-	.string "A strange man with silver hair\n"
-	.string "dropped a ton of them off here.\p"
-	.string "Go ahead and take them if you like.$"
+	.string "{JPN}あなたは つよい トレーナー\n"
+	.string "{JPN}ですね.\p"
+	.string "{JPN}カウンターの うえにある\n"
+	.string "{JPN}かせきは あまり やくに\n"
+	.string "{JPN}たたないんです.\p"
+	.string "{JPN}ぎんいろの かみのけの\nへんな おとこが たくさん\nもってきたんですよ.\pよろしければ もって\nいってください.$"
 
 PewterCity_Museum_1F_Text_FossilWomanAfter:
-	.string "We often share research with the\n"
-	.string "RUINS OF ALPH researchers.\p"
-	.string "We even share fossils with them\n"
-	.string "through the PC!$"
+	.string "{JPN}わたしたちは アルフのいせきの\n"
+	.string "{JPN}けんきゅうしゃたちと よく\n"
+	.string "{JPN}じょうほうを こうかんしています.\p"
+	.string "{JPN}パソコンを つかって かせきも\nこうかんしているんですよ!$"
 
 PewterCity_Museum_1F_Text_Oldman:
-	.string "I should be grateful for my long\n"
-	.string "life.\p"
-	.string "Never did I think I would get to\n"
-	.string "see the bones of a dragon!$"
-
+	.string "{JPN}ありがたや！ありがたや！\p"
+	.string "{JPN}りゅうじんさまの\n"
+	.string "{JPN}ほねをおがめるとは！$"
 PewterCity_Museum_1F_Text_Bones:
-	.string "Bones of an ancient dragon\n"
-	.string "POKéMON.$"
+	.string "{JPN}むかしの ドラゴンポケモンの\n"
+	.string "{JPN}ほねです.$"

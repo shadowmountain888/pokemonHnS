@@ -61,123 +61,121 @@ MeteorFalls_1F_2R_EventScript_RematchJay::
 	end
 
 MeteorFalls_1F_2R_Text_NicolasIntro:
-	.string "This is where we DRAGON users do our\n"
-	.string "training.\p"
-	.string "The CHAMPION even visits.\n"
-	.string "Now do you see how special it is here?$"
+	.string "{JPN}ここは わたしたち ドラゴン\n"
+	.string "{JPN}つかいが しゅぎょうする ばしょだ.\p"
+	.string "{JPN}チャンピオンも おとずれる.\n"
+	.string "{JPN}どれだけ とくべつな ばしょか\nわかるだろう?$"
 
 MeteorFalls_1F_2R_Text_NicolasDefeat:
-	.string "Urgh!\n"
-	.string "I didn't expect you to be so strong!$"
+	.string "{JPN}ぐぬう!\n"
+	.string "{JPN}こんなに つよいとは おもわなかった!$"
 
 MeteorFalls_1F_2R_Text_NicolasPostBattle:
-	.string "The road ahead remains long and harsh.\p"
-	.string "When will my POKéMON and I become\n"
-	.string "the best?$"
+	.string "{JPN}さきの みちは まだまだ\n"
+	.string "{JPN}ながく きびしい.\p"
+	.string "{JPN}いつになったら わたしと ポケモンは\nさいきょうに なれるのだろうか?$"
 
 MeteorFalls_1F_2R_Text_NicolasRegister:
-	.string "I want to know more about your power.\n"
-	.string "Let me register you in my POKéNAV.$"
+	.string "{JPN}きみの ちからを もっと しりたい.\n"
+	.string "{JPN}ポケナビに とうろくさせてくれ.$"
 
 MeteorFalls_1F_2R_Text_NicolasRematchIntro:
-	.string "Since we met, we have trained hard\n"
-	.string "with our sights on number one.\p"
-	.string "Help us see how much stronger we've\n"
-	.string "become!$"
+	.string "{JPN}であってから わたしたちは\n"
+	.string "{JPN}いちばんを めざして きたえた.\p"
+	.string "{JPN}どれだけ つよくなったか\n"
+	.string "{JPN}みせてくれ!$"
 
 MeteorFalls_1F_2R_Text_NicolasRematchDefeat:
-	.string "Urgh!\n"
-	.string "I didn't expect you to be so strong!$"
+	.string "{JPN}ぐぬう!\n"
+	.string "{JPN}こんなに つよいとは おもわなかった!$"
 
 MeteorFalls_1F_2R_Text_NicolasPostRematch:
-	.string "You've obviously kept up your\n"
-	.string "POKéMON training.\p"
-	.string "So long as you remain strong, I, too,\n"
-	.string "can become stronger!$"
+	.string "{JPN}きみは あきらかに ポケモンの\n"
+	.string "{JPN}しゅぎょうを つづけているな.\p"
+	.string "{JPN}きみが つよい かぎり わたしも\n"
+	.string "{JPN}もっと つよくなれる!$"
 
 MeteorFalls_1F_2R_Text_JohnIntro:
-	.string "JOHN: We've always battled POKéMON\n"
-	.string "together as a twosome.\l"
-	.string "We've confidence in ourselves.$"
+	.string "{JPN}ジョン: わたしたちは いつも\n"
+	.string "{JPN}ふたりで ポケモンバトルを\l"
+	.string "{JPN}してきました. じしんが あります.$"
 
 MeteorFalls_1F_2R_Text_JohnDefeat:
-	.string "JOHN: Oh, my.\n"
-	.string "We've lost, dear wife.$"
+	.string "{JPN}ジョン: おやおや.\n"
+	.string "{JPN}まけてしまいました つまよ.$"
 
 MeteorFalls_1F_2R_Text_JohnPostBattle:
-	.string "JOHN: We've been married for\n"
-	.string "fifty years.\p"
-	.string "Come to think of it, I've yet to beat\n"
-	.string "my dear wife in a battle.$"
+	.string "{JPN}ジョン: わたしたちは けっこん\n"
+	.string "{JPN}して 50ねんに なります.\p"
+	.string "{JPN}そういえば つまとの バトルでは\n"
+	.string "{JPN}いちども かったことが ありません.$"
 
 MeteorFalls_1F_2R_Text_JohnNotEnoughMons:
-	.string "JOHN: Well, well, what a young TRAINER!\p"
-	.string "Will you battle with us? If so, you'll\n"
-	.string "have to return with more POKéMON.$"
+	.string "{JPN}ジョン: おお わかい トレーナー!\p"
+	.string "{JPN}わたしたちと バトルしますか?\n"
+	.string "{JPN}そうなら もっと ポケモンを\nつれてきて ください.$"
 
 MeteorFalls_1F_2R_Text_JohnRegister:
-	.string "JOHN: Young TRAINER, if the chance\n"
-	.string "arises, will you battle with us again?$"
+	.string "{JPN}ジョン: わかい トレーナーよ\n"
+	.string "{JPN}また きかいが あったら\nバトルして くれませんか?$"
 
 MeteorFalls_1F_2R_Text_JayIntro:
-	.string "JAY: We've been married for\n"
-	.string "fifty years.\p"
-	.string "The bond we share as a couple could\n"
-	.string "never be broken.$"
+	.string "{JPN}ジェイ: わたしたちは けっこん\n"
+	.string "{JPN}して 50ねんに なります.\p"
+	.string "{JPN}ふうふの きずなは ぜったいに\n"
+	.string "{JPN}きれることは ありません.$"
 
 MeteorFalls_1F_2R_Text_JayDefeat:
-	.string "JAY: Oh, dear.\n"
-	.string "We've lost, my dear husband.$"
+	.string "{JPN}ジェイ: あらあら.\n"
+	.string "{JPN}まけてしまいました おっとさん.$"
 
 MeteorFalls_1F_2R_Text_JayPostBattle:
-	.string "JAY: Fifty years of marriage…\p"
-	.string "If we ever argued, we always settled\n"
-	.string "it with a POKéMON battle…$"
-
+	.string "{JPN}ジェイ: けっこんして ごじゅうねん...\p"
+	.string "{JPN}けんかを したときは いつも\n"
+	.string "{JPN}ポケモンしょうぶで かいけつしたのう...$"
 MeteorFalls_1F_2R_Text_JayNotEnoughMons:
-	.string "JAY: Well, well, aren't you a young\n"
-	.string "TRAINER?\p"
-	.string "If you'd care to battle with us, you'll\n"
-	.string "have to come back with more POKéMON.$"
+	.string "{JPN}ジェイ: まあまあ わかい\n"
+	.string "{JPN}トレーナーね.\p"
+	.string "{JPN}わたしたちと バトルするなら\n"
+	.string "{JPN}もっと ポケモンを つれてきて\nちょうだい.$"
 
 MeteorFalls_1F_2R_Text_JohnRematchIntro:
-	.string "JOHN: We've always battled POKéMON\n"
-	.string "together as a twosome.\l"
-	.string "We've confidence in ourselves.$"
+	.string "{JPN}ジョン: わたしたちは いつも\n"
+	.string "{JPN}ふたりで ポケモンバトルを\l"
+	.string "{JPN}してきました. じしんが あります.$"
 
 MeteorFalls_1F_2R_Text_JohnRematchDefeat:
-	.string "JOHN: Oh, my.\n"
-	.string "We've lost, dear wife.$"
+	.string "{JPN}ジョン: おやおや.\n"
+	.string "{JPN}まけてしまいました つまよ.$"
 
 MeteorFalls_1F_2R_Text_JohnPostRematch:
-	.string "JOHN: Married for fifty years…\p"
-	.string "On reflection, the dear wife and I,\n"
-	.string "we battled day in and day out…$"
-
+	.string "{JPN}ジョン: けっこんして ごじゅうねん...\p"
+	.string "{JPN}ふりかえってみれば あいぼうと\n"
+	.string "{JPN}まいにち しょうぶの あけくれじゃった...$"
 MeteorFalls_1F_2R_Text_JohnRematchNotEnoughMons:
-	.string "JOHN: Well, well, what a young TRAINER!\p"
-	.string "Will you battle with us? If so, you'll\n"
-	.string "have to return with more POKéMON.$"
+	.string "{JPN}ジョン: おお わかい トレーナー!\p"
+	.string "{JPN}わたしたちと バトルしますか?\n"
+	.string "{JPN}そうなら もっと ポケモンを\nつれてきて ください.$"
 
 MeteorFalls_1F_2R_Text_JayRematchIntro:
-	.string "JAY: We've been married for\n"
-	.string "fifty years.\p"
-	.string "We've supported each other all that\n"
-	.string "time. We've made ourselves strong.$"
+	.string "{JPN}ジェイ: わたしたちは けっこん\n"
+	.string "{JPN}して 50ねんに なります.\p"
+	.string "{JPN}ずっと ささえあって つよく\n"
+	.string "{JPN}なってきました.$"
 
 MeteorFalls_1F_2R_Text_JayRematchDefeat:
-	.string "JAY: Oh, dear.\n"
-	.string "We've lost, my dear husband.$"
+	.string "{JPN}ジェイ: あらあら.\n"
+	.string "{JPN}まけてしまいました おっとさん.$"
 
 MeteorFalls_1F_2R_Text_JayPostRematch:
-	.string "JAY: Fifty years of marriage…\n"
-	.string "Many things have happened.\p"
-	.string "I hope that we will continue to make\n"
-	.string "happy memories together.$"
+	.string "{JPN}ジェイ: けっこんして ごじゅうねん...\n"
+	.string "{JPN}いろいろな ことが あったのう.\p"
+	.string "{JPN}これからも いっしょに\n"
+	.string "{JPN}たのしい おもいでを つくりたいものじゃ.$"
 
 MeteorFalls_1F_2R_Text_JayRematchNotEnoughMons:
-	.string "JAY: Well, well, aren't you a young\n"
-	.string "TRAINER?\p"
-	.string "If you'd care to battle with us, you'll\n"
-	.string "have to come back with more POKéMON.$"
+	.string "{JPN}ジェイ: まあまあ わかい\n"
+	.string "{JPN}トレーナーね.\p"
+	.string "{JPN}わたしたちと バトルするなら\n"
+	.string "{JPN}もっと ポケモンを つれてきて\nちょうだい.$"
 

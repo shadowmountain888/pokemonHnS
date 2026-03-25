@@ -18,13 +18,12 @@ EverGrandeCity_PokemonLeague_1F_AncientPower::
 	end
 
 EverGrandeCity_PokemonLeague_1F_AncientPower_Text:
-	.string "There are three POKéMON that\n"
-	.string "evolve using a certain MOVE.\p"
-	.string "They are YANMA, PILOSWINE and TANGELA.\p"
-	.string "Now… the move… I don't remember\n"
-	.string "exactly… Something about an\l"
-	.string "ANCIENT MOVE…$"
-
+	.string "{JPN}あるわざを つかって しんかする\n"
+	.string "{JPN}ポケモンが 3ひき いるんだよ.\p"
+	.string "{JPN}それは ヤンヤンマと イノムーと\n"
+	.string "{JPN}モンジャラだ.\p"
+	.string "{JPN}そのわざは... なんだったかな...\n"
+	.string "{JPN}たしか こだいの わざ... だったような...$"
 EverGrandeCity_PokemonLeague_1F_EventScript_GuardsBlockDoor::
 	setobjectxyperm LOCALID_GUARD_1, 9, 2
 	setobjectxyperm LOCALID_GUARD_2, 10, 2
@@ -138,18 +137,18 @@ EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay:
 	step_end
 
 EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges:
-	.string "Beyond this point, only those TRAINERS\n"
-	.string "who have collected all the GYM BADGES\l"
-	.string "are permitted to enter.\p"
-	.string "TRAINER, let us confirm that you have\n"
-	.string "all the GYM BADGES.$"
+	.string "{JPN}このさきは すべての ジムバッジを\n"
+	.string "{JPN}あつめた トレーナーだけが\l"
+	.string "{JPN}はいることが できます.\p"
+	.string "{JPN}トレーナー あなたが すべての\n"
+	.string "{JPN}ジムバッジを もっているか\lかくにんさせて ください.$"
 
 EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges:
-	.string "You haven't obtained all the BADGES.\p"
-	.string "If you're bound for the POKéMON\n"
-	.string "LEAGUE, you must return with them.$"
+	.string "{JPN}あなたは まだ すべての バッジを\n"
+	.string "{JPN}しゅとく していませんね.\p"
+	.string "{JPN}ポケモンリーグを めざすなら\nすべての バッジを あつめてから\lもどって きてください.$"
 
 EverGrandeCity_PokemonLeague_1F_Text_GoForth:
-	.string "TRAINER! Believe in yourself and your\n"
-	.string "POKéMON, and go forth!$"
+	.string "{JPN}トレーナー! じぶんと じぶんの\n"
+	.string "{JPN}ポケモンを しんじて\lすすんで いきなさい!$"
 

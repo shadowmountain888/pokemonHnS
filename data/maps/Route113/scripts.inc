@@ -136,33 +136,33 @@ Route113_EventScript_Wyatt::
 	end
 
 Route113_Text_AshCanBeFashionedIntoGlass:
-	.string "Wahahaha! Today's technology is a\n"
-	.string "wondrous thing!\p"
-	.string "Take this volcanic ash here.\n"
-	.string "It can be fashioned into glass.$"
+	.string "{JPN}わははは!きょうの\n"
+	.string "{JPN}ぎじゅつは すばらしいのう!\p"
+	.string "{JPN}この かざんばいを みよ.\n"
+	.string "{JPN}ガラスに かこうできるのじゃ!$"
 
 Route113_Text_FunWalkingThroughAsh:
-	.string "It's fun walking through the volcano's\n"
-	.string "ashes on the ground and grass.\p"
-	.string "You can see where you walked--it's\n"
-	.string "really neat!$"
+	.string "{JPN}じめんや くさの うえに つもった\n"
+	.string "{JPN}かざんばいの なかを あるくのは\p"
+	.string "{JPN}たのしいな!\n"
+	.string "{JPN}あるいた あとが よく みえるんだ!$"
 
 Route113_Text_RouteSign111:
-	.string "ROUTE 113\n"
-	.string "{RIGHT_ARROW} ROUTE 111$"
+	.string "{JPN}113ばんどうろ\n"
+	.string "{JPN}{RIGHT_ARROW} 111ばんどうろ$"
 
 Route113_Text_RouteSignFallarbor:
-	.string "ROUTE 113\n"
-	.string "{LEFT_ARROW} FALLARBOR TOWN$"
+	.string "{JPN}113ばんどうろ\n"
+	.string "{JPN}{LEFT_ARROW} ハジツゲタウン$"
 
 Route113_Text_TrainerTipsRegisterKeyItems:
-	.string "TRAINER TIPS\p"
-	.string "You may register one of the KEY ITEMS\n"
-	.string "in your BAG as SELECT.\p"
-	.string "Simply press SELECT to use\n"
-	.string "the registered item conveniently.$"
+	.string "{JPN}トレーナーの こころえ\p"
+	.string "{JPN}だいじなもので ひとつだけ\n"
+	.string "{JPN}セレクトボタンに とうろく できる\p"
+	.string "{JPN}セレクトボタンを おせば\n"
+	.string "{JPN}かんたんに つかえて べんり!$"
 
 Route113_Text_GlassWorkshopSign:
-	.string "GLASS WORKSHOP\n"
-	.string "“Turning Volcanic Ash into Glass Items”$"
+	.string "{JPN}ガラスこうぼう\n"
+	.string "{JPN}かざんばいから ガラスざいくへ$"
 

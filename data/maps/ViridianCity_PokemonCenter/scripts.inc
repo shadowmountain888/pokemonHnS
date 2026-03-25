@@ -26,20 +26,20 @@ ViridianCity_PokemonCenter_EventScript_BugCatcher::
 	end
 
 ViridianCity_PokemonCenter_Text_1FCooltrainerM:
-	.string "Where in the world is VIRIDIAN's GYM\n"
-	.string "LEADER? I wanted to challenge him.$"
-
+	.string "{JPN}トキワのジムリーダー\n"
+	.string "{JPN}どこにいっちゃったんだろう？\l"
+	.string "{JPN}ちょうせんしてみたかったのに..$"
 ViridianCity_PokemonCenter_Text_1FCooltrainerM_BlueReturned:
-	.string "There are no GYM TRAINERS at the\n"
-	.string "VIRIDIAN GYM.\p"
-	.string "The LEADER claims his policy is to\n"
-	.string "win without having any underlings.$"
+	.string "{JPN}トキワジムには ジムトレーナーが\n"
+	.string "{JPN}いないんだ.\p"
+	.string "{JPN}リーダーは ぶかを つかわずに\n"
+	.string "{JPN}かつのが しんじょうだって いってるよ.$"
 
 ViridianCity_PokemonCenter_Text_1FCooltrainerF:
-	.string "I heard that the GYM in CINNABAR is\n"
-	.string "gone.\p"
-	.string "I wonder what became of BLAINE, the\n"
-	.string "GYM LEADER.$"
-
+	.string "{JPN}グレンタウンのジムが\n"
+	.string "{JPN}なくなっちゃったみたいよ\p"
+	.string "{JPN}リーダーのカツラさん\n"
+	.string "{JPN}どこでなにしてるのかしら？$"
 ViridianCity_PokemonCenter_Text_1FBugCatcher:
-	.string "My dream is to become a GYM LEADER.$"
+	.string "{JPN}ジムリーダーになることが\n"
+	.string "{JPN}ぼくのゆめなんだ！$"

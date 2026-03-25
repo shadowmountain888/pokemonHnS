@@ -1,39 +1,39 @@
 gText_ObtainedTheItem::
-	.string "Obtained the {STR_VAR_2}!$"
+	.string "{JPN}{STR_VAR_2}を てにいれた!$"
 
 gText_TheBagIsFull::
-	.string "The BAG is full…$"
+	.string "{JPN}バッグが いっぱいだ!$"
 
 gText_PutItemInPocket::
-	.string "{PLAYER} put away the {STR_VAR_2}\n"
-	.string "in the {STR_VAR_3} POCKET.$"
+	.string "{JPN}{PLAYER}は {STR_VAR_2}を\n"
+	.string "{JPN}{STR_VAR_3}ポケットに しまった!$"
 
 gText_PlayerFoundOneItem::
-	.string "{PLAYER} found one {STR_VAR_2}!$"
+	.string "{JPN}{PLAYER}は {STR_VAR_2}を\nみつけた!$"
 
 gText_TooBadBagIsFull::
-	.string "Too bad!\n"
-	.string "The BAG is full…$"
+	.string "{JPN}ざんねん!\n"
+	.string "{JPN}バッグが いっぱいだ...$"
 
 gText_PlayerPutItemInBag::
-	.string "{PLAYER} put away the {STR_VAR_2}\n"
-	.string "in the BAG.$"
+	.string "{JPN}{PLAYER}は {STR_VAR_2}を\n"
+	.string "{JPN}バッグに しまった!$"
 
 gText_ObtainedTheDecor::
-	.string "Obtained the {STR_VAR_2}!$"
+	.string "{JPN}{STR_VAR_2}を てにいれた!$"
 
 gText_NoRoomLeftForAnother::
-	.string "Too bad! There's no room left for\n"
-	.string "another {STR_VAR_2}…$"
+	.string "{JPN}ざんねん! {STR_VAR_2}を\n"
+	.string "{JPN}いれる ばしょが いっぱいだ...$"
 
 gText_TheDecorWasTransferredToThePC::
-	.string "The {STR_VAR_2} was transferred\n"
-	.string "to the PC.$"
+	.string "{JPN}{STR_VAR_2}は\n"
+	.string "{JPN}パソコンに てんそうされた!$"
 
 gText_PutItemInPC::
-	.string "{PLAYER} put away the {STR_VAR_2}\n"
-	.string "in the PC since bag is full.$"
+	.string "{JPN}{PLAYER}は {STR_VAR_2}を\n"
+	.string "{JPN}パソコンに しまった!$"
 
 gText_TooBadBagAndPCAreFull::
-	.string "Too bad!\n"
-	.string "The BAG and PC are full…$"
+	.string "{JPN}ざんねん!\n"
+	.string "{JPN}バッグも パソコンも いっぱいだ...$"

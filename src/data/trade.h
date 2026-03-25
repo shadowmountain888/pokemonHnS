@@ -46,13 +46,13 @@ static const u8 sText_ChooseAPkmn[] = _("Choose a POKéMON.");
 static const u8 sText_Summary[] = _("SUMMARY");
 static const u8 sText_Trade[] = _("TRADE");
 static const u8 sText_CancelTrade[] = _("Cancel trade?");
-static const u8 sJPText_PressBButtonToQuit[] = _("Bボタン　で　もどります");
+static const u8 sJPText_PressBButtonToQuit[] = _("{JPN}Bボタン　で　もどります");
 static const u8 sText_Summary2[] = _("SUMMARY");
 static const u8 sText_Trade2[] = _("TRADE");
-static const u8 sText_CommunicationStandby[] = _("{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}Communication standby…\nPlease wait.");
+static const u8 sText_CommunicationStandby[] = _("{JPN}{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}Communication standby…\nPlease wait.");
 static const u8 sText_TheTradeHasBeenCanceled[] = _("{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}The trade has\nbeen canceled.");
 static const u8 sText_OnlyPkmnForBattle[] = _("That's your only\nPOKéMON for battle.");
-static const u8 sText_WaitingForYourFriend[] = _("{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}Waiting for your friend\nto finish…");
+static const u8 sText_WaitingForYourFriend[] = _("{JPN}{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}Waiting for your friend\nto finish…");
 static const u8 sText_YourFriendWantsToTrade[] = _("Your friend wants\nto trade POKéMON.");
 
 static const struct OamData sOamData_MenuText =
@@ -614,7 +614,7 @@ static const struct WindowTemplate sTradeYesNoWindowTemplate =
     .baseBlock = 582
 };
 
-static const u8 sText_ShedinjaJP[] = _("ヌケニン");
+static const u8 sText_ShedinjaJP[] = _("{JPN}ヌケニン");
 static const u8 sSelectedMonLevelGenderCoords[3][2] =
 {
     [TRADE_PLAYER]  = {4,  3},

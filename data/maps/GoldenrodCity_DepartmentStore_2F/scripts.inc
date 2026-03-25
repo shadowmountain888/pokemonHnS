@@ -35,21 +35,16 @@ GoldenrodDeptStore2_EventScript_Sign::
 	end
 
 GoldenrodDeptStore_Text_2FYoungster:
-    .string "POKéGEAR can store up to 25 phone\n"
-    .string "numbers.\p"
-    .string "It's hard to decide which numbers\n"
-    .string "to keep.$"
-
+	.string "{JPN}ポケギアには25けんまで\nでんわばんごうがはいるんだ\pどのばんごうをのこすか\nまよっちゃうよ$"
 GoldenrodDeptStore_Text_2FCooltrainerF:
-    .string "I got my ABRA at the GAME CORNER.\p"
-    .string "Now it's my best partner.$"
-
+    .string "{JPN}わたしのケーシィ\n"
+	.string "{JPN}ゲームコーナーでてにいれたの\l"
+	.string "{JPN}いまではたいせつなパートナーよ$"
 GoldenrodDeptStore_Text_2FGentleman:
-    .string "This DEPT.STORE makes me realize\n"
-    .string "that GOLDENROD is a big city.\p"
-    .string "The selection here is unmatched\n"
-    .string "anywhere else.$"
-
+    .string "{JPN}ひゃっかてんにくると\n"
+	.string "{JPN}コガネはとかいだなあとおもうね\p"
+	.string "{JPN}このしなぞろえのよさ\n"
+	.string "{JPN}ほかとはちがうよ$"
 GoldenrodDeptStore_Text_2FDirectory:
-    .string "Your Travel Companion\p"
-    .string "2F TRAINER'S MARKET$"
+    .string "{JPN}たびのおともに\n"
+	.string "{JPN}2かい..トレーナーズマーケット$"

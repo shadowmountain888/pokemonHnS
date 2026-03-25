@@ -63,42 +63,41 @@ VerdanturfTown_FriendshipRatersHouse_EventScript_Pikachu::
 	end
 
 VerdanturfTown_FriendshipRatersHouse_Text_SeeHowMuchPokemonLikesYou:
-	.string "Let me see your POKéMON.\n"
-	.string "I'll check to see how much it likes you.\p"
-	.string "Oh.\n"
-	.string "Your POKéMON…$"
-
+	.string "{JPN}きみのポケモンを\n"
+	.string "{JPN}みせてくれるかい.\p"
+	.string "{JPN}どのくらい きみのことを\n"
+	.string "{JPN}すきになっているか\lしらべてみよう.\pふむ.\nきみのポケモンは...$"
 VerdanturfTown_FriendshipRatersHouse_Text_AdoresYou:
-	.string "It adores you.\n"
-	.string "It can't possibly love you any more.\l"
-	.string "I even feel happy seeing it.$"
+	.string "{JPN}あなたを したっています.\n"
+	.string "{JPN}これいじょう あいする ことは\l"
+	.string "{JPN}できないでしょう.\lみていて うれしく なります.$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_VeryHappy:
-	.string "It seems to be very happy.\n"
-	.string "It obviously likes you a whole lot.$"
+	.string "{JPN}とても しあわせ そうです.\n"
+	.string "{JPN}あきらかに あなたを\lとても すきに なっています.$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_LikesYouQuiteALot:
-	.string "It likes you quite a lot.\n"
-	.string "It seems to want to be babied a little.$"
+	.string "{JPN}あなたを かなり\n"
+	.string "{JPN}すいています.\lすこし あまえたがって\lいる ようです.$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_GettingUsedToYou:
-	.string "It's getting used to you.\n"
-	.string "It seems to believe in you.$"
+	.string "{JPN}あなたに なれてきて います.\n"
+	.string "{JPN}あなたを しんじている\lようです.$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_NotUsedToYou:
-	.string "It's not very used to you yet.\n"
-	.string "It neither loves nor hates you.$"
+	.string "{JPN}まだ あまり\n"
+	.string "{JPN}なれていません.\lあいしても きらいとも\lおもっていません.$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_VeryWary:
-	.string "It's very wary.\n"
-	.string "It has scary viciousness in its eyes.\l"
-	.string "It doesn't like you much at all.$"
+	.string "{JPN}とても けいかい しています.\n"
+	.string "{JPN}めに こわい\l"
+	.string "{JPN}きょうぼうさが あります.\lあなたを あまり\lすいていません.$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_DetestsYou:
-	.string "This is a little hard for me to say…\p"
-	.string "Your POKéMON simply detests you.\n"
-	.string "Doesn't that make you uncomfortable?$"
+	.string "{JPN}これは いいにくいことなんじゃが...\p"
+	.string "{JPN}きみのポケモンは きみのことを\n"
+	.string "{JPN}ひどく きらっているようじゃ.\pそれでも へいきなのかね?$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_Pikachu:
-	.string "PIKACHU: Pika pika!$"
+	.string "{JPN}ピカチュウ: ピカ ピカ!$"
 

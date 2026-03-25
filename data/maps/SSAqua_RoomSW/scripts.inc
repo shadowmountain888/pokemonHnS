@@ -12,31 +12,29 @@ SSAqua_RoomSW_EventScript_Clyde::
 	end
 
 SSAqua_RoomSW_Text_BeautyCassieSeen:
-    .string "I'm trying to forget my woes.\n"
-    .string "Let's battle!$"
+    .string "{JPN}わたし つらいことを\n"
+	.string "{JPN}わすれたいの\lいっしょに たたかいましょう$"
 
 SSAqua_RoomSW_Text_BeautyCassieBeaten:
-    .string "My heart weeps…$"
-
+    .string "{JPN}わたしのこころが\nないている...$"
 SSAqua_RoomSW_Text_BeautyCassieAfterBattle:
-    .string "A voyage is best for getting over\n"
-    .string "a broken heart.\p"
-    .string "But a FAST SHIP trip is too short\n"
-    .string "for grieving.$"
+    .string "{JPN}りょこうは しつれんを\n"
+	.string "{JPN}なおすのに いちばんよ\p"
+    .string "{JPN}でも こうそくせんでの\n"
+	.string "{JPN}たびは みじかすぎるわ$"
 
 SSAqua_RoomSW_Text_GuitaristClydeSeen:
-    .string "I'm going to audition my songs\n"
-    .string "at GOLDENROD's RADIO STATION.$"
+    .string "{JPN}コガネシティの ラジオとうで\n"
+	.string "{JPN}じぶんの うたの オーディション\nうけるんだ$"
 
 SSAqua_RoomSW_Text_GuitaristClydeBeaten:
-    .string "Yowza! Total distortion!$"
+    .string "{JPN}うわあ! かんぜんに\nちょうしが くるった!$"
 
 SSAqua_RoomSW_Text_GuitaristClydeAfterBattleMobile:
-    .string "I was going to make my debut at\n"
-    .string "the BATTLE TOWER…\p"
-    .string "I should go back to VERMILION and\n"
-    .string "redo my training…$"
-
+    .string "{JPN}バトルタワーで\n"
+	.string "{JPN}デビューするつもり\n"
+	.string "{JPN}だったのに...\p"
+	.string "{JPN}クチバにもどって\nしゅぎょうを\nやりなおそう...$"
 SSAqua_RoomSW_Text_GuitaristClydeAfterBattle:
-    .string "Speaking of the RADIO STATION,\n"
-    .string "what's this week's lucky number?$"
+    .string "{JPN}そうそう ラジオとうといえば\n"
+	.string "{JPN}こんしゅうの らっきーなんばーは\nなんばんだっけ?$"

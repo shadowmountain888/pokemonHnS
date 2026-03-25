@@ -29,65 +29,62 @@ VictoryRoad_B1F_EventScript_Halle::
 	end
 
 VictoryRoad_B1F_Text_SamuelIntro:
-	.string "The thought that I'm getting closer to\n"
-	.string "the POKéMON LEAGUE…\p"
-	.string "I'm getting stage fright…$"
-
+	.string "{JPN}ポケモンリーグに\n"
+	.string "{JPN}ちかづいてるって\n"
+	.string "{JPN}おもうと...\pあがっちゃうなあ...$"
 VictoryRoad_B1F_Text_SamuelDefeat:
-	.string "I couldn't do a thing…$"
-
+	.string "{JPN}なにも できなかった...$"
 VictoryRoad_B1F_Text_SamuelPostBattle:
-	.string "The POKéMON LEAGUE became distant\n"
-	.string "again… What a letdown…$"
-
+	.string "{JPN}ポケモンリーグが\n"
+	.string "{JPN}また とおくなった...\nがっかりだよ...$"
 VictoryRoad_B1F_Text_ShannonIntro:
-	.string "To win your way through the POKéMON\n"
-	.string "LEAGUE, you need the trust of your\l"
-	.string "POKéMON.$"
+	.string "{JPN}ポケモンリーグをかちぬくには\n"
+	.string "{JPN}ポケモンからのしんらいが\l"
+	.string "{JPN}ひつようよ$"
 
 VictoryRoad_B1F_Text_ShannonDefeat:
-	.string "Your relationship is based on\n"
-	.string "solid trust.$"
+	.string "{JPN}あなたたちのかんけいは\n"
+	.string "{JPN}たしかなしんらいでむすばれてる$"
 
 VictoryRoad_B1F_Text_ShannonPostBattle:
-	.string "By being together all the time, trust\n"
-	.string "grows between POKéMON and TRAINERS.$"
+	.string "{JPN}いつもいっしょにいることで\n"
+	.string "{JPN}ポケモンとトレーナーのあいだに\lしんらいがそだつのよ$"
 
 VictoryRoad_B1F_Text_MichelleIntro:
-	.string "This isn't the goal. It's only a place\n"
-	.string "on the way to the POKéMON LEAGUE.$"
+	.string "{JPN}ここはゴールじゃないわ\n"
+	.string "{JPN}ポケモンリーグへのとおりみち\lにすぎないのよ$"
 
 VictoryRoad_B1F_Text_MichelleDefeat:
-	.string "That's the way!$"
+	.string "{JPN}そのちょうしよ!$"
 
 VictoryRoad_B1F_Text_MichellePostBattle:
-	.string "You'll do fine, for sure!\n"
-	.string "Your POKéMON are all eager to go!$"
+	.string "{JPN}きっとだいじょうぶ!\n"
+	.string "{JPN}あなたのポケモンたち\lやるきまんまんね!$"
 
 VictoryRoad_B1F_Text_MitchellIntro:
-	.string "My POKéMON are cosmically\n"
-	.string "awe inspiring!$"
+	.string "{JPN}わたしのポケモンは\n"
+	.string "{JPN}うちゅうてきに\lいあつかんがあるぞ!$"
 
 VictoryRoad_B1F_Text_MitchellDefeat:
-	.string "I've never met anyone like you before.$"
+	.string "{JPN}きみのようなひとに\nあったことがない$"
 
 VictoryRoad_B1F_Text_MitchellPostBattle:
-	.string "Even outside of battle, I sense\n"
-	.string "incredible power emanating from you\l"
-	.string "and your POKéMON.$"
+	.string "{JPN}たたかいのそとでも\n"
+	.string "{JPN}きみときみのポケモンから\l"
+	.string "{JPN}しんじられないパワーをかんじる$"
 
 VictoryRoad_B1F_Text_HalleIntro:
-	.string "Okay, no need to get your back up!\n"
-	.string "Relax, let's take it easy!$"
+	.string "{JPN}おっけー きにしないで!\n"
+	.string "{JPN}リラックスして\lらくにいこうよ!$"
 
 VictoryRoad_B1F_Text_HalleDefeat:
-	.string "Whoa!\n"
-	.string "Wonderful!$"
+	.string "{JPN}おお!\n"
+	.string "{JPN}すばらしい!$"
 
 VictoryRoad_B1F_Text_HallePostBattle:
-	.string "Sure, this is VICTORY ROAD.\p"
-	.string "But it's not all that different from\n"
-	.string "the path you've taken so far.\p"
-	.string "Try to enjoy things the rest of\n"
-	.string "the way!$"
+	.string "{JPN}たしかにここはチャンピオンロード\p"
+	.string "{JPN} でも いままでのみちのりと\n"
+	.string "{JPN}そんなにかわらないよ\p"
+	.string "{JPN} さいごまで\n"
+	.string "{JPN}たのしんでいこうね!$"
 

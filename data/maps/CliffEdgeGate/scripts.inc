@@ -18,20 +18,20 @@ CliffEdgeGate_EventScript_Picnicker::
 	end
 
 CliffEdgeGate_Text_IntroOpen:
-	.string "Did you know? There's a SAFARI ZONE\n"
-	.string "just around the corner.\p"
-	.string "It's really fun!\n"
-	.string "You will see many different kinds of\l"
-	.string "POKéMON, and it's all you can catch!\p"
-	.string "There is no reason not to go, right?\n"
-	.string "Just around the corner.$"
+	.string "{JPN}しってる? この さき に\n"
+	.string "{JPN}サファリゾーン が あるんだ.\p"
+	.string "{JPN}とっても たのしいよ!\n"
+	.string "{JPN}いろんな しゅるい の\l"
+	.string "{JPN}ポケモン が みられて つかみほうだい!\p"
+	.string "{JPN}いかない りゆう なんて ないよね?\n"
+	.string "{JPN}この さき だよ.$"
 
 CliffEdgeGate_Text_Expectations:
-	.string "I appreciate that everybody is looking\n"
-	.string "forward to it.\p"
-	.string "But the lady at the reception seems\n"
-	.string "a bit too dramatic...\p"
-	.string "Don't get your expectations too high!$"
+	.string "{JPN}みんな が たのしみに してるのは\n"
+	.string "{JPN}うれしいんだけど.\p"
+	.string "{JPN}うけつけ の おねえさん が\n"
+	.string "{JPN}ちょっと おおげさ すぎて...\p"
+	.string "{JPN}きたい しすぎちゃ だめだよ!$"
 
 CliffEdgeGate_EventScript_CaveSign::
 	lock
@@ -41,8 +41,8 @@ CliffEdgeGate_EventScript_CaveSign::
 	end
 
 CliffEdgeGate_Text_SignOpen:
-	.string "Everything Is Thrilling!\n"
-	.string "Explore to Find Wild POKéMON!\l"
-	.string "Warden BAOBA's SAFARI ZONE\l"
-	.string "Up and Running!$"
+	.string "{JPN}すべて が スリリング!\n"
+	.string "{JPN}やせい の ポケモン を さがそう!\l"
+	.string "{JPN}えんちょう バオバ の サファリゾーン\l"
+	.string "{JPN}ついに オープン!$"
 

@@ -4792,7 +4792,7 @@ static u8 PrintCryScreenSpeciesName(u8 windowId, u16 num, u8 left, u8 top)
     switch (num)
     {
     default:
-        for (i = 0; gSpeciesNames[num][i] != EOS && i < POKEMON_NAME_LENGTH; i++)
+        for (i = 0; gSpeciesNames[num][i] != EOS && i < SPECIES_NAME_LENGTH; i++)
             str[i] = gSpeciesNames[num][i];
         break;
     case 0:

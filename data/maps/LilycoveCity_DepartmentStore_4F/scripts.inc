@@ -54,19 +54,18 @@ LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs:
 	end
 
 LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM:
-	.string "Hmm…\p"
-	.string "An attacking move…\n"
-	.string "Or a defensive move…\p"
-	.string "It's no easy matter to decide which TM\n"
-	.string "moves should be taught to POKéMON…$"
-
+	.string "{JPN}うーん...\p"
+	.string "{JPN}こうげきわざ...\n"
+	.string "{JPN}それとも ぼうぎょわざ...\p"
+	.string "{JPN}どの わざマシンの わざを\n"
+	.string "{JPN}ポケモンに おぼえさせるかは\nかんたんに きめられないなあ...$"
 LilycoveCity_DepartmentStore_4F_Text_FiftyDifferentTMs:
-	.string "There are so many different kinds of\n"
-	.string "TM moves.\p"
-	.string "A catalog I read said there are fifty\n"
-	.string "different kinds.$"
+	.string "{JPN}わざマシンには いろんな\n"
+	.string "{JPN}しゅるいが あるのね\p"
+	.string "{JPN}カタログで よんだけど\n"
+	.string "{JPN}50しゅるいも あるんだって$"
 
 LilycoveCity_DepartmentStore_4F_Text_PokemonOnlyHaveFourMoves:
-	.string "I'd like to get all the different TMs,\n"
-	.string "but a POKéMON learns only four moves.$"
+	.string "{JPN}いろんな わざマシンを\n"
+	.string "{JPN}ぜんぶ ほしいけど\pポケモンは 4つの わざしか\nおぼえられないのよね$"
 

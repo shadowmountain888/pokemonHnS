@@ -50,10 +50,10 @@ LakeOfRage_EventScript_Pryce::
     end
 
 LakeOfRage_Text_Pryce:
-    .string "{PLAYER}.\p"
-	.string "Even here, the cold keeps me sharp.\p"
-	.string "If you wish to battle again, come\n"
-	.string "to the FIGHTING DOJO.$"
+    .string "{JPN}{PLAYER}よ.\p"
+	.string "{JPN}ここでも さむさが わしを\n"
+	.string "{JPN}するどくしてくれる.\p"
+	.string "{JPN}また たたかいたくなったら\nかくとうどうじょうに こい.$"
 
 LakeOfRage_EventScript_Gramps::
 	goto_if_ge VAR_MAHOGANY_TOWN_STATE, 14, LakeOfRage_EventScript_Gramps2
@@ -245,124 +245,113 @@ LakeOfRage_Movement_DragoniteLeave:
 	step_end
 
 LakeOfRage_Text_Dragonite:
-	.string "DRAGONITE: Gyafooha!$"
+	.string "{JPN}カイリュー: ギャフゥ...$"
 
 LakeOfRage_Text_LanceForcedToEvolve:
-    .string "This lake is full of GYARADOS\n"
-    .string "but nothing else…\p"
-    .string "So the MAGIKARP are being forced\n"
-    .string "to evolve…$"
-
+	.string "{JPN}あのあかいギャラドス\nどうかんがえてみてもようすが\l"
+	.string "{JPN}ふつうじゃなかった...\p"
+	.string "{JPN}やはりだれかのしわざで\nむりやりしんかを\l"
+	.string "{JPN}させられてしまったのか...\p$"
 LakeOfRage_Text_LanceIntro1:
-    .string "Did you come here because of\n"
-    .string "the rumors?\p"
-    .string "You're {PLAYER}? I'm LANCE, a\n"
-    .string "trainer like you.$"
+	.string "{JPN}きみもうわさをききつけて\nやってきたのかい?\p"
+	.string "{JPN}そう{PLAYER}というのか\nおれはワタル\l"
+	.string "{JPN}きみとおなじトレーナーさ\p"
+	.string "{JPN}ここのうわさをききつけ\nしんそうをしらべていたんだが...\p"
+	.string "{JPN}{PLAYER}くん!\nさっきのたたかいをみれば\l"
+	.string "{JPN}きみがそうとうなじつりょくの\lトレーナーだとわかる\p"
+	.string "{JPN}よかったらおれにちょっと\nちからをかしてくれないか?$"
 
 LakeOfRage_Text_LanceIntro2:
-    .string "This man here informed me of\n"
-    .string "some rumors.\p"
-    .string "So we came to investigate…$"
-
+    .string "{JPN}ここにいる おとこのひとが\n"
+	.string "{JPN}うわさを おしえてくれたのだ.\p"
+    .string "{JPN}それで しらべに きたのだが...$"
 LakeOfRage_Text_LanceIntro3:
-    .string "I saw the way you battled\n"
-    .string "earlier, {PLAYER}.\p"
-    .string "I can tell that you're a trainer\n"
-    .string "with considerable skill.\p"
-    .string "If you don't mind, could you help\n"
-    .string "us investigate?$"
+    .string "{JPN}さっき きみの たたかいぶりを\n"
+	.string "{JPN}みせてもらった.\p"
+    .string "{JPN}かなりの うでまえの\n"
+	.string "{JPN}トレーナーだということが\l"
+    .string "{JPN}わかったよ.\p"
+	.string "{JPN}もしよかったら\nちょうさを てつだってくれるかい?$"
 
 LakeOfRage_Text_LanceRadioSignal:
-    .string "LANCE: Excellent!\p"
-    .string "It seems that the LAKE's MAGIKARP\n"
-    .string "are being forced to evolve.\p"
-    .string "A mysterious radio broadcast\n"
-    .string "coming from MAHOGANY is the cause.\p"
-    .string "We'll be waiting for you,\n"
-    .string "{PLAYER}.$"
+	.string "{JPN}ワタル: そうかたすかるよ!\p"
+	.string "{JPN}みずうみのコイキングたちは\nチョウジからのなぞのでんぱで\l"
+	.string "{JPN}むりやりしんかさせられている\lそんなきがするんだ\p"
+	.string "{JPN}そしてあの\nあやしいおみやげやさん...\p"
+	.string "{JPN}{PLAYER}くん!\nおれはひとあしさきに\l"
+	.string "{JPN}チョウジタウンへむかってるよ!$"
 
 LakeOfRage_Text_LanceRefused:
-    .string "Oh… Well, if you change your mind,\n"
-    .string "please help us.$"
+	.string "{JPN}そうか...\nきがかわったらきてくれよ$"
 
 LakeOfRage_Text_LanceAskHelp:
-    .string "LANCE: Hm? Are you going to help\n"
-    .string "us?$"
+	.string "{JPN}ワタル: どう?\nちからをかしてくれるかい?$"
 
 LakeOfRage_Text_GyaradosCry:
-    .string "GYARADOS: Gyashaa!$"
+	.string "{JPN}ギャラドス: ギャシャーッ!!$"
 
 LakeOfRage_Text_Gramps:
-    .string "The GYARADOS are angry!\p"
-    .string "It's a bad omen!$"
+	.string "{JPN}ギャラドスがおいかりじゃ!\nなんかよくないことがおきるんじゃ$"
 
 LakeOfRage_Text_GrampsCleared:
-    .string "Hahah! The MAGIKARP are biting!$"
+    .string "{JPN}はっはっは! コイキングが\nつりあがっておる!$"
 
 LakeOfRage_Text_SuperNerd:
-    .string "I heard this lake was made by\n"
-    .string "rampaging GYARADOS.\p"
-    .string "I wonder if there is any\n"
-    .string "connection to their mass outbreak\l"
-    .string "now?$"
+	.string "{JPN}ここはむかしギャラドスが\nあばれまわってできたんだって\p"
+	.string "{JPN}こんかいのじけんと\nなにかかんけいあるのかな?$"
 
 LakeOfRage_Text_CooltrainerF:
-    .string "Did my eyes deceive me? I saw a\n"
-    .string "red GYARADOS in the LAKE…\p"
-    .string "But I thought GYARADOS were\n"
-    .string "usually blue?$"
+	.string "{JPN}あかいギャラドスはどうしたの?\p"
+	.string "{JPN}えっもういないの?\nそんなせっかくきたのに...\p"
+	.string "{JPN}いいわあなたしょうぶしましょ!$"
 
 
 LakeOfRage_Text_FisherAndreSeen:
-    .string "Let me battle with the POKéMON I\n"
-    .string "just caught!$"
+    .string "{JPN}いま つったばかりの ポケモンで\n"
+	.string "{JPN}たたかわせてくれ!$"
 
 LakeOfRage_Text_FisherAndreBeaten:
-    .string "I might be an expert angler, but\n"
-    .string "I stink as a POKéMON trainer…$"
-
+    .string "{JPN}つりの うでまえは いちにんまえ\n"
+	.string "{JPN}でも ポケモントレーナーとして\nは まだまだだな...$"
 LakeOfRage_Text_FisherAndreAfter:
-    .string "I won't lose as an angler! I catch\n"
-    .string "POKéMON all day.$"
+    .string "{JPN}つりしとしては まけないぞ!\n"
+	.string "{JPN}いちにちじゅう ポケモンを\lつっているからな.$"
 
 
 LakeOfRage_Text_FisherRaymondSeen:
-    .string "No matter what I do, all I catch\n"
-    .string "are the same POKéMON…$"
-
+    .string "{JPN}なにを やっても おなじ\n"
+	.string "{JPN}ポケモンしか つれないんだ...$"
 LakeOfRage_Text_FisherRaymondBeaten:
-    .string "My line's all tangled up…$"
-
+    .string "{JPN}つりいとが からまっちゃったよ...$"
 LakeOfRage_Text_FisherRaymondAfter:
-    .string "Why can't I catch any good\n"
-    .string "POKéMON?$"
+    .string "{JPN}どうして いい ポケモンが\n"
+	.string "{JPN}つれないんだろう?$"
 
 LakeOfRage_Text_CooltrainermAaronSeen:
-    .string "If a trainer spots another trainer,\n"
-    .string "he has to make a challenge.\p"
-    .string "That is our destiny.$"
+    .string "{JPN}トレーナーが べつの トレーナーを\n"
+	.string "{JPN}みつけたら しょうぶを\l"
+    .string "{JPN}いどまなければならない.\nそれが われわれの さだめだ.$"
 
 LakeOfRage_Text_CooltrainermAaronBeaten:
-    .string "Whew… Good battle.$"
-
+    .string "{JPN}ふう... いいバトルだった.$"
 LakeOfRage_Text_CooltrainermAaronAfter:
-    .string "POKéMON and their trainer become\n"
-    .string "powerful through constant battling.$"
+    .string "{JPN}ポケモンと トレーナーは\n"
+	.string "{JPN}たえまない たたかいで\lつよくなっていくのだ.$"
 
 LakeOfRage_Text_CooltrainerfLoisSeen:
-    .string "What happened to the red\n"
-    .string "GYARADOS?\p"
-    .string "It's gone?\p"
-    .string "Oh, darn. I came here for\n"
-    .string "nothing?\p"
-    .string "I know--let's battle!$"
+    .string "{JPN}あかい ギャラドスは\n"
+	.string "{JPN}どうなったの?\p"
+    .string "{JPN}いなくなっちゃった?\p"
+	.string "{JPN}あーあ. むだあしだったかも.\p"
+    .string "{JPN}そうだ! しょうぶしましょ!$"
+	.string ""
 
 LakeOfRage_Text_CooltrainerfLoisBeaten:
-    .string "Good going!$"
+    .string "{JPN}やるわね!$"
 
 LakeOfRage_Text_CooltrainerfLoisAfter:
-    .string "Come to think of it, I've seen a\n"
-    .string "pink BUTTERFREE.$"
+    .string "{JPN}そういえば ピンクいろの\n"
+	.string "{JPN}バタフリーを みたことがあるの.$"
 
 
 
@@ -411,26 +400,26 @@ LakeOfRage_EventScript_WesleyCompleted::
 	end
 
 LakeOfRage_Text_MeetWesley:
-    .string "WESLEY: Well, how do you do?\p"
-    .string "I'm a member of the WEEKDAY family!\n"
-	.string "Can you guess my favorite day?$"
+    .string "{JPN}ウェズリー: やあ! げんきかい?\p"
+	.string "{JPN}ぼくは ようびきょうだいの\n"
+	.string "{JPN}ひとりなんだ!\lぼくの すきな ようびを\nあててみてくれる?$"
 
 LakeOfRage_Text_WesleyGivesGift:
-    .string "Pleased to meet you. Please take a\n"
-    .string "souvenir.$"
+    .string "{JPN}はじめまして. おみやげを\n"
+	.string "{JPN}どうぞ.$"
 
 LakeOfRage_Text_WesleyGaveGift:
-    .string "WESLEY: BLACK BELT beefs up the\n"
-    .string "power of fighting moves.$"
+    .string "{JPN}ウェズリー: くろおびは\n"
+	.string "{JPN}かくとうタイプの わざの\lいりょくを あげてくれるよ.$"
 
 LakeOfRage_Text_WesleyWednesday:
-    .string "WESLEY: Since you found me, you\n"
-    .string "must have met my brothers and\l"
-    .string "sisters.\p"
-    .string "Or did you just get lucky?$"
+    .string "{JPN}ウェズリー: きみが ぼくを\n"
+	.string "{JPN}みつけたということは\l"
+    .string "{JPN}きょうだいしまいに あったのかな?\n"
+	.string "{JPN}それとも うんが よかっただけ?$"
 
 LakeOfRage_Text_WesleyNotWednesday:
-    .string "WESLEY: Not exactly...$"
+    .string "{JPN}ウェズリー: ざんねん...$"
 
 LakeOfRage_EventScript_Sign1::
 	msgbox LakeOfRage_Text_Sign, MSGBOX_SIGN
@@ -441,8 +430,7 @@ LakeOfRage_EventScript_Sign2::
 	end
 
 LakeOfRage_Text_Sign:
-    .string "LAKE OF RAGE,\n"
-    .string "also known as GYARADOS LAKE.$"
+	.string "{JPN}ここはいかりのみずうみ\nべつめいギャラドスこ$"
 
 LakeOfRage_Text_FishingGuruSign:
-    .string "FISHING GURU'S HOUSE$"
+	.string "{JPN}ここはつりめいじんのいえ$"

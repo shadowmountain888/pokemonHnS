@@ -51,18 +51,18 @@ LilycoveCity_PokemonCenter_1F_EventScript_ManiacBadTeamGone::
 	end
 
 LilycoveCity_PokemonCenter_1F_Text_HowManyKindsOfPokemon:
-	.string "I wonder how many kinds of POKéMON\n"
-	.string "there are in the world.\p"
-	.string "It'd be great to cross seas and\n"
-	.string "trade POKéMON with people far away.$"
+	.string "{JPN}せかいには どのくらいの\n"
+	.string "{JPN}しゅるいの ポケモンが\l"
+	.string "{JPN}いるのかしら.\p"
+	.string "{JPN}うみを こえて とおくの\nひとたちと ポケモンこうかんが\lできたら すてきね.$"
 
 LilycoveCity_PokemonCenter_1F_Text_HeardAboutRottenScoundrels:
-	.string "I've been hearing about some rotten\n"
-	.string "scoundrels who steal POKéMON and rip\l"
-	.string "off METEORITES.$"
+	.string "{JPN}ポケモンを ぬすんだり\n"
+	.string "{JPN}いんせきを だましとったり\l"
+	.string "{JPN}する わるいやつらの\lうわさを きいたわ.$"
 
 LilycoveCity_PokemonCenter_1F_Text_HaventSeenRottenScoundrels:
-	.string "Those rotten scoundrels who steal\n"
-	.string "POKéMON and rip off METEORITES…\p"
-	.string "I haven't seen them around recently.$"
+	.string "{JPN}ポケモンを ぬすんで\n"
+	.string "{JPN}いんせきを うばう\l"
+	.string "{JPN}にっくき やつらを...\pさいきん みかけないね$"
 

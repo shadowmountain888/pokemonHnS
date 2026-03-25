@@ -10,16 +10,16 @@ VerdanturfTown_House_EventScript_Woman2::
 	end
 
 VerdanturfTown_House_Text_TrainersGatherAtPokemonLeague:
-	.string "Far away, deep in EVER GRANDE CITY,\n"
-	.string "is the POKéMON LEAGUE.\p"
-	.string "The TRAINERS who gather there are\n"
-	.string "all frighteningly well skilled.$"
+	.string "{JPN}はるかかなた サイユウ\n"
+	.string "{JPN}シティのおくふかくに \l"
+	.string "{JPN}ポケモンリーグがあるのじゃ.\p"
+	.string "{JPN}そこにあつまるトレーナーたち\nは みんなおそろしいほど\lつよいのじゃよ.$"
 
 VerdanturfTown_House_Text_DefeatEliteFourInARow:
-	.string "In the POKéMON LEAGUE, I think the\n"
-	.string "rules say that you have to battle the\l"
-	.string "ELITE FOUR all in a row.\p"
-	.string "If you lose to any of them, you have\n"
-	.string "to begin your challenge again from the\l"
-	.string "first one.$"
+	.string "{JPN}ポケモンリーグでは してんのう\n"
+	.string "{JPN}ぜんいんと れんぞくして\l"
+	.string "{JPN}たたかわなければならん.\p"
+	.string "{JPN}だれかひとりにでもまけたら \n"
+	.string "{JPN}また さいしょから\l"
+	.string "{JPN}ちょうせんしなおしじゃ.$"
 

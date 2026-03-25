@@ -28,19 +28,19 @@ RuinsOfAlph_Lab_EventScript_Fossils::
 	end
 
 RuinsOfAlph_Lab_Text_Scientist1:
-	.string "The RUINS are about 1500 years old.\p"
-	.string "But it's not known why they were\n"
-	.string "built--or by whom.$"
+	.string "{JPN}いせきは やく1500ねんまえの\n"
+	.string "{JPN}ものだよ.\p"
+	.string "{JPN}だけど なぜ つくられたのか\nだれが つくったのかは\lふめいなんだ.$"
 
 RuinsOfAlph_Lab_Text_Scientist2:
-	.string "There are odd patterns drawn on\n"
-	.string "on the walls of the RUINS.\p"
-	.string "They must be the keys for\n"
-	.string "unraveling the RUINS' mystery.$"
+	.string "{JPN}いせきの かべには ふしぎな\n"
+	.string "{JPN}もようが かかれているんだ.\p"
+	.string "{JPN}それが いせきの なぞを\n"
+	.string "{JPN}とく カギに ちがいない.$"
 
 RuinsOfAlph_Lab_Text_Fossils:
-	.string "Fossils found within the RUINS.\n"
-	.string "Maybe there are more somewhere...$"
+	.string "{JPN}いせきで みつかった かせき.\n"
+	.string "{JPN}まだ ほかにも あるかも...$"
 
 
 RuinsOfAlph_Lab_EventScript_FossilScientist::
@@ -610,119 +610,117 @@ RuinsOfAlph_Lab_EventScript_WorkOnNext::
 	end
 
 RuinsOfAlph_Lab_Text_DeviceForTalkingToPokemon:
-	.string "We're developing a device for talking\n"
-	.string "with POKéMON.\p"
-	.string "But we haven't had much success…$"
-
+	.string "{JPN}ポケモンと はなせる そうちを\n"
+	.string "{JPN}かいはつしてるんだ.\p"
+	.string "{JPN}でも あまり うまくいってない...$"
 RuinsOfAlph_Lab_Text_DevelopingNewBalls:
-	.string "I'm developing new kinds of\n"
-	.string "POKé BALLS…\p"
-	.string "But I haven't made much headway…$"
-
+	.string "{JPN}あたらしい しゅるいの\n"
+	.string "{JPN}モンスターボールを\l"
+	.string "{JPN}かいはつしてるんだ...\pでも あまり しんぽ してない...$"
 RuinsOfAlph_Lab_Text_WeFinallyMadeNewBalls:
-	.string "We finally made new kinds of\n"
-	.string "POKé BALLS!\p"
-	.string "The REPEAT BALL makes it easier to\n"
-	.string "catch POKéMON you've caught before.\p"
-	.string "The TIMER BALL gets better at catching\n"
-	.string "POKéMON the longer a battle runs.\p"
-	.string "Both are proudly developed by\n"
-	.string "the DEVON CORPORATION.\p"
-	.string "Please give them a try!$"
+	.string "{JPN}ついに あたらしい モンスター\n"
+	.string "{JPN}ボールが かんせいしたよ!\p"
+	.string "{JPN}リピートボールは いちど\n"
+	.string "{JPN}つかまえた ポケモンを\l"
+	.string "{JPN}つかまえやすく するんだ.\p"
+	.string "{JPN}タイマーボールは せんとうが\n"
+	.string "{JPN}ながびくほど つかまえやすく\l"
+	.string "{JPN}なるんだ.\p"
+	.string "{JPN}どちらも デボンコーポレーション\nが じしんを もって かいはつ\lしたものだ.\pぜひ ためして みてくれ!$"
 
 RuinsOfAlph_Lab_Text_IMadePokenav:
-	.string "I made the POKéNAV!\p"
-	.string "As an engineer, I feel blessed to have\n"
-	.string "made something so great!$"
+	.string "{JPN}わたしが ポケナビを つくった\n"
+	.string "{JPN}んですよ!\p"
+	.string "{JPN}エンジニアとして これほど\nすばらしいものが つくれて\lこううんでした!$"
 
 RuinsOfAlph_Lab_Text_WowThatsAPokenav:
-	.string "Oh, wow!\n"
-	.string "That's a POKéNAV!\p"
-	.string "It came about as a result of our\n"
-	.string "PRESIDENT's desire to learn about\l"
-	.string "the feelings of POKéMON.\p"
-	.string "Would you like me to describe its\n"
-	.string "features in detail?\p"
-	.string "No, no. I think you'll find out just by\n"
-	.string "trying the POKéNAV out.$"
+	.string "{JPN}おおっ!\n"
+	.string "{JPN}それは ポケナビですね!\p"
+	.string "{JPN}あれは われらが しゃちょうの\n"
+	.string "{JPN}ポケモンの きもちを しりたい\l"
+	.string "{JPN}という おもいから うまれたのです.\p"
+	.string "{JPN}くわしい きのうを せつめい\n"
+	.string "{JPN}しましょうか?\p"
+	.string "{JPN}いえいえ.つかって みれば\n"
+	.string "{JPN}わかると おもいますよ.$"
 
 RuinsOfAlph_Lab_Text_DeviceToVisualizePokemonDreams:
-	.string "I'm trying to develop a device that\n"
-	.string "visually reproduces the dreams of\l"
-	.string "POKéMON…\p"
-	.string "But it's not going well.$"
+	.string "{JPN}ポケモンの ゆめを えいぞうで\n"
+	.string "{JPN}さいげんする そうちを\l"
+	.string "{JPN}かいはつしようと してるんだ...\p"
+	.string "{JPN}でも うまくいってないよ.$"
 
 RuinsOfAlph_Lab_Text_DevelopDeviceToResurrectFossils:
-	.string "I've been trying to develop a device\n"
-	.string "that resurrects POKéMON from fossils…\p"
-	.string "And, it's working!$"
+	.string "{JPN}かせきから ポケモンを\n"
+	.string "{JPN}ふっかつさせる そうちを\l"
+	.string "{JPN}かいはつしようと してきたんだ...\pそして ついに せいこうしたよ!$"
 
 RuinsOfAlph_Lab_Text_WantToBringFossilBackToLife:
-	.string "Wait! That thing you have there…\n"
-	.string "Is that a POKéMON fossil?\p"
-	.string "Would you like to bring that POKéMON\n"
-	.string "back to life?\p"
-	.string "I can with my newly developed\n"
-	.string "FOSSIL REGENERATOR.$"
+	.string "{JPN}まって! きみが もってるのは...\n"
+	.string "{JPN}ポケモンの かせきじゃないか?\p"
+	.string "{JPN}その ポケモンを\n"
+	.string "{JPN}いきかえらせたいかい?\p"
+	.string "{JPN}わたしが あたらしく かいはつした\n"
+	.string "{JPN}かせきふくげんマシンで できるよ.$"
 
 RuinsOfAlph_Lab_Text_OhIsThatSo:
-	.string "Oh, is that so?\p"
-	.string "My technological expertise\n"
-	.string "is outstanding, I tell you.$"
+	.string "{JPN}そうですか.\p"
+	.string "{JPN}わたしの ぎじゅつりょくは\n"
+	.string "{JPN}ばつぐんなんですよ.$"
 
 RuinsOfAlph_Lab_Text_OhIsThatSo2:
-	.string "Oh, you don't have this fossil.\n"
-	.string "Come back if you manage to find it.$"
+	.string "{JPN}あれ? その かせきは\n"
+	.string "{JPN}もって いませんね.\nみつけたら また きてください.$"
 
 RuinsOfAlph_Lab_Text_TwoFossilsPickOne:
-	.string "Oh, now that's a surprise!\n"
-	.string "You have more than one fossil?\p"
-	.string "Unfortunately, my machine can only\n"
-	.string "regenerate one POKéMON at a time.\p"
-	.string "Which fossil would you like to\n"
-	.string "regenerate?$"
+	.string "{JPN}おや これは おどろいた!\n"
+	.string "{JPN}かせきを ふくすう もって\l"
+	.string "{JPN}いるんですか?\p"
+	.string "{JPN}ざんねんですが わたしの きかいは\n"
+	.string "{JPN}いちどに ひとつの ポケモンしか\l"
+	.string "{JPN}ふっかつ できません.\pどの かせきを ふっかつ\nさせますか?$"
 
 RuinsOfAlph_Lab_Text_HandedFossilToResearcher:
-	.string "Excellent!\n"
-	.string "Let's do this right away.\p"
-	.string "{PLAYER} handed the {STR_VAR_1} to\n"
-	.string "the RUINS RESEARCHER.$"
+	.string "{JPN}よし!\n"
+	.string "{JPN}すぐに はじめましょう.\p"
+	.string "{JPN}{PLAYER}は {STR_VAR_1}を\n"
+	.string "{JPN}いせきけんきゅういんに わたした.$"
 
 RuinsOfAlph_Lab_Text_FossilRegeneratorTakesTime:
-	.string "The FOSSIL REGENERATOR, which I made,\n"
-	.string "is incredible.\p"
-	.string "But it has one drawback--it takes\n"
-	.string "a long time to work.\p"
-	.string "So, uh… How about you go for a stroll\n"
-	.string "and look around for a while?$"
+	.string "{JPN}わたしが つくった かせきふくげん\n"
+	.string "{JPN}マシンは すばらしいんだ.\p"
+	.string "{JPN}でも ひとつ けってんがあって\n"
+	.string "{JPN}じかんが かかるんだよ.\p"
+	.string "{JPN}だから その... しばらく\n"
+	.string "{JPN}さんぽでも してもらえるかな?$"
 
 RuinsOfAlph_Lab_Text_FossilizedMonBroughtBackToLife:
-	.string "Thanks for waiting!\p"
-	.string "Your fossilized POKéMON has been\n"
-	.string "brought back to life!\p"
-	.string "The fossil was an ancient POKéMON.\n"
-	.string "{STR_VAR_2}, it was!$"
+	.string "{JPN}おまたせしました!\p"
+	.string "{JPN}かせきになった ポケモンが\n"
+	.string "{JPN}よみがえりました!\p"
+	.string "{JPN}この かせきは こだいの ポケモン\n"
+	.string "{JPN}{STR_VAR_2}でした!$"
 
 RuinsOfAlph_Lab_Text_ReceivedMonFromResearcher:
-	.string "{PLAYER} received {STR_VAR_2} from\n"
-	.string "the RESEARCHER.$"
+	.string "{JPN}{PLAYER}は けんきゅういんから\n"
+	.string "{JPN}{STR_VAR_2}を うけとった!$"
 
 @ Unused
 RuinsOfAlph_Lab_Text_TooManyPokemon:
-	.string "Uh-oh, you've got too many POKéMON.\n"
-	.string "You have no room for this one.$"
+	.string "{JPN}あれれ? ポケモンを たくさん\n"
+	.string "{JPN}もちすぎですね.\nこれいじょうは もてませんよ.$"
 
 RuinsOfAlph_Lab_Text_DevelopNewPokenavFeature:
-	.string "I'm trying to develop a new feature\n"
-	.string "for the POKéNAV…\p"
-	.string "But it's not going well.$"
+	.string "{JPN}ポケナビの あたらしい きのうを\n"
+	.string "{JPN}かいはつしようと してるんだ...\p"
+	.string "{JPN}でも うまくいってないよ.$"
 
 RuinsOfAlph_Lab_Text_WhatToWorkOnNext:
-	.string "Well, now what shall I work on\n"
-	.string "developing next?\p"
-	.string "Our company allows us to make our\n"
-	.string "inspirations into reality.\p"
-	.string "One couldn't ask for a better\n"
-	.string "environment as an engineer.$"
+	.string "{JPN}さて つぎは なにを かいはつ\n"
+	.string "{JPN}しようかな?\p"
+	.string "{JPN}わが しゃでは じぶんの アイデアを\n"
+	.string "{JPN}かたちに できるからね.\p"
+	.string "{JPN}エンジニアには これいじょう\n"
+	.string "{JPN}ない かんきょうだよ.$"
 
 

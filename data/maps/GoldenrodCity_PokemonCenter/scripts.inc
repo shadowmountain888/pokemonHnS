@@ -41,60 +41,59 @@ GoldenrodCity_PokemonCenter_EventScript_Lass::
 	end
 
 GoldenrodCity_PokemonCenter_GrannyText:
-    .string "I just love living in the big city!\n"
-    .string "I moved here when I was a young\l"
-    .string "trainer, like you!$"
+    .string "{JPN}だいとしに すんでるのって\n"
+	.string "{JPN}サイコーね!\l"
+    .string "{JPN}あなたみたいに わかい\lトレーナーのころに ひっこして\lきたのよ!$"
 
 GoldenrodCity_PokemonCenter_GameboyKidText1:
-    .string "This is a special POKéMON CENTER.\n"
-    .string "The roof is made of gold!$"
+    .string "{JPN}ここは とくべつな\n"
+	.string "{JPN}ポケモンセンターなんだ.\lやねが きんで できてるんだよ!$"
 
 GoldenrodCity_PokemonCenter_GameboyKidText2:
-    .string "I told my brother that the roof is\n"
-    .string "made of real gold. He'll believe\l"
-	.string "anything!$"
+    .string "{JPN}おにいちゃんに やねが\n"
+	.string "{JPN}ほんものの きんで できてるって\l"
+	.string "{JPN}いったんだ. なんでも\lしんじちゃうんだよね!$"
 
 GoldenrodCity_PokemonCenter_LassText:
-    .string "A higher level POKéMON doesn't\n"
-    .string "always win.\p"
-    .string "After all, it may have a type\n"
-    .string "disadvantage.\p"
-    .string "I don't think there is a single\n"
-    .string "POKéMON that is the toughest.$"
+    .string "{JPN}レベルの たかい ポケモンが\n"
+	.string "{JPN}いつも かつとは かぎらないの.\p"
+    .string "{JPN}だって タイプで ふりに\n"
+	.string "{JPN}なることも あるもの.\p"
+    .string "{JPN}いちばん つよい ポケモンなんて\n"
+	.string "{JPN}いないと おもうわ.$"
 
 GoldenrodPokeCenter_LinkReceptionistPleaseAcceptGSBallText:
-    .string "{PLAYER}, isn't it?\p"
-    .string "Congratulations!\p"
-    .string "As a special deal, a GS BALL has\n"
-    .string "been sent just for you!\p"
-    .string "Please accept it!$"
+    .string "{JPN}{PLAYER}さんですね?\p"
+	.string "{JPN}おめでとう ございます!\p"
+    .string "{JPN}とくべつ サービスで\n"
+	.string "{JPN}GSボールを おとどけしました!\p"
+    .string "{JPN}どうぞ おうけとりください!$"
 
 GoldenrodPokeCenter_LinkReceptionistPleaseDoComeAgainText:
-    .string "Please do come again!$"
+    .string "{JPN}また いらしてくださいね!$"
 
 GoldenrodCity_PokemonCenter_PokefanFDoYouHaveEonMailText:
-    .string "Oh my, your pack looks so heavy!\p"
-    .string "Oh! Do you happen to have\n"
-    .string "something named EON MAIL?\p"
-    .string "My daughter is after one.\p"
-    .string "You can part with one, can't you?$"
+    .string "{JPN}まあ! おもい にもつね!\p"
+	.string "{JPN}あら! もしかして\n"
+    .string "{JPN}イーオンメールって いうもの\l"
+	.string "{JPN}もってない?\p"
+    .string "{JPN}むすめが ほしがってるのよ.\pひとつ ゆずってくれる?$"
 
 GoldenrodCity_PokemonCenter_AskGiveAwayAnEonMailText:
-    .string "Give away an EON MAIL?$"
+    .string "{JPN}イーオンメールを わたす?$"
 
 GoldenrodCity_PokemonCenter_PokefanFThisIsForYouText:
-    .string "Oh, that's great! Thank you,\n"
-    .string "honey!\p"
-    .string "Here, this is for you in return!$"
+    .string "{JPN}あら! ステキ! ありがとう!\p"
+	.string "{JPN}はい! これは おれいよ!$"
+    .string ""
 
 GoldenrodCity_PokemonCenter_PokefanFDaughterWillBeDelightedText:
-    .string "My daughter will be delighted!$"
+    .string "{JPN}むすめが よろこぶわ!$"
 
 GoldenrodCity_PokemonCenter_PokefanFTooBadText:
-    .string "Oh? You don't have one? Too bad.$"
+    .string "{JPN}あら? もってないの?\nざんねんね.$"
 
 GoldenrodCity_PokemonCenter_PokefanFAnotherTimeThenText:
-    .string "Oh… Well, another time, then.$"
-
+    .string "{JPN}ああ... そうですか.\nそれでは また こんど.$"
 GoldenrodCity_PokemonCenter_PlayerGaveAwayTheEonMailText:
-    .string "{PLAYER} gave away the EON MAIL.$"
+    .string "{JPN}{PLAYER}は イーオンメールを\nわたした.$"

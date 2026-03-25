@@ -151,108 +151,97 @@ BattleFrontier_Lounge1_EventScript_Boy2::
 	end
 
 BattleFrontier_Lounge1_Text_PokemonBreederIntro:
-	.string "For 70 years I have raised POKéMON!\n"
-	.string "I am the man they revere as\l"
-	.string "the legendary top POKéMON BREEDER!\p"
-	.string "If you ever become as seasoned as me,\n"
-	.string "you'll see the abilities of POKéMON\l"
-	.string "at a glance.\p"
-	.string "You're a TRAINER. Doesn't it interest\n"
-	.string "you to know your own POKéMON's\l"
-	.string "abilities?\p"
-	.string "Here!\n"
-	.string "Let's have a look at your POKéMON!$"
+	.string "{JPN}70ねんかん ポケモンを そだてて\n"
+	.string "{JPN}きた わしじゃ!\l"
+	.string "{JPN}でんせつの トップ ポケモン\l"
+	.string "{JPN}ブリーダーと よばれておる!\p"
+	.string "{JPN}わしほど けいけんを つめば\n"
+	.string "{JPN}ポケモンの のうりょくは\l"
+	.string "{JPN}ひとめで わかるように なるぞ!\p"
+	.string "{JPN}きみは トレーナーじゃな.\n"
+	.string "{JPN}じぶんの ポケモンの のうりょく\l"
+	.string "{JPN}きょうみは ないかの?\p"
+	.string "{JPN}さあ!\nきみの ポケモンを みせて\lもらおうかの!$"
 
 BattleFrontier_Lounge1_Text_AverageAbility:
-	.string "…Hmm…\p"
-	.string "This one, overall, I would describe\n"
-	.string "as being of average ability.$"
+	.string "{JPN}...ふーん...\p"
+	.string "{JPN}このこは ぜんたいてきに\n"
+	.string "{JPN}ふつうの のうりょくと いえるね$"
 
 BattleFrontier_Lounge1_Text_BetterThanAverageAbility:
-	.string "…Hmm…\p"
-	.string "This one, overall, I would describe as\n"
-	.string "having better-than-average ability.$"
+	.string "{JPN}...ふーん...\p"
+	.string "{JPN}このこは ぜんたいてきに\n"
+	.string "{JPN}へいきん いじょうの のうりょくだね$"
 
 BattleFrontier_Lounge1_Text_ImpressiveAbility:
-	.string "…Hmm…\p"
-	.string "This one, overall, I would say is\n"
-	.string "quite impressive in ability!$"
+	.string "{JPN}...ふーん...\p"
+	.string "{JPN}このこは ぜんたいてきに\n"
+	.string "{JPN}とても すばらしい のうりょくだ!$"
 
 BattleFrontier_Lounge1_Text_OutstandingAbility:
-	.string "…Hmm…\p"
-	.string "This one, overall, I would say is\n"
-	.string "wonderfully outstanding in ability!$"
+	.string "{JPN}...ふーん...\p"
+	.string "{JPN}このこは ぜんたいてきに\n"
+	.string "{JPN}ほんとうに けっしゅつした のうりょくだ!$"
 
 BattleFrontier_Lounge1_Text_BestAspectHP:
-	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its HP…$"
-
+	.string "{JPN}ちなみに このこの いちばんの\n"
+	.string "{JPN}とくちょうは たいりょくだね...$"
 BattleFrontier_Lounge1_Text_BestAspectAtk:
-	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its ATTACK…$"
-
+	.string "{JPN}ちなみに このこの いちばんの\n"
+	.string "{JPN}とくちょうは こうげきだね...$"
 BattleFrontier_Lounge1_Text_BestAspectDef:
-	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its DEFENSE…$"
-
+	.string "{JPN}ちなみに このこの いちばんの\n"
+	.string "{JPN}とくちょうは ぼうぎょだね...$"
 BattleFrontier_Lounge1_Text_BestAspectSpAtk:
-	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its SPECIAL ATTACK…$"
-
+	.string "{JPN}ちなみに このこの いちばんの\n"
+	.string "{JPN}とくちょうは とくこうだね...$"
 BattleFrontier_Lounge1_Text_BestAspectSpDef:
-	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its SPECIAL DEFENSE…$"
-
+	.string "{JPN}ちなみに このこの いちばんの\n"
+	.string "{JPN}とくちょうは とくぼうだね...$"
 BattleFrontier_Lounge1_Text_BestAspectSpeed:
-	.string "Incidentally, the best aspect of it,\n"
-	.string "I would say, is its SPEED…$"
-
+	.string "{JPN}ちなみに このこの いちばんの\n"
+	.string "{JPN}とくちょうは すばやさだね...$"
 BattleFrontier_Lounge1_Text_StatRelativelyGood:
-	.string "That stat is relatively good.\n"
-	.string "…Hm… That's how I call it.$"
-
+	.string "{JPN}そのステータスは まあまあだね\n"
+	.string "{JPN}...ふーん... そんなかんじかな$"
 BattleFrontier_Lounge1_Text_StatImpressive:
-	.string "That stat is quite impressive.\n"
-	.string "…Hm… That's how I call it.$"
-
+	.string "{JPN}そのステータスは かなりいいね\n"
+	.string "{JPN}...ふーん... そんなかんじかな$"
 BattleFrontier_Lounge1_Text_StatOutstanding:
-	.string "That stat is outstanding!\n"
-	.string "…Hm… That's how I call it.$"
-
+	.string "{JPN}そのステータスは けっしゅつだ!\n"
+	.string "{JPN}...ふーん... そんなかんじかな$"
 BattleFrontier_Lounge1_Text_StatFlawless:
-	.string "It's flawless! A thing of perfection!\n"
-	.string "…Hm… That's how I call it.$"
-
+	.string "{JPN}もう かんぺきだ! しんぴてきだね!\n"
+	.string "{JPN}...ふーん... そんなかんじかな$"
 BattleFrontier_Lounge1_Text_NoTimeForMyAdvice:
-	.string "What?\n"
-	.string "You have no time for my advice?\p"
-	.string "You should always be eager to learn\n"
-	.string "from the experiences of your elders!$"
+	.string "{JPN}なんじゃと?\n"
+	.string "{JPN}わしの アドバイスを きく\l"
+	.string "{JPN}じかんが ないじゃと?\p"
+	.string "{JPN}ねんぱいしゃの けいけんから\nまなぼうと する きもちを\lもつべきじゃぞ!$"
 
 @ Unused
 BattleFrontier_Lounge1_Text_HaveBusinessNeedsTending:
-	.string "Yes, what is it now?\p"
-	.string "I have business that needs tending!\n"
-	.string "Save it for next time!$"
+	.string "{JPN}なんじゃ また なにか ようかの?\p"
+	.string "{JPN}わしには やるべき しごとが\n"
+	.string "{JPN}あるのじゃ!\lまた こんどに しておくれ!$"
 
 BattleFrontier_Lounge1_Text_LetsLookAtYourPokemon:
-	.string "Ah, youngster! Do your POKéMON's\n"
-	.string "abilities intrigue you?\p"
-	.string "Here, here!\n"
-	.string "Let's have a look at your POKéMON!$"
+	.string "{JPN}おお わかいの! きみの ポケモン\n"
+	.string "{JPN}の のうりょくに きょうみが\l"
+	.string "{JPN}あるかの?\p"
+	.string "{JPN}さあ さあ!\nきみの ポケモンを みせて\lもらおうかの!$"
 
 BattleFrontier_Lounge1_Text_EvenICantTell:
-	.string "An expert I am, but even I can't tell\n"
-	.string "anything about an unhatched POKéMON!\p"
-	.string "Show me a POKéMON!\n"
-	.string "A POKéMON is what I need to see!$"
+	.string "{JPN}わしは エキスパートじゃが\n"
+	.string "{JPN}タマゴの ままでは なんとも\l"
+	.string "{JPN}いえんのじゃ!\n"
+	.string "{JPN}ポケモンを みせておくれ!\nポケモンを みる ひつようが\lあるのじゃ!$"
 
 BattleFrontier_Lounge1_Text_SaidMyMonIsOutstanding:
-	.string "He said my POKéMON is outstanding!\n"
-	.string "I'm glad I raised it carefully!$"
+	.string "{JPN}わたしの ポケモンは とても\n"
+	.string "{JPN}すばらしいって いわれたの!\nたいせつに そだてて よかった!$"
 
 BattleFrontier_Lounge1_Text_DidntDoAnythingSpecialRaisingIt:
-	.string "He said my POKéMON is outstanding!\n"
-	.string "But I didn't do anything special\l"
-	.string "raising it…$"
-
+	.string "{JPN}わたしの ポケモンが けっしゅつって!\n"
+	.string "{JPN}でも とくべつなことは\l"
+	.string "{JPN}なにもしてないのに...$"

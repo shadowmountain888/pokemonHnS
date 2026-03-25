@@ -81,66 +81,66 @@ RustboroCity_DevonCorp_1F_EventScript_ProductsDisplay::
 	end
 
 RustboroCity_DevonCorp_1F_Text_WelcomeToDevonCorp:
-	.string "Hello and welcome to the DEVON\n"
-	.string "CORPORATION.\p"
-	.string "We're proud producers of items and\n"
-	.string "medicine that enhance your life.$"
+	.string "{JPN}こんにちは デボンコーポ\n"
+	.string "{JPN}レーションへようこそ.\p"
+	.string "{JPN}わたしたちは せいかつを\n"
+	.string "{JPN}ゆたかにする どうぐや\lくすりを つくっています.$"
 
 RustboroCity_DevonCorp_1F_Text_StaffGotRobbed:
-	.string "One of our research staff stupidly\n"
-	.string "got robbed of an important parcel.$"
+	.string "{JPN}けんきゅういんの ひとりが\n"
+	.string "{JPN}たいせつな にもつを\lぬすまれてしまったんです.$"
 
 RustboroCity_DevonCorp_1F_Text_ThoseShoesAreOurProduct:
-	.string "Hey, those RUNNING SHOES!\n"
-	.string "They're one of our products!\p"
-	.string "It makes me happy when I see someone\n"
-	.string "using something we made.$"
+	.string "{JPN}おや そのランニングシューズ!\n"
+	.string "{JPN}わたしたちの しょうひんですね!\p"
+	.string "{JPN}じぶんたちが つくったものを\n"
+	.string "{JPN}つかってもらえて うれしいです.$"
 
 RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright:
-	.string "That stolen parcel…\p"
-	.string "Well, sure it's important, but it's not\n"
-	.string "anything that anyone can use.\p"
-	.string "In my estimation, that robber must not\n"
-	.string "have been very bright.$"
+	.string "{JPN}あの ぬすまれた にもつ...\p"
+	.string "{JPN}まあ たいせつな ものだけど\n"
+	.string "{JPN}だれでも つかえる ものじゃない\p"
+	.string "{JPN}わたしが おもうに あの どろぼうは\n"
+	.string "{JPN}あまり あたまが よくなかったんだ$"
 
 RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered:
-	.string "It sounds like they've recovered\n"
-	.string "the ripped-off DEVON GOODS.$"
+	.string "{JPN}ぬすまれた デボンのしょうひんが\n"
+	.string "{JPN}もどってきたそうですね.$"
 
 RustboroCity_DevonCorp_1F_Text_OnlyAuthorizedPeopleEnter:
-	.string "I'm sorry, only authorized people\n"
-	.string "are allowed to enter here.$"
+	.string "{JPN}すみません きょかされた\n"
+	.string "{JPN}ひとしか はいれないんです.$"
 
 RustboroCity_DevonCorp_1F_Text_HowCouldWeGetRobbed:
-	.string "It's beyond stupid.\n"
-	.string "How could we get robbed?$"
+	.string "{JPN}ばかばかしいことです.\n"
+	.string "{JPN}どうして ぬすまれたんでしょう?$"
 
 RustboroCity_DevonCorp_1F_Text_YoureAlwaysWelcomeHere:
-	.string "Hi, there!\n"
-	.string "You're always welcome here!$"
+	.string "{JPN}やあ!\n"
+	.string "{JPN}いつでも きてくださいね!$"
 
 RustboroCity_DevonCorp_1F_Text_RocksMetalDisplay:
-	.string "Samples of rocks and metal are\n"
-	.string "displayed in the glass case.\p"
-	.string "There's a panel with some writing\n"
-	.string "on it…\p"
-	.string "“DEVON CORPORATION got its start as\n"
-	.string "a producer of stones from quarries.\p"
-	.string "“The company also produced iron from\n"
-	.string "filings in the sand.\p"
-	.string "“From that humble start as a producer\n"
-	.string "of raw materials, DEVON developed.\p"
-	.string "“DEVON is now a manufacturer of a wide\n"
-	.string "range of industrial products.”$"
+	.string "{JPN}ガラスケースに いわと きんぞくの\n"
+	.string "{JPN}サンプルが てんじされている\p"
+	.string "{JPN}そこには せつめいがきが\n"
+	.string "{JPN}ついている...\p"
+	.string "{JPN}デボンコーポレーションは\n"
+	.string "{JPN}さいせきじょうの いしを\l"
+	.string "{JPN}せいぞうする かいしゃとして\l"
+	.string "{JPN}スタートしました\p"
+	.string "{JPN}かいしゃは すなてつから\n"
+	.string "{JPN}てつも せいぞうしていました\p"
+	.string "{JPN}そざいの せいぞうしゃとしての\n"
+	.string "{JPN}ささやかな スタートから\lデボンは はってんしました\pデボンは いまでは こうぎょう\nせいひんの はんいひろい\lメーカーです$"
 
 RustboroCity_DevonCorp_1F_Text_ProductDisplay:
-	.string "Prototypes and test products fill\n"
-	.string "the glass display case.\p"
-	.string "There's a panel with a description…\p"
-	.string "“In addition to industrial products,\n"
-	.string "DEVON now markets sundries and\l"
-	.string "pharmaceuticals for better lifestyles.\p"
-	.string "“Recently, DEVON has begun marketing\n"
-	.string "tools for POKéMON TRAINERS, including\l"
-	.string "POKé BALLS and POKéNAV systems.”$"
+	.string "{JPN}ガラスの てんじケースに\n"
+	.string "{JPN}シサク ひんと テストせいひんが\l"
+	.string "{JPN}ならんでいる\p"
+	.string "{JPN}せつめいがきが ついている...\p"
+	.string "{JPN}こうぎょうせいひんに くわえて\n"
+	.string "{JPN}デボンは いまでは より よい\l"
+	.string "{JPN}ライフスタイルの ための\l"
+	.string "{JPN}ざっかや やくひんも はんばい\l"
+	.string "{JPN}しています\pさいきん デボンは ポケモン\nトレーナーの ための どうぐ\lたとえば モンスターボールや\lポケナビ システムの はんばいを\lはじめました$"
 

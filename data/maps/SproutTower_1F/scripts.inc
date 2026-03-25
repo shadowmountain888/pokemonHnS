@@ -43,37 +43,37 @@ SproutTower_1F_EventScript_ItemParalyzeHeal::
 	end
 
 SproutTower_Text_SageChow_Seen:
-	.string "We stand guard in this tower.\p"
-	.string "Here, we express our gratitude\n"
-	.string "to honor all POKéMON.$"
+	.string "{JPN}わたしたちは このとうを\n"
+	.string "{JPN}まもっています.\p"
+	.string "{JPN}ここで すべてのポケモンを\nたたえ かんしゃを\nささげるのです.$"
 
 SproutTower_Text_SageChow_Beaten:
-	.string "Th-Thank you!$"
+	.string "{JPN}あ ありがとう\nございます!$"
 
 SproutTower_Text_SageChow_AfterBattle:
-	.string "All living beings coexist\n"
-	.string "through cooperation.\p"
-	.string "We must always be thankful\n"
-	.string "for this.$"
+	.string "{JPN}すべての いきものは\n"
+	.string "{JPN}きょうりょくして\n"
+	.string "{JPN}ともにいきています.\p"
+	.string "{JPN}わたしたちは いつも\nそのことに かんしゃ\nしなければなりません.$"
 
 SproutTower_Text_1F_Sage1:
-	.string "Only if you reach the top will\n"
-	.string "you obtain an HM.$"
+	.string "{JPN}てっぺんまで たどりつけば\n"
+	.string "{JPN}ひでんマシンが てにはいる\nでしょう.$"
 
 SproutTower_Text_1F_Sage2:
-	.string "SPROUT TOWER was built long ago\n"
-	.string "as a place for POKéMON training.$"
+	.string "{JPN}スプラウトタワーは\n"
+	.string "{JPN}むかしから ポケモンの\nしゅぎょうのばとして\nたてられました.$"
 
 SproutTower_Text_1F_Granny:
-	.string "A BELLSPROUT over 100 feet\n"
-	.string "tall…\p"
-	.string "People say that it became the\n"
-	.string "center pillar here.$"
+	.string "{JPN}100フィートを こえる\n"
+	.string "{JPN}マダツボミ...\p"
+	.string "{JPN}それが ここの ちゅうしんの\n"
+	.string "{JPN}はしらに なったと いわれて\nいるんじゃよ$"
 
 SproutTower_Text_1F_Teacher:
-	.string "See the pillar shaking?\p"
-	.string "People are training upstairs.$"
+	.string "{JPN}はしらが ゆれているのが\n"
+	.string "{JPN}みえますか?\pうえのかいで だれかが\nしゅぎょうをしているのです.$"
 
 SproutTower_Text_1F_Statue:
-	.string "A POKéMON statue…\p"
-	.string "It looks very distinguished.$"
+	.string "{JPN}ポケモンの ぞう...\p"
+	.string "{JPN}とても りっぱに みえる$"

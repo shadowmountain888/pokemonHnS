@@ -31,24 +31,21 @@ Route114_FossilManiacsHouse_EventScript_Bookshelf::
 	end
 
 Route114_FossilManiacsHouse_Text_HaveThisToDigLikeMyBrother:
-	.string "My big brother's the FOSSIL MANIAC…\n"
-	.string "He's a nice guy who loves FOSSILS…\p"
-	.string "He loves digging holes, too…\n"
-	.string "He dug this hole by himself…\p"
-	.string "You can have this, so you can DIG\n"
-	.string "holes just like my big brother…$"
-
+	.string "{JPN}おにいちゃんは\n"
+	.string "{JPN}かせきマニアなの...\n"
+	.string "{JPN}かせきが だいすきな\n"
+	.string "{JPN}やさしいひとよ...\p"
+	.string "{JPN}あなを ほるのも\n"
+	.string "{JPN}だいすきなの...\nこのあなも ひとりで\nほったのよ...\pこれを あげるから\nおにいちゃんみたいに\nあなを ほってみて...$"
 Route114_FossilManiacsHouse_Text_DigReturnsYouToEntrance:
-	.string "If you make a POKéMON DIG inside a\n"
-	.string "cave, you're returned to the entrance…$"
-
+	.string "{JPN}どうくつの なかで\n"
+	.string "{JPN}ポケモンに あなをほるを\nつかうと\nいりぐちに もどるよ...$"
 Route114_FossilManiacsHouse_Text_RocksFillDisplayCase:
-	.string "Rocks in peculiar shapes fill\n"
-	.string "the display case…$"
-
+	.string "{JPN}かわった かたちの いわが\n"
+	.string "{JPN}しょうけーすに\nぎっしり ならんでる...$"
 Route114_FossilManiacsHouse_Text_CrammedWithBooks:
-	.string "THE COMPOSITION OF STRATA…\n"
-	.string "HOW RAIN SHAPES THE LAND…\l"
-	.string "STONES, SOIL, AND ROCK…\p"
-	.string "It's crammed with books.$"
+	.string "{JPN}ちそうの こうせい...\n"
+	.string "{JPN}あめが つちを けずるしくみ...\n"
+	.string "{JPN}いし つち がんせき...\p"
+	.string "{JPN}ほんで ぎっしりだ...$"
 

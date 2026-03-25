@@ -19,11 +19,10 @@ LilycoveCity_House2_EventScript_ReceivedRest::
 	end
 
 LilycoveCity_House2_Text_NotAwakeYetHaveThis:
-	.string "Huh? What? What's that?\p"
-	.string "I'm not near awake yet…\n"
-	.string "You can have this…$"
-
+	.string "{JPN}はあ? なに? なんだって?\p"
+	.string "{JPN}まだ ぜんぜん めが さめて\n"
+	.string "{JPN}ないよ...\nこれを もってって...$"
 LilycoveCity_House2_Text_SleepIsEssential:
-	.string "Yawn…\p"
-	.string "Sleep is essential for good health…\n"
-	.string "Sleep and regain health…$"
+	.string "{JPN}あくび...\p"
+	.string "{JPN}すいみんは けんこうに ひつよう\n"
+	.string "{JPN}なんだ...\nねて たいりょくを かいふく\nするんだね...$"

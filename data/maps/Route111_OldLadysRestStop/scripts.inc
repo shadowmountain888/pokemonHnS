@@ -36,26 +36,26 @@ Route111_OldLadysRestStop_EventScript_DeclineRest::
 	end
 
 Route111_OldLadysRestStop_Text_PokecenterChallenge:
-	.string "Sorry, you are playing\n"
-	.string "with the POKéCENTER challenge!$"
+	.string "{JPN}ごめんなさいね.\n"
+	.string "{JPN}ポケモンセンターチャレンジを\nやってるのね!$"
 	
 Route111_OldLadysRestStop_Text_RestUpHere:
-	.string "Oh, dear, dear.\n"
-	.string "Aren't your POKéMON exhausted?\p"
-	.string "If you'd like, rest up here.\n"
-	.string "That's a fine idea! You should do that.$"
+	.string "{JPN}あらあら まあ.\n"
+	.string "{JPN}ポケモンたち つかれてるでしょう?\p"
+	.string "{JPN}よかったら ここで やすんでいって.\n"
+	.string "{JPN}それが いちばんよ! そうしなさい.$"
 
 Route111_OldLadysRestStop_Text_TakeYourTimeRestUp:
-	.string "That's right.\n"
-	.string "Take your time and rest up!$"
+	.string "{JPN}そうそう.\n"
+	.string "{JPN}ゆっくり やすんでいきなさい!$"
 
 Route111_OldLadysRestStop_Text_StillTiredTakeAnotherRest:
-	.string "Oh, dear, dear.\n"
-	.string "Are your POKéMON still tired?\p"
-	.string "You should take another rest here.\n"
-	.string "That's a fine idea. You should do that.$"
+	.string "{JPN}あらあら まあ.\n"
+	.string "{JPN}ポケモンたち まだ つかれてるの?\p"
+	.string "{JPN}もう いちど ここで やすみなさい.\n"
+	.string "{JPN}それが いちばんよ.そうしなさい.$"
 
 Route111_OldLadysRestStop_Text_DontNeedToBeShy:
-	.string "Is that so?\n"
-	.string "You don't need to be shy about it.$"
+	.string "{JPN}そうなの?\n"
+	.string "{JPN}えんりょ することは ないのよ.$"
 

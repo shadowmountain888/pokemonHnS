@@ -6,19 +6,23 @@ const u8 gText_EasyChatKeyboard_GHIJKL[] = _("{CLEAR 11}G{CLEAR 6}H{CLEAR 6}I{CL
 const u8 gText_EasyChatKeyboard_MNOPQRS[] = _("{CLEAR 11}M{CLEAR 6}N{CLEAR 6}O{CLEAR 26}P{CLEAR 6}Q{CLEAR 6}R{CLEAR 6}S{CLEAR 26} ");
 const u8 gText_EasyChatKeyboard_TUVWXYZ[] = _("{CLEAR 11}T{CLEAR 6}U{CLEAR 6}V{CLEAR 26}W{CLEAR 6}X{CLEAR 6}Y{CLEAR 6}Z{CLEAR 26} ");
 
-// Naming Screen keyboard
-const u8 gText_NamingScreenKeyboard_abcdef[] = _("{CLEAR 11}a{CLEAR 6}b{CLEAR 6}c{CLEAR 26}d{CLEAR 6}e{CLEAR 6}f{CLEAR 6} {CLEAR 30}.");
-const u8 gText_NamingScreenKeyboard_ghijkl[] = _("{CLEAR 11}g{CLEAR 6}h{CLEAR 7}i{CLEAR 27}j{CLEAR 7}k{CLEAR 7}l{CLEAR 7} {CLEAR 30},");
-const u8 gText_NamingScreenKeyboard_mnopqrs[] = _("{CLEAR 11}m{CLEAR 6}n{CLEAR 6}o{CLEAR 26}p{CLEAR 6}q{CLEAR 7}r{CLEAR 6}s{CLEAR 27} ");
-const u8 gText_NamingScreenKeyboard_tuvwxyz[] = _("{CLEAR 11}t{CLEAR 6}u{CLEAR 6}v{CLEAR 26}w{CLEAR 6}x{CLEAR 6}y{CLEAR 6}z{CLEAR 26} ");
-const u8 gText_NamingScreenKeyboard_ABCDEF[] = _("{CLEAR 11}A{CLEAR 6}B{CLEAR 6}C{CLEAR 26}D{CLEAR 6}E{CLEAR 6}F{CLEAR 6} {CLEAR 30}.");
-const u8 gText_NamingScreenKeyboard_GHIJKL[] = _("{CLEAR 11}G{CLEAR 6}H{CLEAR 6}I{CLEAR 26}J{CLEAR 6}K{CLEAR 6}L{CLEAR 6} {CLEAR 30},");
-const u8 gText_NamingScreenKeyboard_MNOPQRS[] = _("{CLEAR 11}M{CLEAR 6}N{CLEAR 6}O{CLEAR 26}P{CLEAR 6}Q{CLEAR 6}R{CLEAR 6}S{CLEAR 26} ");
-const u8 gText_NamingScreenKeyboard_TUVWXYZ[] = _("{CLEAR 11}T{CLEAR 6}U{CLEAR 6}V{CLEAR 26}W{CLEAR 6}X{CLEAR 6}Y{CLEAR 6}Z{CLEAR 26} ");
-const u8 gText_NamingScreenKeyboard_01234[] = _("{CLEAR 11}0{CLEAR 16}1{CLEAR 16}2{CLEAR 16}3{CLEAR 16}4{CLEAR 16} ");
-const u8 gText_NamingScreenKeyboard_56789[] = _("{CLEAR 11}5{CLEAR 16}6{CLEAR 16}7{CLEAR 16}8{CLEAR 16}9{CLEAR 16} ");
-const u8 gText_NamingScreenKeyboard_Symbols1[] = _("{CLEAR 12}!{CLEAR 17}?{CLEAR 16}♂{CLEAR 16}♀{CLEAR 16}/{CLEAR 17}-");
-const u8 gText_NamingScreenKeyboard_Symbols2[] = _("{CLEAR 11}…{CLEAR 16}“{CLEAR 16}”{CLEAR 18}‘{CLEAR 19}'{CLEAR 18} ");
+// Naming Screen keyboard - JP Emerald layout (3 pages: ひらがな, カタカナ, ABC)
+// Kana pages: 5+gap+5+gap+5 grouped columns, ABC: 19 continuous columns
+// Page 1: Hiragana
+const u8 gText_NamingScreenKeyboard_abcdef[] = _("{JPN}あいうえお{CLEAR 8}なにぬねの{CLEAR 8}やゆよ!?");
+const u8 gText_NamingScreenKeyboard_ghijkl[] = _("{JPN}かきくけこ{CLEAR 8}はひふへほ{CLEAR 8}わをん“·");
+const u8 gText_NamingScreenKeyboard_mnopqrs[] = _("{JPN}さしすせそ{CLEAR 8}まみむめも{CLEAR 8}ゃゅょっー");
+const u8 gText_NamingScreenKeyboard_tuvwxyz[] = _("{JPN}たちつてと{CLEAR 8}らりるれろ{CLEAR 8}ぁぃぅぇぉ");
+// Page 2: Katakana
+const u8 gText_NamingScreenKeyboard_ABCDEF[] = _("{JPN}アイウエオ{CLEAR 8}ナニヌネノ{CLEAR 8}ヤユヨ!?");
+const u8 gText_NamingScreenKeyboard_GHIJKL[] = _("{JPN}カキクケコ{CLEAR 8}ハヒフヘホ{CLEAR 8}ワヲン“·");
+const u8 gText_NamingScreenKeyboard_MNOPQRS[] = _("{JPN}サシスセソ{CLEAR 8}マミムメモ{CLEAR 8}ャュョッー");
+const u8 gText_NamingScreenKeyboard_TUVWXYZ[] = _("{JPN}タチツテト{CLEAR 8}ラリルレロ{CLEAR 8}ァィゥェォ");
+// Page 3: ABC (all in {JPN} mode for fixed 8px char width)
+const u8 gText_NamingScreenKeyboard_01234[] = _("{JPN}ABCDEFGHIJKLMNOPQRS");
+const u8 gText_NamingScreenKeyboard_56789[] = _("{JPN}TUVWXYZ{CLEAR 8}0123456789");
+const u8 gText_NamingScreenKeyboard_Symbols1[] = _("{JPN}abcdefghijklmnopqrs");
+const u8 gText_NamingScreenKeyboard_Symbols2[] = _("{JPN}tuvwxyz{CLEAR 8}.·…“”‘’/♂♀");
 
 // Union Room Chat keyboard
 const u8 gText_UnionRoomChatKeyboard_ABCDE[] = _("ABCDE");
@@ -30,7 +34,7 @@ const u8 gText_UnionRoomChatKeyboard_Z[] = _("Z    ");
 const u8 gText_UnionRoomChatKeyboard_01234Upper[] = _("01234");
 const u8 gText_UnionRoomChatKeyboard_56789Upper[] = _("56789");
 const u8 gText_UnionRoomChatKeyboard_PunctuationUpper[] = _(".,!? ");
-const u8 gText_UnionRoomChatKeyboard_SymbolsUpper[] = _("-/&… ");
+const u8 gText_UnionRoomChatKeyboard_SymbolsUpper[] = _("-/&... ");
 const u8 gText_UnionRoomChatKeyboard_abcde[] = _("abcde");
 const u8 gText_UnionRoomChatKeyboard_fghij[] = _("fghij");
 const u8 gText_UnionRoomChatKeyboard_klmno[] = _("klmno");
@@ -40,7 +44,7 @@ const u8 gText_UnionRoomChatKeyboard_z[] = _("z    ");
 const u8 gText_UnionRoomChatKeyboard_01234Lower[] = _("01234");
 const u8 gText_UnionRoomChatKeyboard_56789Lower[] = _("56789");
 const u8 gText_UnionRoomChatKeyboard_PunctuationLower[] = _(".,!? ");
-const u8 gText_UnionRoomChatKeyboard_SymbolsLower[] = _("-/&… ");
+const u8 gText_UnionRoomChatKeyboard_SymbolsLower[] = _("-/&... ");
 
 const u8 gText_EmptyTextInput1[] = _("");
 const u8 gText_EmptyTextInput2[] = _("");

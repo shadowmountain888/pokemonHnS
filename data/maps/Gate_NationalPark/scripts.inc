@@ -205,79 +205,79 @@ Gate_NationalPark_Movement_Player_EnterParkBotB:
 	step_end
 
 Route35NationalParkGate_Text_OfficerAskToParticipate:
-	.string "Hello Trainer! The Bug-Catching\n"
-	.string "Contest is on today.\p"
-	.string "The rules are simple.\p"
-	.string "Using one of your POKéMON, catch a\n"
-	.string "bug POKéMON to be judged.\p"
-	.string "Would you like to give it a try?$"
+	.string "{JPN}こんにちは トレーナー!\n"
+	.string "{JPN}きょうは むしとりたいかい\l"
+	.string "{JPN}ですよ.\p"
+	.string "{JPN}ルールは かんたんです.\p"
+	.string "{JPN}じぶんの ポケモンを つかって\n"
+	.string "{JPN}むしポケモンを つかまえて\lしんさを うけるのです.\pさんか してみませんか?$"
 
 Route35NationalParkGate_Text_OfficerGiveParkBalls:
-	.string "Any EXP your POKéMON gains during\n"
-	.string "the contest will be reverted when\l"
-	.string "you leave.\p"
-	.string "Here are the SAFARI BALLS for the\n"
-	.string "Contest.$"
+	.string "{JPN}たいかいちゅうに あなたの\n"
+	.string "{JPN}ポケモンが かくとくした\l"
+	.string "{JPN}けいけんちは でるときに\l"
+	.string "{JPN}もどります.\p"
+	.string "{JPN}こちらが たいかいよう\nサファリボールです.$"
 
 Route35NationalParkGate_Text_ReceivedParkBalls:
-	.string "{PLAYER} received SAFARI BALLS.$"
+	.string "{JPN}{PLAYER}は サファリボールを\nうけとった!$"
 
 Route35NationalParkGate_Text_OfficerExplainRules:
-	.string "The person who gets the strongest\n"
-	.string "bug POKéMON is the winner.\p"
-	.string "If you run out of SAFARI BALLS,\n"
-	.string "you're done.\p"
-	.string "You can catch up to 5 POKéMON. The\n"
-	.string "last one caught will be the only\l"
-	.string "one kept and placed in the contest.\p"
-	.string "Go out and catch the strongest bug\n"
-	.string "POKéMON you can find!$"
+	.string "{JPN}いちばん つよい むしポケモンを\n"
+	.string "{JPN}つかまえた ひとが ゆうしょうです.\p"
+	.string "{JPN}サファリボールが なくなったら\n"
+	.string "{JPN}しゅうりょうです.\p"
+	.string "{JPN}5ひきまで つかまえられます.\n"
+	.string "{JPN}さいごに つかまえた ポケモン\l"
+	.string "{JPN}だけが のこって たいかいに\l"
+	.string "{JPN}でます.\p"
+	.string "{JPN}がんばって つよい むしポケモンを\nつかまえてください!$"
 
 Route35NationalParkGate_Text_OfficerAskToUseFirstMon:
-	.string "If you have more than one POKéMON,\n"
-	.string "you'll have to use the\l"
-	.string "first POKéMON in your party.\p"
-	.string "Is that OK with you?$"
+	.string "{JPN}ポケモンを 2ひき いじょう\n"
+	.string "{JPN}もっている ばあい\p"
+	.string "{JPN}さきとうの ポケモンを\n"
+	.string "{JPN}つかうことになります.\pそれで だいじょうぶですか?$"
 
 Route35NationalParkGate_Text_OfficerHoldYourMon:
-	.string "Fine, we'll hold your other POKéMON\n"
-	.string "while you compete.$"
+	.string "{JPN}では ほかの ポケモンは\n"
+	.string "{JPN}たいかいちゅう おあずかり\lします.$"
 
 Route35NationalParkGate_Text_MonLeftWithHelper:
-	.string "{PLAYER}'s POKéMON were left with the\n"
-	.string "CONTEST HELPER.$"
+	.string "{JPN}{PLAYER}の ポケモンは\n"
+	.string "{JPN}たいかい スタッフに\lあずけられた.$"
 
 Route35NationalParkGate_Text_ChooseMonAndComeBack:
-	.string "Please choose the POKéMON to be used\n"
-	.string "in the Contest, then come see me.$"
+	.string "{JPN}たいかいに さんかする ポケモンを\n"
+	.string "{JPN}えらんでから きてください.$"
 
 Route35NationalParkGate_Text_TakePartInFuture:
-	.string "OK. We hope you'll take part in the\n"
-	.string "future.$"
+	.string "{JPN}わかりました. また こんど\n"
+	.string "{JPN}さんか してくださいね.$"
 
 Route35NationalParkGate_Text_FirstMonCantBattle:
-	.string "Uh-oh… The first POKéMON in your\n"
-	.string "party can't battle.\p"
-	.string "Please switch it with the POKéMON\n"
-	.string "you want to use, then come see me.$"
+	.string "{JPN}あれれ... てもちの いちばん\n"
+	.string "{JPN}まえの ポケモンが たたかえません.\p"
+	.string "{JPN}つかいたい ポケモンと いれかえて\n"
+	.string "{JPN}から また きてくださいね.$"
 
 Route35NationalParkGate_Text_MakeRoom:
-	.string "Uh-oh… Both your party and your\n"
-	.string "PC BOX are full.\p"
-	.string "You have no room to put the bug\n"
-	.string "POKéMON you catch.\p"
-	.string "Please make room in your party or\n"
-	.string "your PC BOX, then come see me.$"
+	.string "{JPN}あれれ... てもちも パソコンの\n"
+	.string "{JPN}ボックスも いっぱいですね.\p"
+	.string "{JPN}つかまえた むしポケモンを\n"
+	.string "{JPN}いれる ばしょが ありません.\p"
+	.string "{JPN}てもちか パソコンのボックスに\n"
+	.string "{JPN}すきまを つくって きてください.$"
 
 Route35NationalParkGate_Text_EggAsFirstMon:
-	.string "Uh-oh… You have an EGG as the first\n"
-	.string "POKéMON in your party.\p"
-	.string "Please switch it with the POKéMON\n"
-	.string "you want to use, then come see me.$"
+	.string "{JPN}あれれ... てもちの いちばんまえが\n"
+	.string "{JPN}タマゴに なっていますね.\p"
+	.string "{JPN}つかいたい ポケモンと いれかえて\n"
+	.string "{JPN}から また きてくださいね.$"
 
 Route35NationalParkGate_Text_ContestIsOver:
-	.string "Today's Contest is over. We hope you\n"
-	.string "will participate in the future.$"
+	.string "{JPN}きょうの たいかいは おわりました.\n"
+	.string "{JPN}また こんど さんか してください.$"
 
 Route35NationalParkGate_EventScript_Policeman::
 	lock
@@ -320,28 +320,28 @@ Route35NationalParkGate_EventScript_Beauty::
 	end
 
 Route35NationalParkGate_Text_Rocker:
-	.string "I love bird POKéMON! I found a\n"
-	.string "DARK-type bird in the park\l"
-	.string "last night!$"
+	.string "{JPN}おれは とりポケモンが だいすき!\n"
+	.string "{JPN}ゆうべ こうえんで あくタイプの\l"
+	.string "{JPN}とりを みつけたんだ!$"
 
 Route35NationalParkGate_Text_BC2:
-	.string "I caught a whopping SCYTHER!$"
+	.string "{JPN}すげー ストライクを\nつかまえたぜ!$"
 
 Route35NationalParkGate_Text_Beauty:
-	.string "He always wins these contests!$"
+	.string "{JPN}あのひとは いつも\nたいかいで かつのよ!$"
 
 Route35NationalParkGate_Text_WeHoldContests:
-	.string "We hold Contests regularly in the\n"
-	.string "PARK. You should give it a shot.$"
+	.string "{JPN}こうえんでは ていきてきに\n"
+	.string "{JPN}たいかいを かいさい しています.\nぜひ ちょうせん してください.$"
 
 Route35NationalParkGate_Text_YoungsterWonders:
-	.string "When is the next Bug-Catching Contest\n"
-	.string "going to be?$"
+	.string "{JPN}つぎの むしとりたいかいは\n"
+	.string "{JPN}いつ ひらかれるの?$"
 
 Route35NationalParkGate_Text_ContestExplanation:
-	.string "The Bug-Catching Contest is held on\n"
-	.string "Tuesday, Thursday and Saturday.\p"
-	.string "Not only do you earn a prize just\n"
-	.string "for participating,\p"
-	.string "you also get to keep the bug POKéMON\n"
-	.string "you may have at the end of the contest.$"
+	.string "{JPN}むしとりたいかいは かようび \n"
+	.string "{JPN}もくようび どようびに\l"
+	.string "{JPN}かいさい されます.\p"
+	.string "{JPN}さんかするだけで しょうひんが\n"
+	.string "{JPN}もらえるだけでなく \p"
+	.string "{JPN}たいかい しゅうりょうじに\nもっている むしポケモンも\lもらえます.$"

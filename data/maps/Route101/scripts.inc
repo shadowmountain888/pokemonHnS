@@ -263,42 +263,42 @@ Route101_Movement_BirchApproachPlayer:
 	step_end
 
 Route101_Text_HelpMe:
-	.string "H-help me!$"
+	.string "{JPN}た たすけて!$"
 
 Route101_Text_PleaseHelp:
-	.string "Hello! You over there!\n"
-	.string "Please! Help!\p"
-	.string "In my BAG!\n"
-	.string "There's a POKé BALL!$"
+	.string "{JPN}こんにちは! そこのきみ!\n"
+	.string "{JPN}おねがい! たすけて!\p"
+	.string "{JPN}わたしのバッグに!\n"
+	.string "{JPN}モンスターボールが はいってる!$"
 
 Route101_Text_DontLeaveMe:
-	.string "Wh-Where are you going?!\n"
-	.string "Don't leave me like this!$"
+	.string "{JPN}ど どこへ いくんだい?!\n"
+	.string "{JPN}わたしを おいてかないで!$"
 
 Route101_Text_YouSavedMe:
-	.string "PROF. BIRCH: Whew…\p"
-	.string "I was in the tall grass studying wild\n"
-	.string "POKéMON when I was jumped.\p"
-	.string "You saved me.\n"
-	.string "Thanks a lot!\p"
-	.string "Oh?\p"
-	.string "Hi, you're {PLAYER}{KUN}!\p"
-	.string "This is not the place to chat, so come\n"
-	.string "by my POKéMON LAB later, okay?$"
+	.string "{JPN}オダマキはかせ: ふう...\p"
+	.string "{JPN}たかい くさむらで やせいの\n"
+	.string "{JPN}ポケモンを けんきゅうしていたら\l"
+	.string "{JPN}おそわれてしまった.\p"
+	.string "{JPN}たすけてくれて ありがとう!\p"
+	.string "{JPN}おお?\p"
+	.string "{JPN}{PLAYER}{KUN}だね!\p"
+	.string "{JPN}ここでは はなしにくいから\n"
+	.string "{JPN}あとで わたしの ポケモンラボに\lきてくれるかな?$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter:
-	.string "If POKéMON get tired, take them to\n"
-	.string "a POKéMON CENTER.\p"
-	.string "There's a POKéMON CENTER in OLDALE\n"
-	.string "TOWN right close by.$"
+	.string "{JPN}ポケモンが つかれたら\n"
+	.string "{JPN}ポケモンセンターに つれていくんだ.\p"
+	.string "{JPN}ちかくの トウカシティに\n"
+	.string "{JPN}ポケモンセンターが あるよ.$"
 
 Route101_Text_WildPokemonInTallGrass:
-	.string "Wild POKéMON will jump out at you in\n"
-	.string "tall grass.\p"
-	.string "If you want to catch POKéMON, you have\n"
-	.string "to go into the tall grass and search.$"
+	.string "{JPN}たかいくさの なかでは\n"
+	.string "{JPN}やせいポケモンが とびだしてくる.\p"
+	.string "{JPN}ポケモンを つかまえたいなら\n"
+	.string "{JPN}たかいくさに はいって さがすんだ.$"
 
 Route101_Text_RouteSign:
-	.string "ROUTE 101\n"
-	.string "{UP_ARROW} OLDALE TOWN$"
+	.string "{JPN}101ばんどうろ\n"
+	.string "{JPN}{UP_ARROW} トウカシティ$"
 

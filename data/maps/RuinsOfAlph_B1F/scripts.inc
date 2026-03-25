@@ -53,20 +53,20 @@ RuinsOfAlph_PuzzleAndRewardChambers_EventScript_GSBALL::
 	end
 
 RuinsOfAlph_B1F_Text_Presence:
-	.string "There is a strange presence here.$"
+	.string "{JPN}ここには ふしぎな けはいが ある.$"
 
 RuinsOfAlph_B1F_Text_Hiker:
-	.string "This is a big room, but there's\n"
-	.string "nothing here.$"
+	.string "{JPN}ここは ひろい へやだが\n"
+	.string "{JPN}なにも ないな.$"
 
 RuinsOfAlph_B1F_Text_Teacher:
-	.string "This place has a mystical\n"
-	.string "quality to it.\p"
-	.string "It feels sort of ethereal\n"
-	.string "even.$"
+	.string "{JPN}ここは しんぴてきな\n"
+	.string "{JPN}ふんいきが しますね.\p"
+	.string "{JPN}なんだか げんそうてきな\n"
+	.string "{JPN}かんじが します.$"
 
 RuinsOfAlph_B1F_Text_Gramps:
-	.string "Ancient buildings are often\n"
-	.string "tombs of kings.\p"
-	.string "Like the pyramids, for\n"
-	.string "instance.$"
+	.string "{JPN}こだいの たてものは\n"
+	.string "{JPN}おうの はかばなのじゃ.\p"
+	.string "{JPN}ピラミッドなんかが\n"
+	.string "{JPN}そうじゃな.$"

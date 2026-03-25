@@ -62,121 +62,118 @@ Route45_EventScript_Item_Nugget::
 	end
 
 Route45_Text_HikerErikSeen:
-    .string "Be prepared for anything!\p"
-    .string "Let me see if your POKéMON have\n"
-    .string "been raised properly!$"
+    .string "{JPN}なんでも かかってこい!\p"
+	.string "{JPN}きみの ポケモンが ちゃんと\n"
+    .string "{JPN}そだてられてるか みせてもらおう!$"
 
 Route45_Text_HikerErikBeaten:
-    .string "Oh, I lost that!$"
+    .string "{JPN}あー まけちゃった!$"
 
 Route45_Text_HikerErikAfter:
-    .string "I'll head back to BLACKTHORN's\n"
-    .string "ICE PATH and train some more.$"
+    .string "{JPN}フスベシティの こおりのぬけみちに\n"
+	.string "{JPN}もどって もっと しゅぎょうするよ$"
 
 Route45_Text_HikerMichaelSeen:
-    .string "Yo! You're spunky! But you know\n"
-    .string "what?\p"
-    .string "When it comes to sheer\n"
-    .string "spunkiness, I'm the man!$"
+    .string "{JPN}よう! きみは げんきだな! でも\n"
+	.string "{JPN}しってるか?\p"
+    .string "{JPN}げんきさでは おれの ほうが\n"
+	.string "{JPN}うえなんだぜ!$"
 
 Route45_Text_HikerMichaelBeaten:
-    .string "My POKéMON weren't spunky enough!$"
+    .string "{JPN}おれの ポケモンの げんきが\nたりなかった!$"
 
 Route45_Text_HikerMichaelAfter:
-    .string "Boy, do I love HP UP! Mmmm, yum!\p"
-    .string "I keep drinking my POKéMON's!\p"
-    .string "I can't help it!$"
+    .string "{JPN}おとこ マックスアップが\n"
+	.string "{JPN}だいすきなんだ! うまい!\p"
+    .string "{JPN}ポケモンの ぶんまで のんじゃう!\pやめられないんだ!$"
 
 Route45_Text_HikerParrySeen:
-    .string "My POKéMON are power packed!$"
+    .string "{JPN}おれの ポケモンは パワーまんてん!$"
 
 Route45_Text_HikerParryBeaten:
-    .string "Wahahah! I'm the big loser!$"
+    .string "{JPN}わはははは! おれの まけだー!$"
 
 Route45_Text_HikerParryAfter:
-    .string "I'm not much good at thinking,\n"
-    .string "see?\p"
-    .string "So, I just plow ahead with power!$"
+    .string "{JPN}おれは あんまり あたまが\n"
+	.string "{JPN}よくないんだ\p"
+    .string "{JPN}だから パワーで つっぱしるのさ!$"
 
 
 Route45_Text_HikerTimothySeen:
-    .string "Why do I climb mountains?\p"
-    .string "Because they're there.\p"
-    .string "Why do I train POKéMON?\p"
-    .string "Because they're there!$"
+    .string "{JPN}なぜ やまに のぼるのか?\p"
+	.string "{JPN}そこに やまが あるからだ\p"
+    .string "{JPN}なぜ ポケモンを そだてるのか?\p"
+	.string "{JPN}そこに ポケモンが いるからだ!$"
 
 Route45_Text_HikerTimothyBeaten:
-    .string "Losses… They're there too!$"
-
+    .string "{JPN}まけ... それも あるんだな!$"
 Route45_Text_HikerTimothyAfter:
-    .string "The best thing to ever happen to\n"
-    .string "me was discovering POKéMON.$"
+    .string "{JPN}ポケモンと であったことが\n"
+	.string "{JPN}じんせいで いちばんの しあわせだ$"
 
 Route45_Text_HikerParryGivesIron:
-    .string "I just can't find a way to win!\p"
-    .string "Keep it up!\p"
-    .string "Oh, and take this -- it's the\n"
-    .string "gift you couldn't take when we\n"
-    .string "last met.$"
+    .string "{JPN}どうしても かつ ほうほうが\n"
+	.string "{JPN}みつからない!\p"
+    .string "{JPN}がんばれよ!\p"
+	.string "{JPN}そうそう これを もってけ--\n"
+    .string "{JPN}まえに あえなかった とき あげる\nはずだった プレゼントだ$"
 
 Route45_Text_BlackbeltKenjiSeen:
-    .string "I was training here alone.\p"
-    .string "Behold the fruits of my labor!$"
+    .string "{JPN}ひとりで ここで しゅぎょうしてた\p"
+	.string "{JPN}おれの しゅぎょうの せいかを\nみるがいい!$"
 
 Route45_Text_BlackbeltKenjiBeaten:
-    .string "Waaaargh!$"
+    .string "{JPN}うわああああ!$"
 
 Route45_Text_BlackbeltKenjiAfter:
-    .string "This calls for extreme measures.\p"
-    .string "I must take to the hills and train\n"
-    .string "in solitude.$"
+    .string "{JPN}これは とくべつな しゅぎょうが\n"
+	.string "{JPN}ひつようだな\p"
+    .string "{JPN}やまごもりして ひとりで\nしゅぎょうしなければ$"
 
 Route45_Text_BlackbeltKenjiMorning:
-    .string "I'm going to train a bit more\n"
-    .string "before I break for lunch.$"
+    .string "{JPN}ひるめしまえに もうちょっと\n"
+	.string "{JPN}しゅぎょうするつもりだ$"
 
 Route45_Text_BlackbeltKenjiNight:
-    .string "We had plenty of rest at lunch, so\p"
-    .string "now we're all ready to go again!\p"
-    .string "We're going to train again!$"
+    .string "{JPN}ひるめしで じゅうぶん やすんだ\p"
+	.string "{JPN}これで また やるきまんまんだ!\n"
+    .string "{JPN}また しゅぎょうするぞ!$"
 
 Route45_Text_CooltrainermRyanSeen:
-    .string "What are your thoughts on\n"
-    .string "raising POKéMON?$"
+    .string "{JPN}ポケモンを そだてることについて\n"
+	.string "{JPN}どう おもう?$"
 
 Route45_Text_CooltrainermRyanBeaten:
-    .string "You've won my respect.$"
+    .string "{JPN}きみを そんけいする$"
 
 Route45_Text_CooltrainermRyanAfter:
-    .string "I see you're raising your POKéMON\n"
-    .string "with care.\p"
-    .string "The bond you build will save you\n"
-    .string "in tough situations.$"
+    .string "{JPN}ポケモンを あいじょうをもって\n"
+	.string "{JPN}そだててるのが わかるよ\n"
+    .string "{JPN}きずいた きずなが きびしい じょうきょうで\n"
+	.string "{JPN}きみを たすけてくれるだろう$"
 
 Route45_Text_CooltrainerfKellySeen:
-    .string "What is your battle strategy?\p"
-    .string "It is foolish to use strong moves\n"
-    .string "indiscriminately.$"
+    .string "{JPN}きみの バトル せんりゃくは?\p"
+	.string "{JPN}つよい わざを やみくもに つかうのは\n"
+    .string "{JPN}ぐかしゃな ことよ$"
 
 Route45_Text_CooltrainerfKellyBeaten:
-    .string "Fine. I lost.$"
+    .string "{JPN}いいわ わたしの まけ$"
 
 Route45_Text_CooltrainerfKellyAfter:
-    .string "I'm not in favor of overly\n"
-    .string "powerful moves.\p"
-    .string "I want to win, but I also don't\n"
-    .string "want to harm POKéMON.$"
+    .string "{JPN}わたしは あまりにも つよすぎる\n"
+	.string "{JPN}わざは すきじゃないの\n"
+    .string "{JPN}かちたいけど ポケモンを\n"
+	.string "{JPN}きずつけたくもないから$"
 
 Route45_Text_CamperQuentinSeen:
-    .string "I'm really, really tough!$"
+    .string "{JPN}おれは ほんとうに ほんとうに\nつよいぞ!$"
 
 Route45_Text_CamperQuentinBeaten:
-    .string "I was tough at the TRAINER HILL…$"
-
+    .string "{JPN}トレーナーヒルでは つよかったのに...$"
 Route45_Text_CamperQuentinAfter:
-    .string "Have you been to the TRAINER HILL?\p"
-    .string "I never, ever lose there, but…$"
-
+    .string "{JPN}トレーナーヒルには いったことある?\p"
+	.string "{JPN}そこでは ぜったい まけないんだけど...$"
 Route45_Text_Sign:
-    .string "ROUTE 45\n"
-    .string "MOUNTAIN RD. AHEAD$"
+    .string "{JPN}ここは45ばんどうろ\n"
+	.string "{JPN}このさきマウンテンロード$"

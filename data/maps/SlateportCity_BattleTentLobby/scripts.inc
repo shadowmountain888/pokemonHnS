@@ -275,35 +275,35 @@ SlateportCity_BattleTentLobby_EventScript_ExitRules::
 	end
 
 SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe:
-	.string "So, like, I couldn't find myself any\n"
-	.string "POKéMON that were, like, for me.\p"
-	.string "So, I figured, like, hey, I should file\n"
-	.string "a complaint to the guy there?\p"
-	.string "And he wouldn't hear me out, like, hey!\n"
-	.string "So, like, total bummer, man!\p"
-	.string "Hey, like, you! Zip it, you know?\n"
-	.string "Just, you know, take this!$"
+	.string "{JPN}だから その ぼくには あう\n"
+	.string "{JPN}ポケモンが みつからなくて.\p"
+	.string "{JPN}だから その ちょっと あそこの\n"
+	.string "{JPN}ひとに もんくを いってやろうと.\p"
+	.string "{JPN}でも きいてくれないんだ!\n"
+	.string "{JPN}まったく さいあくだよ!\p"
+	.string "{JPN}おい きみ! だまってろよ!\n"
+	.string "{JPN}これを もってけ!$"
 
 SlateportCity_BattleTentLobby_Text_ExplainTorment:
-	.string "That's, like, TM41, you know?\n"
-	.string "Hey, it's TORMENT, you hearing me?\p"
-	.string "Like, it won't let the other guy\n"
-	.string "use the same move twice in a row, see?\p"
-	.string "Hey, now, you listen here, like,\n"
-	.string "I'm not laying a torment on you!$"
+	.string "{JPN}それは わざマシン41だよ.\n"
+	.string "{JPN}いじめるって わざなんだ.\p"
+	.string "{JPN}あいてに おなじ わざを\n"
+	.string "{JPN}2かい つづけて つかわせない.\p"
+	.string "{JPN}おい きいてるか?\n"
+	.string "{JPN}べつに きみを いじめてるんじゃないぞ!$"
 
 SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons:
-	.string "I don't really like BUG POKéMON,\n"
-	.string "but maybe I'll try using some for\l"
-	.string "a change of pace.\p"
-	.string "Who knows, I might even get to like\n"
-	.string "them!$"
+	.string "{JPN}むしポケモンは あまり すきじゃ\n"
+	.string "{JPN}ないけど きぶんてんかんに\l"
+	.string "{JPN}つかってみようかな.\p"
+	.string "{JPN}もしかしたら すきに なるかも\n"
+	.string "{JPN}しれないしね!$"
 
 SlateportCity_BattleTentLobby_Text_BattleEvenWithoutToughMons:
-	.string "You can battle all you want here even\n"
-	.string "if you don't have any tough POKéMON.$"
+	.string "{JPN}つよい ポケモンを もっていなくても\n"
+	.string "{JPN}ここでは たたかうことが できるよ.$"
 
 SlateportCity_BattleTentLobby_Text_NiceIfMoreSelection:
-	.string "Wouldn't it be nice if they had more of\n"
-	.string "a selection?$"
+	.string "{JPN}もっと たくさんの しゅるいが\n"
+	.string "{JPN}あったら いいのにね.$"
 

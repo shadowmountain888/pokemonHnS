@@ -96,32 +96,30 @@ FuchsiaCity_Gym_EventScript_Janine_Defeated::
 	end
 
 FuchsiaCity_Gym_Text_Janine_DisappointYou:
-	.string "Fufufufu…\p"
-	.string "I'm sorry to disappoint you…\p"
-	.string "I'm only joking!\p"
-	.string "I'm the real deal!\p"
-	.string "JANINE of FUCHSIA GYM, that's me!$"
-
+	.string "{JPN}ふふふ..\n"
+	.string "{JPN}ざんねんだったわね..\p"
+	.string "{JPN}っていうのはウソー！\p"
+	.string "{JPN}あたいがホンモノ！\n"
+	.string "{JPN}セキチクジムのアンズよ！$"
 FuchsiaCity_Gym_Text_Janine_ToughOne:
-	.string "JANINE: You're a tough one. You\n"
-	.string "definitely won…\p"
-	.string "Here's SOULBADGE. Take it.$"
+	.string "{JPN}アンズ: あなた つよいのね.\n"
+	.string "{JPN}かんぜんに まけちゃった...\p"
+	.string "{JPN}ソウルバッジよ. うけとって.$"
 
 FuchsiaCity_Gym_Text_ReceivedSoulBadge:
-	.string "{PLAYER} received SOULBADGE.$"
+	.string "{JPN}{PLAYER}は ソウルバッジを てにいれた!$"
 
 FuchsiaCity_Gym_Text_Janine_ToxicSpeech:
-	.string "JANINE: You're so tough! I have a\n"
-	.string "special gift!\p"
-	.string "It's TOXIC, a powerful poison that\n"
-	.string "steadily saps the victim's HP.$"
-
+	.string "{JPN}あんたつよいね！\n"
+	.string "{JPN}とくべつにこれあげるわ！\p"
+	.string "{JPN}ときどきあいてを\n"
+	.string "{JPN}どくじょうたいにしてしまう\l"
+	.string "{JPN}どくづきってわざよ！$"
 FuchsiaCity_Gym_Text_Janine_ApplyMyself:
-	.string "JANINE: I'm going to really apply\n"
-	.string "myself and improve my skills.\p"
-	.string "I want to become better than both\n"
-	.string "Father and you!$"
-
+	.string "{JPN}もっとしゅぎょうして\n"
+	.string "{JPN}もっともっとつよくなるわ！\p"
+	.string "{JPN}あたいのちちうえにもあんたにも\n"
+	.string "{JPN}にどとまけないようにね！$"
 FuchsiaCity_Gym_EventScript_Alice_J::
 	lock
 	faceplayer
@@ -220,47 +218,44 @@ FuchsiaCity_Gym_EventScript_Barry::
 	end
 
 FuchsiaCity_Gym_Text_LassAlice_Before:
-	.string "Fufufu!\p"
-	.string "I'm JANINE, the GYM LEADER!\p"
-	.string "No, I'm not! Gotcha, sucker!$"
-
+	.string "{JPN}ふふっ！\n"
+	.string "{JPN}わたしがリーダーのアンズ..\l"
+	.string "{JPN}なーんて！\l"
+	.string "{JPN}ひっかかったわね！$"
 FuchsiaCity_Gym_Text_LassAlice_Beaten:
-	.string "I had you fooled…$"
-
+	.string "{JPN}だまされちゃった...$"
 FuchsiaCity_Gym_Text_LassAlice_After:
-	.string "How will you distinguish our real\n"
-	.string "LEADER?$"
+	.string "{JPN}ほんものの ジムリーダーを\n"
+	.string "{JPN}どうやって みわけるの?$"
 
 FuchsiaCity_Gym_Text_LassLinda_Before:
-	.string "Fooled you! Hahaha!$"
-
+	.string "{JPN}だまされたわね！\n"
+	.string "{JPN}あははははっ！$"
 FuchsiaCity_Gym_Text_LassLinda_Beaten:
-	.string "Ooh… I lost… You're not weak…$"
-
+	.string "{JPN}うう... まけちゃった...\nあなた よわくないのね...$"
 FuchsiaCity_Gym_Text_LassLinda_After:
-	.string "Well? Wasn't my disguise perfect?$"
-
+	.string "{JPN}わたしのへんそうどう？\n"
+	.string "{JPN}よくにてるってひょうばんなの$"
 FuchsiaCity_Gym_Text_PicnickerCindy_Before:
-	.string "I'm JANINE!\p"
-	.string "How did you know I was real?\p"
-	.string "Let's battle!$"
-
+	.string "{JPN}わたしがアンズ！\n"
+	.string "{JPN}よくわかったわねっ！\l"
+	.string "{JPN}しょうぶよっ！$"
 FuchsiaCity_Gym_Text_PicnickerCindy_Beaten:
-	.string "Darn it! I wanted to win!$"
+	.string "{JPN}ちくしょう! かちたかったのに!$"
 
 FuchsiaCity_Gym_Text_PicnickerCindy_After:
-	.string "You must be getting tired.$"
+	.string "{JPN}つかれたでしょ?$"
 
 FuchsiaCity_Gym_Text_CamperBarry_Before:
-	.string "Wahahaha!\p"
-	.string "You betcha! I'm JANINE!$"
-
+	.string "{JPN}わっはっはっ！\p"
+	.string "{JPN}そうだよ！\n"
+	.string "{JPN}ボクがアンズだよ！$"
 FuchsiaCity_Gym_Text_CamperBarry_Beaten:
-	.string "My disguise was right on! Dang!$"
+	.string "{JPN}へんそうは ばっちりだったのに!\nちくしょう!$"
 
 FuchsiaCity_Gym_Text_CamperBarry_After:
-	.string "Hey, you. Was my disguise cute or\n"
-	.string "what, huh?$"
+	.string "{JPN}おい きみ! ぼくの へんそう\n"
+	.string "{JPN}かわいかったでしょ?$"
 
 FuchsiaCity_Gym_EventScript_GymGuy::
 	goto_if_set FLAG_DEFEATED_FUCHSIA_GYM, FuchsiaCity_Gym_EventScript_GymGuyAfter
@@ -284,25 +279,25 @@ FuchsiaCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 FuchsiaCity_Gym_Text_GymStatue::
-    .string "FUCHSIA POKéMON GYM\n"
-    .string "LEADER: JANINE\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE, RED$"
+    .string "{JPN}セキチク ポケモンジム\n"
+	.string "{JPN}ジムリーダー: アンズ\p"
+	.string "{JPN}しょうりした トレーナー:\n"
+	.string "{JPN}グリーン, レッド$"
 
 FuchsiaCity_Gym_Text_GymStatuePlayerWon::
-    .string "FUCHSIA POKéMON GYM\n"
-    .string "LEADER: JANINE\p"
-    .string "WINNING TRAINERS:\n"
-    .string "BLUE, RED, {PLAYER}$"
+    .string "{JPN}セキチク ポケモンジム\n"
+	.string "{JPN}ジムリーダー: アンズ\p"
+    .string "{JPN}しょうりした トレーナー:\n"
+	.string "{JPN}グリーン, レッド, {PLAYER}$"
 
 FuchsiaCity_Gym_Text_Guide:
-	.string "Yo, CHAMP in making!\p"
-	.string "Whoops! Take a good look around you.\p"
-	.string "The trainers all look like the\n"
-	.string "LEADER, JANINE.\p"
-	.string "Which of them is the real JANINE?$"
-
+	.string "{JPN}おーす！\n"
+	.string "{JPN}みらいのレジェンド！\p"
+	.string "{JPN}..おっと！\n"
+	.string "{JPN}よくみまわしてみなよ！\l"
+	.string "{JPN}リーダーのアンズが\l"
+	.string "{JPN}たくさんいるぜ！\p"
+	.string "{JPN}だれがほんものかわかるかな！？$"
 FuchsiaCity_Gym_Text_GuideWin:
-	.string "That was a great battle, trainer\n"
-	.string "from JOHTO!$"
-
+	.string "{JPN}すばらしいたたかいだったぜ\n"
+	.string "{JPN}ジョウトからきたトレーナー！$"

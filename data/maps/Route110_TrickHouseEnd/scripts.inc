@@ -250,109 +250,106 @@ Route110_TrickHouseEnd_Movement_TrickMasterSurprise:
 	step_end
 
 Route110_TrickHouseEnd_Text_YouveMadeItToMe:
-	.string "Aak!\n"
-	.string "You've made it to me?\l"
-	.string "Hmmm… You're sharp!$"
-
+	.string "{JPN}うわあ!\n"
+	.string "{JPN}わたしまで たどりついただと?\l"
+	.string "{JPN}うーむ... おまえ するどいな!$"
 Route110_TrickHouseEnd_Text_AllNightToPlantTrees:
-	.string "It took me all night to plant all those\n"
-	.string "trees…\p"
-	.string "You're almost my equal in greatness by\n"
-	.string "one, two, three, four, five, six places!$"
+	.string "{JPN}あの きを ぜんぶ うえるのに\n"
+	.string "{JPN}ひとばん かかったのだ...\p"
+	.string "{JPN}おまえは わたしの いだいさに\n"
+	.string "{JPN}たったの 1,2,3,4,5,6ばんだけ\lおよばないぐらいだ!$"
 
 Route110_TrickHouseEnd_Text_AllNightToMakeMaze:
-	.string "It took me all night to make the maze…\p"
-	.string "You're almost my equal in greatness by\n"
-	.string "one, two, three, four, five places!$"
+	.string "{JPN}あの めいろを つくるのに\n"
+	.string "{JPN}ひとばん かかったのだ...\p"
+	.string "{JPN}おまえは わたしの いだいさに\nたったの 1,2,3,4,5ばんだけ\lおよばないぐらいだ!$"
 
 Route110_TrickHouseEnd_Text_AllNightToPreparePanels:
-	.string "It took me all night to prepare\n"
-	.string "the wall panels…\p"
-	.string "You're almost my equal in greatness by\n"
-	.string "one, two, three, four places!$"
+	.string "{JPN}あの かべの パネルを じゅんびするのに\n"
+	.string "{JPN}ひとばん かかったのだ...\p"
+	.string "{JPN}おまえは わたしの いだいさに\n"
+	.string "{JPN}たったの 1,2,3,4ばんだけ\lおよばないぐらいだ!$"
 
 Route110_TrickHouseEnd_Text_AllNightToShoveBoulders:
-	.string "It took me all night to shove in those\n"
-	.string "boulders…\p"
-	.string "You're almost my equal in greatness by\n"
-	.string "one, two, three places!$"
+	.string "{JPN}あの いわを おしこむのに\n"
+	.string "{JPN}ひとばん かかったのだ...\p"
+	.string "{JPN}おまえは わたしの いだいさに\n"
+	.string "{JPN}たったの 1,2,3ばんだけ\lおよばないぐらいだ!$"
 
 Route110_TrickHouseEnd_Text_AllNightToMakeMechadolls:
-	.string "It took me all night to make MECHADOLLS\n"
-	.string "and another to think up the quiz…\p"
-	.string "You're almost my equal in greatness by\n"
-	.string "one, two places!$"
+	.string "{JPN}メカにんぎょうを つくるのに ひとばん\n"
+	.string "{JPN}クイズを かんがえるのに さらに\l"
+	.string "{JPN}ひとばん かかったのだ...\p"
+	.string "{JPN}おまえは わたしの いだいさに\nたったの 1,2ばんだけ\lおよばないぐらいだ!$"
 
 Route110_TrickHouseEnd_Text_AllNightToInstallDoors:
-	.string "It took me all night to install\n"
-	.string "the doors…\p"
-	.string "You're almost my equal in greatness!$"
+	.string "{JPN}あの ドアを せっちするのに\n"
+	.string "{JPN}ひとばん かかったのだ...\p"
+	.string "{JPN}おまえは わたしの いだいさに\nほぼ ひってきするぐらいだ!$"
 
 Route110_TrickHouseEnd_Text_AllNightSettingUpArrows:
-	.string "It took me all night setting up arrows…\p"
-	.string "You're my equal in greatness!$"
+	.string "{JPN}あの やじるしを せっちするのに\n"
+	.string "{JPN}ひとばん かかったのだ...\pおまえは わたしと おなじぐらい\nいだいだ!$"
 
 Route110_TrickHouseEnd_Text_AllNightPolishingFloors:
-	.string "It took me all night polishing floors…\p"
-	.string "You're above me in greatness!\n"
-	.string "Possibly…$"
-
+	.string "{JPN}あの ゆかを みがくのに\n"
+	.string "{JPN}ひとばん かかったのだ...\p"
+	.string "{JPN}おまえは わたしより いだいだ!\nたぶん...だが$"
 Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry:
-	.string "Wh-what should I do?\n"
-	.string "My fountain of ideas for tricks has\l"
-	.string "run dry…\p"
-	.string "Perhaps it is time I toured the country\n"
-	.string "on a quest to devise new tricks…$"
-
+	.string "{JPN}ど どうすれば いいのだ?\n"
+	.string "{JPN}しかけの アイデアが\l"
+	.string "{JPN}つきてしまった...\p"
+	.string "{JPN}あたらしい しかけを かんがえるため\n"
+	.string "{JPN}ぜんこく りょこうでも する\lときが きたのかもしれん...$"
 Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent:
-	.string "I hate to admit defeat, but you have\n"
-	.string "bested me!\p"
-	.string "Still, you must have been reeled in by\n"
-	.string "my charisma for you to visit me again\l"
-	.string "and again. Yes, you must have!\p"
-	.string "But that has nothing to do with my\n"
-	.string "losing!\p"
-	.string "In recognition of the friendship\n"
-	.string "between you, the driven, and the genius\l"
-	.string "that is myself, I demand that you take\l"
-	.string "this keepsake!\p"
-	.string "Actually there are two--\n"
-	.string "a RED TENT and a BLUE TENT.\l"
-	.string "Which do you prefer?$"
+	.string "{JPN}まけを みとめたくないが\n"
+	.string "{JPN}きみに やられてしまった!\p"
+	.string "{JPN}それでも きみは わたしの\n"
+	.string "{JPN}みりょくに ひかれて なんども\l"
+	.string "{JPN}ここに きているのだろう!\p"
+	.string "{JPN}そうに ちがいない!\p"
+	.string "{JPN}しかし それと わたしが まけた\n"
+	.string "{JPN}ことは かんけいないぞ!\p"
+	.string "{JPN}やるきに みちた きみと\n"
+	.string "{JPN}てんさいである わたしとの\l"
+	.string "{JPN}ゆうじょうの あかしとして\l"
+	.string "{JPN}この きねんひんを もらって\l"
+	.string "{JPN}もらおう!\p"
+	.string "{JPN}じつは ふたつ あるのだ--\nあかい テントと あおい テントが\lどちらが このみかね?$"
 
 Route110_TrickHouseEnd_Text_NoRoomInPC:
-	.string "What? No room in your PC?\n"
-	.string "What am I to make of that?\p"
-	.string "I wish I could say that, but I am much\n"
-	.string "too kind and caring, so come back later!$"
+	.string "{JPN}なんと? パソコンに スペースが\n"
+	.string "{JPN}ないだと? どういうことだ?\p"
+	.string "{JPN}そんなことを いいたいのだが\n"
+	.string "{JPN}わたしは とても やさしくて\lしんせつなので あとで きたまえ!$"
 
 Route110_TrickHouseEnd_Text_LeavingOnJourney:
-	.string "… … … … … …\p"
-	.string "I am leaving on a journey of discovery.\n"
-	.string "A quest in search of new tricks.\p"
-	.string "I wish that you will one day visit and\n"
-	.string "entertain me again.\p"
-	.string "And now, farewell!$"
+	.string "{JPN}... ... ... ... ... ...\p"
+	.string "{JPN}わたしは はっけんの たびに でる.\n"
+	.string "{JPN}あたらしい しかけを もとめる たびに.\p"
+	.string "{JPN}いつか また きて わたしを\n"
+	.string "{JPN}たのしませてくれることを のぞんでいる.\p"
+	.string "{JPN}それでは さらばだ!$"
 
 Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward:
-	.string "Fine!\n"
-	.string "You have earned this reward!$"
+	.string "{JPN}よろしい!\n"
+	.string "{JPN}きみは この ほうしゅうを\nかくとくしたのだ!$"
 
 Route110_TrickHouseEnd_Text_NoRoomForThis:
-	.string "What? Have you no room for this?\n"
-	.string "What manner of items do you carry?\p"
-	.string "But fine, since you've reached me,\n"
-	.string "your reward will be with me till later.$"
+	.string "{JPN}なんと? これを もつ スペースが\n"
+	.string "{JPN}ないのか? いったい なにを\l"
+	.string "{JPN}もっているのだ?\p"
+	.string "{JPN}だが まあいい きみが ここまで\nきたのだから ほうしゅうは\lあとまで わたしが もっていよう$"
 
 Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou:
-	.string "Scrub that smug smirk from your face!\n"
-	.string "It's much too early to think you've won!\p"
-	.string "I'll make new tricks to stump you, I will.\n"
-	.string "You may mock me only when you're done.\p"
-	.string "Come back for the next exciting\n"
-	.string "installment!$"
+	.string "{JPN}その にやけづらを ひっこめろ!\n"
+	.string "{JPN}かったと おもうのは まだ はやい!\p"
+	.string "{JPN}きみを こまらせる あたらしい\n"
+	.string "{JPN}トリックを つくってやる\p"
+	.string "{JPN}つぎの わくわくする ぼうけんに\n"
+	.string "{JPN}もどって きたまえ!$"
 
 Route110_TrickHouseEnd_Text_YoureIgnoringMe:
-	.string "Now, now! You're ignoring me now?\n"
-	.string "Now that, I consider heartbreaking!$"
+	.string "{JPN}おいおい! いま わたしを\n"
+	.string "{JPN}むししているのか?\nそれは かなしすぎるぞ!$"
 

@@ -35,28 +35,26 @@ GoldenrodDeptStore4_EventScript_Sign::
 	end
 
 GoldenrodDeptStore_Text_4FCooltrainerM:
-    .string "Hey. I love strong POKéMON.\p"
-    .string "I feed them PROTEIN to crank up\n"
-    .string "their ATTACK.$"
-
+    .string "{JPN}つよいポケモンがすきでよ\n"
+	.string "{JPN}タウリンあげまくって\l"
+	.string "{JPN}こうげきりょくあげまくりだぜ！$"
 GoldenrodDeptStore_Text_4FBugCatcher:
-    .string "IRON adds to your POKéMON's\n"
-    .string "DEFENSE.$"
-
+    .string "{JPN}ブロムヘキシンでねポケモンの\n"
+	.string "{JPN}ぼうぎょりょくがアップするの！$"
 GoldenrodDeptStore_Text_4FGameboyKid:
-    .string "There were rumours that some\n"
-    .string "POKéMON evolve only by\l"
-    .string "being traded via a Game Link\l"
-    .string "cable.\p"
-    .string "Pfft...\p"
-    .string "Such misinformation.\p"
-    .string "I know some of the rumoured\n"
-    .string "POKéMON:\l"
-    .string "MACHOKE, KADABRA, HAUNTER and,\l"
-    .string "um, GRAVELER,\l"
-    .string "but they all evolve through\l"
-    .string "level up.$"
+    .string "{JPN}こうかんしないと\n"
+	.string "{JPN}しんかしない ポケモンが\l"
+    .string "{JPN}いるって うわさが\l"
+	.string "{JPN}あったんだって.\p"
+    .string "{JPN}フン...\p"
+	.string "{JPN}そんなの でたらめだよ.\p"
+    .string "{JPN}うわさの ポケモンは\n"
+	.string "{JPN}ゴーリキー カラカラ\l"
+    .string "{JPN}ゴースト イシツブテ\l"
+	.string "{JPN}らしいけど\l"
+    .string "{JPN}ぜんぶ レベルアップで\l"
+	.string "{JPN}しんかするんだ.$"
 
 GoldenrodDeptStore_Text_4FDirectory:
-    .string "Let Us Pump Up Your POKéMON!\p"
-    .string "4F MEDICINE BOX$"
+    .string "{JPN}ポケモンののうりょくアップ！\n"
+	.string "{JPN}4かい..メディシンボックス$"

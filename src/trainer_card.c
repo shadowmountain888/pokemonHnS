@@ -1032,7 +1032,10 @@ static void PrintNameOnCardFront(void)
     u8 buffer[32];
     u8 *txtPtr;
     txtPtr = StringCopy(buffer, gText_TrainerCardName);
-    StringCopy(txtPtr, sData->trainerCard.playerName);
+    // Prepend {JPN} so kana player name renders correctly
+    txtPtr[0] = EXT_CTRL_CODE_BEGIN;
+    txtPtr[1] = EXT_CTRL_CODE_JPN;
+    StringCopy(txtPtr + 2, sData->trainerCard.playerName);
     ConvertInternationalString(txtPtr, sData->language);
     if (sData->cardType == CARD_TYPE_FRLG)
         AddTextPrinterParameterized3(1, FONT_NORMAL, 20, 28, sTrainerCardTextColors, TEXT_SKIP_DRAW, buffer);
@@ -1190,7 +1193,10 @@ static void PrintProfilePhraseOnCard(void)
 
 static void BufferNameForCardBack(void)
 {
-    StringCopy(sData->textPlayersCard, sData->trainerCard.playerName);
+    // Prepend {JPN} so kana player name renders correctly
+    sData->textPlayersCard[0] = EXT_CTRL_CODE_BEGIN;
+    sData->textPlayersCard[1] = EXT_CTRL_CODE_JPN;
+    StringCopy(sData->textPlayersCard + 2, sData->trainerCard.playerName);
     ConvertInternationalString(sData->textPlayersCard, sData->language);
     if (sData->cardType != CARD_TYPE_FRLG)
     {

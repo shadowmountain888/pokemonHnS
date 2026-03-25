@@ -77,59 +77,59 @@ Route20_EventScript_Headlocker::
 	end
 
 Route20_Text_Dennis:
-	.string "DENNIS: SHAAAAAAAA!$"
+	.string "{JPN}デニス: しゃあああああ!$"
 
 Route20_Text_Headlocker:
-	.string "There's a rare POKéMON on this\n"
-	.string "route.\p"
-	.string "And sometimes it carries a rare\n"
-	.string "evolution item.\p"
-	.string "That's double rare!\p"
-	.string "I need to finish my POKéDEX, so\n"
-	.string "I've been fishing here for hours!$"
+	.string "{JPN}このルートには\n"
+	.string "{JPN}めずらしいポケモンが\n"
+	.string "{JPN}いるんだ.\p"
+	.string "{JPN}ときどき めずらしい\n"
+	.string "{JPN}しんかのどうぐも\n"
+	.string "{JPN}もっているぞ.\p"
+	.string "{JPN}ダブルで レアだ!\p ぼくは ポケモンずかんを\nかんせいさせたいから\nここで なんじかんも\nつりを してるんだ!$"
 
 Route20_Text_Seel:
-	.string "SEEL: Seel seel!$"
+	.string "{JPN}パウワウ: パウ パウ!$"
 
 Route20_Text_Dewgong:
-	.string "DEWGONG: Goooong!$"
+	.string "{JPN}ジュゴン: ジュゴーン!$"
 
 Route20_Text_SeafoamSign:
-	.string "SEAFOAM ISLANDS$"
+	.string "{JPN}ふたごじま$"
 
 Route20_Text_SwimmerfNicoleSeen:
-	.string "I feel so much lighter in water.$"
+	.string "{JPN}みずのなかだと\nとても かるく かんじるわ.$"
 
 Route20_Text_SwimmerfNicoleBeaten:
-	.string "Oh, no!$"
+	.string "{JPN}あら だめ!$"
 
 Route20_Text_SwimmerfNicoleAfterBattle:
-	.string "Swimming exercises your full body.\p"
-	.string "It's really good for you.$"
+	.string "{JPN}すいえいは ぜんしんの\n"
+	.string "{JPN}うんどうになるの.\p とても からだに\nいいのよ.$"
 
 Route20_Text_SwimmerfLoriSeen:
-	.string "What an impressive collection of\n"
-	.string "GYM BADGES. We should battle!$"
+	.string "{JPN}すごい バッジの\n"
+	.string "{JPN}コレクションね.\nしょうぶしましょう!$"
 
 Route20_Text_SwimmerfLoriBeaten:
-	.string "No!$"
+	.string "{JPN}だめ!$"
 
 Route20_Text_SwimmerfLoriAfterBattle:
-	.string "SURF is no longer the only HM move\n"
-	.string "you use in water.$"
+	.string "{JPN}なみのりは もう みずで\n"
+	.string "{JPN}つかう ゆいいつの\nひでんマシンじゃ\nないのね.$"
 
 Route20_Text_SwimmermCameronSeen:
-	.string "I guess it's impossible to swim\n"
-	.string "all the way to JOHTO.$"
+	.string "{JPN}およいで ジョウトまで\n"
+	.string "{JPN}いくのは むりかな.$"
 
 Route20_Text_SwimmermCameronBeaten:
-	.string "Aiyah!$"
+	.string "{JPN}あいやー!$"
 
 Route20_Text_SwimmermCameronAfterBattle:
-	.string "Besides the sea, I can also swim\n"
-	.string "in ponds and rivers.$"
+	.string "{JPN}うみの ほかにも\n"
+	.string "{JPN}いけや かわでも\nおよげるんだ.$"
 
 Route20_Text_CinnabarIsland_GymUnusedSign:
-	.string "What does this sign say?\p"
-	.string "CINNABAR GYM LEADER: BLAINE$"
+	.string "{JPN}このひょうしきに\n"
+	.string "{JPN}なんて かいてあるの?\p グレンジム ジムリーダー:\nカツラ$"
 

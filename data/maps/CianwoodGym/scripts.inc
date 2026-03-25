@@ -21,12 +21,11 @@ CianwoodGym_EventScript_Statue2::
 	end
 
 CianwoodGym_Text_GymStatue:
-	.string "CIANWOOD CITY POKéMON GYM$"
+	.string "{JPN}タンバシティポケモンジム$"
 
 CianwoodGym_Text_GymStatueCertified:
-	.string "CIANWOOD CITY POKéMON GYM\p"
-	.string "CHUCK'S CERTIFIED TRAINERS:\n"
-	.string "{PLAYER}$"
+	.string "{JPN}タンバシティポケモンジム\p"
+	.string "{JPN}ジムリーダーシジマ\nにんていトレーナー!\l{PLAYER}$"
 
 CianwoodGym_EventScript_Chuck::
 	lock
@@ -82,11 +81,7 @@ CianwoodGym_EventScript_ChuckGotoDojo::
 	end
 
 CianwoodGym_Text_ChuckGotoDojo:
-	.string "WAHAHAHA {PLAYER}!\n"
-	.string "I'm in the middle of my training!\p"
-	.string "If you want another match, come to\n"
-	.string "the FIGHTING DOJO in SAFFRON!$"	
-
+	.string "{JPN}ワハハハ {PLAYER}！\nいま しゅぎょうちゅうだ！\pもういちど しょうぶしたいなら\nヤマブキの かくとうどうじょうへ！$"
 CianwoodGym_EventScript_ChuckAtDojo::
 	msgbox CianwoodGym_Text_ChuckAtDojo, MSGBOX_DEFAULT
 	closemessage
@@ -94,9 +89,7 @@ CianwoodGym_EventScript_ChuckAtDojo::
 	end
 
 CianwoodGym_Text_ChuckAtDojo:
-	.string "I will see you at the DOJO!\n"
-	.string "WAHAHAHAHAHA$"
-
+	.string "{JPN}どうじょうで まってるぞ！\nワハハハハハ$"
 CianwoodGym_EventScript_OlivineCheckMahog::
 	goto_if_set FLAG_DEFEATED_MAHOGANY_TOWN_GYM, CianwoodGym_EventScript_Chuck_Battle3
 	goto CianwoodGym_EventScript_Chuck_Battle2
@@ -132,122 +125,87 @@ CianwoodGym_Movement_ChuckRight:
 	step_end
 
 CianwoodGym_Text_ChuckIntro1:
-	.string "WAHAHAH!\p"
-	.string "So you've come this far!\p"
-	.string "Let me tell you, I'm tough!\p"
-	.string "My POKéMON will crush stones and\n"
-	.string "shatter bones!\p"
-	.string "Watch this!$"
-
+	.string "{JPN}シジマ: ぬおぉぉー!\nはげしくながれおちるたきが\l"
+	.string "{JPN}わしのあたまのうえに\lズドドドド...ってコラー!\p"
+	.string "{JPN}かってにみずをとめるなー!\nわしのしゅぎょうの\lじゃまをしおってー!\p"
+	.string "{JPN}いっとくがわしはつよいぞ!\nこうやってまいにち\l"
+	.string "{JPN}たきにうたれているからな!\p"
+	.string "{JPN}なに?\nポケモンとはかんけいない?\p"
+	.string "{JPN}.........\nそれもそうだ\p"
+	.string "{JPN}.........\n.........\p"
+	.string "{JPN}ではしょうぶといくかぁ!\p$"
 CianwoodGym_Text_ChuckIntro2:
-	.string "CHUCK: Urggh!\n"
-	.string "…\p"
-	.string "Oooarrgh!$"
+	.string "{JPN}ううー\n.........\p"
+	.string "{JPN}どりゃああ!!$"
 
 CianwoodGym_Text_ChuckIntro3:
-	.string "There! Scared now, are you?\p"
-	.string "What? It has nothing to do with\n"
-	.string "POKéMON?\p"
-	.string "That's true!\p"
-	.string "Come on. We shall do battle!$"
+	.string "{JPN}どうだ!おじけづいたろ!\p"
+	.string "{JPN}なにポケモンとはかんけいない?\nそれもそうだ!\l"
+	.string "{JPN}ではしょうぶといくかあ!\p$"
 
 CianwoodGym_Text_ChuckLoss:
-	.string "Wha? Huh? I lost?\p"
-	.string "How about that!\n"
-	.string "You're worthy of STORMBADGE!$"
+	.string "{JPN}シジマ: うーむわしが\nまけるとは...こりゃまいった!\p"
+	.string "{JPN}よーしっ!このショックバッジは\nおまえにふさわしい!\p$"
 
 CianwoodGym_Text_GetStormBadge:
-	.string "{PLAYER} received STORMBADGE.$"
-
+	.string "{JPN}{PLAYER}はシジマから\nショックバッジをもらった!$"
 CianwoodGym_Text_ChuckBadgeSpeech:
-	.string "STORMBADGE makes all POKéMON up to\n"
-	.string "L70 obey, even traded ones.\p"
-	.string "It also lets your POKéMON use FLY\n"
-	.string "when you're not in a battle.\p"
-	.string "Here, take this too!$"
-
+	.string "{JPN}シジマ: ショックバッジがあれば\nすでにいったことのあるまちへ\l"
+	.string "{JPN}そらをとぶでとんでいけるぞ!\p"
+	.string "{JPN}うむっついでだ\nこいつももってけ!\p$"
 CianwoodGym_Text_ChuckTMSpeech:
-	.string "That is FOCUS PUNCH.\p"
-	.string "It moves slow but deals huge\n"
-	.string "damage. Just don't get hit first!$"
-
+	.string "{JPN}シジマ: わざマシン01のなかみは\nきあいパンチ!!\p"
+	.string "{JPN}さきにこうげきをうけると\nこちらのこうげきがだせなくなるが\p"
+	.string "{JPN}あてられればぜつだいな\nいりょくをはっきするぞ!$"
 CianwoodGym_Text_ChuckAfter:
-	.string "WAHAHAH! I enjoyed battling you!\p"
-	.string "But a loss is a loss!\p"
-	.string "From now on, I'm going to train\n"
-	.string "24 hours a day!$"
+	.string "{JPN}シジマ: わはは!\nわしたのしかったよ!\p"
+	.string "{JPN}でもまけはまけだからな\nきょうから24じかんとっくんだ!$"
 
 CianwoodGym_Text_ChuckRematch:
-	.string "WAHAHAH! JOHTO CHAMPION!\p"
-	.string "You've come back for more!\p"
-	.string "I see your skills have improved!\p"
-	.string "Ready to see who's stronger?$"
-
+	.string "{JPN}ワハハハ！ ジョウトの チャンピオン！\pまた しょうぶしにきたな！\pうでを あげたようだな！\pどちらが つよいか ためそうぜ？$"
 CianwoodGym_Text_ChuckRematchDefeat:
-	.string "Wha? Huh? I lost?\n"
-	.string "Again?$"
-
+	.string "{JPN}なんだと？ また まけた？\nそんな..$"
 CianwoodGym_EventScript_Yoshi::
 	trainerbattle_single TRAINER_YOSHI CianwoodGym_Text_BlackbeltYoshiSeen, CianwoodGym_Text_BlackbeltYoshiBeaten
 	msgbox CianwoodGym_Text_BlackbeltYoshiAfter, MSGBOX_AUTOCLOSE
 	end
 
 CianwoodGym_Text_BlackbeltYoshiSeen:
-	.string "My POKéMON and I are bound togeth-\n"
-	.string "er by friendship.\p"
-	.string "Our bond will never be broken!$"
-
+	.string "{JPN}おれと ポケモンは ゆうじょうで\nむすばれているんだ\pそのきずなは ぜったい きれない！$"
 CianwoodGym_Text_BlackbeltYoshiBeaten:
-	.string "This isn't real!$"
-
+	.string "{JPN}うそだろ！$"
 CianwoodGym_Text_BlackbeltYoshiAfter:
-	.string "You seem to have a strong bond\n"
-	.string "with your POKéMON too!$"
-
+	.string "{JPN}きみも ポケモンと\nつよいきずなを もってるんだな！$"
 CianwoodGym_EventScript_Lao::
 	trainerbattle_single TRAINER_LAO CianwoodGym_Text_BlackbeltLaoSeen, CianwoodGym_Text_BlackbeltLaoBeaten
 	msgbox CianwoodGym_Text_BlackbeltLaoAfter, MSGBOX_AUTOCLOSE
 	end
 
 CianwoodGym_Text_BlackbeltLaoSeen:
-	.string "We martial artists fear nothing!$"
-
+	.string "{JPN}ぶどうかはなにもこわくない！$"
 CianwoodGym_Text_BlackbeltLaoBeaten:
-	.string "That's shocking!$"
-
+	.string "{JPN}これはショックだ！$"
 CianwoodGym_Text_BlackbeltLaoAfter:
-	.string "Fighting POKéMON are afraid of\n"
-	.string "psychics…$"
-
-
+	.string "{JPN}かくとうポケモンは\nエスパーがにがてなんだ.$"
 CianwoodGym_EventScript_Nob::
 	trainerbattle_single TRAINER_NOB CianwoodGym_Text_BlackbeltNobSeen, CianwoodGym_Text_BlackbeltNobBeaten
 	msgbox CianwoodGym_Text_BlackbeltNobAfter, MSGBOX_AUTOCLOSE
 	end
 
 CianwoodGym_Text_BlackbeltNobSeen:
-	.string "Words are useless.\n"
-	.string "Let your fists do the talking!$"
-
+	.string "{JPN}ことばはむだだ\nこぶしでかたろうぜ！$"
 CianwoodGym_Text_BlackbeltNobBeaten:
-	.string "…$"
-
+	.string "{JPN}ぐっ...!$"
 CianwoodGym_Text_BlackbeltNobAfter:
-	.string "I lost! I'm speechless!$"
-
+	.string "{JPN}まけた！ことばもでない！$"
 CianwoodGym_EventScript_Lung::
 	trainerbattle_single TRAINER_LUNG CianwoodGym_Text_BlackbeltLungSeen, CianwoodGym_Text_BlackbeltLungBeaten
 	msgbox CianwoodGym_Text_BlackbeltLungAfter, MSGBOX_AUTOCLOSE
 	end
 
 CianwoodGym_Text_BlackbeltLungSeen:
-	.string "My raging fists will shatter your\n"
-	.string "POKéMON!$"
-
+	.string "{JPN}もえたぎるこぶしで\nきみのポケモンをこなごなに！$"
 CianwoodGym_Text_BlackbeltLungBeaten:
-	.string "I got shattered!$"
-
+	.string "{JPN}こなごなになったのはおれだ！$"
 CianwoodGym_Text_BlackbeltLungAfter:
-	.string "My POKéMON lost…\n"
-	.string "My… my pride is shattered…$"
-
+	.string "{JPN}ポケモンがまけた.\nお.おれのプライドが.$"

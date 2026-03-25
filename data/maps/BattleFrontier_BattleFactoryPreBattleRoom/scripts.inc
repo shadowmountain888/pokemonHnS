@@ -450,198 +450,198 @@ BattleFrontier_BattleFactoryPreBattleRoom_Movement_AttendantReturnToPlayer:
 	step_end
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_HoldMonsChooseFromSelection:
-	.string "First, we will hold your POKéMON for\n"
-	.string "safekeeping.\p"
-	.string "You may then choose from our\n"
-	.string "selection of POKéMON.$"
+	.string "{JPN}まず あなたの ポケモンを\n"
+	.string "{JPN}おあずかり いたします.\p"
+	.string "{JPN}そのあと こちらで ようい\n"
+	.string "{JPN}した ポケモンから\nえらんで ください.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_LetUsRestoreMons:
-	.string "Thank you for competing!\n"
-	.string "Let us restore your POKéMON!$"
+	.string "{JPN}おつかれさまでした!\n"
+	.string "{JPN}ポケモンを おかえしします!$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor2ndOpponent:
-	.string "The 2nd match is next!\n"
-	.string "Are you ready?$"
+	.string "{JPN}つぎは 2かいめの しあいです!\n"
+	.string "{JPN}じゅんびは いいですか?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor3rdOpponent:
-	.string "The 3rd match is next!\n"
-	.string "Are you ready?$"
+	.string "{JPN}つぎは 3かいめの しあいです!\n"
+	.string "{JPN}じゅんびは いいですか?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor4thOpponent:
-	.string "The 4th match is next!\n"
-	.string "Are you ready?$"
+	.string "{JPN}つぎは 4かいめの しあいです!\n"
+	.string "{JPN}じゅんびは いいですか?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor5thOpponent:
-	.string "The 5th match is next!\n"
-	.string "Are you ready?$"
+	.string "{JPN}つぎは 5かいめの しあいです!\n"
+	.string "{JPN}じゅんびは いいですか?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor6thOpponent:
-	.string "The 6th match is next!\n"
-	.string "Are you ready?$"
+	.string "{JPN}つぎは 6かいめの しあいです!\n"
+	.string "{JPN}じゅんびは いいですか?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor7thOpponent:
-	.string "Finally, the 7th match is next!\n"
-	.string "Are you ready?$"
+	.string "{JPN}ついに 7かいめの しあいです!\n"
+	.string "{JPN}じゅんびは いいですか?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_SaveAndQuitGame:
-	.string "Would you like to save and quit\n"
-	.string "the game?$"
+	.string "{JPN}セーブして ゲームを\n"
+	.string "{JPN}しゅうりょう しますか?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RetireFromChallenge:
-	.string "Would you like to retire from your\n"
-	.string "Battle Swap challenge?$"
+	.string "{JPN}バトルスワップチャレンジを\n"
+	.string "{JPN}やめますか?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent:
-	.string "I've conducted a little investigation\n"
-	.string "about your upcoming opponent.$"
+	.string "{JPN}つぎの あいてについて\n"
+	.string "{JPN}ちょっと ちょうさ してみました.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInNormalType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the NORMAL type.$"
+	.string "{JPN}その トレーナーは ノーマルタイプの\n"
+	.string "{JPN}ポケモンの あつかいに\nたけて いるようです.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFireType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the FIRE type.$"
+	.string "{JPN}その トレーナーは ほのおタイプの\n"
+	.string "{JPN}ポケモンの あつかいに\nたけて いるようです.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInWaterType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the WATER type.$"
+	.string "{JPN}その トレーナーは みずタイプの\n"
+	.string "{JPN}ポケモンの あつかいに\nたけて いるようです.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInElectricType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the ELECTRIC type.$"
+	.string "{JPN}その トレーナーは でんきタイプの\n"
+	.string "{JPN}ポケモンの あつかいに\nたけて いるようです.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGrassType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the GRASS type.$"
+	.string "{JPN}その トレーナーは くさタイプの\n"
+	.string "{JPN}ポケモンの あつかいに\nたけて いるようです.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInIceType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the ICE type.$"
+	.string "{JPN}その トレーナーは こおりタイプの\n"
+	.string "{JPN}ポケモンの あつかいに\nたけて いるようです.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFightingType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the FIGHTING type.$"
+	.string "{JPN}その トレーナーは かくとうタイプの\n"
+	.string "{JPN}ポケモンの あつかいに\nたけて いるようです.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPoisonType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the POISON type.$"
+	.string "{JPN}その トレーナーは どくタイプの\n"
+	.string "{JPN}ポケモンの あつかいに\nたけて いるようです.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGroundType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the GROUND type.$"
+	.string "{JPN}その トレーナーは じめんタイプの\n"
+	.string "{JPN}ポケモンの あつかいに\nたけて いるようです.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFlyingType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the FLYING type.$"
+	.string "{JPN}その トレーナーは ひこうタイプの\n"
+	.string "{JPN}ポケモンの あつかいに\nたけて いるようです.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPsychicType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the PSYCHIC type.$"
+	.string "{JPN}その トレーナーは エスパータイプの\n"
+	.string "{JPN}ポケモンの あつかいに\nたけて いるようです.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInBugType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the BUG type.$"
+	.string "{JPN}その トレーナーは むしタイプの\n"
+	.string "{JPN}ポケモンの あつかいに\nたけて いるようです.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInRockType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the ROCK type.$"
+	.string "{JPN}その トレーナーは いわタイプの\n"
+	.string "{JPN}ポケモンの あつかいに\nたけて いるようです.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGhostType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the GHOST type.$"
+	.string "{JPN}その トレーナーは ゴーストタイプの\n"
+	.string "{JPN}ポケモンの あつかいに\nたけて いるようです.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDragonType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the DRAGON type.$"
+	.string "{JPN}そのトレーナーは ドラゴンタイプの\n"
+	.string "{JPN}あつかいが とくいなようです$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the DARK type.$"
+	.string "{JPN}そのトレーナーは あくタイプの\n"
+	.string "{JPN}あつかいが とくいなようです$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInSteelType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the STEEL type.$"
+	.string "{JPN}そのトレーナーは はがねタイプの\n"
+	.string "{JPN}あつかいが とくいなようです$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerHasNoClearFavorite:
-	.string "The TRAINER appears to have no clear\n"
-	.string "favorites when it comes to type.$"
+	.string "{JPN}そのトレーナーは タイプに\n"
+	.string "{JPN}こだわりが ないようです$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleSlowAndSteady:
-	.string "The favorite battle style appears to\n"
-	.string "be slow and steady.$"
+	.string "{JPN}そのトレーナーの せんぽうは\n"
+	.string "{JPN}ちんちゃくれいせいがたです$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleEndurance:
-	.string "The favorite battle style appears to\n"
-	.string "be one of endurance.$"
+	.string "{JPN}そのトレーナーの せんぽうは\n"
+	.string "{JPN}じきゅうりょくじゅうしがたです$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleHighRisk:
-	.string "The favorite battle style appears to\n"
-	.string "be high risk, high return.$"
+	.string "{JPN}そのトレーナーの せんぽうは\n"
+	.string "{JPN}ハイリスクハイリターンがたです$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleDependsOnFlow:
-	.string "The favorite battle style appears to\n"
-	.string "depend on the battle's flow.$"
+	.string "{JPN}そのトレーナーの せんぽうは\n"
+	.string "{JPN}たたかいの ながれにあわせるがたです$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleTotalPreparation:
-	.string "The favorite battle style appears to\n"
-	.string "be one based on total preparation.$"
+	.string "{JPN}そのトレーナーの せんぽうは\n"
+	.string "{JPN}かんぺきな じゅんびがたです$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleWeakenFoe:
-	.string "The favorite battle style appears\n"
-	.string "to be weakening the foe to start.$"
+	.string "{JPN}そのトレーナーの せんぽうは\n"
+	.string "{JPN}あいてを よわらせてからがたです$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleFlexible:
-	.string "The favorite battle style appears to\n"
-	.string "be flexibly adaptable to the situation.$"
+	.string "{JPN}そのトレーナーの せんぽうは\n"
+	.string "{JPN}じょうきょうに ぴったりあわせるがたです$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleImpossibleToPredict:
-	.string "The favorite battle style appears to\n"
-	.string "be impossible to predict.$"
+	.string "{JPN}そのトレーナーの せんぽうは\n"
+	.string "{JPN}よそくふかのうがたです$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleUnrestrained:
-	.string "The favorite battle style appears to\n"
-	.string "be free-spirited and unrestrained.$"
+	.string "{JPN}そのトレーナーの せんぽうは\n"
+	.string "{JPN}じゆうきままな のびのびがたです$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_LikeToSwapMon:
-	.string "Before starting the battle, would you\n"
-	.string "like to swap a POKéMON?$"
+	.string "{JPN}たたかいを はじめるまえに\n"
+	.string "{JPN}ポケモンを こうかんしますか?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_YourSwapIsComplete:
-	.string "Thank you!\n"
-	.string "Your POKéMON swap is complete.$"
+	.string "{JPN}ありがとうございます!\n"
+	.string "{JPN}ポケモンの こうかんが おわりました$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RightThisWay:
-	.string "Right this way, please!$"
+	.string "{JPN}では こちらへ どうぞ!$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_SavingDataPleaseWait:
-	.string "I am saving your data.\n"
-	.string "Please wait.$"
+	.string "{JPN}データを ほぞんしています\n"
+	.string "{JPN}しばらく おまちください$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RecordLatestBattle:
-	.string "Would you like to record your latest\n"
-	.string "battle on your FRONTIER PASS?$"
+	.string "{JPN}さいしんの たたかいを\n"
+	.string "{JPN}フロンティアパスに きろくしますか?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_WaitFewMoments:
-	.string "Excuse me! Excuse me, please!\n"
-	.string "May I get you to wait a few moments?$"
+	.string "{JPN}すみません! すみません!\n"
+	.string "{JPN}しばらく おまちいただけますか?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_UnderstoodSirWillDo:
-	.string "…Uh-huh? What?! …Whoa!\n"
-	.string "Understood, sir! Will do!$"
+	.string "{JPN}...えっ? なに?! ...うわあ!\n"
+	.string "{JPN}りょうかいです! やります!$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow:
-	.string "Oh, my…\n"
-	.string "Sorry to keep you waiting!\p"
-	.string "I have a message from this facility's\n"
-	.string "boss, the FACTORY HEAD.\p"
-	.string "He says, “We're going to do it!\n"
-	.string "Come here right now!”$"
+	.string "{JPN}あら まあ...\n"
+	.string "{JPN}おまたせして すみません!\p"
+	.string "{JPN}この しせつの ボス\n"
+	.string "{JPN}ファクトリーヘッドからの\n"
+	.string "{JPN}でんごんが あります\p"
+	.string "{JPN}かれは いいました\nやるぞ! すぐに きてくれ!$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead:
-	.string "The FACTORY HEAD is demanding you.\n"
-	.string "Are you prepared to face him?$"
+	.string "{JPN}ファクトリーヘッドが あなたを\n"
+	.string "{JPN}よんでいます たたかいますか?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_CantTellAnythingAboutHead:
-	.string "I'm terribly sorry, but I can't tell you\n"
-	.string "anything about the FACTORY HEAD.$"
+	.string "{JPN}もうしわけございませんが\n"
+	.string "{JPN}ファクトリーヘッドのことは なにも$"

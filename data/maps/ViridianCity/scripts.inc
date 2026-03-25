@@ -59,77 +59,71 @@ ViridianCity_EventScript_GymSign::
 	end
 
 ViridianCity_Text_CoffeeGramps_Question:
-	.string "Hey, kid! I just had a double shot\n"
-	.string "of espresso, and I am wired!\p"
-	.string "I need to talk to someone, so you'll\n"
-	.string "have to do!\p"
-	.string "I might not look like much now, but\n"
-	.string "I was an expert at catching POKéMON.\p"
-	.string "Do you believe me?$"
-
+	.string "{JPN}ういーっ！ひっく..まちやがれ！\n"
+	.string "{JPN}わしのはなしをきけ！\p"
+	.string "{JPN}こうみえてもむかしは\n"
+	.string "{JPN}ポケモンをつかまえるのが\l"
+	.string "{JPN}うまかったんじゃ！\p"
+	.string "{JPN}しんじてくれるかの？$"
 ViridianCity_Text_CoffeeGramps_Believed:
-	.string "Good, good. Yes, I was something\n"
-	.string "out of the ordinary, let me tell\l"
-	.string "you!$"
-
+	.string "{JPN}そうじゃろそうじゃろ\n"
+	.string "{JPN}うんうん$"
 ViridianCity_Text_CoffeeGramps_Doubted:
-	.string "What? You little whelp!\p"
-	.string "If I were just a bit younger, I'd\n"
-	.string "show you a thing or two. Humph!$"
-
+	.string "{JPN}なにをこわっぱが！\p"
+	.string "{JPN}わしがもうすこしわかけりゃ\n"
+	.string "{JPN}おてほんをみせてやったのにな$"
 ViridianCity_Text_GrampsNearGym:
-	.string "This GYM didn't have a LEADER\n"
-	.string "until recently.\p"
-	.string "A young man from PALLET became\n"
-	.string "the LEADER, but he's often away.$"
-
+	.string "{JPN}このジムにはリーダーが\n"
+	.string "{JPN}おらんかったのだが..\p"
+	.string "{JPN}さいきんマサラのわかものが\n"
+	.string "{JPN}リーダーになったそうじゃ\p"
+	.string "{JPN}..はて？\n"
+	.string "{JPN}いまはるすかの？$"
 ViridianCity_Text_GrampsNearGym_BlueReturned:
-	.string "Are you going to battle the\n"
-	.string "LEADER?\p"
-	.string "Good luck to you. You'll need it.$"
+	.string "{JPN}ジムリーダーと\n"
+	.string "{JPN}たたかうのかね?\p"
+	.string "{JPN}がんばるんじゃよ.\nうんが ひつようじゃからな.$"
 
 ViridianCity_Text_DreamEaterFisherNew:
-	.string "…Zzzzz…\p" 
-	.string "Yawn!\p"
-	.string "I must have dozed off in the sun.\p"
-	.string "What? I remind you of somebody?\p"
-	.string "I don't know, here, have this.$"
+	.string "{JPN}...zzzzz...\p"
+	.string "{JPN}ふわあ!\p"
+	.string "{JPN}たいようのなかで うとうと\n"
+	.string "{JPN}してしまったようじゃ.\p"
+	.string "{JPN}なに? だれかににてるじゃと?\pしらんのう.ほれ これを\nもっていくがよい.$"
 
 
 ViridianCity_Text_DreamEaterFisher_GotTM::
-	.string "…Zzzzz…$"
-
+	.string "{JPN}...zzzzz...$"
 ViridianCity_Text_DreamEaterFisher:
-	.string "Yawn!\p"
-	.string "I must have dozed off in the sun.\p"
-	.string "…I had this dream about a DROWZEE\n"
-	.string "eating my dream. Weird, huh?\p"
-	.string "Huh? What's this?\p"
-	.string "Where did this TM come from?\p"
-	.string "This is spooky! Here, you can have\n"
-	.string "this TM.$"
-
+	.string "{JPN}ふあー！\n"
+	.string "{JPN}ひなたぼっこしてて\l"
+	.string "{JPN}ねむってしまった！\p"
+	.string "{JPN}..へんなゆめをみた\n"
+	.string "{JPN}スリープがゆめをくっていた！\l"
+	.string "{JPN}..およ？ぼくいつのまにか\l"
+	.string "{JPN}わざマシンもってるけど？\p"
+	.string "{JPN}うーん\n"
+	.string "{JPN}きみがわるい！\l"
+	.string "{JPN}これきみにあげる！$"
 ViridianCity_Text_DreamEaterFisher_GotDreamEater:
-	.string "TM42 contains DREAM EATER…\p"
-	.string "…Zzzzz…$"
-
+	.string "{JPN}わざマシン85のなかみは..\n"
+	.string "{JPN}ゆめくいだよ..\l"
+	.string "{JPN}..ぐう..$"
 ViridianCity_Text_Youngster:
-	.string "I heard that there are many items\n"
-	.string "on the ground in VIRIDIAN FOREST.$"
-
+	.string "{JPN}トキワのもりには\n"
+	.string "{JPN}みえないどうぐがいっぱい\l"
+	.string "{JPN}おちているってはなしだよ！$"
 ViridianCity_Text_Sign:
-	.string "VIRIDIAN CITY\p"
-	.string "The Eternally Green Paradise$"
+	.string "{JPN}トキワシティ\p"
+	.string "{JPN}とわに みどりの らくえん$"
 
 ViridianCity_Text_GymSign:
-	.string "VIRIDIAN CITY POKéMON GYM\n"
-	.string "LEADER: …\p"
-	.string "The rest of the text is illegible…$"
-
+	.string "{JPN}トキワシティポケモンジム\n"
+	.string "{JPN}リーダー..\l"
+	.string "{JPN}あとはもじがよめない！$"
 ViridianCity_Text_WelcomeSign:
-	.string "WELCOME TO VIRIDIAN CITY,\p"
-	.string "THE GATEWAY TO INDIGO PLATEAU$"
-
+	.string "{JPN}セキエイこうげんいりぐちのまち\n"
+	.string "{JPN}トキワシティへようこそ！$"
 ViridianCity_Text_TrainerHouseSign:
-	.string "TRAINER HOUSE\p"
-	.string "The Club for Top Trainer Battles$"
+	.string "{JPN}ここはトレーナーハウス\n"
+	.string "{JPN}つわもののつどうばしょ$"

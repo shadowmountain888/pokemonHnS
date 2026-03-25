@@ -18,11 +18,11 @@ DiglettsCave_EntranceNorth_EventScript_Brock::
     end
 
 DiglettsCave_EntranceNorth_Text_Brock:
-    .string "BROCK: Small spaces surrounded by\n"
-    .string "rocks make you feel peaceful,\l"
-    .string "don't you agree?\p"
-	.string "If you want another match, I'll be\n"
-	.string "at the FIGHTING DOJO.$"
+    .string "{JPN}ブロック: いわに かこまれた\n"
+	.string "{JPN}せまい ばしょって\l"
+    .string "{JPN}なんだか おちつくよね?\p"
+	.string "{JPN}また しょうぶしたかったら\n"
+	.string "{JPN}かくとうどうじょうに いるからね$"
 
 
 

@@ -179,51 +179,50 @@ DragonsDen_Shrine_EventScript_ElderQuizFinish::
 
 
 DragonsDen_Shrine_Text_ElderGreeting:
-    .string "Hm… Good to see you here.\p"
-    .string "No need to explain why you came.\n"
-    .string "CLAIR sent you here, didn't she?\p"
-    .string "That girl is a handful…\n"
-    .string "I am sorry, but I must test you.\p"
-    .string "Not to worry, you are to answer\n"
-    .string "only a few questions.\l"
-    .string "Ready?$"
+	.string "{JPN}ふむ...よくきたのう\p"
+	.string "{JPN}なーにしんぱいするでない\nなにもいわなくてもわかっておる!\l"
+	.string "{JPN}イブキのやつにいわれて\lここまできたのじゃろう?\p"
+	.string "{JPN}あのむすめにもこまったものよ...\p"
+	.string "{JPN}まぁおぬしにはもうしわけないが\nすこしばかりためさせてもらうぞ\l"
+	.string "{JPN}なーにわしのしつもんに\lこたえてもらうだけじゃよ\p"
+	.string "{JPN}ではいくぞ...\p$"
 
 DragonsDen_Shrine_Text_Question1:
-    .string "What are POKéMON to you?$"
+	.string "{JPN}おぬしにとってポケモンとは\nどのようなそんざいなのかな?$"
 
 DragonsDen_Shrine_Text_Question2:
-    .string "What helps you to win battles?$"
+	.string "{JPN}ポケモンしょうぶでかつために\nひつようなこととはなにかな?$"
 
 DragonsDen_Shrine_Text_Question3:
-    .string "What kind of trainer do you wish\n"
-    .string "to battle?$"
+	.string "{JPN}どんなポケモントレーナーと\nたたかってみたいとおもう?$"
 
 DragonsDen_Shrine_Text_Question4:
-    .string "What is most important for\n"
-    .string "raising POKéMON?$"
+	.string "{JPN}ポケモンをそだてるのにいちばん\nだいじなことはなんじゃ?$"
 
 DragonsDen_Shrine_Text_Question5:
-    .string "Strong POKéMON. Weak POKéMON.\n"
-    .string "Which is more important?$"
+	.string "{JPN}つよいポケモンとよわいポケモン\nどっちのほうがだいじなのかのう?$"
 
 DragonsDen_Shrine_Text_WrongAnswer1:
-    .string "Hah? I didn't quite catch that…$"
-
+	.string "{JPN}はぁ?\nよくきこえなかったのう...\p$"
 DragonsDen_Shrine_Text_WrongAnswer2:
-    .string "What was it you said?$"
+    .string "{JPN}なんと いいましたかな?$"
 
 DragonsDen_Shrine_Text_RightAnswer:
-    .string "Oh, I understand…$"
-
+	.string "{JPN}ふむなるほど...\p"
+	.string "{JPN}おぬしはポケモンをとても\nだいじにしているようじゃな...\p"
+	.string "{JPN}かんしんかんしん\nそのこころがたいせつじゃ!\p"
+	.string "{JPN}{PLAYER}よ\nいまのきもちをわすれるでないぞ\l"
+	.string "{JPN}そのきもちをわすれなければ\lポケモンリーグにいっても\l"
+	.string "{JPN}じゅうぶんつうようするじゃろう!\p$"
 DragonsDen_Shrine_Text_PassedTest:
-    .string "Hm… I see…\p"
-    .string "You care deeply for POKéMON.\p"
-    .string "Very commendable.\p"
-    .string "That conviction is what is\n"
-    .string "important!\p"
-    .string "{PLAYER}, don't lose that belief.\p"
-    .string "It will see you through at the\n"
-    .string "POKéMON LEAGUE.$"
+    .string "{JPN}ふむ... そうか...\p"
+	.string "{JPN}おぬしは ポケモンを\n"
+    .string "{JPN}たいせつに おもっている.\p"
+	.string "{JPN}かんしんじゃ.\p"
+    .string "{JPN}その しんねんこそが\n"
+	.string "{JPN}だいじなのじゃ!\p"
+    .string "{JPN}{PLAYER}よ その おもいを\n"
+	.string "{JPN}うしなうでないぞ.\nポケモンリーグでも やくに たつ.$"
 
 DragonsDen_Shrine_EventScript_ClairEnter::
 	clearflag FLAG_HIDE_DRAGONS_DEN_SHRINE_CLAIR
@@ -338,62 +337,47 @@ DragonsDen_Shrine_Movement_ClairLeave:
 	step_end
 
 DragonsDen_Shrine_Text_ClairYouPassed:
-    .string "So how did it go?\p"
-    .string "I guess there's no point\n"
-	.string "in asking. You did fail?\p"
-    .string "..................................\p"
-    .string "…What? You passed?$"
-
+	.string "{JPN}けっかはどうかしら?\p"
+	.string "{JPN}きくまでもないとおもうけど...\nあなたではむりだったでしょう?\l"
+	.string "{JPN}.........\l...え!ごうかく?\p$"
 DragonsDen_Shrine_Text_ClairThatCantBe:
-    .string "That can't be!$"
+	.string "{JPN}そんな!\p$"
 
 DragonsDen_Shrine_Text_ClairYoureLying:
-    .string "You're lying!\p"
-    .string "Even I haven't been approved!$"
+	.string "{JPN}うそでしょ!\nわっわたしだって\lまだみとめてもらってないのに!\p$"
 
 DragonsDen_Shrine_Text_MustIInformLance:
-    .string "CLAIR!\p"
-    .string "This child is impeccable,\n"
-    .string "in skill and spirit!\p"
-    .string "Admit defeat and confer the\n"
-    .string "RISINGBADGE!\p"
-    .string "…Or must I inform LANCE of this?$"
-
+	.string "{JPN}こりゃイブキ!\p"
+	.string "{JPN}このもの\nわざもこころもみごとなものじゃ\lかんねんしてさっさと\l"
+	.string "{JPN}ライジングバッジをわたさんか!\p"
+	.string "{JPN}さもないと...\nこのことをワタルにいいつけるぞ!\p$"
 DragonsDen_Shrine_Text_IUnderstand:
-    .string "I-I understand…$"
-
+	.string "{JPN}わっわかりましたわ...\p$"
 DragonsDen_Shrine_Text_HereRisingBadge:
-    .string "Here, this is the RISINGBADGE…\p"
-    .string "Hurry up! Take it!$"
+	.string "{JPN}さあこれがライジングバッジよ...\nさっさとうけとりなさい!\p$"
 
 DragonsDen_Shrine_Text_PlayerReceivedRisingBadge:
-    .string "{PLAYER} received RISINGBADGE.$"
+	.string "{JPN}{PLAYER}はイブキから\nライジングバッジをもらった!$"
 
 DragonsDen_Shrine_Text_RisingBadgeExplanation:
-    .string "RISINGBADGE will enable your\n"
-    .string "POKéMON to use the move for\l"
-    .string "climbing waterfalls.\p"
-    .string "Also, all POKéMON will recognize\n"
-    .string "you as a trainer and obey your\l"
-    .string "every command without question.$"
+	.string "{JPN}ライジングバッジをもっていれば\nどんなたきでも\l"
+	.string "{JPN}のぼることができる...\lそしてすべてのポケモンが\l"
+	.string "{JPN}あなたをトレーナーとしてみとめ\lどんなめいれいにもしたがうわ...\p$"
 
 DragonsDen_Shrine_Text_ElderScoldsClair:
-    .string "CLAIR…\p"
-    .string "Reflect upon what it is that you\n"
-    .string "lack and this child has.$"
+	.string "{JPN}イブキよ...\p"
+	.string "{JPN}おまえになくて\nこのものにあるもの...\lそれがなにかを\l"
+	.string "{JPN}よくかんがえることじゃ\p$"
 
 DragonsDen_Shrine_Text_Speechless:
-    .string "..................................$"
+    .string "...$"
 
 DragonsDen_Shrine_Text_ComeAgain:
-    .string "Come again, if you so desire.$"
+	.string "{JPN}きがむいたらまたくるがよい$"
 
 DragonsDen_Shrine_Text_SilverIsInTraining:
-    .string "A boy close to your age is in\n"
-    .string "training here.\p"
-    .string "He is much like CLAIR when she was\n"
-    .string "younger. It is a little worrisome…$"
-
+	.string "{JPN}いまおぬしとおなじとしごろの\nしょうねんがしゅぎょうにきておる\p"
+	.string "{JPN}むかしのイブキににていて\nちょっとしんぱいじゃのう...$"
 DragonsDen_Shrine_EventScript_Elder2::
 	msgbox DragonsDen_Shrine_Text_Elder2, MSGBOX_NPC
 	end
@@ -403,16 +387,16 @@ DragonsDen_Shrine_EventScript_Elder3::
 	end
 
 DragonsDen_Shrine_Text_Elder2:
-    .string "It's been quite some time since a\n"
-    .string "trainer has gained our MASTER's\l"
-    .string "rare approval.\p"
-    .string "In fact, not since Master LANCE.$"
+    .string "{JPN}われらの マスターが みとめた\n"
+	.string "{JPN}トレーナーなど ひさしぶりじゃ\p"
+    .string "{JPN}じじつ マスター ワタルいらい\n"
+	.string "{JPN}ではないかな$"
 
 DragonsDen_Shrine_Text_Elder3:
-    .string "You know young Master LANCE?\p"
-    .string "He looks so much like our MASTER\n"
-    .string "did in his youth.\p"
-    .string "It's in their blood.$"
+    .string "{JPN}わかき マスター ワタルを\n"
+	.string "{JPN}ごぞんじか?\p"
+    .string "{JPN}かれは われらの マスターの\n"
+	.string "{JPN}わかいころに そっくりじゃ\pちが なのじゃろうな$"
 
 DragonsDen_Shrine_EventScript_ElderChooseDratini::
 	goto_if_eq VAR_DRAGONS_DEN_QUIZ, 0, DragonsDen_Shrine_EventScript_ElderGiveSpecialDratini
@@ -452,19 +436,14 @@ DragonsDen_Shrine_EventScript_ElderAlreadyGotDratini::
 	end
 
 DragonsDen_Shrine_Text_TakeThisDratini:
-    .string "Hm… Good to see you here.\p"
-    .string "Your arrival is most fortunate.\p"
-    .string "I have something for you.\p"
-    .string "Take this DRATINI as proof that I\n"
-    .string "have recognized your worth.$"
+	.string "{JPN}ふむ...よくきたのう\p"
+	.string "{JPN}ちょうどよかった\nおぬしにわたすものがあるのじゃ!\p"
+	.string "{JPN}わしにみとめられたあかしとして\nこれをつれてゆくがよい!\p$"
 
 DragonsDen_Shrine_Text_SymbolicDragon:
-    .string "Dragon POKéMON are symbolic of our\n"
-    .string "clan.\p"
-    .string "You have shown that you can be\n"
-    .string "entrusted with one.$"
+	.string "{JPN}ドラゴンポケモンは\nわれらいちぞくのしょうちょう!\p"
+	.string "{JPN}おぬしにならまかせられる$"
 
 DragonsDen_Shrine_Text_ClairsGrandfather:
-    .string "CLAIR appears to have learned an\n"
-    .string "invaluable lesson from you.\p"
-    .string "I thank you as her grandfather.$"
+	.string "{JPN}おぬしとのであいでイブキは\nなにかをかんじとったようじゃ...\p"
+	.string "{JPN}そふとしてかんしゃするぞ$"

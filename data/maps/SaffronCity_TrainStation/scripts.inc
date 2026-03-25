@@ -292,56 +292,55 @@ SaffronStation_Movement_SlideLeft:
 	step_end
 
 SaffronMagnetTrainStation_Text_OfficerTrainHasntComeIn:
-    .string "The train hasn't come in…\p"
-    .string "I know! I'll carry the passengers\n"
-    .string "on my back!\p"
-    .string "That won't work.$"
+    .string "{JPN}でんしゃが きてない...\p"
+	.string "{JPN}そうだ! おきゃくさんを\n"
+    .string "{JPN}せなかに のせて はこぼう!\p"
+	.string "{JPN}そんなの むりだ$"
 
 SaffronMagnetTrainStation_Text_OfficerComingAboard:
-    .string "We'll soon depart for GOLDENROD.\p"
-    .string "Are you coming aboard?$"
+    .string "{JPN}まもなく コガネシティへ\n"
+	.string "{JPN}しゅっぱつします\pご じょうしゃは\nいかがですか?$"
 
 SaffronMagnetTrainStation_Text_OfficerRightThisWay:
-    .string "May I see your rail PASS, please?\p"
-    .string "OK. Right this way, please.$"
+    .string "{JPN}てっどうパスを\n"
+	.string "{JPN}おみせください\pはい.こちらへ\nどうぞ$"
 
 SaffronMagnetTrainStation_Text_OfficerNoRailPass:
-    .string "Sorry. You don't have a rail PASS.$"
+    .string "{JPN}すみません.てっどうパスを\nおもちでは ありませんね$"
 
 SaffronMagnetTrainStation_Text_OfficerHopeToSeeYouAgain:
-    .string "We hope to see you again!$"
+    .string "{JPN}またの ごりようを\nおまちしております!$"
 
 SaffronMagnetTrainStation_Text_OfficerArrivedInSaffron:
-    .string "We have arrived in SAFFRON.\p"
-    .string "We hope to see you again.$"
+    .string "{JPN}ヤマブキシティに\n"
+	.string "{JPN}とうちゃくしました\pまたの ごりようを\nおまちしております$"
 
 @=============================================================================================================================
 
 SaffronMagnetTrainStation_Text_Officer_TrainNotOperating:
-	.string "I'm sorry, but the MAGNET TRAIN\n"
-	.string "isn't operating now.$"
+	.string "{JPN}すみませんが リニアでんしゃは\n"
+	.string "{JPN}げんざい うんこう していません$"
 
 SaffronMagnetTrainStation_Text_GymGuide:
-	.string "The MAGNET TRAIN is a super-modern\n"
-	.string "rail liner that uses electricity\p"
-	.string "and magnets to attain incredible\n"
-	.string "speed.\p"
-	.string "However, if there isn't any\n"
-	.string "electricity…$"
-
+	.string "{JPN}リニアモーターカーは でんきと\n"
+	.string "{JPN}じしゃくを つかった\p"
+	.string "{JPN}ちょうげんだいてきな\n"
+	.string "{JPN}でんしゃだ\p"
+	.string "{JPN}しかし でんきが\n"
+	.string "{JPN}ないと...$"
 SaffronMagnetTrainStation_Text_GymGuide_ReturnedPart:
-	.string "Whew…\p"
-	.string "How many times have I gone back\n"
-	.string "and forth between KANTO and JOHTO?$"
+	.string "{JPN}ふう...\p"
+	.string "{JPN}カントーと ジョウトーを\n"
+	.string "{JPN}なんかい いったりきたり\nしただろうか$"
 
 SaffronMagnetTrainStation_Text_Teacher:
-	.string "Before the MAGNET TRAIN STATION\n"
-	.string "was built, there was a house there.\p"
-	.string "A little girl named COPYCAT used\n"
-	.string "to live there.$"
+	.string "{JPN}リニアでんしゃのえきが\n"
+	.string "{JPN}つくられるまえ\l"
+	.string "{JPN}ここには いえが ありました\p"
+	.string "{JPN}モノマネむすめという\nおんなのこが すんでいたんです$"
 
 SaffronMagnetTrainStation_Text_Lass:
-	.string "Hi. Do you have a rail PASS?\n"
-	.string "I have one.\p"
-	.string "All the people in SAFFRON who ride\n"
-	.string "the MAGNET TRAIN have PASSES.$"
+	.string "{JPN}こんにちは てっどうパスは\n"
+	.string "{JPN}もっていますか?\l"
+	.string "{JPN}わたしは もってるの\p"
+	.string "{JPN}ヤマブキシティで リニアでんしゃに\nのるひとは みんな パスを\lもっているのよ$"

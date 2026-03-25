@@ -1080,7 +1080,14 @@ static void CreateStartMenuForPokenavTutorial(void)
     AddTextPrinterParameterized(windowId, FONT_NORMAL, gText_MenuOptionPokemon, 8, 25, TEXT_SKIP_DRAW, NULL);
     AddTextPrinterParameterized(windowId, FONT_NORMAL, gText_MenuOptionBag, 8, 41, TEXT_SKIP_DRAW, NULL);
     AddTextPrinterParameterized(windowId, FONT_NORMAL, gText_MenuOptionPokenav, 8, 57, TEXT_SKIP_DRAW, NULL);
-    AddTextPrinterParameterized(windowId, FONT_NORMAL, gSaveBlock2Ptr->playerName, 8, 73, TEXT_SKIP_DRAW, NULL);
+    // Wrap player name with {JPN} so kana bytes render correctly
+    {
+        u8 nameBuf[PLAYER_NAME_LENGTH + 3];
+        nameBuf[0] = EXT_CTRL_CODE_BEGIN;
+        nameBuf[1] = EXT_CTRL_CODE_JPN;
+        StringCopy(nameBuf + 2, gSaveBlock2Ptr->playerName);
+        AddTextPrinterParameterized(windowId, FONT_NORMAL, nameBuf, 8, 73, TEXT_SKIP_DRAW, NULL);
+    }
     AddTextPrinterParameterized(windowId, FONT_NORMAL, gText_MenuOptionSave, 8, 89, TEXT_SKIP_DRAW, NULL);
     AddTextPrinterParameterized(windowId, FONT_NORMAL, gText_MenuOptionOption, 8, 105, TEXT_SKIP_DRAW, NULL);
     AddTextPrinterParameterized(windowId, FONT_NORMAL, gText_MenuOptionExit, 8, 121, TEXT_SKIP_DRAW, NULL);

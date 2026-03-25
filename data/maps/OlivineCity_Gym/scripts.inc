@@ -75,18 +75,17 @@ OlivineCity_Gym_EventScript_MoveLeft4::
 	return
 
 OlivineCity_Gym_Text_Gent:
-	.string "I knew you'd come here.\p"
-	.string "Thank you for helping the GYM LEADER,\n"
-	.string "but battle is a separate matter.\p"
-	.string "Go for it!$"
-
+	.string "{JPN}うむやはりきたんだね！\p"
+	.string "{JPN}ジムリーダーのために\n"
+	.string "{JPN}ちからをかしてくれたきみだが\l"
+	.string "{JPN}ジムはジムだ！\p"
+	.string "{JPN}しっかりたたかってきたまえ！$"
 OlivineCity_Gym_Text_Gent2:
-	.string "Impressive!\n"
-	.string "You should continue your journey to\l"
-	.string "different places.\p"
-	.string "Since you can use SURF, why don't you\n"
-	.string "try it on the LAKE OF RAGE?$"
-
+	.string "{JPN}さすがだな！そのちょうしで\n"
+	.string "{JPN}かくちをまわってみるといい\p"
+	.string "{JPN}せっかくなみのりがあるなら\n"
+	.string "{JPN}いかりのみずうみにいってみると\l"
+	.string "{JPN}いいかもしれないな！$"
 OlivineCity_Gym_EventScript_Lass::
 	lock
 	faceplayer
@@ -158,18 +157,17 @@ OlivineCity_Gym_EventScript_MoveRight4::
 	return
 
 OlivineCity_Gym_Text_Lass:
-	.string "Giggle...\n"
-	.string "I know how capable you are\l"
-	.string "from the LIGHTHOUSE.\p"
-	.string "It's time you showed that side of\n"
-	.string "yourself to JASMINE! Good luck!$"
-
+	.string "{JPN}ふふっあなたのじつりょくは\n"
+	.string "{JPN}とうだいでみせてもらったわ\p"
+	.string "{JPN}こんどはそのちからを\n"
+	.string "{JPN}ミカンちゃんにぶつけるのよ\p"
+	.string "{JPN}..おうえんしてるわ！$"
 OlivineCity_Gym_Text_Lass2:
-	.string "You are amazing...\n"
-	.string "You should aim even higher, since\l"
-	.string "you have such potential.\p"
-	.string "Have you been to MAHOGANY TOWN?$"
-
+	.string "{JPN}みごとなものね..\p"
+	.string "{JPN}それだけのちからがあるなら\n"
+	.string "{JPN}もっとうえをめざすべきよ\p"
+	.string "{JPN}あなたチョウジタウンには\n"
+	.string "{JPN}もういってみた？$"
 OlivineCity_Gym_EventScript_GymGuide::
 	lock
 	faceplayer
@@ -193,34 +191,20 @@ OlivineCity_Gym_EventScript_GymGuideAfter::
 	end
 
 OlivineCity_Gym_Text_GymGuideText:
-	.string "JASMINE uses the newly discovered\n"
-	.string "STEEL-type.\p"
-	.string "She's known for having not one,\n"
-	.string "but two aces.\p"
-	.string "The first is a metal bug that can\n"
-	.string "use a technique to boost its ATTACK.\p"
-	.string "While fire will hurt it, it can\n"
-	.string "sometimes endure powerful blows.\p"
-	.string "The second is a giant iron snake\n"
-	.string "with lots of powerful moves.\p"
-	.string "Approach it with caution.\p"
-	.string "It may look slow, but I've seen it\n"
-	.string "strike first with shocking displays\l"
-	.string "of SPEED.$"
-
+	.string "{JPN}ミカンはあたらしくはっけん\nされたはがねタイプをつかう！\pかのじょにはふたひきの\nエースがいるんだ！\pいっぴきめはこうげきりょくを\nあげるきんぞくのむしポケモン！\pほのおでダメージをあたえられる\nがつよいこうげきにたえることも！\pにひきめはおおきなてつの\nへびでつよいわざをもってる！\pちゅういしてかかれ！\pのろそうにみえるがすばやさで\nさきてをうつすがたを\lみたことがあるぞ！$"
 OlivineCity_Gym_Text_GymGuideWinText:
-	.string "That was awesome.\p"
-	.string "The STEEL-type, huh?\p"
-	.string "That was a close encounter of an\n"
-	.string "unknown kind!$"
-
+	.string "{JPN}いやあすごかったな\n"
+	.string "{JPN}はがねタイプ..\l"
+	.string "{JPN}ひばなをちらすたたかいを\l"
+	.string "{JPN}みせてもらったぞ！$"
 OlivineCity_Gym_Text_GymGuidePreText:
-	.string "JASMINE, the GYM LEADER, is at the\n"
-	.string "LIGHTHOUSE.\p"
-	.string "She's been tending to a sick POKéMON.\p"
-	.string "A strong trainer has to be\n"
-	.string "compassionate.$"
-
+	.string "{JPN}ジムリーダーのミカンかい？\p"
+	.string "{JPN}とうだいのポケモンのぐあいが\n"
+	.string "{JPN}あんまりよくないらしくて\l"
+	.string "{JPN}ようすをみにいってるぜ\p"
+	.string "{JPN}ほんとうにつよいトレーナーは\n"
+	.string "{JPN}つよさとどうじにやさしさも\l"
+	.string "{JPN}かねそなえているものなんだな..$"
 OlivineCity_Gym_EventScript_Jasmine::
 	lock
 	faceplayer
@@ -275,50 +259,36 @@ OlivineCity_Gym_EventScript_Jasmine_Defeated::
 
 
 OlivineCity_Gym_Text_JasmineSteelTypeIntro:
-	.string "…Thank you for your help at the\n"
-	.string "LIGHTHOUSE…\p"
-	.string "But this is different.\n"
-	.string "Please allow me to introduce myself.\p"
-	.string "I am JASMINE, a GYM LEADER.\n"
-	.string "I use the STEEL-type.\p"
-	.string "…Do you know about the STEEL-type?\p"
-	.string "It's a type that was only recently\n"
-	.string "discovered.\p"
-	.string "…Um… May I begin?$"
-
+	.string "{JPN}ミカン: ...とうだいでは\nありがとうございました\l"
+	.string "{JPN}でもしょうぶはべつですよ\p"
+	.string "{JPN}あらためてじこしょうかいします\p"
+	.string "{JPN}あたしはジムリーダーのミカン\nつかうポケモンは\lシャキーン!!\p"
+	.string "{JPN}は...はがねタイプです\p"
+	.string "{JPN}...はがねタイプって\nごぞんじですか?\p"
+	.string "{JPN}とってもかたくてつめたくて\nするどくてつつよいんですよ?\l"
+	.string "{JPN}ほんとなんですよ?\p$"
 OlivineCity_Gym_Text_JasmineBetterTrainer:
-	.string "…You are a better trainer than me,\n"
-	.string "in both skill and kindness.\p"
-	.string "In accordance with LEAGUE rules,\n"
-	.string "I confer upon you this BADGE.$"
-
+	.string "{JPN}ミカン: ポケモントレーナーとして\nあなたのほうがうわてみたい\l"
+	.string "{JPN}つよさもやさしさもね\p"
+	.string "{JPN}...ではリーグのきまりどおり\nバッジをさしあげます\p$"
 OlivineCity_Gym_Text_ReceivedMineralBadge:
-	.string "{PLAYER} received MINERALBADGE.$"
-
+	.string "{JPN}{PLAYER}はミカンから\nスチールバッジをもらった!$"
 OlivineCity_Gym_Text_JasmineBadgeSpeech:
-	.string "MINERALBADGE raises POKéMON's \n"
-	.string "SPECIAL DEFENSE.\p"
-	.string "…Um… Please take this too…$"
-
+	.string "{JPN}ミカン: スチールバッジは\nひとからもらったポケモンでも\l"
+	.string "{JPN}レベル70までのポケモンなら\lいうことをきいてくれるように\l"
+	.string "{JPN}なるんです\p"
+	.string "{JPN}...あのうあとこれもどうぞ\p$"
 OlivineCity_Gym_Text_JasmineIronTailSpeech:
-	.string "…You could use that TM to teach\n"
-	.string "IRON TAIL.$"
-
+	.string "{JPN}ミカン: そのわざマシンは\nアイアンテールというわざ...\p"
+	.string "{JPN}かたいしっぽをたたきつけながら\nときどきあいてのぼうぎょを\l"
+	.string "{JPN}さげることがあるんです...$"
 OlivineCity_Gym_Text_JasmineGoodLuck:
-	.string "Um… I don't know how to say this,\n"
-	.string "but good luck…$"
-
+	.string "{JPN}ミカン: ああの...\nあんまりうまくいえないけど\p"
+	.string "{JPN}...がんばってくださいね$"
 OlivineCity_Gym_Text_JasmineRematchText:
-	.string "…Congratulations, JOHTO CHAMPION.\p"
-	.string "You have become so strong…\p"
-	.string "I wonder if I have improved.\p"
-	.string "Would you like to test that?\p"
-	.string "Want to have a rematch with me?$"
-
+	.string "{JPN}..おめでとうジョウトチャンピオン\p{PLAYER}はとてもつよくなったのね..\pわたしはせいちょうできたかしら\pそれをたしかめてもらえる？\pわたしとさいせんしてくれる？$"
 OlivineCity_Gym_Text_JasmineRematchDefeatText:
-	.string "…You are a better trainer than me,\n"
-	.string "in both skill and kindness.$"
-
+	.string "{JPN}..あなたのほうがすぐれた\nトレーナーね..つよさもやさしさも$"
 OlivineCity_Gym_EventScript_Statue::
 	lock
 	goto_if_set FLAG_DEFEATED_OLIVINE_CITY_GYM, OlivineCity_Gym_EventScript_Statue2
@@ -334,9 +304,7 @@ OlivineCity_Gym_EventScript_Statue2::
 	end
 
 OlivineCity_Gym_Text_GymStatue:
-	.string "OLIVINE CITY POKéMON GYM$"
-
+	.string "{JPN}アサギシティポケモンジム$"
 OlivineCity_Gym_Text_GymStatueCertified:
-	.string "OLIVINE CITY POKéMON GYM\p"
-	.string "JASMINE'S CERTIFIED TRAINERS:\n"
-	.string "{PLAYER}$"
+	.string "{JPN}アサギシティポケモンジム\p"
+	.string "{JPN}ジムリーダーミカン\nにんていトレーナー!\l{PLAYER}$"

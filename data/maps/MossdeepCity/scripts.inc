@@ -26,31 +26,31 @@ MossdeepCity_EventScript_Evo::
 	end
 
 MossdeepCity_EventScript_Evo_Text:
-	.string "The POKéMON EEVEEE evolves\n"
-	.string "in many different ways.\p"
-	.string "Using a THUNDER STONE, FIRE STONE,\n"
-	.string "WATER STONE… Just like, for\l"
-	.string "example, ELECTABUZZ and MAGMAR.\p"
-	.string "They also evolve with STONES.$"
+	.string "{JPN}ポケモンの イーブイは\n"
+	.string "{JPN}いろんな ほうほうで\l"
+	.string "{JPN}しんかするんだ.\p"
+	.string "{JPN}かみなりのいし ほのおのいし \n"
+	.string "{JPN}みずのいし... たとえば\l"
+	.string "{JPN}エレブーや ブーバーの ように.\pそれらも いしで\nしんかするんだよ.$"
 
 MossdeepCity_EventScript_Evo2::
 	msgbox MossdeepCity_EventScript_Evo2_Text, MSGBOX_NPC
 	end
 
 MossdeepCity_EventScript_Evo2_Text:
-	.string "My wife loves the POKéMON EEVEE.\p"
-	.string "She knows all the ways they can\n"
-	.string "evolve. Like, when HOLDING a WATER\l"
-	.string "STONE, or a LEAF STONE.\p"
-	.string "Yes, HOLDING, not using!\n"
-	.string "Did you know about it? I didn't.\p"
-	.string "Or being HAPPY during day or night.\p"
-	.string "Or being cute whilst using a\n"
-	.string "FAIRY TYPE move!\p"
-	.string "…\p"
-	.string "Do you know where EEVEE are?\n"
-	.string "Maybe I should capture one for her.\p"
-	.string "She's gonna love it!$"
+	.string "{JPN}つまは ポケモンの イーブイが\n"
+	.string "{JPN}だいすきなんだ.\p"
+	.string "{JPN}イーブイの しんかほうほうを\n"
+	.string "{JPN}ぜんぶ しっている.\l"
+	.string "{JPN}みずのいしや リーフのいしを\n"
+	.string "{JPN}もたせる ほうほうとか.\p"
+	.string "{JPN}そう もたせるんだ!\n"
+	.string "{JPN}つかうんじゃない!\n"
+	.string "{JPN}きみは しっていたかい?\n"
+	.string "{JPN}ぼくは しらなかった.\p"
+	.string "{JPN}ひるまや よるに\n"
+	.string "{JPN}なかよしに する ほうほうや.\p"
+	.string "{JPN}フェアリータイプの わざを\nつかって かわいく する ほうほう!\p...\pイーブイは どこに いるか\nしってる?\nつまの ために つかまえようか.\pよろこぶと おもうんだ!$"
 
 MossdeepCity_EventScript_PokefanF::
 	lock
@@ -192,14 +192,13 @@ MossdeepCity_EventScript_JirachiMoves4:
 	step_end
 
 MossdeepCity_Text_ItsAWhiteRock2:
-	.string "Something…\p"
-	.string "…\p"
-	.string "Something is moving…\n"
-	.string "…$"
-
+	.string "{JPN}なにかが...\p"
+	.string "{JPN}なにかが うごいている...\n"
+	.string "{JPN}...$"
+	.string ""
 MossdeepCity_Text_ItsAWhiteRock3:
-	.string "Something jumped you from\n"
-	.string "behind the white rock!$"
+	.string "{JPN}しろいいわのうしろから\n"
+	.string "{JPN}なにかがとびかかってきた!$"
 
 MossdeepCity_EventScript_GymSign::
 	msgbox MossdeepCity_Text_GymSign, MSGBOX_SIGN
@@ -449,128 +448,127 @@ MossdeepCity_Movement_ScottExitEast:
 	step_end
 
 MossdeepCity_Text_WantKingsRockStevenGaveMe:
-	.string "I got this from STEVEN, but I don't\n"
-	.string "know what it's good for.\p"
-	.string "I think it's called KING'S ROCK.\n"
-	.string "Do you want it?$"
+	.string "{JPN}これはダイゴから\n"
+	.string "{JPN}もらったんだけど \n"
+	.string "{JPN}なににつかうのかわからないよ.\p"
+	.string "{JPN}おうのいわっていうものらしい.\nきみ ほしい?$"
 
 MossdeepCity_Text_YouCanKeepIt:
-	.string "Why would you want it?\n"
-	.string "You're weird.\p"
-	.string "You can keep it, but keep it a secret\n"
-	.string "from STEVEN.$"
+	.string "{JPN}どうしてそんなものほしがるの?\n"
+	.string "{JPN}へんなやつだね.\p"
+	.string "{JPN}もらってもいいけど \n"
+	.string "{JPN}ダイゴにはないしょだよ.$"
 
 MossdeepCity_Text_StevensHouseOverThere:
-	.string "STEVEN's house is right over there!$"
+	.string "{JPN}ダイゴのいえは\nすぐそこにあるよ!$"
 
 MossdeepCity_Text_WhatToDoWithWeirdRock:
-	.string "Yeah, you think so, too! What are you\n"
-	.string "supposed to do with some weird rock?$"
+	.string "{JPN}そうそう きみもそうおもうでしょ!\n"
+	.string "{JPN}へんないわなんて\nどうすればいいのかな?$"
 
 MossdeepCity_Text_WailmerWatching:
-	.string "Around MOSSDEEP, you can see wild\n"
-	.string "WAILMER.\p"
-	.string "It's called, uh…\n"
-	.string "What was it now…\p"
-	.string "WAI, WAI, WAI…\p"
-	.string "WAILMER watching!$"
+	.string "{JPN}トクサネの まわりでは\n"
+	.string "{JPN}やせいの ホエルコが\l"
+	.string "{JPN}みられるんだ.\p"
+	.string "{JPN}それは えーっと...\n"
+	.string "{JPN}なんていうんだっけ...\p"
+	.string "{JPN}ホエ ホエ ホエ...\pホエルコ ウォッチング!$"
 
 MossdeepCity_Text_SpaceCenterReceivedLetter:
-	.string "The island's SPACE CENTER has been\n"
-	.string "launching huge rockets.\p"
-	.string "There's been some kind of an uproar\n"
-	.string "over a letter they received recently.$"
+	.string "{JPN}このしまのうちゅうセンターでは\n"
+	.string "{JPN}おおきなロケットを\n"
+	.string "{JPN}うちあげているんだ.\p"
+	.string "{JPN}さいきんとどいたてがみで\nなにかおおさわぎになってるよ.$"
 
 MossdeepCity_Text_SpaceCenterLaunchingRockets:
-	.string "The island's SPACE CENTER has been\n"
-	.string "launching huge rockets.$"
+	.string "{JPN}このしまのうちゅうセンターでは\n"
+	.string "{JPN}おおきなロケットを\nうちあげているんだ.$"
 
 MossdeepCity_Text_MossdeepTargetedByMagma:
-	.string "I heard from a SAILOR buddy that\n"
-	.string "TEAM AQUA set up shop in LILYCOVE.\p"
-	.string "I also heard that someone came along\n"
-	.string "and wiped the floor with them!\p"
-	.string "But MOSSDEEP here's been targeted\n"
-	.string "by that TEAM MAGMA.\p"
-	.string "If you want to know what they're up to,\n"
-	.string "go visit the SPACE CENTER.$"
+	.string "{JPN}かいぞくのともだちからきいたんだけど\n"
+	.string "{JPN}アクアだんがミナモシティに\n"
+	.string "{JPN}きちをかまえたらしいね.\p"
+	.string "{JPN}でも だれかがやってきて\n"
+	.string "{JPN}かれらをやっつけたらしいよ!\p"
+	.string "{JPN}でもここトクサネは\n"
+	.string "{JPN}マグマだんにねらわれてるんだ.\p"
+	.string "{JPN}かれらがなにをたくらんでるか\nしりたかったら\nuちゅうセンターにいってみな.$"
 
 MossdeepCity_Text_FeelReliefOnLand:
-	.string "I'm a SAILOR, so the sea's obviously\n"
-	.string "more important to me.\p"
-	.string "But you know? When I get back on land\n"
-	.string "after a long voyage, I do feel relief!$"
+	.string "{JPN}おれはかいぞくだから\n"
+	.string "{JPN}うみのほうがたいせつなのは\n"
+	.string "{JPN}もちろんなんだけど.\p"
+	.string "{JPN}でもな ながいこうかいのあとで\nりくちにもどってくると\nほっとするんだよな!$"
 
 MossdeepCity_Text_NiceIfWorldCoveredByFlowers:
-	.string "Wouldn't it be nice?\p"
-	.string "If the whole world was covered in\n"
-	.string "plants and flowers like this island?$"
+	.string "{JPN}すてきだとおもわない?\p"
+	.string "{JPN}せかいじゅうが このしまみたいに\n"
+	.string "{JPN}しょくぶつやはなで\nおおわれてたら?$"
 
 MossdeepCity_Text_LifeNeedsSeaToLive:
-	.string "All life needs the sea to live, even\n"
-	.string "though it makes its home on the land.\p"
-	.string "Life, having run its course, becomes\n"
-	.string "soil and returns to the land.\p"
-	.string "And the sea is always connected to\n"
-	.string "the land.\p"
-	.string "Yes, like the very shoreline here.$"
+	.string "{JPN}すべてのいのちは りくちに\n"
+	.string "{JPN}すんでいても いきるためには\n"
+	.string "{JPN}umiがひつようなんだ.\p"
+	.string "{JPN}いのちは やくわりをおえると\n"
+	.string "{JPN}つちとなって りくちにかえる.\p"
+	.string "{JPN}そしてうみは いつでも\n"
+	.string "{JPN}りくちとつながっているんだ.\pそう まさにここのかいがんみたいに.$"
 
 MossdeepCity_Text_SurfExhilarating:
-	.string "A voyage on a ship is fine.\p"
-	.string "But crossing the sea with POKéMON\n"
-	.string "using SURF…\p"
-	.string "Now that's an exhilarating trip!\n"
-	.string "Wouldn't you agree, youngster?$"
+	.string "{JPN}ふねでの たびも いいけど.\p"
+	.string "{JPN}ポケモンと いっしょに\n"
+	.string "{JPN}なみのりで うみを わたる...\p"
+	.string "{JPN}それこそが スリルまんてんの\n"
+	.string "{JPN}たびだ!\nそう おもわないかい \nわかもの?$"
 
 MossdeepCity_Text_SpecialSpaceCenterRock:
-	.string "This rock has a special meaning to\n"
-	.string "the people at the SPACE CENTER.\p"
-	.string "They put it here as their wish for\n"
-	.string "their rockets to fly safely.\p"
-	.string "When you make a wish, what do you use?\n"
-	.string "Do you wish upon a star?\p"
-	.string "I use a wish tag to make it happen.\n"
-	.string "That's what I do.$"
+	.string "{JPN}このいわは うちゅうセンターの\n"
+	.string "{JPN}ひとたちにとって\n"
+	.string "{JPN}tokubetsuないみがあるんだ.\p"
+	.string "{JPN}ロケットがあんぜんに\n"
+	.string "{JPN}とべますようにって\n"
+	.string "{JPN}ねがいをこめておいたんだよ.\n"
+	.string "{JPN}きみはねがいをかけるとき\n"
+	.string "{JPN}なにをつかう?\nほしにねがいをかける?\pぼくはねがいごとのふだを\nつかうんだ.\nそれがぼくのやりかただよ.$"
 
 MossdeepCity_Text_SpecialSpaceCenterRock2:
-	.string "What was that? That wasn't my wish!$"
+	.string "{JPN}なんだって? \nそれはぼくのねがいじゃない!$"
 
 MossdeepCity_Text_ItsAWhiteRock:
-	.string "It's a white rock.\p"
-	.string "It emanates a mysterious energy…$"
-
+	.string "{JPN}しろい いわだ.\p"
+	.string "{JPN}ふしぎな エネルギーが\nでている...$"
 MossdeepCity_Text_GymSign:
-	.string "MOSSDEEP CITY POKéMON GYM\n"
-	.string "LEADERS: LIZA & TATE\p"
-	.string "“The mystic combination!”$"
+	.string "{JPN}トクサネシティ ポケモンジム\n"
+	.string "{JPN}ジムリーダー: フウとラン\p"
+	.string "{JPN}ふしぎなコンビネーション!$"
 
 MossdeepCity_Text_CitySign:
-	.string "MOSSDEEP CITY\n"
-	.string "“Our slogan: Cherish POKéMON!”$"
+	.string "{JPN}トクサネシティ\n"
+	.string "{JPN}スローガン: ポケモンをたいせつに!$"
 
 MossdeepCity_Text_SpaceCenterSign:
-	.string "MOSSDEEP SPACE CENTER\n"
-	.string "“The closest place to space.”$"
+	.string "{JPN}トクサネうちゅうセンター\n"
+	.string "{JPN}うちゅうにもっともちかいばしょ$"
 
 MossdeepCity_Text_ScottSomethingWrongWithTown:
-	.string "SCOTT: {PLAYER}{KUN}, feeling good?\n"
-	.string "I'm doing great!\p"
-	.string "I'd heard MOSSDEEP's GYM LEADER is\n"
-	.string "pretty strong, so I decided to come\l"
-	.string "take a look-see for myself.\p"
-	.string "But there's something wrong about\n"
-	.string "this town.\p"
-	.string "People are going on about a warning\n"
-	.string "letter and the SPACE CENTER…\p"
-	.string "I don't think it concerns me in any\n"
-	.string "way, though.$"
+	.string "{JPN}エニシダ: {PLAYER}くん げんき?\n"
+	.string "{JPN}おれは だいちょうしだ!\p"
+	.string "{JPN}トクサネの ジムリーダーは\n"
+	.string "{JPN}つよいって きいたから\l"
+	.string "{JPN}ようすを みに きたんだ.\p"
+	.string "{JPN}でも このまちは\n"
+	.string "{JPN}なんか へんだ.\p"
+	.string "{JPN}けいこくじょうや\n"
+	.string "{JPN}うちゅうセンターの\l"
+	.string "{JPN}はなしが でてるし...\p"
+	.string "{JPN}でも おれには\nかんけいない ことだろうな.$"
 
 MossdeepCity_Text_SootopolisNewGymLeader:
-	.string "Ahh… It feels great letting the waves\n"
-	.string "wash over my feet…\p"
-	.string "Speaking of the waves, you know that\n"
-	.string "island city SOOTOPOLIS?\p"
-	.string "I think the GYM there had a new\n"
-	.string "LEADER come in.\p"
-	.string "People tell me the new LEADER once\n"
-	.string "mentored WALLACE.$"
+	.string "{JPN}あー... なみが あしに\n"
+	.string "{JPN}かかって きもちいいなあ...\p"
+	.string "{JPN}なみといえば みずの しまの\n"
+	.string "{JPN}まち ルネシティの ことだけど.\p"
+	.string "{JPN}あそこの ジムに あたらしい\n"
+	.string "{JPN}リーダーが きたらしい.\p"
+	.string "{JPN}あたらしい リーダーは\n"
+	.string "{JPN}むかし ミクリに\lしどうを うけていたらしいよ.$"

@@ -10,8 +10,8 @@ Gate_EcruteakCity_Route42_EventScript_Policeman::
 	end
 
 Route42_Text_EcruteakGateOfficer:
-	.string "MT.MORTAR is like a maze\n"
-	.string "inside.\p"
-	.string "Be careful. Don't get lost\n"
-	.string "in there.$"
+	.string "{JPN}シロガネやまの なかは\n"
+	.string "{JPN}まよいみちに なってるんだ.\p"
+	.string "{JPN}きを つけて.\n"
+	.string "{JPN}まよわないように してくれ.$"
 

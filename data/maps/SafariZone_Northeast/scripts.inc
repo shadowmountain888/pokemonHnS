@@ -8,11 +8,11 @@ SafariZone_Northeast_AmbipomEvo::
 	end
 
 SafariZone_Northeast_AmbipomEvo_Text:
-	.string "I love the POKéMON AIPOM!\n"
-	.string "They are so cute!\l"
-	.string "But did you know that they can evolve?\p"
-	.string "If you use a move that makes\n"
-	.string "everyone laugh, it will evolve!\p"
-	.string "And it's still lovely!$"
+	.string "{JPN}わたし エテボースが\n"
+	.string "{JPN}だいすきなの!\l"
+	.string "{JPN}とっても かわいいでしょ!\p"
+	.string "{JPN}みんなを わらわせる\n"
+	.string "{JPN}わざを つかうと\l"
+	.string "{JPN}しんかするのよ!\pしんかしても\nやっぱり かわいいの!$"
 
 @ Event scripts for SafariZone_Northeast are in SafariZone_South/scripts.inc

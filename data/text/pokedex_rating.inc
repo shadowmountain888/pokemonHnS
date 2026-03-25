@@ -1,136 +1,135 @@
 gBirchDexRatingText_GoFindMrPokemon::
-	.string "PROF.ELM: Ah, {PLAYER}{KUN}!\p"
-	.string "Have you found MR. POKéMON's\n"
-	.string "home yet? It is on ROUTE 30,\p"
-	.string "you can't miss it!$"
+	.string "{JPN}エルムはかせ: おお {PLAYER}{KUN}!\p"
+	.string "{JPN}ポケモンじいさんの いえは\n"
+	.string "{JPN}みつけたかい? 30ばんどうろ\p"
+	.string "{JPN}にあるから すぐわかるよ!$"
 
 gBirchDexRatingText_Robbery::
-	.string "PROF.ELM: {PLAYER}{KUN}!\p"
-	.string "Get here quick! Something\n"
-	.string "awful has happened!$"
+	.string "{JPN}エルムはかせ: {PLAYER}{KUN}!\p"
+	.string "{JPN}すぐ きてくれ! たいへんな\n"
+	.string "{JPN}ことが おきたんだ!$"
 
 gBirchDexRatingText_AreYouCurious::
-	.string "PROF.ELM: Ah, {PLAYER}{KUN}!\p"
-	.string "Are you curious about how your\n"
-	.string "POKéDEX is coming along?$"
+	.string "{JPN}エルムはかせ: おお {PLAYER}{KUN}!\p"
+	.string "{JPN}ポケモンずかんの ちょうしは\n"
+	.string "{JPN}どうだい?$"
 
 gBirchDexRatingText_Cancel::
-	.string "Hm? Oh, you haven't caught enough\n"
-	.string "POKéMON to make it worthwhile.$"
+	.string "{JPN}ん? まだ つかまえた\n"
+	.string "{JPN}ポケモンが すくないね.$"
 
 gBirchDexRatingText_SoYouveSeenAndCaught::
-	.string "Hmhm…\p"
-	.string "So, you've seen {STR_VAR_1} POKéMON,\n"
-	.string "and you've caught {STR_VAR_2} POKéMON…$"
+	.string "{JPN}ふむふむ...\p"
+	.string "{JPN}{STR_VAR_1}しゅるいの ポケモンを みて\n"
+	.string "{JPN}{STR_VAR_2}しゅるいを つかまえたか...$"
 
 gBirchDexRatingText_LessThan10::
-	.string "Go into grassy areas more and look\n"
-	.string "for POKéMON more carefully.$"
+	.string "{JPN}くさむらに もっと はいって\n"
+	.string "{JPN}ポケモンを さがしてみよう!$"
 
 gBirchDexRatingText_LessThan20::
-	.string "I guess you're getting the hang\n"
-	.string "of it. But, it gets harder from here.$"
+	.string "{JPN}コツを つかんできたね.\n"
+	.string "{JPN}でも ここからが たいへんだよ.$"
 
 gBirchDexRatingText_LessThan30::
-	.string "Some POKéMON only appear in\n"
-	.string "certain areas.\l"
-	.string "You must be persistent.$"
+	.string "{JPN}ある ばしょにしか いない\n"
+	.string "{JPN}ポケモンも いるんだ.\l"
+	.string "{JPN}こんきよく さがそう!$"
 
 gBirchDexRatingText_LessThan40::
-	.string "Well, it could use more quantity,\n"
-	.string "but this is looking more like\l"
-	.string "a POKéDEX now.$"
+	.string "{JPN}かずは まだだけど\n"
+	.string "{JPN}ポケモンずかんらしく\l"
+	.string "{JPN}なってきたね.$"
 
 gBirchDexRatingText_LessThan50::
-	.string "This is coming along pretty good.\n"
-	.string "Keep up the effort.$"
+	.string "{JPN}じゅんちょうだね.\n"
+	.string "{JPN}このちょうしで がんばろう!$"
 
 gBirchDexRatingText_LessThan60::
-	.string "Are you using any RODS?\n"
-	.string "There are many POKéMON in the sea.$"
+	.string "{JPN}つりざおは つかってるかい?\n"
+	.string "{JPN}うみにも たくさん ポケモンが いるよ.$"
 
 gBirchDexRatingText_LessThan70::
-	.string "Instead of just catching POKéMON,\n"
-	.string "how about making them evolve, too?$"
+	.string "{JPN}つかまえるだけじゃなくて\n"
+	.string "{JPN}しんかさせるのも だいじだよ!$"
 
 gBirchDexRatingText_LessThan80::
-	.string "This is going to be a fantastic\n"
-	.string "POKéDEX.\l"
-	.string "That's the feeling I'm getting.$"
+	.string "{JPN}すばらしい ポケモンずかんに\n"
+	.string "{JPN}なりそうだ.\l"
+	.string "{JPN}そんな よかんが するよ!$"
 
 gBirchDexRatingText_LessThan90::
-	.string "You've collected this many…\n"
-	.string "Your talent is remarkable!$"
+	.string "{JPN}こんなに あつめるなんて...\n"
+	.string "{JPN}きみの さいのうは すごいね!$"
 
 gBirchDexRatingText_LessThan100::
-	.string "Have you visited the SAFARI ZONE?\p"
-	.string "I hear there are some POKéMON that\n"
-	.string "can only be caught there.$"
+	.string "{JPN}サファリゾーンには いったかい?\p"
+	.string "{JPN}あそこでしか つかまえられない\n"
+	.string "{JPN}ポケモンも いるらしいよ.$"
 
 gBirchDexRatingText_LessThan110::
-	.string "You've finally reached\n"
-	.string "the 100-kind mark.\p"
-	.string "This is an impressive POKéDEX!$"
+	.string "{JPN}ついに 100しゅるいを\n"
+	.string "{JPN}こえたんだね.\p"
+	.string "{JPN}りっぱな ポケモンずかんだ!$"
 
 gBirchDexRatingText_LessThan120::
-	.string "There might be POKéMON that can be\n"
-	.string "found using ROCK SMASH.$"
+	.string "{JPN}いわくだきで みつかる\n"
+	.string "{JPN}ポケモンも いるかもしれないよ.$"
 
 gBirchDexRatingText_LessThan130::
-	.string "I've heard of POKéMON that evolve\n"
-	.string "when they come to fully love their\l"
-	.string "TRAINERS.$"
+	.string "{JPN}トレーナーに なつくと\n"
+	.string "{JPN}しんかする ポケモンも\l"
+	.string "{JPN}いるらしいよ.$"
 
 gBirchDexRatingText_LessThan140::
-	.string "I've heard of POKéMON that evolve\n"
-	.string "when they come to fully love their\l"
-	.string "TRAINERS.$"
+	.string "{JPN}トレーナーに なつくと\n"
+	.string "{JPN}しんかする ポケモンも\l"
+	.string "{JPN}いるらしいよ.$"
 
 gBirchDexRatingText_LessThan150::
-	.string "I had no idea that there were so\n"
-	.string "many POKéMON species in the JOHTO\l"
-	.string "region.$"
+	.string "{JPN}ジョウトちほうに こんなにも\n"
+	.string "{JPN}たくさんの しゅるいの\l"
+	.string "{JPN}ポケモンが いるとはね.$"
 
 gBirchDexRatingText_LessThan160::
-	.string "On occasion, some POKéMON appear\n"
-	.string "in large numbers like outbreaks.\p"
-	.string "Don't miss opportunities like\n"
-	.string "those.$"
+	.string "{JPN}ときどき たいりょうはっせい\n"
+	.string "{JPN}する ポケモンが いるよ.\p"
+	.string "{JPN}そんな チャンスを\n"
+	.string "{JPN}のがさないようにね!$"
 
 gBirchDexRatingText_LessThan170::
-	.string "One can get a very good idea about\n"
-	.string "the POKéMON of the JOHTO region\l"
-	.string "by looking through your POKéDEX.$"
+	.string "{JPN}きみの ポケモンずかんを みれば\n"
+	.string "{JPN}ジョウトちほうの ポケモンが\l"
+	.string "{JPN}よく わかるね!$"
 
 gBirchDexRatingText_LessThan180::
-	.string "I would say you already qualify as\n"
-	.string "a POKéMON PROFESSOR, and a good\l"
-	.string "one, too!$"
+	.string "{JPN}きみは もう りっぱな\n"
+	.string "{JPN}ポケモンはかせだよ.\l"
+	.string "{JPN}それも すごうでの!$"
 
 gBirchDexRatingText_LessThan190::
-	.string "With a POKéDEX this complete,\n"
-	.string "you're a real professional at this!$"
+	.string "{JPN}ここまで そろえるとは\n"
+	.string "{JPN}ほんとうに プロだね!$"
 
 gBirchDexRatingText_LessThan200::
-	.string "You're very close to completing\n"
-	.string "this POKéDEX.\l"
-	.string "I can feel it in my bones!$"
+	.string "{JPN}かんせいまで あと すこし.\n"
+	.string "{JPN}わたしには わかるよ!$"
 
 gBirchDexRatingText_DexCompleted::
-	.string "Congratulations!\n"
-	.string "Your POKéDEX is complete!$"
+	.string "{JPN}おめでとう!\n"
+	.string "{JPN}ポケモンずかんが かんせいだ!$"
 
 gBirchDexRatingText_OnANationwideBasis::
-	.string "Hmhm…\n"
-	.string "On a nationwide basis…\p"
-	.string "You've seen {STR_VAR_1} POKéMON,\n"
-	.string "and you've caught {STR_VAR_2} POKéMON…$"
+	.string "{JPN}ふむふむ...\n"
+	.string "{JPN}ぜんこくてきに みると...\p"
+	.string "{JPN}{STR_VAR_1}しゅるいの ポケモンを みて\n"
+	.string "{JPN}{STR_VAR_2}しゅるいを つかまえたか...$"
 
 gBirchDexRatingText_CaughtAllNational::
-	.string "Hmhm…\n"
-	.string "On a nationwide basis…\p"
-	.string "You've seen {STR_VAR_1} POKéMON,\n"
-	.string "and you've caught {STR_VAR_2} POKéMON…\p"
-	.string "That's incredible, {PLAYER}!\p"
-	.string "You've completed the NATIONAL\n"
-	.string "POKéDEX! Congratulations!$"
+	.string "{JPN}ふむふむ...\n"
+	.string "{JPN}ぜんこくてきに みると...\p"
+	.string "{JPN}{STR_VAR_1}しゅるいの ポケモンを みて\n"
+	.string "{JPN}{STR_VAR_2}しゅるいを つかまえたか...\p"
+	.string "{JPN}すごいぞ {PLAYER}!\p"
+	.string "{JPN}ぜんこくずかんが かんせいだ!\n"
+	.string "{JPN}おめでとう!$"

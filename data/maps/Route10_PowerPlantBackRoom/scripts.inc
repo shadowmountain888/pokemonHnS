@@ -59,41 +59,41 @@ Route10_PowerPlantBackRoom_EventScript_Engineer::
 	end
 
 Route10_PowerPlantBackRoom_Text_ManagerWhoWouldRuinMyGenerator:
-	.string "MANAGER: I, I, I'm ready to blast\n"
-	.string "someone!\p"
-	.string "Who would dare ruin my\n"
-	.string "generator?\p"
-	.string "I spent so much time on it!\p"
-	.string "If I catch him, he's going to\n"
-	.string "get a taste of my ZAP CANNON!$"
+	.string "{JPN}かんりにん: お おれは\n"
+	.string "{JPN}だれかを ふっとばす\n"
+	.string "{JPN}じゅんびが できてるぞ!\p"
+	.string "{JPN}だれが おれの はつでんきを\n"
+	.string "{JPN}こわしたって いうんだ?\p"
+	.string "{JPN}あんなに じかんを かけたのに!\p"
+	.string "{JPN}もし そいつを つかまえたら\nでんじほうを おみまいして\nやるからな!$"
 
 Route10_PowerPlantBackRoom_Text_ManagerIWontForgiveCulprit:
-	.string "MANAGER: I won't forgive him!\p"
-	.string "The culprit can cry and\n"
-	.string "apologize,\p"
-	.string "but I'll still hammer him!\p"
-	.string "Gahahahah!$"
+	.string "{JPN}かんりにん: そいつを\n"
+	.string "{JPN}ゆるさないぞ!\p"
+	.string "{JPN}はんにんが なこうが\n"
+	.string "{JPN}あやまろうが\p"
+	.string "{JPN}それでも たたきのめして\nやるからな!\pがははははっ!$"
 
 Route10_PowerPlantBackRoom_Text_ManagerThatsThePart:
-	.string "MANAGER: Ah! Yeah!\p"
-	.string "That's the missing PART from my\n"
-	.string "beloved generator! You found it?$"
+	.string "{JPN}かんりにん: あっ! そうだ!\p"
+	.string "{JPN}それは あいしの はつでんきの\n"
+	.string "{JPN}なくなった ぶひんだ!\nきみが みつけたのか?$"
 
 Route10_PowerPlantBackRoom_Text_ManagerTakeThisTM:
-	.string "Wahah! Thanks!\p"
-	.string "Here! Take this TM as a reward!$"
+	.string "{JPN}わはは! ありがとう!\p"
+	.string "{JPN}ほら! おれいに この\nわざマシンを もっていけ!$"
 
 Route10_PowerPlantBackRoom_Text_ManagerTM07IsZapCannon:
-	.string "MANAGER: That TM is THUNDER.\p"
-	.string "It's a powerful technique!\p"
-	.string "It's not what anyone would\n"
-	.string "consider accurate, but it packs a\l"
-	.string "wallop!$"
+	.string "{JPN}かんりにん: その わざマシンは\n"
+	.string "{JPN}かみなりだ.\p"
+	.string "{JPN}とても つよい わざなんだ!\p"
+	.string "{JPN}めいちゅうりつは だれも\n"
+	.string "{JPN}じまんできないが\lいりょくは ばつぐんだぞ!$"
 
 Route10_PowerPlantBackRoom_Text_ManagerMyBelovedGenerator:
-	.string "MANAGER: My beloved generator!\p"
-	.string "Keep pumping the electricity out!$"
+	.string "{JPN}かんりにん: あいしの はつでんき!\p"
+	.string "{JPN}でんきを つくりつづけて\nくれよな!$"
 
 Route10_PowerPlantBackRoom_Text_Engineer:
-	.string "This door is unsafe without power.$"
+	.string "{JPN}でんりょくが ないと この とびらは\nきけんだ.$"
 

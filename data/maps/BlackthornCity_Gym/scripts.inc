@@ -232,140 +232,70 @@ BlackthornGym_EventScript_ClairAfterLeague::
 	end
 
 BlackthornGym_Text_ClairIntroText:
-    .string "I am CLAIR.\p"
-    .string "The world's best dragon master.\p"
-    .string "I can hold my own against even the\n"
-    .string "POKéMON LEAGUE's ELITE FOUR.\p"
-    .string "Do you still want to take me on?\p"
-    .string "…Fine. Let's do it!\p"
-    .string "As a GYM LEADER, I will use my full\n"
-    .string "power against any opponent!$"
-
+	.string "{JPN}イブキ: わたしがイブキ!\nせかいでいちばんの\lドラゴンつかいよ\p"
+	.string "{JPN}じつりょくもポケモンリーグ\nしてんのうにだって\l"
+	.string "{JPN}まけてなんかないわよ!\lどうそれでもたたかうの?\p"
+	.string "{JPN}...そうわかったわ\nじゃはじめましょう!\p"
+	.string "{JPN}わたしもトレーナー\nどんなあいてだって\l"
+	.string "{JPN}ぜんりょくでぶつかってあげる!\p$"
 BlackthornGym_Text_ClairWinText:
-    .string "I lost?\p"
-    .string "I don't believe it. There must be\n"
-    .string "some mistake…$"
-
+	.string "{JPN}イブキ: わたしはみとめないわ\p"
+	.string "{JPN}まけていうのもなんだけど\nあなたのかんがえかたでは\l"
+	.string "{JPN}ポケモンリーグにちょうせんなんて\lムリにきまってるわよ\p"
+	.string "{JPN}...そうだわ!\p"
+	.string "{JPN}このポケモンジムのうらに\nりゅうのあなとよばれる\lばしょがあるの\p"
+	.string "{JPN}ちゅうおうにほこらがあるから\nそこへいってごらんなさい\p"
+	.string "{JPN}もしそこであなたの\nかんがえをみとめられたなら\p"
+	.string "{JPN}わたしもあなたが\nジムバッジをわたすにふさわしい\l"
+	.string "{JPN}トレーナーだとみとめてあげるわ!$"
 BlackthornGym_Text_ClairText_GoToDragonsDen:
-    .string "I won't admit this.\p"
-    .string "I may have lost, but you're still\n"
-    .string "not ready for the POKéMON LEAGUE.\p"
-    .string "I know. You should take the dragon-\n"
-    .string "user challenge.\p"
-    .string "Behind this GYM is a place called\n"
-    .string "DRAGON'S DEN.\p"
-    .string "There is a small shrine at its\n"
-    .string "center. Go there.\p"
-    .string "If you can prove that you've lost\n"
-    .string "your lazy ideals, I will recognize\l"
-    .string "you as a trainer worthy of a GYM\l"
-    .string "BADGE!$"
-
+	.string "{JPN}わたしはみとめないわ\pまけていうのもなんだけど\nポケモンリーグはまだムリよ\pそうだわ！ドラゴンつかいの\nしれんをうけなさい\pこのジムのうらにりゅうのあなと\nよばれるばしょがあるの\pちゅうおうにちいさなほこらが\nあるからそこへいきなさい\pあなたのあまいかんがえを\nすてることができたなら\lジムバッジにふさわしい\lトレーナーとみとめてあげる！$"
 BlackthornGym_Text_ClairText_TooMuchToExpect:
-    .string "What's the matter?\p"
-    .string "Is it too much to expect of you?$"
-
+	.string "{JPN}イブキ: どうしたの?\p"
+	.string "{JPN}やっぱりあなたじゃムリかしら?$"
 BlackthornGym_Text_ClairText_YouKeptMeWaiting:
-    .string "You've kept me waiting!\p"
-    .string "Here! Take this!$"
-
+    .string "{JPN}おそいわよ！\n"
+	.string "{JPN}さっさとうけとりなさい！$"
 BlackthornGym_Text_ClairText_DescribeTM:
-    .string "That contains DRAGON CLAW.\p"
-    .string "You can figure out what it does.$"
-
+	.string "{JPN}それはドラゴンクローよ\pどんなわざかはじぶんでしらべなさい$"
 BlackthornGym_Text_ClairText_League:
-    .string "What's the matter?\p"
-    .string "Aren't you headed to the POKéMON\n"
-    .string "LEAGUE?\p"
-    .string "Don't you know where it is?\p"
-    .string "From here, go to NEW BARK TOWN.\p"
-    .string "Then SURF east. The route there is\n"
-    .string "very tough.\p"
-    .string "Don't you dare lose at the POKéMON\n"
-    .string "LEAGUE!\p"
-    .string "If you do, I'll feel even worse\n"
-    .string "about having lost to you!\p"
-    .string "Give it everything you've got.$"
-
+	.string "{JPN}どうしたのよ？\pポケモンリーグに\nいかないの？\pばしょがわからないの？\pここからワカバタウンにいって\nひがしになみのりしなさい\nそのさきはとてもきびしいわよ\pポケモンリーグで\nまけたりしないでよ！\pまけたらわたしがもっと\nくやしくなっちゃうじゃない！\pぜんりょくでがんばりなさい$"
 BlackthornGym_Text_ClairAfterLeague:
-    .string "You did it, huh?\p"
-    .string "You are now the JOHTO CHAMP.$"
-
+	.string "{JPN}やったのね？\pあなたはもうジョウトチャンプよ$"
 BlackthornGym_Text_ClairRematchText:
-    .string "You did it, huh?\p"
-    .string "You are now the JOHTO CHAMP.\p"
-    .string "You've proven your strength but can\n"
-    .string "you handle me again?\p"
-    .string "As a Dragon Master, I won't hold\n"
-    .string "back.\p"
-    .string "Not this time.\p"
-    .string "Want to have a rematch with me?$"
-
+	.string "{JPN}やったわね..\pあなたはジョウトのチャンピオン\pつよさはみとめるけど\nもういちどわたしとたたかえる？\pドラゴンつかいとして\nこんどはようしゃしないわよ\pさいせんしましょうか？$"
 BlackthornGym_Text_ClairRematchDefeatText:
-    .string "I lost?\p"
-    .string "Again?\p"
-    .string "I don't believe it. There must be\n"
-    .string "some mistake…$"
-
+	.string "{JPN}まけた？\pまた？\pしんじられない..\nなにかのまちがいよ..$"
 BlackthornGym_Text_CooltrainermCodySeenText:
-    .string "I just got access to use DRAGON-\n"
-    .string "type POKéMON!$"
-
+	.string "{JPN}やっとドラゴンタイプの\nポケモンがつかえるようになった！$"
 BlackthornGym_Text_CooltrainermCodyBeatenText:
-    .string "Rats! If only I had a DRAGONITE!$"
-
+	.string "{JPN}ちくしょう！カイリューがいれば！$"
 BlackthornGym_Text_CooltrainermCodyAfterBattleText:
-    .string "Members of our dragon-user clan\n"
-    .string "can use dragon POKéMON only after\l"
-    .string "our MASTER allows it.$"
-
+	.string "{JPN}ドラゴンつかいのいちぞくは\nしすうのきょかがないと\lドラゴンポケモンはつかえないんだ$"
 BlackthornGym_Text_CooltrainerfFranSeenText:
-    .string "I can't allow a nameless trainer\n"
-    .string "past me!\p"
-    .string "CLAIR would be livid if I did!$"
-
+	.string "{JPN}なまえもしらないトレーナーを\nとおすわけにはいかないわ！\pイブキさんがおこっちゃう！$"
 BlackthornGym_Text_CooltrainerfFranBeatenText:
-    .string "Awww… I lost…$"
-
+	.string "{JPN}あーん..まけちゃった..$"
 BlackthornGym_Text_CooltrainerfFranAfterBattleText:
-    .string "Uh-oh… CLAIR is going to be mad…$"
-
+	.string "{JPN}やばい..イブキさんにおこられる..$"
 BlackthornGym_Text_CooltrainermPaulSeenText:
-    .string "Your first battle against dragons?\p"
-    .string "I'll show you how tough they are!$"
-
+	.string "{JPN}ドラゴンとのはつせんか？\pどれだけつよいかみせてやる！$"
 BlackthornGym_Text_CooltrainermPaulBeatenText:
-    .string "My dragon POKéMON lost?$"
-
+	.string "{JPN}ドラゴンポケモンがまけた？$"
 BlackthornGym_Text_CooltrainermPaulAfterBattleText:
-    .string "LANCE told you that he'd like to\n"
-    .string "see you again?\p"
-    .string "Not a chance!$"
-
+	.string "{JPN}ワタルがきみにまたあいたいって？\nそんなばかな！$"
 BlackthornGym_Text_CooltrainermMikeSeenText:
-    .string "My chance of losing? Not even one\n"
-    .string "percent!$"
-
+	.string "{JPN}おれがまけるかくりつ？\nいちパーセントもないぜ！$"
 BlackthornGym_Text_CooltrainermMikeBeatenText:
-    .string "That's odd.$"
-
+	.string "{JPN}おかしいな$"
 BlackthornGym_Text_CooltrainermMikeAfterBattleText:
-    .string "I know my short-comings now.\p"
-    .string "Thanks for showing me!$"
-
+	.string "{JPN}じぶんのよわさがわかったよ\pおしえてくれてありがとう！$"
 BlackthornGym_Text_CooltrainerfLolaSeenText:
-    .string "Dragons are sacred POKéMON.\p"
-    .string "They are full of life energy.\p"
-    .string "If you're not serious, you won't\n"
-    .string "be able to beat them.$"
-
+	.string "{JPN}ドラゴンはせいなるポケモンよ\pせいめいりょくにあふれてる\pほんきじゃないと\nかつことはできないわ$"
 BlackthornGym_Text_CooltrainerfLolaBeatenText:
-    .string "Way to go!$"
-
+	.string "{JPN}やるじゃない！$"
 BlackthornGym_Text_CooltrainerfLolaAfterBattleText:
-    .string "Dragons are weak against DRAGON-\n"
-    .string "type moves.$"
-
+	.string "{JPN}ドラゴンタイプのわざには\nドラゴンはよわいのよ$"
 BlackthornGym_EventScript_GymGuy::
 	lock
 	faceplayer
@@ -381,29 +311,18 @@ BlackthornGym_EventScript_GymGuy2::
 	end	
 
 BlackthornGym_Text_GuideText:
-    .string "Yo! CHAMP in making!\p"
-    .string "It's been a long journey, but we\n"
-    .string "are almost done! Count on me!\p"
-    .string "While CLAIR looks up to the Dragon\n"
-    .string "Master, LANCE, she's managed to\l"
-    .string "create her own identity with a\l"
-    .string "team consisting of dragons from\l"
-    .string "the sea.\p"
-    .string "Dragons are supposed to be\n"
-    .string "weak against ICE-type moves,\l"
-    .string "but you'll need some DRAGON-type\l"
-	.string "or FAIRY-type moves of your own if\l"
-    .string "you want to win.$"
-    .string "You got this!$"
-
+	.string "{JPN}おーす!\nみらいのチャンピオン!\p"
+	.string "{JPN}このジムはあしばがふあんていで\nキケンだから\l"
+	.string "{JPN}ポケモンはしまっておいてくれよな\p"
+	.string "{JPN}...さて\nイブキがつかうポケモンは\lでんせつのいきもの\l"
+	.string "{JPN}せいなるドラゴンポケモン!\p"
+	.string "{JPN}ちょっとやそっとじゃ\nダメージをあたえられない!\p"
+	.string "{JPN}...だがな\nこおりタイプのわざには\lよわいってはなしだぜ!$"
 BlackthornGym_Text_GuideWinText:
-    .string "You were great to beat CLAIR!\p"
-    .string "All that's left is the POKéMON\n"
-    .string "LEAGUE challenge.\p"
-    .string "You're on the way to becoming the\n"
-    .string "POKéMON CHAMPION!$"
-
-
+	.string "{JPN}おいおいイブキにかつなんて\nこりゃたいしたもんだぜ!\p"
+	.string "{JPN}イブキはああいってるけど\nきみはじゅうぶんつよい!\l"
+	.string "{JPN}...とおれはおもうぜ\p"
+	.string "{JPN}まここはイブキの\nいうとおりにしておいたほうが\lよさそうだけどな!$"
 BlackthornGym_EventScript_Statue::
 	lock
 	goto_if_set FLAG_DEFEATED_BLACKTHORN_GYM, BlackthornGym_EventScript_Statue2
@@ -419,9 +338,7 @@ BlackthornGym_EventScript_Statue2::
 	end
 
 BlackthornGym_Text_GymStatue:
-	.string "BLACKTHORN CITY POKéMON GYM$"
-
+	.string "{JPN}フスベシティポケモンジム$"
 BlackthornGym_Text_GymStatueCertified:
-	.string "BLACKTHORN CITY POKéMON GYM\p"
-	.string "CLAIR'S CERTIFIED TRAINERS:\n"
-	.string "{PLAYER}$"
+	.string "{JPN}フスベシティポケモンジム\p"
+	.string "{JPN}ジムリーダーイブキ\nにんていトレーナー!\l{PLAYER}$"

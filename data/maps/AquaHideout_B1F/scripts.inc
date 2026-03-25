@@ -107,54 +107,50 @@ AquaHideout_B1F_EventScript_Grunt7::
 	end
 
 AquaHideout_B1F_Text_Grunt2Intro:
-	.string "If you want to know the secret about\n"
-	.string "our HIDEOUT, you have me to beat!$"
+	.string "{JPN}おれたちの\n"
+	.string "{JPN}アジトのひみつを しりたけりゃ\pおれに かたなきゃ だめだぜ!$"
 
 AquaHideout_B1F_Text_Grunt2Defeat:
-	.string "I can't win at all…$"
-
+	.string "{JPN}ぜんぜん かてないよ...$"
 AquaHideout_B1F_Text_Grunt2PostBattle:
-	.string "Our HIDEOUT's secret?\p"
-	.string "Well, let's just say…\n"
-	.string "There's a submarine at the far end!\p"
-	.string "But, by now…\n"
-	.string "Kekekeke…$"
-
+	.string "{JPN}おれたちの アジトの ひみつ?\p"
+	.string "{JPN}そうだなあ...\n"
+	.string "{JPN}おくのほうに せんすいかんが\l"
+	.string "{JPN}あるってことかな!\p"
+	.string "{JPN}でも いまごろは...\nけけけけけ...$"
 AquaHideout_B1F_Text_Grunt3Intro:
-	.string "Fuel supply loaded A-OK!\n"
-	.string "In-cruise snacks loaded A-OK!\p"
-	.string "Nothing left to do but KO a pesky\n"
-	.string "meddler!$"
+	.string "{JPN}ねんりょう つみこみ よし!\n"
+	.string "{JPN}りょこうちゅうの おやつも よし!\p"
+	.string "{JPN}あとは じゃまな やつを\n"
+	.string "{JPN}たおすだけだ!$"
 
 AquaHideout_B1F_Text_Grunt3Defeat:
-	.string "I took a serious licking!$"
+	.string "{JPN}ひどい めに あったぜ!$"
 
 AquaHideout_B1F_Text_Grunt3PostBattle:
-	.string "Humph!\n"
-	.string "This was supposed to happen!\p"
-	.string "My mission was to just hold you up!$"
+	.string "{JPN}フン!\n"
+	.string "{JPN}これも さくせんの うちだ!\p"
+	.string "{JPN}おれの にんむは きみを\nあしどめする ことだったんだ!$"
 
 AquaHideout_B1F_Text_Grunt5Intro:
-	.string "Yawn… Keeping watch over the\n"
-	.string "HIDEOUT bores me. I'll take you on.$"
+	.string "{JPN}はあ... アジトの みはりって\n"
+	.string "{JPN}つまんねえんだよ.\lあいてしてやるよ.$"
 
 AquaHideout_B1F_Text_Grunt5Defeat:
-	.string "Yawn…\n"
-	.string "Oh, I lost…$"
-
+	.string "{JPN}はあ...\n"
+	.string "{JPN}あ まけちまった...$"
 AquaHideout_B1F_Text_Grunt5PostBattle:
-	.string "If you scurry too much, other TEAM\n"
-	.string "AQUA members might get you.$"
+	.string "{JPN}あまり さわぎすぎると\n"
+	.string "{JPN}ほかの アクアだんの メンバーに\nつかまっちゃうぞ.$"
 
 AquaHideout_B1F_Text_Grunt7Intro:
-	.string "Hey!\n"
-	.string "You there!\p"
-	.string "Which do you think is cooler?\n"
-	.string "TEAM AQUA's uniform or TEAM MAGMA's?$"
+	.string "{JPN}おい!\n"
+	.string "{JPN}そこの きみ!\p"
+	.string "{JPN}アクアだんの ふくと\n"
+	.string "{JPN}マグマだんの ふく\pどっちが かっこいいと おもう?$"
 
 AquaHideout_B1F_Text_Grunt7Defeat:
-	.string "I lost in a cool way…$"
-
+	.string "{JPN}かっこよく まけたぜ...$"
 AquaHideout_B1F_Text_Grunt7PostBattle:
-	.string "If you have a cool uniform, you look\n"
-	.string "good even in a loss, don't you think?$"
+	.string "{JPN}かっこいい ふくを きてれば\n"
+	.string "{JPN}まけても きまって みえるだろ?$"

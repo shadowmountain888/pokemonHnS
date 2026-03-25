@@ -27,37 +27,35 @@ MagmaHideout_1F_EventScript_Grunt2::
 	end
 
 MagmaHideout_1F_Text_Grunt1Intro:
-	.string "When TEAM MAGMA has roll call, we get\n"
-	.string "important guarding assignments in\l"
-	.string "the order that we line up.\p"
-	.string "That's why I'm stuck off in this corner.\n"
-	.string "I'm always late to roll call!$"
+	.string "{JPN}マグマだんの てんこのとき\n"
+	.string "{JPN}ならんだ じゅんばんで だいじな\l"
+	.string "{JPN}ばんにんの しごとが きまるんだ\p"
+	.string "{JPN}だから おれは こんな すみっこに\n"
+	.string "{JPN}いるんだ\lいつも てんこに おくれるからな!$"
 
 MagmaHideout_1F_Text_Grunt1Defeat:
-	.string "I'm always late for training sessions,\n"
-	.string "too!\p"
-	.string "I hate to say it, but I'm wimpy…$"
-
+	.string "{JPN}いつも くんれんに\n"
+	.string "{JPN}おくれちゃうんだよ!\p"
+	.string "{JPN}よわっちいって いわれても\nしかたないかな...$"
 MagmaHideout_1F_Text_Grunt1PostBattle:
-	.string "Okay, I'll try to put a little more\n"
-	.string "effort into things from now on…$"
-
+	.string "{JPN}よーし これからは\n"
+	.string "{JPN}もうちょっと がんばって\nみるよ...$"
 MagmaHideout_1F_Text_Grunt2Intro:
-	.string "Our leader told us to dig into\n"
-	.string "MT. CHIMNEY, so we dug and dug.\p"
-	.string "And in the course of digging, we came\n"
-	.string "across something that blew our minds!\p"
-	.string "What did we find?\p"
-	.string "Fuhahaha!\n"
-	.string "I'll tell you if you beat me!$"
+	.string "{JPN}われらの ボスが えんとつやまを\n"
+	.string "{JPN}ほれと いったから ほって ほって\p"
+	.string "{JPN}ほっていたら とんでもないものを\n"
+	.string "{JPN}はっけんしちまったんだ!\p"
+	.string "{JPN}なにを みつけたって?\p"
+	.string "{JPN}ふはははは!\n"
+	.string "{JPN}おれに かったら おしえてやるぜ!$"
 
 MagmaHideout_1F_Text_Grunt2Defeat:
-	.string "Arrgh!\n"
-	.string "Taken down!$"
+	.string "{JPN}あああ!\n"
+	.string "{JPN}やられた!$"
 
 MagmaHideout_1F_Text_Grunt2PostBattle:
-	.string "I won't tell you after all.\n"
-	.string "You'll find out when you get there!\p"
-	.string "It'd be better if you saved surprises\n"
-	.string "to the end, don't you think?$"
+	.string "{JPN}やっぱり おしえてやらないぜ\n"
+	.string "{JPN}むこうに いけば わかるからな!\p"
+	.string "{JPN}サプライズは さいごまで とって\n"
+	.string "{JPN}おいたほうが いいだろ?$"
 

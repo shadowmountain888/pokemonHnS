@@ -81,76 +81,74 @@ Route37_EventScript_Sign::
 	end
 
 Route37_Text_TwinsAnnAndAnne1_Seen:
-	.string "ANN: ANNE and I are in this\n"
-	.string "together!$"
+	.string "{JPN}アン: わたしと アンヌは\n"
+	.string "{JPN}いっしょに がんばるよ!$"
 
 Route37_Text_TwinsAnnAndAnne1_Beaten:
-	.string "ANN & ANNE: Nnn… A little too\n"
-	.string "strong.$"
+	.string "{JPN}アン&アンヌ: うーん...\n"
+	.string "{JPN}ちょっと つよすぎるわ$"
 
 Route37_Text_TwinsAnnAndAnne1_After:
-	.string "ANN: I can tell what my sister and\n"
-	.string "my POKéMON are thinking.$"
+	.string "{JPN}アン: わたしには いもうとと\n"
+	.string "{JPN}ポケモンの きもちが わかるの$"
 
 Route37_Text_TwinsAnnAndAnne2_Seen:
-	.string "ANNE: ANN and I are in this\n"
-	.string "together!$"
+	.string "{JPN}アンヌ: わたしと アンは\n"
+	.string "{JPN}いっしょに がんばるよ!$"
 
 Route37_Text_TwinsAnnAndAnne2_Beaten:
-	.string "ANN & ANNE: Nnn… A little too\n"
-	.string "strong.$"
+	.string "{JPN}アン&アンヌ: うーん...\n"
+	.string "{JPN}ちょっと つよすぎるわ$"
 
 Route37_Text_TwinsAnnAndAnne2_After:
-	.string "ANNE: We share the same feelings as\n"
-	.string "our POKéMON.$"
+	.string "{JPN}アンヌ: わたしたちは ポケモンと\n"
+	.string "{JPN}おなじ きもちを わけあってるの$"
 
 Route37_Text_PsychicGreg_Seen:
-	.string "POKéMON can't do a thing if they are\n"
-	.string "asleep.\p"
-	.string "I'll show you how scary that is!$"
+	.string "{JPN}ポケモンは ねむってしまうと\n"
+	.string "{JPN}なにも できないんだ\p"
+	.string "{JPN}その こわさを おしえてあげよう!$"
 
 Route37_Text_PsychicGreg_Beaten:
-	.string "I lost. That's pretty sad…$"
-
+	.string "{JPN}まけちゃった...\nちょっと かなしいな...$"
 Route37_Text_PsychicGreg_After:
-	.string "Putting POKéMON to sleep or paralyz-\n"
-	.string "ing them are good battle techniques.$"
+	.string "{JPN}ポケモンを ねむらせたり\n"
+	.string "{JPN}まひさせたりするのは\lいい バトルの テクニックだよ$"
 
 Route37_Text_Sunny_Meet:
-	.string "SUNNY: Hi!\p"
-	.string "I'm SUNNY of the WEEKDAY family!\p"
-	.string "If you can guess my favorite day,\n"
-	.string "I'll give you a reward.$"
+	.string "{JPN}サニー: こんにちは!\p"
+	.string "{JPN}ぼく ようびきょうだいの\n"
+	.string "{JPN}サニーだよ!\p"
+	.string "{JPN}ぼくの すきな ようびを\nあててくれたら\lプレゼントを あげるよ$"
 
 Route37_Text_Sunny_GiveGift1:
-	.string "I was told to give you this if I saw\n"
-	.string "you!$"
+	.string "{JPN}きみを みたら これを\n"
+	.string "{JPN}わたすように いわれてたんだ!$"
 
 Route37_Text_Sunny_GiveGift2:
-	.string "I was told to give you this if I saw\n"
-	.string "you!$"
+	.string "{JPN}きみを みたら これを\n"
+	.string "{JPN}わたすように いわれてたんだ!$"
 
 Route37_Text_Sunny_GaveGift:
-	.string "SUNNY: That thing…\p"
-	.string "Um…\p"
-	.string "… What was it now…\p"
-	.string "…\p"
-	.string "Oh! I remember now!\p"
-	.string "A POKéMON that knows electric\n"
-	.string "moves should hold it.\p"
-	.string "My sis MONICA said it powers up\n"
-	.string "electric moves!$"
+	.string "{JPN}サニー: そのもの...\p"
+	.string "{JPN}\n"
+	.string "{JPN}うーん...\p"
+	.string "{JPN}\n"
+	.string "{JPN}... なんだったかな...\p"
+	.string "{JPN}\n"
+	.string "{JPN}...\p"
+	.string "{JPN}\n"
+	.string "{JPN}あ! おもいだした!\p\nでんきタイプのわざを おぼえた\nポケモンに もたせるといいよ\p\nおねえちゃんの モニカが\nでんきわざが つよくなるって!$"
 
 Route37_Text_Sunny_Sunday:
-	.string "SUNNY: My sisters and brothers are\n"
-	.string "MONICA, TUSCANY, WESLEY, ARTHUR,\l"
-	.string "FRIEDA and SANTOS.\p"
-	.string "They're all older than me!$"
+	.string "{JPN}サニー: ぼくの きょうだいは\n"
+	.string "{JPN}モニカに タスカニーに\l"
+	.string "{JPN}ウェズリーに アーサー\l"
+	.string "{JPN}フリーダに サントスだよ\pみんな ぼくより おおきいんだ!$"
 
 Route37_Text_Sunny_NotSunday:
-	.string "SUNNY: Isn't today Sunday?\n"
-	.string "Um… I forgot!$"
-
+	.string "{JPN}サニー: きょうって にちようび?\n"
+	.string "{JPN}うーん... わすれちゃった!$"
 Route37_Text_Sign:
-	.string "ROUTE 37\n"
-	.string "ECRUTEAK CITY AHEAD$"
+	.string "{JPN}37ばんどうろ\n"
+	.string "{JPN}エンジュシティ さき$"

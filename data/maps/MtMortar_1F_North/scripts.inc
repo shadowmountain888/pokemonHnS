@@ -46,31 +46,30 @@ MtMortar_1F_North_EventScript_Markus::
 	end
 
 MountMortar2_Text_PokemaniacMillerSeen:
-	.string "I'm not losing this time!$"
+	.string "{JPN}こんどは まけないぞ!$"
 
 MountMortar2_Text_PokemaniacMillerBeaten:
-	.string "I lost to some kid...?$"
+	.string "{JPN}こどもに まけるなんて...?$"
 
 MountMortar2_Text_PokemaniacMillerAfter:
-	.string "A while back, this karate dude\n"
-	.string "wanted to battle.\p"
-	.string "He was ridiculously good.\n"
-	.string "He just thrashed us silly.\p"
-	.string "He went in deeper saying it\n"
-	.string "was for his training.\p"
-	.string "I wonder how he is?$"
+	.string "{JPN}まえに からてつかいが\n"
+	.string "{JPN}たたかいを もうしこんできた\p"
+	.string "{JPN}とんでもなく つよくて\n"
+	.string "{JPN}ぼこぼこに やられたよ\p"
+	.string "{JPN}しゅぎょうの ためだって\n"
+	.string "{JPN}おくに いっちゃった\p"
+	.string "{JPN}げんきに してるかな?$"
 
 MountMortar2_Text_SupernerdMarkusSeen:
-	.string "Hey! HUGH!$"
+	.string "{JPN}おい! ヒュー!$"
 
 MountMortar2_Text_SupernerdMarkusBeaten:
-	.string "I mistook you for someone\n"
-	.string "else…$"
-
+	.string "{JPN}きみを ほかの ひとと\n"
+	.string "{JPN}まちがえて しまった...$"
 MountMortar2_Text_SupernerdMarkusAfter:
-	.string "I came to explore MT.MORTAR,\n"
-	.string "but I got separated from my\l"
-	.string "partner…\p"
-	.string "Did you run into a trainer\n"
-	.string "who uses a SEADRA that knows\l"
-	.string "WATERFALL?$"
+	.string "{JPN}シロガネやまを たんけんしに\n"
+	.string "{JPN}きたんだけど パートナーと\l"
+	.string "{JPN}はぐれて しまった...\p"
+	.string "{JPN}たきのぼりを おぼえた\n"
+	.string "{JPN}シードラを つかう\l"
+	.string "{JPN}トレーナーに あったかい?$"

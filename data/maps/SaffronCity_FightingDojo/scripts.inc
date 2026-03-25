@@ -54,7 +54,7 @@ SaffronCity_FightingDojo_EventScript_BattleLickilicky_EV_HP::
 	end
 	
 SaffronCity_FightingDojo_Text_Lickilicky:
-	.string "LICKILICKY: LIIIIICK!$"
+	.string "{JPN}ベロベルト: ベローーーー!$"
 
 SaffronCity_FightingDojo_EventScript_Machamp_EV_Attack::
 	lock
@@ -82,7 +82,7 @@ SaffronCity_FightingDojo_EventScript_BattleMachamp_EV_Attack::
 	end
 
 SaffronCity_FightingDojo_Text_Machamp:
-	.string "MACHAMP: CHAMP!$"
+	.string "{JPN}カイリキー: カイリキー!$"
 
 SaffronCity_FightingDojo_EventScript_Steelix_EV_Defense::
 	lock
@@ -110,7 +110,7 @@ SaffronCity_FightingDojo_EventScript_BattleSteelix_EV_Defense::
 	end
 
 SaffronCity_FightingDojo_Text_Steelix:
-	.string "STEELIX: GRRRIND!$"
+	.string "{JPN}ハガネール: ガリガリガリ!$"
 
 SaffronCity_FightingDojo_EventScript_Alakazam_EV_SpecialAttack::
 	lock
@@ -138,7 +138,7 @@ SaffronCity_FightingDojo_EventScript_BattleAlakazam_EV_SpecialAttack::
 	end
 
 SaffronCity_FightingDojo_Text_Alakazam:
-	.string "ALAKAZAM: ZAM!$"
+	.string "{JPN}フーディン: フーディン!$"
 
 SaffronCity_FightingDojo_EventScript_Slowking_EV_SpecialDefense::
 	lock
@@ -166,7 +166,7 @@ SaffronCity_FightingDojo_EventScript_BattleSlowking_EV_SpecialDefense::
 	end
 
 SaffronCity_FightingDojo_Text_Slowking:
-	.string "SLOWKING: HMMM...$"
+	.string "{JPN}ヤドキング: うーん...$"
 
 SaffronCity_FightingDojo_EventScript_Pidgeot_EV_Speed::
 	lock
@@ -194,38 +194,41 @@ SaffronCity_FightingDojo_EventScript_BattlePidgeot_EV_Speed::
 	end
 
 SaffronCity_FightingDojo_Text_Pidgeot:
-	.string "PIDGEOT: GEEEE!$"
+	.string "{JPN}ピジョット: ピジョーー!$"
 
 SaffronCity_FightingDojo_Text_HP:
-	.string "HP$"
+	.string "{JPN}HP$"
 SaffronCity_FightingDojo_Text_Attack:
-	.string "ATK$"
+	.string "{JPN}こうげき$"
 SaffronCity_FightingDojo_Text_Defense:
-	.string "DEF$"
+	.string "{JPN}まいりましたわ\n"
+	.string "{JPN}おつよいですのね..\p"
+	.string "{JPN}このレインボーバッジ\n"
+	.string "{JPN}さしあげなくてはなりません$"
 SaffronCity_FightingDojo_Text_SpecialAttack:
-	.string "SP.ATK$"
+	.string "{JPN}とくこう$"
 SaffronCity_FightingDojo_Text_SpecialDefense:
-	.string "SP.DEF$"
+	.string "{JPN}とくぼう$"
 SaffronCity_FightingDojo_Text_Speed:
-	.string "SPD$"
+	.string "{JPN}すばやさ$"
 
 SaffronCity_FightingDojo_Text_WouldYouLikeToBattle:
-	.string "Battle {STR_VAR_1} for 3 {STR_VAR_2} EVs?$"
+	.string "{JPN}{STR_VAR_2}の きそポイント3で\n{STR_VAR_1}と たたかいますか?$"
 
 SaffronCity_FightingDojo_Text_BlackBelt:
-	.string "You enter the FIGHTING DOJO!\p"
-	.string "Here, you may hone the stats of\n"
-	.string "of your POKéMON by battle!$"
+	.string "{JPN}かくとうどうじょうへ ようこそ!\p"
+	.string "{JPN}ここでは たたかいによって\n"
+	.string "{JPN}ポケモンの のうりょくを\nきたえることが できるぞ!$"
 
 SaffronCity_FightingDojo_Text_Sign1:
-	.string "Left: HP, DEF, SDEF$"
+	.string "{JPN}ひだり: HP ぼうぎょ とくぼう$"
 
 SaffronCity_FightingDojo_Text_Sign2:
-	.string "RIGHT: ATK, SPATK, SPD$"
+	.string "{JPN}みぎ: こうげき とくこう すばやさ$"
 
 SaffronCity_FightingDojo_Text_Cooltrainer::
-	.string "Only trainers with all KANTO badges\n"
-	.string "may enter the VIP lounge.$"
+	.string "{JPN}カントーちほうの バッジを\n"
+	.string "{JPN}すべて もっている\nトレーナーのみが\nVIPラウンジに はいれます$"
 
 @Ability swapper
 
@@ -291,31 +294,31 @@ SaffronCity_FightingDojo_Ability_Finish:
 	end
 
 SaffronCity_FightingDojo_Ability_Finish_Text:
-	.string "That's it! You're welcome!$"
+	.string "{JPN}これで おしまいです!\nまた どうぞ!$"
 
 SaffronCity_FightingDojo_Ability_Text1:
-	.string "Welcome! I'm the ABILITY EXPERT!\p"
-	.string "I can swap POKéMON's abilities in\n"
-	.string "a heartbeat, only for 25.000¥!\p"
-	.string "Would you like me to swap any\n"
-	.string "POKéMON's ability?$"
+	.string "{JPN}いらっしゃい!\n"
+	.string "{JPN}わたしは とくせいの\n"
+	.string "{JPN}エキスパートです!\p"
+	.string "{JPN}ポケモンの とくせいを\n"
+	.string "{JPN}25000えんで\nこうかんできますよ!\pどの ポケモンの とくせいを\nこうかんしますか?$"
 
 SaffronCity_FightingDojo_Ability_Text_No:
-	.string "Sure. I'll be here if you need me.$"
+	.string "{JPN}そうですね また ひつようなときに\nどうぞ$"
 
 SaffronCity_FightingDojo_Ability_Text_Cant:
-	.string "I cannot do that. This POKéMON\n"
-	.string "does not have a second ABILITY!$"
+	.string "{JPN}それは できません\n"
+	.string "{JPN}この ポケモンには\n2ばんめの とくせいが\nありません!$"
 
 SaffronCity_FightingDojo_Ability_Text_NoChampion:
-	.string "Welcome! I'm the ABILITY EXPERT!\p"
-	.string "I can swap POKéMON's abilities\n"
-	.string "in a heartbeat.\p"
-	.string "Unfortunately, my back hurts and\n"
-	.string "I can't work today.\p"
-	.string "Come again later!$"
+	.string "{JPN}いらっしゃい!\n"
+	.string "{JPN}わたしは とくせいの\n"
+	.string "{JPN}エキスパートです!\p"
+	.string "{JPN}ポケモンの とくせいを\n"
+	.string "{JPN}こうかんできるのですが\p"
+	.string "{JPN}ざんねんながら こしが\nいたくて きょうは\nしごとが できません\pまた あとで きてください!$"
 
 SaffronCity_FightingDojo_SetZeroTextNoMoney:
-	.string "You don't have enough money.\p"
-	.string "Come back when you have.$"
+	.string "{JPN}おかねが たりません\p"
+	.string "{JPN}おかねを もってきてから\nまた きてください$"
 

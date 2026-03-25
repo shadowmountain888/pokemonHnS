@@ -93,63 +93,29 @@ VioletCity_PokemonCenter_Text_BookshelfWoman::
 
 
 VioletCity_PokeCenter_Text_ElmsAideFavor:
-	.string "{PLAYER}, long time, no see.\p"
-	.string "PROF.ELM asked me to find you.\p"
-	.string "He has another favor to ask.\p"
-	.string "Would you take the POKéMON EGG?$"
-
+	.string "{JPN}{PLAYER}くん\nおひさしぶりです！\pウツギはかせにたのまれて\nきみをさがしていました\pせんせいからまた\nおねがいがあるそうです\pポケモンのタマゴを\nうけとってくれますか？$"
 VioletCity_PokeCenter_Text_ElmsAideNoRoom:
-	.string "{PLAYER}, long time, no see.\p"
-	.string "PROF.ELM asked me to find you.\p"
-	.string "He has another favor to ask.\p"
-	.string "Would you take the POKéMON EGG?\p"
-	.string "Oh, wait... You need to make room\n"
-	.string "in your party first.$"
-
+	.string "{JPN}{PLAYER}くん\nおひさしぶりです！\pウツギはかせにたのまれて\nきみをさがしていました\pせんせいからまた\nおねがいがあるそうです\pポケモンのタマゴを\nうけとってくれますか？\pあ まって..てもちに\nばしょをつくってください$"
 VioletCity_PokeCenter_Text_ElmsAideGiveEgg:
-	.string "We discovered that a POKéMON won't\n"
-	.string "hatch until it grows in the EGG.\p"
-	.string "It also has to be with other\n"
-	.string "active POKéMON to hatch.\p"
-	.string "{PLAYER}, you're the only person\n"
-	.string "we can rely on.$"
-
+	.string "{JPN}ポケモンはタマゴのなかで\nせいちょうしないと\nうまれないことがわかりました\pほかのげんきなポケモンと\nいっしょでないと\nかえらないようです\p{PLAYER}くん きみしか\nたよれるひとはいないんです$"
 VioletCity_PokeCenter_Text_ElmsAideGiveItem:
-	.string "Oh, and this might help when it hatches.$"
-
+	.string "{JPN}あ それからこれも\nタマゴがかえったときに\nやくだつかもしれません$"
 VioletCity_PokeCenter_Text_ElmsAideFullParty:
-	.string "Oh, no. You can't carry any more\n"
-	.string "POKéMON with you.\p"
-	.string "I'll wait here while you make\n"
-	.string "room for the EGG.$"
-
+	.string "{JPN}あ だめですね ポケモンが\nいっぱいでそれいじょう\nつれあるけません\pタマゴのばしょをつくるまで\nここでまっています$"
 VioletCity_PokeCenter_Text_ElmsAideRefuse:
-	.string "B-but… PROF.ELM asked for you…$"
-
+	.string "{JPN}で でも..ウツギはかせが\nきみにって..$"
 VioletCity_PokeCenter_Text_BooksAreGreat:
-	.string "While my POKéMON are recovering\n"
-	.string "I love to read a good book.$"
-
+	.string "{JPN}ポケモンがかいふくしてるあいだ\nほんをよむのがすきなんだ$"
 VioletCity_PokeCenter_Text_MobileAdapter:
-	.string "I just battled a friend in\n"
-	.string "CIANWOOD over a link.\p"
-	.string "If you connect a MOBILE ADAPTER,\n"
-	.string "you can link with a friend far\l"
-	.string "away.$"
-
+	.string "{JPN}さっきアサギシティのともだちと\nつうしんでたたかったんだ\pモバイルアダプタをつなげば\nとおくのともだちとも\lつうしんできるよ$"
 VioletCity_PokeCenter_Text_GameboyKid:
-	.string "A guy named BILL made the\n"
-	.string "POKéMON PC storage system.$"
-
+	.string "{JPN}マサキってひとが\nポケモンのパソコンをつくったんだ$"
 VioletCity_PokeCenter_Text_Gentleman:
-	.string "It was around three years ago.\p"
-	.string "TEAM ROCKET was up to no good\n"
-	.string "with POKéMON.\p"
-	.string "But justice prevailed--a young\n"
-	.string "kid broke 'em up.$"
+	.string "{JPN}それは やく 3ねんまえの\n"
+	.string "{JPN}ことじゃった.\p"
+	.string "{JPN}ロケットだんが ポケモンを\n"
+	.string "{JPN}つかって わるいことを\n"
+	.string "{JPN}しておったのじゃ.\pじゃが せいぎが かった.\nひとりの わかいしょうねんが\nやつらを やっつけたのじゃ.$"
 
 VioletCity_PokeCenter_Text_Youngster:
-	.string "POKéMON are smart. They won't\n"
-	.string "obey a trainer they don't respect.\p"
-	.string "Without the right GYM BADGES,\n"
-	.string "they will just do as they please.$"
+	.string "{JPN}ポケモンはかしこい\nみとめないトレーナーにはしたがわない\pジムバッジがないと\nいうことをきいてくれないんだ$"

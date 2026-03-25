@@ -175,20 +175,18 @@ Route121_EventScript_RematchCristin::
 	end
 
 Route121_Text_OkayMoveOutToMtPyre:
-	.string "Okay!\n"
-	.string "We're to move out to MT. PYRE!$"
+	.string "{JPN}よし!\n"
+	.string "{JPN}おくりびやまに\nしゅっぱつだ!$"
 
 Route121_Text_AheadLoomsMtPyre:
-	.string "Ahead looms MT. PYRE…\p"
-	.string "It is a natural monument to the spirits \n"
-	.string "of departed POKéMON…$"
-
+	.string "{JPN}まえに そびえるのは おくりびやま...\p"
+	.string "{JPN}それは しんだ ポケモンたちの\n"
+	.string "{JPN}たましいの しぜんな きねんひ...$"
 Route121_Text_MtPyrePierSign:
-	.string "MT. PYRE PIER\p"
-	.string "…The sign is old and worn out.\n"
-	.string "The words are barely legible…$"
-
+	.string "{JPN}おくりびやま のりば\p"
+	.string "{JPN}かんばんは ふるくて ぼろぼろだ.\n"
+	.string "{JPN}もじは ほとんど よめない...$"
 Route121_Text_SafariZoneSign:
-	.string "“Filled with rare POKéMON!”\n"
-	.string "SAFARI ZONE$"
+	.string "{JPN}めずらしいポケモンが\n"
+	.string "{JPN}いっぱい!\nサファリゾーン$"
 

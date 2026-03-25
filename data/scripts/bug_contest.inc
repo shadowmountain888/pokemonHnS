@@ -19,7 +19,7 @@ BugContest_EventScript_TimesUp::
 	goto_if_eq VAR_RESULT, 1, BugContest_EventScript_Didntcatch
 	fadescreen FADE_TO_BLACK
 	setvar VAR_BUG_CONTEST_STATE, 3
-	
+
 	msgbox BugContest_Text_Judging0, MSGBOX_DEFAULT
 	closemessage
 	BugContest_EventScript_TimesUp2::
@@ -120,81 +120,82 @@ BugContest_EventScript_SideEnd::
 	end
 
 BugContest_Text_Judging0::
-	.string "The contest has now concluded.\n"
-	.string "Please pick the POKéMON you would\l"
-	.string "like to keep and have judged.$"
+	.string "{JPN}たいかいでつかう\n"
+	.string "{JPN}せんようのボールをどうぞ!\p"
+	.string "{JPN}しんさする ポケモンを\n"
+	.string "{JPN}えらんで ください$"
 
 BugContest_Text_Judging1::
-	.string "We will now judge the POKéMON\n"
-	.string "you've caught.\p"
-	.string "...................\n"
-	.string "...................\p"
-	.string "We have chosen the winners! Are\n"
-	.string "ready for this?$"
+	.string "{JPN}みなさんが つかまえた ポケモンの\n"
+	.string "{JPN}しんさを いたします!\p"
+	.string "...............\n"
+	.string "...............\p"
+	.string "{JPN}けっかはっぴょう-!!\n"
+	.string "{JPN}じゃじゃじゃーん!!$"
 
 BugContest_Text_WrongChoiceMon:
-	.string "Please pick the POKéMON you would\n"
-	.string "like to keep and have judged.$"
+	.string "{JPN}しんさする ポケモンを\n"
+	.string "{JPN}えらんで ください$"
 
 BugContest_Text_DidntCatch:
-	.string "Oh no! You didn't catch a POKéMON.\n"
-	.string "You've forfeited the competition.\p"
-	.string "Your party will now be returned.$"
+	.string "{JPN}ざんねん!\p"
+	.string "{JPN}それいじょう ポケモンを\n"
+	.string "{JPN}つかまえられないようですよ!\p"
+	.string "{JPN}あずかった ポケモンは\n"
+	.string "{JPN}おかえし しますね$"
 
 BugContest_Text_TimesUp:
-	.string "Ding-dong! Time's up!$"
+	.string "{JPN}ピンポーン! じかんを すぎたので\n"
+	.string "{JPN}むしとりたいかいは しゅうりょうです$"
 
 BugContest_Text_WhiteOut:
-	.string "{PLAYER} is out of useable POKéMON.\n"
-	.string "{PLAYER} forfeited the contest.$"
+	.string "{JPN}{PLAYER}の てもちの ポケモンは\n"
+	.string "{JPN}すべて たおれた!\p"
+	.string "{JPN}{PLAYER}は たいかいを きけん した$"
 
 BugContest_Text_First1:
-	.string "Placing third is the COOLTRAINER\n"
-	.string "BELINDA, who caught a wriggling\l"
-	.string "BUTTERFREE!$"
+	.string "{JPN}3ばんは エリコが つかまえた\n"
+	.string "{JPN}バタフリー!$"
 BugContest_Text_First2:
-	.string "Placing second is the BUGCATCHER\n"
-	.string "SHAUN, who caught a writhing\l"
-	.string "PINSIR!$"
+	.string "{JPN}2ばんは ヨウジが つかまえた\n"
+	.string "{JPN}カイロス!$"
 BugContest_Text_First3:
-	.string "This Bug-Catching Contest Winner\n"
-	.string "is...\p"
-	.string "{PLAYER}, who caught a whopping\n"
-	.string "{STR_VAR_1}!$"
+	.string "{JPN}そして! こんかいの たいかい\n"
+	.string "{JPN}1ばんの ゆうしょうしゃは...\p"
+	.string "{JPN}{STR_VAR_1}を つかまえた\n"
+	.string "{JPN}{PLAYER}さん!$"
 
 BugContest_Text_Second1:
-	.string "Placing second is the COOLTRAINER\n"
-	.string "BELINDA, who caught a wriggling\l"
-	.string "BUTTERFREE!$"
+	.string "{JPN}3ばんは エリコが つかまえた\n"
+	.string "{JPN}バタフリー!$"
 BugContest_Text_Second2:
-	.string "Placing second is {PLAYER}, who\n"
-	.string "caught a writhing {STR_VAR_1}!$"
+	.string "{JPN}2ばんは {STR_VAR_1}を つかまえた\n"
+	.string "{JPN}{PLAYER}さん!$"
 BugContest_Text_Second3:
-	.string "This Bug-Catching Contest Winner\n"
-	.string "is...\p"
-	.string "BUGCATCHER SHAUN, who caught a\n"
-	.string "whopping PINSIR!$"
+	.string "{JPN}そして! こんかいの たいかい\n"
+	.string "{JPN}1ばんの ゆうしょうしゃは...\p"
+	.string "{JPN}カイロスを つかまえた\n"
+	.string "{JPN}ヨウジさん!$"
 
 
 BugContest_Text_Third1:
-	.string "Placing third is {PLAYER}, who\n"
-	.string "caught a wriggling {STR_VAR_1}!$"
+	.string "{JPN}3ばんは {STR_VAR_1}を つかまえた\n"
+	.string "{JPN}{PLAYER}さん!$"
 BugContest_Text_Third2:
-	.string "Placing second is the COOLTRAINER\n"
-	.string "BELINDA, who caught a writhing\l"
-	.string "BUTTERFREE!$"
+	.string "{JPN}2ばんは エリコが つかまえた\n"
+	.string "{JPN}バタフリー!$"
 BugContest_Text_Third3:
-	.string "This Bug-Catching Contest Winner\n"
-	.string "is...\p"
-	.string "BUGCATCHER SHAUN, who caught a\n"
-	.string "whopping PINSIR!$"
+	.string "{JPN}そして! こんかいの たいかい\n"
+	.string "{JPN}1ばんの ゆうしょうしゃは...\p"
+	.string "{JPN}カイロスを つかまえた\n"
+	.string "{JPN}ヨウジさん!$"
 
 BugContest_Text_TakePartInFuture:
-	.string "Thank you for participating!\n"
-	.string "We hope you'll take part in the\l"
-	.string "future.$"
+	.string "{JPN}つぎの むしとりたいかいにも\n"
+	.string "{JPN}みなさん さんか してくださいね!$"
 
 BugContest_Text_TransferAndReturn:
-	.string "Your chosen BUG POKéMON will now\n"
-	.string "be sent to the PC and your party\l"
-	.string "will be returned to you.$"
+	.string "{JPN}つかまえた ポケモンは\n"
+	.string "{JPN}ボックスに てんそうされた!\p"
+	.string "{JPN}あずかった ポケモンは\n"
+	.string "{JPN}おかえし しますね$"

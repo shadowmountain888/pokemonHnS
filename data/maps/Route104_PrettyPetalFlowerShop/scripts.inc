@@ -63,14 +63,14 @@ Route104_PrettyPetalFlowerShop_EventScript_MintOwner::
 	end
 
 Route104_PrettyPetalFlowerShop_Text_Mints1:
-	.string "Our NATURE MINTS are back!\n"
-	.string "Have a look!$"
+	.string "{JPN}せいかくミントが にゅうかしたよ!\n"
+	.string "{JPN}みていってね!$"
 
 Route104_PrettyPetalFlowerShop_Text_Mints2:
-	.string "Hi, dear trainer. If you are looking\n"
-	.string "to buy NATURE MINTS, you should have\l"
-	.string "come earlier. I just sold the last one.\n"
-	.string "Come back later.$"
+	.string "{JPN}こんにちは トレーナーさん.\n"
+	.string "{JPN}せいかくミントを おかいもとめなら\l"
+	.string "{JPN}もうちょっと はやくくれば よかったのに.\n"
+	.string "{JPN}たったいま さいごのひとつを\lうってしまったの.\nまた あとできてね.$"
 
 	.align 2
 Route104_PrettyPetalFlowerShop_MintShop:

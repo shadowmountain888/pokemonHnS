@@ -100,42 +100,42 @@ Route110_TrickHousePuzzle2_EventScript_Georgia::
 	end
 
 Route110_TrickHousePuzzle2_Text_WroteSecretCodeLockOpened:
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is smart.”\n"
-	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "{JPN}{PLAYER}は ひみつの あんごうを\n"
+	.string "{JPN}ドアに かきこんだ.\p"
+	.string "{JPN}カラクリだいおうは あたまがいい.\n"
+	.string "{JPN}... ... ... ... ... ... ... ...\p"
+	.string "{JPN}カギが カチッと あいた!$"
 
 Route110_TrickHousePuzzle2_Text_TedIntro:
-	.string "Which switch closes which hole?$"
+	.string "{JPN}どの スイッチが どの あなを\nとじるんだろう?$"
 
 Route110_TrickHousePuzzle2_Text_TedDefeat:
-	.string "After that battle, I'm even more\n"
-	.string "confused!$"
+	.string "{JPN}あの バトルの あとで もっと\n"
+	.string "{JPN}わからなく なっちゃった!$"
 
 Route110_TrickHousePuzzle2_Text_TedPostBattle:
-	.string "Can I get you to push all the buttons\n"
-	.string "for me?$"
+	.string "{JPN}ぼくの かわりに ぜんぶの\n"
+	.string "{JPN}ボタンを おして くれる?$"
 
 Route110_TrickHousePuzzle2_Text_PaulIntro:
-	.string "Oh! You're on your second TRICK HOUSE\n"
-	.string "challenge!$"
+	.string "{JPN}おお! きみは 2かいめの\n"
+	.string "{JPN}トリックハウス ちょうせんだね!$"
 
 Route110_TrickHousePuzzle2_Text_PaulDefeat:
-	.string "You're good at battling too?$"
+	.string "{JPN}バトルも つよいんだね?$"
 
 Route110_TrickHousePuzzle2_Text_PaulPostBattle:
-	.string "The TRICK MASTER rigged all the tricks\n"
-	.string "in this house all by himself.$"
+	.string "{JPN}カラクリだいおうは この いえの\n"
+	.string "{JPN}トリックを ぜんぶ ひとりで つくったんだ$"
 
 Route110_TrickHousePuzzle2_Text_GeorgiaIntro:
-	.string "I want to make my own GYM one day.\n"
-	.string "So, I'm studying how to set traps.$"
+	.string "{JPN}いつか じぶんの ジムを つくりたいの\n"
+	.string "{JPN}だから わなの べんきょうを してるの$"
 
 Route110_TrickHousePuzzle2_Text_GeorgiaDefeat:
-	.string "I didn't study battling enough!$"
+	.string "{JPN}バトルの べんきょうが たりなかった!$"
 
 Route110_TrickHousePuzzle2_Text_GeorgiaPostBattle:
-	.string "You're strong, aren't you?\n"
-	.string "Maybe even enough to be a GYM LEADER!$"
+	.string "{JPN}きみって つよいのね?\n"
+	.string "{JPN}ジムリーダーに なれるくらい つよいかも!$"
 

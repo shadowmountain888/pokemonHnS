@@ -58,29 +58,26 @@ PewterCity_EventScript_Cooltrainer::
 	end
 
 PewterCity_Text_CooltrainerF:
-	.string "Have you visited PEWTER GYM?\p"
-	.string "The LEADER uses ROCK-type POKéMON.$"
-
+	.string "{JPN}ニビのジムにはいった？\p"
+	.string "{JPN}いわタイプのポケモンをつかう\n"
+	.string "{JPN}ジムリーダーがいるわよ！$"
 PewterCity_Text_BugCatcher:
-	.string "At night, CLEFAIRY come out to play at\n"
-	.string "MT.MOON.\p"
-	.string "But not every night.$"
-
+	.string "{JPN}よるになるとおつきみやまに\n"
+	.string "{JPN}ピッピがやってくるらしいよ\p"
+	.string "{JPN}まいにちじゃないみたいだけど$"
 PewterCity_Text_Gramps:
-	.string "Ah, you came all the way out here from\n"
-	.string "JOHTO?\p"
-	.string "That brings back memories. When I was\n"
-	.string "young, I went to JOHTO to train.\p"
-	.string "You remind me so much of what I was like\n"
-	.string "as a young man.\p"
-	.string "Here. I want you to have this item I\n"
-	.string "found in JOHTO.$"
-
+	.string "{JPN}ほう！\n"
+	.string "{JPN}ジョウトからはるばるきたのか！\p"
+	.string "{JPN}うむなつかしいの\n"
+	.string "{JPN}わしもわかいころジョウトで\l"
+	.string "{JPN}トレーナーしゅぎょうをしてたのだ\p"
+	.string "{JPN}きみにはしたしみがわくよ\n"
+	.string "{JPN}ジョウトでみつけたこのはね\l"
+	.string "{JPN}きみにおゆずりしようぞ！$"
 PewterCity_Text_Gramps_GotSilverWing:
-	.string "Going to new, unknown places and seeing\n"
-	.string "new people…\p"
-	.string "Those are the joys of travel.$"
-
+	.string "{JPN}いろんなところへいき\n"
+	.string "{JPN}いろんなはっけんをする\l"
+	.string "{JPN}それがたびのだいごみなんだ$"
 PewterCity_EventScript_CitySign::
 	msgbox PewterCity_Text_Sign, MSGBOX_NPC
 	end
@@ -102,23 +99,18 @@ PewterCity_EventScript_WelcomeSign::
 	end
 
 PewterCity_Text_Sign:
-	.string "PEWTER CITY\n"
-	.string "A Stone Gray City$"
+	.string "{JPN}ニビシティ\n"
+	.string "{JPN}いしのいろの まち$"
 
 PewterCity_Text_GymSign:
-	.string "PEWTER CITY POKéMON GYM\n"
-	.string "LEADER: BROCK\p"
-	.string "The Rock Solid POKéMON Trainer$"
-
+	.string "{JPN}ニビシティポケモンジム\n"
+	.string "{JPN}リーダータケシ\l"
+	.string "{JPN}つよくてかたいいしのおとこ$"
 PewterCity_Text_MuseumSign:
-	.string "There's a notice here…\p"
-	.string "PEWTER MUSEUM OF SCIENCE is closed for\n"
-	.string "renovations…$"
-
+	.string "{JPN}ニビかがくはくぶつかん$"
 PewterCity_Text_MtMoonGiftShopSign:
-	.string "There's a notice here…\p"
-	.string "MT.MOON GIFT SHOP NOW OPEN!$"
+	.string "{JPN}おしらせが はってある...\p"
+	.string "{JPN}おつきみやま ギフトショップ\nオープンしました!$"
 
 PewterCity_Text_WelcomeSign:
-	.string "WELCOME TO PEWTER CITY!$"
-
+	.string "{JPN}ようこそニビシティへ！$"

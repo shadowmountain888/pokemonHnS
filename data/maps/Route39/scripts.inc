@@ -136,43 +136,42 @@ Route39_EventScript_BaobaIntro::
 	end
 
 Route39_Text_ChooseLegend::
-	.string "BAOBA: GOOD HEAVENS! Did that\n"
-	.string "shadow belong to a POKéMON?\p"
-	.string "Did you get a good look at it?\n"
-	.string "I can't tell what color it was...$"
+	.string "{JPN}バオバ: たいへんじゃ! あの\n"
+	.string "{JPN}かげは ポケモンのものか?\p"
+	.string "{JPN}ちゃんと みることは\n"
+	.string "{JPN}できたかの?\lなにいろだったか\nわからんのう...$"
 
 Route39_Text_BaobaIntro::
-	.string "How strange...\p"
-	.string "...Ohh!\n"
-	.string "What you are holding is...\l"
-	.string "what they call... a POKéDEX!\p"
-	.string "Haven't seen one of those in ages.\p"
-	.string "My name is BAOBA!\n"
-	.string "I used to run a SAFARI ZONE in\l"
-	.string "FUCHSIA CITY, but it was becoming\l"
-	.string "out of date with new entertainment\l"
-	.string "options coming out.\p"
-	.string "I decided to go overseas to learn\n"
-	.string "the newest technology and open a\l"
-	.string "state-of-the-art SAFARI ZONE\l"
-	.string "in CIANWOOD.\p"
-	.string "It may be more than a coincidence\n"
-	.string "that we are chatting.\p"
-	.string "Why don't we register each other's\n"
-	.string "numbers in the POKéGEAR?\p"
-	.string "I can give you a call once the\n"
-	.string "SAFARI ZONE is open before I call\l"
-	.string "anyone else!$"
-
+	.string "{JPN}..ぬぬぬ？\n"
+	.string "{JPN}きみがもっているのは\l"
+	.string "{JPN}あれだな？ポケモンずかん？\p"
+	.string "{JPN}なーつかしーなー\p"
+	.string "{JPN}わたしのなまえはバオバ！\p"
+	.string "{JPN}いぜんはセキチクシティで\n"
+	.string "{JPN}サファリをうんえいしていたが\l"
+	.string "{JPN}よのなかあたらしいごらくが\l"
+	.string "{JPN}つぎつぎととうじょうするでな\p"
+	.string "{JPN}じだいおくれになっておったのだよ\n"
+	.string "{JPN}わたしのサファリがな！\p"
+	.string "{JPN}そこで！わたしは！\n"
+	.string "{JPN}がいこくでぎじゅつをまなび\l"
+	.string "{JPN}さいしんがたのサファリを\l"
+	.string "{JPN}タンバでオープンすることに\l"
+	.string "{JPN}したのであーる！\p"
+	.string "{JPN}ここできみとであったのも\n"
+	.string "{JPN}なにかのえん\p"
+	.string "{JPN}おたがいのでんわばんごうを\n"
+	.string "{JPN}とうろくしようではないか\l"
+	.string "{JPN}ポケギアに！\p"
+	.string "{JPN}サファリゾーンがかんせいしたら\n"
+	.string "{JPN}まっさきにしらせるぞ！$"
 Route39_Text_Registered:
-	.string "{PLAYER} registered BAOBA\n"
-	.string "in the POKéGEAR!$"
-
+	.string "{JPN}{PLAYER}はバオバを\n"
+	.string "{JPN}ポケギアにとうろくした！$"
 
 Route39_Text_WillCall:
-	.string "BAOBA: I'll let you know\n"
-	.string "on the POKéGEAR soon!$"
-
+	.string "{JPN}ではかんせいしたら\n"
+	.string "{JPN}れんらくしようポケギアで！$"
 Route39_Movement_BaobaLeave:
 	walk_left
 	walk_left
@@ -221,8 +220,8 @@ Route39_EventScript_Woman::
 	end
 
 Route39_Text_Woman:
-	.string "That shadow... Maybe it was a giant\n"
-	.string "PIDGEY?$"
+	.string "{JPN}あの かげ... もしかしたら\n"
+	.string "{JPN}おおきな ピジョンかしら?$"
 
 Route39_EventScript_Miltank::
 	lock
@@ -235,25 +234,24 @@ Route39_EventScript_Miltank::
 	end
 
 Route39_Text_Miltank:
-	.string "MILTANK: Mooo!$"
-
+	.string "{JPN}ンモー！$"
 Route39_EventScript_Eugene::
 	trainerbattle_single TRAINER_EUGENE, Route39_Text_SailorEugeneSeen, Route39_Text_SailorEugeneBeaten
 	msgbox Route39_Text_SailorEugeneAfter, MSGBOX_AUTOCLOSE
 	end
 
 Route39_Text_SailorEugeneSeen:
-	.string "I just got back to OLIVINE.\p"
-	.string "So how about a POKéMON battle?$"
+	.string "{JPN}アサギシティに\n"
+	.string "{JPN}もどってきたばかりさ.\pポケモンしょうぶは\nどうだい?$"
 
 Route39_Text_SailorEugeneBeaten:
-	.string "Awaaargh!$"
+	.string "{JPN}うわあああ!$"
 
 Route39_Text_SailorEugeneAfter:
-	.string "My POKéMON were caught and\n"
-	.string "raised overseas.\p"
-	.string "They're my companions on\n"
-	.string "those long voyages.$"
+	.string "{JPN}おれの ポケモンは\n"
+	.string "{JPN}かいがいで つかまえて\l"
+	.string "{JPN}そだてたんだ.\p"
+	.string "{JPN}ながい こうかいの\nなかまたちさ.$"
 
 Route39_EventScript_Derek::
 	trainerbattle_single TRAINER_DEREK, Route39_Text_PokefanMDerekSeen, Route39_Text_PokefanMDerekBeaten
@@ -261,18 +259,17 @@ Route39_EventScript_Derek::
 	end
 
 Route39_Text_PokefanMDerekSeen:
-	.string "This is a good time to brag\n"
-	.string "about my PIKACHU!$"
+	.string "{JPN}おれの ピカチュウを\n"
+	.string "{JPN}じまんする ちょうど\lいいときだな!$"
 
 Route39_Text_PokefanMDerekBeaten:
-	.string "I had no time to show off\n"
-	.string "PIKACHU…$"
-
+	.string "{JPN}ピカチュウを\n"
+	.string "{JPN}みせびらかす じかんが\nなかったよ...$"
 Route39_Text_PokefanMDerekAfter:
-	.string "I'm not listening to your\n"
-	.string "bragging!\p"
-	.string "We POKé FANS have a policy\n"
-	.string "of not listening to bragging!$"
+	.string "{JPN}きみの じまんは\n"
+	.string "{JPN}きかないぞ!\p"
+	.string "{JPN}われわれ ポケモンファンは\n"
+	.string "{JPN}じまんを きかない\lしゅぎなんだ!$"
 
 Route39_EventScript_Ruth::
 	trainerbattle_single TRAINER_RUTH, Route39_Text_PokefanFRuthSeen, Route39_Text_PokefanFRuthBeaten
@@ -280,17 +277,17 @@ Route39_EventScript_Ruth::
 	end
 
 Route39_Text_PokefanFRuthSeen:
-	.string "Such darling POKéMON.\p"
-	.string "Let's show our POKéMON\n"
-	.string "together at the same time.$"
+	.string "{JPN}なんて かわいい\n"
+	.string "{JPN}ポケモンたち.\p"
+	.string "{JPN}いっしょに ポケモンを\nみせあいましょう.$"
 
 Route39_Text_PokefanFRuthBeaten:
-	.string "I don't mind losing.$"
+	.string "{JPN}まけても へいきよ.$"
 
 Route39_Text_PokefanFRuthAfter:
-	.string "Do you know about baby\n"
-	.string "POKéMON?\p"
-	.string "I bet they're just adorable!$"
+	.string "{JPN}ベイビィポケモンって\n"
+	.string "{JPN}しってる?\p"
+	.string "{JPN}ぜったい かわいいに\nきまってるわ!$"
 
 Route39_EventScript_Norman::
 	trainerbattle_single TRAINER_NORMAN, Route39_Text_PsychicNormanSeen, Route39_Text_PsychicNormanBeaten
@@ -298,19 +295,19 @@ Route39_EventScript_Norman::
 	end
 
 Route39_Text_PsychicNormanSeen:
-	.string "Let me see what your\n"
-	.string "POKéMON are capable of.$"
+	.string "{JPN}きみの ポケモンの\n"
+	.string "{JPN}のうりょくを みせて\lもらおう.$"
 
 Route39_Text_PsychicNormanBeaten:
-	.string "Ooh, your POKéMON have\n"
-	.string "potential.$"
+	.string "{JPN}おお  きみの ポケモンには\n"
+	.string "{JPN}かのうせいが あるね.$"
 
 Route39_Text_PsychicNormanAfter:
-	.string "You know how POKéMON have\n"
-	.string "different abilities?\p"
-	.string "People are like that too.\n"
-	.string "Everyone has different\l"
-	.string "potential.$"
+	.string "{JPN}ポケモンに それぞれ\n"
+	.string "{JPN}ちがう のうりょくが あるの\l"
+	.string "{JPN}しってるかい?\p"
+	.string "{JPN}ひとも おなじだよ.\n"
+	.string "{JPN}みんな ちがう\lかのうせいを もってるんだ.$"
 
 Route39_EventScript_Jamie::
 	trainerbattle_single TRAINER_JAMIE, Route39_Text_PokefanFJaimeSeen, Route39_Text_PokefanFJaimeBeaten
@@ -318,22 +315,21 @@ Route39_EventScript_Jamie::
 	end
 
 Route39_Text_PokefanFJaimeSeen:
-	.string "You came at just the right\n"
-	.string "time.\p"
-	.string "Let's battle.$"
+	.string "{JPN}ちょうど いい タイミングで\n"
+	.string "{JPN}きたのね.\p"
+	.string "{JPN}しょうぶしましょう.$"
 
 Route39_Text_PokefanFJaimeBeaten:
-	.string "Oh, how disappointing…$"
-
+	.string "{JPN}あら がっかり...$"
 Route39_Text_PokefanFJaimeAfter:
-	.string "I met UMBREON at night right\n"
-	.string "here on ROUTE 39.\p"
-	.string "I'm not sure why, but it\n"
-	.string "seems to like it when I\l"
-	.string "train here.\p"
-	.string "It seems to become friendlier\n"
-	.string "by training here than\l"
-	.string "anywhere else.$"
+	.string "{JPN}ブラッキーと であったのは\n"
+	.string "{JPN}よるの 39ばんどうろ\l"
+	.string "{JPN}だったの.\p"
+	.string "{JPN}なぜか ここで\n"
+	.string "{JPN}トレーニングすると\l"
+	.string "{JPN}よろこぶみたい.\p"
+	.string "{JPN}ほかの ばしょより\n"
+	.string "{JPN}ここで そだてると\lなつきやすいのよ.$"
 
 Route39_EventScript_Sign1::
 	lock
@@ -343,8 +339,8 @@ Route39_EventScript_Sign1::
 	end
 
 Route39_Text_Sign:
-	.string "ROUTE 39\p"
-	.string "OLIVINE CITY - ECRUTEAK CITY$"
+	.string "{JPN}39ばんどうろ\p"
+	.string "{JPN}アサギシティ - エンジュシティ$"
 
 Route39_EventScript_Sign2::
 	lock
@@ -354,9 +350,9 @@ Route39_EventScript_Sign2::
 	end
 
 Route39_Text_MoomooFarmSign:
-	.string "MOOMOO FARM\p"
-	.string "Enjoy Our Fresh and Tasty Milk$"
-
+	.string "{JPN}ここはモーモーぼくじょう\n"
+	.string "{JPN}とってもおいしい\l"
+	.string "{JPN}しぼりたてのミルクをどうぞ！$"
 Route39_EventScript_Sign3::
 	lock
 	msgbox Route39_Text_TrainerTips, MSGBOX_SIGN
@@ -365,10 +361,8 @@ Route39_EventScript_Sign3::
 	end
 
 Route39_Text_TrainerTips:
-	.string "TRAINER TIPS\p"
-	.string "Use HEADBUTT on trees to shake\n"
-	.string "POKéMON out.\p"
-	.string "Different kinds of POKéMON\n"
-	.string "drop out of trees.\p"
-	.string "Use HEADBUTT on any tree\n"
-	.string "you see!$"
+	.string "{JPN}おとくなけいじばん！\p"
+	.string "{JPN}ずつきできをゆらしたとき\n"
+	.string "{JPN}おちてくるポケモンは\l"
+	.string "{JPN}きによっていろいろです\p"
+	.string "{JPN}いろんなきにずつきをしよう！$"

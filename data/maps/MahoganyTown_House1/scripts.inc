@@ -18,16 +18,13 @@ MahoganyTown_House1_EventScript_TeacherDuring::
 
 
 MahoganyRedGyaradosHouse_Text_BlackBelt:
-    .string "I heard that a red GYARADOS appeared\n"
-    .string "at the LAKE.\p"
-    .string "That's odd, since even ordinary\n"
-    .string "GYARADOS are rare in that lake…$"
-
+    .string "{JPN}なんだなんだ\n"
+	.string "{JPN}ロケットだんふっかつしたのか？\p"
+	.string "{JPN}いかりのみずうみで\n"
+	.string "{JPN}くろずくめのやつをみかけたんだが$"
 MahoganyRedGyaradosHouse_Text_Teacher:
-    .string "My favorite radio program? I'd say\n"
-    .string "POKéMON MUSIC.$"
-
+	.string "{JPN}すきなラジオばんぐみ？\nポケモンおんがくですね$"
 MahoganyRedGyaradosHouse_Text_Teacher_Rockets:
-    .string "I've been hearing laughter on the\n"
-    .string "radio…\p"
-    .string "It's creepy.$"
+    .string "{JPN}ポケモンはしんかするとね\n"
+	.string "{JPN}ちからづよくなるけど\l"
+	.string "{JPN}わざをおぼえるのはおそくなるの$"

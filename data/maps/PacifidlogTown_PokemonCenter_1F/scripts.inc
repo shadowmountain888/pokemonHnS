@@ -30,21 +30,21 @@ PacifidlogTown_PokemonCenter_1F_EventScript_OldMan::
 	end
 
 PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard:
-	.string "What color is your TRAINER CARD?\n"
-	.string "Mine's copper!$"
+	.string "{JPN}きみの トレーナーカードって\n"
+	.string "{JPN}なにいろ?\lぼくのは どういろだよ!$"
 
 PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola:
-	.string "PACIFIDLOG TOWN floats on top of\n"
-	.string "a colony of CORSOLA.\p"
-	.string "If I told you that, would you believe\n"
-	.string "me?$"
+	.string "{JPN}パシフィックタウンは\n"
+	.string "{JPN}サニーゴの ぐんたいの\l"
+	.string "{JPN}うえに うかんでるんだ.\p"
+	.string "{JPN}そんなこと いったら\nしんじてくれる?$"
 
 PacifidlogTown_PokemonCenter_1F_Text_AncestorsLivedOnBoats:
-	.string "The ancestors of the people in\n"
-	.string "PACIFIDLOG were said to have been\l"
-	.string "born on boats and then lived and died \l"
-	.string "aboard them.\p"
-	.string "I understand that they lived that way\n"
-	.string "because they were searching for\l"
-	.string "something.$"
+	.string "{JPN}パシフィックの ひとたちの\n"
+	.string "{JPN}せんぞは ふねのうえで\l"
+	.string "{JPN}うまれて ふねのうえで\l"
+	.string "{JPN}いきて しんだって いわれてる.\p"
+	.string "{JPN}なにかを さがしていたから\n"
+	.string "{JPN}そんな せいかつを\l"
+	.string "{JPN}していたんだって きいたよ.$"
 

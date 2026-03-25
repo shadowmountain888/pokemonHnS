@@ -28,30 +28,20 @@ OlivineCityHouse3_EventScriptFishingGuruRefused::
 	end
 
 OlivineCity_Text_OfferGoodRod:
-	.string "OLIVINE is on the sea!\p"
-	.string "And if it's on the sea, there\n"
-	.string "are bound to be fish!\p"
-	.string "I've fished here for 30 years.\p"
-	.string "Would you like to face the sea\n"
-	.string "and try your hand at fishing?$"
-
+	.string "{JPN}アサギといえばうみ！\n"
+	.string "{JPN}うみといえばつり！\p"
+	.string "{JPN}わしはここで30ねん\n"
+	.string "{JPN}つりをしとるんだ\p"
+	.string "{JPN}きみもうみにむかって\n"
+	.string "{JPN}つりでちょうせんしてみるかね？$"
 OlivineCity_Text_GiveGoodRod:
-	.string "Ah, hahah! We have ourselves\n"
-	.string "a new angler in the making!$"
-
+	.string "{JPN}おっほっほう！\n"
+	.string "{JPN}つりびとたんじょうだ！$"
 OlivineCity_Text_GaveGoodRod:
-	.string "Fish aren't only found in the\n"
-	.string "sea--they're wherever there's\l"
-	.string "water.\p"
-	.string "By the way, your POKéDEX shows\n"
-	.string "fishing groups for POKéMON.\p"
-	.string "Different spots may contain\n"
-	.string "similar fish types.$"
-
+	.string "{JPN}さかなはうみだけじゃなく\nみずのあるところならどこにでも\lいるんだよ\pところでポケモンずかんには\nつりでつかまえたなかまがでるぞ\pばしょによってにたような\nさかなポケモンがつれるんだ$"
 OlivineCity_Text_DontWantGoodRod:
-	.string "Whaaat? You don't like to fish!?\n"
-	.string "That's incomprehensible!$"
-
+	.string "{JPN}なんじゃと！\n"
+	.string "{JPN}つりがきらい！しんじられんのお$"
 OlivineCity_Text_HaveGoodRod:
-	.string "How are things?\n"
-	.string "Did you land the big one?$"
+	.string "{JPN}どう？\n"
+	.string "{JPN}おおものつれたかね？$"

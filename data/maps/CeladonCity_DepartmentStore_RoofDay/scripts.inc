@@ -27,27 +27,24 @@ CeladonDept6_EventScript_Directory::
 
 
 CeladonDeptStore6F_Text_Vending:
-	.string "A vending machine! Here's the menu.$"
+	.string "{JPN}じはんきだ!\nメニューをみてみよう.$"
 
 CeladonDeptStore6F_Text_Clang:
-	.string "Clang!\p"
-	.string "{STRING} popped out.$"
+	.string "{JPN}ガシャン!\p"
+	.string "{JPN}{STRING}がでてきた.$"
 
 CeladonDeptStore6F_Text_VendingNoMoney:
-	.string "Oops, not enough money…$"
-
+	.string "{JPN}あ おかねが たりません...$"
 CeladonDeptStore6F_Text_VendingNoSpace:
-	.string "There's no more room for stuff…$"
-
+	.string "{JPN}もう もちものが いっぱいです...$"
 CeladonDeptStore6F_Text_SuperNerd:
-	.string "A vending machine with a prize\n"
-	.string "roulette…\p"
-	.string "You never see those anymore.$"
+	.string "{JPN}けいひんルーレットつきの\n"
+	.string "{JPN}じはんき...\p"
+	.string "{JPN}もう みかけないなあ.$"
 
 CeladonDeptStore6F_Text_Youngster:
-	.string "Aww! There's no games here!\p"
-	.string "I wanted to play…$"
-
+	.string "{JPN}えーっ! ここには ゲームが\n"
+	.string "{JPN}ないの!\pやりたかったのに...$"
 CeladonDeptStore6F_Text_Directory:
-	.string "6F: ROOFTOP SQUARE VENDING\n"
-	.string "MACHINES$"
+	.string "{JPN}6F: おくじょうひろば\n"
+	.string "{JPN}じはんきコーナー$"

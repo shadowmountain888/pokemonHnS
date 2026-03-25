@@ -67,39 +67,39 @@ EverGrandeCity_PhoebesRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_PhoebesRoom_Text_IntroSpeech:
-	.string "Ahahaha!\p"
-	.string "I'm PHOEBE of the ELITE FOUR.\n"
-	.string "I did my training on MT. PYRE.\p"
-	.string "While I trained, I gained the ability\n"
-	.string "to commune with GHOST-type POKéMON.\p"
-	.string "Yes, the bond I developed with POKéMON\n"
-	.string "is extremely tight.\p"
-	.string "So, come on, just try and see if you can\n"
-	.string "even inflict damage on my POKéMON!$"
+	.string "{JPN}あはははっ!\p"
+	.string "{JPN}わたし してんのう の フヨウ よ.\n"
+	.string "{JPN}おくりびやま で しゅぎょう したの.\p"
+	.string "{JPN}しゅぎょう ちゅう に ゴースト\n"
+	.string "{JPN}タイプ の ポケモン と はなせる\l"
+	.string "{JPN}ようになったのよ.\p"
+	.string "{JPN}そう ポケモン と の きずな は\n"
+	.string "{JPN}とても ふかく なったわ.\p"
+	.string "{JPN}さあ わたし の ポケモン に\nダメージ を あたえられるか\lためして みなさい!$"
 
 EverGrandeCity_PhoebesRoom_Text_IntroSpeech2:
-	.string "Ahahaha! It's you again!\p"
-	.string "I'm PHOEBE of the ELITE FOUR.\n"
-	.string "The bond I developed with my POKéMON\l"
-	.string "has grown even stronger!\p"
-	.string "So just try and see if you can even\n"
-	.string "inflict damage on my POKéMON.\p"
-	.string "Because it won't be like last time!$"
+	.string "{JPN}あはははっ! また あなた ね!\p"
+	.string "{JPN}わたし してんのう の フヨウ よ.\n"
+	.string "{JPN}ポケモン と の きずな は\l"
+	.string "{JPN}もっと つよく なったの!\p"
+	.string "{JPN}だから わたし の ポケモン に\n"
+	.string "{JPN}ダメージ を あたえられるか\l"
+	.string "{JPN}ためして みなさい.\pまえ みたいに は いかないから!$"
 
 EverGrandeCity_PhoebesRoom_Text_Defeat:
-	.string "Oh, darn.\n"
-	.string "I've gone and lost.$"
+	.string "{JPN}あら まいったわ.\n"
+	.string "{JPN}まけちゃった.$"
 
 EverGrandeCity_PhoebesRoom_Text_Defeat2:
-	.string "Oh, darn…\n"
-	.string "It happened again.$"
+	.string "{JPN}あら だめ...\n"
+	.string "{JPN}また やられちゃった.$"
 
 EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech:
-	.string "There's a definite bond between you\n"
-	.string "and your POKéMON, too.\p"
-	.string "I didn't recognize it, so it's only\n"
-	.string "natural that I lost.\p"
-	.string "Yup, I'd like to see how far your bond\n"
-	.string "will carry you.\p"
-	.string "Go ahead, move on to the next room.$"
+	.string "{JPN}あなた と ポケモン の あいだ にも\n"
+	.string "{JPN}たしかな きずな が あるのね.\p"
+	.string "{JPN}わたし それ に きづかなかった\n"
+	.string "{JPN}から まける の が しぜん よ.\p"
+	.string "{JPN}うん あなた の きずな が\n"
+	.string "{JPN}どこまで はこんで くれるか\l"
+	.string "{JPN}みて みたいわ.\nさあ つぎ の へや へ すすんで.$"
 

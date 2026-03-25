@@ -25,26 +25,26 @@ MossdeepCity_House3_EventScript_DeclineSuperRod::
 	end
 
 MossdeepCity_House3_Text_YouWantSuperRod:
-	.string "Hey there, TRAINER!\n"
-	.string "A SUPER ROD really is super!\p"
-	.string "Say all you want, but this baby can\n"
-	.string "catch POKéMON off the seafloor!\p"
-	.string "What do you think?\n"
-	.string "You want it, don't you?$"
+	.string "{JPN}やあ トレーナー!\n"
+	.string "{JPN}スーパーつりざおは\l"
+	.string "{JPN}ほんとうにスーパーだよ!\p"
+	.string "{JPN}をいおうと これなら\n"
+	.string "{JPN}うみののポケモンだって\l"
+	.string "{JPN}つれちゃうんだ!\pどうだい?\nほしいだろう?$"
 
 MossdeepCity_House3_Text_SuperRodIsSuper:
-	.string "You bet, you bet!\n"
-	.string "After all, a SUPER ROD is really super!$"
+	.string "{JPN}そうそう そのとおり!\n"
+	.string "{JPN}やっぱりスーパーつりざおは\lほんとうにスーパーだからね!$"
 
 MossdeepCity_House3_Text_TryDroppingRodInWater:
-	.string "If there's any water, try dropping in\n"
-	.string "your ROD and see what bites!$"
+	.string "{JPN}みずがあるところなら \n"
+	.string "{JPN}つりざおをたらしてみて\lなにがつれるかためしてね!$"
 
 MossdeepCity_House3_Text_DontYouLikeToFish:
-	.string "Hunh?\n"
-	.string "Don't you like to fish?$"
+	.string "{JPN}えっ?\n"
+	.string "{JPN}つりはすきじゃないのかい?$"
 
 MossdeepCity_House3_Text_GoAfterSeafloorPokemon:
-	.string "Go after the seafloor POKéMON with\n"
-	.string "your SUPER ROD.$"
+	.string "{JPN}スーパーつりざおで\n"
+	.string "{JPN}うみののポケモンを\lねらってみてくれ.$"
 

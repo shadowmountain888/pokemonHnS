@@ -18,12 +18,7 @@ GoldenrodDeptStore6_EventScript_Whitney::
 	end
 
 GoldenrodDeptStore6_Text_Whitney:
-	.string "{PLAYER}! Fancy seeing you here!\p"
-	.string "I'm picking up something for\n"
-	.string "my MILTANK.\p"
-	.string "If you want another battle, come to\n"
-	.string "the FIGHTING DOJO!$"
-
+	.string "{JPN}{PLAYER}ちゃん！こんなところで\nあうなんて！\pわたしミルタンクの\nものをかいにきたの\pまたしょうぶしたいなら\nかくとうどうじょうにきてね！$"
 GoldenrodCity_DepartmentStore_6F_EventScript_Jose::
 	lock
 	faceplayer
@@ -71,25 +66,21 @@ GoldenrodCity_DepartmentStore_6F_EventScript_TradeCompleted::
 	end
 
 GoldenrodCity_DepartmentStore_6F_Text_YouWillTradeWontYou:
-	.string "I collect POKéMON!\n"
-	.string "Do you have a {STR_VAR_1}?\p"
-	.string "Want to trade it for my\n"
-	.string "{STR_VAR_2}?$"
-
+	.string "{JPN}ボクポケモンあつめてるんだ！\n"
+	.string "{JPN}キミはスリープをもってる？\p"
+	.string "{JPN}ボクのワンリキーと\n"
+	.string "{JPN}こうかんしようよ？$"
 GoldenrodCity_DepartmentStore_6F_Text_MonYouTakeCare:
-	.string "Yay! I got myself {STR_VAR_1}!\p"
-	.string "{STR_VAR_2}, you take care!$"
-
+	.string "{JPN}やったあ！{STR_VAR_1}を\nてにいれたよ！\p{STR_VAR_2}げんきでね！$"
 GoldenrodCity_DepartmentStore_6F_Text_ThisIsntAMon:
-	.string "Uh, no, I don't think so.\n"
-	.string "That isn't a {STR_VAR_1}.$"
-
+	.string "{JPN}ええっとちがうとおもう\nそれは{STR_VAR_1}じゃないよ$"
 GoldenrodCity_DepartmentStore_6F_Text_YouWontTradeMe:
-	.string "You don't want to trade? Aww...$"
-
+	.string "{JPN}とりかえてくれないの？\n"
+	.string "{JPN}ちぇっがっかりだなあ..$"
 GoldenrodCity_DepartmentStore_6F_Text_After:
-	.string "Hi, how's my old MACHOP doing?$"
-
+	.string "{JPN}やあっ！\n"
+	.string "{JPN}ボクととりかえたワンリキー\l"
+	.string "{JPN}げんき？$"
 
 GoldenrodDeptStore6_EventScript_Lass::
 	lock
@@ -116,19 +107,11 @@ GoldenrodDeptStore6_EventScript_Sign::
 	end
 
 GoldenrodDeptStore_Text_6FLass:
-    .string "Do you listen to LUCKY CHANNEL?\p"
-    .string "They say if you want to win,\n"
-	.string "you should trade POKéMON with as\l"
-    .string "many people as possible to get\l"
-    .string "different ID numbers.\p"
-	.string "However, trading isn't as widely\n"
-	.string "available as it once was.$"
-
+	.string "{JPN}ラッキーチャンネルきいてる？\pかちたいならできるだけ\nたくさんのひととポケモン\lこうかんしていろんな\lばんごうをあつめるといいって\pでもこうかんはまえほど\nかんたんじゃないのよね$"
 GoldenrodDeptStore_Text_6FSuperNerd:
-    .string "If you're tired, try the vending\n"
-    .string "machine's drinks.\p"
-    .string "Your POKéMON will love them too.$"
-
+    .string "{JPN}つかれたときはじどうはんばいきの\n"
+	.string "{JPN}のみものが1ばん！\l"
+	.string "{JPN}ポケモンものみものだいすきなんだ$"
 GoldenrodDeptStore_Text_6FDirectory:
-    .string "Take a Break from Shopping!\p"
-    .string "6F TRANQUIL SQUARE$"
+    .string "{JPN}おかいものにつかれたら\n"
+	.string "{JPN}6かい..いこいのひろば$"

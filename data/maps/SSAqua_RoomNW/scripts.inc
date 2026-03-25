@@ -40,37 +40,36 @@ SSAqua_RoomNW_EventScript_Corey::
 
 
 SSAqua_RoomNW_Text_SailorStanlySeen:
-	.string "Yeah, I'm a sailor, all right.\p"
-	.string "I wasn't goofing off!\p"
-	.string "This cabin was vacant, so I\n"
-	.string "just took a quick nap!\p"
-	.string "Ah, forget it! Let's battle!$"
+	.string "{JPN}そうさ おれは\n"
+	.string "{JPN}ふなのりだ.\p"
+	.string "{JPN}さぼってたわけじゃ\n"
+	.string "{JPN}ないぞ!\p"
+	.string "{JPN}このキャビンが\nからっぽだったから\nちょっと ひるねを\nしただけだ!\pあー もう いい!\nしょうぶだ!$"
 
 SSAqua_RoomNW_Text_SailorStanlyBeaten:
-	.string "Sorry! It's all my fault!$"
+	.string "{JPN}すまん! おれが\nわるかった!$"
 
 SSAqua_RoomNW_Text_SailorStanlyAfterBattle:
-	.string "Being a sailor, I have to do\n"
-	.string "physical labor. It's exhausting!$"
+	.string "{JPN}ふなのりは からだを\n"
+	.string "{JPN}つかう しごとだから\nつかれるんだ!$"
 
 SSAqua_RoomNW_Text_GentlemanEdwardSeen:
-	.string "Oh, no. I've lost something\n"
-	.string "that's very important.$"
+	.string "{JPN}おお こまった.\n"
+	.string "{JPN}とても だいじな ものを\nなくして しまった.$"
 
 SSAqua_RoomNW_Text_GentlemanEdwardBeaten:
-	.string "I… I can't find it…$"
-
+	.string "{JPN}わ... わたしは それを\nみつけられない...$"
 SSAqua_RoomNW_Text_GentlemanEdwardAfterBattle:
-	.string "I give up. You don't have to\n"
-	.string "look.\p"
-	.string "Just forget about it!$"
+	.string "{JPN}あきらめます.\n"
+	.string "{JPN}さがさなくても\n"
+	.string "{JPN}いいですよ.\pわすれて ください!$"
 
 SSAqua_RoomNW_Text_BurglarCoreySeen:
-	.string "Yeehaw! Lucky!$"
+	.string "{JPN}イーハー! ついてる!$"
 
 SSAqua_RoomNW_Text_BurglarCoreyBeaten:
-	.string "How unlucky! I lost!$"
+	.string "{JPN}なんて ついてない!\nまけちまった!$"
 
 SSAqua_RoomNW_Text_BurglarCoreyAfterBattle:
-	.string "I found a pretty coin here.\p"
-	.string "Someone must have lost it…$"
+	.string "{JPN}ここで きれいな コインを\n"
+	.string "{JPN}みつけたよ.\pだれかが おとしたんだろうな...$"

@@ -186,219 +186,213 @@ LavaridgeTown_Gym_1F_EventScript_GymStatue::
 	end
 
 LavaridgeTown_Gym_1F_Text_GymGuideAdvice:
-	.string "Hey, how's it going, CHAMPION-\n"
-	.string "bound {PLAYER}?\p"
-	.string "LAVARIDGE's GYM LEADER FLANNERY\n"
-	.string "uses FIRE-type POKéMON.\p"
-	.string "Her passion for POKéMON burns stronger\n"
-	.string "and hotter than a volcano.\p"
-	.string "Don't get too close to her--you'll burn!\n"
-	.string "Hose her down with water and then\l"
-	.string "go for it!$"
+	.string "{JPN}よう ちょうしはどうだい\n"
+	.string "{JPN}チャンピオンをめざす\l"
+	.string "{JPN}{PLAYER}よ?\p"
+	.string "{JPN}フエンタウンのジムリーダー\n"
+	.string "{JPN}アスナは ほのおタイプの\l"
+	.string "{JPN}ポケモンをつかうぞ!\p"
+	.string "{JPN}ポケモンへのじょうねつは\n"
+	.string "{JPN}かざんよりも あつく もえている\l"
+	.string "{JPN}んだ!\pちかづきすぎると やけどするぞ!\nみずでけしてから\lアタックだ!$"
 
 LavaridgeTown_Gym_1F_Text_GymGuidePostVictory:
-	.string "Yow! That was a scorching-hot battle!$"
+	.string "{JPN}うわあ! あっついバトルだったぜ!$"
 
 LavaridgeTown_Gym_1F_Text_ColeIntro:
-	.string "Owowowowow!\n"
-	.string "Yikes, it's hot!$"
+	.string "{JPN}あついあついあつい!\n"
+	.string "{JPN}うわあ あつい!$"
 
 LavaridgeTown_Gym_1F_Text_ColeDefeat:
-	.string "I'm blinded by sweat in my eyes…$"
-
+	.string "{JPN}あせがめにはいって\nまえがみえない...$"
 LavaridgeTown_Gym_1F_Text_ColePostBattle:
-	.string "Being buried in hot sand promotes\n"
-	.string "circulation.\p"
-	.string "It's effective for healing pain in\n"
-	.string "your joints.$"
+	.string "{JPN}あつい すなに うまると\n"
+	.string "{JPN}けつえきじゅんかんが よくなるんだ\p"
+	.string "{JPN}かんせつの いたみを なおすのに\n"
+	.string "{JPN}こうかてきなんだぞ$"
 
 LavaridgeTown_Gym_1F_Text_AxleIntro:
-	.string "I'm trying to relieve my stress.\n"
-	.string "Don't come along and stress me out!$"
+	.string "{JPN}おれは ストレスかいしょうちゅうだ\n"
+	.string "{JPN}じゃまして ストレスをあたえるな!$"
 
 LavaridgeTown_Gym_1F_Text_AxleDefeat:
-	.string "I hope FLANNERY flames you good!$"
+	.string "{JPN}アスナに もえつくされろ!$"
 
 LavaridgeTown_Gym_1F_Text_AxlePostBattle:
-	.string "Haaah… Whew…\p"
-	.string "If you spend too much time buried in\n"
-	.string "hot sand, it tuckers you out…$"
-
+	.string "{JPN}はあああ... ふう...\p"
+	.string "{JPN}あついすなにながいあいだ\n"
+	.string "{JPN}うもれてると つかれちゃうよ...$"
 LavaridgeTown_Gym_B1F_Text_KeeganIntro:
-	.string "You must be getting tired by now.\n"
-	.string "You'd like to rest in the hot sand,\l"
-	.string "wouldn't you?\p"
-	.string "But you should know that maintaining\n"
-	.string "your willpower is an important ability\l"
-	.string "for all TRAINERS.$"
+	.string "{JPN}きみも つかれたろう\n"
+	.string "{JPN}あつい すなで やすみたいだろ?\p"
+	.string "{JPN}でも いしりょくを たもつことは\n"
+	.string "{JPN}すべての トレーナーにとって\l"
+	.string "{JPN}たいせつな のうりょくなんだ$"
+	.string ""
 
 LavaridgeTown_Gym_B1F_Text_KeeganDefeat:
-	.string "Play with fire, and be burned…$"
-
+	.string "{JPN}ひであそんで ひにやけた...$"
 LavaridgeTown_Gym_B1F_Text_KeeganPostBattle:
-	.string "Your skill is real…\n"
-	.string "But our LEADER FLANNERY is strong.\p"
-	.string "If you don't watch yourself, you'll be\n"
-	.string "burned seriously.$"
+	.string "{JPN}きみのうではほんものだ...\n"
+	.string "{JPN}でもぼくらのリーダー アスナはつよい\p"
+	.string "{JPN}きをつけないと\n"
+	.string "{JPN}ひどくやけどするぞ$"
 
 LavaridgeTown_Gym_1F_Text_GeraldIntro:
-	.string "Can your POKéMON withstand\n"
-	.string "392-degree heat?$"
+	.string "{JPN}きみの ポケモンは 200どの\n"
+	.string "{JPN}あつさに たえられるかな?$"
 
 LavaridgeTown_Gym_1F_Text_GeraldDefeat:
-	.string "It didn't burn hotly enough…$"
-
+	.string "{JPN}じゅうぶんにあつく\nもえなかった...$"
 LavaridgeTown_Gym_1F_Text_GeraldPostBattle:
-	.string "The temperature of magma is\n"
-	.string "392 degrees.\p"
-	.string "Your POKéMON beat me, so they should\n"
-	.string "easily survive in magma.$"
+	.string "{JPN}マグマの おんどは 200ど\n"
+	.string "{JPN}きみの ポケモンが かったから\l"
+	.string "{JPN}マグマでも いきのこれるだろうな$"
+	.string ""
 
 LavaridgeTown_Gym_1F_Text_DanielleIntro:
-	.string "Um…\n"
-	.string "Okay, I'll battle with you.$"
+	.string "{JPN}えーと...\n"
+	.string "{JPN}よし あなたとたたかうわ$"
 
 LavaridgeTown_Gym_1F_Text_DanielleDefeat:
-	.string "Oh, but you're too strong.$"
+	.string "{JPN}あら でも きみは つよすぎるわ$"
 
 LavaridgeTown_Gym_1F_Text_DaniellePostBattle:
-	.string "I'm going to be a pretty and strong\n"
-	.string "TRAINER just like FLANNERY.$"
+	.string "{JPN}わたし アスナみたいに\n"
+	.string "{JPN}きれいで つよい トレーナーに\lなるのよ$"
 
 LavaridgeTown_Gym_B1F_Text_JaceIntro:
-	.string "Come on, get with it!\n"
-	.string "Let's go before my feelings cool!$"
+	.string "{JPN}さあ やるぞ!\n"
+	.string "{JPN}きもちが さめないうちに\lいこうぜ!$"
 
 LavaridgeTown_Gym_B1F_Text_JaceDefeat:
-	.string "It's so hot, and yet my heart is\n"
-	.string "clutched by ice…$"
-
+	.string "{JPN}こんなにあついのに\n"
+	.string "{JPN}こころはこおりにつつまれてる...$"
 LavaridgeTown_Gym_B1F_Text_JacePostBattle:
-	.string "The way the battling spirit burns\n"
-	.string "within you, you may stand a chance\l"
-	.string "against our LEADER.$"
+	.string "{JPN}きみの なかに もえる\n"
+	.string "{JPN}たたかいの こころ...\l"
+	.string "{JPN}リーダーに かてるかもな$"
 
 LavaridgeTown_Gym_B1F_Text_JeffIntro:
-	.string "See how the flames blaze wildly?\n"
-	.string "They flare in anticipation of my win!$"
+	.string "{JPN}ほのおが はげしく もえてるだろ?\n"
+	.string "{JPN}おれの しょうりを きたいして\lもえてるんだ!$"
 
 LavaridgeTown_Gym_B1F_Text_JeffDefeat:
-	.string "Something didn't go right.$"
+	.string "{JPN}なにかが うまくいかなかった$"
 
 LavaridgeTown_Gym_B1F_Text_JeffPostBattle:
-	.string "Well, so what? I say so what?\n"
-	.string "I can walk on hot coals barefoot!\p"
-	.string "…Don't even think about trying it!$"
-
+	.string "{JPN}だからなんだっていうんだ!\n"
+	.string "{JPN}おれはあついたんのうえを\n"
+	.string "{JPN}はだしであるけるぞ!\pぜったいにまねしようと\nおもうなよ!$"
 LavaridgeTown_Gym_B1F_Text_EliIntro:
-	.string "As much as I love mountains,\n"
-	.string "I especially love volcanoes.$"
+	.string "{JPN}やまが だいすきだけど\n"
+	.string "{JPN}とくに かざんが すきなんだ$"
 
 LavaridgeTown_Gym_B1F_Text_EliDefeat:
-	.string "Well, it seems to me I lost without\n"
-	.string "ever being in control.$"
+	.string "{JPN}うーん いちども ゆうせいに\n"
+	.string "{JPN}たてなかった みたいだ$"
 
 LavaridgeTown_Gym_B1F_Text_EliPostBattle:
-	.string "I stay here because I became a fan\n"
-	.string "of FLANNERY's power.\p"
-	.string "Hehehehe.$"
+	.string "{JPN}アスナの ちからに あこがれて\n"
+	.string "{JPN}ここに いるんだ\p"
+	.string "{JPN}へへへへ$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryIntro:
-	.string "Welcome… No, wait.\p"
-	.string "Puny TRAINER, how good to see you've\n"
-	.string "made it here!\p"
-	.string "I have been entrusted with the…\n"
-	.string "No, wait.\p"
-	.string "I am FLANNERY, and I'm the GYM\n"
-	.string "LEADER here!\p"
-	.string "Uh…\n"
-	.string "Dare not underestimate me, though\l"
-	.string "I have been LEADER only a short time!\p"
-	.string "With skills inherited from my grand-\n"
-	.string "father, I shall, uh…demonstrate the\l"
-	.string "hot moves we have honed on this land!$"
+	.string "{JPN}ようこそ... いや ちがう\p"
+	.string "{JPN}よわっちいトレーナー\n"
+	.string "{JPN}ここまできてくれてうれしいよ!\n"
+	.string "{JPN}わたしはまかされて... いや ちがう\p"
+	.string "{JPN}わたしアスナ!\n"
+	.string "{JPN}ここのジムリーダーよ!\n"
+	.string "{JPN}えーと...\n"
+	.string "{JPN}リーダーになって まだみじかいけど\n"
+	.string "{JPN}あなどっちゃだめよ!\n"
+	.string "{JPN}おじいちゃんからうけついだ\n"
+	.string "{JPN}わざで このとちできたえた\n"
+	.string "{JPN}あついうごきをみせてあげる!$"
+	.string ""
 
 LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
-	.string "Oh…\n"
-	.string "I guess I was trying too hard…\p"
-	.string "I… I've only recently become\n"
-	.string "a GYM LEADER.\p"
-	.string "I tried too hard to be someone\n"
-	.string "I'm not.\p"
-	.string "I have to do things my natural way. If\n"
-	.string "I don't, my POKéMON will be confused.\p"
-	.string "Thanks for teaching me that.\n"
-	.string "For that, you deserve this.$"
+	.string "{JPN}あー...\n"
+	.string "{JPN}ちょっとがんばりすぎちゃった...\n"
+	.string "{JPN}わたし... さいきん\n"
+	.string "{JPN}ジムリーダーになったばかりなの\p"
+	.string "{JPN}じぶんらしくない\n"
+	.string "{JPN}ひとになろうとしすぎた\p"
+	.string "{JPN}しぜんなやりかたで\n"
+	.string "{JPN}やらなきゃだめね\n"
+	.string "{JPN}そうしないと ポケモンが\n"
+	.string "{JPN}まよっちゃうもの\nそれをおしえてくれて ありがとう\nそのおれいに これをあげる$"
 
 LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge:
-	.string "{PLAYER} received the HEAT BADGE\n"
-	.string "from FLANNERY.$"
+	.string "{JPN}{PLAYER}は アスナから\n"
+	.string "{JPN}ヒートバッジを もらった!$"
 
 LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis:
-	.string "If you have a HEAT BADGE, all POKéMON\n"
-	.string "up to Level 50, even those you get in\l"
-	.string "trades from other people, will obey\l"
-	.string "you completely.\p"
-	.string "And, it lets POKéMON use the HM move\n"
-	.string "STRENGTH outside of battle.\p"
-	.string "This is a token of my appreciation.\n"
-	.string "Don't be shy about taking it!$"
+	.string "{JPN}ヒートバッジが あれば\n"
+	.string "{JPN}レベル50まで ほかの ひとから\l"
+	.string "{JPN}こうかんで もらった ポケモンも\l"
+	.string "{JPN}かんぜんに いうことをきくわ\p"
+	.string "{JPN}それに ひでんマシン かいりきを\n"
+	.string "{JPN}せんとう いがいでも つかえるのよ\p"
+	.string "{JPN}これは かんしゃの しるし\n"
+	.string "{JPN}えんりょしないで もらって!$"
 
 LavaridgeTown_Gym_1F_Text_ExplainOverheat:
-	.string "That TM50 contains OVERHEAT.\p"
-	.string "That move inflicts serious damage on\n"
-	.string "the opponent.\p"
-	.string "But it also sharply cuts the SP. ATK\n"
-	.string "of the POKéMON using it. It might not\l"
-	.string "be suitable for longer battles.$"
+	.string "{JPN}そのわざマシン50は オーバーヒート\p"
+	.string "{JPN}あいてに おおきな ダメージを\n"
+	.string "{JPN}あたえる わざよ\p"
+	.string "{JPN}でも つかった ポケモンの\n"
+	.string "{JPN}とくこうが おおきく さがるの\l"
+	.string "{JPN}ながい バトルには むかないかも$"
 
 LavaridgeTown_Gym_1F_Text_RegisteredFlannery:
-	.string "Registered GYM LEADER FLANNERY\n"
-	.string "in the POKéNAV.$"
+	.string "{JPN}ポケナビに ジムリーダー\n"
+	.string "{JPN}アスナを とうろく しました$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostBattle:
-	.string "Your power reminds me of someone…\p"
-	.string "Oh! I know! You battle like NORMAN,\n"
-	.string "the GYM LEADER of PETALBURG.$"
+	.string "{JPN}あなたのちからって\n"
+	.string "{JPN}だれかにそっくり...\n"
+	.string "{JPN}あ! わかった! あなた\nトウカジムリーダーの\nセンリみたいにたたかうのね$"
 
 LavaridgeTown_Gym_1F_Text_GymStatue:
-	.string "LAVARIDGE TOWN POKéMON GYM$"
+	.string "{JPN}フエンタウン ポケモンジム$"
 
 LavaridgeTown_Gym_1F_Text_GymStatueCertified:
-	.string "LAVARIDGE TOWN POKéMON GYM\p"
-	.string "FLANNERY'S CERTIFIED TRAINERS:\n"
-	.string "{PLAYER}$"
+	.string "{JPN}フエンタウン ポケモンジム\p"
+	.string "{JPN}アスナこうにん トレーナー\n"
+	.string "{JPN}{PLAYER}$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPreRematch:
-	.string "FLANNERY: Losing a battle isn't going\n"
-	.string "to deflate me.\p"
-	.string "I love POKéMON.\n"
-	.string "I love to battle.\l"
-	.string "And… I love this GYM!\p"
-	.string "Let's exchange superhot moves\n"
-	.string "in another battle!$"
+	.string "{JPN}アスナ: たたかいにまけても\n"
+	.string "{JPN}きがめいったりしない\p"
+	.string "{JPN}ポケモンがすき\n"
+	.string "{JPN}たたかうのがすき\n"
+	.string "{JPN}そして... このジムがすき!\n"
+	.string "{JPN}もういちど ちょうあつい\n"
+	.string "{JPN}うごきをかわそうよ!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat:
-	.string "Whew!\n"
-	.string "On the verge of eruption!$"
+	.string "{JPN}ふう!\n"
+	.string "{JPN}ふんかする ちょくぜんよ!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostRematch:
-	.string "FLANNERY: I lost the match,\n"
-	.string "but I'm completely satisfied.\p"
-	.string "It's not often I get to enjoy a battle\n"
-	.string "this heated.\p"
-	.string "Let's have another one like this\n"
-	.string "again sometime!$"
+	.string "{JPN}フランネリー: しあいには\n"
+	.string "{JPN}まけちゃったけど\l"
+	.string "{JPN}まんぞくよ.\p"
+	.string "{JPN}こんなに あつい\n"
+	.string "{JPN}たたかいを たのしめるなんて\l"
+	.string "{JPN}めったに ないもの.\pまた こんども\nこんな しあいを\lしましょうね!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons:
-	.string "FLANNERY: Losing a battle isn't going\n"
-	.string "to deflate me.\p"
-	.string "I love POKéMON.\n"
-	.string "I love to battle.\l"
-	.string "And… I love this GYM!\p"
-	.string "Let's exchange superhot moves\n"
-	.string "in another battle!\p"
-	.string "Oh, wait. Do you only have one POKéMON\n"
-	.string "that can battle?\p"
-	.string "I hate to say this, but when you come\n"
-	.string "see me, bring at least two POKéMON.$"
+	.string "{JPN}アスナ: たたかいにまけても\n"
+	.string "{JPN}きがめいったりしない\p"
+	.string "{JPN}ポケモンがすき\n"
+	.string "{JPN}たたかうのがすき\n"
+	.string "{JPN}そして... このジムがすき!\n"
+	.string "{JPN}もういちど ちょうあつい\n"
+	.string "{JPN}うごきをかわそうよ!\p"
+	.string "{JPN}あ ちょっとまって\n"
+	.string "{JPN}たたかえるポケモンが\n"
+	.string "{JPN}1ひきしかいないの?\p"
+	.string "{JPN}いいにくいんだけど\nわたしにあいにくるときは\nすくなくとも 2ひき\nつれてきてね$"

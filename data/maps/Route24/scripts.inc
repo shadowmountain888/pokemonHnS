@@ -120,59 +120,59 @@ Route24_Movement_GruntLeave:
 	step_end
 
 Route24_Text_RocketSeen:
-	.string "Hey, kid! Me am a TEAM ROCKET\n"
-	.string "member kind of guy!\p"
-	.string "Come from another country, a\n"
-	.string "trainer number one, me!\p"
-	.string "Think I did, if stop the energy,\n"
-	.string "be big panic for here people!\p"
-	.string "Secret it is my mission, so tell\n"
-	.string "you I not!\p"
-	.string "But! If win you do versus me, a\n"
-	.string "man I be and mine secret to you\l"
-	.string "I tell.\p"
-	.string "Hey, kid! Battle begin we do!$"
+	.string "{JPN}おい こぞう! おれは ロケットだん\n"
+	.string "{JPN}みたいな やつ だぜ!\p"
+	.string "{JPN}べつの くにから きた \n"
+	.string "{JPN}トレーナー ばんいち だ!\p"
+	.string "{JPN}かんがえた でんき とめれば\n"
+	.string "{JPN}ここの ひとたち おおあわて!\p"
+	.string "{JPN}ひみつの にんむ だから\n"
+	.string "{JPN}おしえて やらない!\p"
+	.string "{JPN}でも! おまえに かてば\n"
+	.string "{JPN}おとこ として ひみつを\l"
+	.string "{JPN}おしえて やる.\p"
+	.string "{JPN}おい こぞう! バトル はじまり\nだ!$"
 
 Route24_Text_RocketBeaten:
-	.string "Ayieeeh! No, no, no, believe it\n"
-	.string "I can't!\p"
-	.string "Strong very much be you! Match\n"
-	.string "I am not to you!$"
+	.string "{JPN}ぎゃー! いや いや いや \n"
+	.string "{JPN}しんじられない!\p"
+	.string "{JPN}とても つよい だな! おれは\n"
+	.string "{JPN}おまえに あわない!$"
 
 Route24_Text_RocketAfter:
-	.string "OK. Tell you mine secret will I?\n"
-	.string "MACHINE PART steal by me, hide it\l"
-	.string "I did in GYM of the CERULEAN.\p"
-	.string "Inside water put it I did. Look\n"
-	.string "for in water center of GYM at.\p"
-	.string "But you forget me not!\p"
-	.string "Beat you for sure will TEAM\n"
-	.string "ROCKET.\p"
-	.string "Come from JOHTO will they, mine\n"
-	.string "friends, yes. Will revenge they\l"
-	.string "are.$"
+	.string "{JPN}よし.ひみつ おしえて やるか?\n"
+	.string "{JPN}マシンぶひん ぬすんで \l"
+	.string "{JPN}ハナダの ジムに かくした.\p"
+	.string "{JPN}みずの なかに いれた.ジムの\n"
+	.string "{JPN}ちゅうおうの みずを さがせ.\p"
+	.string "{JPN}でも おれを わすれるな!\n"
+	.string "{JPN}ロケットだん かならず\n"
+	.string "{JPN}かたきを とる.\p"
+	.string "{JPN}ジョウトから くる おれの\n"
+	.string "{JPN}なかま そうだ.ふくしゅう\l"
+	.string "{JPN}する つもりだ.$"
 
 Route24_Text_RocketDisappears:
-	.string "…\p"
-	.string "You say what? TEAM ROCKET bye-\n"
-	.string "bye a go-go? Broken it is says\l"
-	.string "you?\p"
-	.string "Oh, no! Should I do what now on\n"
-	.string "from, me?$"
+	.string "{JPN}...\p"
+	.string "{JPN}なんですって? ロケットだんが\n"
+	.string "{JPN}ばいばい あ ごーごー?\l"
+	.string "{JPN}こわれたって いうの?\p"
+	.string "{JPN}あーあ! これからぼくは\n"
+	.string "{JPN}なにを すればいいのかな?$"
 
 
 
 Route24_Text_Woman:
-	.string "Isn't it a lovely view?$"
+	.string "{JPN}すてきな ながめ ですね.$"
 Route24_Text_Man:
-	.string "I could stay here all day.$"
+	.string "{JPN}いちにちじゅう ここに いても\nいいな.$"
 
 Route24_Text_WomanRocket:
-	.string "Nobody pushes me!$"
+	.string "{JPN}だれも わたしを おさない!$"
 Route24_Text_ManRocket:
-	.string "Nobody pushes my girlfriend!$"
+	.string "{JPN}だれも ぼくの かのじょを\nおさない!$"
 
 Route24_Text_WomanAfterRocket:
-	.string "What was that all about?$"
+	.string "{JPN}あれは なんだった の?$"
 Route24_Text_ManAfterRocket:
-	.string "Was that a ROCKET?$"
+	.string "{JPN}あれは ロケットだん だった?$"

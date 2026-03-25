@@ -1,65 +1,65 @@
 gTrickHouse_Mechadoll_Oddish::
-	.string "ODDISH$"
+	.string "{JPN}ナゾノクサ$"
 
 gTrickHouse_Mechadoll_Poochyena::
-	.string "POOCHYENA$"
+	.string "{JPN}ポチエナ$"
 
 gTrickHouse_Mechadoll_Taillow::
-	.string "TAILLOW$"
+	.string "{JPN}スバメ$"
 
 gTrickHouse_Mechadoll_Azurill::
-	.string "AZURILL$"
+	.string "{JPN}ルリリ$"
 
 gTrickHouse_Mechadoll_Lotad::
-	.string "LOTAD$"
+	.string "{JPN}ハスボー$"
 
 gTrickHouse_Mechadoll_Wingull::
-	.string "WINGULL$"
+	.string "{JPN}キャモメ$"
 
 gTrickHouse_Mechadoll_Dustox::
-	.string "DUSTOX$"
+	.string "{JPN}ドクケイル$"
 
 gTrickHouse_Mechadoll_Zubat::
-	.string "ZUBAT$"
+	.string "{JPN}ズバット$"
 
 gTrickHouse_Mechadoll_Nincada::
-	.string "NINCADA$"
+	.string "{JPN}ツチニン$"
 
 gTrickHouse_Mechadoll_Ralts::
-	.string "RALTS$"
+	.string "{JPN}ラルトス$"
 
 gTrickHouse_Mechadoll_Zigzagoon::
-	.string "ZIGZAGOON$"
+	.string "{JPN}ジグザグマ$"
 
 gTrickHouse_Mechadoll_Slakoth::
-	.string "SLAKOTH$"
+	.string "{JPN}ナマケロ$"
 
 gTrickHouse_Mechadoll_Poochyena2::
-	.string "POOCHYENA$"
+	.string "{JPN}ポチエナ$"
 
 gTrickHouse_Mechadoll_Shroomish::
-	.string "SHROOMISH$"
+	.string "{JPN}キノココ$"
 
 gTrickHouse_Mechadoll_Zigzagoon2::
-	.string "ZIGZAGOON$"
+	.string "{JPN}ジグザグマ$"
 
 gTrickHouse_Mechadoll_Poochyena3::
-	.string "POOCHYENA$"
+	.string "{JPN}ポチエナ$"
 
 gTrickHouse_Mechadoll_Zubat2::
-	.string "ZUBAT$"
+	.string "{JPN}ズバット$"
 
 gTrickHouse_Mechadoll_Carvanha::
-	.string "CARVANHA$"
+	.string "{JPN}キバニア$"
 
 gTrickHouse_Mechadoll_BurnHeal::
-	.string "BURN HEAL$"
+	.string "{JPN}やけどなおし$"
 
 gTrickHouse_Mechadoll_HarborMail::
-	.string "HARBOR MAIL$"
+	.string "{JPN}ハーバーメール$"
 
 gTrickHouse_Mechadoll_SamePrice::
-	.string "Same price$"
+	.string "{JPN}おなじねだん$"
 
 gTrickHouse_Mechadoll_60Yen::
 	.string "¥60$"
@@ -68,37 +68,37 @@ gTrickHouse_Mechadoll_55Yen::
 	.string "¥55$"
 
 gTrickHouse_Mechadoll_Nothing::
-	.string "Nothing$"
+	.string "{JPN}60えん$"
 
 gTrickHouse_Mechadoll_CostMore::
-	.string "They will cost more.$"
+	.string "{JPN}55えん$"
 
 gTrickHouse_Mechadoll_CostLess::
-	.string "They will cost less.$"
+	.string "{JPN}のこらない$"
 
 gTrickHouse_Mechadoll_SamePrice2::
-	.string "Same price$"
+	.string "{JPN}たかくなる$"
 
 gTrickHouse_Mechadoll_Male::
-	.string "Male$"
+	.string "{JPN}やすくなる$"
 
 gTrickHouse_Mechadoll_Female::
-	.string "Female$"
+	.string "{JPN}おなじねだん$"
 
 gTrickHouse_Mechadoll_Neither::
-	.string "Neither$"
+	.string "{JPN}だんせい$"
 
 gTrickHouse_Mechadoll_ElderlyMen::
-	.string "Elderly men$"
+	.string "{JPN}じょせい$"
 
 gTrickHouse_Mechadoll_ElderlyLadies::
-	.string "Elderly ladies$"
+	.string "{JPN}どっちでもない$"
 
 gTrickHouse_Mechadoll_SameNumber::
-	.string "Same number$"
+	.string "{JPN}おじいさん$"
 
 gTrickHouse_Mechadoll_None::
-	.string "None$"
+	.string "{JPN}おばあさん$"
 
 gTrickHouse_Mechadoll_One::
 	.string "1$"

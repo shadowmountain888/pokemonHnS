@@ -39,49 +39,48 @@ RS_MysteryEventsHouse_EventScript_Door::
 	end
 
 RS_MysteryEventsHouse_Text_OldManGreeting:
-	.string "When I was young, I traveled the world\n"
-	.string "as a POKéMON TRAINER.\p"
-	.string "Now that I've become an old buzzard,\n"
-	.string "my only amusement is watching young\l"
-	.string "TRAINERS battle.$"
+	.string "{JPN}わしが わかかった ころは\n"
+	.string "{JPN}ポケモントレーナーとして\l"
+	.string "{JPN}せかいを たびしておったのう.\p"
+	.string "{JPN}いまでは としよりに なって\n"
+	.string "{JPN}しまい わかい トレーナーの\lたたかいを みるのが たのしみじゃ.$"
 
 RS_MysteryEventsHouse_Text_DoorIsLocked:
-	.string "The door appears to be locked.$"
+	.string "{JPN}ドアに かぎが かかっている\nようだ.$"
 
 RS_MysteryEventsHouse_Text_ChallengeVisitingTrainer:
-	.string "A TRAINER named {STR_VAR_1} is\n"
-	.string "visiting my home.\p"
-	.string "Would you like to challenge\n"
-	.string "{STR_VAR_1}?$"
+	.string "{JPN}{STR_VAR_1}という トレーナーが\n"
+	.string "{JPN}わしの いえに きておる.\p"
+	.string "{JPN}{STR_VAR_1}に ちょうせん\n"
+	.string "{JPN}してみるかね?$"
 
 RS_MysteryEventsHouse_Text_YouWontBattle:
-	.string "You won't battle? I'm disappointed\n"
-	.string "that I can't see you battle…$"
-
+	.string "{JPN}たたかわないの?きみの\n"
+	.string "{JPN}たたかいが みられなくて\pざんねんだよ...$"
 RS_MysteryEventsHouse_Text_KeepItToA3On3:
-	.string "Oh, good, good!\p"
-	.string "But my house isn't all that sturdy.\p"
-	.string "Could I ask you to keep it down to\n"
-	.string "a 3-on-3 match?$"
+	.string "{JPN}おお それは いいのう!\p"
+	.string "{JPN}しかし わしの いえは それほど\n"
+	.string "{JPN}じょうぶでは ないのじゃ.\p"
+	.string "{JPN}3たい3の しょうぶに して\nもらえるかのう?$"
 
 RS_MysteryEventsHouse_Text_SaveYourProgress:
-	.string "Before you two battle, you should\n"
-	.string "save your progress.$"
+	.string "{JPN}ふたりが たたかう まえに\n"
+	.string "{JPN}レポートを かいておくのが\lよいじゃろう.$"
 
 RS_MysteryEventsHouse_Text_HopeToSeeAGoodMatch:
-	.string "I hope to see a good match!$"
+	.string "{JPN}いい しょうぶを みせて\nくれることを きたいしておる!$"
 
 RS_MysteryEventsHouse_Text_BattleTie:
-	.string "So, it became a standoff.\p"
-	.string "It was a brilliant match in which\n"
-	.string "neither side conceded a step!$"
+	.string "{JPN}なるほど ひきわけか.\p"
+	.string "{JPN}どちらも いっぽも ゆずらない\n"
+	.string "{JPN}すばらしい しょうぶじゃった!$"
 
 RS_MysteryEventsHouse_Text_BattleWon:
-	.string "That was superlative!\p"
-	.string "Why, it was like seeing myself in\n"
-	.string "my youth again!$"
+	.string "{JPN}それは すばらしかった!\p"
+	.string "{JPN}まるで わかい ころの わしを\n"
+	.string "{JPN}みているようじゃった!$"
 
 RS_MysteryEventsHouse_Text_BattleLost:
-	.string "Ah, too bad for you!\p"
-	.string "But it was a good match.\n"
-	.string "I hope you can win next time.$"
+	.string "{JPN}ああ ざんねんじゃったのう!\p"
+	.string "{JPN}しかし いい しょうぶじゃった.\n"
+	.string "{JPN}こんどは かてるよう がんばれ.$"

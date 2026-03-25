@@ -27,9 +27,9 @@ ShoalCave_LowTideIceRoom_Suicune_EntranceTrigger::
 	end
 
 ShoalCave_LowTideIceRoom_Suicune_EntranceTrigger_Text:
-	.string "A chilling roar echoes around\n"
-	.string "SHOAL CAVE.\p"
-	.string "There's something or someone here.$"
+	.string "{JPN}つめたい ほえごえが\n"
+	.string "{JPN}あさせのほらあなに ひびく.\p"
+	.string "{JPN}なにかが ここに いるようだ.$"
 
 ShoalCave_LowTideIceRoom_Suicune_EntranceTriggerMovement:
 	face_right
@@ -93,7 +93,7 @@ ShoalCave_LowTideIceRoom_Suicune_SuicuneBattle1_Movement:
 	step_end
 
 ShoalCave_LowTideIceRoom_Suicune_SuicuneBattle1_Text:
-	.string "The POKéMON swiftly ran away!$"
+	.string "{JPN}ポケモンは すばやく\nにげていった!$"
 
 @@Second encounter with Suicune. Level 80. High defenses
 
@@ -152,7 +152,7 @@ ShoalCave_LowTideIceRoom_Suicune_SuicuneBattle2_Movement:
 	step_end
 
 ShoalCave_LowTideIceRoom_Suicune_SuicuneBattle2_Text:
-	.string "It swiftly ran away again!$"
+	.string "{JPN}また すばやく にげていった!$"
 
 @@Final battle with Suicune, now you can catch it. Level 70, holds Mystic water, and has high defenses
 
@@ -188,9 +188,9 @@ ShoalCave_LowTideIceRoom_Suicune_SuicuneBattle3_Stats::
 	return
 
 ShoalCave_LowTideIceRoom_Suicune_SuicuneFinalBattle_Text:
-	.string "SUICUNE doesn't have anywhere\n"
-	.string "else to hide.\p"
-	.string "Can it be captured now?$"
+	.string "{JPN}スイクンには もう\n"
+	.string "{JPN}かくれる ばしょが ない.\p"
+	.string "{JPN}つかまえることが できるか?$"
 
 ShoalCave_LowTideIceRoom_Suicune_SuicuneFinalBattle_Won::
 	setflag FLAG_DEFEATED_SUICUNE

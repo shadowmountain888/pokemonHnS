@@ -77,146 +77,131 @@ EcruteakCity_Gym_EventScript_Statue2::
 	end
 
 EcruteakCity_Gym_Text_GymStatue:
-	.string "ECRUTEAK CITY POKéMON GYM$"
-
+	.string "{JPN}エンジュシティポケモンジム$"
 EcruteakCity_Gym_Text_GymStatueCertified:
-	.string "ECRUTEAK CITY POKéMON GYM\p"
-	.string "MORTY'S CERTIFIED TRAINERS:\n"
-	.string "{PLAYER}$"
+	.string "{JPN}エンジュシティポケモンジム\p"
+	.string "{JPN}ジムリーダーマツバ\nにんていトレーナー!\l{PLAYER}$"
 
 MortyIntroText:
-	.string "Good of you to have come.\p"
-	.string "Here in ECRUTEAK, POKéMON have\n"
-	.string "always been revered.\p"
-	.string "It's said that a rainbow-colored\n"
-	.string "POKéMON will come down to\l"
-	.string "appear before a true Trainer.\p"
-	.string "I believed that tale, so I've\n"
-	.string "trained here in secret.\p"
-	.string "As a result, I can now see what\n"
-	.string "others cannot.\p"
-	.string "Just a bit more...\p"
-	.string "With a little more, I could see\n"
-	.string "a future where I meet the\l"
-	.string "rainbow-colored POKéMON.\p"
-	.string "You're going to help me reach\n"
-	.string "that level!$"
+	.string "{JPN}マツバ: よくきたね\p"
+	.string "{JPN}ここエンジュでは\nむかしからポケモンを\lかみさまとしてまつっていた\p"
+	.string "{JPN}そしてしんのじつりょくを\nそなえたトレーナーのまえに\l"
+	.string "{JPN}でんせつのポケモンはまいおりる\lそうつたえられている...\p"
+	.string "{JPN}ぼくはそのいいつたえをしんじ\nうまれたときからここで\l"
+	.string "{JPN}ひみつのしゅぎょうをしてきた\p"
+	.string "{JPN}そのおかげで\nほかのひとにはみえないものも\lみえるようになった...\p"
+	.string "{JPN}ぼくにみえるのは\nこのちにでんせつのポケモンを\l"
+	.string "{JPN}よびよせるじんぶつのかげ...\p"
+	.string "{JPN}ぼくはそれがぼくじしんだと\nしんじているよ!\p"
+	.string "{JPN}そしてそのためのしゅぎょう\nきみにも\lきょうりょくしてもらおう!\p$"
 
 MortyWinLossText:
-	.string "I'm not good enough yet...\p"
-	.string "All right. This BADGE is yours.$"
+	.string "{JPN}マツバ: しょうぶのじつりょくでは\nそれほどまけていないはず!\p"
+	.string "{JPN}けれどきみには\nそれだけではないなにかが...\p"
+	.string "{JPN}わかった\nこのバッジはきみのものだよ!\p$"
 
 Text_ReceivedFogBadge:
-	.string "{PLAYER} received the FOGBADGE.$"
+	.string "{JPN}{PLAYER}は マツバから\nファントムバッジを もらった!$"
 
 MortyText_FogBadgeSpeech:
-	.string "With the FOGBADGE, POKéMON up\n"
-	.string "to Level 50 will obey you.\p"
-	.string "Also, any POKéMON that knows\n"
-	.string "SURF will be able to use it\l"
-	.string "anytime.\p"
-	.string "I want you to have this too.$"
+	.string "{JPN}マツバ: ファントムバッジがあれば\nひとからもらったポケモンでも\l"
+	.string "{JPN}レベル50までのポケモンなら\lきみのいうことにしたがうはずだ\p"
+	.string "{JPN}それだけじゃないぞ\nなみのりというわざが\lつかえるようになるんだ!\p"
+	.string "{JPN}それから...\nこれもきみにゆずろう\p$"
 
 MortyText_ShadowBallSpeech:
-	.string "That's SHADOW BALL.\n"
-	.string "It causes damage and may\l"
-	.string "lower SP. DEF.\p"
-	.string "Use it if it suits you.$"
+	.string "{JPN}マツバ: なかみはシャドーボール\p"
+	.string "{JPN}ただこうげきするだけでなく\nまれにとくしゅぼうぎょもさげる\p"
+	.string "{JPN}きにいったらつかうといいよ$"
 
 MortyFightDoneText:
-	.string "I see...\p"
-	.string "Your journey has taken you to\n"
-	.string "far-off places.\p"
-	.string "You've witnessed more than I\n"
-	.string "ever have.\p"
-	.string "I envy you for that...$"
+	.string "{JPN}マツバ: そうか...\p"
+	.string "{JPN}このあいだまいこさんたちが\nいってたのはきみのこと...\p"
+	.string "{JPN}あ!いやいやなんでもない\nきにしないでくれよ\p"
+	.string "{JPN}それだけのつよさをもつ\nきみならうみをわたっても\l"
+	.string "{JPN}だいじょうぶそうだね\p"
+	.string "{JPN}ここからにしへいき\nさらにみなみへくだっていくと\lアサギシティがある"
+	.string "{JPN}\lそちらへいってごらん...$"
 
 MortyRematchText:
-	.string "Ah, the JOHTO CHAMPION!\n"
-	.string "Good of you to come.\p"
-	.string "You've shown strength and skill,\n"
-	.string "but have you grown since we\l"
-	.string "last battled?\p"
-	.string "I've trained with my GHOST-type\n"
-	.string "POKéMON ever since.\p"
-	.string "Let's see if you can overcome\n"
-	.string "the shadows again.\p"
-	.string "Want to have a rematch?$"
+	.string "{JPN}おお ジョウトの チャンピオン!\n"
+	.string "{JPN}よく きてくれた.\p"
+	.string "{JPN}きみの つよさと わざまえは\n"
+	.string "{JPN}しっているが ぜんかい\l"
+	.string "{JPN}たたかってから せいちょうしたかな?\p"
+	.string "{JPN}それいらい ゴーストタイプの\n"
+	.string "{JPN}ポケモンたちと しゅぎょうを\l"
+	.string "{JPN}つづけてきた.\p"
+	.string "{JPN}もういちど やみを のりこえる\n"
+	.string "{JPN}ことが できるかな.\nさいせんを したいか?$"
 
 Morty_RematchDefeatText:
-	.string "I'm not good enough yet...\p"
-	.string "You've witnessed more than I\n"
-	.string "ever have.\p"
-	.string "I envy you for that...$"
+	.string "{JPN}まだまだ しゅぎょうが\n"
+	.string "{JPN}たりないな...\p"
+	.string "{JPN}きみは わたしが みたことも\n"
+	.string "{JPN}ない ものを みてきた.\pうらやましい かぎりだ...$"
 
 SageJeffreySeenText:
-	.string "I spent the spring with my\n"
-	.string "POKéMON.\p"
-	.string "Then summer, fall, and winter...\p"
-	.string "Then spring came again.\n"
-	.string "We've been together a long time.$"
+	.string "{JPN}はるを ポケモンと ともに\n"
+	.string "{JPN}すごした.\p"
+	.string "{JPN}それから なつ あき ふゆ...\p"
+	.string "{JPN}そして また はるが きた.\n"
+	.string "{JPN}ながい あいだ いっしょだった.$"
 
 SageJeffreyBeatenText:
-	.string "Wins and losses--I've known\n"
-	.string "them both.$"
+	.string "{JPN}しょうりも はいぼくも\n"
+	.string "{JPN}どちらも あじわってきた.$"
 
 SageJeffreyAfterBattleText:
-	.string "Where did POKéMON come from?$"
+	.string "{JPN}ポケモンは どこから\nきたのだろうな?$"
 
 SagePingSeenText:
-	.string "Can you inflict any damage\n"
-	.string "on our POKéMON?$"
+	.string "{JPN}わしらの ポケモンに\n"
+	.string "{JPN}ダメージを あたえることが\lできるかな?$"
 
 SagePingBeatenText:
-	.string "Ah! Well done!$"
+	.string "{JPN}ああ! みごとじゃ!$"
 
 SagePingAfterBattleText:
-	.string "We use GHOST-type POKéMON.\p"
-	.string "No NORMAL-type attacks can\n"
-	.string "harm them!$"
+	.string "{JPN}わしらは ゴーストタイプの\n"
+	.string "{JPN}ポケモンを つかう.\p"
+	.string "{JPN}ノーマルタイプの わざでは\nきずつけることが できん!$"
 
 MediumMarthaSeenText:
-	.string "I shall win!$"
+	.string "{JPN}わたしが かちます!$"
 
 MediumMarthaBeatenText:
-	.string "I... I... I lost!$"
+	.string "{JPN}わ... わた... わたしが\nまけるなんて!$"
 
 MediumMarthaAfterBattleText:
-	.string "The one who wants to win the\n"
-	.string "most is the one who will!$"
+	.string "{JPN}いちばん かちたい きもちの\n"
+	.string "{JPN}つよい ひとが かつのです!$"
 
 MediumGraceSeenText:
-	.string "Stumped by our dark corridors?\n"
-	.string "Defeat me if you want a hint!$"
+	.string "{JPN}くらい ろうかに まよった?\n"
+	.string "{JPN}ヒントが ほしければ\lわたしを たおしなさい!$"
 
 MediumGraceBeatenText:
-	.string "Wha-what?$"
+	.string "{JPN}な... なんですって?$"
 
 MediumGraceAfterBattleText:
-	.string "Fine. I'll tell you the secret\n"
-	.string "of the shadows.\p"
-	.string "The path is right in front of\n"
-	.string "your eyes!$"
+	.string "{JPN}いいでしょう.かげの ひみつを\n"
+	.string "{JPN}おしえて あげます.\p"
+	.string "{JPN}みちは あなたの めのまえに\n"
+	.string "{JPN}あるのよ!$"
 
 EcruteakCity_GymGuideText:
-	.string "Hey CHAMP! You're almost\n"
-	.string "halfway there!\p"
-	.string "Trainers here use GHOST and\n"
-	.string "DARK-type POKéMON.\p"
-	.string "While MORTY is a GHOST-type\n"
-	.string "expert, be wary of his mystic\l"
-	.string "deer.\p"
-	.string "It's said to cause strange\n"
-	.string "nightmares...$"
+	.string "{JPN}おーす!\nみらいのチャンピオン!\p"
+	.string "{JPN}このジムのトレーナーたちは\nゴーストタイプのポケモンを\l"
+	.string "{JPN}じざいにあやつってくる!\p"
+	.string "{JPN}ゴーストとはぼうれい\nそしてまぼろしのようなもの...\p"
+	.string "{JPN}ちからまかせにぶつかっても\nききめはないはずだ!$"
 
 EcruteakCity_GymGuideWinText:
-	.string "Whew, {PLAYER}. You did great!\p"
-	.string "I was cowering in the corner\n"
-	.string "out of pure terror!$"
+	.string "{JPN}ふはー{PLAYER}\nよくかてたな!\p"
+	.string "{JPN}おれなんかこわくて\nすみっこでふるえてたぜ$"
 
 EcruteakCity_GymClosedText:
-	.string "MORTY, the GYM LEADER, is\n"
-	.string "absent.\p"
-	.string "Sorry, but you'll have to\n"
-	.string "leave.\p"
-	.string "Hohohoho.$"
+	.string "{JPN}なんじゃジムリーダーにようか?\p"
+	.string "{JPN}リーダーのマツバは\nいまやけたとうにでかけとる\p"
+	.string "{JPN}すまんがおひきとりねがおうかの\nほっほっほっほ\p$"

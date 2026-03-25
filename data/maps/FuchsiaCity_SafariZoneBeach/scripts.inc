@@ -66,16 +66,16 @@ SafariZoneFuchsia_Approved::
 	return
 
 SafariZoneFuchsia_Text_Attendant1:
-	.string "This area requires\n"
-	.string "SAFARI LEVEL 2.$"
+	.string "{JPN}このエリアには\n"
+	.string "{JPN}サファリレベル2がひつようです$"
 
 SafariZoneFuchsia_Text_Attendant2:
-	.string "This area requires\n"
-	.string "SAFARI LEVEL 3.$"
+	.string "{JPN}このエリアには\n"
+	.string "{JPN}サファリレベル3がひつようです$"
 
 SafariZoneFuchsia_Text_Attendant3:
-	.string "This area requires\n"
-	.string "SAFARI LEVEL 4.$"
+	.string "{JPN}このエリアには\n"
+	.string "{JPN}サファリレベル4がひつようです$"
 
 SafariZoneFuchsia_Text_Approved:
-	.string "Go right ahead.$"
+	.string "{JPN}どうぞおとおりください$"

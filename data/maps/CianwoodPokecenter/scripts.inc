@@ -35,15 +35,9 @@ CianwoodPokemoncenter_EventScript_FisherGiveTentacool::
 	end
 
 CianwoodPokemoncenter_Text_Fisher1:
-	.string "As far as water POKéMON go,\n"
-	.string "TENTACOOL is the best by a\l"
-	.string "nautical mile!$"
-
+	.string "{JPN}みずポケモンなら\nメノクラゲがだんぜん\lいちばんだぜ！$"
 CianwoodPokemoncenter_Text_Fisher2:
-	.string "You seem like you need a water\n"
-	.string "POKéMON.\p"
-	.string "Here, take this one, I have plenty.$"
-
+	.string "{JPN}きみはみずポケモンが\nひつようそうだね\pこいつをもっていきなよ\nたくさんもってるからさ$"
 CianwoodPokecenter_EventScript_Lass::
 	lock
 	faceplayer
@@ -53,10 +47,23 @@ CianwoodPokecenter_EventScript_Lass::
 	end
 
 CianwoodCity_Text_PokecenterLass:
-	.string "Did you meet the POKéMANIAC?\p"
-	.string "He's always bragging about his\n"
-	.string "rare POKéMON.$"
-
+	.string "{JPN}ぬおぉぉー！\n"
+	.string "{JPN}はげしくながれおちるたきが\l"
+	.string "{JPN}わしのあたまのうえに\l"
+	.string "{JPN}ズドドドド..ってコラー！\p"
+	.string "{JPN}かってにみずをとめるなー！\n"
+	.string "{JPN}わしのしゅぎょうの\l"
+	.string "{JPN}じゃまをしおってー！\p"
+	.string "{JPN}いっとくがわしはつよいぞ！\n"
+	.string "{JPN}こうやってまいにち\l"
+	.string "{JPN}たきにうたれているからな！\p"
+	.string "{JPN}なに？\n"
+	.string "{JPN}ポケモンとはかんけいない？\p"
+	.string "...\n"
+	.string "{JPN}それもそうだ\p"
+	.string "...\n"
+	.string "...\p"
+	.string "{JPN}ではしょうぶといくかぁ！$"
 
 CianwoodGym_EventScript_GymGuide::
 	lock
@@ -74,26 +81,9 @@ CianwoodGym_EventScript_GymGuideAfter::
 	end
 
 CianwoodCity_Text_GymGuide:
-	.string "The POKéMON GYM trainers here are\n"
-	.string "macho bullies.\p"
-	.string "If I stick around, they might\n"
-	.string "come after me.\p"
-	.string "Here's some advice: the GYM LEADER\n"
-	.string "uses the FIGHTING-type.\p"
-	.string "So you should confound him with\n"
-	.string "psychic POKéMON.\p"
-	.string "Wipe out his POKéMON before they\n"
-	.string "can use their physical strength.\p"
-	.string "And those boulders in the middle\n"
-	.string "of the GYM?\p"
-	.string "If you don't move them correctly,\n"
-	.string "you won't reach the GYM LEADER.\p"
-	.string "If you get stuck, go outside.$"
-
+	.string "{JPN}このまちのポケモンジムは\nあらくれものばかり！\pそばにいるとオレまで\nふっとばされそうだ\pだからここでアドバイス\nジムリーダーがつかうのは\nかくとうタイプ！\pだったらこっちは\nエスパーポケモンでまどわしてやれ！\pあいてがパワーをはっきするまえに\nたおしてやるんだ！\pそれからジムのまんなかの\nいわのことだが\pただしくうごかさないと\nジムリーダーにたどりつけない\pつまったらそとにでるんだ$"
 CianwoodCity_Text_GymGuideWin:
-	.string "{PLAYER}! You won!\n"
-	.string "I could tell by looking at you!$"
-
+	.string "{JPN}{PLAYER}！かったな！\nみればわかるぜ！$"
 CianwoodPokecenter_EventScript_Nerd::
 	lock
 	faceplayer
@@ -103,8 +93,4 @@ CianwoodPokecenter_EventScript_Nerd::
 	end
 
 CianwoodCity_Text_PokecenterSuperNerd:
-	.string "I love showing off the POKéMON\n"
-	.string "that I've raised.\p"
-	.string "Don't you?\p"
-	.string "I'm going to get into a bunch of\n"
-	.string "battles, and show off my POKéMON!$"
+	.string "{JPN}じぶんのポケモンって\nひとにみせたくなるよね！\pそうおもわない？\pたくさんバトルして\nぼくのポケモンをみせびらかすぞ！$"

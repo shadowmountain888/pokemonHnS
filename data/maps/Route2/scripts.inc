@@ -39,42 +39,40 @@ Route2_EventScript_Nugget::
     end
 
 Route2_Text_BugCatcherRob_Seen:
-	.string "My bug POKéMON are tough. Prepare to\n"
-	.string "lose!$"
+	.string "{JPN}おれの むしポケモンは つよいぞ!\n"
+	.string "{JPN}まける じゅんびを しておけ!$"
 
 Route2_Text_BugCatcherRob_Beaten:
-	.string "I was whipped…$"
-
+	.string "{JPN}I was whipped...$"
 Route2_Text_BugCatcherRob_AfterBattle:
-	.string "I'm going to look for stronger bug\n"
-	.string "POKéMON.$"
+	.string "{JPN}もっと つよい むしポケモンを\n"
+	.string "{JPN}さがしに いくぞ!$"
 
 Route2_Text_BugCatcherEd_Seen:
-	.string "If you walk in tall grass wearing\n"
-	.string "shorts, do you get nicks and cuts?$"
+	.string "{JPN}たんパンで たかい くさの なかを\n"
+	.string "{JPN}あるくと きりきずが できる?$"
 
 Route2_Text_BugCatcherEd_Beaten:
-	.string "Ouch, ouch, ouch!$"
+	.string "{JPN}いたい いたい いたい!$"
 
 Route2_Text_BugCatcherEd_AfterBattle:
-	.string "They'll really sting when you take a\n"
-	.string "bath.$"
+	.string "{JPN}おふろに はいるとき ほんとうに\n"
+	.string "{JPN}しみるんだよね$"
 
 Route2_Text_BugCatcherDoug_Seen:
-	.string "Why don't girls like bug POKéMON?$"
+	.string "{JPN}なんで おんなのこは むしポケモンを\nすかないんだろう?$"
 
 Route2_Text_BugCatcherDoug_Beaten:
-	.string "No good!$"
+	.string "{JPN}だめだった!$"
 
 Route2_Text_BugCatcherDoug_AfterBattle:
-	.string "Bug POKéMON squish like plush toys\n"
-	.string "when you squeeze their bellies.\p"
-	.string "I love how they feel!$"
+	.string "{JPN}むしポケモンの おなかを ぎゅっと\n"
+	.string "{JPN}にぎると ぬいぐるみみたい!\p"
+	.string "{JPN}その かんしょくが だいすきなんだ!$"
 
 Route2_Text_Sign:
-	.string "ROUTE 2\p"
-	.string "VIRIDIAN CITY - PEWTER CITY$"
+	.string "{JPN}2ばん どうろ\p"
+	.string "{JPN}トキワシティ - ニビシティ$"
 
 Route2_Text_DiglettsCaveSign:
-	.string "DIGLETT'S CAVE$"
-
+	.string "{JPN}このあなディグダのあな$"

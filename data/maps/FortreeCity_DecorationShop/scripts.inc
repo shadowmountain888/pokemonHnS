@@ -58,15 +58,15 @@ FortreeCity_DecorationShop_PokemartDecor_Chairs:
 	end
 
 FortreeCity_DecorationShop_Text_MerchandiseSentToPC:
-	.string "Merchandise you buy here is sent to\n"
-	.string "your own PC.\p"
-	.string "That's fantastic! I wish they could\n"
-	.string "also deliver me home like that.$"
+	.string "{JPN}ここで かった しなものは\n"
+	.string "{JPN}じぶんの パソコンに おくられるの\p"
+	.string "{JPN}すてき! わたしも いっしょに\n"
+	.string "{JPN}いえまで はこんでもらいたいわ$"
 
 FortreeCity_DecorationShop_Text_BuyingDeskForDolls:
-	.string "I'm buying a pretty desk and I'm\n"
-	.string "putting my cute DOLLS on it.\p"
-	.string "If I don't, when I decorate my\n"
-	.string "SECRET BASE, my DOLLS will get\l"
-	.string "dirty or poked with splinters.$"
+	.string "{JPN}きれいな つくえを かって\n"
+	.string "{JPN}かわいい にんぎょうを かざるの\p"
+	.string "{JPN}そうしないと ひみつきちを\n"
+	.string "{JPN}かざるとき にんぎょうが\l"
+	.string "{JPN}よごれたり とげが ささったりするの$"
 

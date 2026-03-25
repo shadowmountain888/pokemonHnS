@@ -112,36 +112,36 @@ Route112_EventScript_Shayla::
 	end
 
 Route112_Text_LeaderGoingToAwakenThing:
-	.string "Hey, man, is our leader really going\n"
-	.string "to awaken that thing?$"
+	.string "{JPN}おい リーダーは ほんとうに\n"
+	.string "{JPN}あいつを めざめさせるのか?$"
 
 Route112_Text_YeahWeNeedMeteorite:
-	.string "Sounds like it, yeah. But I heard\n"
-	.string "we need a METEORITE to do it.$"
+	.string "{JPN}そのようだな.だが いんせきが\n"
+	.string "{JPN}ひつようだと きいたぞ.$"
 
 Route112_Text_OhThatsWhyCrewWentToFallarbor:
-	.string "Oh, I get it now. That's why the rest\n"
-	.string "of the crew went out to FALLARBOR.$"
+	.string "{JPN}ああ そういうことか.だから\n"
+	.string "{JPN}なかまが フエンタウンに いったのか.$"
 
 Route112_Text_CantLetAnyonePassUntilTheyreBack:
-	.string "You got it. And until they come back,\n"
-	.string "we're not to let anyone pass, right.$"
+	.string "{JPN}そのとおりだ.やつらが もどるまで\n"
+	.string "{JPN}だれも とおしちゃ ダメだからな.$"
 
 Route112_Text_NotEasyToGetBackToLavaridge:
-	.string "Eh, I'd like to get to MAUVILLE, but if\n"
-	.string "I went down these ledges, it'd be no\l"
-	.string "easy matter to get back to LAVARIDGE.$"
+	.string "{JPN}キンセツシティに いきたいが\n"
+	.string "{JPN}このがけを おりたら フエンタウンに\l"
+	.string "{JPN}もどるのは たいへんだからなあ.$"
 
 Route112_Text_MtChimneyCableCarSign:
-	.string "MT. CHIMNEY CABLE CAR\n"
-	.string "“A short walk {UP_ARROW} way!”$"
+	.string "{JPN}えんとつやま ケーブルカー\n"
+	.string "{JPN}この さき {UP_ARROW} で すぐ!$"
 
 Route112_Text_MtChimneySign:
-	.string "MT. CHIMNEY\p"
-	.string "“For LAVARIDGE TOWN or the summit,\n"
-	.string "please take the CABLE CAR.”$"
+	.string "{JPN}えんとつやま\p"
+	.string "{JPN}フエンタウンや さんちょうへは\n"
+	.string "{JPN}ケーブルカーを ごりようください.$"
 
 Route112_Text_RouteSignLavaridge:
-	.string "ROUTE 112\n"
-	.string "{LEFT_ARROW} LAVARIDGE TOWN$"
+	.string "{JPN}112ばんどうろ\n"
+	.string "{JPN}{LEFT_ARROW} フエンタウン$"
 

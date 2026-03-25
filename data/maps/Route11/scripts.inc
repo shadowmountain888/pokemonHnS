@@ -33,55 +33,50 @@ Route11_EventScript_Engineer::
 	end
 
 Route11_Text_Engineer:
-	.string "I saw a strange POKéMON climbing\n"
-	.string "in the trees, but it didn't\l"
-	.string "look like MANKEY...$"
+	.string "{JPN}きのうえを のぼっている\n"
+	.string "{JPN}へんな ポケモンを みたんだ\l"
+	.string "{JPN}でも マンキーじゃ なかったよ...$"
 
 Route11_Text_YoungsterOwenSeen:
-	.string "There's no cheating in POKéMON.\p"
-	.string "Let's keep it fair and square!$"
+	.string "{JPN}ポケモンしょうぶに\n"
+	.string "{JPN}ずるは ないんだ!\pこうせいどうどうと いこうぜ!$"
 
 Route11_Text_YoungsterOwenBeaten:
-	.string "Huh? How did this happen?$"
+	.string "{JPN}えっ? どうして こうなったの?$"
 
 Route11_Text_YoungsterOwenAfterBattle:
-	.string "I fought fair and square with\n"
-	.string "honor.\p"
-	.string "I don't regret this at all.$"
+	.string "{JPN}ほこりを もって こうせい\n"
+	.string "{JPN}doudouと たたかったぞ\p"
+	.string "{JPN}ぜんぜん こうかいしてない$"
 
 Route11_Text_YoungsterJasonSeen:
-	.string "It itches and tickles a bit when\n"
-	.string "I wear shorts in the grass.$"
+	.string "{JPN}くさむらで たんパンを はくと\n"
+	.string "{JPN}ちょっと かゆくて くすぐったい$"
 
 Route11_Text_YoungsterJasonBeaten:
-	.string "Aiyaaah! I got stomped!$"
+	.string "{JPN}あいやー! ふみつぶされた!$"
 
 Route11_Text_YoungsterJasonAfterBattle:
-	.string "I'm going to catch more POKéMON in\n"
-	.string "the grass.$"
+	.string "{JPN}くさむらで もっと ポケモンを\n"
+	.string "{JPN}つかまえるつもりなんだ$"
 
 Route11_Text_PsychicHermanSeen:
-	.string "…$"
-
+	.string "{JPN}...$"
 Route11_Text_PsychicHermanBeaten:
-	.string "…$"
-
+	.string "{JPN}...$"
 Route11_Text_PsychicHermanAfterBattle:
-	.string "…\p"
-	.string "I lost while I had my eyes closed…$"
-
+	.string "{JPN}...\p"
+	.string "{JPN}めを とじてたのに まけちゃった...$"
 Route11_Text_PsychicFidelSeen:
-	.string "I can see it…\p"
-	.string "Everything to see about you…$"
-
+	.string "{JPN}みえるよ...\p"
+	.string "{JPN}きみの すべてが みえる...$"
 Route11_Text_PsychicFidelBeaten:
-	.string "I couldn't foresee your power…$"
-
+	.string "{JPN}きみの ちからは よそくできなかった...$"
 Route11_Text_PsychicFidelAfterBattle:
-	.string "Strength in conviction…\p"
-	.string "You're strong because you believe\n"
-	.string "in your POKéMON.$"
+	.string "{JPN}しんねんの つよさ...\p"
+	.string "{JPN}きみは ポケモンを しんじているから\n"
+	.string "{JPN}つよいんだ$"
 
 Route11_Text_Sign:
-	.string "ROUTE 11$"
+	.string "{JPN}11ばん どうろ$"
 

@@ -181,61 +181,59 @@ Route14_EventScript_Trevor::
 
 
 Route14_Text_Eusine:
-	.string "EUSINE: {PLAYER}! Not again!\n"
-	.string "I'll be there first next time!\p"
-	.string "Having followed it here, I'm\n"
-	.string "starting to understand what SUICUNE\l"
-	.string "is after.\p"
-	.string "To be honest, I would like to keep\n"
-	.string "this information to myself.\p"
-	.string "But I want to be an honest trainer\n"
-	.string "in front of SUICUNE!\p"
-	.string "That's why I am sharing a clue with\n"
-	.string "you.\p"
-	.string "It seems that...\n"
-	.string "SUICUNE prefers a hilly place...\l"
-	.string "Near water...\l"
-	.string "Somewhere north...\p"
-	.string "I don't know exactly where yet.\n"
-	.string "It will just be you and me!\p"
-	.string "Who'll find it first?\n"
-	.string "I challenge you!$"
+	.string "{JPN}ユウスケ: {PLAYER}!またもや\n"
+	.string "{JPN}まけてしまった!\n"
+	.string "{JPN}こそ さきに つく!\p"
+	.string "{JPN}これまで おいかけて きて\n"
+	.string "{JPN}スイクンが なにを もとめて\n"
+	.string "{JPN}いるのか わかって きた.\p"
+	.string "{JPN}しょうじきに いえば この\n"
+	.string "{JPN}じょうほうは じぶんだけで\n"
+	.string "{JPN}もって いたい.\p"
+	.string "{JPN}でも スイクンの まえでは\n"
+	.string "{JPN}しょうじきな トレーナーで\n"
+	.string "{JPN}いたいんだ!\p"
+	.string "{JPN}だから きみに てがかりを\n"
+	.string "{JPN}おしえよう.\p"
+	.string "{JPN}どうやら...\n"
+	.string "{JPN}スイクンは おかの ある\n"
+	.string "{JPN}ばしょを このんで いる...\l"
+	.string "{JPN}みずの ちかく...\l"
+	.string "{JPN}きたの ほうの...\pまだ ばしょは わからない.\nきみと ぼくとの しょうぶだ!\pどちらが さきに みつけるか?\nちょうせん するぞ!$"
 
 Route14_Text_PokefanmCarterSeen:
-	.string "Let me tell you, I had a hard time\n"
-	.string "catching my prized POKéMON.$"
+	.string "{JPN}いや じまんの ポケモンを\n"
+	.string "{JPN}つかまえるのは たいへんだった.$"
 
 Route14_Text_PokefanmCarterBeaten:
-	.string "Awaaah!$"
+	.string "{JPN}あわあああ!$"
 
 Route14_Text_PokefanmCarterAfterBattle:
-	.string "TOTODILE, CYNDAQUIL, CHIKORITA…\p"
-	.string "I think that's a well-balanced mix.$"
+	.string "{JPN}ワニノコ  ヒノアラシ \n"
+	.string "{JPN}チコリータ...\pバランスの とれた\nチームだと おもうよ$"
 
 Route14_Text_BirdKeeperRoySeen:
-	.string "My dream is to fly with my beloved\n"
-	.string "bird POKéMON.$"
+	.string "{JPN}だいすきな とりポケモンと\n"
+	.string "{JPN}そらを とぶのが ゆめなんだ.$"
 
 Route14_Text_BirdKeeperRoyBeaten:
-	.string "I can dream, but I can't ever fly…$"
-
+	.string "{JPN}ゆめを みることは\nできるけど...\p とぶことは できないなあ$"
 Route14_Text_BirdKeeperRoyAfterBattle:
-	.string "You have POKéMON that know the HM\n"
-	.string "move FLY, don't you? I envy you.$"
+	.string "{JPN}きみは そらをとぶを おぼえた\n"
+	.string "{JPN}ポケモンを もって いるんだろう?\nうらやましいなあ.$"
 
 Route14_Text_PokefanmTrevorSeen:
-	.string "Hi. Did you know…?\p"
-	.string "POKéMON get more friendly if you\n"
-	.string "train them in a place that they\l"
-	.string "remember.$"
+	.string "{JPN}こんにちは. きみは\n"
+	.string "{JPN}しってるかい?\p"
+	.string "{JPN}ポケモンは おもいでの ばしょで\n"
+	.string "{JPN}トレーニングすると\lなつきやすく なるんだよ$"
 
 Route14_Text_PokefanmTrevorBeaten:
-	.string "Where did I meet this SCIZOR?$"
+	.string "{JPN}この ハッサムとは どこで\nであったんだっけ?$"
 
 Route14_Text_PokefanmTrevorAfterBattle:
-	.string "If only there were an easy way to\n"
-	.string "identify where I got my POKéMON…$"
-
+	.string "{JPN}じぶんの ポケモンを\n"
+	.string "{JPN}どこで つかまえたか\lかんたんに わかる ほうほうが\nあればいいのになあ...$"
 Route14_EventScript_Pidgeotto::
 	lockall
 	faceplayer
@@ -325,11 +323,11 @@ Route14_Movement_StuckPidgeottoJump:
 	step_end
 
 Route14_Text_Pidgeotto:
-	.string "PIDGEOTTO: Kaaaaa!$"
+	.string "{JPN}ピジョット: かああー!$"
 Route14_Text_PidgeottoBerry:
-	.string "Give the PIDGEOTTO a BERRY?$"
+	.string "{JPN}ピジョットに きのみを あげる?$"
 Route14_Text_PidgeottoAteBerry:
-	.string "PIDGEOTTO enjoyed the QUALOT BERRY!$"
+	.string "{JPN}ピジョットは ネコブの みを\nおいしそうに たべた!$"
 Route14_Text_PidgeottoTurnedAway:
-	.string "PIDGEOTTO doesn't like it!$"
+	.string "{JPN}ピジョットは きに いらない\nようだ!$"
 

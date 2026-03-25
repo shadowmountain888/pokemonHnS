@@ -100,46 +100,20 @@ EcruteakCity_PokemonCenter_Movement_BillBot:
 
 
 EcruteakCity_PokemonCenter1F_Text_Bill1:
-	.string "Hi, I'm BILL. And who are you?\p"
-	.string "Hmm, {PLAYER}, huh?\n"
-	.string "You've come at the right time.$"
-
+	.string "{JPN}やあぼくはマサキ\nきみはだれだい？\pふうん{PLAYER}か\nちょうどよいときにきたね$"
 EcruteakCity_PokemonCenter1F_Text_Bill2:
-	.string "I just finished adjustments on my\n"
-	.string "POKéMON STORAGE SYSTEM.\p"
-	.string "You know that PC you use to store\n"
-	.string "all your POKéMON?\p"
-	.string "I developed that myself!\p"
-	.string "Now that I've installed this one,\n"
-	.string "my PC is running at all\l"
-	.string "POKéMON CENTERS in JOHTO and KANTO.\p"
-	.string "I have to hurry on back to\n"
-	.string "GOLDENROD and see my folks. Feel\l"
-	.string "free to visit anytime!\p"
-	.string "Buh-bye!$"
-
+	.string "{JPN}ぼくのポケモンボックスシステムの\nちょうせいがおわったところだよ\pポケモンをあずけるときにつかう\nパソコンのことだよ\pあれはぼくがかいはつしたんだ！\pこれでジョウトとカントーの\nすべてのポケモンセンターで\lぼくのパソコンがうごくよ\pコガネシティにかえって\nかぞくにあわなくちゃ\lいつでもあそびにきてよ！\pそれじゃあね！$"
 EcruteakCity_PokemonCenter1F_Text_PokefanM:
-	.string "The way the KIMONO GIRLS dance is\n"
-	.string "marvelous.\p"
-	.string "Just like the way they use their\n"
-	.string "POKéMON.$"
-
+	.string "{JPN}まいこはんのおどりって\nすばらしいなあ\pポケモンをつかうすがたも\nおんなじようにきれいや$"
 EcruteakCity_PokemonCenter1F_Text_PokefanM_Mobile:
-	.string "You must be hoping to battle more\n"
-	.string "people, right?\p"
-	.string "There's apparently some place where\n"
-	.string "trainers gather.\p"
-	.string "Where, you ask?\p"
-	.string "It's a little past OLIVINE CITY.$"
-
+	.string "{JPN}きみももっとたくさんの\nひととたたかいたいだろう？\pトレーナーがあつまる\nばしょがあるらしいぞ\pどこかって？\pオリーブシティのちょっと\nさきなんだ$"
 EcruteakCity_PokemonCenter1F_Text_CooltrainerF:
-	.string "MORTY, the GYM LEADER, is soooo\n"
-	.string "cool.\p"
-	.string "His POKéMON are really tough too.$"
-
+	.string "{JPN}ジムリーダーのマツバさま\n"
+	.string "{JPN}すてきだわあ\l"
+	.string "{JPN}あのクールなところがいいの\p"
+	.string "{JPN}それにポケモンも\n"
+	.string "{JPN}とってもつよいんだから$"
 EcruteakCity_PokemonCenter1F_Text_GymGuide:
-	.string "LAKE OF RAGE…\p"
-	.string "The appearance of a GYARADOS\n"
-	.string "swarm…\p"
-	.string "I smell a conspiracy. I know it!$"
-
+	.string "{JPN}いかりのみずうみ..\n"
+	.string "{JPN}あかいギャラドスのしゅつげん..\l"
+	.string "{JPN}なにかじけんのにおいがするな$"

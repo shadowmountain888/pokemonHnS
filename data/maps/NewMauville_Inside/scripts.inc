@@ -256,18 +256,18 @@ NewMauville_Inside_EventScript_DefeatedVoltorb3::
 	end
 
 NewMauville_Inside_Text_GeneratorRadiatingHeat:
-	.string "The generator is radiating heat that\n"
-	.string "can be felt even at a distance.\p"
-	.string "It looks like it should be turned off\n"
-	.string "as soon as possible.$"
+	.string "{JPN}はつでんきが はなれていても\n"
+	.string "{JPN}かんじられる ねつを はっしている.\p"
+	.string "{JPN}できるだけ はやく でんげんを\n"
+	.string "{JPN}きったほうが よさそうだ.$"
 
 NewMauville_Inside_Text_GeneratorQuietedDown:
-	.string "The generator quieted down.$"
+	.string "{JPN}はつでんきが しずかになった.$"
 
 NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped:
-	.string "{PLAYER} stepped on the switch.\p"
-	.string "Click…\p"
-	.string "… … … … … … … …\n"
-	.string "… … … … … … … …\p"
-	.string "The generator appears to have\n"
-	.string "stopped…$"
+	.string "{JPN}{PLAYER}は スイッチを ふんだ.\p"
+	.string "{JPN}カチッ...\p"
+	.string "{JPN}... ... ... ... ... ... ... ...\n"
+	.string "{JPN}... ... ... ... ... ... ... ...\p"
+	.string "{JPN}はつでんきが とまった\n"
+	.string "{JPN}ようだ...$"

@@ -92,75 +92,77 @@ ProfileMan_EventScript_Ret::
 	return
 
 ProfileMan_Text_CollectTrainerProfiles:
-	.string "Hello there, TRAINER!\n"
-	.string "You've got a wonderful smile, there.\p"
-	.string "I have a hobby--collecting the profiles\n"
-	.string "of POKéMON TRAINERS.$"
+	.string "{JPN}トレーナーさん たちの\n"
+	.string "{JPN}プロフィールを あつめるのが\l"
+	.string "{JPN}しゅみ なんだけど...$"
 
 ProfileMan_Text_MayISeeYourProfile:
-	.string "So, how about it?\n"
-	.string "May I see your profile?$"
+	.string "{JPN}どうかな? きみの プロフィール\n"
+	.string "{JPN}ぼくに おしえて もらえないかな?$"
 
 ProfileMan_Text_EasyChatExplanation:
-	.string "You make your own profile by putting\n"
-	.string "together four words or phrases.\p"
-	.string "Here, I'll show you an example of a\n"
-	.string "profile using four pieces of text.\p"
-	.string "You can switch those four pieces with\n"
-	.string "other text pieces any which way you\l"
-	.string "like to make your own profile.\p"
-	.string "There are a lot of text pieces that\n"
-	.string "you can use.\p"
-	.string "They are arranged in groups like\n"
-	.string "POKéMON, lifestyles, and hobbies so\l"
-	.string "it is easier to look them up.\p"
-	.string "So, first, choose the group of text\n"
-	.string "pieces to display a list of choices.\p"
-	.string "Then, pick the choice you want.\p"
-	.string "Repeat for the remaining text choices,\n"
-	.string "and you'll have your very own profile.$"
+	.string "{JPN}プロフィールは すきな ことばを\n"
+	.string "{JPN}4つ くみあわせて つくるんだよ!\p"
+	.string "{JPN}これから ぼくが\n"
+	.string "{JPN}てきとうな 4つの ことばで つくった\l"
+	.string "{JPN}プロフィールを みせるから\p"
+	.string "{JPN}きみは その ことばを\n"
+	.string "{JPN}すきなものに いれかえて\l"
+	.string "{JPN}きみだけの プロフィールに してね!\p"
+	.string "{JPN}えらべる ことばは\n"
+	.string "{JPN}すごく たくさん あるから\l"
+	.string "{JPN}グループに わかれて いるんだ\l"
+	.string "{JPN}ポケモン とか せいかつ とか しゅみ...\l"
+	.string "{JPN}という ぐあいにね!\p"
+	.string "{JPN}だから まずは\n"
+	.string "{JPN}グループを えらんで...\l"
+	.string "{JPN}そのあとに えらんだ グループの\l"
+	.string "{JPN}ことばが いくつも でてくるから\l"
+	.string "{JPN}そこから すきな ことばを\l"
+	.string "{JPN}みつけてね!$"
 
 ProfileMan_Text_LetsSeeItThen:
-	.string "Yes! Thank you!\n"
-	.string "So, let's see it, then.$"
+	.string "{JPN}やった! ありがとう!\n"
+	.string "{JPN}じゃ さっそく きかせてよ!$"
 
 ProfileMan_Text_ImagineYouWouldHaveWonderfulProfile:
-	.string "Oh, no, really?\p"
-	.string "I imagine someone like you would have\n"
-	.string "a wonderful profile…$"
+	.string "{JPN}そんなあ...\p"
+	.string "{JPN}きみの プロフィールは さぞかし\n"
+	.string "{JPN}すてきだと おもうんだけど なぁ...$"
 
 ProfileMan_Text_NotIntoItRightNow:
-	.string "Oh? You're not into it right now?\p"
-	.string "Well, anytime is good by me!$"
+	.string "{JPN}あれ? いまは きが のらないんだね?\p"
+	.string "{JPN}だったら いつでも いいよ!$"
 
 ProfileMan_Text_YouHaveWonderfulSmile:
-	.string "Hello there, TRAINER!\n"
-	.string "You've got a wonderful smile.$"
+	.string "{JPN}こんにちは\n"
+	.string "{JPN}えがおの すてきな トレーナーさん!$"
 
 ProfileMan_Text_MayISeeYourNewProfile:
-	.string "May I see your new profile?$"
+	.string "{JPN}きみの あたらしい プロフィールを\n"
+	.string "{JPN}おしえて くれるのかな?$"
 
 ProfileMan_Text_EvenBetterThanLastProfile:
-	.string "Yes! Thank you!\p"
-	.string "I hope it's even better than the profile\n"
-	.string "you showed me before.$"
+	.string "{JPN}やった! ありがとう!\p"
+	.string "{JPN}じゃあ まえにも まして\n"
+	.string "{JPN}すてきな やつを きたい してるよ!$"
 
 ProfileMan_Text_LikeProfileWayItIs:
-	.string "Oh, you like your profile the way it is.\p"
-	.string "I don't blame you--it's a wonderful\n"
-	.string "profile the way it is now.$"
+	.string "{JPN}いまの ままが いいんだね?\p"
+	.string "{JPN}そうだよね とても すてきな\n"
+	.string "{JPN}プロフィール だもの!$"
 
 ProfileMan_Text_FantasticProfile:
-	.string "F-fantastic!\p"
-	.string "Your profile, it's wonderful!\n"
-	.string "It really says what you're about.\p"
-	.string "Why, anyone hearing this profile would\n"
-	.string "be captivated by you!\p"
-	.string "Thank you!$"
+	.string "{JPN}すっ すばらしい!\p"
+	.string "{JPN}まさに きみ そのもの って かんじの\n"
+	.string "{JPN}すてきな プロフィール!\p"
+	.string "{JPN}これを きいた ひとは\n"
+	.string "{JPN}だれもが きみの とりこに なるだろうね!\p"
+	.string "{JPN}どうも ありがとう!$"
 
 @ Unused
 ProfileMan_Text_YouKnowSecretSaying:
-	.string "Oh?\n"
-	.string "You know the secret saying!\p"
-	.string "That means you're now a fellow member\n"
-	.string "of the MYSTERY EVENT CLUB!$"
+	.string "{JPN}あら?\n"
+	.string "{JPN}ひみつの あいことばを しってるの!\p"
+	.string "{JPN}じゃあ きみも ふしぎな\n"
+	.string "{JPN}イベントクラブの なかまだね!$"

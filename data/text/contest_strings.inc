@@ -1,772 +1,756 @@
 @ Contest move effect descriptions
 
 gText_HighlyAppealingMove::
-	.string "A highly appealing move.$"
+	.string "{JPN}たくさん アピール できる$"
 
 gText_UserMoreEasilyStartled::
-	.string "After this move, the user is\n"
-	.string "more easily startled.$"
+	.string "{JPN}この アピールの あと\n"
+	.string "{JPN}びっくり しやすく なってしまう$"
 
 gText_GreatAppealButNoMoreToEnd::
-	.string "Makes a great appeal, but\n"
-	.string "allows no more to the end.$"
+	.string "{JPN}すごいアピールに なるが このあと\n"
+	.string "{JPN}さいごまで なにも できなくなる$"
 
 gText_UsedRepeatedlyWithoutBoringJudge::
-	.string "Can be repeatedly used\n"
-	.string "without boring the JUDGE.$"
+	.string "{JPN}つづけて だしても しんさいんに\n"
+	.string "{JPN}あきられずに アピール できる$"
 
 gText_AvoidStartledByOthersOnce::
-	.string "Can avoid being startled\n"
-	.string "by others once.$"
+	.string "{JPN}ほかの ポケモンに おどかされても\n"
+	.string "{JPN}1ど くらいは がまんできる$"
 
 gText_AvoidStartledByOthers::
-	.string "Can avoid being startled\n"
-	.string "by others.$"
+	.string "{JPN}ほかの ポケモンに おどかされても\n"
+	.string "{JPN}がまんできる$"
 
 gText_AvoidStartledByOthersLittle::
-	.string "Can avoid being startled\n"
-	.string "by others a little.$"
+	.string "{JPN}ほかの ポケモンに おどかされても\n"
+	.string "{JPN}すこし くらいなら がまんできる$"
 
 gText_UserLessLikelyStartled::
-	.string "After this move, the user is\n"
-	.string "less likely to be startled.$"
+	.string "{JPN}この わざを だした あとは\n"
+	.string "{JPN}あまり びっくり しなくなる$"
 
 gText_SlightlyStartleFrontMon::
-	.string "Slightly startles the\n"
-	.string "POKéMON in front.$"
+	.string "{JPN}じぶんの まえに アピールした\n"
+	.string "{JPN}ポケモンを ちょっと おどろかす$"
 
 gText_SlightlyStartleAppealed::
-	.string "Slightly startles those\n"
-	.string "that have made appeals.$"
+	.string "{JPN}アピールが おわっている ポケモン\n"
+	.string "{JPN}みんなを ちょっと おどろかす$"
 
 gText_StartleAppealedBeforeUser::
-	.string "Startles the POKéMON that\n"
-	.string "appealed before the user.$"
+	.string "{JPN}じぶんの まえに アピールした\n"
+	.string "{JPN}ポケモンを おどろかす$"
 
 gText_StartleAllAppealed::
-	.string "Startles all POKéMON that\n"
-	.string "have done their appeals.$"
+	.string "{JPN}アピールが おわっている ポケモン\n"
+	.string "{JPN}みんなを おどろかす$"
 
 gText_BadlyStartleFrontMon::
-	.string "Badly startles the\n"
-	.string "POKéMON in front.$"
+	.string "{JPN}じぶんの まえに アピールした\n"
+	.string "{JPN}ポケモンを かなり おどろかす$"
 
 gText_BadlyStartleAppealed::
-	.string "Badly startles those that\n"
-	.string "have made appeals.$"
+	.string "{JPN}アピールが おわっている ポケモン\n"
+	.string "{JPN}みんなを かなり おどろかす$"
 
 gText_StartleAppealedBeforeUser2::
-	.string "Startles the POKéMON that\n"
-	.string "appealed before the user.$"
+	.string "{JPN}じぶんの まえに アピールした\n"
+	.string "{JPN}ポケモンを おどろかす$"
 
 gText_StartleAllAppealed2::
-	.string "Startles all POKéMON that\n"
-	.string "have done their appeals.$"
+	.string "{JPN}アピールが おわっている ポケモン\n"
+	.string "{JPN}みんなを おどろかす$"
 
 gText_ShiftJudgesAttentionFromOthers::
-	.string "Shifts the JUDGE's\n"
-	.string "attention from others.$"
+	.string "{JPN}しんさいんの ほかの ポケモンへの\n"
+	.string "{JPN}ちゅうもくを そらすことが できる$"
 
 gText_StartleMonHasJudgesAttention::
-	.string "Startles the POKéMON that\n"
-	.string "has the JUDGE's attention.$"
+	.string "{JPN}しんさいんに ちゅうもく されている\n"
+	.string "{JPN}ポケモンを とくに おどろかす$"
 
 gText_JamOthersMissesTurn::
-	.string "Jams the others, and misses\n"
-	.string "one turn of appeals.$"
+	.string "{JPN}みんなの じゃまを しまくって\n"
+	.string "{JPN}つぎの アピールは さんか しない$"
 
 gText_StartleMonsMadeSameTypeAppeal::
-	.string "Startles POKéMON that\n"
-	.string "made a same-type appeal.$"
+	.string "{JPN}おなじ タイプの アピールを した\n"
+	.string "{JPN}ポケモンを とくに おどろかす$"
 
 gText_BadlyStartleCoolAppeals::
-	.string "Badly startles POKéMON\n"
-	.string "that made COOL appeals.$"
+	.string "{JPN}かっこいい アピールを した\n"
+	.string "{JPN}ポケモンを かなり おどろかす$"
 
 gText_BadlyStartleBeautyAppeals::
-	.string "Badly startles POKéMON\n"
-	.string "that made BEAUTY appeals.$"
+	.string "{JPN}うつくしい アピールを した\n"
+	.string "{JPN}ポケモンを かなり おどろかす$"
 
 gText_BadlyStartleCuteAppeals::
-	.string "Badly startles POKéMON\n"
-	.string "that made CUTE appeals.$"
+	.string "{JPN}かわいい アピールを した\n"
+	.string "{JPN}ポケモンを かなり おどろかす$"
 
 gText_BadlyStartleSmartAppeals::
-	.string "Badly startles POKéMON\n"
-	.string "that made SMART appeals.$"
+	.string "{JPN}かしこい アピールを した\n"
+	.string "{JPN}ポケモンを かなり おどろかす$"
 
 gText_BadlyStartleToughAppeals::
-	.string "Badly startles POKéMON\n"
-	.string "that made TOUGH appeals.$"
+	.string "{JPN}たくましい アピールを した\n"
+	.string "{JPN}ポケモンを かなり おどろかす$"
 
 gText_MakeMonAfterUserNervous::
-	.string "Makes one POKéMON after\n"
-	.string "the user nervous.$"
+	.string "{JPN}このあと アピールする ポケモン\n"
+	.string "{JPN}1ひきを きんちょう させる$"
 
 gText_MakeAllMonsAfterUserNervous::
-	.string "Makes all POKéMON after\n"
-	.string "the user nervous.$"
+	.string "{JPN}このあと アピールする ポケモン\n"
+	.string "{JPN}みんなを きんちょう させる$"
 
 gText_WorsenConditionOfThoseMadeAppeals::
-	.string "Worsens the condition of\n"
-	.string "those that made appeals.$"
+	.string "{JPN}アピールが おわった ポケモンの\n"
+	.string "{JPN}ちょうしを さげる$"
 
 gText_BadlyStartleMonsGoodCondition::
-	.string "Badly startles POKéMON in\n"
-	.string "good condition.$"
+	.string "{JPN}ちょうしの いい ポケモン\n"
+	.string "{JPN}みんなを かなり おどろかす$"
 
 gText_AppealGreatIfPerformedFirst::
-	.string "The appeal works great if\n"
-	.string "performed first.$"
+	.string "{JPN}1ばん はじめに アピールすると\n"
+	.string "{JPN}アピールが すごく うまくいく$"
 
 gText_AppealGreatIfPerformedLast::
-	.string "The appeal works great if\n"
-	.string "performed last.$"
+	.string "{JPN}1ばん さいごに アピールすると\n"
+	.string "{JPN}アピールが すごく うまくいく$"
 
 gText_AppealAsGoodAsThoseBeforeIt::
-	.string "Makes the appeal as good\n"
-	.string "as those before it.$"
+	.string "{JPN}それまでの ポケモンの アピールと\n"
+	.string "{JPN}おなじくらいの アピールに みせる$"
 
 gText_AppealAsGoodAsOneBeforeIt::
-	.string "Makes the appeal as good\n"
-	.string "as the one before it.$"
+	.string "{JPN}1つまえの ポケモンの アピールと\n"
+	.string "{JPN}おなじくらい うまく できる$"
 
 gText_AppealBetterLaterItsPerformed::
-	.string "The appeal works better\n"
-	.string "the later it is performed.$"
+	.string "{JPN}みんなの あとで アピールするほど\n"
+	.string "{JPN}すごい アピールに みせられる$"
 
 gText_AppealVariesDependingOnTiming::
-	.string "The appeal's quality varies\n"
-	.string "depending on its timing.$"
+	.string "{JPN}だすときに よって アピールの\n"
+	.string "{JPN}できぐあいが いろいろと かわる$"
 
 gText_WorksWellIfSameTypeAsBefore::
-	.string "Works well if it's the same\n"
-	.string "type as the one before.$"
+	.string "{JPN}1つまえの ポケモンの アピールと\n"
+	.string "{JPN}タイプが おなじなら きにいられる$"
 
 gText_WorksWellIfDifferentTypeAsBefore::
-	.string "Works well if different in\n"
-	.string "type than the one before.$"
+	.string "{JPN}1つまえの ポケモンの アピールと\n"
+	.string "{JPN}タイプが ちがうなら きにいられる$"
 
 gText_AffectedByAppealInFront::
-	.string "Affected by how well the\n"
-	.string "appeal in front goes.$"
+	.string "{JPN}1つまえの ポケモンの アピールの\n"
+	.string "{JPN}うまさに えいきょう される$"
 
 gText_UpsConditionHelpsPreventNervousness::
-	.string "Ups the user's condition.\n"
-	.string "Helps prevent nervousness.$"
+	.string "{JPN}アピールの ちょうしが あがる\n"
+	.string "{JPN}きんちょうも しにくくなる$"
 
 gText_AppealWorksWellIfConditionGood::
-	.string "The appeal works well if the\n"
-	.string "user's condition is good.$"
+	.string "{JPN}ちょうしが いいときに だすと\n"
+	.string "{JPN}アピールが とても うまくいく$"
 
 gText_NextAppealMadeEarlier::
-	.string "The next appeal can be\n"
-	.string "made earlier next turn.$"
+	.string "{JPN}このつぎの アピールを\n"
+	.string "{JPN}はじめの ほうに だすことが できる$"
 
 gText_NextAppealMadeLater::
-	.string "The next appeal can be\n"
-	.string "made later next turn.$"
+	.string "{JPN}このつぎの アピールを\n"
+	.string "{JPN}おわりの ほうに だすことが できる$"
 
 gText_TurnOrderMoreEasilyScrambled::
-	.string "Makes the next turn's order\n"
-	.string "more easily scrambled.$"
+	.string "{JPN}このつぎの アピールの\n"
+	.string "{JPN}じゅんばんが かわりやすく なる$"
 
 gText_ScrambleOrderOfNextAppeals::
-	.string "Scrambles the order of\n"
-	.string "appeals on the next turn.$"
+	.string "{JPN}このつぎの アピールの\n"
+	.string "{JPN}じゅんばんを めちゃくちゃに する$"
 
 gText_AppealExcitesAudienceInAnyContest::
-	.string "An appeal that excites the\n"
-	.string "audience in any CONTEST.$"
+	.string "{JPN}どの コンテストで みせても\n"
+	.string "{JPN}かならず もりあがる アピール$"
 
 gText_BadlyStartlesMonsGoodAppeals::
-	.string "Badly startles all POKéMON\n"
-	.string "that made good appeals.$"
+	.string "{JPN}アピールが うまくいった ポケモン\n"
+	.string "{JPN}みんなを かなり おどろかす$"
 
 gText_AppealBestMoreCrowdExcited::
-	.string "The appeal works best the\n"
-	.string "more the crowd is excited.$"
+	.string "{JPN}かいじょうが もりあがっている ほど\n"
+	.string "{JPN}アピールが きにいられる$"
 
 gText_TemporarilyStopCrowdExcited::
-	.string "Temporarily stops the\n"
-	.string "crowd from growing excited.$"
-
-@ Unused move names
+	.string "{JPN}このアピールのあと かいじょうが\n"
+	.string "{JPN}しばらく もりあがらなく なる$"
 
 gText_RainDance::
-	.string "RAIN DANCE$"
+	.string "{JPN}あまごい$"
 
 gText_Rage::
-	.string "RAGE$"
+	.string "{JPN}いかり$"
 
 gText_FocusEnergy::
-	.string "FOCUS ENERGY$"
+	.string "{JPN}きあいだめ$"
 
 gText_Hypnosis::
-	.string "HYPNOSIS$"
+	.string "{JPN}さいみんじゅつ$"
 
 gText_Softboiled::
-	.string "SOFTBOILED$"
+	.string "{JPN}タマゴうみ$"
 
 gText_HornAttack::
-	.string "HORN ATTACK$"
+	.string "{JPN}つのでつく$"
 
 gText_SwordsDance::
-	.string "SWORDS DANCE$"
+	.string "{JPN}つるぎのまい$"
 
 gText_Conversion::
-	.string "CONVERSION$"
+	.string "{JPN}テクスチャー$"
 
 gText_SunnyDay::
-	.string "SUNNY DAY$"
+	.string "{JPN}にほんばれ$"
 
 gText_Rest2::
-	.string "REST$"
+	.string "{JPN}ねむる$"
 
 gText_Vicegrip::
-	.string "VICEGRIP$"
+	.string "{JPN}はさむ$"
 
 gText_DefenseCurl::
-	.string "DEFENSE CURL$"
+	.string "{JPN}まるくなる$"
 
 gText_LockOn::
-	.string "LOCK-ON$"
-
-@ Contest type names
+	.string "{JPN}ロックオン$"
 
 gContestMoveTypeCoolText::
-	.string "COOL$"
+	.string "{JPN}かっこいい$"
 
 gContestMoveTypeBeautyText::
-	.string "BEAUTY$"
+	.string "{JPN}うつくしい$"
 
 gContestMoveTypeCuteText::
-	.string "CUTE$"
+	.string "{JPN}かわいい$"
 
 gContestMoveTypeSmartText::
-	.string "SMART$"
+	.string "{JPN}かしこい$"
 
 gContestMoveTypeToughText::
-	.string "TOUGH$"
+	.string "{JPN}たくましい$"
 
 gText_AppealNumWhichMoveWillBePlayed::
-	.string "Appeal no. {STR_VAR_1}!\n"
-	.string "Which move will be played?$"
+	.string "{JPN}かいめの アピール!\n"
+	.string "{JPN}どの わざを だす?$"
 
 gText_AppealNumButItCantParticipate::
-	.string "Appeal no. {STR_VAR_1}!\n"
-	.string "But it can't participate!$"
+	.string "{JPN}かいめの アピール!\n"
+	.string "{JPN}しかし さんか できない!$"
 
 gText_MonAppealedWithMove::
-	.string "{STR_VAR_1} appealed with\n"
-	.string "{STR_VAR_2}!$"
+	.string "{JPN}{STR_VAR_1}は\n"
+	.string "{JPN}{STR_VAR_2}で アピール!$"
 
 gText_MonWasWatchingOthers::
-	.string "{STR_VAR_1} was watching\n"
-	.string "the others.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}{STR_VAR_1}は\n"
+	.string "{JPN}みんなを みていた!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_AllOutOfAppealTime::
-	.string "We're all out of\n"
-	.string "Appeal Time!{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
-
-@ Unused appeal result texts
+	.string "{JPN}アピールタイム しゅうりょう!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_ButAppealWasJammed::
-	.string "But the appeal was\n"
-	.string "jammed.$"
+	.string "{JPN}しかし じゃまを された!$"
 
 gText_FollowedAnotherMonsLead::
-	.string "It followed another\n"
-	.string "POKéMON's lead.$"
+	.string "{JPN}ほかの ポケモンに つられた!$"
 
 gText_ButItMessedUp::
-	.string "But it messed up.$"
+	.string "{JPN}しかし しっぱいして\n"
+	.string "{JPN}しまった!$"
 
 gText_WentBetterThanUsual::
-	.string "It went better than\n"
-	.string "usual.$"
+	.string "{JPN}いつもより うまく いった!$"
 
 gText_JudgeLookedAwayForSomeReason::
-	.string "The JUDGE looked away\n"
-	.string "for some reason.$"
+	.string "{JPN}しんさいんが なぜか\n"
+	.string "{JPN}めを そらした!$"
 
 gText_WorkedHardToBuildOnPastMistakes::
-	.string "It worked hard to build on\n"
-	.string "past mistakes.$"
+	.string "{JPN}これまでの しっぱいを\n"
+	.string "{JPN}いかして がんばってみた!$"
 
 gText_CantMakeAnyMoreMoves::
-	.string "It can't make any more\n"
-	.string "moves.$"
+	.string "{JPN}これいじょう わざを\n"
+	.string "{JPN}だせなくなった!$"
 
 gText_WorkedFrighteninglyWell::
-	.string "It worked frighteningly\n"
-	.string "well.$"
+	.string "{JPN}こわいくらい うまく いった!$"
 
 gText_WorkedHardAsStandoutMon::
-	.string "It worked as hard as the\n"
-	.string "standout POKéMON.$"
+	.string "{JPN}めだっている ポケモンと\n"
+	.string "{JPN}おなじくらい がんばった!$"
 
 gText_JudgedLookedOnExpectantly::
-	.string "The JUDGE looked on\n"
-	.string "expectantly.$"
+	.string "{JPN}しんさいんが きたいを\n"
+	.string "{JPN}こめた めで みつめた!$"
 
 gText_WorkedRatherWell::
-	.string "It worked rather well.$"
+	.string "{JPN}かなり うまく いった!$"
 
 gText_WorkedLittleBetterThanUsual::
-	.string "It worked a little better\n"
-	.string "than usual.$"
-
-@ Round result texts
+	.string "{JPN}ふつうより ちょっと\n"
+	.string "{JPN}うまく いった!$"
 
 gText_MonFailedToStandOutAtAll::
-	.string "{STR_VAR_1} failed to\n"
-	.string "stand out at all…{PAUSE_UNTIL_PRESS}$"
+	.string "{JPN}{STR_VAR_1}は\n"
+	.string "{JPN}ぜんぜん めだたなかった...{PAUSE_UNTIL_PRESS}$"
 
 gText_MonDidntStandOutVeryMuch::
-	.string "{STR_VAR_1} didn't stand\n"
-	.string "out very much…{PAUSE_UNTIL_PRESS}$"
+	.string "{JPN}{STR_VAR_1}は\n"
+	.string "{JPN}あんまり めだたなかった...{PAUSE_UNTIL_PRESS}$"
 
 gText_MonCaughtALittleAttention::
-	.string "{STR_VAR_1} caught a\n"
-	.string "little attention.{PAUSE_UNTIL_PRESS}$"
+	.string "{JPN}{STR_VAR_1}は\n"
+	.string "{JPN}まあまあ めだった!{PAUSE_UNTIL_PRESS}$"
 
 gText_MonAttractedALotOfAttention::
-	.string "{STR_VAR_1} attracted a\n"
-	.string "lot of attention.{PAUSE_UNTIL_PRESS}$"
+	.string "{JPN}{STR_VAR_1}は\n"
+	.string "{JPN}かなり めだった!{PAUSE_UNTIL_PRESS}$"
 
 gText_MonCommandedTotalAttention::
-	.string "{STR_VAR_1} commanded\n"
-	.string "total attention.{PAUSE_UNTIL_PRESS}$"
+	.string "{JPN}{STR_VAR_1}は\n"
+	.string "{JPN}ものすごく めだった!{PAUSE_UNTIL_PRESS}$"
 
 gText_MonHasntMadeItsAppeal::
-	.string "{STR_VAR_1} hasn't made\n"
-	.string "its appeal.{PAUSE_UNTIL_PRESS}$"
+	.string "{JPN}{STR_VAR_1}は\n"
+	.string "{JPN}アピール していない!{PAUSE_UNTIL_PRESS}$"
 
-@ Unused
 gText_AnticipationSwelledForMonsAppealNext2::
-	.string "Anticipation swelled for\n"
-	.string "{STR_VAR_1}'s appeal next.$"
+	.string "{JPN}つぎの {STR_VAR_1}の アピールに\n"
+	.string "{JPN}きたいが たかまった!$"
 
 gText_EmptyContestString::
-	.string "$"
+	.string "{JPN}$"
 
 gText_JudgesViewsOnMonHeldFirm::
-	.string "The JUDGE 's views on\n"
-	.string "{STR_VAR_1} held firm.$"
+	.string "{JPN}しんさいんの {STR_VAR_1}への\n"
+	.string "{JPN}いんしょうは かわらない!$"
 
 gText_MonsXChangedPerceptions::
-	.string "{STR_VAR_1}'s {STR_VAR_3}\n"
-	.string "changed perceptions.$"
+	.string "{JPN}{STR_VAR_1}の {STR_VAR_3}は\n"
+	.string "{JPN}いんしょうを はねかえした!$"
 
 gText_MonsAppealEffectWoreOff::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "effect wore off.$"
+	.string "{JPN}{STR_VAR_1}の\n"
+	.string "{JPN}アピールこうかが なくなった!$"
 
 gText_SpecialAppealsEffectWoreOff::
-	.string "The special appeal's\n"
-	.string "effect wore off.$"
+	.string "{JPN}スペシャル アピールの\n"
+	.string "{JPN}こうかが なくなった!$"
 
 gText_EveryonesAppealsMadeToLookSame::
-	.string "Everyone's appeals were\n"
-	.string "made to look the same.$"
+	.string "{JPN}ぜんいんの アピールを\n"
+	.string "{JPN}おなじくらいに みせた!$"
 
 gText_CheapenedMonsAppeal::
-	.string "It cheapened\n"
-	.string "{STR_VAR_2}'s appeal.$"
+	.string "{JPN}{STR_VAR_2}の\n"
+	.string "{JPN}アピールを ひくくみせた!$"
 
 gText_CheapenedAppealOfThoseAhead::
-	.string "It cheapened the appeal\n"
-	.string "of those ahead.$"
+	.string "{JPN}{STR_VAR_1}より めだつ\n"
+	.string "{JPN}アピールを ひくくみせた!$"
 
 gText_StoleAttentionAwayFromMon::
-	.string "It stole attention away\n"
-	.string "from {STR_VAR_2}.$"
+	.string "{JPN}{STR_VAR_2}の\n"
+	.string "{JPN}ちゅうもくを うばった!$"
 
 gText_CheapenedMonsAppeal2::
-	.string "It cheapened\n"
-	.string "{STR_VAR_2}'s appeal.$"
+	.string "{JPN}{STR_VAR_2}の\n"
+	.string "{JPN}アピールを ひくくみせた!$"
 
 gText_SeverelyCheapenedOtherAppeals::
-	.string "It severely cheapened\n"
-	.string "other appeals.$"
+	.string "{JPN}みんなの アピールを\n"
+	.string "{JPN}おおはばに ひくくみせた!$"
 
 gText_AnticipationSwelledForMonsAppealNext::
-	.string "Anticipation swelled for\n"
-	.string "{STR_VAR_1}'s appeal next.$"
+	.string "{JPN}つぎの {STR_VAR_1}の アピールに\n"
+	.string "{JPN}きたいが たかまった!$"
 
 gText_CheapenedAppealOfThoseAhead2::
-	.string "It cheapened the appeal\n"
-	.string "of those ahead.$"
+	.string "{JPN}{STR_VAR_1}より めだっている\n"
+	.string "{JPN}アピールを ひくくみせた!$"
 
 gText_CheapenedJudgesFavoriteAppeal::
-	.string "It cheapened the JUDGE's\n"
-	.string "favorite appeal.$"
+	.string "{JPN}しんさいんの すきなアピールを\n"
+	.string "{JPN}いつもより ひくくみせた!$"
 
 gText_AppealsOfOthersCheapenedByHalf::
-	.string "The appeals of others\n"
-	.string "were cheapened by half.$"
+	.string "{JPN}じぶんいがいの アピールを\n"
+	.string "{JPN}はんぶんの できにみせた!$"
 
 gText_StoodOutToMakeUpForBeingJammed::
-	.string "It stood out to make up\n"
-	.string "for being jammed.$"
+	.string "{JPN}いままで じゃまされた\n"
+	.string "{JPN}うっぷんを はらして めだった!$"
 
 gText_CantParticipateInAppealsAnyMore::
-	.string "It can't participate in\n"
-	.string "appeals any more.$"
+	.string "{JPN}もう アピールに\n"
+	.string "{JPN}さんか できなくなった!$"
 
 gText_TouchedJudgeForFantasticAppeal::
-	.string "It touched the JUDGE for\n"
-	.string "a fantastic appeal.$"
+	.string "{JPN}しんさいんの こころに うったえ\n"
+	.string "{JPN}すごい アピールになった!$"
 
 gText_AnticipationRoseForUpcomingAppeals::
-	.string "Anticipation rose for\n"
-	.string "upcoming appeals.$"
+	.string "{JPN}つぎからの アピールに\n"
+	.string "{JPN}すこし きたいが たかまった!$"
 
 gText_StoodOutAsMuchAsSpecialAppeals::
-	.string "It stood out as much as\n"
-	.string "special appeals.$"
+	.string "{JPN}スペシャル アピールがある\n"
+	.string "{JPN}かずだけ めだった!$"
 
 gText_StoodOutAsMuchAsMon::
-	.string "It stood out as much as\n"
-	.string "{STR_VAR_1}.$"
+	.string "{JPN}{STR_VAR_1}と\n"
+	.string "{JPN}おなじくらい めだった!$"
 
 gText_JammedAppealsMadeEvenLessNoticeable::
-	.string "Jammed appeals were made\n"
-	.string "even less noticeable.$"
+	.string "{JPN}じゃまされた アピールを\n"
+	.string "{JPN}さらに めだたなくした!$"
 
 gText_EveryonesAppealsMadeSame::
-	.string "Everyone's appeals were\n"
-	.string "made the same.$"
-
-@ Appeal result texts
+	.string "{JPN}ぜんいんの アピールと\n"
+	.string "{JPN}おなじくらいに みせた!$"
 
 gText_BecameMoreConsciousOfOtherMons::
-	.string "It became more conscious\n"
-	.string "of the other POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}ほかの ポケモンが いつもより\n"
+	.string "{JPN}きに なって きた!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonCantMakeAnAppealAfterThis::
-	.string "{STR_VAR_1} can't make an\n"
-	.string "appeal after this.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}{STR_VAR_1}は このあと\n"
+	.string "{JPN}アピール できなく なった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_SettledDownJustLittleBit::
-	.string "It settled down just a\n"
-	.string "little bit.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}ちょっと だけ\n"
+	.string "{JPN}きもちが おちついた!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_BecameObliviousToOtherMons::
-	.string "It became oblivious to\n"
-	.string "the other POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}ほかの ポケモンが ぜんぜん\n"
+	.string "{JPN}きに ならなく なった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_BecameLessAwareOfOtherMons::
-	.string "It became less aware of\n"
-	.string "the other POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}ほかの ポケモンが あまり\n"
+	.string "{JPN}きに ならなく なった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_StoppedCaringAboutOtherMons::
-	.string "It stopped caring about\n"
-	.string "other POKéMON much.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}ほかの ポケモンを あまり\n"
+	.string "{JPN}きに しないように なった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToStartleOtherMons::
-	.string "It tried to startle the\n"
-	.string "other POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}ほかの ポケモンを\n"
+	.string "{JPN}びっくり させようと した!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToDazzleOthers::
-	.string "It tried to dazzle the\n"
-	.string "others.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}みんなの めを\n"
+	.string "{JPN}くらませようと した!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_JudgeLookedAwayFromMon::
-	.string "The JUDGE looked away\n"
-	.string "from {STR_VAR_1}.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}しんさいんは {STR_VAR_1}から\n"
+	.string "{JPN}めを そらして しまった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToUnnerveNextMon::
-	.string "It tried to unnerve the\n"
-	.string "next POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}つぎに まっている ポケモンを\n"
+	.string "{JPN}きんちょう させようと した!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonBecameNervous::
-	.string "{STR_VAR_1} became\n"
-	.string "nervous.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}{STR_VAR_1}は\n"
+	.string "{JPN}きんちょう してしまった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_AppealTriedToUnnerveWaitingMons::
-	.string "The appeal tried to\n"
-	.string "unnerve waiting POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}アピールが まだの ポケモンを\n"
+	.string "{JPN}きんちょう させようと した!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TauntedMonsDoingWell::
-	.string "It taunted POKéMON\n"
-	.string "doing well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}ちょうしが いい ポケモンを\n"
+	.string "{JPN}からかってみた!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonRegainedItsForm::
-	.string "{STR_VAR_1} regained its\n"
-	.string "form.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}{STR_VAR_1}の ちょうしが\n"
+	.string "{JPN}もとに もどって しまった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToJamMonDoingWell::
-	.string "It tried to jam POKéMON\n"
-	.string "doing well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}ちょうしが いい ポケモンの\n"
+	.string "{JPN}じゃまを しようと した!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_StandoutMonHustledEvenMore::
-	.string "The standout {STR_VAR_1}\n"
-	.string "hustled even more.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}めだっている {STR_VAR_1}は\n"
+	.string "{JPN}さらに はりきった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_LargelyUnnoticedMonWorkedHard::
-	.string "The largely unnoticed\n"
-	.string "{STR_VAR_1} worked hard.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}めだっていない {STR_VAR_1}は\n"
+	.string "{JPN}がんばりまくった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_WorkedAsMuchAsMonBefore::
-	.string "It worked as much as\n"
-	.string "POKéMON before it.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}まえの ポケモンたちに\n"
+	.string "{JPN}まけないくらい はりきった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealDidNotGoWell::
-	.string "{STR_VAR_1}'s appeal did\n"
-	.string "not go well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}{STR_VAR_1}は アピールを\n"
+	.string "{JPN}うまく みせられなかった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_WorkedAsMuchAsPrecedingMon::
-	.string "It worked as much as the\n"
-	.string "preceding POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}まえの ポケモンと\n"
+	.string "{JPN}おなじくらい はりきった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealDidNotGoWell2::
-	.string "{STR_VAR_1}'s appeal did\n"
-	.string "not go well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}{STR_VAR_1}の アピールは\n"
+	.string "{JPN}うまく みせられなかった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealDidNotGoWell3::
-	.string "{STR_VAR_1}'s appeal did\n"
-	.string "not go well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}{STR_VAR_1}の アピールは\n"
+	.string "{JPN}うまく みせられなかった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentSlightlyWell::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went slightly well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}{STR_VAR_1}の アピールは\n"
+	.string "{JPN}すこし うまく いった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentPrettyWell::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went pretty well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}{STR_VAR_1}の アピールは\n"
+	.string "{JPN}まあまあ うまく いった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentExcellently::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went excellently.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}{STR_VAR_1}の アピールは\n"
+	.string "{JPN}とても うまく いった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWasDud::
-	.string "{STR_VAR_1}'s appeal was\n"
-	.string "a dud.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}{STR_VAR_1}の アピールは\n"
+	.string "{JPN}しっぱい して しまった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealDidNotWorkVeryWell::
-	.string "{STR_VAR_1}'s appeal did\n"
-	.string "not work very well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}{STR_VAR_1}の アピールは\n"
+	.string "{JPN}あまり うまく いかなかった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentSlightlyWell2::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went slightly well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}{STR_VAR_1}の アピールは\n"
+	.string "{JPN}すこし うまく いった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentPrettyWell2::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went pretty well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}{STR_VAR_1}の アピールは\n"
+	.string "{JPN}まあまあ うまく いった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentVeryWell::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went very well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}{STR_VAR_1}の アピールは\n"
+	.string "{JPN}かなり うまく いった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentExcellently2::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went excellently.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}{STR_VAR_1}の アピールは\n"
+	.string "{JPN}とても うまく いった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_SameTypeAsOneBeforeGood::
-	.string "It's the same type as the\n"
-	.string "POKéMON before--good!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}まえの ポケモンと\n"
+	.string "{JPN}おなじタイプで きにいられた!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_NotSameTypeAsOneBeforeGood::
-	.string "It's not the same type as\n"
-	.string "the one before--good!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}まえの ポケモンと\n"
+	.string "{JPN}ちがうタイプで きにいられた!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_StoodOutMuchMoreThanMonBefore::
-	.string "It stood out much more\n"
-	.string "than the POKéMON before.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}まえの ポケモンより\n"
+	.string "{JPN}だいぶ めだった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_DidntDoAsWellAsMonBefore::
-	.string "It didn't do as well as the\n"
-	.string "POKéMON before.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}まえの ポケモンより\n"
+	.string "{JPN}うまく できなかった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsConditionRoseAboveUsual::
-	.string "{STR_VAR_1}'s condition\n"
-	.string "rose above usual.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}{STR_VAR_1}の ちょうしが\n"
+	.string "{JPN}いつもより あがった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsHotStatusMadeGreatAppeal::
-	.string "{STR_VAR_1}'s hot status\n"
-	.string "made it a great appeal!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}{STR_VAR_1}は ちょうしが よくて\n"
+	.string "{JPN}ぜっこうの アピールに なった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MovedUpInLineForNextAppeal::
-	.string "It moved up in line for\n"
-	.string "the next appeal.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}つぎの アピールを はやく\n"
+	.string "{JPN}しようと まえに でた!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MovedBackInLineForNextAppeal::
-	.string "It moved back in line once\n"
-	.string "for the next appeal.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}つぎの アピールを おそく\n"
+	.string "{JPN}しようと 1ぽ さがった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_ScrambledUpOrderForNextTurn::
-	.string "It scrambled up the\n"
-	.string "order for the next turn.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}つぎの ターンの じゅんばんを\n"
+	.string "{JPN}おかしく した!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_JudgeLookedAtMonExpectantly::
-	.string "The JUDGE looked at\n"
-	.string "{STR_VAR_1} expectantly.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}しんさいんが きたいして\n"
+	.string "{JPN}{STR_VAR_1}を みつめた!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_AppealComboWentOverWell::
-	.string "The appeal combo went\n"
-	.string "over well.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}アピールの くみあわせが\n"
+	.string "{JPN}きに いって もらえた!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_AppealComboWentOverVeryWell::
-	.string "The appeal combo went\n"
-	.string "over very well.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}アピールの くみあわせが\n"
+	.string "{JPN}かなり きに いられた!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_AppealComboWentOverExcellently::
-	.string "The appeal combo went\n"
-	.string "over excellently.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}アピールの くみあわせが\n"
+	.string "{JPN}ものすごく きに いられた!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonManagedToAvertGaze::
-	.string "{STR_VAR_1} managed to\n"
-	.string "avert its gaze.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}{STR_VAR_1}は なんとか\n"
+	.string "{JPN}めを そらした!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonManagedToAvoidSeeingIt::
-	.string "{STR_VAR_1} managed to\n"
-	.string "avoid seeing it.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}{STR_VAR_1}は\n"
+	.string "{JPN}そっちを みずに すんだ!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonIsntFazedByThatSortOfThing::
-	.string "{STR_VAR_1} isn't fazed\n"
-	.string "by that sort of thing.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}{STR_VAR_1}は\n"
+	.string "{JPN}このくらいは へいきだった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonBecameALittleDistracted::
-	.string "{STR_VAR_1} became a\n"
-	.string "little distracted.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}{STR_VAR_1}は ちょっと\n"
+	.string "{JPN}きを とられて しまった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToStartleOtherPokemon::
-	.string "It tried to startle the\n"
-	.string "other POKéMON.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}ほかの ポケモンを\n"
+	.string "{JPN}びっくり させようと した!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonLookedDownOutOfDistraction::
-	.string "{STR_VAR_1} looked down\n"
-	.string "out of distraction.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}{STR_VAR_1}は きを とられて\n"
+	.string "{JPN}したを むいて しまった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonTurnedBackOutOfDistraction::
-	.string "{STR_VAR_1} turned back\n"
-	.string "out of distraction.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}{STR_VAR_1}は きを とられて\n"
+	.string "{JPN}ふりかえって しまった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonCouldntHelpUtteringCry::
-	.string "{STR_VAR_1} couldn't help\n"
-	.string "uttering a cry.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}{STR_VAR_1}は おもわず\n"
+	.string "{JPN}こえを あげて しまった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonCouldntHelpLeapingUp::
-	.string "{STR_VAR_1} couldn't help\n"
-	.string "leaping up.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}{STR_VAR_1}は おもわず\n"
+	.string "{JPN}とびあがって しまった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonTrippedOutOfDistraction::
-	.string "{STR_VAR_1} tripped over\n"
-	.string "out of distraction.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}{STR_VAR_1}は きを とられて\n"
+	.string "{JPN}ひっくり かえって しまった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonWasTooNervousToMove::
-	.string "{STR_VAR_1} was too\n"
-	.string "nervous to move.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}{STR_VAR_1}は きんちょうして\n"
+	.string "{JPN}アピールが できなかった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_ButItMessedUp2::
-	.string "But it messed up.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}でも しっぱい してしまった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_ButItFailedToMakeTargetNervous::
-	.string "But it failed to make\n"
-	.string "the target nervous.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}でも きんちょう\n"
+	.string "{JPN}させられなかった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_ButItFailedToMakeAnyoneNervous::
-	.string "But it failed to make\n"
-	.string "anyone nervous.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}でも だれも\n"
+	.string "{JPN}きんちょう しなかった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_ButItWasIgnored::
-	.string "But it was ignored…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}でも むし されて しまった...{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_CouldntImproveItsCondition::
-	.string "But it couldn't improve\n"
-	.string "its condition…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}でも ちょうしは\n"
+	.string "{JPN}あがらなかった...{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_BadConditionResultedInWeakAppeal::
-	.string "Its bad condition\n"
-	.string "resulted in a weak appeal.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}ちょうしが よく なくて\n"
+	.string "{JPN}あまり うまく できなかった...{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonWasUnaffected::
-	.string "{STR_VAR_1} was\n"
-	.string "unaffected.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}{STR_VAR_1}は\n"
+	.string "{JPN}へいき だった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_RepeatedAppeal::
-	.string "{STR_VAR_1} disappointed\n"
-	.string "by repeating an appeal.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}{STR_VAR_1}は おなじアピールを\n"
+	.string "{JPN}つづけて がっかり された!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsXWentOverGreat::
-	.string "{STR_VAR_1}'s {STR_VAR_3}\n"
-	.string "went over great.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}{STR_VAR_1}の {STR_VAR_3}が\n"
+	.string "{JPN}まわりに とても うけた!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsXDidntGoOverWell::
-	.string "{STR_VAR_1}'s {STR_VAR_3}\n"
-	.string "didn't go over well here…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}{STR_VAR_1}の {STR_VAR_3}は\n"
+	.string "{JPN}ここでは うけなかった...{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsXGotTheCrowdGoing::
-	.string "{STR_VAR_1}'s {STR_VAR_3}\n"
-	.string "got the crowd going.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}{STR_VAR_1}の {STR_VAR_3}に\n"
+	.string "{JPN}まわりが もりあがった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonCantAppealNextTurn::
-	.string "{STR_VAR_1} can't appeal\n"
-	.string "next turn…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}{STR_VAR_1}は つぎの アピールに\n"
+	.string "{JPN}さんか できなくなった!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_AttractedCrowdsAttention::
-	.string "It attracted the crowd's\n"
-	.string "attention.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}かんきゃくの\n"
+	.string "{JPN}ちゅうもくを あつめた!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_CrowdContinuesToWatchMon::
-	.string "The crowd continues to\n"
-	.string "watch {STR_VAR_3}.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}かんきゃくは\n"
+	.string "{JPN}{STR_VAR_3}を みつづけている!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsMoveIsIgnored::
-	.string "{STR_VAR_1}'s\n"
-	.string "{STR_VAR_2} is ignored.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{JPN}{STR_VAR_1}の {STR_VAR_2}は\n"
+	.string "{JPN}めを むけられなかった...{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_Contest_Shyness::
-	.string "shyness$"
+	.string "{JPN}モジモジ$"
 
 gText_Contest_Anxiety::
-	.string "anxiety$"
+	.string "{JPN}ドキドキ$"
 
 gText_Contest_Laziness::
-	.string "laziness$"
+	.string "{JPN}デレデレ$"
 
 gText_Contest_Hesitancy::
-	.string "hesitancy$"
+	.string "{JPN}オロオロ$"
 
 gText_Contest_Fear::
-	.string "fear$"
+	.string "{JPN}ビクビク$"
 
 gText_Contest_Coolness::
-	.string "coolness$"
+	.string "{JPN}かっこよさ$"
 
 gText_Contest_Beauty::
-	.string "beauty$"
+	.string "{JPN}うつくしさ$"
 
 gText_Contest_Cuteness::
-	.string "cuteness$"
+	.string "{JPN}かわいさ$"
 
 gText_Contest_Smartness::
-	.string "smartness$"
+	.string "{JPN}かしこさ$"
 
 gText_Contest_Toughness::
-	.string "toughness$"
+	.string "{JPN}たくましさ$"
 
-@ Unused
 gText_Tension::
-	.string "TENSION$"
+	.string "{JPN}テンション$"
 
 gText_CoolMove::
-	.string "COOL Move$"
+	.string "{JPN}かっこいい わざ$"
 
 gText_BeautyMove::
-	.string "BEAUTY Move$"
+	.string "{JPN}うつくしい わざ$"
 
 gText_CuteMove::
-	.string "CUTE Move$"
+	.string "{JPN}かわいい わざ$"
 
 gText_SmartMove::
-	.string "SMART Move$"
+	.string "{JPN}かしこい わざ$"
 
 gText_ToughMove::
-	.string "TOUGH Move$"
+	.string "{JPN}たくましい わざ$"
 
 gText_3QuestionMarks::
-	.string "???$"
+	.string "{JPN}???$"

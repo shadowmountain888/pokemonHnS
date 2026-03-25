@@ -1,108 +1,105 @@
 @ Battle Tower
 gText_AnabelWonSilver::
-	.string "It's very disappointing…$"
+	.string "{JPN}ざんねん だよ...$"
 
 gText_AnabelDefeatSilver::
-	.string "Okay, I understand…$"
+	.string "{JPN}なるほどね...$"
 
 gText_AnabelWonGold::
-	.string "I'm terribly sorry…$"
+	.string "{JPN}ごめんね...$"
 
 gText_AnabelDefeatGold::
-	.string "Thank you…$"
+	.string "{JPN}ありがとう...$"
 
 @ Battle Dome
 gText_TuckerWonSilver::
-	.string "Ahahaha! Aren't you embarrassed?\n"
-	.string "Everyone's watching!$"
+	.string "{JPN}アッハッハッ!! はずかしく ないのっ!?\n"
+	.string "{JPN}みんなが みてるよっ!!$"
 
 gText_TuckerDefeatSilver::
-	.string "Grr…\n"
-	.string "What the…$"
+	.string "{JPN}クッ... なんて こと...$"
 
 gText_TuckerWonGold::
-	.string "My DOME ACE title isn't just for show!$"
+	.string "{JPN}ドームスーパースターの\n"
+	.string "{JPN}なまえは かざりじゃ ないっ!!$"
 
 gText_TuckerDefeatGold::
-	.string "Ahahaha!\n"
-	.string "You're inspiring!$"
+	.string "{JPN}アッハッハッ!! ステキっ!!$"
 
 @ Battle Factory
 gText_NolandWonSilver::
-	.string "Way to work!\n"
-	.string "That was a good lesson, eh?$"
+	.string "{JPN}おつかれさん!\n"
+	.string "{JPN}イイ べんきょうに なったろ?$"
 
 gText_NolandDefeatSilver::
-	.string "Good job!\n"
-	.string "You know what you're doing!$"
+	.string "{JPN}イイねぇー!\n"
+	.string "{JPN}おめえ わかってる ねぇー!$"
 
 gText_NolandWonGold::
-	.string "Hey, hey, hey!\n"
-	.string "You're finished already?$"
+	.string "{JPN}おいおいおいーー!!\n"
+	.string "{JPN}もう おしまいかー?$"
 
 gText_NolandDefeatGold::
-	.string "What happened here?$"
+	.string "{JPN}なんだとぉ...$"
 
 @ Battle Pike
 gText_LucyWonSilver::
-	.string "Humph…$"
+	.string "{JPN}フン...$"
 
 gText_LucyDefeatSilver::
-	.string "Urk…$"
+	.string "{JPN}くっ...$"
 
 gText_LucyWonGold::
-	.string "Hah!$"
+	.string "{JPN}ハッ!!$"
 
 gText_LucyDefeatGold::
-	.string "Darn!$"
+	.string "{JPN}ちくしょおぉぉぉっーーー!!$"
 
 @ Battle Arena
 gText_GretaWonSilver::
-	.string "Oh, come on!\n"
-	.string "You have to try harder than that!$"
+	.string "{JPN}ちょっと ちょっとぉー!\n"
+	.string "{JPN}もっと がんばってよねー!!$"
 
 gText_GretaDefeatSilver::
-	.string "No way!\n"
-	.string "Good job!$"
+	.string "{JPN}うっそ! やるじゃんー!!$"
 
 gText_GretaWonGold::
-	.string "Heheh!\n"
-	.string "What did you expect?$"
+	.string "{JPN}ウィーッス! とうぜん!!$"
 
 gText_GretaDefeatGold::
-	.string "Huh?\n"
-	.string "Are you serious?!$"
+	.string "{JPN}いーっ!? マジっ!?$"
 
 @ Battle Palace
 gText_SpenserWonSilver::
-	.string "Your POKéMON are wimpy because\n"
-	.string "you're wimpy as a TRAINER!$"
+	.string "{JPN}ポケモンが なんじゃく なのは\n"
+	.string "{JPN}トレーナーが なんじゃく だからだ!!$"
 
 gText_SpenserDefeatSilver::
-	.string "Ah…\n"
-	.string "Now this is something else…$"
+	.string "{JPN}おまえの ポケモンたちは\n"
+	.string "{JPN}まことに すんだ ひとみを しとる!\p"
+	.string "{JPN}つぎの きかいを\n"
+	.string "{JPN}たのしみに しとるぞ!$"
 
 gText_SpenserWonGold::
-	.string "Gwahahaha!\n"
-	.string "My brethren, we have nothing to fear!$"
+	.string "{JPN}ほほぅ...\n"
+	.string "{JPN}これは これは...$"
 
 gText_SpenserDefeatGold::
-	.string "Gwah!\n"
-	.string "Hahahaha!$"
+	.string "{JPN}ぐわはっはっは!!\n"
+	.string "{JPN}わが きょうだいの まえに てき なし!!$"
 
 @ Battle Pyramid
 gText_BrandonWonSilver::
-	.string "Hey! What's wrong with you!\n"
-	.string "Let's see some effort! Get up!$"
+	.string "{JPN}ぐわーーーはっはっは!!$"
 
 gText_BrandonDefeatSilver::
-	.string "That's it! You've done great!\n"
-	.string "You've worked hard for this!$"
+	.string "{JPN}おい! なにを やってるんだ!\n"
+	.string "{JPN}ほら がんばれ! たちあがるんだ!!$"
 
 gText_BrandonWonGold::
-	.string "Hey! Don't you give up now!\n"
-	.string "Get up! Don't lose faith in yourself!$"
+	.string "{JPN}よおしっ! がんばった!\n"
+	.string "{JPN}よく がんばったぞ!!$"
 
 gText_BrandonDefeatGold::
-	.string "That's it! You've done it!\n"
-	.string "You kept working for this!$"
+	.string "{JPN}おい! あきらめるんじゃ ない!\n"
+	.string "{JPN}さあ たつんだ! がんばるんだ!!$"

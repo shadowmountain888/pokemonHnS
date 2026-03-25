@@ -18,12 +18,13 @@ EcruteakCity_Mart_EventScript_Granny::
 	end
 
 EcruteakMart_Text_SuperNerd:
-	.string "My EEVEE evolved into an ESPEON.\p"
-	.string "But my friend's EEVEE turned into\n"
-	.string "an UMBREON.\p"
-	.string "I wonder why? We both were raising\n"
-	.string "our EEVEE in the same way…$"
-
+	.string "{JPN}ぼくのイーブイ\n"
+	.string "{JPN}エーフィにしんかしたよ\p"
+	.string "{JPN}でもともだちのイーブイは\n"
+	.string "{JPN}ブラッキーにしんかしたよ\p"
+	.string "{JPN}なにがちがったんだろな\n"
+	.string "{JPN}ふたりともずっとイーブイのまま\l"
+	.string "{JPN}そだてていたのに..$"
 EcruteakMart_Text_Granny:
-	.string "If you use REVIVE, a POKéMON that's\n"
-	.string "fainted will wake right up.$"
+	.string "{JPN}げんきのかけらをつかってあげると\n"
+	.string "{JPN}ひんしのポケモンもとびおきますよ$"

@@ -10,9 +10,9 @@ Route38_EventScript_Officer::
 	end
 
 Route38_Text_EcruteakGateOfficer:
-	.string "Where did you say you're from?\p"
-	.string "NEW BARK TOWN?\p"
-	.string "PROF.ELM lives over there,\n"
-	.string "right?\p"
-	.string "You've come a long way to get\n"
-	.string "here.$"
+	.string "{JPN}どちらから いらしたって?\p"
+	.string "{JPN}ワカバタウン?\p"
+	.string "{JPN}ウツギはかせが すんでる\n"
+	.string "{JPN}ところですよね?\p"
+	.string "{JPN}ここまで ながい みちのりを\n"
+	.string "{JPN}あるいて きたんですね.$"

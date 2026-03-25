@@ -1,32 +1,32 @@
 gText_PkmnTransferredSomeonesPC::
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "SOMEONE'S PC.\p"
-	.string "It was placed in \n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string "{JPN}{STR_VAR_2}は\n"
+	.string "{JPN}だれかのパソコンに おくられた.\p"
+	.string "{JPN}ボックス {STR_VAR_1}に\n"
+	.string "{JPN}あずけられた.$"
 
 gText_PkmnTransferredBillsPC::
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "BILL'S PC.\p"
-	.string "It was placed in \n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string "{JPN}{STR_VAR_2}は\n"
+	.string "{JPN}マサキのパソコンに おくられた.\p"
+	.string "{JPN}ボックス {STR_VAR_1}に\n"
+	.string "{JPN}あずけられた.$"
 
 gText_PkmnTransferredSomeonesPCBoxFull::
-	.string "BOX “{STR_VAR_3}” on\n"
-	.string "SOMEONE'S PC was full.\p"
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string "{JPN}ボックス {STR_VAR_3}が\n"
+	.string "{JPN}いっぱいだったので\p"
+	.string "{JPN}{STR_VAR_2}は\n"
+	.string "{JPN}ボックス {STR_VAR_1}に おくられた.$"
 
 gText_PkmnTransferredBillsPCBoxFull::
-	.string "BOX “{STR_VAR_3}” on\n"
-	.string "BILL'S PC was full.\p"
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string "{JPN}ボックス {STR_VAR_3}が\n"
+	.string "{JPN}いっぱいだったので\p"
+	.string "{JPN}{STR_VAR_2}は\n"
+	.string "{JPN}ボックス {STR_VAR_1}に おくられた.$"
 
 gText_NoMoreRoomForPokemon::
-	.string "There's no more room for POKéMON!\p"
-	.string "The POKéMON BOXES are full and\n"
-	.string "can't accept any more!$"
+	.string "{JPN}ポケモンを あずける\nばしょが ありません!\p"
+	.string "{JPN}ボックスが すべて\n"
+	.string "{JPN}いっぱいです!$"
 
 gText_NicknameThisPokemon::
-	.string "Do you want to give a nickname to\n"
-	.string "this {STR_VAR_1}?$"
+	.string "{JPN}この {STR_VAR_1}に\n"
+	.string "{JPN}ニックネームを つけますか?$"

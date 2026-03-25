@@ -419,11 +419,7 @@ extern u8 Debug_ShowFieldMessageStringVar4[];
 extern u8 Debug_CheatStart[];
 extern u8 PlayersHouse_2F_EventScript_SetWallClock[];
 extern u8 PlayersHouse_2F_EventScript_CheckWallClock[];
-#ifdef BATTLE_ENGINE
-#define ABILITY_NAME_LENGTH 16
-#else
-#define ABILITY_NAME_LENGTH 12
-#endif
+// ABILITY_NAME_LENGTH is defined in constants/global.h
 extern const u8 gAbilityNames[][ABILITY_NAME_LENGTH + 1];
 
 
@@ -438,17 +434,17 @@ static const u8 sDebugText_Colored_True[] =  _("{COLOR GREEN}TRUE");
 static const u8 sDebugText_Colored_False[] = _("{COLOR RED}FALSE");
 static const u8 sDebugText_Dashes[] =        _("---");
 static const u8 sDebugText_Empty[] =         _("");
-static const u8 sDebugText_Continue[] =      _("Continue…{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Continue[] =      _("{JPN}Continue...{CLEAR_TO 110}{RIGHT_ARROW}");
 // Main Menu
-static const u8 sDebugText_Utilities[] =        _("Utilities…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Scripts[] =          _("Scripts…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_FlagsVars[] =        _("Flags & Vars…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Battle[] =           _("Battle Test…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Give[] =             _("Give X…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_PkmCreator[] =       _("Pokémon Creator…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Fill[] =             _("Fill PC/Pockets…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Sound[] =            _("Sound…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_AccessPC[] =         _("Access PC…{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Utilities[] =        _("{JPN}Utilities...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Scripts[] =          _("{JPN}Scripts...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_FlagsVars[] =        _("{JPN}Flags & Vars...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Battle[] =           _("{JPN}Battle Test...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Give[] =             _("{JPN}Give X...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_PkmCreator[] =       _("{JPN}Pokémon Creator...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Fill[] =             _("{JPN}Fill PC/Pockets...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Sound[] =            _("{JPN}Sound...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_AccessPC[] =         _("{JPN}Access PC...{CLEAR_TO 110}{RIGHT_ARROW}");
 static const u8 sDebugText_Cancel[] =           _("Cancel");
 // Script menu
 static const u8 sDebugText_Util_Script_1[] =               _("Open Challenges Menu");
@@ -461,28 +457,28 @@ static const u8 sDebugText_Util_Script_7[] =               _("Script 7 (Empty)")
 static const u8 sDebugText_Util_Script_8[] =               _("Script 8 (Empty)");
 // Util Menu
 static const u8 sDebugText_Util_HealParty[] =               _("Heal Party");
-static const u8 sDebugText_Util_Fly[] =                     _("Fly to map…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Util_WarpToMap[] =               _("Warp to map warp…{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Util_Fly[] =                     _("{JPN}Fly to map...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Util_WarpToMap[] =               _("{JPN}Warp to map warp...{CLEAR_TO 110}{RIGHT_ARROW}");
 static const u8 sDebugText_Util_WarpToMap_SelectMapGroup[] =_("Group: {STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n\n{STR_VAR_3}{CLEAR_TO 90}");
 static const u8 sDebugText_Util_WarpToMap_SelectMap[] =     _("Map: {STR_VAR_1}{CLEAR_TO 90}\nMapSec:{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}\n{STR_VAR_3}{CLEAR_TO 90}");
 static const u8 sDebugText_Util_WarpToMap_SelectWarp[] =    _("Warp:{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_3}{CLEAR_TO 90}");
 static const u8 sDebugText_Util_WarpToMap_SelMax[] =        _("{STR_VAR_1} / {STR_VAR_2}");
 static const u8 sDebugText_Util_PoisonMons[] =              _("Poison all mons");
-static const u8 sDebugText_Util_SaveBlockSpace[] =          _("SaveBlock Space…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Util_Weather[] =                 _("Set weather…{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Util_SaveBlockSpace[] =          _("{JPN}SaveBlock Space...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Util_Weather[] =                 _("{JPN}Set weather...{CLEAR_TO 110}{RIGHT_ARROW}");
 static const u8 sDebugText_Util_Weather_ID[] =              _("Weather Id: {STR_VAR_3}\n{STR_VAR_1}\n{STR_VAR_2}");
-static const u8 sDebugText_Util_CheckWallClock[] =          _("Check Wall Clock…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Util_SetWallClock[] =            _("Set Wall Clock…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Util_WatchCredits[] =            _("Watch Credits…{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Util_CheckWallClock[] =          _("{JPN}Check Wall Clock...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Util_SetWallClock[] =            _("{JPN}Set Wall Clock...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Util_WatchCredits[] =            _("{JPN}Watch Credits...{CLEAR_TO 110}{RIGHT_ARROW}");
 static const u8 sDebugText_Util_Trainer_Name[] =            _("Trainer name");
 static const u8 sDebugText_Util_Trainer_Gender[] =          _("Toggle T. Gender");
 static const u8 sDebugText_Util_Trainer_Id[] =              _("New Trainer Id");
 static const u8 sDebugText_Util_CheatStart[] =              _("CHEAT Start");
 // Flags/Vars Menu
-static const u8 sDebugText_FlagsVars_Flags[] =                  _("Set Flag XYZ…{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_FlagsVars_Flags[] =                  _("{JPN}Set Flag XYZ...{CLEAR_TO 110}{RIGHT_ARROW}");
 static const u8 sDebugText_FlagsVars_Flag[] =                   _("Flag: {STR_VAR_1}{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}\n{STR_VAR_3}");
 static const u8 sDebugText_FlagsVars_FlagHex[] =                _("{STR_VAR_1}{CLEAR_TO 90}\n0x{STR_VAR_2}{CLEAR_TO 90}");
-static const u8 sDebugText_FlagsVars_Vars[] =                   _("Set Var XYZ…{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_FlagsVars_Vars[] =                   _("{JPN}Set Var XYZ...{CLEAR_TO 110}{RIGHT_ARROW}");
 static const u8 sDebugText_FlagsVars_VariableHex[] =            _("{STR_VAR_1}{CLEAR_TO 90}\n0x{STR_VAR_2}{CLEAR_TO 90}");
 static const u8 sDebugText_FlagsVars_Variable[] =               _("Var: {STR_VAR_1}{CLEAR_TO 90}\nVal: {STR_VAR_3}{CLEAR_TO 90}\n{STR_VAR_2}");
 static const u8 sDebugText_FlagsVars_VariableValueSet[] =       _("Var: {STR_VAR_1}{CLEAR_TO 90}\nVal: {STR_VAR_3}{CLEAR_TO 90}\n{STR_VAR_2}");
@@ -503,11 +499,11 @@ static const u8 sDebugText_FlagsVars_SwitchTrainerSee[] =       _("Toggle {STR_V
 static const u8 sDebugText_FlagsVars_SwitchBagUse[] =           _("Toggle {STR_VAR_1}BagUse OFF");
 static const u8 sDebugText_FlagsVars_SwitchCatching[] =         _("Toggle {STR_VAR_1}Catching OFF");
 // Battle
-static const u8 sDebugText_Battle_0_Wild[] =        _("Wild…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Battle_0_WildDouble[] =  _("Wild Double…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Battle_0_Single[] =      _("Single…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Battle_0_Double[] =      _("Double…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Battle_0_Mulit[] =       _("Multi…{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Battle_0_Wild[] =        _("{JPN}Wild...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Battle_0_WildDouble[] =  _("{JPN}Wild Double...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Battle_0_Single[] =      _("{JPN}Single...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Battle_0_Double[] =      _("{JPN}Double...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Battle_0_Mulit[] =       _("{JPN}Multi...{CLEAR_TO 110}{RIGHT_ARROW}");
 #ifndef BATTLE_ENGINE
 static const u8 sDebugText_Battle_1_AIFlag_00[] =   _("{STR_VAR_1}Check bad move");
 static const u8 sDebugText_Battle_1_AIFlag_01[] =   _("{STR_VAR_1}Try to faint");
@@ -538,23 +534,23 @@ static const u8 sDebugText_Battle_1_AIFlag_14[] =   _("{STR_VAR_1}Screener");
 static const u8 sDebugText_Battle_1_AIFlag_15[] =   _("{STR_VAR_1}Smart switching");
 static const u8 sDebugText_Battle_1_AIFlag_16[] =   _("{STR_VAR_1}Ace pokemon");
 #endif
-static const u8 sDebugText_Battle_2_Terrain_0[] =   _("Grass…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Battle_2_Terrain_1[] =   _("Long grass…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Battle_2_Terrain_2[] =   _("Sand…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Battle_2_Terrain_3[] =   _("Underwater…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Battle_2_Terrain_4[] =   _("Water…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Battle_2_Terrain_5[] =   _("Pond…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Battle_2_Terrain_6[] =   _("Mountain…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Battle_2_Terrain_7[] =   _("Cave…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Battle_2_Terrain_8[] =   _("Building…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Battle_2_Terrain_9[] =   _("Plain…{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Battle_2_Terrain_0[] =   _("{JPN}Grass...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Battle_2_Terrain_1[] =   _("{JPN}Long grass...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Battle_2_Terrain_2[] =   _("{JPN}Sand...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Battle_2_Terrain_3[] =   _("{JPN}Underwater...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Battle_2_Terrain_4[] =   _("{JPN}Water...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Battle_2_Terrain_5[] =   _("{JPN}Pond...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Battle_2_Terrain_6[] =   _("{JPN}Mountain...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Battle_2_Terrain_7[] =   _("{JPN}Cave...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Battle_2_Terrain_8[] =   _("{JPN}Building...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Battle_2_Terrain_9[] =   _("{JPN}Plain...{CLEAR_TO 110}{RIGHT_ARROW}");
 // Give Menu
-static const u8 sDebugText_Give_GiveItem[] =            _("Give item XYZ…{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Give_GiveItem[] =            _("{JPN}Give item XYZ...{CLEAR_TO 110}{RIGHT_ARROW}");
 static const u8 sDebugText_ItemQuantity[] =             _("Quantity:{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n\n{STR_VAR_2}");
 static const u8 sDebugText_ItemID[] =                   _("Item Id: {STR_VAR_3}\n{STR_VAR_1}{CLEAR_TO 90}\n\n{STR_VAR_2}");
 static const u8 sDebugText_Give_AllTMs[] =              _("Give all TMs");
-static const u8 sDebugText_Give_GivePokemonSimple[] =   _("Pkm (lvl)…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Give_GivePokemonComplex[] =  _("Pkm (l,s,n,a,IV,mov)…{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Give_GivePokemonSimple[] =   _("{JPN}Pkm (lvl)...{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Give_GivePokemonComplex[] =  _("{JPN}Pkm (l,s,n,a,IV,mov)...{CLEAR_TO 110}{RIGHT_ARROW}");
 static const u8 sDebugText_PokemonID[] =                _("Species: {STR_VAR_3}\n{STR_VAR_1}{CLEAR_TO 90}\n\n{STR_VAR_2}{CLEAR_TO 90}");
 static const u8 sDebugText_PokemonLevel[] =             _("Level:{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
 static const u8 sDebugText_PokemonShiny[] =             _("Shiny:{CLEAR_TO 90}\n   {STR_VAR_2}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{CLEAR_TO 90}");
@@ -595,9 +591,9 @@ static const u8 sDebugText_Fill_PocketTMHM[] =     _("Fill Pocket TMHM");
 static const u8 sDebugText_Fill_PocketBerries[] =  _("Fill Pocket Berries");
 static const u8 sDebugText_Fill_PocketKeyItems[] = _("Fill Pocket KeyItems");
 // Sound Mneu
-static const u8 sDebugText_Sound_SE[] =                 _("Effects…{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Sound_SE[] =                 _("{JPN}Effects...{CLEAR_TO 110}{RIGHT_ARROW}");
 static const u8 sDebugText_Sound_SE_ID[] =              _("Sound Id: {STR_VAR_3}\n{STR_VAR_1}    \n{STR_VAR_2}");
-static const u8 sDebugText_Sound_MUS[] =                _("Music…{CLEAR_TO 110}{RIGHT_ARROW}");
+static const u8 sDebugText_Sound_MUS[] =                _("{JPN}Music...{CLEAR_TO 110}{RIGHT_ARROW}");
 static const u8 sDebugText_Sound_MUS_ID[] =             _("Music Id: {STR_VAR_3}\n{STR_VAR_1}    \n{STR_VAR_2}");
 
 static const u8 sDebugText_PartyBoxes_HatchAnEgg[] =         _("Hatch an Egg");

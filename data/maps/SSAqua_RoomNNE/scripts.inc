@@ -12,25 +12,25 @@ SSAqua_RoomNNE_EventScript_Carol::
 	end
 
 SSAqua_RoomNNE_Text_CooltrainermSeanSeen:
-    .string "I'm going to KANTO\n"
-    .string "to test my skills.$"
+    .string "{JPN}カントーちほうに いって\n"
+	.string "{JPN}うでだめしを するんだ!$"
 
 SSAqua_RoomNNE_Text_CooltrainermSeanBeaten:
-    .string "I wanted to win!$"
+    .string "{JPN}かちたかったのに!$"
 
 SSAqua_RoomNNE_Text_CooltrainermSeanAfterBattle:
-    .string "Trainers from JOHTO\n"
-    .string "can battle with KANTO\l"
-    .string "GYM LEADERS.$"
+    .string "{JPN}ジョウトちほうの\n"
+	.string "{JPN}トレーナーでも カントーの\l"
+    .string "{JPN}ジムリーダーと たたかえるんだ$"
 
 SSAqua_RoomNNE_Text_CooltrainerfCarolSeen:
-    .string "I'm training to\n"
-    .string "become the CHAMP!$"
+    .string "{JPN}チャンピオンを めざして\n"
+	.string "{JPN}しゅぎょう しているの!$"
 
 SSAqua_RoomNNE_Text_CooltrainerfCarolBeaten:
-    .string "What's so different\n"
-    .string "between us?$"
+    .string "{JPN}わたしたちの ちがいって\n"
+	.string "{JPN}なんなのかしら?$"
 
 SSAqua_RoomNNE_Text_CooltrainerfCarolAfterBattle:
-    .string "I'm going to beat\n"
-    .string "you someday!$"
+    .string "{JPN}いつか あなたに\n"
+	.string "{JPN}かってみせるわ!$"

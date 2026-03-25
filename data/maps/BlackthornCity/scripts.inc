@@ -38,18 +38,9 @@ BlackthornCity_EventScript_Call::
 	end
 
 BlackthornCity_Text_BaobaCall:
-	.string "WARDEN BAOBA: {PLAYER}!\p"
-	.string "This is WARDEN BAOBA.\p"
-	.string "I'm calling to tell you that\n"
-	.string "the SAFARI ZONE has expanded!\p"
-	.string "Please come visit!$"
-
+	.string "{JPN}バオバえんちょう{PLAYER}！\pわしはサファリゾーンの\pえんちょうのバオバじゃ！\nサファリゾーンがかくだいしたぞ！\pぜひあそびにきておくれ！$"
 BlackthornCity_Text_ElmCall:
-	.string "PROF.ELM: Hello, {PLAYER}?\p"
-	.string "I have something here for you.\n"
-	.string "Could you swing by my LAB?\p"
-	.string "See you later!$"
-
+	.string "{JPN}ウツギはかせもしもし{PLAYER}？\pきみにわたしたいものがあるんだ\nけんきゅうじょにきてくれるかい？\pそれではまたね！$"
 BlackThornCity_EventScript_Sage::
 	lock
 	faceplayer
@@ -178,83 +169,72 @@ BlackthornCity_EventScript_SantosCompleted::
 
 
 BlackthornCity_Text_ClairNotReady:
-	.string "CLAIR, our GYM LEADER, has been\n"
-	.string "following your progress.\p"
-	.string "However, she only battles trainers\n"
-	.string "who already have 7 badges.$"
-
+	.string "{JPN}ジムリーダーのイブキさまは\nきみのかつやくをみておられる\pだがバッジを7こもっている\nトレーナーとしかたたかわないのだ$"
 BlackthornCity_Text_ClairIsIn:
-	.string "CLAIR, our GYM LEADER, is waiting\n"
-	.string "for you.\p"
-	.string "However, it would be impossible for\n"
-	.string "a run-of-the-mill trainer to win.$"
-
+	.string "{JPN}ジムリーダーのイブキさまが\n"
+	.string "{JPN}おまちになっておられます\p"
+	.string "{JPN}ですがなみたいていの\n"
+	.string "{JPN}じつりょくではかてませんよ$"
 BlackthornCity_Text_ClairIsBeaten:
-	.string "You defeated CLAIR?\p"
-	.string "That's amazing!\p"
-	.string "I've never heard of her losing to\n"
-	.string "anyone other than LANCE.$"
-
+	.string "{JPN}イブキさまにかたれたのですか！\n"
+	.string "{JPN}それはすごい..\p"
+	.string "{JPN}ワタルさまいがいに\n"
+	.string "{JPN}まけるのをみるのははじめてです！$"
 BlackthornGrampsRefusesEntryText:
-	.string "No. Only chosen trainers may train\n"
-	.string "here.\p"
-	.string "Please leave.$"
+	.string "{JPN}だめじゃ.えらばれた\n"
+	.string "{JPN}トレーナーだけが\l"
+	.string "{JPN}ここで しゅぎょうできる.\pかえりなさい.$"
 
 BlackthornGrampsGrantsEntryText:
-	.string "If CLAIR allows it, her grand-\n"
-	.string "father--our MASTER--will also.\p"
-	.string "You may enter.$"
+	.string "{JPN}イブキが みとめるなら\n"
+	.string "{JPN}かのじょの そふ...\l"
+	.string "{JPN}われらの しはんも みとめよう.\pはいって よろしい.$"
 
 BlackBeltText_VoicesInMyHead:
-	.string "Arooo! Voices in my head!\p"
-	.string "Huh? I'm listening to my radio!$"
+	.string "{JPN}うおー!あたまのなかに\n"
+	.string "{JPN}こえが!\pあ?ラジオを きいてるんだ!$"
 
 BlackthornCooltrainerF1Text:
-	.string "Are you going to make your POKéMON\n"
-	.string "remember some moves?$"
+	.string "{JPN}あなたの ポケモンに\n"
+	.string "{JPN}わざを おもいださせるの?$"
 
 BlackthornYoungsterText:
-	.string "Dragon masters all come from the city\n"
-	.string "of BLACKTHORN.$"
+	.string "{JPN}ドラゴンの たつじんは みんな\n"
+	.string "{JPN}フスベシティの しゅっしんなんだ.$"
 
 BlackthornCity_MeetSantosText:
-	.string "SANTOS: …\p"
-	.string "I'm SANTOS of the weekday family.\p"
-	.string "Take a guess.$"
+	.string "{JPN}サントス: ...\p"
+	.string "{JPN}わたしは ようびきょうだいの\n"
+	.string "{JPN}サントスです.\pあててみてください.$"
 
 BlackthornCity_SantosGivesGiftText:
-	.string "You can have this…$"
-
+	.string "{JPN}これを どうぞ...$"
 BlackthornCity_SantosGaveGiftText:
-	.string "SANTOS: …\p"
-	.string "SPELL TAG…\p"
-	.string "GHOST-type moves get stronger…\p"
-	.string "It will frighten you…$"
-
+	.string "{JPN}サントス: ...\p"
+	.string "{JPN}のろいのおふだ...\p"
+	.string "{JPN}ゴーストタイプの わざが\n"
+	.string "{JPN}つよくなります...\pおそろしいでしょう...$"
 BlackthornCity_SantosSaturdayText:
-	.string "SANTOS: …\p"
-	.string "See you again on another Saturday…\p"
-	.string "I won't have any more gifts…$"
-
+	.string "{JPN}サントス: ...\p"
+	.string "{JPN}また べつの どようびに\n"
+	.string "{JPN}あいましょう...\pもう おくりものは\nありません...$"
 BlackthornCity_SantosNopeText:
-	.string "SANTOS: No.$"
+	.string "{JPN}サントス:だめ.$"
 
 BlackthornCooltrainerF2Text:
-	.string "Wow, you came through the ICE PATH?\p"
-	.string "You must be a real hotshot trainer!$"
+	.string "{JPN}わあ!こおりのぬけみちを\n"
+	.string "{JPN}とおってきたの?\pほんとうに すごい トレーナー\nなのね!$"
 
 BlackthornCitySignText:
-	.string "BLACKTHORN CITY\p"
-	.string "A Quiet Mountain Retreat$"
+	.string "{JPN}フスベシティ\p"
+	.string "{JPN}しずかな やまおくの きゅうけいち$"
 
 BlackthornGymSignText:
-	.string "BLACKTHORN CITY POKéMON GYM\n"
-	.string "LEADER: CLAIR\p"
-	.string "The Blessed User of Dragon POKéMON$"
+	.string "{JPN}フスベシティ ポケモンジム\n"
+	.string "{JPN}ジムリーダー:イブキ\p"
+	.string "{JPN}ドラゴン ポケモンの せいなる つかいて$"
 
 BlackthornCity_Text_MoveDeletersHouseSign:
-	.string "MOVE BROS' HOUSE$"
-
+	.string "{JPN}わざけしきょうだいのいえ$"
 BlackthornCity_Text_DragonDenSign:
-	.string "DRAGON'S DEN AHEAD$"
-
+	.string "{JPN}このさきりゅうのあな$"

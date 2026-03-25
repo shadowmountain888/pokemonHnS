@@ -17,15 +17,15 @@ PewterCity_PokemonCenter_EventScript_BugCatcher::
 	end
 
 PewterCity_PokemonCenter1F_Text_Teacher:
-	.string "…Yeah, and the GYM in CINNABAR's gone.\p"
-	.string "I was really amazed.\p"
-	.string "…Yes? I'm on the phone. Go away!$"
-
+	.string "{JPN}でねでね..\n"
+	.string "{JPN}グレンのジムがなくなってるの！\l"
+	.string "{JPN}あたしちょーおどろいたー！\p"
+	.string "{JPN}..なーに？でんわちゅうなの\n"
+	.string "{JPN}ジャマしないでよ！$"
 PewterCity_PokemonCenter1F_Text_Jigglypuff:
-	.string "JIGGLYPUFF: Puu pupuu.$"
-
+	.string "{JPN}ぷうーぷぷうー$"
 PewterCity_PokemonCenter1F_Text_BugCatcher:
-	.string "Most POKéMON get drowsy if they hear a\n"
-	.string "JIGGLYPUFF singing.\p"
-	.string "There are several moves that can be\n"
-	.string "used only while a POKéMON is asleep.$"
+	.string "{JPN}プリンのうたごえをきくと..\n"
+	.string "{JPN}たいていのポケモンはねむくなる\p"
+	.string "{JPN}ねむっているときにつかうわざが\n"
+	.string "{JPN}いくつかあるんだよね！$"

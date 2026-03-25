@@ -116,26 +116,22 @@ EcruteakCity_Theater_Movement_KimonoGirlMoveBack:
 	step_end
 
 EcruteakCity_Theater_Text_Rocket1:
-	.string "ROCKET: Stop dancing such a serious\n"
-	.string "dance! Show me something like\l"
-	.string "a hula dance!$"
-
+	.string "{JPN}そんなシンキくせーおどり\n"
+	.string "{JPN}おどってねえで\l"
+	.string "{JPN}フラダンスでもみせてみろや！$"
 EcruteakCity_Theater_Text_KimonoRocket1:
-	.string "KIMONO GIRL: ...You mustn't push\n"
-	.string "such a request on me.$"
-
+	.string "{JPN}..あんさん\n"
+	.string "{JPN}そんなムチャをいうたら\l"
+	.string "{JPN}あきまへんえ$"
 EcruteakCity_Theater_Text_Rocket2:
-	.string "ROCKET: Huh?\p"
-	.string "Are you telling me you don't\n"
-	.string "respect what the customer\l"
-	.string "wants?$"
-
+	.string "{JPN}あーん？\p"
+	.string "{JPN}おきゃくサマのちゅうもんが\n"
+	.string "{JPN}きけねーってのか！$"
 EcruteakCity_Theater_Text_Rocket3:
-	.string "Well, then I'll show you how\n"
-	.string "to dance. I'll show you a\l"
-	.string "great one.\p"
-	.string "Wahahaha!$"
-
+	.string "{JPN}だったらおれがおてほんを\n"
+	.string "{JPN}みせてやろうか？\l"
+	.string "{JPN}かれいなおどりのおてほんを！\p"
+	.string "{JPN}どわーっはっはっは！$"
 EcruteakCity_Theater_EventScript_Rocket::
 	lock
 	faceplayer
@@ -188,33 +184,29 @@ EcruteakCity_Theater_Movement_RocketLeave:
 	step_end
 
 EcruteakCity_Theater_Text_RocketSeen:
-	.string "Huh? Who are you?\n"
-	.string "You dare to get in my way?$"
-
+	.string "{JPN}あん？なんだおまえ\p"
+	.string "{JPN}おれのジャマするつもり？$"
 EcruteakCity_Theater_Text_RocketBeaten:
-	.string "Oh, no!\n"
-	.string "You make me look like a\l"
-	.string "villain!$"
-
+	.string "{JPN}これじゃおれ\n"
+	.string "{JPN}ただのわるものじゃん！$"
 EcruteakCity_Theater_Text_RocketAfter:
-	.string "Oops! I have an important mission!\n"
-	.string "If they find out I was wasting\l"
-	.string "time here, they'll make me start\l"
-	.string "over as the lowest ROCKET GRUNT!\p"
-	.string "I better leave now!$"
-
+	.string "{JPN}..いけねえ！これから\n"
+	.string "{JPN}だいじなさくせんがあるってのに\p"
+	.string "{JPN}こんなところで\n"
+	.string "{JPN}みちくさくってるのがバレたら\p"
+	.string "{JPN}またしたっぱのしたっぱから\n"
+	.string "{JPN}やりなおしさせられちまう！\p"
+	.string "{JPN}さっさとにげるがかちだぜ！$"
 EcruteakCity_Theater_Text_KimonoRocket3:
-	.string "You must be {PLAYER},\n"
-	.string "correct? That was indeed\l"
-	.string "excellent.\p"
-	.string "Kind and strong... Good at\n"
-	.string "raising POKéMON as well...\p"
-	.string "That person does know what\n"
-	.string "to look for in people...\p"
-	.string "Ohoho! That was just me\n"
-	.string "talking to myself.\l"
-	.string "Never mind.$"
-
+	.string "{JPN}あんさん\n"
+	.string "{JPN}{PLAYER}はんでっしゃろ？\l"
+	.string "{JPN}ほんまにおみごとどすなあ\p"
+	.string "{JPN}しんせつでつよくて\n"
+	.string "{JPN}ポケモンのそだてかたもじょうず\p"
+	.string "{JPN}やはりあのかたの\n"
+	.string "{JPN}ひとをみるめはまちがいなし..\p"
+	.string "{JPN}おほほ！なんでもあらしまへん\n"
+	.string "{JPN}ひとりごとひとりごと..$"
 
 EcruteakCity_Theater_EventScript_KimonoGirl::
 	lock
@@ -255,14 +247,13 @@ EcruteakCity_Theater_EventScript_ZukiDuringRocket::
 	end
 
 EcruteakCity_Theater_Text_Kimono:
-	.string "For KIMONO GIRLS like me,\n"
-	.string "dancing is everything.\p"
-	.string "I have never gone a day\n"
-	.string "without a dance practice.\p"
-	.string "POKéMON are the same.\n"
-	.string "They grow with you little\l"
-	.string "by little each day.$"
-
+	.string "{JPN}うちらまいこはおどりがいのち\n"
+	.string "{JPN}ぶたいでのれんしゅうは\l"
+	.string "{JPN}いちにちたりともわすれまへん\p"
+	.string "{JPN}それはポケモンもいっしょ\p"
+	.string "{JPN}まいにちじかんをかけて\n"
+	.string "{JPN}いっしょにすこしずつ\l"
+	.string "{JPN}せいちょうしていくのどすえー$"
 EcruteakCity_Theater_EventScript_SurfGuy::
 	lock
 	faceplayer
@@ -410,88 +401,68 @@ EcruteakCity_Theater_Movement_SurfGuy2:
 	step_end
 
 EcruteakCity_Theater_Text_SurfGuyRocket:
-	.string "What's the deal with that\n"
-	.string "Team Rocket Grunt, messing\l"
-	.string "with that KIMONO GIRL?\p"
-	.string "You are a Trainer, right?\n"
-	.string "Please help her!$"
-
+	.string "{JPN}なんやあのロケットだんは！\p"
+	.string "{JPN}わしのまいこはんに\n"
+	.string "{JPN}ちょっかいだしおってからに！\p"
+	.string "{JPN}あんたトレーナーはんやろ？\n"
+	.string "{JPN}たのむわー\l"
+	.string "{JPN}まいこはんたすけたってえなー！$"
 EcruteakCity_Theater_Text_SurfGuyGiveSurf:
-	.string "Wonderful! You were so\n"
-	.string "courageous for your age!\p"
-	.string "It was a rare sight to see!\n"
-	.string "I want you to have this.\p"
-	.string "Don't be shy--take it!$"
-
+	.string "{JPN}いやーおみごとおみごと！\p"
+	.string "{JPN}わかいのにゆうきあるこうどう\n"
+	.string "{JPN}ええもんみせてもろたわー\p"
+	.string "{JPN}これはわしからのきもちや\n"
+	.string "{JPN}えんりょせんと\l"
+	.string "{JPN}うけとっておくんなはれ！$"
 EcruteakCity_Theater_Text_SurfGuyGaveSurf:
-	.string "That's SURF.\n"
-	.string "It's a move that lets POKéMON\l"
-	.string "swim across water with ease.$"
-
+	.string "{JPN}それはなみのりといってな\n"
+	.string "{JPN}みずのうえを\l"
+	.string "{JPN}すーいすーいすすめるわざや！$"
 EcruteakCity_Theater_Text_SurfGuyAfter:
-	.string "Not only are the KIMONO GIRLS\n"
-	.string "great dancers, they're also\l"
-	.string "skilled at POKéMON.\p"
-	.string "But they battle only for good\n"
-	.string "reasons.\p"
-	.string "I don't know if you could beat\n"
-	.string "them if they showed their skill...$"
-
+	.string "{JPN}まいこはんおどりだけでなく\n"
+	.string "{JPN}ほんとはポケモンのうでまえも\l"
+	.string "{JPN}たっしゃなんやで！\p"
+	.string "{JPN}せやけどめったなことでは\n"
+	.string "{JPN}たたかってくれへんのや..\p"
+	.string "{JPN}まいこはんがほんきだしたら\n"
+	.string "{JPN}あんさんもかてるかどうか..$"
 EcruteakCity_Theater_Text_Psyduck:
-	.string "PSYDUCK: Dau dau!$"
-
+	.string "{JPN}だうだうっ！$"
 EcruteakCity_Theater_Text_BoyBefore:
-	.string "Eeeeek!$"
-
+	.string "{JPN}きゃー！$"
 EcruteakCity_Theater_Text_Boy:
-	.string "I was supposed to be the hero...!\n"
-	.string "So much for getting close to\l"
-	.string "a KIMONO GIRL!$"
-
+	.string "{JPN}ぼっぼくのたちばがっ..！\p"
+	.string "{JPN}まいこはんとなかよくなる\n"
+	.string "{JPN}チャンスがっ..！$"
 EcruteakCity_Theater_Text_Granny:
-	.string "That man's always with his\n"
-	.string "PSYDUCK.\p"
-	.string "Says he wants a POKéMON that\n"
-	.string "can SURF and dance.\p"
-	.string "Is he trying to make a POKéMON\n"
-	.string "that stars in synchronized\l"
-	.string "swimming?$"
-
+	.string "{JPN}あのおじさん\n"
+	.string "{JPN}いつもコダックといっしょ！\p"
+	.string "{JPN}なみのりつかえるポケモンに\n"
+	.string "{JPN}おどりもおぼえてほしいんだと！\p"
+	.string "{JPN}シンクロナイズドスイミングでも\n"
+	.string "{JPN}やらせるつもりなのかな$"
 EcruteakCity_Theater_Text_GrannyBefore:
-	.string "Oh... Ouch...!\n"
-	.string "This stomachache!\p"
-	.string "I wouldn't let this guy act like\n"
-	.string "that if not for this pain...!$"
-
+	.string "{JPN}くっくう..！\p"
+	.string "{JPN}はらぐあいさえわるくなければ\n"
+	.string "{JPN}あんなヤツに\l"
+	.string "{JPN}すきかってさせないのに..！$"
 EcruteakCity_Theater_Text_Gramps:
-	.string "The KIMONO GIRLS are so\n"
-	.string "beautiful...\p"
-	.string "But they have to go through\n"
-	.string "rigorous training.\p"
-	.string "And they have to learn to follow\n"
-	.string "customs before appearing in\l"
-	.string "public.\p"
-	.string "But if you love something,\n"
-	.string "anything is possible.$"
-
+	.string "{JPN}まいこはんきれいやの..\p"
+	.string "{JPN}しかしひとまえにでるには\n"
+	.string "{JPN}きびしいしきたりやしゅぎょうを\l"
+	.string "{JPN}こなさないといかん！\p"
+	.string "{JPN}まあすきならなんでもできるがな$"
 EcruteakCity_Theater_Text_GrampsBefore:
-	.string "Oh... Ouch...!\n"
-	.string "This back pain!\p"
-	.string "I wouldn't let this guy act like\n"
-	.string "that if not for this pain...!$"
-
+	.string "{JPN}くっくう..！\p"
+	.string "{JPN}こしのちょうしがわるくなければ\n"
+	.string "{JPN}あんなヤツに\l"
+	.string "{JPN}すきかってさせないのに..！$"
 EcruteakCity_Theater_Text_Girl:
-	.string "The KIMONO GIRLS are my big\n"
-	.string "sisters! I'll be like them one\l"
-	.string "day!$"
-
+	.string "{JPN}まいこさんたちはわたしの\nおねえさんよ！わたしも\lいつかあんなふうになるの！$"
 EcruteakCity_Theater_Text_GirlBefore:
-	.string "I like that funny dance!$"
-
+	.string "{JPN}あのおもしろいおどりすき！$"
 EcruteakCity_Theater_Text_FancyPanel:
-	.string "It's a fancy panel that's\n"
-	.string "decorated with flowers.$"
-
+	.string "{JPN}はなでかざられた\nうつくしいパネルだ$"
 EcruteakCity_Theater_Trigger_PreBattleCutsceneLeft::
 	lock
 	applymovement2 OBJ_EVENT_ID_PLAYER, EcruteakCity_Theater_Movement_PlayerWalkToZukiLeft
@@ -972,117 +943,72 @@ EcruteakCity_Theater_Text_KimonoGirlBeaten:
 	.string "...$"
 
 EcruteakCity_Theater_Text_ZukiSeen:
-	.string "Welcome. My name is ZUKI.\n"
-	.string "I met you previously in VIOLET\l"
-	.string "CITY.\p"
-	.string "To bring back {STR_VAR_1}, we\n"
-	.string "needed someone with the right bond\l"
-	.string "with POKéMON.\p"
-	.string "We asked MR. POKéMON to give this\n"
-	.string "MYSTERY EGG to\l"
-	.string "whoever showed potential.\p"
-	.string "The EGG went from MR. POKéMON\n"
-	.string "to PROF.ELM, then to you.\p"
-	.string "But being pure alone is not enough\n"
-	.string "to face the power of this POKéMON.$"
-
+	.string "{JPN}いらっしゃいませ\nわたしはユヅキ\lまえにキキョウシティで\pあいましたね\p{STR_VAR_1}をもどすために\nポケモンととくべつなきずなを\lもつひとがひつようでした\pわたしたちはポケモンじいさんに\nみこみのあるひとに\lふしぎなタマゴをわたすよう\pたのんだのです\pタマゴはポケモンじいさんから\nウツギはかせ そしてあなたへ\pですがじゅんすいなこころだけでは\nこのポケモンのちからには\ltaiおうできません$"
 EcruteakCity_Theater_Text_ZukiSeenAgain:
-	.string "I will test you to see if you are\n"
-	.string "a good Trainer.\p"
-	.string "Are you ready, {PLAYER}?$"
-
+	.string "{JPN}ちゃーんとポケモンをあつかえるか\n"
+	.string "{JPN}いまからそれを\l"
+	.string "{JPN}ためさせてもらいます\p"
+	.string "{JPN}じゅんびはよろしいか？$"
 EcruteakCity_Theater_Text_ZukiNo:
-	.string "That is fine...\n"
-	.string "I will wait for you to get\l"
-	.string "ready.$"
-
+	.string "{JPN}そうどすか..\n"
+	.string "{JPN}じゅんびができるまでまってます$"
 EcruteakCity_Theater_Text_NaokoSeen:
-	.string "You are quite strong. You helped\n"
-	.string "me in the ILEX FOREST.\p"
-	.string "I'm NAOKO--not so good with\n"
-	.string "directions.\p"
-	.string "I saw you defeat Team Rocket\n"
-	.string "when KURT was in trouble at\l"
-	.string "the SLOWPOKE WELL.\p"
-	.string "Let me challenge you and your\n"
-	.string "POKéMON!$"
-
+	.string "{JPN}なかなかおつよいどすなあ\p"
+	.string "{JPN}あんさんには\n"
+	.string "{JPN}ウバメのもりでたすけられました\p"
+	.string "{JPN}うちがほうこうおんちな\n"
+	.string "{JPN}まいこのコウメ\p"
+	.string "{JPN}あんさんがヤドンのいどで\n"
+	.string "{JPN}ロケットはんをやっつけて\p"
+	.string "{JPN}こまっていたガンテツはんを\n"
+	.string "{JPN}たすけてあげはったのは\l"
+	.string "{JPN}うちがこのめでみましたえ\p"
+	.string "{JPN}つぎはポケモンで\n"
+	.string "{JPN}しょうぶさせてもらいまひょ！$"
 EcruteakCity_Theater_Text_MikiSeen:
-	.string "You're quite the Trainer. I\n"
-	.string "remember you chased off that\l"
-	.string "Rocket Grunt from right here.\p"
-	.string "Thank you for that.\p"
-	.string "Though, I'm a Trainer too.\n"
-	.string "She who knows the most speaks\l"
-	.string "the least!\p"
-	.string "I am MIKI--the KIMONO GIRL!\p"
-	.string "Let me challenge you and your\n"
-	.string "POKéMON!$"
-
+	.string "{JPN}すばらしいトレーナーですね\nここでロケットだんを\lおいはらってくれましたね\pありがとうございました\pでもわたしもトレーナーです\nのうあるたかはつめをかくす\pわたしはミキ\nまいこのミキです！\pあなたとあなたのポケモンに\nちょうせんさせてください！$"
 EcruteakCity_Theater_Text_SayoSeen:
-	.string "Excellent spirit! You got me\n"
-	.string "off the ice by pushing me.\p"
-	.string "I skate in sandals.\n"
-	.string "I am SAYO--the KIMONO GIRL!\p"
-	.string "I listened in the DRAGON'S DEN\n"
-	.string "when you passed the Elder's test.\p"
-	.string "Let me challenge you and your\n"
-	.string "POKéMON!$"
-
+	.string "{JPN}すばらしいこんじょう！\nおしてもらってたすかりました\pぞうりでスケートします\nわたしはサヨ まいこのサヨ！\pりゅうのあなでちょうろうの\nしけんにごうかくしたのも\pきいていました\pあなたとあなたのポケモンに\nちょうせんさせてください！$"
 EcruteakCity_Theater_Text_KuniSeen:
-	.string "I'm the last one.\p"
-	.string "You were dependable at the\n"
-	.string "GOLDENROD TUNNEL.\p"
-	.string "I'm the one who twirls even\n"
-	.string "underground--KUNI!\p"
-	.string "I saw you thwart Rocket's\n"
-	.string "plan to take the Radio Tower.\p"
-	.string "Now show me your strength!\n"
-	.string "Let me challenge you and your\l"
-	.string "POKéMON!$"
-
+	.string "{JPN}わたしがさいごのひとりよ\pコガネちかどうでは\nたよりになったわね\pちかでもまいつづける\nクニよ！\pラジオとうでロケットだんの\nけいかくをそししたのね\pあなたのちからを\nみせてちょうだい！\lポケモンしょうぶよ！$"
 EcruteakCity_Theater_Text_ZukiDone:
-	.string "We were not wrong about you.\n"
-	.string "You are indeed worthy of this...\p"
-	.string "Please take it.$"
-
+	.string "{JPN}うちらのめに\n"
+	.string "{JPN}まちがいはおまへんでした\p"
+	.string "{JPN}あんさんこそこれをもつのに\n"
+	.string "{JPN}ふさわしいおひと..\p"
+	.string "{JPN}さあうけとってくださいまし$"
 EcruteakCity_Theater_Text_GirlHooh:
-	.string "Big sisters! I just saw the\n"
-	.string "big shadow of a POKéMON over\l"
-	.string "the TIN TOWER!\p"
-	.string "It could be...$"
-
+	.string "{JPN}おねえさん！\p"
+	.string "{JPN}おおきなポケモンのかげが\n"
+	.string "{JPN}スズのとうのうえに！\p"
+	.string "{JPN}あれはひょっとすると..$"
 EcruteakCity_Theater_Text_GirlLugia:
-	.string "Big sisters! I just saw the\n"
-	.string "big shadow of a POKéMON in the\l"
-	.string "WHIRL ISLANDS' waters!\p"
-	.string "It could be...$"
-
+	.string "{JPN}おねえさん！\p"
+	.string "{JPN}おおきなポケモンのかげが\n"
+	.string "{JPN}うずまきじまのうみに！\p"
+	.string "{JPN}あれはひょっとすると..$"
 EcruteakCity_Theater_Text_ZukiHooh:
-	.string "ZUKI: {PLAYER}!\n"
-	.string "We'll be at the TIN TOWER.\n"
-	.string "See you there!$"
-
+	.string "{JPN}ほな{PLAYER}はん！\n"
+	.string "{JPN}うちらはひとあしさきに\l"
+	.string "{JPN}スズのとうへいってますえー！$"
 EcruteakCity_Theater_Text_ZukiLugia:
-	.string "ZUKI: {PLAYER}!\n"
-	.string "We'll be at the WHIRL ISLANDS.\l"
-	.string "See you there!$"
-
+	.string "{JPN}ほな{PLAYER}はん！\n"
+	.string "{JPN}うちらはひとあしさきに\l"
+	.string "{JPN}うずまきじまへいってますえー！$"
 EcruteakCity_Theater_Text_KimonoDone:
-	.string "We are rehearsing a dance.$"
-
+	.string "{JPN}おどりのれんしゅうちゅうどすえー$"
 EcruteakCity_Theater_Text_ZukiAfterAll:
-	.string "Thank you for your help the\n"
-	.string "other day.\p"
-	.string "You've shown the bond between\n"
-	.string "people can grow with POKéMON...\p"
-	.string "We appreciate how you lived up\n"
-	.string "to our hopes, {PLAYER}!\p"
-	.string "If you learned anything from\n"
-	.string "this, thank MR. POKéMON and\l"
-	.string "PROF.ELM...$"
+	.string "{JPN}このまえは たすけてくれて\n"
+	.string "{JPN}ありがとう.\p"
+	.string "{JPN}ひととひとのきずなが\n"
+	.string "{JPN}ポケモンによってふかまることを\l"
+	.string "{JPN}きみがしめしてくれた...\p"
+	.string "{JPN}わたしたちのきたいにこたえて\n"
+	.string "{JPN}くれて ありがとう {PLAYER}!\p"
+	.string "{JPN}もしこのことからなにかを\n"
+	.string "{JPN}まなんだのなら ポケモンじいさんと\lウツギはかせにかんしゃするのじゃ...$"
 
 EcruteakCity_Theater_Text_KimonoGirlsBeforeBattle:
-	.string "Talk to ZUKI in the middle\n"
-	.string "when you are ready.$"
-
+	.string "{JPN}じゅんびができたら\n"
+	.string "{JPN}まんなかのタマオねえさんに\l"
+	.string "{JPN}はなしかけておくれやす$"

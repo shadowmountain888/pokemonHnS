@@ -183,46 +183,46 @@ BerryTree_EventScript_PlantBerry::
 	return
 
 ApricornTree_Text_Growing:
-	.string "It's a BERRY tree!\n"
-	.string "These BERRIES aren't ripe yet.$"
+	.string "{JPN}きのみの きだ!\n"
+	.string "{JPN}まだ みが なっていない.$"
 
 BerryTree_Text_ItsSoftLoamySoil:
-	.string "It's soft, loamy soil.$"
+	.string "{JPN}やわらかい つちだ.$"
 
 BerryTree_Text_BerryGrowthStage1:
-	.string "One {STR_VAR_1} was planted here.\n"
-	.string "Want to water it with the WAILMER PAIL?$"
+	.string "{JPN}{STR_VAR_1}が うえてある.\n"
+	.string "{JPN}ジョウロで みずを あげますか?$"
 
 BerryTree_Text_BerryGrowthStage2:
-	.string "{STR_VAR_1} has sprouted.\n"
-	.string "Want to water it with the WAILMER PAIL?$"
+	.string "{JPN}{STR_VAR_1}の めが でた.\n"
+	.string "{JPN}ジョウロで みずを あげますか?$"
 
 BerryTree_Text_BerryGrowthStage3:
-	.string "This {STR_VAR_1} plant is growing taller.\n"
-	.string "Want to water it with the WAILMER PAIL?$"
+	.string "{JPN}{STR_VAR_1}が そだっている.\n"
+	.string "{JPN}ジョウロで みずを あげますか?$"
 
 BerryTree_Text_BerryGrowthStage4:
-	.string "These {STR_VAR_1} flowers are\n"
-	.string "blooming {STR_VAR_2}. Want to water them?$"
+	.string "{JPN}{STR_VAR_1}の はなが\n"
+	.string "{JPN}{STR_VAR_2} さいている. みずを あげる?$"
 
 BerryTree_Text_CareAdverbGreat:
-	.string "very beautifully$"
+	.string "{JPN}とても きれいに$"
 
 BerryTree_Text_CareAdverbPoor:
-	.string "cutely$"
+	.string "{JPN}かわいく$"
 
 BerryTree_Text_CareAdverbGood:
-	.string "prettily$"
+	.string "{JPN}きれいに$"
 
 BerryTree_Text_PickedTheBerry:
-	.string "{PLAYER} picked the {STR_VAR_2} {STR_VAR_1}.$"
+	.string "{JPN}{PLAYER}は {STR_VAR_1}を\n{STR_VAR_2}こ つんだ.$"
 
 BerryTree_Text_BerryPocketFull:
-	.string "The BAG's BERRIES POCKET is full.\p"
-	.string "The {STR_VAR_1} couldn't be taken.$"
+	.string "{JPN}バッグの きのみポケットが\nいっぱいだ.\p"
+	.string "{JPN}{STR_VAR_1}を とれなかった.$"
 
 BerryTree_Text_ExclamationPoint:
 	.string "!$"
 
 BerryTree_Text_BerryTreeSprouted:
-	.string "The berry tree suddenly sprouted!$"
+	.string "{JPN}きのみの きが とつぜん めを だした!$"

@@ -366,58 +366,58 @@ RuinsOfAlph_PuzzleAndRewardChambers_EventScript_RewardGotten::
 	end
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Reward:
-	.string "The chamber reacts!\n"
-	.string "The way is open.$"
+	.string "{JPN}せきしつが はんのうしている!\n"
+	.string "{JPN}みち が ひらかれた.$"
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Mon:
-	.string "Some kind of ancient sensor.\n"
-	.string "What is it looking for?$"
+	.string "{JPN}なにかの こだいの センサーだ.\n"
+	.string "{JPN}なにを さがしているのだろう?$"
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Solved:
-	.string "The way is open.$"
+	.string "{JPN}みち が ひらかれた.$"
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Receptionist1:
-	.string "Welcome to this chamber.\p"
-	.string "There are sliding panels that depict\n"
-	.string "a POKéMON drawn by the ancients.\p"
-	.string "Slide the panels around to form\n"
-	.string "the picture.\p"
-	.string "To the left is a description of\n"
-	.string "the POKéMON.\p"
-	.string "Scientists in the lab are examin-\n"
-	.string "-ing some newly found patterns.$"
+	.string "{JPN}この せきしつに ようこそ.\p"
+	.string "{JPN}ここには こだいの ひとが えがいた\n"
+	.string "{JPN}ポケモンの えが かかれた\l"
+	.string "{JPN}スライドパネルが あります.\p"
+	.string "{JPN}パネルを うごかして えを\n"
+	.string "{JPN}かんせい させて ください.\p"
+	.string "{JPN}ひだりがわに その ポケモンの\n"
+	.string "{JPN}せつめいが かかれています.\p"
+	.string "{JPN}けんきゅうじょの かがくしゃたちは\nあたらしく みつかった もようを\lしらべています.$"
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Receptionist2:
-	.string "A hole just opened up in the floor!\n"
-	.string "I'd better tell the others.$"
+	.string "{JPN}ゆかに あながあいた!\n"
+	.string "{JPN}みんなに しらせなくちゃ.$"
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Receptionist3:
-	.string "Now a hole in the wall too?!\n"
-	.string "This is getting spooky.$"
+	.string "{JPN}こんどは かべにも あなが?!\n"
+	.string "{JPN}なんだか きみが わるいわ.$"
 
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Kabuto:
-	.string "A POKéMON that hid on the sea floor.\n"
-	.string "Eyes on its back scanned the area.$"
+	.string "{JPN}かいていに かくれていた ポケモン.\n"
+	.string "{JPN}せなかの めで あたりを みまわした.$"
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_UnownText:
-	.string "It's UNOWN text!$"
+	.string "{JPN}アンノーンもじ だ!$"
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Statue:
-	.string "It's a replica of an ancient\n"
-	.string "POKéMON.$"
+	.string "{JPN}こだいの ポケモンの\n"
+	.string "{JPN}レプリカだ.$"
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Aerodactyl:
-	.string "This flying POKéMON attacked its\n"
-	.string "prey with saw-like fangs.$"
+	.string "{JPN}この そらとぶ ポケモンは のこぎりの\n"
+	.string "{JPN}ような きばで えものを おそった.$"
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Omanyte:
-	.string "This POKéMON drifted in the sea\n"
-	.string "by twisting its ten tentacles.$"
+	.string "{JPN}この ポケモンは 10ぽんの しょくしゅを\n"
+	.string "{JPN}くねらせて うみを ただよっていた.$"
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Hooh:
-	.string "A POKéMON that flew gracefully on\n"
-	.string "rainbow-colored wings.$"
+	.string "{JPN}にじいろの つばさで うつくしく\n"
+	.string "{JPN}とんでいた ポケモン.$"
 
 @==========================================================================================================================================================
 @ Hooh

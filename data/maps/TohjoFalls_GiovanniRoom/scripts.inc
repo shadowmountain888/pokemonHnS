@@ -24,8 +24,8 @@ TohjoFalls_GiovanniRoom_EventScript_Radio::
 	end
 
 TohjoFalls_GiovanniRoom_Text_RadioObject::
-	.string "A radio...\n"
-	.string "The battery is dead...$"
+	.string "{JPN}ラジオ...\n"
+	.string "{JPN}でんちが きれてる...$"
 
 TohjoFalls_GiovanniRoom_CancelScene::
 	setvar VAR_TOHJO_FALLS_GIOVANNI_STATE, 0
@@ -190,45 +190,45 @@ TohjoFalls_Movement_GiovanniLeave:
 	step_end
 
 TohjoFalls_GiovanniRoom_Text_Radio:
-	.string "RADIO: ... ...\n"
-	.string "Ahem, we are TEAM ROCKET!\l"
-	.string "After three years of preparation,\l"
-	.string "we have risen again from the ashes!\l"
-	.string "GIOVANNI! Can you hear us?\l"
-	.string "We did it!\l"
-	.string "Where is our boss?\l"
-	.string "Is he listening?$"
+	.string "{JPN}ラジオ: ... ...\n"
+	.string "{JPN}ごほん われわれは ロケットだんだ!\l"
+	.string "{JPN}さんねんかんの じゅんびを へて\l"
+	.string "{JPN}われわれは はいから よみがえった!\l"
+	.string "{JPN}サカキ! きこえるか?\l"
+	.string "{JPN}やったぞ!\l"
+	.string "{JPN}ボスは どこだ?\l"
+	.string "{JPN}きいて いるのか?$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniIntro:
-	.string "GIOVANNI: ...\p"
-	.string "I don't know why you have come\n"
-	.string "here.\p"
-	.string "Anyway, I have to warn you that\n"
-	.string "this is not a place for kids like\l"
-	.string "you.\p"
-	.string "You have a certain look.\n"
-	.string "It reminds me of the kid who stood\l"
-	.string "in front of me three years ago...\p"
-	.string "You have the same eyes...\p"
-	.string "...\p"
-	.string "I'm on my way to GOLDENROD CITY\n"
-	.string "to answer the call and join my team.\l"
-	.string "Are you going to get in my way?$"
+	.string "{JPN}サカキ: ...\p"
+	.string "{JPN}なぜ おまえが ここに きたのか\n"
+	.string "{JPN}わからん.\p"
+	.string "{JPN}だが けいこくして おく.\n"
+	.string "{JPN}ここは おまえのような\l"
+	.string "{JPN}こどもが くるばしょでは ない.\p"
+	.string "{JPN}おまえの そのかお...\n"
+	.string "{JPN}さんねんまえに わたしの まえに\l"
+	.string "{JPN}たっていた あのがきを おもいだす...\p"
+	.string "{JPN}めつきが おなじだ...\p"
+	.string "{JPN}...\p"
+	.string "{JPN}わたしは コガネシティへ いき\n"
+	.string "{JPN}なかまの よびかけに こたえる.\l"
+	.string "{JPN}じゃまを するつもりか?$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniBeforeBattle:
-	.string "My old associates need me...\n"
-	.string "We will not repeat the failure of\l"
-	.string "three years ago!$"
+	.string "{JPN}むかしの なかまたちが\n"
+	.string "{JPN}わたしを まっている...\l"
+	.string "{JPN}さんねんまえの しっぱいは\nくりかえさん!$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniDefeat:
-	.string "What in the world are you?$"
+	.string "{JPN}いったい おまえは なんなんだ?$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniAfter:
-	.string "GIOVANNI: How is this possible...?\n"
-	.string "The past three years have been a\l"
-	.string "waste...?\p"
-	.string "How can a kid like you manage to\n"
-	.string "destroy my dream once again?\p"
-	.string "The precious dream of TEAM ROCKET\n"
-	.string "has become little more than an\l"
-	.string "illusion...$"
+	.string "{JPN}サカキ: こんなことが ありうるのか...?\n"
+	.string "{JPN}この さんねんかんは\l"
+	.string "{JPN}むだだったのか...?\p"
+	.string "{JPN}なぜ おまえのような がきに\n"
+	.string "{JPN}またしても ゆめを こわされる?\p"
+	.string "{JPN}ロケットだんの たいせつな ゆめが\n"
+	.string "{JPN}まぼろし どうぜんに なって\n"
+	.string "{JPN}しまった...$"

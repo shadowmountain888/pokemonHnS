@@ -56,102 +56,99 @@ Route38_EventScript_Item_LaxIncense::
 	end
 
 Route38_Text_BirdKeeperTobySeen:
-	.string "Fly high into the sky,\n"
-	.string "my beloved bird POKéMON!$"
+	.string "{JPN}そらたかく とべ!\n"
+	.string "{JPN}あいするとりポケモンよ!$"
 
 Route38_Text_BirdKeeperTobyBeaten:
-	.string "I feel like just flying\n"
-	.string "away now.$"
+	.string "{JPN}いまは とんでにげたい\n"
+	.string "{JPN}きぶんだよ$"
 
 Route38_Text_BirdKeeperTobyAfter:
-	.string "I plan to train in CIANWOOD CITY\n"
-	.string "to teach my POKéMON how to FLY.$"
+	.string "{JPN}タンバシティで しゅぎょうして\n"
+	.string "{JPN}ポケモンに そらをとぶを\lおしえるつもりだ$"
 
 Route38_Text_SchoolboyChad1Seen:
-	.string "Let me try something\n"
-	.string "I learned today.$"
+	.string "{JPN}きょう ならったことを\n"
+	.string "{JPN}ためしてみるよ$"
 
 Route38_Text_SchoolboyChad1Beaten:
-	.string "I didn't study enough,\n"
-	.string "I guess.$"
+	.string "{JPN}べんきょうが たりなかった\n"
+	.string "{JPN}みたいだね$"
 
 Route38_Text_SchoolboyChadAfter:
-	.string "I have to take so many\n"
-	.string "tests, I don't have much\l"
-	.string "time for POKéMON.\p"
-	.string "So when I do get to play,\n"
-	.string "I really concentrate.$"
+	.string "{JPN}たくさん テストが あるから\n"
+	.string "{JPN}ポケモンの じかんが\l"
+	.string "{JPN}あんまり ないんだ\p"
+	.string "{JPN}だから あそべるときは\n"
+	.string "{JPN}ほんとうに しゅうちゅう\lするんだよ$"
 
 Route38_Text_LassDana1Seen:
-	.string "You seem to be good at\n"
-	.string "POKéMON.\p"
-	.string "If you are, how about\n"
-	.string "giving me some advice?$"
+	.string "{JPN}あなた ポケモンが\n"
+	.string "{JPN}じょうずそうね\p"
+	.string "{JPN}もし そうなら わたしに\n"
+	.string "{JPN}アドバイス してくれない?$"
 
 Route38_Text_LassDana1Beaten:
-	.string "I see. So you can battle\n"
-	.string "that way.$"
+	.string "{JPN}なるほど そんなふうに\n"
+	.string "{JPN}たたかうのね$"
 
 Route38_Text_LassDanaAfter:
-	.string "I know something good!\p"
-	.string "MOOMOO FARM's milk is\n"
-	.string "famous for its flavor.$"
+	.string "{JPN}いいこと しってるの!\p"
+	.string "{JPN}モーモーぼくじょうの ミルクは\n"
+	.string "{JPN}あじで ゆうめいなのよ$"
 
 Route38_Text_BeautyValerieSeen:
-	.string "Hi! Aren't you a cute\n"
-	.string "trainer!\p"
-	.string "May I see your POKéMON?$"
+	.string "{JPN}こんにちは! かわいい\n"
+	.string "{JPN}トレーナーね!\p"
+	.string "{JPN}あなたの ポケモン\nみせて もらえる?$"
 
 Route38_Text_BeautyValerieBeaten:
-	.string "I'm glad I got to see\n"
-	.string "your POKéMON!$"
+	.string "{JPN}あなたの ポケモンが\n"
+	.string "{JPN}みれて よかったわ!$"
 
 Route38_Text_BeautyValerieAfter:
-	.string "When I see POKéMON, it\n"
-	.string "seems to soothe my nerves.$"
+	.string "{JPN}ポケモンを みていると\n"
+	.string "{JPN}しんけいが やすまるみたい$"
 
 Route38_Text_SailorHarrySeen:
-	.string "I've been overseas, so I\n"
-	.string "know about all sorts of\l"
-	.string "POKéMON!$"
+	.string "{JPN}かいがいに いったから\n"
+	.string "{JPN}いろんな ポケモンの ことを\l"
+	.string "{JPN}しってるぞ!$"
 
 Route38_Text_SailorHarryBeaten:
-	.string "Your skill is world class!$"
+	.string "{JPN}きみの うでまえは\nせかいきゅうだ!$"
 
 Route38_Text_SailorHarryAfter:
-	.string "All kinds of people around\n"
-	.string "the world live happily with\l"
-	.string "POKéMON.$"
+	.string "{JPN}せかいじゅうの いろんなひとが\n"
+	.string "{JPN}ポケモンと しあわせに\l"
+	.string "{JPN}くらしているよ$"
 
 Route38_Text_BeautyOliviaSeen:
-	.string "Don't you think my POKéMON\n"
-	.string "and I are beautiful?$"
+	.string "{JPN}わたしと わたしのポケモン\n"
+	.string "{JPN}うつくしいと おもわない?$"
 
 Route38_Text_BeautyOliviaBeaten:
-	.string "We drink MOOMOO MILK every\n"
-	.string "day.$"
+	.string "{JPN}わたしたち まいにち\n"
+	.string "{JPN}モーモーミルクを のんでるの$"
 
 Route38_Text_BeautyOliviaAfter:
-	.string "MOOMOO MILK is good for\n"
-	.string "beauty and health,\p"
-	.string "but inconveniently, they\n"
-	.string "only sell one bottle at a time.$"
+	.string "{JPN}モーモーミルクは びようと\n"
+	.string "{JPN}けんこうに いいんだけど\p"
+	.string "{JPN}ふべんなことに いちどに\n"
+	.string "{JPN}ひとつしか うってくれないの$"
 
 Route38_Text_Sign:
-	.string "ROUTE 38\p"
-	.string "OLIVINE CITY - ECRUTEAK CITY$"
+	.string "{JPN}38ばんどうろ\p"
+	.string "{JPN}アサギシティ - エンジュシティ$"
 
 Route38_Text_TrainerTips:
-	.string "TRAINER TIPS\p"
-	.string "If a POKéMON is trying to\n"
-	.string "evolve, you can stop it.\p"
-	.string "Press the B Button during\n"
-	.string "evolution to cancel it.\p"
-	.string "That startles the POKéMON\n"
-	.string "and stops its evolution.$"
-
+	.string "{JPN}おとくなけいじばん！\p"
+	.string "{JPN}ポケモンがしんかしそうなとき\n"
+	.string "{JPN}Bボタンをおすと\l"
+	.string "{JPN}びっくりしてしんかをやめます\l"
+	.string "{JPN}これをしんかキャンセルといいます$"
 
 Route38_Text_WaterSign:
-	.string "NO SWIMMING OR FISHING.\n"
-	.string "WATER FOR FARMING ONLY.\p"
-	.string "-ECRUTEAK COUNCIL$"
+	.string "{JPN}すいえいと つりは きんし\n"
+	.string "{JPN}のうぎょうよう みずのみ\p"
+	.string "{JPN}-エンジュ ぎかい$"

@@ -26,37 +26,36 @@ Route6_EventScript_Sign::
 	end
 
 Route6_Text_PokefanM:
-	.string "The road is closed until the\n"
-	.string "problem at the POWER PLANT is\l"
-	.string "solved.$"
-
+	.string "{JPN}はつでんしょのじこが\n"
+	.string "{JPN}かいけつするまで\l"
+	.string "{JPN}つうこうきんしなんだって！$"
 Route6_Text_UndergroundPathSign:
-	.string "UNDERGROUND PATH\p"
-	.string "CERULEAN CITY - VERMILION CITY$"
+	.string "{JPN}ちかつうろ\p"
+	.string "{JPN}ハナダシティ - クチバシティ$"
 
 PokefanM_Text_RexSeen:
-	.string "My STANTLER is the cutest in the\n"
-	.string "world.$"
+	.string "{JPN}ぼくのオドシシは せかいで\n"
+	.string "{JPN}いちばん かわいいんだ!$"
 
 PokefanM_Text_RexBeaten:
-	.string "My STANTLER!$"
+	.string "{JPN}ぼくのオドシシが!$"
 
 PokefanM_Text_RexAfter:
-	.string "Look how adorable my STANTLER\n"
-	.string "acts!\p"
-	.string "Isn't it cute enough to make\n"
-	.string "your heart melt?$"
+	.string "{JPN}みてよ! ぼくのオドシシの\n"
+	.string "{JPN}かわいいしぐさを!\p"
+	.string "{JPN}かわいくて こころが とけちゃう\n"
+	.string "{JPN}でしょう?$"
 
 PokefanM_Text_AllanSeen:
-	.string "My GRANBULL is the cutest in the\n"
-	.string "world.$"
+	.string "{JPN}ぼくのグランブルは せかいで\n"
+	.string "{JPN}いちばん かわいいんだ!$"
 
 PokefanM_Text_AllanBeaten:
-	.string "My GRANBULL!$"
+	.string "{JPN}ぼくのグランブルが!$"
 
 PokefanM_Text_AllanAfter:
-	.string "Look how adorable my GRANBULL\n"
-	.string "acts!\p"
-	.string "Isn't it cute enough to make\n"
-	.string "your heart melt?$"
+	.string "{JPN}みてよ! ぼくのグランブルの\n"
+	.string "{JPN}かわいいしぐさを!\p"
+	.string "{JPN}かわいくて こころが とけちゃう\n"
+	.string "{JPN}でしょう?$"
 

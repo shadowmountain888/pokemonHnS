@@ -51,36 +51,36 @@ MountMortar4_EventScript_KiyoAfter::
 
 
 MountMortar4_Text_KiyoIntro:
-	.string "Hey!\p"
-	.string "I am the KARATE KING!\n"
-	.string "I train alone here in the dark!\p"
-	.string "You! Battle with me!\n"
-	.string "Hwaaarggh!$"
+	.string "{JPN}おお!\p"
+	.string "{JPN}わたしが からてキング!\n"
+	.string "{JPN}くらやみで ひとり しゅぎょう\l"
+	.string "{JPN}しているのじゃ!\p"
+	.string "{JPN}おぬし! わたしと しょうぶ\nするのじゃ!\nうおおおおお!$"
 
 MountMortar4_Text_KiyoWin:
-	.string "Waaaarggh!\n"
-	.string "I'm beaten!$"
+	.string "{JPN}うわあああああ!\n"
+	.string "{JPN}まけたのじゃ!$"
 
 MountMortar4_Text_KiyoTyrogueReward:
-	.string "I... I'm crushed...\p"
-	.string "My training is still not\n"
-	.string "enough...\p"
-	.string "But a loss is a loss.\n"
-	.string "I admit it.\p"
-	.string "As proof that you defeated me,\n"
-	.string "I'll give you a rare fighting\l"
-	.string "POKéMON.$"
+	.string "{JPN}わ... わたしのまけじゃ...\p"
+	.string "{JPN}しゅぎょうが たりんかった\n"
+	.string "{JPN}のじゃ...\p"
+	.string "{JPN}しかし まけは まけじゃ.\n"
+	.string "{JPN}みとめるのじゃ.\p"
+	.string "{JPN}わたしに かったあかしに\n"
+	.string "{JPN}めずらしい かくとうタイプの\l"
+	.string "{JPN}ポケモンを やろう.$"
 
 MountMortar4_Text_ReceiveTyrogue:
-	.string "{PLAYER} received TYROGUE.$"
+	.string "{JPN}{PLAYER}は バルキーを\nてに いれた!$"
 
 MountMortar4_Text_KiyoGotTyrogue:
-	.string "TYROGUE is a FIGHTING-type.\p"
-	.string "It evolves into a tougher\n"
-	.string "POKéMON.\p"
-	.string "Keep up the hard work.\n"
-	.string "I'll keep training too.\p"
-	.string "Farewell!$"
+	.string "{JPN}バルキーは かくとうタイプ\n"
+	.string "{JPN}じゃ.\p"
+	.string "{JPN}もっと つよいポケモンに\n"
+	.string "{JPN}しんかするのじゃ.\p"
+	.string "{JPN}がんばって そだてるのじゃよ.\n"
+	.string "{JPN}わたしも しゅぎょうを\lつづけるのじゃ.\pでは さらばじゃ!$"
 
 MountMortar4_Text_KiyoFullParty:
-	.string "You have no room in your party!$"
+	.string "{JPN}てもちが いっぱいじゃ!$"

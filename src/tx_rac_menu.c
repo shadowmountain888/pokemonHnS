@@ -473,22 +473,22 @@ struct // MENU_CHALLENGES
 };
 
 
-static const u8 sText_Gamemode[]            = _("GAMEMODE");
-//static const u8 sText_AlternateSpawns[]     = _("ENCOUNTERS");
-static const u8 sText_InfiniteTMs[]         = _("REUSABLE TMS");
-static const u8 sText_Poison[]              = _("SURVIVE POISON");
-static const u8 sText_Synchronize[]         = _("SYNCHRONIZE");
-static const u8 sText_Mints[]               = _("NATURE MINTS");
-static const u8 sText_NewCitrus[]           = _("SITRUS BERRY");
-static const u8 sText_ModernTypes[]         = _("{COLOR 3}{SHADOW 3}POKéMON TYPES");
-static const u8 sText_FairyTypes[]          = _("ADD FAIRY TYPE");
-static const u8 sText_NewStats[]            = _("{COLOR 3}{SHADOW 3}POKéMON STATS");
-static const u8 sText_Sturdy[]              = _("STURDY");
-static const u8 sText_Modern_Moves[]        = _("{PKMN} MOVEPOOL");
-static const u8 sText_Legendary_Abilities[] = _("LEGEN. ABILITIES");
-static const u8 sText_New_Legendaries[]     = _("{COLOR 3}{SHADOW 3}EXTRA LEGEND.");
-static const u8 sText_New_Effectiveness[]   = _("TYPE CHART");
-static const u8 sText_Next[]                = _("NEXT");
+static const u8 sText_Gamemode[]            = _("{JPN}ゲームモード");
+//static const u8 sText_AlternateSpawns[]     = _("{JPN}エンカウンター");
+static const u8 sText_InfiniteTMs[]         = _("{JPN}わざマシンいし");
+static const u8 sText_Poison[]              = _("{JPN}どくじょうたいでえる");
+static const u8 sText_Synchronize[]         = _("{JPN}シンクロ");
+static const u8 sText_Mints[]               = _("{JPN}せいかくミント");
+static const u8 sText_NewCitrus[]           = _("{JPN}オボンのみ");
+static const u8 sText_ModernTypes[]         = _("{JPN}{COLOR 3}{SHADOW 3}ポケモンタイプ");
+static const u8 sText_FairyTypes[]          = _("{JPN}フェアリータイプついか");
+static const u8 sText_NewStats[]            = _("{JPN}{COLOR 3}{SHADOW 3}ポケモンステータス");
+static const u8 sText_Sturdy[]              = _("{JPN}がんじょう");
+static const u8 sText_Modern_Moves[]        = _("{JPN}ポケモンプール");
+static const u8 sText_Legendary_Abilities[] = _("{JPN}でんせつのとくせい");
+static const u8 sText_New_Legendaries[]     = _("{JPN}{COLOR 3}{SHADOW 3}ついかでんせつ");
+static const u8 sText_New_Effectiveness[]   = _("{JPN}タイプ");
+static const u8 sText_Next[]                = _("{JPN}つぎへ");
 // Menu left side option names text
 static const u8 *const sOptionMenuItemsNamesMode[MENUITEM_MODE_COUNT] =
 {
@@ -510,13 +510,13 @@ static const u8 *const sOptionMenuItemsNamesMode[MENUITEM_MODE_COUNT] =
     [MENUITEM_MODE_NEXT]                      = sText_Next,
 };
 
-static const u8 sText_RTC_Type[]            = _("CLOCK TYPE");
-static const u8 sText_ShinyChance[]         = _("SHINY CHANCE");
-static const u8 sText_ItemDrop[]            = _("ITEM DROP");
-static const u8 sText_EasyFeebas[]          = _("{COLOR 3}{SHADOW 3}EASIER FEEBAS");
-static const u8 sText_Unlimited_WT[]        = _("{COLOR 3}{SHADOW 3}UNLIMITED WT");
-static const u8 sText_FrontierBans[]        = _("FRONTIER BANS");
-static const u8 sText_Shiny_Colors[]        = _("SHINY COLORS");
+static const u8 sText_RTC_Type[]            = _("{JPN}タイプ");
+static const u8 sText_ShinyChance[]         = _("{JPN}いろちがいかくりつ");
+static const u8 sText_ItemDrop[]            = _("{JPN}アイテムらっか");
+static const u8 sText_EasyFeebas[]          = _("{JPN}{COLOR 3}{SHADOW 3}ヒンバス");
+static const u8 sText_Unlimited_WT[]        = _("{JPN}{COLOR 3}{SHADOW 3}WT");
+static const u8 sText_FrontierBans[]        = _("{JPN}フロンティアきんし");
+static const u8 sText_Shiny_Colors[]        = _("{JPN}いろちがいカラー");
 
 // Menu left side option names text
 static const u8 *const sOptionMenuItemsNamesFeatures[MENUITEM_FEATURES_COUNT] =
@@ -531,22 +531,22 @@ static const u8 *const sOptionMenuItemsNamesFeatures[MENUITEM_FEATURES_COUNT] =
     [MENUITEM_FEATURES_NEXT]                      = sText_Next,
 };
 
-static const u8 sText_Dummy[] =                     _("DUMMY");
-static const u8 sText_Randomizer[] =                _("RANDOMIZER");
-static const u8 sText_Starter[] =                   _("STARTER POKéMON");
-static const u8 sText_WildPkmn[] =                  _("WILD POKéMON");
-static const u8 sText_Trainer[] =                   _("TRAINER");
-static const u8 sText_Static[] =                    _("STATIC POKéMON");
-static const u8 sText_SimiliarEvolutionLevel[] =    _("BALANCING");
-static const u8 sText_InlcudeLegendaries[]=         _("LEGENDARIES");
-static const u8 sText_Type[] =                      _("TYPE");
-static const u8 sText_Moves[] =                     _("MOVES");
-static const u8 sText_Abilities[] =                 _("ABILITIES");
-static const u8 sText_Evolutions[] =                _("EVOLUTIONS");
-static const u8 sText_EvolutionMethods[] =          _("EVO LINES");
-static const u8 sText_TypeEff[] =                   _("EFFECTIVENESS");
-static const u8 sText_Items[] =                     _("ITEMS");
-static const u8 sText_Chaos[] =                     _("CHAOS MODE");
+static const u8 sText_Dummy[] =                     _("{JPN}ダミー");
+static const u8 sText_Randomizer[] =                _("{JPN}ランダマイザー");
+static const u8 sText_Starter[] =                   _("{JPN}のポケモン");
+static const u8 sText_WildPkmn[] =                  _("{JPN}ポケモン");
+static const u8 sText_Trainer[] =                   _("{JPN}トレーナー");
+static const u8 sText_Static[] =                    _("{JPN}ポケモン");
+static const u8 sText_SimiliarEvolutionLevel[] =    _("{JPN}バランス");
+static const u8 sText_InlcudeLegendaries[]=         _("{JPN}でんせつポケモン");
+static const u8 sText_Type[] =                      _("{JPN}タイプ");
+static const u8 sText_Moves[] =                     _("{JPN}わざ");
+static const u8 sText_Abilities[] =                 _("{JPN}とくせい");
+static const u8 sText_Evolutions[] =                _("{JPN}しんか");
+static const u8 sText_EvolutionMethods[] =          _("{JPN}しんか");
+static const u8 sText_TypeEff[] =                   _("{JPN}");
+static const u8 sText_Items[] =                     _("{JPN}アイテム");
+static const u8 sText_Chaos[] =                     _("{JPN}カオスモード");
 static const u8 *const sOptionMenuItemsNamesRandom[MENUITEM_RANDOM_COUNT] =
 {
     [MENUITEM_RANDOM_OFF_ON]                    = sText_Randomizer,
@@ -568,12 +568,12 @@ static const u8 *const sOptionMenuItemsNamesRandom[MENUITEM_RANDOM_COUNT] =
 };
 
 // MENU_NUZLOCKE
-static const u8 sText_Nuzlocke[]        = _("NUZLOCKE");
-static const u8 sText_SpeciesClause[]   = _("DUPES CLAUSE");
-static const u8 sText_ShinyClause[]     = _("SHINY CLAUSE");
-static const u8 sText_Nicknaming[]      = _("NICKNAMES");
-static const u8 sText_Deletion[]        = _("FAINTING");
-static const u8 sText_RareCandy[]       = _("INF. RARE CANDY");
+static const u8 sText_Nuzlocke[]        = _("{JPN}ヌケニン");
+static const u8 sText_SpeciesClause[]   = _("{JPN}ダブりきんし");
+static const u8 sText_ShinyClause[]     = _("{JPN}いろちがいきんし");
+static const u8 sText_Nicknaming[]      = _("{JPN}ニックネーム");
+static const u8 sText_Deletion[]        = _("{JPN}ひんし");
+static const u8 sText_RareCandy[]       = _("{JPN}ふしぎなアメ");
 
 static const u8 *const sOptionMenuItemsNamesNuzlocke[MENUITEM_NUZLOCKE_COUNT] =
 {
@@ -587,19 +587,19 @@ static const u8 *const sOptionMenuItemsNamesNuzlocke[MENUITEM_NUZLOCKE_COUNT] =
 };
 
 //MENU_DIFFICULTY
-static const u8 sText_PartyLimit[]          = _("PARTY LIMIT");
-static const u8 sText_LessEscapes[]         = _("LESS ESCAPES");
-static const u8 sText_LevelCap[]            = _("LEVEL CAP");
-static const u8 sText_ExpMultiplier[]       = _("EXP. MULTIPLIER");
-static const u8 sText_Items_Player[]        = _("PLAYER ITEMS");
-static const u8 sText_Items_Trainer[]       = _("TRAINER ITEMS");
-static const u8 sText_NoEVs[]               = _("PLAYER EVs");
-static const u8 sText_ScalingIVs[]          = _("TRAINER IVs");
-static const u8 sText_ScalingEVs[]          = _("TRAINER EVs");
-//static const u8 sText_LimitDifficulty[]     = _("LOCK DIFFICULTY");
-//static const u8 sText_HardExp[]             = _("HARD MODE EXP.");
-static const u8 sText_MaxPartyIvs[]         = _("PLAYER IVs");
-static const u8 sText_DigRope[]             = _("ESC. ROPE / DIG");
+static const u8 sText_PartyLimit[]          = _("{JPN}てもちせいげん");
+static const u8 sText_LessEscapes[]         = _("{JPN}にげるかくりつ");
+static const u8 sText_LevelCap[]            = _("{JPN}レベルキャップ");
+static const u8 sText_ExpMultiplier[]       = _("{JPN}けいけんちばいりつ");
+static const u8 sText_Items_Player[]        = _("{JPN}プレイヤーアイテム");
+static const u8 sText_Items_Trainer[]       = _("{JPN}トレーナーアイテム");
+static const u8 sText_NoEVs[]               = _("{JPN}プレイヤーどりょくち");
+static const u8 sText_ScalingIVs[]          = _("{JPN}トレーナーこたいち");
+static const u8 sText_ScalingEVs[]          = _("{JPN}トレーナーどりょくち");
+//static const u8 sText_LimitDifficulty[]     = _("{JPN}なんいどこてい");
+//static const u8 sText_HardExp[]             = _("{JPN}ハードモードEXP");
+static const u8 sText_MaxPartyIvs[]         = _("{JPN}プレイヤーこたいち");
+static const u8 sText_DigRope[]             = _("{JPN}あなぬけのヒモ/あなをほる");
 static const u8 *const sOptionMenuItemsNamesDifficulty[MENUITEM_DIFFICULTY_COUNT] =
 {
     [MENUITEM_DIFFICULTY_PARTY_LIMIT]           = sText_PartyLimit,
@@ -619,15 +619,15 @@ static const u8 *const sOptionMenuItemsNamesDifficulty[MENUITEM_DIFFICULTY_COUNT
 };
 
 // MENU_CHALLENGES
-static const u8 sText_Pokecenter[]          = _("POKéCENTER");
-static const u8 sText_PCHeal[]              = _("PC HEALS {PKMN}");
-static const u8 sText_Expensive[]           = _("ULTRA EXPENSIVE!");
-static const u8 sText_EvoLimit[]            = _("EVO LIMIT");
-static const u8 sText_OneTypeChallenge[]    = _("ONE TYPE ONLY");
-static const u8 sText_BaseStatEqualizer[]   = _("BST EQUALIZER");
-static const u8 sText_Mirror[]              = _("MIRROR MODE");
-static const u8 sText_MirrorThief[]         = _("MIRROR THIEF");
-static const u8 sText_Save[]                = _("SAVE");
+static const u8 sText_Pokecenter[]          = _("{JPN}ポケモンセンター");
+static const u8 sText_PCHeal[]              = _("{JPN}PCでポケモンかいふく");
+static const u8 sText_Expensive[]           = _("{JPN}ちょうこうがく!");
+static const u8 sText_EvoLimit[]            = _("{JPN}しんかせいげん");
+static const u8 sText_OneTypeChallenge[]    = _("{JPN}タイプひとつのみ");
+static const u8 sText_BaseStatEqualizer[]   = _("{JPN}しゅたいちイコライザー");
+static const u8 sText_Mirror[]              = _("{JPN}ミラーモード");
+static const u8 sText_MirrorThief[]         = _("{JPN}ミラーシーフ");
+static const u8 sText_Save[]                = _("{JPN}セーブ");
 static const u8 *const sOptionMenuItemsNamesChallenges[MENUITEM_CHALLENGES_COUNT] =
 {
     [MENUITEM_DIFFICULTY_POKECENTER]            = sText_Pokecenter,
@@ -772,41 +772,41 @@ static bool8 CheckConditions(int selection)
 
 // Descriptions
 static const u8 sText_Empty[]               = _("");
-static const u8 sText_Description_Save[]    = _("Save choices and continue...");
+static const u8 sText_Description_Save[]    = _("{JPN}せんたくをセーブしてつづける...");
 
-static const u8 sText_Description_Mode_Gamemode_Classic[]         = _("Recommended settings.\n{COLOR 7}{COLOR 8}NOTE: All selections are PERMANENT.");
-static const u8 sText_Description_Mode_Gamemode_Modern[]          = _("Choose your own rules.\n{COLOR 7}{COLOR 8}NOTE: All selections are PERMANENT.");
-static const u8 sText_Description_Mode_Gamemode_Custom[]          = _("Choose your own rules.\n{COLOR 7}{COLOR 8}NOTE: All selections are PERMANENT.");
-//static const u8 sText_Description_Mode_AlternateSpawns_Vanilla[]        = _("Use VANILLA wild encounters.\nUnchanged from the original.");
-//static const u8 sText_Description_Mode_AlternateSpawns_Postgame[]       = _("VANILLA, but after becoming champion,\nall 423 {PKMN} will be available.");
-//static const u8 sText_Description_Mode_AlternateSpawns_Modern[]         = _("Use MODERN wild encounters.\nAll 423 {PKMN} will be available.");
-static const u8 sText_Description_Mode_InfiniteTMs_On[]           = _("TMs are reusable.\nModern Emerald recommended.");
-static const u8 sText_Description_Mode_InfiniteTMs_Off[]          = _("TMs are not reusable.\nLike in the original.");
-static const u8 sText_Description_Mode_SurvivePoison_On[]         = _("Your {PKMN} will survive the POISON\nstatus with 1HP.");
-static const u8 sText_Description_Mode_SurvivePoison_Off[]        = _("Your {PKMN} will faint if they are\nPOISONED.");
-static const u8 sText_Description_Mode_Synchronize_Old[]          = _("SYNCHRONIZE works as in GEN III.\n50% chance to copy nature.");
-static const u8 sText_Description_Mode_Synchronize_New[]          = _("SYNCHRONIZE works as in GEN VIII+.\n100% chance to copy nature.");
-static const u8 sText_Description_Mode_Mints_Off[]                = _("Mints are not availabe ingame until\nfinishing the game.");
-static const u8 sText_Description_Mode_Mints_On[]                 = _("Mints can be bought at PRETTY PETAL\nFLOWER SHOP after the 4th medal.");
-static const u8 sText_Description_Mode_New_Citrus_Off[]           = _("SITRUS BERRY restores 30HP.\nSame as GEN III.");
-static const u8 sText_Description_Mode_New_Citrus_On[]            = _("SITRUS BERRY restores 25% of\ntotal HP. Same as GEN IV and up.");
-static const u8 sText_Description_Mode_Modern_Types_Off[]         = _("Original {PKMN} typings. Doesn't include\n{PKMN} that got added to FAIRY in GEN VI.");
-static const u8 sText_Description_Mode_Modern_Types_On[]          = _("{PKMN} have modified typings\nto make them more viable.");
-static const u8 sText_Description_Mode_Fairy_Types_Off[]          = _("FAIRY TYPE isn't added to {PKMN} \nthat got it in GEN VI.");
-static const u8 sText_Description_Mode_Fairy_Types_On[]           = _("FAIRY TYPE is added / changed to\ncertain {PKMN}, as in GEN VI.");
-static const u8 sText_Description_Mode_New_Stats_Off[]            = _("Original GEN III {PKMN} stats.");
-static const u8 sText_Description_Mode_New_Stats_On[]             = _("Modified stats to make certain\n{PKMN} more viable.");
-static const u8 sText_Description_Mode_Sturdy_Off[]               = _("STURDY works as in GEN III. Only\nnegates OHKO moves (GUILLOTINE, etc.)");
-static const u8 sText_Description_Mode_Sturdy_On[]                = _("STURDY works as in GEN V+.\n{PKMN} survive lethal hits with 1HP.");
-static const u8 sText_Description_Mode_Modern_Moves_Off[]         = _("No new MOVES, and original MOVEPOOL\nfor all {PKMN} + new EGG and TUTOR MOVES.");
-static const u8 sText_Description_Mode_Modern_Moves_On[]          = _("13 new MOVES, and improved MOVEPOOL\nfor all {PKMN} + new EGG and TUTOR MOVES.");
-static const u8 sText_Description_Mode_Leg_Abilities_Off[]        = _("PRESSURE stays as the main\nability of some legendaries.");
-static const u8 sText_Description_Mode_Leg_Abilities_On[]         = _("Legendaries have PRESSURE changed\nfor a better ability.");
-static const u8 sText_Description_Mode_New_Legendaries_Off[]      = _("No extra legendaries are added.");
-static const u8 sText_Description_Mode_New_Legendaries_On[]       = _("Extra legendaries from GEN I and II\nare added via ingame events.");
-static const u8 sText_Description_Mode_New_Effectiveness_Original[]  = _("Original type effectiveness\nfor all types.");
-static const u8 sText_Description_Mode_New_Effectiveness_Modern[]    = _("New and balanced type effectiveness\nfor certain types.");
-static const u8 sText_Description_Mode_Next[]                     = _("Continue to Features options.");
+static const u8 sText_Description_Mode_Gamemode_Classic[]         = _("{JPN}おすすめせってい.\n{COLOR 7}{COLOR 8}ちゅうい: すべてえいきゅうです.");
+static const u8 sText_Description_Mode_Gamemode_Modern[]          = _("{JPN}じぶんでルールをえらぶ.\n{COLOR 7}{COLOR 8}ちゅうい: すべてえいきゅうです.");
+static const u8 sText_Description_Mode_Gamemode_Custom[]          = _("{JPN}じぶんでルールをえらぶ.\n{COLOR 7}{COLOR 8}ちゅうい: すべてえいきゅうです.");
+//static const u8 sText_Description_Mode_AlternateSpawns_Vanilla[]        = _("{JPN}オリジナルやせいポケモン.\nもとのバージョンのまま.");
+//static const u8 sText_Description_Mode_AlternateSpawns_Postgame[]       = _("{JPN}オリジナル でもチャンピオン\nごぜん423ひきりよう.");
+//static const u8 sText_Description_Mode_AlternateSpawns_Modern[]         = _("{JPN}モダンやせいポケモン.\nぜん423ひきりよう.");
+static const u8 sText_Description_Mode_InfiniteTMs_On[]           = _("{JPN}わざマシンさいりよう.\nモダンエメラルドおすすめ.");
+static const u8 sText_Description_Mode_InfiniteTMs_Off[]          = _("{JPN}わざマシンいちどきり.\nもとのバージョンどおり.");
+static const u8 sText_Description_Mode_SurvivePoison_On[]         = _("{JPN}あなたのポケモンはどくで\n1HPでいきのこる.");
+static const u8 sText_Description_Mode_SurvivePoison_Off[]        = _("{JPN}あなたのポケモンはどくで\nひんしになる.");
+static const u8 sText_Description_Mode_Synchronize_Old[]          = _("{JPN}シンクロだい3せだい.\nせいかく50%コピー.");
+static const u8 sText_Description_Mode_Synchronize_New[]          = _("{JPN}シンクロだい8せだい+.\nせいかく100%コピー.");
+static const u8 sText_Description_Mode_Mints_Off[]                = _("{JPN}ミントはゲームクリアまで\nにゅうしゅできません.");
+static const u8 sText_Description_Mode_Mints_On[]                 = _("{JPN}ミントは4つめのメダルに\nきれいなはなやでかのう.");
+static const u8 sText_Description_Mode_New_Citrus_Off[]           = _("{JPN}オボンのみはHP30かいふく.\n3とじ.");
+static const u8 sText_Description_Mode_New_Citrus_On[]            = _("{JPN}オボンのみはさいだいHPの25%かいふく.\n4とじ.");
+static const u8 sText_Description_Mode_Modern_Types_Off[]         = _("{JPN}オリジナルのポケモンタイプ.6で\nフェアリータイプになったポケモンをまず.");
+static const u8 sText_Description_Mode_Modern_Types_On[]          = _("{JPN}ポケモンのタイプをへんこうして\nよりにしました.");
+static const u8 sText_Description_Mode_Fairy_Types_Off[]          = _("{JPN}6でフェアリータイプになった\nポケモンにフェアリータイプをついかしない.");
+static const u8 sText_Description_Mode_Fairy_Types_On[]           = _("{JPN}6とにのポケモンに\nフェアリータイプをついか/へんこう.");
+static const u8 sText_Description_Mode_New_Stats_Off[]            = _("{JPN}オリジナルの3ポケモンステータス.");
+static const u8 sText_Description_Mode_New_Stats_On[]             = _("{JPN}のポケモンをよりにする\nためにステータスをへんこう.");
+static const u8 sText_Description_Mode_Sturdy_Off[]               = _("{JPN}がんじょうは3とじどうさ.\nいちげきひっさつのみむこう.");
+static const u8 sText_Description_Mode_Sturdy_On[]                = _("{JPN}がんじょうは5とじ.\nちめいをけてもHP1でえる.");
+static const u8 sText_Description_Mode_Modern_Moves_Off[]         = _("{JPN}しんわざなし.すべてポケモンのオリジナルわざこうせい\n+あたらしいたまご おしえわざ.");
+static const u8 sText_Description_Mode_Modern_Moves_On[]          = _("{JPN}13のしんわざ すべてポケモンのかいりょうされた\nわざこうせい+あたらしいたまご おしえわざ.");
+static const u8 sText_Description_Mode_Leg_Abilities_Off[]        = _("{JPN}いちぶのでんせつのポケモンのメインとくせいは\nプレッシャーのまま.");
+static const u8 sText_Description_Mode_Leg_Abilities_On[]         = _("{JPN}でんせつのポケモンのプレッシャーを\nよりいとくせいにへんこう.");
+static const u8 sText_Description_Mode_New_Legendaries_Off[]      = _("{JPN}ついかのでんせつのポケモンはいません.");
+static const u8 sText_Description_Mode_New_Legendaries_On[]       = _("{JPN}1 2のでんせつのポケモンを\nゲームイベントでついか.");
+static const u8 sText_Description_Mode_New_Effectiveness_Original[]  = _("{JPN}すべてタイプのオリジナルタイプ\n.");
+static const u8 sText_Description_Mode_New_Effectiveness_Modern[]    = _("{JPN}タイプのあたらしいしくバランス\nされたタイプ.");
+static const u8 sText_Description_Mode_Next[]                     = _("{JPN}フィーチャーオプションへく.");
 
 static const u8 *const sOptionMenuItemDescriptionsMode[MENUITEM_MODE_COUNT][5] =
 {
@@ -828,25 +828,25 @@ static const u8 *const sOptionMenuItemDescriptionsMode[MENUITEM_MODE_COUNT][5] =
     [MENUITEM_MODE_NEXT]                  = {sText_Description_Mode_Next,                   sText_Empty,                                  sText_Empty,                                        sText_Empty,                                        sText_Empty},
 };
 
-static const u8 sText_Description_Features_RTC_Type_RTC[]             = _("Use vanilla Real Time Clock.");
-static const u8 sText_Description_Features_RTC_Type_FakeRTC[]         = _("Use a fake Real Time Clock.\n1h in real life = 1 day in-game.");
-static const u8 sText_Description_Features_ItemDrop_On[]              = _("Wild {PKMN} will drop their hold item\nafter defeating them.");
-static const u8 sText_Description_Features_ItemDrop_Off[]             = _("Wild {PKMN} items will be only obtainable\nvia capture or THIEF.");
-static const u8 sText_Description_Features_ShinyChance_8192[]         = _("Very low chance of SHINY encounter.\nDefault chance from Generation III.");
-static const u8 sText_Description_Features_ShinyChance_4096[]         = _("Low chance of SHINY encounter.\nDefault chance from Generation VI+.");
-static const u8 sText_Description_Features_ShinyChance_2048[]         = _("Decent chance of SHINY encounter.");
-static const u8 sText_Description_Features_ShinyChance_1024[]         = _("High chance of SHINY encounter.");
-static const u8 sText_Description_Features_ShinyChance_512[]          = _("Very high chance of SHINY encounter.");
-static const u8 sText_Description_Features_EasyFeebas_On[]            = _("FEEBAS is easier to catch and spawns\neverywhere in ROUTE 119.");
-static const u8 sText_Description_Features_EasyFeebas_Off[]           = _("FEEBAS is encountered in random\nspots in ROUTE 119.");
-static const u8 sText_Description_Features_Unlimited_WT_On[]          = _("Enables a daily limit of 3\nWonderTrades. Recommended.");
-static const u8 sText_Description_Features_Unlimited_WT_Off[]         = _("WonderTrades have no daily limit.");
-static const u8 sText_Description_Features_FrontierBans_Unban[]       = _("All legendaries are allowed to\nparticipate in the BATTLE FRONTIER.");
-static const u8 sText_Description_Features_FrontierBans_Ban[]         = _("Powerful legendary {PKMN} are banned\nin the BATTLE FRONTIER. Default.");
-static const u8 sText_Description_Features_Shiny_Colors_Original[]    = _("Original shiny color palette for all\nPOKéMON. Default.");
-static const u8 sText_Description_Features_Shiny_Colors_Modern[]      = _("Some shiny POKéMON have brand new\ncolor palettes.");
+static const u8 sText_Description_Features_RTC_Type_RTC[]             = _("{JPN}つうじょうのリアルタイムクロックをしよう.");
+static const u8 sText_Description_Features_RTC_Type_FakeRTC[]         = _("{JPN}のリアルタイムクロックをしよう.\n1=ゲーム1.");
+static const u8 sText_Description_Features_ItemDrop_On[]              = _("{JPN}のポケモンをすとちを\nとします.");
+static const u8 sText_Description_Features_ItemDrop_Off[]             = _("{JPN}のポケモンのちはほかくか\nどろぼうでのみにゅうしゅかのう.");
+static const u8 sText_Description_Features_ShinyChance_8192[]         = _("{JPN}いろちがいそうぐうはめてい.\n3のデフォルトかくりつ.");
+static const u8 sText_Description_Features_ShinyChance_4096[]         = _("{JPN}いろちがいそうぐうはい.\n6のデフォルトかくりつ.");
+static const u8 sText_Description_Features_ShinyChance_2048[]         = _("{JPN}いろちがいそうぐうはそこそこい.");
+static const u8 sText_Description_Features_ShinyChance_1024[]         = _("{JPN}いろちがいそうぐうはい.");
+static const u8 sText_Description_Features_ShinyChance_512[]          = _("{JPN}いろちがいそうぐうはめてい.");
+static const u8 sText_Description_Features_EasyFeebas_On[]            = _("{JPN}ヒンバスはまえやすく119\nのどこでも.");
+static const u8 sText_Description_Features_EasyFeebas_Off[]           = _("{JPN}ヒンバスは119のランダムな\nでそうぐう.");
+static const u8 sText_Description_Features_Unlimited_WT_On[]          = _("{JPN}13までのワンダートレード\nせいげんを.おすすめ.");
+static const u8 sText_Description_Features_Unlimited_WT_Off[]         = _("{JPN}ワンダートレードにせいげんなし.");
+static const u8 sText_Description_Features_FrontierBans_Unban[]       = _("{JPN}すべててのでんせつのポケモンがバトルフロンティア\nにさんかかのう.");
+static const u8 sText_Description_Features_FrontierBans_Ban[]         = _("{JPN}なでんせつのポケモンはバトルフロンティア\nできんし.デフォルト.");
+static const u8 sText_Description_Features_Shiny_Colors_Original[]    = _("{JPN}すべてポケモンのオリジナルいろちがい\nカラーパレット.デフォルト.");
+static const u8 sText_Description_Features_Shiny_Colors_Modern[]      = _("{JPN}いちぶのいろちがいポケモンが\nすべてくあたらしいしいカラーパレット.");
 
-static const u8 sText_Description_Features_Next[]                     = _("Continue to Randomizer options.");
+static const u8 sText_Description_Features_Next[]                     = _("{JPN}ランダマイザーオプションへく.");
 
 static const u8 *const sOptionMenuItemDescriptionsFeatures[MENUITEM_FEATURES_COUNT][5] =
 {
@@ -860,37 +860,37 @@ static const u8 *const sOptionMenuItemDescriptionsFeatures[MENUITEM_FEATURES_COU
     [MENUITEM_FEATURES_NEXT]                  = {sText_Description_Features_Next,                   sText_Empty,                                      sText_Empty,                                        sText_Empty,                                        sText_Empty},
 };
 
-static const u8 sText_Description_Randomizer_Off[]                  = _("Game will not be randomized.");
-static const u8 sText_Description_Randomizer_On[]                   = _("Play the game randomized.\nSettings below!");
-static const u8 sText_Description_Random_Starter_Off[]              = _("Standard starter POKéMON.");
-static const u8 sText_Description_Random_Starter_On[]               = _("Randomize starter POKéMON.");
-static const u8 sText_Description_Random_WildPokemon_Off[]          = _("Same wild encounter as in the\nbase game.");
-static const u8 sText_Description_Random_WildPokemon_On[]           = _("Randomize wild POKéMON.");
-static const u8 sText_Description_Random_Trainer_Off[]              = _("Trainer will have their expected\nparty.");
-static const u8 sText_Description_Random_Trainer_On[]               = _("Randomize enemy trainer parties.");
-static const u8 sText_Description_Random_Static_Off[]               = _("Static encounters will be the same\nas in the base game.");
-static const u8 sText_Description_Random_Static_On[]                = _("Named {PKMN}, casino {PKMN}, roamers, and\nsome other special {PKMN} won't change.");
-static const u8 sText_Description_Random_BalanceTiers_Off[]         = _("Distribution of POKéMON {COLOR 7}{COLOR 8}not balanced{COLOR 1}{COLOR 2}\naround their strength!");
-static const u8 sText_Description_Random_BalanceTiers_On[]          = _("{PKMN} replaced with similar tiered ones.\nCurrently based on evo stages.");
-static const u8 sText_Description_Random_IncludeLegendaries_Off[]   = _("Legendary POKéMON will not be\nincluded and randomized.");
-static const u8 sText_Description_Random_IncludeLegendaries_On[]    = _("Include legendary POKéMON in\nrandomization!");
-static const u8 sText_Description_Random_Types_Off[]                = _("POKéMON types stay the same as in\nthe base game.");
-static const u8 sText_Description_Random_Types_On[]                 = _("Randomize all POKéMON types.");
-static const u8 sText_Description_Random_Moves_Off[]                = _("POKéMON moves stay the same as in\nthe base game.");
-static const u8 sText_Description_Random_Moves_On[]                 = _("Randomize all POKéMON moves.");
-static const u8 sText_Description_Random_Abilities_Off[]            = _("POKéMON abilities stay the same as in\nthe base game.");
-static const u8 sText_Description_Random_Abilities_On[]             = _("Randomize all POKéMON abilities.");
-static const u8 sText_Description_Random_Evos_Off[]                 = _("POKéMON evolutions stay the same as\nin the base game.");
-static const u8 sText_Description_Random_Evos_On[]                  = _("Randomize all POKéMON evolutions.");
-static const u8 sText_Description_Random_Evo_Methods_Off[]          = _("The POKéMON that can potentially\nevolve are unchanged.");
-static const u8 sText_Description_Random_Evo_Methods_On[]           = _("Randomize evolution lines. Allows\nnew evolution lines to occure!");
-static const u8 sText_Description_Random_Effectiveness_Off[]        = _("Type effectiveness chart will remain\nthe same as in the base game.");
-static const u8 sText_Description_Random_Effectiveness_On[]         = _("Randomize type effectiveness.\n{COLOR 7}{COLOR 8}WARNING: CAN BE BUGGY!");
-static const u8 sText_Description_Random_Items_Off[]                = _("All found or received items are the\nsame as in the base game.");
-static const u8 sText_Description_Random_Items_On[]                 = _("Randomize found, hidden and revieved\nitems. KEY items are excluded!");
-static const u8 sText_Description_Random_ChaosMode_Off[]            = _("Chaos mode disabled.");
-static const u8 sText_Description_Random_ChaosMode_On[]             = _("Every above chosen option will be\nvery chaotic. {COLOR 7}{COLOR 8}NOT recommended!");
-static const u8 sText_Description_Random_Next[]                     = _("Continue to Nuzlocke options.");
+static const u8 sText_Description_Randomizer_Off[]                  = _("{JPN}ゲームはランダムされません.");
+static const u8 sText_Description_Randomizer_On[]                   = _("{JPN}ランダマイザーで\nゲームをプレイ!\nせっていは!");
+static const u8 sText_Description_Random_Starter_Off[]              = _("{JPN}つうじょうのスターター\nポケモン.");
+static const u8 sText_Description_Random_Starter_On[]               = _("{JPN}スターターポケモンを\nランダム.");
+static const u8 sText_Description_Random_WildPokemon_Off[]          = _("{JPN}ベースゲームとじ\nポケモンが.");
+static const u8 sText_Description_Random_WildPokemon_On[]           = _("{JPN}ポケモンを\nランダム.");
+static const u8 sText_Description_Random_Trainer_Off[]              = _("{JPN}トレーナーはつうじょうの\nパーティをしよう.");
+static const u8 sText_Description_Random_Trainer_On[]               = _("{JPN}トレーナーの\nパーティをランダム.");
+static const u8 sText_Description_Random_Static_Off[]               = _("{JPN}エンカウントは\nベースゲームと.");
+static const u8 sText_Description_Random_Static_On[]                = _("{JPN}つきポケモン ゲームコーナーのポケモン \nはいかいポケモンなどはへんかなし.");
+static const u8 sText_Description_Random_BalanceTiers_Off[]         = _("{JPN}ポケモンのは{COLOR 7}{COLOR 8}さで\nバランスされていません!{COLOR 1}{COLOR 2}");
+static const u8 sText_Description_Random_BalanceTiers_On[]          = _("{JPN}たようなランクのポケモンと.\nげんざいはしんかきじゅん.");
+static const u8 sText_Description_Random_IncludeLegendaries_Off[]   = _("{JPN}でんせつのポケモンは\nランダムにまれません.");
+static const u8 sText_Description_Random_IncludeLegendaries_On[]    = _("{JPN}でんせつのポケモンも\nランダムにめる!");
+static const u8 sText_Description_Random_Types_Off[]                = _("{JPN}ポケモンのタイプは\nベースゲームと.");
+static const u8 sText_Description_Random_Types_On[]                 = _("{JPN}すべてのポケモンの\nタイプをランダム.");
+static const u8 sText_Description_Random_Moves_Off[]                = _("{JPN}ポケモンのは\nベースゲームと.");
+static const u8 sText_Description_Random_Moves_On[]                 = _("{JPN}すべてのポケモンの\nをランダム.");
+static const u8 sText_Description_Random_Abilities_Off[]            = _("{JPN}ポケモンのとくせいは\nベースゲームと.");
+static const u8 sText_Description_Random_Abilities_On[]             = _("{JPN}すべてのポケモンの\nとくせいをランダム.");
+static const u8 sText_Description_Random_Evos_Off[]                 = _("{JPN}ポケモンのしんかは\nベースゲームと.");
+static const u8 sText_Description_Random_Evos_On[]                  = _("{JPN}すべてのポケモンの\nしんかをランダム.");
+static const u8 sText_Description_Random_Evo_Methods_Off[]          = _("{JPN}しんかかのうなポケモンは\nへんこうされません.");
+static const u8 sText_Description_Random_Evo_Methods_On[]           = _("{JPN}しんかをランダム.\nあたらしいしいしんかが!");
+static const u8 sText_Description_Random_Effectiveness_Off[]        = _("{JPN}タイプは\nベースゲームと.");
+static const u8 sText_Description_Random_Effectiveness_On[]         = _("{JPN}タイプをランダム.\n{COLOR 7}{COLOR 8}:バグのかのう!");
+static const u8 sText_Description_Random_Items_Off[]                = _("{JPN}つけたアイテムは\nベースゲームと.");
+static const u8 sText_Description_Random_Items_On[]                 = _("{JPN}はっけん し にゅうしゅアイテムを\nランダム.たいせつなものはじょがい!");
+static const u8 sText_Description_Random_ChaosMode_Off[]            = _("{JPN}カオスモードむこう.");
+static const u8 sText_Description_Random_ChaosMode_On[]             = _("{JPN}のせんたくこうもくが\nにカオスに.{COLOR 7}{COLOR 8}ひすいしょう!");
+static const u8 sText_Description_Random_Next[]                     = _("{JPN}ヌケニンオプションへ\nく.");
 static const u8 *const sOptionMenuItemDescriptionsRandomizer[MENUITEM_RANDOM_COUNT][2] =
 {
     [MENUITEM_RANDOM_OFF_ON]                    = {sText_Description_Randomizer_Off,               sText_Description_Randomizer_On},
@@ -911,21 +911,21 @@ static const u8 *const sOptionMenuItemDescriptionsRandomizer[MENUITEM_RANDOM_COU
     [MENUITEM_RANDOM_NEXT]                      = {sText_Description_Random_Next,                  sText_Empty},
 };
 
-static const u8 sText_Description_Nuzlocke_Base[]               = _("Nuzlocke mode is disabled.");
-static const u8 sText_Description_Nuzlocke_Easy[]               = _("Fainted {PKMN} can't be used anymore!\nNo more rules are enforced.");
-static const u8 sText_Description_Nuzlocke_Normal[]             = _("One catch per route! Fainted POKéMON\ncan't be used anymore.");
-static const u8 sText_Description_Nuzlocke_Hard[]               = _("Same rules as NORMAL but also\n{COLOR 7}{COLOR 8}deletes SAVE on battle loss!");
-static const u8 sText_Description_Nuzlocke_SpeciesClause_Off[]  = _("The player always has to catch the\nfirst POKéMON per route.");
-static const u8 sText_Description_Nuzlocke_SpeciesClause_On[]   = _("Only not prior caught POKéMON count\nas first encounter. {COLOR 7}{COLOR 8}RECOMMENDED!");
-static const u8 sText_Description_Nuzlocke_ShinyClause_Off[]    = _("The player can only catch a shiny\nPOKéMON if it's the first encounter.");
-static const u8 sText_Description_Nuzlocke_ShinyClause_On[]     = _("The player can always catch shiny\nPOKéMON. {COLOR 7}{COLOR 8}RECOMMENDED!");
-static const u8 sText_Description_Nuzlocke_Nicknaming_Off[]     = _("Nicknames are optional.");
-static const u8 sText_Description_Nuzlocke_Nicknaming_On[]      = _("Forces the player to nickname every\nPOKéMON. {COLOR 7}{COLOR 8}RECOMMENDED!");
-static const u8 sText_Description_Nuzlocke_Deletion_Cemetery[]  = _("Fainted POKéMON are sent to the PC\nafter battle and can't be retrieved.");
-static const u8 sText_Description_Nuzlocke_Deletion_Deletion[]  = _("Fainted POKéMON are {COLOR 7}{COLOR 8}released{COLOR 1}{COLOR 2} after\nbattle!");
-static const u8 sText_Description_Nuzlocke_RareCandy_On[]       = _("Infinite Rare Candy will be in the\n player's PC at game start.");
-static const u8 sText_Description_Nuzlocke_RareCandy_Off[]       = _("Player will not have access to\n Infinite Rare Candy.");
-static const u8 sText_Description_Nuzlocke_Next[]               = _("Continue to difficulty options.");
+static const u8 sText_Description_Nuzlocke_Base[]               = _("{JPN}ヌケニンモードむこう.");
+static const u8 sText_Description_Nuzlocke_Easy[]               = _("{JPN}ひんしのポケモンはしようふか!\nのルールはてきようなし.");
+static const u8 sText_Description_Nuzlocke_Normal[]             = _("{JPN}1ルート1まで!ひんし\nポケモンはしようふか.");
+static const u8 sText_Description_Nuzlocke_Hard[]               = _("{JPN}ノーマルとだが\n{COLOR 7}{COLOR 8}バトルでセーブ!");
+static const u8 sText_Description_Nuzlocke_SpeciesClause_Off[]  = _("{JPN}プレイヤーはルートで\nのポケモンをほかく.");
+static const u8 sText_Description_Nuzlocke_SpeciesClause_On[]   = _("{JPN}ほかくのポケモンのみが\nのいとして.{COLOR 7}{COLOR 8}おすすめ!");
+static const u8 sText_Description_Nuzlocke_ShinyClause_Off[]    = _("{JPN}いろちがいポケモンは\nのいののみほかく.");
+static const u8 sText_Description_Nuzlocke_ShinyClause_On[]     = _("{JPN}いろちがいポケモンは\nいつでもほかくかのう.{COLOR 7}{COLOR 8}おすすめ!");
+static const u8 sText_Description_Nuzlocke_Nicknaming_Off[]     = _("{JPN}ニックネームは.");
+static const u8 sText_Description_Nuzlocke_Nicknaming_On[]      = _("{JPN}プレイヤーはすべてての\nポケモンにが.{COLOR 7}{COLOR 8}おすすめ!");
+static const u8 sText_Description_Nuzlocke_Deletion_Cemetery[]  = _("{JPN}ひんしのポケモンはせんとうご\nパソコンにおくられ もどせない.");
+static const u8 sText_Description_Nuzlocke_Deletion_Deletion[]  = _("{JPN}ひんしのポケモンはせんとうご\n{COLOR 7}{COLOR 8}にがされる{COLOR 1}{COLOR 2}!");
+static const u8 sText_Description_Nuzlocke_RareCandy_On[]       = _("{JPN}むげんレアアメがゲームかいし\nじにプレイヤーのパソコンにある.");
+static const u8 sText_Description_Nuzlocke_RareCandy_Off[]       = _("{JPN}プレイヤーはむげんレアアメを\nしようできない.");
+static const u8 sText_Description_Nuzlocke_Next[]               = _("{JPN}なんいどオプションへつづく.");
 static const u8 *const sOptionMenuItemDescriptionsNuzlocke[MENUITEM_NUZLOCKE_COUNT][4] =
 {
     [MENUITEM_NUZLOCKE_NUZLOCKE]            = {sText_Description_Nuzlocke_Base,                 sText_Description_Nuzlocke_Easy,                    sText_Description_Nuzlocke_Normal,  sText_Description_Nuzlocke_Hard},
@@ -937,39 +937,39 @@ static const u8 *const sOptionMenuItemDescriptionsNuzlocke[MENUITEM_NUZLOCKE_COU
     [MENUITEM_NUZLOCKE_NEXT]                = {sText_Description_Nuzlocke_Next,                 sText_Empty,                                        sText_Empty,                        sText_Empty},
 };
 
-static const u8 sText_Description_Difficulty_Party_Limit[]              = _("Limits the amount of {PKMN} in the party.\n{COLOR 7}{COLOR 8}“1” has visual bugs in DOUBLE BATTLES.");
-static const u8 sText_Description_Difficulty_LevelCap_Base[]            = _("No level cap. Overleveling possible.\n");
-static const u8 sText_Description_Difficulty_LevelCap_Normal[]          = _("Maximum level is based on the\nnext gym's highest POKéMON level.");
-static const u8 sText_Description_Difficulty_LevelCap_Hard[]            = _("Maximum level is based on the\nnext gym's {COLOR 7}{COLOR 8}lowest POKéMON level.");
-static const u8 sText_Description_Difficulty_ExpMultiplier_1_0[]        = _("POKéMON gain normal EXP. Points.\nStacks with HARD MODE EXP.");
-static const u8 sText_Description_Difficulty_ExpMultiplier_1_5[]        = _("POKéMON gain 50 percent more EXP.\nPoints! Stacks with HARD MODE EXP.");
-static const u8 sText_Description_Difficulty_ExpMultiplier_2_0[]        = _("POKéMON gain double EXP. Points!\nStacks with HARD MODE EXP.");
-static const u8 sText_Description_Difficulty_ExpMultiplier_0_0[]        = _("POKéMON gain {COLOR 7}{COLOR 8}ZERO EXP. Points!!!\nApplies to HARD MODE EXP. as well.");
-static const u8 sText_Description_Difficulty_Items_Player_Yes[]         = _("The player can use battle items.");
-static const u8 sText_Description_Difficulty_Items_Player_No[]          = _("The player can {COLOR 7}{COLOR 8}NOT use battle items.\nHold items are allowed!");
-static const u8 sText_Description_Difficulty_Items_Trainer_Yes[]        = _("Enemy trainers can use battle items.");
-static const u8 sText_Description_Difficulty_Items_Trainer_No[]         = _("Enemy trainers can {COLOR 7}{COLOR 8}NOT use battle\nitems.");
-static const u8 sText_Description_Difficulty_NoEVs_Off[]                = _("The player's POKéMON gain effort\nvalues as expected.");
-static const u8 sText_Description_Difficulty_NoEVs_On[]                 = _("The player's POKéMON do {COLOR 7}{COLOR 8}NOT{COLOR 1}{COLOR 2} gain\nany effort values!");
-static const u8 sText_Description_Difficulty_ScalingIVs_Off[]           = _("The POKéMON of enemy Trainer have\nthe expected IVs.");
-static const u8 sText_Description_Difficulty_ScalingIVs_Scaling[]       = _("The IVs of Trainer POKéMON increase\nwith gym badges!");
-static const u8 sText_Description_Difficulty_ScalingIVs_Hard[]          = _("All Trainer POKéMON have perfect\nIVs!");
-static const u8 sText_Description_Difficulty_ScalingEVs_Off[]           = _("The POKéMON of enemy Trainer have\nno EVs.");
-static const u8 sText_Description_Difficulty_ScalingEVs_Scaling[]       = _("The EVs of Trainer POKéMON increase\nwith gym badges!");
-static const u8 sText_Description_Difficulty_ScalingEVs_Hard[]          = _("All Trainer POKéMON have high EVs!");
-static const u8 sText_Description_Difficulty_ScalingEVs_Extreme[]       = _("All Trainer POKéMON have {COLOR 7}{COLOR 8}252 EVs!\nVery Hard!");
-static const u8 sText_Description_Difficulty_Next[]                     = _("Continue to challenge options.");
-static const u8 sText_Description_Challenges_LimitDifficulty_Off[]      = _("Change the difficulty whenever and\nwherever you want.");
-static const u8 sText_Description_Challenges_LimitDifficulty_On[]       = _("Difficulty cannot be changed.\nHARD MODE locks BATTLE STYLE to SET.");
-static const u8 sText_Description_Difficulty_MaxPartyIvs_Off[]          = _("Your POKéMON have the expected IVs\n(between 0 and 31).");
-static const u8 sText_Description_Difficulty_MaxPartyIvs_On[]           = _("The IVs of your POKéMON are set\nalways to the maximum (31).");
-static const u8 sText_Description_Difficulty_MaxPartyIvs_On_HP[]        = _("IVs are set between 30 and 31\nto allow different Hidden Powers.");
-static const u8 sText_Description_Difficulty_LessEscapes_Off[]          = _("The player can easily run\naway from battles, as usual.");
-static const u8 sText_Description_Difficulty_LessEscapes_On[]           = _("The player can't easily run\naway from battles. Use repels!");
-static const u8 sText_Description_Difficulty_EscapeRopeDig_Off[]        = _("ESCAPE ROPE and DIG can't\nbe used to exit dungeons.");
-static const u8 sText_Description_Difficulty_EscapeRopeDig_On[]         = _("ESCAPE ROPE and DIG can\nbe used to exit dungeons.");
-//static const u8 sText_Description_Difficulty_HardExp_Enabled[]          = _("{PKMN} gain 60% of total EXP in HARD.\n{COLOR 7}{COLOR 8}RECOMMENDED, provides good challenge.");
-//static const u8 sText_Description_Difficulty_HardExp_Disabled[]         = _("{PKMN} gain the default EXP in HARD. {COLOR 7}{COLOR 8}NOT\nRECOMMENDED, makes HARD MODE easy.");
+static const u8 sText_Description_Difficulty_Party_Limit[]              = _("{JPN}パーティのポケモンすうをせいげん.\n{COLOR 7}{COLOR 8}1はダブルバトルでバグあり.");
+static const u8 sText_Description_Difficulty_LevelCap_Base[]            = _("{JPN}レベルキャップなし.\nオーバーレベリングかのう.");
+static const u8 sText_Description_Difficulty_LevelCap_Normal[]          = _("{JPN}さいだいレベルはつぎのジムの\nさいこうレベルポケモンにもとづく.");
+static const u8 sText_Description_Difficulty_LevelCap_Hard[]            = _("{JPN}さいだいレベルはつぎのジムの\n{COLOR 7}{COLOR 8}さいていレベルポケモンにもとづく.");
+static const u8 sText_Description_Difficulty_ExpMultiplier_1_0[]        = _("{JPN}ポケモンはつうじょうのけいけんちを\nかくとく.ハードモードとかさなる.");
+static const u8 sText_Description_Difficulty_ExpMultiplier_1_5[]        = _("{JPN}ポケモンは50%おおくけいけんちを\nかくとく!ハードモードとかさなる.");
+static const u8 sText_Description_Difficulty_ExpMultiplier_2_0[]        = _("{JPN}ポケモンは2ばいけいけんちを\nかくとく!ハードモードとかさなる.");
+static const u8 sText_Description_Difficulty_ExpMultiplier_0_0[]        = _("{JPN}ポケモンは{COLOR 7}{COLOR 8}けいけんちゼロ!!!\nハードモードにもてきよう.");
+static const u8 sText_Description_Difficulty_Items_Player_Yes[]         = _("{JPN}プレイヤーはせんとうどうぐを\nしようできる.");
+static const u8 sText_Description_Difficulty_Items_Player_No[]          = _("{JPN}プレイヤーは{COLOR 7}{COLOR 8}せんとうどうぐを\nしようできない.もちものはOK!");
+static const u8 sText_Description_Difficulty_Items_Trainer_Yes[]        = _("{JPN}あいてトレーナーはせんとう\nどうぐをしようできる.");
+static const u8 sText_Description_Difficulty_Items_Trainer_No[]         = _("{JPN}あいてトレーナーは{COLOR 7}{COLOR 8}せんとう\nどうぐをしようできない.");
+static const u8 sText_Description_Difficulty_NoEVs_Off[]                = _("{JPN}プレイヤーのポケモンはつうじょう\nどおりどりょくちをかくとく.");
+static const u8 sText_Description_Difficulty_NoEVs_On[]                 = _("{JPN}プレイヤーのポケモンは{COLOR 7}{COLOR 8}どりょく\nちをかくとく{COLOR 1}{COLOR 2}しない!");
+static const u8 sText_Description_Difficulty_ScalingIVs_Off[]           = _("{JPN}あいてトレーナーのポケモンは\nよそうどおりのこたいち.");
+static const u8 sText_Description_Difficulty_ScalingIVs_Scaling[]       = _("{JPN}トレーナーポケモンのこたいちは\nジムバッジでじょうしょう!");
+static const u8 sText_Description_Difficulty_ScalingIVs_Hard[]          = _("{JPN}すべてのトレーナーポケモンは\nパーフェクトなこたいち!");
+static const u8 sText_Description_Difficulty_ScalingEVs_Off[]           = _("{JPN}あいてトレーナーのポケモンは\nどりょくちがない.");
+static const u8 sText_Description_Difficulty_ScalingEVs_Scaling[]       = _("{JPN}トレーナーポケモンのどりょくちは\nジムバッジでじょうしょう!");
+static const u8 sText_Description_Difficulty_ScalingEVs_Hard[]          = _("{JPN}すべてのトレーナーポケモンは\nたかいどりょくち!");
+static const u8 sText_Description_Difficulty_ScalingEVs_Extreme[]       = _("{JPN}すべてのトレーナーポケモンは\n{COLOR 7}{COLOR 8}252どりょくち!とてもハード!");
+static const u8 sText_Description_Difficulty_Next[]                     = _("{JPN}チャレンジオプションへつづく.");
+static const u8 sText_Description_Challenges_LimitDifficulty_Off[]      = _("{JPN}いつでもどこでも\nなんいどをへんこうできる.");
+static const u8 sText_Description_Challenges_LimitDifficulty_On[]       = _("{JPN}なんいどはへんこうふか.ハード\nモードはバトルスタイルをセット.");
+static const u8 sText_Description_Difficulty_MaxPartyIvs_Off[]          = _("{JPN}あなたのポケモンはよそうどおり\nのこたいち(0-31のあいだ).");
+static const u8 sText_Description_Difficulty_MaxPartyIvs_On[]           = _("{JPN}あなたのポケモンのこたいちは\nつねにさいだい(31)にせってい.");
+static const u8 sText_Description_Difficulty_MaxPartyIvs_On_HP[]        = _("{JPN}こたいちは30-31にせってい\nいろいろなめざパのため.");
+static const u8 sText_Description_Difficulty_LessEscapes_Off[]          = _("{JPN}プレイヤーはつうじょうどおり\nせんとうからにげやすい.");
+static const u8 sText_Description_Difficulty_LessEscapes_On[]           = _("{JPN}プレイヤーはせんとうから\nにげにくい.あなよけをつかって!");
+static const u8 sText_Description_Difficulty_EscapeRopeDig_Off[]        = _("{JPN}あなぬけのヒモとあなをほるは\nダンジョンをでるのにつかえない.");
+static const u8 sText_Description_Difficulty_EscapeRopeDig_On[]         = _("{JPN}あなぬけのヒモとあなをほるは\nダンジョンをでるのにつかえる.");
+//static const u8 sText_Description_Difficulty_HardExp_Enabled[]          = _("{JPN}ポケモンはハードで60%のけいけんち.\n{COLOR 7}{COLOR 8}おすすめ よいチャレンジ.");
+//static const u8 sText_Description_Difficulty_HardExp_Disabled[]         = _("{JPN}ポケモンはハードでつうじょうけいけんち.\n{COLOR 7}{COLOR 8}ひすすめしない ハードがかんたん.");
 static const u8 *const sOptionMenuItemDescriptionsDifficulty[MENUITEM_DIFFICULTY_COUNT][4] =
 {
     [MENUITEM_DIFFICULTY_PARTY_LIMIT]           = {sText_Description_Difficulty_Party_Limit,        sText_Empty,                                        sText_Empty,                                    sText_Empty},
@@ -988,27 +988,27 @@ static const u8 *const sOptionMenuItemDescriptionsDifficulty[MENUITEM_DIFFICULTY
     //[MENUITEM_DIFFICULTY_HARD_EXP]              = {sText_Description_Difficulty_HardExp_Enabled,    sText_Description_Difficulty_HardExp_Disabled,    sText_Empty,                                        sText_Empty},
 };  
 
-static const u8 sText_Description_Difficulty_Pokecenter_Yes[]           = _("The player can visit Pokécenters and\nother locations to heal their party.");
-static const u8 sText_Description_Difficulty_Pokecenter_No[]            = _("The player {COLOR 7}{COLOR 8}CAN'T visit Pokécenters or\nother locations to heal their party.");
-static const u8 sText_Description_Challenges_PCHeal_Yes[]               = _("POKéMON deposited to the PC\nwill be healed as usual.");
-static const u8 sText_Description_Challenges_PCHeal_No[]                = _("POKéMON deposited to the PC\nwill not be healed.");
-static const u8 sText_Description_Challenges_EvoLimit_Base[]            = _("POKéMON evolve as expected.");
-static const u8 sText_Description_Challenges_EvoLimit_First[]           = _("POKéMON can only evolve into\ntheir first evolution.");
-static const u8 sText_Description_Challenges_EvoLimit_All[]             = _("POKéMON can {COLOR 7}{COLOR 8}NOT evolve at all!");
-static const u8 sText_Description_Challenges_OneTypeChallenge[]         = _("Allow only one POKéMON type the\nplayer can capture and use.");
-static const u8 sText_Description_Challenges_BaseStatEqualizer_Base[]   = _("All POKéMON have their original base\nstats.");
-static const u8 sText_Description_Challenges_BaseStatEqualizer_100[]    = _("POKéMON stats are calculated with\n100 of each base stat.");
-static const u8 sText_Description_Challenges_BaseStatEqualizer_255[]    = _("POKéMON stats are calculated with\n255 of each base stat.");
-static const u8 sText_Description_Challenges_BaseStatEqualizer_500[]    = _("POKéMON stats are calculated with\n500 of each base stat.");
-static const u8 sText_Description_Challenges_Mirror_Off[]               = _("The player uses their own party.");
-static const u8 sText_Description_Challenges_Mirror_Trainer[]           = _("In Trainer battles, the player gets\na copy of the enemy's party!");
-static const u8 sText_Description_Challenges_Mirror_All[]               = _("The player gets a copy of the\nenemy's party in {COLOR 7}{COLOR 8}ALL battles!");
-static const u8 sText_Description_Challenges_MirrorThief_Off[]          = _("The player gets their own party back\nafter battles.");
-static const u8 sText_Description_Challenges_MirrorThief_On[]           = _("The player keeps the enemies party\nafter battle!");
-static const u8 sText_Description_Challenges_Expensive_0ff[]            = _("Everything has the usual cost.");
-static const u8 sText_Description_Challenges_Expensive_5[]              = _("Everything is 5 times more\nexpensive!");
-static const u8 sText_Description_Challenges_Expensive_10[]             = _("Everything is 10 times more\nexpensive! Good ol' capitalism.");
-static const u8 sText_Description_Challenges_Expensive_50[]             = _("Everything is 50 times more\nexpensive! Ultra capitalism!");
+static const u8 sText_Description_Difficulty_Pokecenter_Yes[]           = _("{JPN}プレイヤーはポケモンセンターや\nほかのばしょでかいふくできる.");
+static const u8 sText_Description_Difficulty_Pokecenter_No[]            = _("{JPN}プレイヤーは{COLOR 7}{COLOR 8}ポケモンセンターや\nほかのばしょでかいふくできない.");
+static const u8 sText_Description_Challenges_PCHeal_Yes[]               = _("{JPN}PCに あずけた ポケモンは\nいつものように かいふくします.");
+static const u8 sText_Description_Challenges_PCHeal_No[]                = _("{JPN}PCに あずけた ポケモンは\nかいふくしません.");
+static const u8 sText_Description_Challenges_EvoLimit_Base[]            = _("{JPN}ポケモンは きたい どおりに\nしんかします.");
+static const u8 sText_Description_Challenges_EvoLimit_First[]           = _("{JPN}ポケモンは だい1しんかまでしか\nしんかできません.");
+static const u8 sText_Description_Challenges_EvoLimit_All[]             = _("{JPN}ポケモンは {COLOR 7}{COLOR 8}まったく しんかしません!");
+static const u8 sText_Description_Challenges_OneTypeChallenge[]         = _("{JPN}プレイヤーが つかまえて つかえる\nポケモンのタイプを 1つに せいげん.");
+static const u8 sText_Description_Challenges_BaseStatEqualizer_Base[]   = _("{JPN}すべてのポケモンは オリジナルの\nきそステータスを もっています.");
+static const u8 sText_Description_Challenges_BaseStatEqualizer_100[]    = _("{JPN}ポケモンのステータスは すべての\nきそステータスが 100で けいさん.");
+static const u8 sText_Description_Challenges_BaseStatEqualizer_255[]    = _("{JPN}ポケモンのステータスは すべての\nきそステータスが 255で けいさん.");
+static const u8 sText_Description_Challenges_BaseStatEqualizer_500[]    = _("{JPN}ポケモンのステータスは すべての\nきそステータスが 500で けいさん.");
+static const u8 sText_Description_Challenges_Mirror_Off[]               = _("{JPN}プレイヤーは じぶんの\nパーティを つかいます.");
+static const u8 sText_Description_Challenges_Mirror_Trainer[]           = _("{JPN}トレーナーせんで プレイヤーは\nあいてのパーティの コピーをもらう!");
+static const u8 sText_Description_Challenges_Mirror_All[]               = _("{JPN}プレイヤーは {COLOR 7}{COLOR 8}すべてのたたかいで\nあいてのパーティの コピーをもらう!");
+static const u8 sText_Description_Challenges_MirrorThief_Off[]          = _("{JPN}プレイヤーは たたかい ごに\njぶんのパーティを とりもどす.");
+static const u8 sText_Description_Challenges_MirrorThief_On[]           = _("{JPN}プレイヤーは たたかい ごに\nあいてのパーティを キープする!");
+static const u8 sText_Description_Challenges_Expensive_0ff[]            = _("{JPN}すべてが つうじょうの\nねだんです.");
+static const u8 sText_Description_Challenges_Expensive_5[]              = _("{JPN}すべてが 5ばい\nたかくなります!");
+static const u8 sText_Description_Challenges_Expensive_10[]             = _("{JPN}すべてが 10ばい たかい!\nしほんしゅぎ!");
+static const u8 sText_Description_Challenges_Expensive_50[]             = _("{JPN}すべてが 50ばい たかい!\nちょうしほんしゅぎ!");
 static const u8 *const sOptionMenuItemDescriptionsChallenges[MENUITEM_CHALLENGES_COUNT][5] =
 {
     [MENUITEM_DIFFICULTY_POKECENTER]            = {sText_Description_Difficulty_Pokecenter_Yes,         sText_Description_Difficulty_Pokecenter_No,         sText_Empty,                                        sText_Empty,                                        sText_Empty},
@@ -1023,7 +1023,7 @@ static const u8 *const sOptionMenuItemDescriptionsChallenges[MENUITEM_CHALLENGES
 };
 
 // Disabled descriptions
-static const u8 sText_Description_Disabled_Feature[]  = _("{COLOR 7}{COLOR 8}This feature is not currently\nsupported for this game.");
+static const u8 sText_Description_Disabled_Feature[]  = _("{JPN}{COLOR 7}{COLOR 8}このきのうは このゲームでは\nげんざい みたいおうしていません.");
 static const u8 *const sOptionMenuItemDescriptionsDisabledMode[MENUITEM_MODE_COUNT] =
 {
     [MENUITEM_MODE_CLASSIC_MODERN]        = sText_Empty,
@@ -1057,10 +1057,10 @@ static const u8 *const sOptionMenuItemDescriptionsDisabledFeatures[MENUITEM_FEAT
     [MENUITEM_FEATURES_NEXT]                  = sText_Empty,
 };
 
-static const u8 sText_Description_Disabled_Random_SimiliarEvolutionLevel[]  = _("Only usable with random starter,\nTrainer, wild or static POKéMON.");
-static const u8 sText_Description_Disabled_Random_IncludeLegendaries[]      = _("Only usable with random starter,\nTrainer, wild or static POKéMON.");
-static const u8 sText_Description_Disabled_Random_Chaos_Mode[]              = _("Only usable if other random options\nare activated.");
-static const u8 sText_Description_Disabled_Random_Type_Effectiveness[]      = _("Currently not available.");
+static const u8 sText_Description_Disabled_Random_SimiliarEvolutionLevel[]  = _("{JPN}ランダムスターター トレーナー \nやせいまたは こていポケモン ひつよう.");
+static const u8 sText_Description_Disabled_Random_IncludeLegendaries[]      = _("{JPN}ランダムスターター トレーナー \nやせいまたは こていポケモン ひつよう.");
+static const u8 sText_Description_Disabled_Random_Chaos_Mode[]              = _("{JPN}ほかのランダムオプションが\nゆうこうなときのみ つかえます.");
+static const u8 sText_Description_Disabled_Random_Type_Effectiveness[]      = _("{JPN}げんざい りようできません.");
 static const u8 *const sOptionMenuItemDescriptionsDisabledRandomizer[MENUITEM_RANDOM_COUNT] =
 {
     [MENUITEM_RANDOM_OFF_ON]                    = sText_Empty,
@@ -1081,7 +1081,7 @@ static const u8 *const sOptionMenuItemDescriptionsDisabledRandomizer[MENUITEM_RA
     [MENUITEM_RANDOM_NEXT]                      = sText_Empty,
 };
 
-static const u8 sText_Description_Disabled_Nuzlocke_Nuzlocke[]   = _("Only usable with Nuzlocke!");
+static const u8 sText_Description_Disabled_Nuzlocke_Nuzlocke[]   = _("{JPN}ヌケニンでのみ つかえます!");
 static const u8 *const sOptionMenuItemDescriptionsDisabledNuzlocke[MENUITEM_NUZLOCKE_COUNT] =
 {
     [MENUITEM_NUZLOCKE_NUZLOCKE]            = sText_Empty,
@@ -1107,8 +1107,8 @@ static const u8 *const sOptionMenuItemDescriptionsDisabledDifficulty[MENUITEM_DI
     [MENUITEM_DIFFICULTY_NEXT]                  = sText_Empty,
 };  
 
-static const u8 sText_Description_Disabled_Challenges_MirrorThief[]    = _("Only usable with Mirror Mode!");
-static const u8 sText_Description_Disabled_Features_PCHeal[]  = _("Always disabled with POKéCENTER\nChallenge.");
+static const u8 sText_Description_Disabled_Challenges_MirrorThief[]    = _("{JPN}ミラーモードでのみ つかえます!");
+static const u8 sText_Description_Disabled_Features_PCHeal[]  = _("{JPN}ポケモンセンター チャレンジでは\nつねに むこうです.");
 static const u8 *const sOptionMenuItemDescriptionsDisabledChallenges[MENUITEM_CHALLENGES_COUNT] =
 {
     [MENUITEM_DIFFICULTY_POKECENTER]            = sText_Empty,
@@ -1224,14 +1224,14 @@ static void VBlankCB(void)
     TransferPlttBuffer();
 }
 
-static const u8 sText_TopBar_Left[]             = _("{L_BUTTON}PREVIOUS");
-static const u8 sText_TopBar_Right[]            = _("{R_BUTTON}NEXT");
-static const u8 sText_TopBar_Mode[]             = _("GAMEMODE");
-static const u8 sText_TopBar_Features[]         = _("FEATURES");
-static const u8 sText_TopBar_Randomizer[]       = _("RANDOMIZER");
-static const u8 sText_TopBar_Nuzlocke[]         = _("NUZLOCKE");
-static const u8 sText_TopBar_Difficulty[]       = _("DIFFICULTY");
-static const u8 sText_TopBar_Challenges[]       = _("CHALLENGES");
+static const u8 sText_TopBar_Left[]             = _("{JPN}{L_BUTTON}まえへ");
+static const u8 sText_TopBar_Right[]            = _("{JPN}{R_BUTTON}つぎへ");
+static const u8 sText_TopBar_Mode[]             = _("{JPN}ゲームモード");
+static const u8 sText_TopBar_Features[]         = _("{JPN}きのう");
+static const u8 sText_TopBar_Randomizer[]       = _("{JPN}ランダマイザー");
+static const u8 sText_TopBar_Nuzlocke[]         = _("{JPN}ヌケニン");
+static const u8 sText_TopBar_Difficulty[]       = _("{JPN}なんいど");
+static const u8 sText_TopBar_Challenges[]       = _("{JPN}チャレンジ");
 static void DrawTopBarText(void)
 {
     const u8 color[3] = { TEXT_DYNAMIC_COLOR_6, TEXT_COLOR_WHITE, TEXT_COLOR_OPTIONS_GRAY_FG };
@@ -2267,9 +2267,9 @@ static void ReDrawAll(void)
 
 // Draw Choices functions ****SPECIFIC****
 // MENU_RANDOMIZER
-static const u8 sText_Off[]  = _("OFF");
-static const u8 sText_On[]   = _("ON");
-static const u8 sText_None[] = _("NONE");
+static const u8 sText_Off[]  = _("{JPN}OFF");
+static const u8 sText_On[]   = _("{JPN}ON");
+static const u8 sText_None[] = _("{JPN}なし");
 static void DrawChoices_Random_OffOn(int selection, int y, bool8 active)
 {
     u8 styles[2] = {0};
@@ -2280,9 +2280,9 @@ static void DrawChoices_Random_OffOn(int selection, int y, bool8 active)
 }
 
 
-static const u8 sClassic[]  = _("RECOMMENDED");
-static const u8 sModern[]   = _("MODERN");
-static const u8 sCustom[]   = _("CUSTOM");
+static const u8 sClassic[]  = _("{JPN}おすすめ");
+static const u8 sModern[]   = _("{JPN}モダン");
+static const u8 sCustom[]   = _("{JPN}カスタム");
 static const u8 *const sText_Mode_Strings[] = {sClassic,  sCustom};
 
 static void DrawChoices_Mode_Classic_Modern_Selector(int selection, int y)
@@ -2329,7 +2329,7 @@ static void DrawChoices_Mode_Classic_Modern_Selector(int selection, int y)
     }
 }
 
-static const u8 sText_Random[]  = _("RANDOM");
+static const u8 sText_Random[]  = _("{JPN}ランダム");
 static void DrawChoices_Random_OffRandom(int selection, int y, bool8 active)
 {
     u8 styles[2] = {0};
@@ -2414,7 +2414,7 @@ static void DrawChoices_Random_Items(int selection, int y)
     DrawChoices_Random_OffRandom(selection, y, active);
 }
 
-static const u8 sText_Random_Chaos[] = _("CHAOS");
+static const u8 sText_Random_Chaos[] = _("{JPN}カオス");
 static void DrawChoices_Random_OffChaos(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_RANDOM_CHAOS);
@@ -2438,9 +2438,9 @@ static void DrawChoices_Nuzlocke_OnOff(int selection, int y, bool8 active)
     DrawOptionMenuChoice(sText_Off, GetStringRightAlignXOffset(1, sText_Off, 198), y, styles[1], active);
 }
 
-static const u8 sText_Challenges_Nuzlocke_Easy[]        = _("EASY");
-static const u8 sText_Challenges_Nuzlocke_Normal[]      = _("NORMAL");
-static const u8 sText_Challenges_Nuzlocke_Hardcore[]    = _("HARD");
+static const u8 sText_Challenges_Nuzlocke_Easy[]        = _("{JPN}かんたん");
+static const u8 sText_Challenges_Nuzlocke_Normal[]      = _("{JPN}ノーマル");
+static const u8 sText_Challenges_Nuzlocke_Hardcore[]    = _("{JPN}ハード");
 static const u8 *const sText_Nuzlocke_Strings[] = {sText_Off, sText_Challenges_Nuzlocke_Easy, sText_Challenges_Nuzlocke_Normal, sText_Challenges_Nuzlocke_Hardcore};
 
 static void DrawChoices_Challenges_Nuzlocke(int selection, int y)
@@ -2486,8 +2486,8 @@ static void DrawChoices_Nuzlocke_Nicknaming(int selection, int y)
     bool8 active = CheckConditions(MENUITEM_NUZLOCKE_NICKNAMING);
     DrawChoices_Nuzlocke_OnOff(selection, y, active);
 }
-static const u8 sText_Nuzlocke_Cemetery[]  = _("CEMETERY");
-static const u8 sText_Nuzlocke_Deletion[]  = _("RELEASE");
+static const u8 sText_Nuzlocke_Cemetery[]  = _("{JPN}ぼち");
+static const u8 sText_Nuzlocke_Deletion[]  = _("{JPN}にがす");
 static void DrawChoices_Nuzlocke_Deletion(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_NUZLOCKE_DELETION);
@@ -2503,8 +2503,8 @@ static void DrawChoices_Nuzlocke_RareCandy(int selection, int y)
 }
 
 // MENU_DIFFICULTY
-static const u8 sText_Yes[] = _("YES");
-static const u8 sText_No[]  = _("NO");
+static const u8 sText_Yes[] = _("{JPN}はい");
+static const u8 sText_No[]  = _("{JPN}いいえ");
 static void DrawChoices_Challenges_YesNo(int selection, int y, bool8 active)
 {
     u8 styles[2] = {0};
@@ -2528,8 +2528,8 @@ static void DrawChoices_Challenges_NoEVs(int selection, int y)
     bool8 active = CheckConditions(MENUITEM_DIFFICULTY_NO_EVS);
     DrawChoices_Challenges_YesNo(selection, y, active);
 }
-static const u8 sText_ScalingIVsEVs_Scaling[]   = _("SCALE");
-static const u8 sText_ScalingIVsEVs_Hard[]      = _("HARD");
+static const u8 sText_ScalingIVsEVs_Scaling[]   = _("{JPN}スケール");
+static const u8 sText_ScalingIVsEVs_Hard[]      = _("{JPN}ハード");
 static void DrawChoices_Challenges_ScalingIVs(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_DIFFICULTY_SCALING_IVS);
@@ -2541,7 +2541,7 @@ static void DrawChoices_Challenges_ScalingIVs(int selection, int y)
     DrawOptionMenuChoice(sText_ScalingIVsEVs_Scaling, xMid, y, styles[1], active);
     DrawOptionMenuChoice(sText_ScalingIVsEVs_Hard, GetStringRightAlignXOffset(1, sText_ScalingIVsEVs_Hard, 198), y, styles[2], active);
 }
-static const u8 sText_ScalingIVsEVs_Extrem[]    = _("EXTREM");
+static const u8 sText_ScalingIVsEVs_Extrem[]    = _("{JPN}きょくたん");
 static const u8 *const sText_ScalingEVs_Strings[] = {sText_Off, sText_ScalingIVsEVs_Scaling, sText_ScalingIVsEVs_Hard, sText_ScalingIVsEVs_Extrem};
 static void DrawChoices_Challenges_ScalingEVs(int selection, int y)
 {
@@ -2568,8 +2568,8 @@ static void DrawChoices_Challenges_PartyLimit(int selection, int y)
     DrawOptionMenuChoice(sText_Challenges_PartyLimit_1, 192, y, styles[5], active);
 }
 
-static const u8 sText_Challenges_LevelCap_Normal[]  = _("NORMAL");
-static const u8 sText_Challenges_LevelCap_Hard[]    = _("HARD");
+static const u8 sText_Challenges_LevelCap_Normal[]  = _("{JPN}ノーマル");
+static const u8 sText_Challenges_LevelCap_Hard[]    = _("{JPN}ハード");
 static void DrawChoices_Challenges_LevelCap(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_DIFFICULTY_LEVEL_CAP);
@@ -2582,10 +2582,10 @@ static void DrawChoices_Challenges_LevelCap(int selection, int y)
     DrawOptionMenuChoice(sText_Challenges_LevelCap_Hard, GetStringRightAlignXOffset(1, sText_Challenges_LevelCap_Hard, 198), y, styles[2], active);
 }
 
-static const u8 sText_Challenges_ExpMultiplier_1_0[]   = _("x1.0");
-static const u8 sText_Challenges_ExpMultiplier_1_5[]   = _("x1.5");
-static const u8 sText_Challenges_ExpMultiplier_2_0[]   = _("x2.0");
-static const u8 sText_Challenges_ExpMultiplier_0_0[]   = _("x0.0");
+static const u8 sText_Challenges_ExpMultiplier_1_0[]   = _("{JPN}x1.0");
+static const u8 sText_Challenges_ExpMultiplier_1_5[]   = _("{JPN}x1.5");
+static const u8 sText_Challenges_ExpMultiplier_2_0[]   = _("{JPN}x2.0");
+static const u8 sText_Challenges_ExpMultiplier_0_0[]   = _("{JPN}x0.0");
 static const u8 *const sText_Challenges_ExpMultiplier_Strings[] = {sText_Challenges_ExpMultiplier_1_0, sText_Challenges_ExpMultiplier_1_5, sText_Challenges_ExpMultiplier_2_0, sText_Challenges_ExpMultiplier_0_0};
 static void DrawChoices_Challenges_ExpMultiplier(int selection, int y)
 {
@@ -2605,8 +2605,8 @@ static void DrawChoices_Challenges_Pokecenters(int selection, int y)
 
 
 // MENU_CHALLENGES
-static const u8 sText_Challenges_EvoLimit_First[]   = _("FIRST");
-static const u8 sText_Challenges_EvoLimit_All[]     = _("ALL");
+static const u8 sText_Challenges_EvoLimit_First[]   = _("{JPN}さいしょ");
+static const u8 sText_Challenges_EvoLimit_All[]     = _("{JPN}すべて");
 static void DrawChoices_Challenges_EvoLimit(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_CHALLENGES_EVO_LIMIT);
@@ -2646,7 +2646,7 @@ static void DrawChoices_Challenges_BaseStatEqualizer(int selection, int y)
     DrawChoices_Options_Four(sText_Challenges_BaseStatEqualizer_Strings, selection, y, active);
 }
 
-static const u8 sText_Challenges_Mirror_All[]   = _("ALL");
+static const u8 sText_Challenges_Mirror_All[]   = _("{JPN}すべて");
 static void DrawChoices_Challenges_Mirror(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_CHALLENGES_MIRROR);
@@ -2669,8 +2669,8 @@ static void DrawChoices_Challenges_Mirror_Thief(int selection, int y)
     DrawOptionMenuChoice(sText_On, GetStringRightAlignXOffset(1, sText_On, 198), y, styles[1], active);
 }
 
-static const u8 sText_Features_RTC_RTC[]   = _("RTC");
-static const u8 sText_Features_RTC_Fake_RTC[]   = _("FAKE RTC");
+static const u8 sText_Features_RTC_RTC[]   = _("{JPN}RTC");
+static const u8 sText_Features_RTC_Fake_RTC[]   = _("{JPN}ぎじRTC");
 static void DrawChoices_Features_Rtc_Type(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_FEATURES_RTC_TYPE);
@@ -2690,8 +2690,8 @@ static void DrawChoices_Features_Rtc_Type(int selection, int y)
     DrawOptionMenuChoice(sText_Features_RTC_Fake_RTC, GetStringRightAlignXOffset(1, sText_Features_RTC_Fake_RTC, 198), y, styles[1], active);
 }
 
-static const u8 sText_Encounters_Vanilla_Long[]   = _("ORIGINAL");
-static const u8 sText_Encounters_Modern_Long[]    = _("MODERN");
+static const u8 sText_Encounters_Vanilla_Long[]   = _("{JPN}オリジナル");
+static const u8 sText_Encounters_Modern_Long[]    = _("{JPN}モダン");
 
 /*static void DrawChoices_Mode_AlternateSpawns(int selection, int y)
 {
@@ -2737,7 +2737,7 @@ static const u8 sText_Encounters_Modern_Long[]    = _("MODERN");
     DrawOptionMenuChoice(sText_On, GetStringRightAlignXOffset(1, sText_On, 198), y, styles[1], active);
 }*/
 
-static const u8 sText_Max_Party_IVs_30_31[]   = _("NO (HP)");
+static const u8 sText_Max_Party_IVs_30_31[]   = _("{JPN}なし(HP)");
 static void DrawChoices_Challenges_MaxPartyIVs(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_DIFFICULTY_MAX_PARTY_IVS);
@@ -3149,10 +3149,10 @@ static void DrawChoices_Challenges_LessEscapes(int selection, int y)
     DrawOptionMenuChoice(sText_On, GetStringRightAlignXOffset(1, sText_On, 198), y, styles[1], active);
 }
 
-static const u8 sText_Challenges_Expensive_Off[]   = _("OFF");
-static const u8 sText_Challenges_Expensive_5[]     = _("x5");
-static const u8 sText_Challenges_Expensive_10[]    = _("x10");
-static const u8 sText_Challenges_Expensive_50[]    = _("x50!");
+static const u8 sText_Challenges_Expensive_Off[]   = _("{JPN}OFF");
+static const u8 sText_Challenges_Expensive_5[]     = _("{JPN}x5");
+static const u8 sText_Challenges_Expensive_10[]    = _("{JPN}x10");
+static const u8 sText_Challenges_Expensive_50[]    = _("{JPN}x50!");
 static const u8 *const sText_Challenges_Expensive_Strings[] = {sText_Challenges_Expensive_Off, sText_Challenges_Expensive_5, sText_Challenges_Expensive_10, sText_Challenges_Expensive_50};
 static void DrawChoices_Challenges_Expensive(int selection, int y)
 {
@@ -3179,8 +3179,8 @@ static void DrawChoices_Difficulty_Escape_Rope_Dig(int selection, int y)
     DrawOptionMenuChoice(sText_No, GetStringRightAlignXOffset(1, sText_No, 198), y, styles[1], active);
 }
 
-static const u8 sText_Features_Frontier_Ban[]   = _("BAN");
-static const u8 sText_Features_Frontier_UnBan[]     = _("UNBAN");
+static const u8 sText_Features_Frontier_Ban[]   = _("{JPN}きんし");
+static const u8 sText_Features_Frontier_UnBan[]     = _("{JPN}かいじょ");
 static void DrawChoices_Features_FrontierBans(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_FEATURES_FRONTIER_BANS);
@@ -3200,8 +3200,8 @@ static void DrawChoices_Features_FrontierBans(int selection, int y)
     DrawOptionMenuChoice(sText_Features_Frontier_UnBan, GetStringRightAlignXOffset(1, sText_Features_Frontier_UnBan, 198), y, styles[1], active);
 }
 
-/*static const u8 sText_Difficulty_HardExp_Enabled[]   = _("DEFAULT");
-static const u8 sText_Difficulty_HardExp_Disabled[]  = _("NORMAL");
+/*static const u8 sText_Difficulty_HardExp_Enabled[]   = _("{JPN}デフォルト");
+static const u8 sText_Difficulty_HardExp_Disabled[]  = _("{JPN}ノーマル");
 static void DrawChoices_Difficulty_HardExp(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_DIFFICULTY_HARD_EXP);

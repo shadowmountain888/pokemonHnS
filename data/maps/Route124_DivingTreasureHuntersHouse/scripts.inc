@@ -11,11 +11,10 @@ Route124_DivingTreasureHuntersHouse_TogekissEvo::
 	end
 
 Route124_DivingTreasureHuntersHouse_TogekissEvo_Text:
-	.string "There's one POKéMON that evolves\n"
-	.string "HOLDING a HEART SCALE during the day.\p"
-	.string "That POKéMON is TOGETIC!\n" 
-	.string "I wish I had one…$"
-
+	.string "{JPN}ひるまに ハートのうろこを\n"
+	.string "{JPN}もたせて しんかする ポケモンが\p"
+	.string "{JPN}いるんだ!\n"
+	.string "{JPN}それは トゲチック!\pぼくも ほしいなあ...$"
 Route124_DivingTreasureHuntersHouse_EventScript_TreasureHunter::
 	lock
 	faceplayer
@@ -294,55 +293,55 @@ Route124_DivingTreasureHuntersHouse_EventScript_ShardTradeBoard::
 	end
 
 Route124_DivingTreasureHuntersHouse_Text_Greeting:
-	.string "I'm the DIVING TREASURE HUNTER!\p"
-	.string "I'm the awesome dude who makes\n"
-	.string "deep-sea dives to gather treasures\l"
-	.string "resting at the bottom.$"
+	.string "{JPN}おれは かいていトレジャー\n"
+	.string "{JPN}ハンターだ!\p"
+	.string "{JPN}かいていにしずんでる たからを\n"
+	.string "{JPN}あつめるために もぐりこむ\lすごいやつなのさ!$"
 
 Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards:
-	.string "Tell me, have you seen any SHARDS of\n"
-	.string "tools made in ancient times?$"
+	.string "{JPN}きみ むかしの どうぐの\n"
+	.string "{JPN}かけらを みたことあるか?$"
 
 Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards:
-	.string "You haven't got any treasures\n"
-	.string "for me…\p"
-	.string "If you see any SHARDS, like the RED\n"
-	.string "SHARD, you've got to trade it with me!$"
+	.string "{JPN}きみは まだ たからものを\n"
+	.string "{JPN}もってないのか...\p"
+	.string "{JPN}あかいかけらとかの かけらを\n"
+	.string "{JPN}みつけたら ぜひ こうかんしよう!$"
 
 Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou:
-	.string "Oh, hey! That…\n"
-	.string "That's a SHARD! I'm looking for those!\p"
-	.string "Oh, man, you've got to trade that\n"
-	.string "with me! I'll give you something good!$"
+	.string "{JPN}おお! それは...\n"
+	.string "{JPN}かけらだ! それを さがしてたんだ!\p"
+	.string "{JPN}なあ ぜひ そのかけらと\n"
+	.string "{JPN}こうかんしてくれよ!\pいいものを あげるからさ!$"
 
 Route124_DivingTreasureHuntersHouse_Text_WhatDoYouWantToTrade:
-	.string "What do you want to trade?$"
+	.string "{JPN}なにと こうかんするんだ?$"
 
 Route124_DivingTreasureHuntersHouse_Text_YoullTradeShardForStone:
-	.string "You'll trade your {STR_VAR_1} for\n"
-	.string "my {STR_VAR_2}, then?$"
+	.string "{JPN}きみの {STR_VAR_1}と\n"
+	.string "{JPN}おれの {STR_VAR_2}を\lこうかんするのか?$"
 
 Route124_DivingTreasureHuntersHouse_Text_ItsADeal:
-	.string "It's a done deal!\n"
-	.string "Use that wisely!$"
+	.string "{JPN}けったいだ!\n"
+	.string "{JPN}うまく つかってくれよ!$"
 
 Route124_DivingTreasureHuntersHouse_Text_TradeSomethingElse:
-	.string "Do you want to trade something else?$"
+	.string "{JPN}ほかのものも こうかんするか?$"
 
 Route124_DivingTreasureHuntersHouse_Text_BagFull:
-	.string "Whoops, your BAG's full.\n"
-	.string "Get rid of some items, friend!$"
+	.string "{JPN}おっと バッグが いっぱいだな.\n"
+	.string "{JPN}なにか すてなよ!$"
 
 Route124_DivingTreasureHuntersHouse_Text_ComeBackIfYouChangeMind:
-	.string "No? That's a downer.\n"
-	.string "Well, if you change your mind, come back.$"
+	.string "{JPN}だめか? ざんねんだな.\n"
+	.string "{JPN}きが かわったら また きてくれ.$"
 
 Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard:
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x0f}RED SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}FIRE STONE{CLEAR_TO 0xc8}\p"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x06}YELLOW SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x73}THUNDERSTONE{CLEAR_TO 0xc8}\p"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x0c}BLUE SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x79}WATER STONE{CLEAR_TO 0xc8}\p"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x08}GREEN SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}LEAF STONE$"
+	.string "{JPN}{CLEAR_TO 0x0a}ぼしゅうひん{CLEAR_TO 0x7c}こうかんひん\n"
+	.string "{JPN}{CLEAR_TO 0x0f}あかいかけら{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}ほのおのいし{CLEAR_TO 0xc8}\p"
+	.string "{JPN}{CLEAR_TO 0x0a}ぼしゅうひん{CLEAR_TO 0x7c}こうかんひん\n"
+	.string "{JPN}{CLEAR_TO 0x06}きいろいかけら{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x73}かみなりのいし{CLEAR_TO 0xc8}\p"
+	.string "{JPN}{CLEAR_TO 0x0a}ぼしゅうひん{CLEAR_TO 0x7c}こうかんひん\n"
+	.string "{JPN}{CLEAR_TO 0x0c}あおいかけら{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x79}みずのいし{CLEAR_TO 0xc8}\p"
+	.string "{JPN}{CLEAR_TO 0x0a}ぼしゅうひん{CLEAR_TO 0x7c}こうかんひん\n"
+	.string "{JPN}{CLEAR_TO 0x08}みどりのかけら{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}リーフのいし$"

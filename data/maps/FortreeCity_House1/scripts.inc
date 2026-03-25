@@ -61,39 +61,39 @@ FortreeCity_House1_EventScript_Zigzagoon::
 	end
 
 FortreeCity_House1_Text_YouWillTradeWontYou:
-	.string "Wrooooaaar! I need it!\n"
-	.string "I have to get me a {STR_VAR_1}!\l"
-	.string "I'll do anything for it!\p"
-	.string "…Uh… Did you hear that?\n"
-	.string "My shout from the bottom of my heart?\p"
-	.string "Having heard that, you will trade\n"
-	.string "your {STR_VAR_1} for my {STR_VAR_2},\p"
-	.string "won't you? It's a super rare POKéMON\n"
-	.string "from another region!$"
+	.string "{JPN}うおおおおおお! ひつようなんだ!\n"
+	.string "{JPN}どうしても {STR_VAR_1} が\l"
+	.string "{JPN}ほしいんだよ!\p"
+	.string "{JPN}そのためなら なんでもするぞ!\p"
+	.string "{JPN}\p"
+	.string "{JPN}...あー... きいた?\n"
+	.string "{JPN}こころのそこからの さけびを?\p"
+	.string "{JPN}きいてくれたなら きみの\n"
+	.string "{JPN}{STR_VAR_1} を ぼくの {STR_VAR_2} と\pこうかん してくれるよね?\nべつの ちいきから きた\pちょうレアな ポケモンだよ!$"
 
 FortreeCity_House1_Text_MonYouTakeCare:
-	.string "Oh, yeah, right on!\p"
-	.string "{STR_VAR_1}, welcome!\n"
-	.string "{STR_VAR_2}, you take care!$"
+	.string "{JPN}おお そうそう いいね!\p"
+	.string "{JPN}{STR_VAR_1} ようこそ!\n"
+	.string "{JPN}{STR_VAR_2} げんきでね!$"
 
 FortreeCity_House1_Text_ThisIsntAMon:
-	.string "Uh, no, I don't think so.\n"
-	.string "That isn't a {STR_VAR_1}.$"
+	.string "{JPN}えーっと いや ちがうと\n"
+	.string "{JPN}おもうよ.\nそれは{STR_VAR_1}じゃない.$"
 
 FortreeCity_House1_Text_YouWontTradeMe:
-	.string "No? You won't trade me?\n"
-	.string "Even after I bared my heart to you?$"
+	.string "{JPN}だめ?こうかんしてくれない\n"
+	.string "{JPN}の?\nこんなにきもちをつたえたのに?$"
 
 FortreeCity_House1_Text_GoingToMakeVolbeatStrong:
-	.string "I'm going to make VOLBEAT super\n"
-	.string "strong from this moment on!\p"
-	.string "I hope you do the same with PLUSLE!$"
+	.string "{JPN}いまからバルビートを\n"
+	.string "{JPN}ちょうつよくするんだ!\p"
+	.string "{JPN}きみもプラスルをつよく\nそだててくれよ!$"
 
 FortreeCity_House1_Text_TradingMemoriesWithOthers:
-	.string "Trading POKéMON with others…\p"
-	.string "It's as if you're trading your own\n"
-	.string "memories with other people.$"
+	.string "{JPN}ほかの ひとと ポケモンを\n"
+	.string "{JPN}こうかんする ということは...\p"
+	.string "{JPN}じぶんの おもいでを\nほかの ひとと こうかんする\pのと おなじ ことなんだよ$"
 
 FortreeCity_House1_Text_Zigzagoon:
-	.string "ZIGZAGOON: Gumomoh?$"
+	.string "{JPN}ジグザグマ:グモモー?$"
 

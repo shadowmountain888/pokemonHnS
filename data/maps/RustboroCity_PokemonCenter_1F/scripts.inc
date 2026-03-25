@@ -15,19 +15,19 @@ RustboroCity_PokemonCenter_1F_ProbopassEvo::
 	end
 
 RustboroCity_PokemonCenter_1F_ProbopassEvo_Text:
-	.string "NOSEPASS evolves and changes\n"
-	.string "its typing to ROCK and STEEL.\p"
-	.string "But in order to evolve, it needs\n"
-	.string "to be exposed to a strong\l"
-	.string "magnetic field.\p"
-	.string "It's difficult finding a place\n"
-	.string "like this in HOENN, so scientists\l"
-	.string "discovered that making NOSEPASS\l"
-	.string "hold a THUNDER STONE makes him\l"
-	.string "evolve easier by multiplying\l"
-	.string "its own magnetic field by two!\p"
-	.string "I wonder what THUNDER STONES are\n"
-	.string "made of.$"
+	.string "{JPN}ノーズパスは しんかすると\n"
+	.string "{JPN}いわと はがねタイプに\l"
+	.string "{JPN}タイプが かわるんだよ.\p"
+	.string "{JPN}でも しんかするには つよい\n"
+	.string "{JPN}じりょくの あるばしょで\l"
+	.string "{JPN}ばくろしないと だめなんだ.\p"
+	.string "{JPN}ホウエンちほうでは そんな\n"
+	.string "{JPN}ばしょを みつけるのは\l"
+	.string "{JPN}むずかしいから かがくしゃが\l"
+	.string "{JPN}かみなりのいしを もたせると\l"
+	.string "{JPN}じぶんの じりょくが 2ばいに\l"
+	.string "{JPN}なって しんかしやすくなる\l"
+	.string "{JPN}ことを はっけんしたんだって!\pかみなりのいしって いったい\nなにで できてるんだろうね.$"
 
 RustboroCity_PokemonCenter_1F_EventScript_Nurse::
 	setvar VAR_0x800B, LOCALID_NURSE
@@ -50,19 +50,19 @@ RustboroCity_PokemonCenter_1F_EventScript_Girl::
 	end
 
 RustboroCity_PokemonCenter_1F_Text_PokemonHavePersonalities:
-	.string "My POKéMON has a NAIVE nature, and my\n"
-	.string "friend's has a JOLLY nature.\p"
-	.string "It's fascinating how POKéMON have\n"
-	.string "personalities!$"
+	.string "{JPN}わたしの ポケモンは むじゃきな\n"
+	.string "{JPN}せいかくで ともだちのは\l"
+	.string "{JPN}ようきな せいかくなの.\p"
+	.string "{JPN}ポケモンにも せいかくがあるなんて\nほんとうに おもしろいわね!$"
 
 RustboroCity_PokemonCenter_1F_Text_MaleAndFemalePokemon:
-	.string "Just like people, there are male and\n"
-	.string "female POKéMON.\p"
-	.string "But no one seems to have any idea how\n"
-	.string "they're different.$"
+	.string "{JPN}にんげんと おなじで ポケモンにも\n"
+	.string "{JPN}おすと めすが いるのよ.\p"
+	.string "{JPN}でも どこが ちがうのか だれも\n"
+	.string "{JPN}わからないみたいね.$"
 
 RustboroCity_PokemonCenter_1F_Text_HMCutNextDoor:
-	.string "The man next door gave me an HM!\p"
-	.string "I used it to teach my POKéMON how to\n"
-	.string "CUT down skinny trees.$"
+	.string "{JPN}となりの おじさんが ひでんマシンを\n"
+	.string "{JPN}くれたんだ!\p"
+	.string "{JPN}それで ポケモンに ほそい きを\nきる いあいぎりを おしえたよ.$"
 

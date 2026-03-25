@@ -972,435 +972,427 @@ SlateportCity_EventScript_BerryCrushRankingsSign::
 	end
 
 SlateportCity_Text_EnergyGuruSellWhatYouNeed:
-	.string "I'm the ENERGY GURU! I'll go for it and\n"
-	.string "sell you what you need!$"
+	.string "{JPN}おれは エナジーグル だ!\n"
+	.string "{JPN}やるき まんまんで なんでも\lうってやるぞ!$"
 
 SlateportCity_Text_OhYourPokemon:
-	.string "Oh?\n"
-	.string "Your {STR_VAR_1}…$"
-
+	.string "{JPN}あら?\n"
+	.string "{JPN}きみの {STR_VAR_1}...$"
 SlateportCity_Text_PleaseGiveItThisEffortRibbon:
-	.string "Went for it stupendously!\p"
-	.string "As its reward, please give it this\n"
-	.string "EFFORT RIBBON.$"
+	.string "{JPN}すっげぇ がんばったな!\p"
+	.string "{JPN} ごほうびに この\n"
+	.string "{JPN}がんばリボンを あげてくれ!$"
 
 SlateportCity_Text_ReceivedEffortRibbon:
-	.string "{PLAYER} received the EFFORT RIBBON.$"
+	.string "{JPN}{PLAYER}は がんばリボンを\nもらった!$"
 
 SlateportCity_Text_PutEffortRibbonOnMon:
-	.string "{PLAYER} put the EFFORT RIBBON\n"
-	.string "on {STR_VAR_1}.$"
+	.string "{JPN}{PLAYER}は {STR_VAR_1}に\n"
+	.string "{JPN}がんばリボンを つけた!$"
 
 SlateportCity_Text_GoForItLittleHarder:
-	.string "You have to go for it a little harder.\p"
-	.string "If you do, I'll give your POKéMON\n"
-	.string "something nice.$"
+	.string "{JPN}もうちょっと がんばって\n"
+	.string "{JPN}みろよ!\p"
+	.string "{JPN} そうすれば きみの ポケモンに\nいいものを あげるからな!$"
 
 SlateportCity_Text_EffortRibbonLooksGoodOnIt:
-	.string "Oh! Your {STR_VAR_1}, that EFFORT\n"
-	.string "RIBBON looks good on it!$"
+	.string "{JPN}おお! きみの {STR_VAR_1}!\n"
+	.string "{JPN}その がんばリボン にあってるな!$"
 
 SlateportCity_Text_WonderIfLighthouseStartlesPokemon:
-	.string "The light of the lighthouse reaches\n"
-	.string "dozens of miles away.\p"
-	.string "I wonder if it doesn't startle POKéMON\n"
-	.string "in the sea.$"
+	.string "{JPN}とうだいの ひかりは\n"
+	.string "{JPN}すうじゅうマイルさき まで とどくよ\p"
+	.string "{JPN} うみの ポケモンたちを\n"
+	.string "{JPN}おどろかせたり しないかな?$"
 
 SlateportCity_Text_SeaweedFullOfLife:
-	.string "Ooh, look at this!\p"
-	.string "The seaweed you can get around these\n"
-	.string "parts is fresh and full of life.\p"
-	.string "Why, it looks like it can even rear up\n"
-	.string "and attack!$"
+	.string "{JPN}おおっ これを みてくれ!\p"
+	.string "{JPN} このへんで とれる わかめは\n"
+	.string "{JPN}しんせんで いきいき してるんだ\p"
+	.string "{JPN} まるで たちあがって\n"
+	.string "{JPN}こうげき してきそうだよ!$"
 
 SlateportCity_Text_HowTownIsBornAndGrows:
-	.string "Where the water is clean, the fruits\n"
-	.string "of bountiful harvest gather.\p"
-	.string "And where people gather, a market\n"
-	.string "soon starts.\p"
-	.string "That is how a town is born and grows.$"
+	.string "{JPN}みずが きれいな ところには\n"
+	.string "{JPN}ゆたかな みのりが あつまる\p"
+	.string "{JPN} ひとが あつまる ところには\n"
+	.string "{JPN}やがて いちばが できる\p"
+	.string "{JPN} そうやって まちは うまれ\nそだって いくんだ$"
 
 SlateportCity_Text_SlateportWonderfulPlace:
-	.string "Shopping where you can breathe the\n"
-	.string "scent of the ocean…\p"
-	.string "SLATEPORT is such a wonderful place!$"
+	.string "{JPN}うみの かおりを かんじながら\n"
+	.string "{JPN}おかいものが できるなんて...\p"
+	.string "{JPN}カイナシティって\nすてきな ばしょね!$"
 
 SlateportCity_Text_BuyBricksSoDecorWontGetDirty:
-	.string "If you put DOLLS or CUSHIONS on\n"
-	.string "the floor, they'll get dirty.\p"
-	.string "I'm going to buy some BRICKS so my\n"
-	.string "DOLLS and CUSHIONS won't get dirty\l"
-	.string "when I leave them out.$"
+	.string "{JPN}ニンギョウや クッションを\n"
+	.string "{JPN}ゆかに おくと よごれちゃうの\p"
+	.string "{JPN} ブロックを かって ニンギョウや\n"
+	.string "{JPN}クッションを おいても\l"
+	.string "{JPN}よごれない ように するのよ$"
 
 SlateportCity_Text_GoingToCompeteInBattleTent:
-	.string "Wroooar! I'm going to compete in\n"
-	.string "the BATTLE TENT, too!\p"
-	.string "But before that, I need to catch\n"
-	.string "some POKéMON!$"
+	.string "{JPN}うおおおお! おれも\n"
+	.string "{JPN}バトルテントで たたかうぞ!\p"
+	.string "{JPN} でも そのまえに ポケモンを\n"
+	.string "{JPN}つかまえなくちゃ!$"
 
 SlateportCity_Text_BushedHikingFromMauville:
-	.string "Whew… I'm just bushed…\p"
-	.string "I hiked over from MAUVILLE CITY.\n"
-	.string "But, boy, this city's huge.\p"
-	.string "If I'd known this, I would've ridden\n"
-	.string "my BIKE here.$"
+	.string "{JPN}ふう... つかれたあ...\p"
+	.string "{JPN}キンセツシティから あるいて きたん\n"
+	.string "{JPN}だけど このまちって でかいのね\p"
+	.string "{JPN}こんなことなら じてんしゃで\n"
+	.string "{JPN}くればよかったよ$"
 
 SlateportCity_Text_EveryoneCallsHimCaptStern:
-	.string "STERN, the fellow who built the\n"
-	.string "MUSEUM, also happens to be the leader\l"
-	.string "of an undersea exploration team.\p"
-	.string "So, everyone calls him CAPT. STERN.$"
+	.string "{JPN}はくぶつかんを つくった クスノキ\n"
+	.string "{JPN}という ひとは かいていたんさ\l"
+	.string "{JPN}チームの リーダーでもあるんだ\p"
+	.string "{JPN} だから みんな キャプテン クスノキ\nって よんでるよ$"
 
 SlateportCity_Text_WhatsLongLineOverThere:
-	.string "What is that over there?\n"
-	.string "That long line…$"
-
+	.string "{JPN}あそこの ながい ぎょうれつ\n"
+	.string "{JPN}なんだろう?$"
 SlateportCity_Text_VisitedMuseumOften:
-	.string "When I was a child, I visited\n"
-	.string "the MUSEUM often.\p"
-	.string "I used to dream about the mysteries of\n"
-	.string "the sea after seeing the exhibits.$"
+	.string "{JPN}こどものころは よく\n"
+	.string "{JPN}はくぶつかんに きてたなあ\p"
+	.string "{JPN} てんじひんを みて うみの しんぴ\n"
+	.string "{JPN}について ゆめを みたものさ$"
 
 SlateportCity_Text_QuitPushing:
-	.string "Hey, there! Quit pushing!\n"
-	.string "This is the line, can't you see?$"
+	.string "{JPN}おい そこの きみ!\n"
+	.string "{JPN}おすなよ! れつに ならんでるんだ!$"
 
 SlateportCity_Text_AquaHasPolicy:
-	.string "TEAM AQUA has a policy of\n"
-	.string "assembling and dispersing at\l"
-	.string "the operation site.$"
+	.string "{JPN}アクアだんは さくせんちで\n"
+	.string "{JPN}しゅうごう かいさんするのが\l"
+	.string "{JPN}きほんだ$"
 
 SlateportCity_Text_BossIsBrilliant:
-	.string "Our BOSS is brilliant.\p"
-	.string "What would he want to do with\n"
-	.string "a MUSEUM now?$"
+	.string "{JPN}わが ボスは てんさいだ\p"
+	.string "{JPN} いったい はくぶつかんで\n"
+	.string "{JPN}なにを しようと してるんだろう?$"
 
 SlateportCity_Text_WhatsNewSchemeIWonder:
-	.string "What's the new scheme, I wonder?\p"
-	.string "Our BOSS is scary when he's mad, so\n"
-	.string "I'd better not screw things up…$"
-
+	.string "{JPN}あたらしい さくせんって\n"
+	.string "{JPN}なんだろうね?\p"
+	.string "{JPN}ボスは おこると こわいから\nしっぱいは できないよ...$"
 SlateportCity_Text_ShouldTakeItAll:
-	.string "If there's something we need in\n"
-	.string "the MUSEUM, we should take it all!$"
+	.string "{JPN}はくぶつかんに ひつような\n"
+	.string "{JPN}ものが あるなら ぜんぶ\lもらって しまえ!$"
 
 SlateportCity_Text_DontButtIn:
-	.string "Hey, you there!\n"
-	.string "Don't butt in!$"
+	.string "{JPN}おい そこの やつ!\n"
+	.string "{JPN}じゃまするな!$"
 
 SlateportCity_Text_RemindsMeOfLongLineForGames:
-	.string "A long line, huh?\p"
-	.string "It reminds me of the times I lined up to\n"
-	.string "buy smash-hit games…$"
-
+	.string "{JPN}ながい ぎょうれつかあ\p"
+	.string "{JPN}にんきゲームを かうために\n"
+	.string "{JPN}ならんだこと おもいだすなあ...$"
 SlateportCity_Text_WhyAreWeLiningUp:
-	.string "Why are we even lining up and paying?\n"
-	.string "We should just march in!$"
+	.string "{JPN}なんで れつに ならんで\n"
+	.string "{JPN}おかねを はらってるんだ?\p そのまま つっこめばいいのに!$"
 
 SlateportCity_Text_WhatDoYouWant:
-	.string "What?\n"
-	.string "What do you want?$"
+	.string "{JPN}なんだ?\n"
+	.string "{JPN}なにか ようか?$"
 
 SlateportCity_Text_IllReadSignForYou:
-	.string "You want to read this sign?\n"
-	.string "I'll read it for you!$"
+	.string "{JPN}この かんばんを よみたいのか?\n"
+	.string "{JPN}おれが よんでやろう!$"
 
 SlateportCity_Text_SaysSomethingLikeSeaIsEndless:
-	.string "Let's see…\p"
-	.string "Um… I think it says something like\n"
-	.string "“the life in the sea is endless.”\p"
-	.string "Yup, I'm pretty sure that's what\n"
-	.string "it says.$"
+	.string "{JPN}えーっと...\p"
+	.string "{JPN}たしか うみの いのちは\n"
+	.string "{JPN}かぎりないって かんじかな?\p"
+	.string "{JPN}そう かいてある おもうよ$"
+	.string ""
 
 SlateportCity_Text_ShouldveBroughtMyGameBoy:
-	.string "Grumble…\p"
-	.string "I should've brought my Game Boy\n"
-	.string "Advance so I wouldn't get bored in line…\p"
-	.string "Grumble…$"
-
+	.string "{JPN}ぶつぶつ...\p"
+	.string "{JPN}ゲームボーイアドバンスを\n"
+	.string "{JPN}もってくれば よかったよ...\p"
+	.string "{JPN}ぶつぶつ...$"
 SlateportCity_Text_HotSpringsAfterOperation:
-	.string "When this operation's over, I'll take\n"
-	.string "you to a hot spring spa!\p"
-	.string "That's what our leader said.\n"
-	.string "I can't wait!$"
+	.string "{JPN}この さくせんが おわったら\n"
+	.string "{JPN}おんせんに つれていってやる!\p"
+	.string "{JPN} それが リーダーとの やくそくだ\n"
+	.string "{JPN}たのしみだなあ!$"
 
 SlateportCity_Text_SeaIsSoWet:
-	.string "The sea is just so vast…\p"
-	.string "Could the sea have been made by\n"
-	.string "the tears shed by POKéMON?$"
+	.string "{JPN}うみって ひろいなあ...\p"
+	.string "{JPN}うみって ポケモンの なみだで\n"
+	.string "{JPN}できたのかな?$"
 
 SlateportCity_Text_SinkOldBoats:
-	.string "Do you know what they do with old\n"
-	.string "ships that become too creaky to sail?\p"
-	.string "They sink them in the sea so they\n"
-	.string "become habitats for POKéMON.$"
+	.string "{JPN}ふるくなって うみに でられなく\n"
+	.string "{JPN}なった ふねが どうなるか しってる?\p"
+	.string "{JPN} うみに しずめて ポケモンたちの\n"
+	.string "{JPN}すみかに してあげるんだよ$"
 
 SlateportCity_Text_BuyTooMuch:
-	.string "Whenever I visit here, I get carried\n"
-	.string "away and buy too much.$"
+	.string "{JPN}ここに くると いつも\n"
+	.string "{JPN}ちょうしに のって かいすぎちゃう$"
 
 SlateportCity_Text_GetNameRaterToHelpYou:
-	.string "If you want to change your POKéMON's\n"
-	.string "nickname, you'll have to get the NAME\l"
-	.string "RATER to help you.$"
+	.string "{JPN}ポケモンの ニックネームを\n"
+	.string "{JPN}かえたいなら なまえはんていしに\l"
+	.string "{JPN}たのまなくちゃ だめよ$"
 
 SlateportCity_Text_CantChangeTradeMonName:
-	.string "Any POKéMON you get in a trade,\n"
-	.string "you can't change its nickname.\p"
-	.string "The original TRAINER's love for that\n"
-	.string "POKéMON is in the nickname.$"
+	.string "{JPN}こうかんで もらった ポケモンの\n"
+	.string "{JPN}ニックネームは かえられないよ.\p"
+	.string "{JPN}そのポケモンに たいする\n"
+	.string "{JPN}もとのトレーナーの あいじょうが\lニックネームに こめられているんだ.$"
 
 SlateportCity_Text_BattleTentBuiltRecently:
-	.string "Recently, a BATTLE TENT was built\n"
-	.string "in SLATEPORT.\p"
-	.string "GYMS are fun, but the BATTLE TENT's\n"
-	.string "awesome in its own way.\p"
-	.string "You should go find tough POKéMON\n"
-	.string "for the BATTLE TENT!$"
+	.string "{JPN}さいきん カナシダシティに\n"
+	.string "{JPN}バトルテントが たてられたんだ.\p"
+	.string "{JPN}ジムも たのしいけど\n"
+	.string "{JPN}バトルテントも それなりに\l"
+	.string "{JPN}すごいんだよ.\p"
+	.string "{JPN}バトルテントのために\nつよいポケモンを さがしてみなよ!$"
 
 SlateportCity_Text_CaptSternBeingInterviewed:
-	.string "I was hoping that it was a famous star\n"
-	.string "so I could get an autograph.\p"
-	.string "But who's that being interviewed?\n"
-	.string "Isn't that CAPT. STERN?$"
+	.string "{JPN}ゆうめいな スターだったら\n"
+	.string "{JPN}サインを もらえると\l"
+	.string "{JPN}おもってたんだけどな.\p"
+	.string "{JPN}でも インタビューを うけてるのは\nだれなんだろう?\lあれって クスノキかんちょうじゃない?$"
 
 SlateportCity_Text_InterviewerSoCool:
-	.string "That lady interviewer is so cool\n"
-	.string "and pretty.\p"
-	.string "When I grow up, I'm going to be\n"
-	.string "an international journalist!$"
+	.string "{JPN}あの おんなの ひとの\n"
+	.string "{JPN}インタビューアー とても\l"
+	.string "{JPN}かっこよくて きれいね.\p"
+	.string "{JPN}おおきくなったら\nこくさいてきな ジャーナリストに\lなるの!$"
 
 SlateportCity_Text_SternSaysDiscoveredSomething:
-	.string "CAPT. STERN says they discovered\n"
-	.string "something at the bottom of the sea.\p"
-	.string "I wonder what it is?\n"
-	.string "What could it be?$"
+	.string "{JPN}クスノキかんちょうが うみの\n"
+	.string "{JPN}そこで なにかを はっけん\l"
+	.string "{JPN}したって いってるよ.\p"
+	.string "{JPN}なんだろう?\nなにかな?$"
 
 SlateportCity_Text_CaptainComeBackWithBigFish:
-	.string "What's going on here?\p"
-	.string "Did the good CAPTAIN come back with\n"
-	.string "a big fish from the ocean floor?$"
+	.string "{JPN}ここで なにが おこってるんだ?\p"
+	.string "{JPN}かんちょうさんが うみの そこから\n"
+	.string "{JPN}おおきな さかなを もってかえって\lきたのかな?$"
 
 SlateportCity_Text_AmIOnTV:
-	.string "Hey! Are you watching?\n"
-	.string "Am I on TV?$"
+	.string "{JPN}おい! みてるかい?\n"
+	.string "{JPN}ぼく テレビに うつってる?$"
 
 SlateportCity_Text_CaptainsACelebrity:
-	.string "A TV interview! Here!\n"
-	.string "The CAPTAIN's a celebrity!$"
+	.string "{JPN}テレビインタビュー! ここで!\n"
+	.string "{JPN}かんちょうは ゆうめいじんだ!$"
 
 SlateportCity_Text_BigSmileForCamera:
-	.string "TY: Okay, CAPT. STERN, a big smile\n"
-	.string "for the camera!$"
+	.string "{JPN}テレビー: はい クスノキかんちょう\n"
+	.string "{JPN}カメラに むかって\lおおきく わらってください!$"
 
 SlateportCity_Text_MostInvaluableExperience:
-	.string "GABBY: I see, I see. You've had a most\n"
-	.string "invaluable experience…$"
-
+	.string "{JPN}ガビー:なるほど なるほど\n"
+	.string "{JPN}とても きちょうな たいけんを...$"
 SlateportCity_Text_SternMoveAheadWithExploration:
-	.string "CAPT. STERN: Yes, indeed. We intend to\n"
-	.string "move ahead with our exploration.$"
+	.string "{JPN}クスノキかんちょう: はい そのとおりです.\n"
+	.string "{JPN}わたしたちは たんさを\lつづけていく つもりです.$"
 
 SlateportCity_Text_GabbyWonderfulThanksForInterview:
-	.string "GABBY: That's wonderful, CAPT. STERN!\n"
-	.string "Thank you for taking the time from\l"
-	.string "your busy schedule to talk to us.\p"
-	.string "We hope we can interview you again\n"
-	.string "with news of more discoveries!$"
+	.string "{JPN}ガビー: それは すばらしいですね\n"
+	.string "{JPN}クスノキかんちょう!\l"
+	.string "{JPN}いそがしい なかで\p"
+	.string "{JPN}インタビューの じかんを\n"
+	.string "{JPN}つくって いただき\lありがとうございました.\pまた あらたな はっけんの\nニュースで インタビュー\lできることを のぞんでいます!$"
 
 SlateportCity_Text_SternWhewFirstInterview:
-	.string "CAPT. STERN: Whew…\p"
-	.string "That was my first time to be filmed for\n"
-	.string "TV. That was nerve-wracking.$"
+	.string "{JPN}クスノキ せんちょう:ふう...\p"
+	.string "{JPN}テレビのインタビューなんて\n"
+	.string "{JPN}はじめてで きんちょうしたよ$"
 
 SlateportCity_Text_OhPlayerWeMadeDiscovery:
-	.string "Oh! {PLAYER}{KUN}!\n"
-	.string "You're looking great!\p"
-	.string "We made a huge discovery on our last\n"
-	.string "seafloor exploration.\p"
-	.string "We found an underwater cavern on\n"
-	.string "ROUTE 128.\p"
-	.string "We think it's the habitat of a POKéMON\n"
-	.string "that's said to have been long extinct.$"
+	.string "{JPN}おお! {PLAYER}くん!\n"
+	.string "{JPN}げんきそうだね!\p"
+	.string "{JPN}ぜんかいの かいていたんさで\n"
+	.string "{JPN}おおきな はっけんを したんだ.\p"
+	.string "{JPN}ルート128で すいちゅうの\n"
+	.string "{JPN}どうくつを みつけたんだ.\p"
+	.string "{JPN}ずっと ぜつめつしたと\n"
+	.string "{JPN}いわれていた ポケモンの\lすみかだと おもうんだ.$"
 
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
-	.string "Fufufu…\n"
-	.string "CAPT. STERN, I presume.\p"
-	.string "We of TEAM AQUA will assume\n"
-	.string "control of your submarine!\p"
-	.string "Your objections are meaningless!\n"
-	.string "We expect your total cooperation!\p"
-	.string "Fufufu…\n"
-	.string "Just watch and learn what TEAM\l"
-	.string "AQUA has planned!$"
+	.string "{JPN}ふふふ...\n"
+	.string "{JPN}クスノキ せんちょうですね\p"
+	.string "{JPN}われわれ アクアだんが\n"
+	.string "{JPN}あなたの せんすいかんを\l"
+	.string "{JPN}いただきます!\p"
+	.string "{JPN}もんくは きかない!\n"
+	.string "{JPN}おとなしく したがいなさい!\p"
+	.string "{JPN}ふふふ...\n"
+	.string "{JPN}アクアだんの けいかくを\lとくと みているがいい!$"
 
 SlateportCity_Text_SternWhatWasAllThat:
-	.string "CAPT. STERN: What was that all about?\p"
-	.string "It sounded like someone using\n"
-	.string "a megaphone…\p"
-	.string "Where did it come from?$"
+	.string "{JPN}クスノキ せんちょう:いまのは\n"
+	.string "{JPN}なんだったんだ?\p"
+	.string "{JPN}だれか メガホンを つかって\n"
+	.string "{JPN}はなしていたような...\pどこから きこえたんだろう?$"
 
 SlateportCity_Text_FromHarborTryingToTakeSub:
-	.string "It's from the HARBOR!\p"
-	.string "The submarine!\n"
-	.string "They're trying to take it!$"
+	.string "{JPN}みなとから きた!\p"
+	.string "{JPN}せんすいかんを!\n"
+	.string "{JPN}うばおうと してる!$"
 
 SlateportCity_Text_PleaseComeWithMe:
-	.string "{PLAYER}{KUN}!\n"
-	.string "Please, come with me!$"
+	.string "{JPN}{PLAYER}くん!\n"
+	.string "{JPN}おねがいします いっしょに きて!$"
 
 SlateportCity_Text_BattleTentSign:
-	.string "BATTLE TENT SLATEPORT SITE\n"
-	.string "“Find it! The ultimate POKéMON!”$"
+	.string "{JPN}バトルテント カナシダしてん\n"
+	.string "{JPN}みつけろ! さいきょうの ポケモン!$"
 
 SlateportCity_Text_SternsShipyardWantedSign:
-	.string "STERN'S SHIPYARD\p"
-	.string "“Wanted: A sailor capable of sailing\n"
-	.string "in all currents.”$"
+	.string "{JPN}クスノキぞうせんじょ\p"
+	.string "{JPN}ぼしゅう: すべての かいりゅうを\n"
+	.string "{JPN}こうかい できる せんいん$"
 
 SlateportCity_Text_SternsShipyardNearsCompletion:
-	.string "STERN'S SHIPYARD\p"
-	.string "“The ferry S.S. TIDAL nears\n"
-	.string "completion for serving the ports of\l"
-	.string "SLATEPORT and LILYCOVE.”$"
+	.string "{JPN}クスノキぞうせんじょ\p"
+	.string "{JPN}カナシダこうと ミナモこうを\n"
+	.string "{JPN}むすぶ れんらくせん タイドリップごうの\l"
+	.string "{JPN}かんせいが ちかづいています$"
 
 SlateportCity_Text_SternsShipyardFerryComplete:
-	.string "STERN'S SHIPYARD\p"
-	.string "“Boarding of the SLATEPORT-LILYCOVE\n"
-	.string "ferry S.S. TIDAL is handled at the\l"
-	.string "HARBOR.”$"
+	.string "{JPN}クスノキぞうせんじょ\p"
+	.string "{JPN}カナシダーミナモかん\n"
+	.string "{JPN}れんらくせん タイドリップごうの\l"
+	.string "{JPN}じょうせんは みなとで おこないます$"
 
 SlateportCity_Text_PokemonFanClubSign:
-	.string "POKéMON FAN CLUB\n"
-	.string "“Calling all fans of POKéMON!”$"
+	.string "{JPN}ポケモンだいすきクラブ\n"
+	.string "{JPN}ポケモンファン だいしゅうごう!$"
 
 SlateportCity_Text_OceanicMuseumSign:
-	.string "“The endless sea sustains\n"
-	.string "all life.”\p"
-	.string "OCEANIC MUSEUM$"
+	.string "{JPN}おわりなき うみが\n"
+	.string "{JPN}すべての いのちを はぐくむ\p"
+	.string "{JPN}かいようはくぶつかん$"
 
 SlateportCity_Text_CitySign:
-	.string "SLATEPORT CITY\p"
-	.string "“The port where people and POKéMON\n"
-	.string "cross paths.”$"
+	.string "{JPN}カナシダシティ\p"
+	.string "{JPN}ひとと ポケモンが\n"
+	.string "{JPN}であう みなとまち$"
 
 SlateportCity_Text_MarketSign:
-	.string "SLATEPORT MARKET\n"
-	.string "“Unique items found nowhere else!”$"
+	.string "{JPN}カナシダマーケット\n"
+	.string "{JPN}ここでしか てにはいらない レアなアイテム!$"
 
 SlateportCity_Text_HarborFerryUnderConstruction:
-	.string "SLATEPORT HARBOR\p"
-	.string "“The ferry S.S. TIDAL is under\n"
-	.string "construction in the SHIPYARD.\p"
-	.string "“Service is scheduled to begin\n"
-	.string "shortly.”$"
+	.string "{JPN}カナシダこう\p"
+	.string "{JPN}れんらくせん タイドリップごうは\n"
+	.string "{JPN}ぞうせんじょで けんせつちゅうです.\p"
+	.string "{JPN}サービスは まもなく\n"
+	.string "{JPN}かいしよてい です$"
 
 SlateportCity_Text_HarborSign:
-	.string "SLATEPORT HARBOR\p"
-	.string "“Enjoy a delightful cruise on\n"
-	.string "the ferry S.S. TIDAL.”$"
+	.string "{JPN}カナシダこう\p"
+	.string "{JPN}れんらくせん タイドリップごうで\n"
+	.string "{JPN}たのしい クルーズを どうぞ$"
 
 SlateportCity_Text_NameRatersHouseSign:
-	.string "NAME RATER'S HOUSE\n"
-	.string "“POKéMON nicknames rated.”$"
+	.string "{JPN}なまえおやじの いえ\n"
+	.string "{JPN}ポケモンの ニックネーム ひょうか$"
 
 SlateportCity_Text_ExplainBerries:
-	.string "If a wild POKéMON gets hurt, it heals\n"
-	.string "itself by chewing on BERRIES.\p"
-	.string "Did you know that?\p"
-	.string "Somebody saw that and got the idea\n"
-	.string "of making medicine from BERRIES.\p"
-	.string "Did you know that?\p"
-	.string "To turn BERRIES into medicine,\n"
-	.string "they must be crushed into powder.\p"
-	.string "Did you know that?\p"
-	.string "You seem to have an interest\n"
-	.string "in BERRIES!\p"
-	.string "I've got something good for someone\n"
-	.string "like you.$"
+	.string "{JPN}やせいの ポケモンが きずついたとき\n"
+	.string "{JPN}きのみを かじって じぶんを\l"
+	.string "{JPN}なおすんだよ.\p"
+	.string "{JPN}しってた?\p"
+	.string "{JPN}それを みた だれかが きのみから\n"
+	.string "{JPN}くすりを つくることを おもいついた\l"
+	.string "{JPN}んだって.\p"
+	.string "{JPN}しってた?\n"
+	.string "{JPN}きのみを くすりに するには\n"
+	.string "{JPN}こなに くだかないと だめなんだ.\p"
+	.string "{JPN}しってた?\n"
+	.string "{JPN}きみは きのみに きょうみが\n"
+	.string "{JPN}ありそうだね!\pきみの ような ひとには\nいいものが あるよ.$"
 
 SlateportCity_Text_ExplainBerryPowder:
-	.string "I recently had machines installed at\n"
-	.string "POKéMON CENTERS for crushing BERRIES.\p"
-	.string "The BERRY CRUSH machines are at\n"
-	.string "the DIRECT CORNER upstairs.\p"
-	.string "Did you know?\p"
-	.string "Could you make BERRY POWDER for\n"
-	.string "me using those machines?\p"
-	.string "I can make you all sorts of medicine\n"
-	.string "if you bring me lots of BERRY POWDER.$"
+	.string "{JPN}さいきん ポケモンセンターに きのみを\n"
+	.string "{JPN}くだく マシンを せっちしたんだ.\p"
+	.string "{JPN}バリバリマシンは にかいの\n"
+	.string "{JPN}ダイレクトコーナーに あるよ.\p"
+	.string "{JPN}しってた?\p"
+	.string "{JPN}そのマシンを つかって ぼくのために\n"
+	.string "{JPN}きのみのこなを つくってくれる?\p"
+	.string "{JPN}きのみのこなを たくさん もってきて\n"
+	.string "{JPN}くれれば いろんな くすりを\lつくってあげるよ.$"
 
 SlateportCity_Text_BroughtMeSomeBerryPowder:
-	.string "Have you brought me some\n"
-	.string "BERRY POWDER?$"
+	.string "{JPN}きのみのこなを もってきて\n"
+	.string "{JPN}くれたかな?$"
 
 SlateportCity_Text_ExchangeWhatWithIt:
-	.string "What would you like to exchange\n"
-	.string "it with?$"
+	.string "{JPN}なにと こうかん したいかな?$"
+	.string ""
 
 SlateportCity_Text_ExchangeBerryPowderForItem:
-	.string "Okay, you want to exchange your\n"
-	.string "BERRY POWDER for one {STR_VAR_1}?$"
+	.string "{JPN}よし きのみのこなと\n"
+	.string "{JPN}{STR_VAR_1} ひとつを\lこうかんするんだね?$"
 
 SlateportCity_Text_DontHaveEnoughBerryPowder:
-	.string "Oh, dear. You don't have enough\n"
-	.string "BERRY POWDER.$"
+	.string "{JPN}あれれ.きのみのこなが\n"
+	.string "{JPN}たりないよ.$"
 
 SlateportCity_Text_FineBerryPowderTradeSomethingElse:
-	.string "This is fine BERRY POWDER.\n"
-	.string "It will make excellent medicine.\p"
-	.string "Would you like to trade more of your\n"
-	.string "BERRY POWDER for something else?$"
+	.string "{JPN}これは いいきのみのこなだね.\n"
+	.string "{JPN}すばらしい くすりが できるよ.\p"
+	.string "{JPN}ほかにも きのみのこなと\n"
+	.string "{JPN}なにかを こうかん したいかい?$"
 
 SlateportCity_Text_WhenYouGetMoreBringItToMe:
-	.string "Okay! When you get some more\n"
-	.string "BERRY POWDER, bring it to me, please!$"
+	.string "{JPN}わかった!きのみのこなが\n"
+	.string "{JPN}もっと てにはいったら\lもってきて おくれ!$"
 
 SlateportCity_Text_ComeBackToTradeBerryPowder:
-	.string "Come back if you'd like to trade your\n"
-	.string "BERRY POWDER for some medicine.\p"
-	.string "I'm always running a bazaar here.\p"
-	.string "Did you know?$"
+	.string "{JPN}きのみのこなと くすりを\n"
+	.string "{JPN}こうかん したくなったら\l"
+	.string "{JPN}また きてよ.\p"
+	.string "{JPN}いつでも ここで ばざーを\nやってるからね.\pしってた?$"
 
 SlateportCity_Text_YouDroveTeamAquaAway:
-	.string "SCOTT: Huh?\n"
-	.string "I'm sure I met you somewhere before.\p"
-	.string "Have I introduced myself to you?\n"
-	.string "If not, my name's SCOTT.\p"
-	.string "I just saw TEAM AQUA run away from\n"
-	.string "here like they were stung.\p"
-	.string "Let me guess--you drove them away?$"
+	.string "{JPN}エニシダあれ?\n"
+	.string "{JPN}きみと どこかで あったような\l"
+	.string "{JPN}きが するなあ.\p"
+	.string "{JPN}じこしょうかい したかな?\n"
+	.string "{JPN}もし してなかったら ぼくは\l"
+	.string "{JPN}エニシダだ.\p"
+	.string "{JPN}さっき アクアだんが はちに\nさされたような かおで\lにげていくのを みたよ.\pもしかして きみが おいはらった?$"
 
 SlateportCity_Text_MaybeThisTrainer:
-	.string "SCOTT: Hmm…\n"
-	.string "Maybe, just maybe, this TRAINER…$"
-
+	.string "{JPN}エニシダ:うーん...\n"
+	.string "{JPN}もしかして このトレーナーは...$"
 SlateportCity_Text_LetsRegisterEachOther:
-	.string "SCOTT: All right! I think you're going\n"
-	.string "to become a good friend.\p"
-	.string "So, let's register each other in our\n"
-	.string "POKéNAVS.\p"
-	.string "… … … … … …$"
-
+	.string "{JPN}エニシダ:よし! きみとは\n"
+	.string "{JPN}よい ともだちに なれそうだ\p"
+	.string "{JPN}おたがいの ポケナビに\n"
+	.string "{JPN}とうろく しあおう\p"
+	.string "{JPN}... ... ... ... ... ...$"
 SlateportCity_Text_RegisteredScott:
-	.string "Registered this SCOTT person\n"
-	.string "in the POKéNAV.$"
+	.string "{JPN}エニシダさんを ポケナビに\n"
+	.string "{JPN}とうろく しました.$"
 
 SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou:
-	.string "SCOTT: What I'd like to do is tag along\n"
-	.string "with you, but I do want to keep an eye\l"
-	.string "on the talents of other people, too.\p"
-	.string "So, I'll be off to roam other towns\n"
-	.string "a bit more.\p"
-	.string "Be seeing you, {PLAYER}{KUN}!$"
+	.string "{JPN}エニシダきみと いっしょに\n"
+	.string "{JPN}たびを したいけど ほかの ひとの\l"
+	.string "{JPN}さいのうも みて おきたいんだ.\p"
+	.string "{JPN}だから ほかの まちを まわって\n"
+	.string "{JPN}くるよ.\p"
+	.string "{JPN}それじゃあ {PLAYER}くん!$"
 
 SlateportCity_Text_TakingBattleTentChallenge:
-	.string "SCOTT: Oh, hey!\n"
-	.string "If it isn't {PLAYER}{KUN}!\p"
-	.string "{PLAYER}{KUN}, let me guess--you're going\n"
-	.string "to take the BATTLE TENT challenge?\p"
-	.string "Yeah! That's a good idea!\n"
-	.string "That's a really great idea!\p"
-	.string "After all, a tough TRAINER is\n"
-	.string "the perfect fit for the BATTLE TENT!\p"
-	.string "Give it your best effort!$"
+	.string "{JPN}エニシダおお!\n"
+	.string "{JPN}{PLAYER}くん じゃないか!\p"
+	.string "{JPN}{PLAYER}くん もしかして バトルテントの\n"
+	.string "{JPN}チャレンジを するつもりかな?\p"
+	.string "{JPN}そうか!それは いいかんがえだ!\n"
+	.string "{JPN}ほんとうに すばらしい かんがえだよ!\p"
+	.string "{JPN}つよい トレーナーこそ\n"
+	.string "{JPN}バトルテントに ぴったりだからね!\p"
+	.string "{JPN}がんばって!$"

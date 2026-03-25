@@ -28,44 +28,43 @@ Route110_TrickHousePuzzle8_EventScript_Leroy::
 	end
 
 Route110_TrickHousePuzzle8_Text_WroteSecretCodeLockOpened::
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER I love.”\n"
-	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "{JPN}{PLAYER}は とびらに\n"
+	.string "{JPN}ひみつのあんごうを\n"
+	.string "{JPN}かきこんだ!\p"
+	.string "{JPN}カラクリだいおう\n"
+	.string "{JPN}だいすき\n... ... ... ... ... ... ... ...\pかちっと かぎが ひらいた!$"
 
 Route110_TrickHousePuzzle8_Text_VincentIntro:
-	.string "Not many TRAINERS have made it\n"
-	.string "this far.$"
+	.string "{JPN}ここまで たどりついた\n"
+	.string "{JPN}トレーナーは すくないんだ$"
 
 Route110_TrickHousePuzzle8_Text_VincentDefeat:
-	.string "That must mean you're tough, too…$"
-
+	.string "{JPN}きみも つよいってことだね...$"
 Route110_TrickHousePuzzle8_Text_VincentPostBattle:
-	.string "You've beaten the POKéMON LEAGUE\n"
-	.string "CHAMPION? That's too much!$"
+	.string "{JPN}きみが ポケモンリーグの\n"
+	.string "{JPN}チャンピオンを たおした?\nそりゃ すごすぎるよ!$"
 
 Route110_TrickHousePuzzle8_Text_KeiraIntro:
-	.string "Consider yourself lucky to be\n"
-	.string "battling me!$"
+	.string "{JPN}わたしと たたかえるなんて\n"
+	.string "{JPN}うんが いいのね!$"
 
 Route110_TrickHousePuzzle8_Text_KeiraDefeat:
-	.string "This isn't right!\n"
-	.string "I can't lose!$"
+	.string "{JPN}そんなばかな!\n"
+	.string "{JPN}わたしが まけるなんて!$"
 
 Route110_TrickHousePuzzle8_Text_KeiraPostBattle:
-	.string "It's a miracle that you beat me.\n"
-	.string "You can brag about it.$"
+	.string "{JPN}わたしに かつなんて\n"
+	.string "{JPN}きせきね\nじまんしても いいわよ$"
 
 Route110_TrickHousePuzzle8_Text_LeroyIntro:
-	.string "You've been slugging through the TRICK\n"
-	.string "HOUSE challenge, too.$"
+	.string "{JPN}きみも トリックハウスの\n"
+	.string "{JPN}チャレンジを がんばって\nきたんだな$"
 
 Route110_TrickHousePuzzle8_Text_LeroyDefeat:
-	.string "I see…\n"
-	.string "You possess an extraordinary style.$"
+	.string "{JPN}そうか...\n"
+	.string "{JPN}きみは とくべつな\nスタイルを もってるね$"
 
 Route110_TrickHousePuzzle8_Text_LeroyPostBattle:
-	.string "Seeing someone like you should please\n"
-	.string "the TRICK MASTER.$"
+	.string "{JPN}きみの ような ひとを みれば\n"
+	.string "{JPN}カラクリだいおうも\nよろこぶだろう$"
 

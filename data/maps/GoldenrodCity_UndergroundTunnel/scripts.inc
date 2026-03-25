@@ -111,18 +111,9 @@ GoldenrodCity_UndergroundTunnel_Movement_Kimono_Leave2:
 
 
 GoldenrodCity_UndergroundTunnel_Text_Kimono1:
-	.string "Team Rocket members in black suits\n"
-	.string "have been running around...\p"
-	.string "I was wondering what was going on.\n"
-	.string "So, you took on Team Rocket?\l"
-	.string "You are impressive!\p"
-	.string "You may be able to face the\n"
-	.string "legendary POKé...$"
-
+	.string "{JPN}くろいふくをきたロケットだんが\nはしりまわっていたが.\pいったいなにがあったのか\nきになっていたのだ\lきみがロケットだんと！\pでんせつのポケモンと\nたたかえるかもしれんな.$"
 GoldenrodCity_UndergroundTunnel_Text_Kimono2:
-	.string "Hahaha! Never mind.\n"
-	.string "I must go now.$"
-
+	.string "{JPN}ははは！きにするな\nわたしはいくとしよう$"
 GoldenrodUnderground_EventScript_Eric::
 	trainerbattle_single TRAINER_ERIC GoldenrodUnderground_Text_SupernerdEricSeen, GoldenrodUnderground_Text_SupernerdEricBeaten
 	msgbox GoldenrodUnderground_Text_SupernerdEricAfterBattle, MSGBOX_AUTOCLOSE
@@ -321,127 +312,66 @@ GoldenrodCity_UndergroundTunnel_EventScript_Item_Antidote::
 
 
 GoldenrodUnderground_Text_YoungerBrotherOffer:
-    .string "Welcome to the POKéMON SALON!\p"
-    .string "I'm the younger and less expensive\n"
-    .string "of the two HAIRCUT BROTHERS.\p"
-    .string "I'll spiff up your POKéMON for just\n"
-    .string "¥300.\p"
-    .string "So? How about it?$"
-
+	.string "{JPN}ポケモンサロンへようこそ！\pわたしはカットきょうだいの\nおとうとです\pやすくて300えんで\nポケモンをきれいにします\pどうですか？$"
 GoldenrodUnderground_Text_YoungerBrotherAskWhich:
-    .string "OK, which POKéMON should I do?$"
-
+	.string "{JPN}はい！どのポケモンに\nしますか？$"
 GoldenrodUnderground_Text_YoungerBrotherLookCool:
-    .string "OK! I'll make it look cool!$"
-
+	.string "{JPN}よ-し！かっこよくして\nあげるからね！$"
 GoldenrodUnderground_Text_YoungerBrotherAllDone:
-    .string "There we go! All done!$"
-
+	.string "{JPN}はい！できあがり！$"
 GoldenrodUnderground_Text_YoungerBrotherDisappointed:
-    .string "No? How disappointing!$"
-
+	.string "{JPN}だめ？ざんねんだな-！$"
 GoldenrodUnderground_Text_YoungerBrotherShortOnFunds:
-    .string "You're a little short on funds.$"
-
+	.string "{JPN}おかねがちょっと\nたりないみたいだよ$"
 GoldenrodUnderground_Text_YoungerBrotherOnePerDay:
-    .string "I can do only one haircut a day.\p"
-    .string "Sorry, but I'm all done for today.$"
-
-
-
+	.string "{JPN}1にちに1ぴきしか\nカットできないんだ\pごめんね！きょうは\nもうおしまいなんだ$"
 GoldenrodUnderground_Text_OlderBrotherOffer:
-    .string "Welcome!\p"
-    .string "I run the POKéMON SALON!\p"
-    .string "I'm the older and better of the two\n"
-    .string "HAIRCUT BROTHERS.\p"
-    .string "I can make your POKéMON beautiful\n"
-    .string "for just ¥500.\p"
-    .string "Would you like me to do that?$"
-
+	.string "{JPN}いらっしゃいませ！\pここはポケモンビューティー\nサロンでございます！\pわたくしはカットブラザーズの\nあにでございます\pあなたのポケモンを500えんで\nうつくしくいたします\pいかがでしょうか？$"
 GoldenrodUnderground_Text_OlderBrotherAskWhich:
-    .string "Which POKéMON should I work on?$"
-
+	.string "{JPN}どちらのポケモンを\nカットいたしましょう？$"
 GoldenrodUnderground_Text_OlderBrotherWatchItBeautiful:
-    .string "OK! Watch it become beautiful!$"
-
+	.string "{JPN}はい！うつくしくなるのを\nごらんください！$"
 GoldenrodUnderground_Text_OlderBrotherAllDone:
-    .string "There! All done!$"
-
+	.string "{JPN}はい！できあがりです！$"
 GoldenrodUnderground_Text_OlderBrotherThatsAShame:
-    .string "Is that right? That's a shame!$"
-
+	.string "{JPN}そうですか？\nそれはざんねんです！$"
 GoldenrodUnderground_Text_OlderBrotherNeedMoreMoney:
-    .string "You'll need more money than that.$"
-
+	.string "{JPN}おかねがたりませんね$"
 GoldenrodUnderground_Text_OlderBrotherOnePerDay:
-    .string "I do only one haircut a day.\n"
-    .string "I'm done for today.$"
-
+	.string "{JPN}1にち1ぴきしか\nカットしておりません\nきょうはもうおしまいです$"
 GoldenrodUnderground_Text_SupernerdEricSeen:
-    .string "I got booted out of the GAME CORNER.\p"
-    .string "I was trying to cheat using my\n"
-    .string "POKéMON…$"
-
+	.string "{JPN}ゲームコーナーから\nつまみだされちゃった\pポケモンをつかって\nいかさましようとしたら.$"
 GoldenrodUnderground_Text_SupernerdEricBeaten:
-    .string "…Grumble…$"
-
+	.string "{JPN}..ぶつぶつ..$"
 GoldenrodUnderground_Text_SupernerdEricAfterBattle:
-    .string "I guess I have to do things fair and\n"
-    .string "square…$"
-
+	.string "{JPN}せいせいどうどうと\nやらなきゃだめか.$"
 GoldenrodUnderground_Text_SupernerdTeruSeen:
-    .string "Do you consider type alignments in\n"
-    .string "battle?\p"
-    .string "If you know your type advantages,\n"
-    .string "you'll do better in battle.$"
-
+	.string "{JPN}きみはバトルでタイプの\nあいしょうをかんがえるか？\pタイプのゆうりをしっていれば\nバトルでゆうりになるぞ！$"
 GoldenrodUnderground_Text_SupernerdTeruBeaten:
-    .string "Ow, ow, ow!$"
-
+	.string "{JPN}いたたたた！$"
 GoldenrodUnderground_Text_SupernerdTeruAfterBattle:
-    .string "I know my POKéMON type alignments.\p"
-    .string "But I only use one type of POKéMON.$"
+    .string "{JPN}ぼくは ポケモンの\n"
+	.string "{JPN}タイプの あいしょうを\nしっているよ.\pでも ひとつの タイプの\nポケモンしか つかわないんだ.$"
 
 GoldenrodUnderground_Text_PokemaniacIssacSeen:
-    .string "My POKéMON just got a haircut!\p"
-    .string "I'll show you how strong it is!$"
-
+	.string "{JPN}ぼくのポケモンさっき\pさんぱつしてもらったんだ！\pどのくらいつよくなったか\nみせてやる！$"
 GoldenrodUnderground_Text_PokemaniacIssacBeaten:
-    .string "Aiyeeee!$"
-
+	.string "{JPN}ぎゃー！$"
 GoldenrodUnderground_Text_PokemaniacIssacAfterBattle:
-    .string "Your POKéMON will like you more if\n"
-    .string "you give them haircuts.$"
-
+	.string "{JPN}ポケモンにさんぱつしてやると\nきみをもっとすきになるよ$"
 GoldenrodUnderground_Text_PokemaniacDonaldSeen:
-    .string "I think you have some rare POKéMON\n"
-    .string "with you.\p"
-    .string "Let me see them!$"
-
+	.string "{JPN}きみめずらしいポケモンを\nもってそうだな\pちょっとみせてくれよ！$"
 GoldenrodUnderground_Text_PokemaniacDonaldBeaten:
-    .string "Gaah! I lost! That makes me mad!$"
-
+	.string "{JPN}がーん！まけた！むかつく！$"
 GoldenrodUnderground_Text_PokemaniacDonaldAfterBattle:
-	.string "When I was walking near the BIKE\n"
-	.string "SHOP last night, I felt like I was\l"
-	.string "being watched from the rooftops...$"
-
+	.string "{JPN}きのうのよるじてんしゃやの\nちかくをあるいてたら\lやねのうえからみられてる\nきがしたんだ..$"
 GoldenrodUnderground_Text_PokemaniacDonaldAfterBattleOld:
-    .string "Are you making a POKéDEX? Here's a\n"
-    .string "hot tip.\p"
-    .string "The HIKER on ROUTE 33, ANTHONY, is a\n"
-    .string "good guy.\p"
-    .string "He'll phone you if he sees any rare\n"
-    .string "POKéMON.$"
-
+	.string "{JPN}きみポケモンずかんつくってる？\nいいじょうほうおしえてやる\p33ばんどうろのやまおとこの\nアンソニーはいいやつだ\pめずらしいポケモンをみつけたら\nでんわしてくれるぞ$"
 GoldenrodUnderground_Text_DoorsLocked:
-    .string "The door's locked…$"
-
+	.string "{JPN}ドアにかぎがかかっている..$"
 GoldenrodUnderground_Text_DoorIsOpen:
-    .string "The door is open.$"
-
+	.string "{JPN}ドアはひらいている$"
 GoldenrodUnderground_Text_KeyOpenedDoor:
-    .string "The BASEMENT KEY opened the door.$"
-
+	.string "{JPN}ちかしつのカギでドアがひらいた$"
 GoldenrodUnderground_Text_NoEntry:
-    .string "NO ENTRY BEYOND THIS POINT$"
+	.string "{JPN}ここからさきはたちいりきんし$"

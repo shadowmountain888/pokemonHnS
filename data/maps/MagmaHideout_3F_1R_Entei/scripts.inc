@@ -39,14 +39,14 @@ MagmaHideout_3F_1R_EntranceTrigger::
 	end
 
 MagmaHideout_3F_1R_EntranceTrigger_Text:
-	.string "A big roar echoes around MAGMA\n"
-	.string "HIDEOUT.\p"
-	.string "It seems that the echoing roars\n"
-	.string "come from a menacing POKéMON.\p"
-	.string "However... It looks distressed.\n"
-	.string "Is it scared?\p"
-	.string "Catching it may be impossible without\n"
-	.string "weakening it.$"
+	.string "{JPN}おおきな ほえごえが\n"
+	.string "{JPN}マグマアジトに ひびいている.\p"
+	.string "{JPN}ひびく ほえごえは\n"
+	.string "{JPN}おそろしい ポケモンの ものの\l"
+	.string "{JPN}ようだ.\p"
+	.string "{JPN}しかし... くるしそうに\n"
+	.string "{JPN}みえる.こわがっているのか?\p"
+	.string "{JPN}よわらせなければ つかまえるのは\nふかのうだろう.$"
 
 MagmaHideout_3F_1R_EntranceTriggerMovement:
 	face_right
@@ -111,7 +111,7 @@ MagmaHideout_3F_1R_EnteiBattle1_Movement:
 	step_end
 
 MagmaHideout_3F_1R_EnteiBattle1_Text:
-	.string "The POKéMON ran away!$"
+	.string "{JPN}ポケモンは にげていった!$"
 
 @@Second encounter with Entei. Has 750HP and is now level 50. Atk and Sp.Atk are getting stronger.
 
@@ -174,8 +174,8 @@ MagmaHideout_3F_1R_EnteiBattle2_Movement:
 	step_end
 
 MagmaHideout_3F_1R_EnteiBattle2_Text:
-	.string "The POKéMON ran away, but not\n"
-	.string "as fast as before.$"
+	.string "{JPN}ポケモンは にげていったが\n"
+	.string "{JPN}まえほど はやくない.$"
 
 @@Third and last encounter with Entei before catching it. Has 800HP and is now level 60, and it's sunny. More atk and sp.atk.
 
@@ -241,9 +241,9 @@ MagmaHideout_3F_1R_EnteiBattle3_Movement:
 	step_end
 
 MagmaHideout_3F_1R_EnteiBattle3_Text:
-	.string "The POKéMON ran away. However it's\n"
-	.string "way slower than before.\l"
-	.string "Is it getting tired?$"
+	.string "{JPN}ポケモンは にげていった.\n"
+	.string "{JPN}しかし まえよりも ずっと\l"
+	.string "{JPN}おそい.つかれているのか?$"
 
 @@Final battle with Entei, now you can catch it. Has 900HP, holds charcoal and it's sunny. Way stronger as well.
 
@@ -297,8 +297,8 @@ MagmaHideout_3F_1R_Entei_EnteiBattle4_Stats::
 	return
 
 MagmaHideout_3F_1R_EnteiBattleFinal_Text:
-	.string "ENTEI looks exhausted.\n"
-	.string "Can it be captured now?$"
+	.string "{JPN}エンテイは つかれはてている.\n"
+	.string "{JPN}いまなら つかまえられるか?$"
 
 MagmaHideout_3F_1R_EnteiFinalBattle_Won::
 	setflag FLAG_DEFEATED_ENTEI

@@ -27,14 +27,14 @@ Route125_FroslassEvo::
 	end
 
 Route125_FroslassEvo_Text:
-	.string "What happened to my cute little baby?\p"
-	.string "My SNORUNT evolved into…\n"
-	.string "Something I didn't expect!\p"
-	.string "I wanted a GLALIE, yet I got a\n"
-	.string "FROSLASS. How? SHE just evolved out\l"
-	.string "of nowhere, when we were training\l"
-	.string "during the MORNING!\p"
-	.string "I want my baby back!$"
+	.string "{JPN}わたしの かわいい あかちゃんに\n"
+	.string "{JPN}なにが おこったの?\p"
+	.string "{JPN}ユキワラシが しんかして...\n"
+	.string "{JPN}よそうしてなかった すがたに!\p"
+	.string "{JPN}オニゴーリが ほしかったのに\n"
+	.string "{JPN}ユキメノコに なっちゃった.\l"
+	.string "{JPN}なんで? あさの トレーニングちゅうに\l"
+	.string "{JPN}いきなり しんかしちゃったの!\pわたしの あかちゃんを\nかえして!$"
 
 Route125_EventScript_Nolen::
 	trainerbattle_single TRAINER_NOLEN, Route125_Text_NolenIntro, Route125_Text_NolenDefeat

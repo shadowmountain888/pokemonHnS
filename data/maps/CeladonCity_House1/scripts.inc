@@ -54,47 +54,43 @@ CeladonCity_House1_EventScript_Sign::
 	end
 
 CeladonCity_House1_Text_ChefEatathon:
-	.string "Hi!\p"
-	.string "We're holding an eatathon contest.\p"
-	.string "We can't serve you right now.\n"
-	.string "Sorry.$"
+	.string "{JPN}こんにちは!\p"
+	.string "{JPN}いま だいしょくらい\n"
+	.string "{JPN}たいかいを やってるんです.\p"
+	.string "{JPN}いま おきゃくさまには\nサービス できません.\nすみません.$"
 
 CeladonCity_House1_Text_Fisher1Snarfle:
-	.string "…Snarfle, chew…$"
-
+	.string "{JPN}...ずるずる もぐもぐ...$"
 CeladonCity_House1_Text_Fisher1Concentration:
-	.string "Don't talk to me!\p"
-	.string "You'll break my concentration!$"
+	.string "{JPN}はなしかけないで!\p"
+	.string "{JPN}しゅうちゅうりょくが\nとぎれちゃうよ!$"
 
 CeladonCity_House1_Text_Fisher2GulpChew:
-	.string "…Gulp… Chew…$"
-
+	.string "{JPN}...ごくり... もぐもぐ...$"
 CeladonCity_House1_Text_Fisher2Quantity:
-	.string "I take quantity over quality!\p"
-	.string "I'm happy when I'm full!$"
+	.string "{JPN}りょうより かず!\n"
+	.string "{JPN}おなかがいっぱいに\lなったら しあわせだ!$"
 
 CeladonCity_House1_Text_Fisher3MunchMunch:
-	.string "Munch, munch…$"
-
+	.string "{JPN}むしゃむしゃ...$"
 CeladonCity_House1_Text_Fisher3GoldenrodIsBest:
-	.string "The food is good here, but\n"
-	.string "GOLDENROD has the best food\l"
-	.string "anywhere.$"
+	.string "{JPN}ここの たべものも\n"
+	.string "{JPN}おいしいけど\l"
+	.string "{JPN}コガネシティが いちばん\nおいしいよ.$"
 
 CeladonCity_House1_Text_TeacherCrunchCrunch:
-	.string "Crunch… Crunch…$"
-
+	.string "{JPN}ばりばり... ばりばり...$"
 CeladonCity_House1_Text_TeacherNoCoinCase:
-	.string "Nobody here will give you a COIN\n"
-	.string "CASE. You should look in JOHTO.$"
+	.string "{JPN}ここでは だれも コインケースを\n"
+	.string "{JPN}くれません. ジョウトで\lさがしてみて ください.$"
 
 CeladonCity_House1_Text_TeacherKeepEating:
-	.string "Crunch… Crunch…\p"
-	.string "I can keep eating!\p"
-	.string "More, CHEF!$"
+	.string "{JPN}ばりばり... ばりばり...\p"
+	.string "{JPN}まだまだ たべられるよ!\p"
+	.string "{JPN}もっと シェフ!$"
 
 CeladonCity_House1_Text_EatathonContestPoster:
-	.string "Eatathon Contest! No time limit!\p"
-	.string "A battle without end! The biggest\n"
-	.string "muncher gets it all for free!$"
+	.string "{JPN}だいしょくらい たいかい!\n"
+	.string "{JPN}じかんせいげんなし!\p"
+	.string "{JPN}おわりなき たたかい!\nいちばん いっぱい たべた\lひとは ぜんぶ ただ!$"
 

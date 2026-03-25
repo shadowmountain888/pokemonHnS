@@ -14,8 +14,8 @@ VerdanturfTown_LickyEvo::
 	end
 
 VerdanturfTown_LickyEvo_Text:
-	.string "LICKITUNG evolves by rolling around.\n"
-	.string "Try doing that!$"
+	.string "{JPN}ベロリンガは ころがって\n"
+	.string "{JPN}しんかするんだよ.\nやってみて!$"
 
 VerdanturfTown_EventScript_Twin::
 	lock
@@ -72,64 +72,64 @@ VerdanturfTown_EventScript_RusturfTunnelSign::
 	end
 
 VerdanturfTown_Text_ManTryingToDigTunnel:
-	.string "My papa told me.\p"
-	.string "He says this tunnel is full of\n"
-	.string "timid POKéMON.\p"
-	.string "They get all scared of loud noise and\n"
-	.string "make a big uproar.\p"
-	.string "So they had to stop the big tunnel\n"
-	.string "project.\p"
-	.string "But there's one man. He's trying to dig\n"
-	.string "the tunnel by himself!$"
+	.string "{JPN}おとうさんが いってたよ.\p"
+	.string "{JPN}この トンネルには\n"
+	.string "{JPN}おくびょうな ポケモンが\l"
+	.string "{JPN}いっぱい いるんだって.\p"
+	.string "{JPN}おおきな おとが すると\n"
+	.string "{JPN}こわがって おおさわぎ\l"
+	.string "{JPN}するんだって.\p"
+	.string "{JPN}だから おおきな トンネル\n"
+	.string "{JPN}こうじは やめたんだって.\pでも ひとりの おとこのひとが\nじぶんで トンネルを\lほろうと してるんだって!$"
 
 VerdanturfTown_Text_ManDugTunnelForLove:
-	.string "There was a man who dug a tunnel for\n"
-	.string "a lady he loved.\p"
-	.string "I don't really get it, but hey!$"
+	.string "{JPN}あいする おんなのひとの\n"
+	.string "{JPN}ために トンネルを ほった\l"
+	.string "{JPN}おとこのひとが いたんだって.\pよく わからないけど\nすごいよね!$"
 
 VerdanturfTown_Text_AirCleanHere:
-	.string "The way the winds blow, volcanic ash\n"
-	.string "is never blown in this direction.\p"
-	.string "The air is clean and delicious here.\n"
-	.string "Living here should do wonders for even\l"
-	.string "frail and sickly people.$"
+	.string "{JPN}かぜの ながれで かざんばいは\n"
+	.string "{JPN}こっちの ほうこうには\l"
+	.string "{JPN}とんでこないんだよ.\p"
+	.string "{JPN}ここの くうきは きれいで\n"
+	.string "{JPN}おいしいから からだの よわい\lひとにも いいんだって.$"
 
 VerdanturfTown_Text_MakeBattleTentDebut:
-	.string "My POKéMON and I, we've been riding\n"
-	.string "a hot winning streak.\p"
-	.string "So I decided to make my BATTLE TENT\n"
-	.string "debut in this town.$"
+	.string "{JPN}ぼくと ポケモンは\n"
+	.string "{JPN}れんしょうを かさねてるんだ.\p"
+	.string "{JPN}だから この まちで\n"
+	.string "{JPN}バトルテントに\lデビューすることに したんだ.$"
 
 VerdanturfTown_Text_GuyTryingToBustThroughCave:
-	.string "Did you see the cave next to the\n"
-	.string "POKéMON MART?\p"
-	.string "There's a guy in there who's trying to\n"
-	.string "bust up boulders so he can bust out\l"
-	.string "through to the other side.\p"
-	.string "It'd be great if we could go through…\n"
-	.string "It'll make it easy to visit RUSTBORO.$"
+	.string "{JPN}フレンドリィショップの\n"
+	.string "{JPN}よこの どうくつ みた?\p"
+	.string "{JPN}そこに いわを くだいて\n"
+	.string "{JPN}むこうがわに つきぬけようと\l"
+	.string "{JPN}してる ひとが いるんだ.\p"
+	.string "{JPN}とおれるように なったら\n"
+	.string "{JPN}いいのにな...\lカナズミシティに いきやすく\lなるからね.$"
 
 VerdanturfTown_Text_EasyToGetToRustboroNow:
-	.string "That cave next to the POKéMON MART\n"
-	.string "is now a tunnel to the other side.\p"
-	.string "It's great--it's easy to go shop for\n"
-	.string "new DEVON products in RUSTBORO now.$"
+	.string "{JPN}フレンドリィショップの よこの\n"
+	.string "{JPN}どうくつが トンネルに なって\l"
+	.string "{JPN}むこうがわと つながったんだ.\p"
+	.string "{JPN}これで カナズミシティまで\nデボンの しょうひんを\lかいに いくのが らくに なった.$"
 
 VerdanturfTown_Text_TownSign:
-	.string "VERDANTURF TOWN\p"
-	.string "“The windswept highlands with the\n"
-	.string "sweet fragrance of grass.”$"
+	.string "{JPN}シダケタウン\p"
+	.string "{JPN}かぜが ふきぬける\n"
+	.string "{JPN}くさの かおりの こうげん$"
 
 VerdanturfTown_Text_WandasHouse:
-	.string "WANDA'S HOUSE$"
+	.string "{JPN}ワンダの いえ$"
 
 VerdanturfTown_Text_BattleTentSign:
-	.string "BATTLE TENT VERDANTURF SITE\n"
-	.string "“Feast Your Eyes on Battles!”$"
+	.string "{JPN}バトルテント シダケかいじょう\n"
+	.string "{JPN}バトルを みて たのしもう!$"
 
 VerdanturfTown_Text_RusturfTunnelSign:
-	.string "RUSTURF TUNNEL\n"
-	.string "“Linking RUSTBORO and VERDANTURF\p"
-	.string "“The tunnel project has been\n"
-	.string "canceled.”$"
+	.string "{JPN}カナシダトンネル\n"
+	.string "{JPN}カナズミシティと シダケタウンを\l"
+	.string "{JPN}つなぐ トンネル\p"
+	.string "{JPN}トンネル こうじは\nちゅうし されました.$"
 

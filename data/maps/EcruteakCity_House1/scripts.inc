@@ -18,13 +18,14 @@ EcruteakCity_House1_EventScript_Youngster::
 	end
 
 EcruteakLugiaSpeechHouse_Text_Gramps:
-	.string "This happened when I was young.\p"
-	.string "The sky suddenly turned black. A\n"
-	.string "giant flying POKéMON was blocking\l"
-	.string "out the sun.\p"
-	.string "I wonder what that POKéMON was?\p"
-	.string "It was like a bird and a dragon.$"
-
+	.string "{JPN}わしがちいさいころのはなし\p"
+	.string "{JPN}そらがとつぜん\n"
+	.string "{JPN}まっくらになったとおもったら\l"
+	.string "{JPN}おっきなポケモンがとんでいった\p"
+	.string "{JPN}あのりゅうのような\n"
+	.string "{JPN}とりのようなポケモンは\l"
+	.string "{JPN}なんじゃったのかのう？$"
 EcruteakLugiaSpeechHouse_Text_Youngster:
-	.string "Is there really a POKéMON that big?\p"
-	.string "If it exists, it must be powerful.$"
+	.string "{JPN}そんなでっかいポケモン\n"
+	.string "{JPN}ほんとうにいるのかな？\l"
+	.string "{JPN}いたらすっげーつよそうだけど$"

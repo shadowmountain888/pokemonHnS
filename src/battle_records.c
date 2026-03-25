@@ -296,7 +296,11 @@ static void PrintLinkBattleRecord(struct LinkBattleRecord *record, u8 y, s32 lan
     else
     {
         StringFillWithTerminator(gStringVar1, 8);
-        StringCopyN(gStringVar1, record->name, 7);
+        // Prepend {JPN} so kana trainer name renders correctly
+        gStringVar1[0] = EXT_CTRL_CODE_BEGIN;
+        gStringVar1[1] = EXT_CTRL_CODE_JPN;
+        StringCopyN(gStringVar1 + 2, record->name, 7);
+        gStringVar1[9] = EOS;
         ConvertInternationalString(gStringVar1, language);
 
         AddTextPrinterParameterized(gRecordsWindowId, FONT_NORMAL, gStringVar1, 8, (y * 8) + 1, 0, NULL);

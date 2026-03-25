@@ -26,23 +26,23 @@ VermilionPokeCenter_EventScript_Bugcatcher::
 	end
 
 VermilionCity_PokemonCenter1F_Text_FishingGuru:
-	.string "A sleeping POKéMON is lying in\n"
-	.string "front of DIGLETT'S CAVE.\p"
-	.string "It's a fantastic opportunity to\n"
-	.string "get it, but how do you wake it up?$"
+	.string "{JPN}ねむっているポケモンが\n"
+	.string "{JPN}ディグダのあなのまえに\l"
+	.string "{JPN}よこになっているよ.\p"
+	.string "{JPN}つかまえるには\nさいこうのチャンスだけど\lどうやっておこすんだい?$"
 
 VermilionCity_PokemonCenter1F_Text_FishingGuru_FoughtSnorlax:
-	.string "There used to be a sleeping\n"
-	.string "POKéMON lying in front of\l"
-	.string "DIGLETT'S CAVE.\p"
-	.string "But it seems to have disappeared.$"
+	.string "{JPN}まえはねむっている\n"
+	.string "{JPN}ポケモンがディグダのあなの\l"
+	.string "{JPN}まえによこになっていたんだ.\p"
+	.string "{JPN}でもきえちゃったみたいだね.$"
 
 VermilionCity_PokemonCenter1F_Text_Sailor:
-	.string "The FAST SHIP is a great place to\n"
-	.string "meet and battle trainers.$"
+	.string "{JPN}こうそくせんはトレーナーと\n"
+	.string "{JPN}であってたたかうのには\lさいこうのばしょだぜ!$"
 
 VermilionCity_PokemonCenter1F_Text_BugCatcher:
-	.string "Oh? You have some BADGES I've\n"
-	.string "never seen before.\p"
-	.string "Oh, I get it. You got them in\n"
-	.string "JOHTO.$"
+	.string "{JPN}おや?きみはぼくがみたことの\n"
+	.string "{JPN}ないバッジをもっているね.\p"
+	.string "{JPN}ああ わかった.ジョウトちほうで\n"
+	.string "{JPN}てにいれたんだね.$"

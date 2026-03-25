@@ -15,7 +15,7 @@ MysteryGiftScript_StampCard::
 	end
 
 sText_MysteryGiftStampCard:
-	.string "Thank you for using the STAMP CARD\n"
-	.string "System.\p"
-	.string "You have {STR_VAR_1} more to collect to\n"
-	.string "fill your STAMP CARD.$"
+	.string "{JPN}スタンプカードの ごりよう\n"
+	.string "{JPN}ありがとう ございます\p"
+	.string "{JPN}のこり あと {STR_VAR_1}つ\n"
+	.string "{JPN}がんばって あつめて ください!$"

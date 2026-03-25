@@ -351,8 +351,7 @@ AzaleaTown_KurtsHouse_EventScript_KurtGsBall3::
 	release
 	end
 KurtsHouse_Text_BallAnyway:
-	.string "Anyway, can I make you some BALLS?$"
-
+	.string "{JPN}とにかく\nボールをつくってあげようか？$"
 AzaleaTown_KurtsHouse_EventScript_OakPhoto::
 	msgbox KurtsHouse_Text_OakPhoto, MSGBOX_SIGN
 	closemessage
@@ -401,120 +400,87 @@ AzaleaTown_KurtsHouse_Movement_KurtWalkDown:
 	step_end
 
 KurtsHouse_Text_KurtGetStarted:
-	.string "KURT: I'll get started right now!$"
-
+	.string "{JPN}ガンテツさっそくはじめるぞい！$"
 KurtsHouse_Text_KurtMakingBallsMustWait:
-	.string "Hm? Who are you?\p"
-	.string "{PLAYER}, eh? You want me to make\n"
-	.string "some BALLS?\p"
-	.string "Sorry, but that'll have to wait.\p"
-	.string "Do you know TEAM ROCKET?\n"
-	.string "Ah, don't worry.\p"
-	.string "I'll tell you anyhow.\p"
-	.string "TEAM ROCKET's an evil gang that\n"
-	.string "uses POKéMON for their dirty work.\p"
-	.string "They're supposed to have disbanded\n"
-	.string "three years ago.\p"
-	.string "Anyway, they're at the WELL,\n"
-	.string "cutting off SLOWPOKETAILS to sell!\p"
-	.string "So I'm going to go give them a\n"
-	.string "lesson in pain!\p"
-	.string "Hang on, SLOWPOKE! Old KURT\n"
-	.string "is on his way!$"
-
+	.string "{JPN}おうおまえはだれや？\p"
+	.string "{JPN}そうか{PLAYER}いうんか\n"
+	.string "{JPN}ボールをつくってほしいんか？\l"
+	.string "{JPN}わるいがそれどころちゃうんや\p"
+	.string "{JPN}ロケットだんしってるか？\n"
+	.string "{JPN}いやしらなくてもええ\l"
+	.string "{JPN}はなしをすすめるぞ\p"
+	.string "{JPN}ロケットだんいうのは\n"
+	.string "{JPN}ポケモンをむりやりわるさにつかう\l"
+	.string "{JPN}ろくでもないれんちゅうや\p"
+	.string "{JPN}3ねんまえに\n"
+	.string "{JPN}かいさんしたはずなんやが..\p"
+	.string "{JPN}とにかくそいつらが\n"
+	.string "{JPN}いどでヤドンのシッポを\l"
+	.string "{JPN}きってはうりさばいとるんや\p"
+	.string "{JPN}だからわしがいって\n"
+	.string "{JPN}ちとこらしめたるんや！\p"
+	.string "{JPN}よーし！まってろヤドン！\n"
+	.string "{JPN}おとこガンテツがたすけたるぞ！$"
 KurtsHouse_Text_KurtHonoredToMakeBalls:
-	.string "KURT: Hi, {PLAYER}!\p"
-	.string "You handled yourself like a\n"
-	.string "real hero at the WELL.\p"
-	.string "I like your style!\p"
-	.string "I would be honored to make\n"
-	.string "BALLS for a trainer like you.\p"
-	.string "This is all I have now, \n"
-	.string "but take it.$"
-
+	.string "{JPN}ガンテツおお{PLAYER}よ！\pイドのいどでのかつやくぶり\nまさにヒーローじゃったな！\pきにいったぞい！\nおまえのようなトレーナーに\nボールをつくれるとは\pこうえいじゃ！\nこれしかないがもっていけ！$"
 KurtsHouse_Text_KurtBallsFromApricorns:
-	.string "KURT: I make BALLS from BERRIES.\p"
-	.string "Collect them from trees and bring\n"
-	.string "'em to me in batches of 5.\p"
-	.string "I'll make BALLS out of them.$"
-
+	.string "{JPN}わしはぼんぐりつかって\n"
+	.string "{JPN}とくせいのボールをつくっとる\p"
+	.string "{JPN}そこいらのぼんぐりのきをしらべ\n"
+	.string "{JPN}みをあつめてくるとええぞ\l"
+	.string "{JPN}そしたらわしがボールつくったる$"
 KurtsHouse_Text_KurtAskYouHaveAnApricorn:
-	.string "KURT: You have 5 BERRIES for me?\p"
-	.string "Fine! I'll turn them into BALLS.$"
-
+	.string "{JPN}おおっ\n"
+	.string "{JPN}ぼんぐりもっとるやないか！\l"
+	.string "{JPN}よっしゃボールつくったるわ！$"
 KurtsHouse_Text_KurtThatsALetdown:
-	.string "KURT: I don't see 5 {STR_VAR_1}s!$"
-
+	.string "{JPN}ガンテツ{STR_VAR_1}が5こないぞい！$"
 KurtsHouse_Text_KurtJustFinishedYourBall:
-	.string "KURT: Ah, {PLAYER}! \p"
-	.string "I just finished your BALL. Here!$"
-
+	.string "{JPN}おお{PLAYER}か\n"
+	.string "{JPN}いまなボールができたばかりや\l"
+	.string "{JPN}もっていくがええぞ！$"
 KurtsHouse_Text_KurtTurnedOutGreat:
-	.string "KURT: That turned out great.\p"
-	.string "Try catching POKéMON with it.$"
-
+	.string "{JPN}かいしんのできじゃ！\p"
+	.string "{JPN}それでつかまえられるかどうか\n"
+	.string "{JPN}ポケモンとしょうぶしてみい！$"
 KurtsHouse_Text_KurtWhatIsThat:
-	.string "Wh-what is that?\p"
-	.string "I've never seen one before.\p"
-	.string "It looks a like a POKé BALL, but\n"
-	.string "it appears to be something else.\p"
-	.string "Let me check it for you.$"
-
+	.string "{JPN}な..なんじゃそれは？\pみたことがないのう..\pモンスターボールのようじゃが\nべつのもののようじゃ..\pちょっとしらべてみよう$"
 KurtsHouse_Text_KurtImCheckingItNow:
-	.string "I'm checking it now.$"
-
+	.string "{JPN}いましらべておるところじゃ$"
 KurtsHouse_Text_KurtAhHaISee:
-	.string "Ah-ha! I see! So…$"
-
+	.string "{JPN}あーはー！わかったぞい！それで..$"
 KurtsHouse_Text_KurtThisBallStartedToShake:
-	.string "{PLAYER}!\p"
-	.string "This BALL started to shake\n"
-	.string "while I was checking it.\p"
-	.string "There must be something to this!$"
-
+	.string "{JPN}{PLAYER}よ！\pこのボールがしらべとるあいだに\nゆれはじめたんじゃ！\pなにかあるにちがいない！$"
 KurtsHouse_Text_Kurt_Whatwasthat:
-	.string "What was that sound?!\p"
-	.string "Let's go outside to investigate!$"
-
+	.string "{JPN}いまのおとはなんじゃ！？\nそとにようすをみにいこう！$"
 KurtsHouse_Text_GranddaughterSlowpokeGone:
-	.string "The SLOWPOKE are gone… \n"
-	.string "Were they taken away by bad people?$"
-
+	.string "{JPN}ヤドンいなくなっちゃった..\n"
+	.string "{JPN}どうしよう..\l"
+	.string "{JPN}わるいひとにつれさられたの？$"
 KurtsHouse_Text_GranddaughterLonely:
-	.string "Grandpa's gone… I'm so lonely…$"
-
+	.string "{JPN}おじいちゃんどこいったの..？\n"
+	.string "{JPN}あたしさみしいよう..$"
 KurtsHouse_Text_GranddaughterSlowpokeBack:
-	.string "The SLOWPOKE my dad gave me came back!\p"
-	.string "Its TAIL is growing back too!$"
-
+	.string "{JPN}おとうさんにもらった\n"
+	.string "{JPN}あたしのヤドンかえってきた！\l"
+	.string "{JPN}シッポもまたはえてくるの！$"
 KurtsHouse_Text_GranddaughterDad:
-	.string "Dad works at SILPH where\n"
-	.string "he studies POKé BALLS.\p"
-	.string "I have to stay home\n"
-	.string "with Grandpa and SLOWPOKE.$"
-
+	.string "{JPN}おとうさんシルフってかいしゃで\n"
+	.string "{JPN}あたらしいモンスターボールの\l"
+	.string "{JPN}けんきゅうしてるの\p"
+	.string "{JPN}そのあいだあたしは\n"
+	.string "{JPN}おじいちゃんとヤドンとおるすばん$"
 KurtsHouse_Text_GranddaughterHelp:
-	.string "I get to help Grandpa now!\p"
-	.string "We'll make good BALLS\n"
-	.string "for you, so please wait!$"
-
+	.string "{JPN}わたしもおじいちゃんの\nおてつだいをするの！\pいいボールをつくるから\nまっててね！$"
 KurtsHouse_Text_GranddaughterFun:
-	.string "It's fun to make BALLS!$"
-
+	.string "{JPN}ボールづくりはたのしいよ！$"
 KurtsHouse_Text_GranddaughterSound:
-	.string "Did that sound come from\n"
-	.string "ILEX FOREST????$"
-
+	.string "{JPN}いまのおとって\nウバメのもりからかしら？？？？$"
 KurtsHouse_Text_Forest:
-	.string "Did you check ILEX FOREST yet?\n"
-	.string "It sounds very restless.$"
-
+	.string "{JPN}ウバメのもりはもうみにいったか？\nなんだかざわざわしているぞ$"
 KurtsHouse_Text_Slowpoke:
-	.string "SLOWPOKE: … Yawn?$"
-
+	.string "{JPN}...やあん？$"
 KurtsHouse_Text_OakPhoto:
-	.string "…A young PROF. OAK?$"
-
+	.string "{JPN}..わかいころのオーキドはかせ？$"
 KurtsHouse_Text_CelebiStatue:
-	.string "It's a statue of the forest's\n"
-	.string "protector.$"
+	.string "{JPN}もりのかみさまをまつってある$"

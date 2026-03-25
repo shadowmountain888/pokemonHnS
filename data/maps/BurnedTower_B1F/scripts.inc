@@ -190,22 +190,17 @@ BurnedTower_B1F_Movement_EusineLeave:
 	step_end
 
 BurnedTowerB1FEusineText:
-	.string "EUSINE: I'm shocked!\p"
-	.string "SUICUNE raced by like a blur,\n"
-	.string "right in front of my eyes!\p"
-	.string "For ten years I chased\n"
-	.string "SUICUNE, and I finally got to\l"
-	.string "see it.\p"
-	.string "I'm all choked up!\p"
-	.string "{PLAYER}, I owe this all to you!\p"
-	.string "Thank you!\p"
-	.string "I heard that the legendary\n"
-	.string "POKéMON of ECRUTEAK test\l"
-	.string "chosen humans by allowing them\l"
-	.string "to get close.\p"
-	.string "I'm going to track SUICUNE.\p"
-	.string "{PLAYER}, let's meet again!\p"
-	.string "Farewell!$"
+	.string "{JPN}ミナキ: みただろう!?\p"
+	.string "{JPN}めのまえをものすごいいきおいで\nスイクンがかけていった\p"
+	.string "{JPN}かれこれ10ねんちかく\nスイクンをおいかけてきたが\lこんなにちかくで"
+	.string "{JPN}\lスイクンをみたのははじめてだ!\lかんどうだぜ!\p"
+	.string "{JPN}それにしても...\nスイクンはあきらかに\l"
+	.string "{JPN}きみのことをいしきしていたな\p"
+	.string "{JPN}エンジュシティにつたわる\nでんせつのポケモンは\l"
+	.string "{JPN}ちからをみとめたにんげんの\lそばによってくるらしい\p"
+	.string "{JPN}こんごはわたしもきみのように\nもっとせっきょくてきに\l"
+	.string "{JPN}スイクンとむかいあってみるか...\p"
+	.string "{JPN}では{PLAYER}\nまたどこかであおう!\p$"
 
 
 BurnedTower_B1F_EventScript_Item_Taunt::

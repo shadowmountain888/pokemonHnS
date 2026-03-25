@@ -73,37 +73,37 @@ EverGrandeCity_SidneysRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_SidneysRoom_Text_IntroSpeech:
-	.string "Welcome, challenger!\n"
-	.string "I'm SIDNEY of the ELITE FOUR.\p"
-	.string "I like that look you're giving me.\n"
-	.string "I guess you'll give me a good match.\l"
-	.string "That's good! Looking real good!\p"
-	.string "All right! You and me, let's enjoy\n"
-	.string "a battle that can only be staged\l"
-	.string "here in the POKéMON LEAGUE!$"
+	.string "{JPN}ようこそ ちょうせんしゃ!\n"
+	.string "{JPN}おれは してんのう の\l"
+	.string "{JPN}カゲツだ!\p"
+	.string "{JPN}いいかおしてるじゃないか.\n"
+	.string "{JPN}おもしろい しょうぶが\l"
+	.string "{JPN}できそうだな.\l"
+	.string "{JPN}いいぞ! すごく いいぞ!\p"
+	.string "{JPN}よし! おまえと おれで\nポケモンリーグでしか\lできない しょうぶを\lたのしもうぜ!$"
 
 EverGrandeCity_SidneysRoom_Text_IntroSpeech2:
-	.string "Welcome back, challenger!\n"
-	.string "I'm SIDNEY of the ELITE FOUR.\p"
-	.string "But you already know me!\n"
-	.string "I guess you'll give me a good match\l"
-	.string "again. Looking real good!\p"
-	.string "All right! You and me, let's enjoy\n"
-	.string "a battle that can only be staged\l"
-	.string "here in the POKéMON LEAGUE!\p"
-	.string "This time, I won't lose.$"
+	.string "{JPN}また きたな ちょうせんしゃ!\n"
+	.string "{JPN}おれは してんのう の\l"
+	.string "{JPN}カゲツだ!\p"
+	.string "{JPN}もう しってるよな!\n"
+	.string "{JPN}また おもしろい しょうぶが\l"
+	.string "{JPN}できそうだ. いいぞ!\p"
+	.string "{JPN}よし! おまえと おれで\n"
+	.string "{JPN}ポケモンリーグでしか\l"
+	.string "{JPN}できない しょうぶを\lたのしもうぜ!\pこんどは まけないぞ.$"
 
 EverGrandeCity_SidneysRoom_Text_Defeat:
-	.string "Well, how do you like that? I lost!\n"
-	.string "Eh, it was fun, so it doesn't matter.$"
+	.string "{JPN}どうだ まいったか? おれの\n"
+	.string "{JPN}まけだ!\nはは たのしかったから\lいいけどな.$"
 
 EverGrandeCity_SidneysRoom_Text_Defeat2:
-	.string "Well, how do you like that? I lost!\n"
-	.string "Again! It doesn't matter. It was fun.$"
+	.string "{JPN}どうだ まいったか? おれの\n"
+	.string "{JPN}まけだ!\nまた やられちまった!\nでも たのしかったから いいや.$"
 
 EverGrandeCity_SidneysRoom_Text_PostBattleSpeech:
-	.string "Well, listen to what this loser has\n"
-	.string "to say.\p"
-	.string "You've got what it takes to go far.\n"
-	.string "Now, go on to the next room and enjoy\l"
-	.string "your next battle!$"
+	.string "{JPN}まけた やつの いうことも\n"
+	.string "{JPN}きいてくれよ.\p"
+	.string "{JPN}おまえには さきに すすむ\n"
+	.string "{JPN}ちからが ある.\l"
+	.string "{JPN}つぎの へやで つぎの\lしょうぶを たのしんでこい!$"

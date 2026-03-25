@@ -117,133 +117,90 @@ GoldenrodCity_Gym_EventScript_Statue2::
 	end
 
 GoldenrodCity_Gym_Text_GymStatue:
-	.string "GOLDENROD POKéMON GYM$"
-
+	.string "{JPN}コガネシティポケモンジム$"
 GoldenrodCity_Gym_Text_GymStatueCertified:
-	.string "GOLDENROD TOWN POKéMON GYM\p"
-	.string "WHITNEY'S CERTIFIED TRAINERS:\n"
-	.string "{PLAYER}$"
+	.string "{JPN}コガネシティポケモンジム\p"
+	.string "{JPN}ジムリーダーアカネ\nにんていトレーナー!\l{PLAYER}$"
 
 GoldenrodCity_Gym_Text_WhitneyBefore:
-    .string "Hi! I'm WHITNEY!\p"
-    .string "Everyone was into POKéMON, so I got\n"
-    .string "into it too!\p"
-    .string "POKéMON are super-cute!\p"
-    .string "You want to battle? I'm warning\n"
-    .string "you- I'm good!$"
-
+	.string "{JPN}アカネ: はーい!\nうちがアカネちゃーん!!\p"
+	.string "{JPN}...ってあんた\nさっきラジオとうにおったひと?\l"
+	.string "{JPN}トレーナーさんやったんやね\p"
+	.string "{JPN}みんなポケモンしてるやん?\nうちもはじめたら\l"
+	.string "{JPN}もーめっちゃかわいーて!\p"
+	.string "{JPN}え?うちにちょうせんするの?\nゆうとくけどうち\lめっちゃつよいでー!\p$"
 GoldenrodCity_Gym_Text_WhitneyShouldntBeSoSerious:
-    .string "Sob…\p"
-    .string "…Waaaaaaah! You're mean!\p"
-    .string "You shouldn't be so serious! You…\n"
-    .string "you child, you!$"
-
+	.string "{JPN}アカネ: うう...\p"
+	.string "{JPN}...うわーん!!\nひどいよひどいよ!!\p"
+	.string "{JPN}むきになんないでよ!!\nもおこどもなんやから...$"
 GoldenrodCity_Gym_Text_WhitneyYouMeanie:
-    .string "Waaaaah!\p"
-    .string "Waaaaah!\p"
-    .string "…Snivel, hic… …You meanie!$"
-
+	.string "{JPN}アカネ: わーん!!\p"
+	.string "{JPN}わーん!!\p"
+	.string "{JPN}...ぐっすんひっぐ\n...ひどいわー!!$"
 GoldenrodCity_Gym_Text_WhitneyWhatDoYouWant:
-    .string "…Sniff…\p"
-    .string "What? What do you want? A BADGE?\p"
-    .string "Oh, right. I forgot. Here's\n"
-    .string "PLAINBADGE.$"
-
+	.string "{JPN}アカネ: ...ぐすん\p"
+	.string "{JPN}なに?まだなんかあんの?\nああバッジ?\p"
+	.string "{JPN}ごめんわすれてた\nはいレギュラーバッジ\lこれがほしいんやろ!\p$"
 GoldenrodCity_Gym_Text_PlayerReceivedPlainBadge:
-    .string "{PLAYER} received PLAINBADGE.$"
-
+	.string "{JPN}{PLAYER}はアカネから\nレギュラーバッジをもらった!$"
 GoldenrodCity_Gym_Text_WhitneyPlainBadge:
-    .string "PLAINBADGE lets your POKéMON use\n"
-    .string "STRENGTH outside of battle.\p"
-    .string "It also boosts your POKéMON's\n"
-	.string "DEFENSE.\p"
-    .string "Oh, you can have this too!$"
-
+	.string "{JPN}アカネ: レギュラーバッジがあると\nたたかってないときでも\l"
+	.string "{JPN}かいりきのわざがつかえるんよ\p"
+	.string "{JPN}あとはこれもあげる!\p$"
 GoldenrodCity_Gym_Text_WhitneyAttract:
-    .string "It's ATTRACT! It makes full use of a\n"
-    .string "POKéMON's charm.\p"
-    .string "Isn't it just perfect for a cutie\n"
-    .string "like me?$"
+	.string "{JPN}アカネ: なかみはメロメロゆーて\nポケモンのみりょくを\l"
+	.string "{JPN}さいだいげんにつかうわざやねん\lかわいーうちにぴったしやろ?\p"
+	.string "{JPN}あそや!\p"
+	.string "{JPN}ここからきたにある\nしぜんこうえんのとなりに\l"
+	.string "{JPN}ポケスロンゆーきょうぎじょうが\lオープンしたんやて!\p"
+	.string "{JPN}あんたそんだけ\nポケモンつかうのうまいんやから\l"
+	.string "{JPN}いってみたほうがええよ?$"
 
 GoldenrodCity_Gym_Text_WhitneyGoodCry:
-    .string "Ah, that was a good cry!$"
-
+	.string "{JPN}アカネ: ふう!\nないたらすっきりしたわ!\p"
+	.string "{JPN}ほなまたあそびにおいでーな!\nバイバイ!$"
 GoldenrodCity_Gym_Text_WhitneyRematch:
-    .string "Hi! It's you!\p"
-    .string "Wow, JOHTO CHAMPION now?\p"
-    .string "You really are amazing!\p"
-    .string "I want to see how strong you are.\p"
-    .string "Want to have a rematch with me?$"
-
+	.string "{JPN}あ！あなたね！\pわあージョウトちほうの\nチャンピオンになったのね？\pほんとうにすごいわ！\pあなたのつよさをみてみたい\nの！さいせんしない？$"
 GoldenrodCity_Gym_Text_WhitneyRematchDefeat:
-    .string "Waaaaah!\p"
-    .string "Waaaaah!\p"
-    .string "…Snivel, hic… …You meanie!$"
-
+    .string "{JPN}わーん！！\p"
+	.string "{JPN}わーん！！\p"
+	.string "{JPN}..ぐっすんひっぐ\n"
+	.string "{JPN}..ひどいわー！！$"
 GoldenrodCity_Gym_Text_LassCarrieSeen:
-    .string "Don't let my POKéMON's cute looks\n"
-    .string "fool you.\p"
-    .string "They can whip you!$"
+    .string "{JPN}うちの ポケモンの\n"
+	.string "{JPN}かわいい みために\n"
+    .string "{JPN}だまされちゃ だめよ.\pあなたを やっつけるから!$"
 
 GoldenrodCity_Gym_Text_LassCarrieBeaten:
-    .string "Darn… I thought you were weak…$"
-
+    .string "{JPN}くそー... よわいとおもってたのに...$"
 GoldenrodCity_Gym_Text_LassCarrieAfter:
-    .string "Do my POKéMON think I'm cute?$"
+    .string "{JPN}うちの ポケモンは\nわたしのこと かわいいって\nおもってくれてるかしら?$"
 
 GoldenrodCity_Gym_Text_LassBridgetSeen:
-    .string "I like cute POKéMON better than\n"
-    .string "strong POKéMON.\p"
-    .string "But I have strong and cute POKéMON!$"
-
+	.string "{JPN}わたしはつよいポケモンより\nかわいいポケモンがすき！\pでもつよくてかわいい\nポケモンももってるのよ！$"
 GoldenrodCity_Gym_Text_LassBridgetBeaten:
-    .string "Oh, no, no, no!$"
-
+	.string "{JPN}あらあらあら！$"
 GoldenrodCity_Gym_Text_LassBridgetAfter:
-    .string "I'm trying to beat WHITNEY, but…\n"
-    .string "It's depressing.\p"
-    .string "I'm okay! If I lose, I'll just try\n"
-    .string "harder next time!$"
-
+	.string "{JPN}アカネさんにかとうとしてる\nんだけど..へこんじゃう\pでもだいじょうぶ！まけても\nつぎはがんばるわ！$"
 GoldenrodCity_Gym_Text_BridgetWhitneyCries:
-    .string "Oh, no. You made WHITNEY cry.\p"
-    .string "It's OK. She'll stop soon. She\n"
-    .string "always cries when she loses.$"
-
+	.string "{JPN}あーあアカネちゃん\nなかしちゃったのね\p"
+	.string "{JPN}だいじょうぶ!\nしばらくしたらなきやむから\l"
+	.string "{JPN}まけるといつもないちゃうのよ\p$"
 GoldenrodCity_Gym_Text_BeautyVictoriaSeen:
-    .string "Oh, you are a cute little trainer!\p"
-    .string "I like you, but I won't hold back!$"
-
+	.string "{JPN}あらかわいいトレーナーね！\pきにいったけどてかげんは\nしないわよ！$"
 GoldenrodCity_Gym_Text_BeautyVictoriaBeaten:
-    .string "Let's see… Oops, it's over?$"
-
+	.string "{JPN}えーっと..あらもうおわり？$"
 GoldenrodCity_Gym_Text_BeautyVictoriaAfter:
-    .string "Wow, you must be good to beat me!\n"
-    .string "Keep it up!$"
-
+	.string "{JPN}わたしにかつなんてじょうず\nなのね！がんばって！$"
 GoldenrodCity_Gym_Text_BeautySamanthaSeen:
-    .string "Give it your best shot, or I'll take\n"
-    .string "you down!$"
-
+	.string "{JPN}ぜんりょくでこないと\nやられちゃうわよ！$"
 GoldenrodCity_Gym_Text_BeautySamanthaBeaten:
-    .string "No! Oh, MEOWTH, I'm so sorry!$"
-
+	.string "{JPN}だめ！ああニャースごめんね！$"
 GoldenrodCity_Gym_Text_BeautySamanthaAfter:
-    .string "I taught MEOWTH moves for taking on\n"
-    .string "any type…$"
-
+	.string "{JPN}ニャースにはどんなタイプにも\nたいこうできるわざをおしえたのに.$"
 GoldenrodCity_Gym_Text_GymGuide:
-    .string "Yo! CHAMP in making!\p"
-    .string "This GYM is home to WHITNEY, the\n"
-    .string "master of NORMAL-type POKéMON.\p"
-    .string "Be cautious of her cute team.\p"
-    .string "Some of the POKéMON in this gym\n"
-    .string "have the newly discovered FAIRY\l"
-    .string "type as well.\p"
-    .string "Check ROUTE 34 if you need a\n"
-    .string "FIGHTING-type or POISON-type.$"
-
+	.string "{JPN}おーす!\nみらいのチャンピオン!\p"
+	.string "{JPN}このジムは\nノーマルタイプポケモンの\lつかいてがあつまっている!\p"
+	.string "{JPN}たたかわせるなら\nかくとうタイプの\lポケモンがおすすめだな!$"
 GoldenrodCity_Gym_Text_GymGuideWin:
-    .string "You won? Great! I was busy admiring\n"
-    .string "the ladies here.$"
-
+	.string "{JPN}かったか?それはよかった!\nおれはおんなのこにみとれていたよ$"

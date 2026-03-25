@@ -161,23 +161,23 @@ CeruleanCity_Gym_EventScript_GymGuyAfter::
 	end
 
 CeruleanCity_Gym_Text_GymStatue::
-    .string "CERULEAN POKéMON GYM\n"
-    .string "LEADER: MISTY\p"
-	.string "WINNING TRAINERS:\n"
-	.string "BLUE, RED$"
+    .string "{JPN}ハナダポケモンジム\n"
+	.string "{JPN}リーダー:カスミ\p"
+	.string "{JPN}しょうりしゃ:\n"
+	.string "{JPN}グリーン レッド$"
 
 CeruleanCity_Gym_Text_GymStatuePlayerWon::
-    .string "CERULEAN POKéMON GYM\n"
-    .string "LEADER: MISTY\p"
-    .string "WINNING TRAINERS:\n"
-	.string "BLUE, RED, {PLAYER}$"
+    .string "{JPN}ハナダポケモンジム\n"
+	.string "{JPN}リーダー:カスミ\p"
+    .string "{JPN}しょうりしゃ:\n"
+	.string "{JPN}グリーン レッド {PLAYER}$"
 
 CeruleanGym_Text_Note:
-	.string "Sorry, I'll be out for a while.\n"
-	.string "MISTY, GYM LEADER\p"
-	.string "Since MISTY's out, we'll be away\n"
-	.string "too.\l"
-	.string "GYM TRAINERS$"
+	.string "{JPN}ごめんなさい しばらく\n"
+	.string "{JPN}るすにします.\l"
+	.string "{JPN}ジムリーダー カスミ\p"
+	.string "{JPN}カスミがるすなので \n"
+	.string "{JPN}わたしたちもるすに\lします.ジムトレーナー$"
 
 
 CeruleanCity_Gym_EventScript_Misty::
@@ -214,111 +214,107 @@ CeruleanCity_Gym_EventScript_Misty_Defeated::
 	end
 
 CeruleanGym_Text_GruntIntro:
-	.string "Oops! I so sorry! You not hurt,\n"
-	.string "okay?\p"
-	.string "I very busy. No time for talking\n"
-	.string "with you. Not good for me if\l"
-	.string "seen by somebody.$"
-
+	.string "{JPN}オー！ソーリー！\n"
+	.string "{JPN}ユーけがナッシングですかー？\l"
+	.string "{JPN}わたしベリービジーね！\l"
+	.string "{JPN}ユーとゆっくりトーキング\l"
+	.string "{JPN}してられませーん！\l"
+	.string "{JPN}だれかにみられたら\l"
+	.string "{JPN}わたしこまりまーす！$"
 CeruleanGym_Text_GruntBigMistake:
-	.string "Oh no! You seen me already!\n"
-	.string "I make big mistake!$"
-
+	.string "{JPN}..オーノー！\n"
+	.string "{JPN}すでにユーにみられました！\l"
+	.string "{JPN}ビックマイミステイク！$"
 CeruleanGym_Text_GruntBye:
-	.string "Hey, you! Forget you see me,\n"
-	.string "okay?\p"
-	.string "You see, hear, know nothing,\p"
-	.string "okay? Bye, kid! Nothing!\p"
-	.string "Bye-bye a go-go!$"
-
+	.string "{JPN}ヘイユー！\n"
+	.string "{JPN}このことフォーゲットするね！\l"
+	.string "{JPN}ユーはなにもみてなーい\l"
+	.string "{JPN}なにもきいてなーい\l"
+	.string "{JPN}なにもしらなーいね！\p"
+	.string "{JPN}バイバイ！\n"
+	.string "{JPN}ロンググッドバイ！！$"
 CeruleanGym_Text_Note1:
-	.string "Sorry, I'll be out for a while.\n"
-	.string "MISTY, GYM LEADER\p"
-	.string "Since MISTY's out, we'll be away\n"
-	.string "too. GYM TRAINERS$"
+	.string "{JPN}ごめんなさい しばらく\n"
+	.string "{JPN}るすにします.\l"
+	.string "{JPN}ジムリーダー カスミ\p"
+	.string "{JPN}カスミがるすなので \nわたしたちもるすに\lします.ジムトレーナー$"
 
 CeruleanGym_Text_MistyIntro:
-	.string "MISTY: I was expecting you, you\n"
-	.string "pest!\p"
-	.string "You may have a lot of JOHTO GYM\n"
-	.string "BADGES, but you'd better not\l"
-	.string "take me too lightly.\p"
-	.string "My WATER-type POKéMON are\n"
-	.string "tough!$"
-
+	.string "{JPN}きたわねオジャマムシ！\p"
+	.string "{JPN}ジョウトのジムバッジを\n"
+	.string "{JPN}たくさんもってるみたいだけど\l"
+	.string "{JPN}なめてもらっちゃこまるわ！\p"
+	.string "{JPN}あたしのみずタイプのポケモンは\n"
+	.string "{JPN}つよいわよっ！$"
 CeruleanGym_Text_MistyWinLoss:
-	.string "MISTY: You really are good…\p"
-	.string "I'll admit that you are skilled…\p"
-	.string "Here you go. It's CASCADEBADGE.$"
-
+	.string "{JPN}やるじゃない..\p"
+	.string "{JPN}あんたのじつりょく\n"
+	.string "{JPN}すなおにみとめるわ..\p"
+	.string "{JPN}はいこれ\n"
+	.string "{JPN}ブルーバッジよ！$"
 CeruleanGym_Text_ReceivedBadge:
-	.string "{PLAYER} received CASCADEBADGE.$"
-
+	.string "{JPN}{PLAYER}はカスミから\n"
+	.string "{JPN}ブルーバッジをもらった！$"
 CeruleanGym_Text_MistyFightDone:
-	.string "MISTY: Are there many strong\n"
-	.string "trainers in JOHTO? Like you, I\l"
-	.string "mean.\p"
-	.string "I'm going to travel one day, so\n"
-	.string "I can battle some skilled\l"
-	.string "trainers.$"
+	.string "{JPN}カスミ:ジョウトには\n"
+	.string "{JPN}つよいトレーナーが\l"
+	.string "{JPN}たくさんいるの?\p"
+	.string "{JPN}あなたみたいな.\p"
+	.string "{JPN}いつかりょこうして\n"
+	.string "{JPN}うでききのトレーナーと\lたたかってみたいわ.$"
 
 CeruleanGym_Text_MistyRematch:
-	.string "MISTY: Wow, you're the KANTO\n"
-	.string "CHAMPION now!\p"
-	.string "That's amazing! You've come a\n"
-	.string "long way, {PLAYER}.\p"
-	.string "But I'm not backing down.\p"
-	.string "Want to have a rematch with me?$"
+	.string "{JPN}カスミ:わあ あなたが\n"
+	.string "{JPN}カントーチャンピオンに\l"
+	.string "{JPN}なったのね!\p"
+	.string "{JPN}すごいじゃない!\n"
+	.string "{JPN}すっかりつよくなって \l"
+	.string "{JPN}{PLAYER}.\pでもわたしもまけないわ.\pもういちどしょうぶ\nしない?$"
 
 CeruleanGym_Text_MistyRematchDefeat:
-	.string "MISTY: You really are good…$"
-
+	.string "{JPN}カスミ: あなた ほんとうに\nつよいのね...$"
 CeruleanGym_Text_SwimmerfDianaSeen:
-	.string "Sorry about being away. Let's get\n"
-	.string "on with it!$"
+	.string "{JPN}るすにしててごめんね.\n"
+	.string "{JPN}さあ はじめましょう!$"
 
 CeruleanGym_Text_SwimmerfDianaBeaten:
-	.string "I give up! You're the winner!$"
+	.string "{JPN}まいった!あなたのかち\nよ!$"
 
 CeruleanGym_Text_SwimmerfDianaAfter:
-	.string "I'll be swimming quietly.$"
+	.string "{JPN}しずかにおよいでいるわ.$"
 
 CeruleanGym_Text_SwimmerfBrianaSeen:
-	.string "Don't let my elegant swimming\n"
-	.string "unnerve you.$"
+	.string "{JPN}わたしのゆうがな\n"
+	.string "{JPN}およぎにみとれちゃ\lダメよ.$"
 
 CeruleanGym_Text_SwimmerfBrianaBeaten:
-	.string "Ooh, you calmly disposed of me…$"
-
+	.string "{JPN}きゃあ れいせいに\nたおされちゃった...$"
 CeruleanGym_Text_SwimmerfBrianaAfter:
-	.string "Don't be too smug about beating\n"
-	.string "me.\p"
-	.string "MISTY will destroy you if you get\n"
-	.string "complacent.$"
+	.string "{JPN}わたしにかったからって\n"
+	.string "{JPN}ちょうしにのっちゃ\l"
+	.string "{JPN}ダメよ.\p"
+	.string "{JPN}ゆだんしてたら\nカスミにやられちゃうわ.$"
 
 CeruleanGym_Text_SwimmermParkerSeen:
-	.string "Glub…\p"
-	.string "I'm first! Come and get me!$"
+	.string "{JPN}ぐるぐる...\p"
+	.string "{JPN}ぼくが いちばん!\nかかって こいよ!$"
 
 CeruleanGym_Text_SwimmermParkerBeaten:
-	.string "This can't be…$"
-
+	.string "{JPN}そんな ばかな...$"
 CeruleanGym_Text_SwimmermParkerAfter:
-	.string "MISTY has gotten much better in\n"
-	.string "the past few years.\p"
-	.string "Don't let your guard down, or\n"
-	.string "you'll be crushed!$"
+	.string "{JPN}カスミはここすうねんで\n"
+	.string "{JPN}ずいぶんつよくなったよ.\p"
+	.string "{JPN}ゆだんしてたら\n"
+	.string "{JPN}やられちゃうぞ!$"
 
 CeruleanGym_Text_GuideIntro:
-	.string "Yo! CHAMP in making!\p"
-	.string "Since MISTY was away, I went out\p"
-	.string "for some fun too. He-he-he.$"
-
+	.string "{JPN}おーす！\n"
+	.string "{JPN}みらいのレジェンド！\p"
+	.string "{JPN}カスミたちがいないもんだから\n"
+	.string "{JPN}オレもあそびにいってたんだ！\l"
+	.string "{JPN}なははははっ！$"
 CeruleanGym_Text_GuideWin:
-	.string "Hoo, you showed me how tough you\n"
-	.string "are.\p"
-	.string "As always, that was one heck of a\n"
-	.string "great battle!$"
-
+	.string "{JPN}さすがにつよいな！\n"
+	.string "{JPN}いいたたかいだったぜ！$"
 CeruleanGym_Text_MistyTm:
-	.string "Here, take this too.$"
+	.string "{JPN}これももっていって.$"

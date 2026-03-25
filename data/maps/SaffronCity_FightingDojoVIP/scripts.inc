@@ -262,7 +262,7 @@ SaffronCity_FightingDojoVIP_EventScript_Scizor::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Scizor:
-	.string "SCIZOR: Scii-zor!$"
+	.string "{JPN}ハッサム: シー ザー!$"
 
 SaffronCity_FightingDojoVIP_EventScript_Miltank::
 	lock
@@ -276,7 +276,7 @@ SaffronCity_FightingDojoVIP_EventScript_Miltank::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Miltank:
-	.string "MILTANK: MooOOO!$"
+	.string "{JPN}ミルタンク: モーーーー!$"
 
 SaffronCity_FightingDojoVIP_EventScript_Poliwhirl::
 	lock
@@ -290,7 +290,7 @@ SaffronCity_FightingDojoVIP_EventScript_Poliwhirl::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Poliwhirl:
-	.string "POLIWHIRL: Whirl-whirl!$"
+	.string "{JPN}ニョロゾ: ニョロ ニョロ!$"
 
 SaffronCity_FightingDojoVIP_EventScript_Dewgong::
 	lock
@@ -304,7 +304,7 @@ SaffronCity_FightingDojoVIP_EventScript_Dewgong::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Dewgong:
-	.string "DEWGONG: Goooooong!$"
+	.string "{JPN}ジュゴン: ゴーーーーン!$"
 
 SaffronCity_FightingDojoVIP_EventScript_Steelix::
 	lock
@@ -318,7 +318,7 @@ SaffronCity_FightingDojoVIP_EventScript_Steelix::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Steelix:
-	.string "STEELIX: GraaAAANk!$"
+	.string "{JPN}ハガネール: グラーーーンク!$"
 
 SaffronCity_FightingDojoVIP_EventScript_Kingdra::
 	lock
@@ -332,7 +332,7 @@ SaffronCity_FightingDojoVIP_EventScript_Kingdra::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Kingdra:
-	.string "KINGDRA: Draaa...$"
+	.string "{JPN}キングドラ: ドラーーー...$"
 
 SaffronCity_FightingDojoVIP_EventScript_Onix::
 	lock
@@ -346,7 +346,7 @@ SaffronCity_FightingDojoVIP_EventScript_Onix::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Onix:
-	.string "ONIX: Oooonix!$"
+	.string "{JPN}イワーク: オーーーニクス!$"
 
 SaffronCity_FightingDojoVIP_EventScript_Starmie::
 	lock
@@ -360,7 +360,7 @@ SaffronCity_FightingDojoVIP_EventScript_Starmie::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Starmie:
-	.string "STARMIE: Hyaaa!$"
+	.string "{JPN}スターミー: ヒャーーー!$"
 
 SaffronCity_FightingDojoVIP_EventScript_Victreebel::
 	lock
@@ -374,7 +374,7 @@ SaffronCity_FightingDojoVIP_EventScript_Victreebel::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Victreebel:
-	.string "VICTREEBEL: Vreeee!$"
+	.string "{JPN}ウツボット: ブリーーー!$"
 
 SaffronCity_FightingDojoVIP_EventScript_Muk::
 	lock
@@ -388,7 +388,7 @@ SaffronCity_FightingDojoVIP_EventScript_Muk::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Muk:
-	.string "MUK: Muuuk...$"
+	.string "{JPN}ベトベトン: ムーーーク...$"
 
 SaffronCity_FightingDojoVIP_EventScript_Kadabra::
 	lock
@@ -402,7 +402,7 @@ SaffronCity_FightingDojoVIP_EventScript_Kadabra::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Kadabra:
-	.string "KADABRA: Kadabra!$"
+	.string "{JPN}ユンゲラー: ユンゲラー!$"
 
 SaffronCity_FightingDojoVIP_EventScript_Magmar::
 	lock
@@ -416,7 +416,7 @@ SaffronCity_FightingDojoVIP_EventScript_Magmar::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Magmar:
-	.string "MAGMAR: Magmaaaar!$"
+	.string "{JPN}ブーバー: マグマーーー!$"
 
 SaffronCity_FightingDojoVIP_EventScript_Raichu::
 	lock
@@ -430,7 +430,7 @@ SaffronCity_FightingDojoVIP_EventScript_Raichu::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Raichu:
-	.string "RAICHU: Rai-CHU!$"
+	.string "{JPN}ライチュウ: ライ チュウ!$"
 
 SaffronCity_FightingDojoVIP_EventScript_Machamp::
 	lock
@@ -444,234 +444,225 @@ SaffronCity_FightingDojoVIP_EventScript_Machamp::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Machamp:
-	.string "MACHAMP: Maa-champ!$"
+	.string "{JPN}カイリキー: マー チャンプ!$"
 
 SaffronCity_FightingDojo_EventScript_Chased::
 	msgbox SaffronCity_FightingDojoVIP_Text_Chased, MSGBOX_NPC
 	end
 
 SaffronCity_FightingDojoVIP_Text_Chased:
-	.string "Help!$"
+	.string "{JPN}たすけてー!$"
 
 SaffronCity_FightingDojoVIP_EvetScript_Statue::
 	msgbox SaffronCity_FightingDojoVIP_Text_Statue, MSGBOX_SIGN
 	end
 
 SaffronCity_FightingDojoVIP_Text_Statue:
-	.string "FIGHTING DOJO VIP LOUNGE$"
+	.string "{JPN}かくとうどうじょう VIPラウンジ$"
 
 SaffronCity_FightingDojoVIP_Text_Falkner_Rematch:
-	.string "Congratulations on defeating\n"
-	.string "the ELITE 4!\p"
-	.string "I've been training my\n"
-	.string "FLYING-type POKéMON even harder.\p"
-	.string "Think you can take on the power\n"
-	.string "of the skies again?$"
+	.string "{JPN}してんのうに かったんだね!\n"
+	.string "{JPN}おめでとう!\p"
+	.string "{JPN}ぼくは ひこうタイプの\n"
+	.string "{JPN}ポケモンを もっと きたえたよ.\p"
+	.string "{JPN}また そらの ちからに\n"
+	.string "{JPN}ちょうせん してみる?$"
 
 SaffronCity_FightingDojoVIP_Text_Falkner_RematchDefeat:
-	.string "Wow… You beat me again.\p"
-	.string "I'm going to train harder to\n"
-	.string "become the greatest bird master!$"
+	.string "{JPN}わあ... また まけちゃった.\p"
+	.string "{JPN}もっと きびしく\n"
+	.string "{JPN}しゅぎょうして\lさいきょうの とりつかいに\lなってやる!$"
 
 SaffronCity_FightingDojoVIP_Text_Bugsy_Rematch:
-	.string "Wow, you're the JOHTO CHAMPION\n"
-	.string "now!\p"
-	.string "Your skills are truly impressive!\p"
-	.string "I've been busy with my research.\p"
-	.string "I'm ready to show you my new\n"
-	.string "findings.\p"
-	.string "Want to have a rematch with me?$"
+	.string "{JPN}すごいね! きみは ジョウトちほうの\n"
+	.string "{JPN}チャンピオンに なったんだね!\p"
+	.string "{JPN}きみの じつりょくは\n"
+	.string "{JPN}ほんとうに すばらしいよ!\p"
+	.string "{JPN}ぼくは けんきゅうに\n"
+	.string "{JPN}いそがしかったんだ.\p"
+	.string "{JPN}あたらしい はっけんを\nみせて あげる.\nさいせんしない?$"
 
 SaffronCity_FightingDojoVIP_Text_Bugsy_RematchDefeat:
-	.string "Wow, you must be an expert\n"
-	.string "trainer.\p"
-	.string "My research must not be\n"
-	.string "complete…$"
-
+	.string "{JPN}すごいや きみは\n"
+	.string "{JPN}エキスパートトレーナー\l"
+	.string "{JPN}だね.\p"
+	.string "{JPN}ぼくの けんきゅうは\nまだ かんぜんじゃ\lないようだ...$"
 SaffronCity_FightingDojoVIP_Text_Whitney_Rematch:
-	.string "Hi! It's you!\p"
-	.string "Wow, JOHTO CHAMPION now?\p"
-	.string "You really are amazing!\p"
-	.string "I want to see how strong you are.\p"
-	.string "Want to have a rematch with me?$"
+	.string "{JPN}あ! きみね!\p"
+	.string "{JPN}わあ ジョウトちほうの\n"
+	.string "{JPN}チャンピオンに なったの?\p"
+	.string "{JPN}きみって ほんとうに\n"
+	.string "{JPN}すごいのね!\pきみが どのくらい つよいか\nみて みたいの.\nさいせんしない?$"
 
 SaffronCity_FightingDojoVIP_Text_Whitney_RematchDefeat:
-	.string "Waaaaah!\p"
-	.string "Waaaaah!\p"
-	.string "…Snivel, hic… …You meanie!$"
-
+	.string "{JPN}うわああああん!\p"
+	.string "{JPN}うわああああん!\p"
+	.string "{JPN}...グスッ ヒック...\nいじわる!$"
 SaffronCity_FightingDojoVIP_Text_Morty_Rematch:
-	.string "Ah, the JOHTO CHAMPION! Good of\n"
-	.string "you to come.\p"
-	.string "You've shown your strength and\n"
-	.string "skill, but have you improved\l"
-	.string "since our last battle?\p"
-	.string "I've been training with my\n"
-	.string "GHOST-type POKéMON.\p"
-	.string "Let's see if you can overcome\n"
-	.string "the shadows once again.\p"
-	.string "Want to have a rematch with me?$"
+	.string "{JPN}おお ジョウトちほうの\n"
+	.string "{JPN}チャンピオンよ! よく きたな.\p"
+	.string "{JPN}きみは ちからと わざを\n"
+	.string "{JPN}しめしたが ぜんかいの\l"
+	.string "{JPN}たたかい いらい せいちょう\l"
+	.string "{JPN}したか?\p"
+	.string "{JPN}わたしは ゴーストタイプの\n"
+	.string "{JPN}ポケモンと くんれんしていた.\p"
+	.string "{JPN}きみが ふたたび かげを\n"
+	.string "{JPN}のりこえられるか みてみよう.\nさいせんしないか?$"
 
 SaffronCity_FightingDojoVIP_Text_Morty_RematchDefeat:
-	.string "I'm not good enough yet…\p"
-	.string "You have witnessed much more\n"
-	.string "than I.\p"
-	.string "I envy you for that…$"
-
+	.string "{JPN}わたしは まだまだ\n"
+	.string "{JPN}いたらない...\p"
+	.string "{JPN}あなたは わたしよりも\n"
+	.string "{JPN}ずっと たくさんの ことを\lみてきている.\pうらやましいですよ...$"
 SaffronCity_FightingDojoVIP_Text_Chuck_Rematch:
-	.string "WAHAHAH! JOHTO CHAMPION!\p"
-	.string "You've come back for more!\p"
-	.string "I see your skills have improved!\p"
-	.string "Ready to see who's stronger?$"
+	.string "{JPN}わはははっ! ジョウトちほうの\n"
+	.string "{JPN}チャンピオン!\p"
+	.string "{JPN}また きたのか!\p"
+	.string "{JPN}きみの じつりょくが あがったのが\nわかるぞ!\pどちらが つよいか みてみるか?$"
 
 SaffronCity_FightingDojoVIP_Text_Chuck_RematchDefeat:
-	.string "Wha? Huh? I lost? Again?$"
+	.string "{JPN}なに? え? まけた? また?$"
 
 SaffronCity_FightingDojoVIP_Text_Jasmine_Rematch:
-	.string "…Congratulations, JOHTO\n"
-	.string "CHAMPION.\p"
-	.string "You have become so strong…\p"
-	.string "I wonder if I have improved.\p"
-	.string "Would you like to test that?\p"
-	.string "Want to have a rematch with me?$"
+	.string "{JPN}...おめでとう \n"
+	.string "{JPN}ジョウト チャンピオン.\p"
+	.string "{JPN}あなたは とても\n"
+	.string "{JPN}つよくなった...\p"
+	.string "{JPN}わたしも せいちょう\n"
+	.string "{JPN}したでしょうか.\pそれを ためして\nみませんか?\pわたしと さいせんを\nしませんか?$"
 
 SaffronCity_FightingDojoVIP_Text_Jasmine_RematchDefeat:
-	.string "…You are a better trainer than\n"
-	.string "me,\p"
-	.string "in both skill and kindness.$"
+	.string "{JPN}...あなたのほうが\n"
+	.string "{JPN}わたしよりも\l"
+	.string "{JPN}すぐれた トレーナーです.\pぎじゅつでも やさしさでも.$"
 
 SaffronCity_FightingDojoVIP_Text_Pryce_Rematch:
-	.string "Ah, JOHTO CHAMPION!\p"
-	.string "Your skills are indeed\n"
-	.string "remarkable.\p"
-	.string "I am impressed.\p"
-	.string "But even now, there is much to\n"
-	.string "learn from each other.\p"
-	.string "I, PRYCE--the winter trainer--\p"
-	.string "still have a few tricks left.\p"
-	.string "Want to have a rematch with me?$"
+	.string "{JPN}おお ジョウトちほうの\n"
+	.string "{JPN}チャンピオンよ!\p"
+	.string "{JPN}きみの じつりょくは\n"
+	.string "{JPN}たしかに すばらしい.\p"
+	.string "{JPN}かんしんしたよ.\p"
+	.string "{JPN}だが いまでも\n"
+	.string "{JPN}おたがいから まなぶ ことは\l"
+	.string "{JPN}おおい.\p"
+	.string "{JPN}わたし ヤナギ\nふゆの トレーナーには\pまだ いくつかの おくのては\nのこっている.\nさいせんしないか?$"
 
 SaffronCity_FightingDojoVIP_Text_Pryce_RematchDefeat:
-	.string "Ah, yet again I'm impressed by\n"
-	.string "your prowess.\p"
-	.string "With your strong will, I know\n"
-	.string "you will overcome all life's\l"
-	.string "obstacles.$"
+	.string "{JPN}ああ またしても きみの\n"
+	.string "{JPN}じつりょくに かんしんしたよ.\p"
+	.string "{JPN}つよい いしを もつ きみなら\n"
+	.string "{JPN}じんせいの しょうがいを\l"
+	.string "{JPN}すべて のりこえられるだろう.$"
 
 SaffronCity_FightingDojoVIP_Text_Clair_Rematch:
-	.string "You did it, huh?\p"
-	.string "You are now the JOHTO CHAMP.\p"
-	.string "You've proven your strength but\n"
-	.string "can you handle me again?\p"
-	.string "As a Dragon Master, I won't hold\n"
-	.string "back.\p"
-	.string "Not this time.\p"
-	.string "Want to have a rematch with me?$"
+	.string "{JPN}やったのね?\p"
+	.string "{JPN}きみは いま ジョウトちほうの\n"
+	.string "{JPN}チャンピオンよ.\p"
+	.string "{JPN}きみは つよさを しょうめい\n"
+	.string "{JPN}したけど また わたしと\l"
+	.string "{JPN}たたかえるかしら?\n"
+	.string "{JPN}りゅうつかいとして わたしは\n"
+	.string "{JPN}youryokuを だしきらない.\pこんどは ちがうわ.\nさいせんしない?$"
 
 SaffronCity_FightingDojoVIP_Text_Clair_RematchDefeat:
-	.string "I lost?\p"
-	.string "Again?\p"
-	.string "I don't believe it. There must\n"
-	.string "be some mistake…$"
-
+	.string "{JPN}わたしが まけた?\p"
+	.string "{JPN}また?\p"
+	.string "{JPN}しんじられない.きっと\n"
+	.string "{JPN}なにか まちがいが\lあるはず...$"
 SaffronCity_FightingDojoVIP_Text_Brock_Rematch:
-	.string "BROCK: Hey there, {PLAYER}!\p"
-	.string "I heard you are now the KANTO\n"
-	.string "CHAMPION.\p"
-	.string "That's incredible!\p"
-	.string "You must be even stronger now.\p"
-	.string "Want to have a rematch with me?$"
+	.string "{JPN}タケシ: やあ {PLAYER}!\p"
+	.string "{JPN}きみがカントーチャンピオンに\n"
+	.string "{JPN}なったってきいたよ.\p"
+	.string "{JPN}すごいじゃないか!\p"
+	.string "{JPN}きっともっとつよくなってる\n"
+	.string "{JPN}んだろうね.\pぼくともういちど\nたたかってくれるかい?$"
 
 SaffronCity_FightingDojoVIP_Text_Brock_RematchDefeat:
-	.string "BROCK: Your POKéMON once again\n"
-	.string "overcame my rock-hard defense…$"
-
+	.string "{JPN}タケシ: きみの ポケモンは\n"
+	.string "{JPN}またしても ぼくの\liわのような ぼうぎょを\lつきやぶった...$"
 SaffronCity_FightingDojoVIP_Text_Misty_Rematch:
-	.string "MISTY: Wow, you're the KANTO\n"
-	.string "CHAMPION now!\p"
-	.string "That's amazing! You've come a\n"
-	.string "long way, {PLAYER}.\p"
-	.string "But I'm not backing down.\p"
-	.string "Want to have a rematch with me?$"
+	.string "{JPN}カスミ: わあ カントーチャンピオンに\n"
+	.string "{JPN}なったのね!\p"
+	.string "{JPN}すごいわ! ずいぶんと\n"
+	.string "{JPN}せいちょうしたのね {PLAYER}.\p"
+	.string "{JPN}でもわたしもまけてないわよ.\p"
+	.string "{JPN}もういちどたたかってくれる?$"
 
 SaffronCity_FightingDojoVIP_Text_Misty_RematchDefeat:
-	.string "MISTY: You really are good…$"
-
+	.string "{JPN}カスミ: あなたって\nほんとうに つよいのね...$"
 SaffronCity_FightingDojoVIP_Text_Surge_Rematch:
-	.string "SURGE: So, you're now KANTO\n"
-	.string "CHAMPION!\p"
-	.string "Impressive work, kid! But don't\n"
-	.string "think I'm done!\p"
-	.string "How about we have a go again?$"
+	.string "{JPN}マチス: おお カントーチャンピオンに\n"
+	.string "{JPN}なったのか!\p"
+	.string "{JPN}たいしたもんだぜ こぞう!\n"
+	.string "{JPN}でもオレはまだまだだぜ!\n"
+	.string "{JPN}もういっかいやってやろうか?$"
 
 SaffronCity_FightingDojoVIP_Text_Surge_RematchDefeat:
-	.string "SURGE: Arrrgh! You're still just\n"
-	.string "as strong!$"
+	.string "{JPN}マチス: がああ! おまえはまだまだ\n"
+	.string "{JPN}つよいぜ!$"
 
 SaffronCity_FightingDojoVIP_Text_Erika_Rematch:
-	.string "ERIKA: Oh, hello.\p"
-	.string "What a surprise, CHAMPION!\p"
-	.string "It's so lovely to see you again.\p"
-	.string "Your journey must have been so\n"
-	.string "exciting.\p"
-	.string "Even champions enjoy a challenge.\p"
-	.string "Want to have a rematch with me?$"
+	.string "{JPN}エリカ: あら こんにちは.\p"
+	.string "{JPN}まあ チャンピオンさま!\p"
+	.string "{JPN}またおあいできてうれしいわ.\n"
+	.string "{JPN}たびはとってもすてきだった\n"
+	.string "{JPN}でしょうね.\n"
+	.string "{JPN}チャンピオンでもちょうせんは\n"
+	.string "{JPN}たのしいものですわ.\nわたしともういちど\nたたかってくださる?$"
 
 SaffronCity_FightingDojoVIP_Text_Erika_RematchDefeat:
-	.string "ERIKA: Losing still leaves a\n"
-	.string "bitter aftertaste…\p"
-	.string "But knowing that there are strong\n"
-	.string "trainers spurs me to do better…$"
-
+	.string "{JPN}まけるというのは\n"
+	.string "{JPN}くやしいものですね..\p"
+	.string "{JPN}でもつよいかたがいるということは\n"
+	.string "{JPN}はげみにもなります$"
 SaffronCity_FightingDojoVIP_Text_Sabrina_Rematch:
-	.string "SABRINA: Ah, the CHAMPION.\p"
-	.string "I sensed your return.\p"
-	.string "Your power has grown immensely.\p"
-	.string "Even now, I feel your aura.\p"
-	.string "Want to have a rematch with me?$"
+	.string "{JPN}ナツメ: ああ チャンピオンね.\p"
+	.string "{JPN}あなたのもどりをかんじてたわ.\p"
+	.string "{JPN}あなたのちからはとてつもなく\n"
+	.string "{JPN}せいちょうしたのね.\n"
+	.string "{JPN}いまでもあなたのオーラを\nかんじるわ.\nわたしともういちど\nたたかってくれる?$"
 
 SaffronCity_FightingDojoVIP_Text_Sabrina_RematchDefeat:
-	.string "SABRINA: Your love for your\n"
-	.string "POKéMON again overwhelmed my\l"
-	.string "psychic power…$"
-
+	.string "{JPN}ナツメ: あなたの ポケモンへの\n"
+	.string "{JPN}あいじょうが またしても\l"
+	.string "{JPN}わたしの サイコパワーを\lうわまわった...$"
 SaffronCity_FightingDojoVIP_Text_Janine_Rematch:
-	.string "Fufufufu…\p"
-	.string "Wow, you did it!\p"
-	.string "You're the CHAMPION now!\p"
-	.string "I'm so proud of you! But don't\n"
-	.string "think I'll go easy on you.\p"
-	.string "Want to have a rematch with me?$"
+	.string "{JPN}フフフ...\p"
+	.string "{JPN}すごいじゃない!\p"
+	.string "{JPN}あなた いまや\n"
+	.string "{JPN}チャンピオンなのね!\p"
+	.string "{JPN}ほこらしいわ! でも\n"
+	.string "{JPN}yoすこし youryou\nしてくれるとは\lおもわないで.\pわたしと さいせんしない?$"
 
 SaffronCity_FightingDojoVIP_Text_Janine_RematchDefeat:
-	.string "JANINE: You're still just as\n"
-	.string "tough!\p"
-	.string "You definitely won…$"
-
+	.string "{JPN}アンズ: あなたは やっぱり\n"
+	.string "{JPN}つよいわね!\p"
+	.string "{JPN}かんぜんに あなたの\nかちよ...$"
 SaffronCity_FightingDojoVIP_Text_Blaine_Rematch:
-	.string "BLAINE: Whoa!\p"
-	.string "I see you've become the KANTO\n"
-	.string "CHAMPION!\p"
-	.string "That's blazing!\p"
-	.string "Your skills are top-notch.\p"
-	.string "I'm always up for a battle.\p"
-	.string "Want to have a rematch with me?$"
+	.string "{JPN}カツラ: おお!\p"
+	.string "{JPN}カントーチャンピオンに\n"
+	.string "{JPN}なったのじゃな!\p"
+	.string "{JPN}もえるのう!\p"
+	.string "{JPN}おまえのうでまえは\n"
+	.string "{JPN}いちりゅうじゃ.\n"
+	.string "{JPN}ワシはいつでもたたかいは\nだいかんげいじゃ.\nもういちどたたかってくれるか?$"
 
 SaffronCity_FightingDojoVIP_Text_Blaine_RematchDefeat:
-	.string "BLAINE: Your skills are truly\n"
-	.string "fiery!\p"
-	.string "You've burned right through my\n"
-	.string "defenses.$"
+	.string "{JPN}カツラ: おまえのうでまえは\n"
+	.string "{JPN}ほんとうにねついのう!\p"
+	.string "{JPN}ワシのぼうぎょをやきつくして\n"
+	.string "{JPN}しまったわい.$"
 
 SaffronCity_FightingDojoVIP_Text_Blue_Rematch:
-	.string "BLUE: Well, well. CHAMPION!\p"
-	.string "Looks like you've come a long way.\p"
-	.string "I used to have that title too,\n"
-	.string "you know. But I won't go easy.\p"
-	.string "Let's see if you can keep it up.\p"
-	.string "Want to have a rematch with me?$"
+	.string "{JPN}グリーン: おお チャンピオンか!\p"
+	.string "{JPN}ずいぶんとせいちょうしたな.\n"
+	.string "{JPN}オレもそのタイトルをもって\n"
+	.string "{JPN}たんだぜ.でもてかげんはしない.\n"
+	.string "{JPN}そのちからをたもてるか\n"
+	.string "{JPN}みせてもらおうか.\nもういちどたたかってくれるか?$"
 
 SaffronCity_FightingDojoVIP_Text_Blue_RematchDefeat:
-	.string "BLUE: What?\p"
-	.string "How the heck did I lose again?$"
+	.string "{JPN}グリーン: なんだって?\p"
+	.string "{JPN}どうしてまたまけちまったんだ?$"
 

@@ -32,22 +32,22 @@ SootopolisCity_House6_EventScript_NoRoomForWailmerDoll::
 	end
 
 SootopolisCity_House6_Text_FirstGuestInWhileTakeDoll:
-	.string "Hello! You're our first guest in\n"
-	.string "a good while.\p"
-	.string "You've brightened up my day, so I'll\n"
-	.string "give you a big WAILMER DOLL.$"
+	.string "{JPN}こんにちは! ひさしぶりの\n"
+	.string "{JPN}おきゃくさんですね.\p"
+	.string "{JPN}あなたがきてくれて うれしいので\n"
+	.string "{JPN}おおきな ホエルコにんぎょうを\nさしあげます!$"
 
 SootopolisCity_House6_Text_TakeGoodCareOfIt:
-	.string "Take good care of it!$"
+	.string "{JPN}たいせつにしてくださいね!$"
 
 SootopolisCity_House6_Text_IllHoldItForYou:
-	.string "Oh, you want it, but not right now?\n"
-	.string "Okay, then I'll hold it for you.$"
+	.string "{JPN}あら ほしいけど いますぐは\n"
+	.string "{JPN}いらないのですね?\nわかりました.とっておきますね.$"
 
 SootopolisCity_House6_Text_DontWantThisDoll:
-	.string "Are you sure?\n"
-	.string "You don't want this DOLL?$"
+	.string "{JPN}ほんとうに だいじょうぶですか?\n"
+	.string "{JPN}このにんぎょうは いりませんか?$"
 
 SootopolisCity_House6_Text_LovePlushDolls:
-	.string "I love plush DOLLS!$"
+	.string "{JPN}わたし ぬいぐるみにんぎょうが\nだいすきなんです!$"
 

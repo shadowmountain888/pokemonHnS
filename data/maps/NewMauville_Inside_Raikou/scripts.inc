@@ -20,10 +20,10 @@ NewMauville_Inside_Raikou_EntranceTrigger::
 	end
 
 NewMauville_Inside_Raikou_EntranceTrigger_Text:
-	.string "A big roar echoes around NEW\n"
-	.string "MAUVILLE.\p"
-	.string "Is there something hiding in\n"
-	.string "this place?$"
+	.string "{JPN}おおきな ほえごえが\n"
+	.string "{JPN}ニューキンセツに ひびく.\p"
+	.string "{JPN}このばしょに なにかが\n"
+	.string "{JPN}かくれているのか?$"
 
 NewMauville_Inside_Raikou_EntranceTrigger_Movement:
 	delay_16
@@ -80,7 +80,7 @@ NewMauville_Inside_Raikou_RaikouBattle_1_Movement:
 	step_end
 
 NewMauville_Inside_Raikou_RaikouBattle_1_Text:
-	.string "It ran away faster than light!$"
+	.string "{JPN}ひかりよりも はやく\nにげていった!$"
 
 @@Second encounter with Raikou. Level 70, 400 speed, 300hp
 
@@ -131,7 +131,7 @@ NewMauville_Inside_Raikou_RaikouBattle_2_Movement:
 	step_end
 
 NewMauville_Inside_Raikou_RaikouBattle_2_Text:
-	.string "It ran away even faster than before!$"
+	.string "{JPN}まえよりも もっと はやく\nにげていった!$"
 
 @@ Final battle with Raikou, has 600hp and 400 speed, with magnet
 NewMauville_Inside_Raikou_RaikouBattle::
@@ -166,8 +166,8 @@ NewMauville_Inside_Raikou_RaikouBattle_3_Stats::
 	return
 
 NewMauville_Inside_Raikou_RaikouBattle_Text::
-	.string "RAIKOU stopped running away.\n"
-	.string "Can it be captured now?$"
+	.string "{JPN}ライコウは にげるのを\n"
+	.string "{JPN}やめた.\nいまなら つかまえられるか?$"
 
 NewMauville_Inside_Raikou_Won::
 	setflag FLAG_DEFEATED_RAIKOU

@@ -86,17 +86,17 @@ AquaHideout_UnusedRubyMap2_EventScript_CloseBrailleMsg::
 	end
 
 AquaHideout_UnusedRubyMap2_EventScript_CloseBrailleMsgText::
-	.string "There's a hole.\p"
-	.string "Maybe I can put something\n"
-	.string "inside it.$"
+	.string "{JPN}あながある.\p"
+	.string "{JPN}なにかを いれることが\n"
+	.string "{JPN}できそうだ.$"
 
 AquaHideout_UnusedRubyMap2_EventScript_CloseBrailleMsgText2::
-	.string "The SAPPHIRE fits perfectly\n"
-	.string "into the hole!$"
+	.string "{JPN}サファイアが あなに\n"
+	.string "{JPN}ぴったりと はまった!$"
 
 AquaHideout_UnusedRubyMap2_EventScript_CloseBrailleMsgText3::
-	.string "Hmmm…\p"
-	.string "Nope, that's not it.$"
+	.string "{JPN}うーん...\p"
+	.string "{JPN}ちがうみたいだ.$"
 
 AquaHideout_UnusedRubyMap2_EventScript_Regieleki::
 	lock

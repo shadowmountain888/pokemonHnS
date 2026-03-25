@@ -32,47 +32,41 @@ Route3_EventScript_Sign::
 	end
 
 Route3_Text_FirebreatherOtis_Seen:
-	.string "Ah! The weather's as fine as ever.$"
+	.string "{JPN}ああ! きょうも いい てんきだなあ!$"
 
 Route3_Text_FirebreatherOtis_Beaten:
-	.string "It's sunny, but I'm all wet…$"
-
+	.string "{JPN}はれてるのに びしょぬれ\nだよ...$"
 Route3_Text_FirebreatherOtis_AfterBattle:
-	.string "When it rains, it's hard to get\n"
-	.string "ignition…$"
-
+	.string "{JPN}あめが ふると ひを\n"
+	.string "{JPN}つけるのが たいへんなんだ...$"
 Route3_Text_YoungsterWarren_Seen:
-	.string "Hmmm… I don't know what to do…$"
-
+	.string "{JPN}うーん... どうしたら\nいいのか わからない...$"
 Route3_Text_YoungsterWarren_Beaten:
-	.string "I knew I'd lose…$"
-
+	.string "{JPN}やっぱり まけちゃった...$"
 Route3_Text_YoungsterWarren_AfterBattle:
-	.string "You looked strong.\p"
-	.string "I was afraid to take you on…$"
-
+	.string "{JPN}きみは つよそうだったから\p"
+	.string "{JPN}\nたたかうのが こわかったんだ...$"
 Route3_Text_YoungsterJimmy_Seen:
-	.string "I can run like the wind!$"
+	.string "{JPN}おれは かぜのように はやく はしれるんだ!$"
 
 Route3_Text_YoungsterJimmy_Beaten:
-	.string "Blown away!$"
+	.string "{JPN}ふきとばされちゃった!$"
 
 Route3_Text_YoungsterJimmy_AfterBattle:
-	.string "I wear shorts the whole year round.\p"
-	.string "That's my fashion policy.$"
+	.string "{JPN}おれは いちねんじゅう たんパンなんだ.\p"
+	.string "{JPN}それが おれの ファッション!$"
 
 Route3_Text_FirebreatherBurt_Seen:
-	.string "Step right up and take a look!$"
+	.string "{JPN}さあさあ みていってよ!$"
 
 Route3_Text_FirebreatherBurt_Beaten:
-	.string "Yow! That's hot!$"
+	.string "{JPN}あちち! あついよ!$"
 
 Route3_Text_FirebreatherBurt_AfterBattle:
-	.string "The greatest fire-breather in KANTO,\n"
-	.string "that's me.\p"
-	.string "But not the best trainer…$"
-
+	.string "{JPN}カントーで いちばんの\n"
+	.string "{JPN}ファイヤーブレサーは ぼくさ\p"
+	.string "{JPN}\nでも トレーナーとしては\nいまいちだけどね...$"
 Route3_Text_MtMoonSquareSign:
-	.string "MT.MOON SQUARE\p"
-	.string "Just go up the stairs.$"
+	.string "{JPN}おつきみやま ひろば\p"
+	.string "{JPN}かいだんを のぼってね.$"
 

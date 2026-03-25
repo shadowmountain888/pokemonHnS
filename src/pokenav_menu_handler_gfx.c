@@ -20,11 +20,11 @@
 #include "random.h"
 #include "field_message_box.h"  // If ShowPokenavFieldMessage is here
 
-static const u8 gPokenavCallMsg1[] = _("DJ Ben here! Up next is\nPokémon Lullaby.");
-static const u8 gPokenavCallMsg2[] = _("Professor Oak’s talk:\n“Don’t forget to save!”");
-static const u8 gPokenavCallMsg3[] = _("Lucky Channel! Call now\nfor your prize number!");
-static const u8 gPokenavCallMsg4[] = _("This is Buena’s Password!\nToday’s password is 'Lapras'.");
-static const u8 gPokenavCallMsg5[] = _("Pokémon Music Channel:\nTime for the Poké Flute.");
+static const u8 gPokenavCallMsg1[] = _("{JPN}DJベンです！つぎは\nポケモンのこもりうたを\nおおくりします。");
+static const u8 gPokenavCallMsg2[] = _("{JPN}オーキドはかせのおはなし\nセーブをわすれずに！");
+static const u8 gPokenavCallMsg3[] = _("{JPN}ラッキーチャンネル！いまなら\nとうせんばんごうを\nおしえちゃいます！");
+static const u8 gPokenavCallMsg4[] = _("{JPN}ブエナのパスワード！\nきょうのパスワードは\nラプラスです。");
+static const u8 gPokenavCallMsg5[] = _("{JPN}ポケモンミュージック\nポケモンのふえの\nじかんです。");
 
 static const u8 *const sPokenavCallMessages[] =
 {

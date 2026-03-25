@@ -19,20 +19,20 @@ FuchsiaCity_EventScript_BaobaCall::
 	end
 
 FuchsiaCity_Text_Baoba:
-	.string "WARDEN BAOBA: {PLAYER}!\p"
-	.string "This is WARDEN BAOBA.\p"
-	.string "Something awful has happened!\n"
-	.string "My old SAFARI ZONE in FUCHSIA CITY\l"
-	.string "was bought out and reopened!\p"
-	.string "And apparently it has exotic new\n"
-	.string "POKéMON!\p"
-	.string "It's hurting my business!\p"
-	.string "{PLAYER}, you must venture into the\n"
-	.string "new SAFARI ZONE and catch a POKéMON\l"
-	.string "to show me. I must know about these\l"
-	.string "'exotic' POKéMON.\p"
-	.string "Please {PLAYER}, my business depends\n"
-	.string "on you!$"
+	.string "{JPN}えんちょう バオバ: {PLAYER}!\p"
+	.string "{JPN}わしは えんちょう バオバじゃ.\p"
+	.string "{JPN}たいへんな ことが おきたのじゃ!\n"
+	.string "{JPN}セキチクシティの わしの\l"
+	.string "{JPN}ふるい サファリゾーンが\l"
+	.string "{JPN}かいしゅうされて さいかいえん\l"
+	.string "{JPN}したのじゃ!\p"
+	.string "{JPN}そして どうやら しんしゅの\n"
+	.string "{JPN}ポケモンが いるらしいのじゃ!\p"
+	.string "{JPN}わしの しょうばいの じゃまを\n"
+	.string "{JPN}しておるのじゃ!\p"
+	.string "{JPN}{PLAYER}よ あたらしい サファリ\n"
+	.string "{JPN}ゾーンに いって ポケモンを\l"
+	.string "{JPN}つかまえて わしに みせて\lくれんか.その 'しんしゅの'\lポケモンに ついて しりたいのじゃ.\pたのむ {PLAYER}よ わしの\nしょうばいが かかっておるのじゃ!$"
 
 FuchsiaCity_EventScript_Dratini::
 	lock
@@ -95,44 +95,42 @@ FuchsiaCity_EventScript_SafariZone::
 	end
 
 FuchsiaCity_Text_Youngster:
-	.string "One of the ELITE FOUR used to be\n"
-	.string "the LEADER of FUCHSIA's GYM.$"
-
+	.string "{JPN}いまのしてんのうのひとりは\n"
+	.string "{JPN}セキチクジムの\l"
+	.string "{JPN}ジムリーダーだったんだぜ！$"
 FuchsiaCity_Text_PokefanM:
-	.string "KOGA's daughter succeeded him as\n"
-	.string "the GYM LEADER after he joined the\l"
-	.string "ELITE FOUR.$"
-
+	.string "{JPN}げんざいのジムリーダーは\n"
+	.string "{JPN}してんのうになった\l"
+	.string "{JPN}キョウさんのむすめさんだよ！$"
 FuchsiaCity_Text_Teacher:
-	.string "The SAFARI ZONE is under new\n"
-	.string "management.\p"
-	.string "And it has tons of new POKéMON!$"
+	.string "{JPN}サファリゾーンは あたらしい\n"
+	.string "{JPN}けいえいしゃに かわったのよ.\p"
+	.string "{JPN}そして あたらしい ポケモンが\nたくさん いるのよ!$"
 
 FuchsiaCity_Text_Sign:
-	.string "FUCHSIA CITY\p"
-	.string "Behold! It's Passion Pink!$"
+	.string "{JPN}セキチクシティ\p"
+	.string "{JPN}みよ! じょうねつの ピンクを!$"
 
 FuchsiaCity_Text_GymSign:
-	.string "FUCHSIA CITY POKéMON GYM\n"
-	.string "LEADER: JANINE\p"
-	.string "The Poisonous Ninja Master$"
-
+	.string "{JPN}セキチクシティポケモンジム\n"
+	.string "{JPN}リーダーアンズ\l"
+	.string "{JPN}どくのことならなんでもござれ$"
 FuchsiaCity_Text_SafariZoneOfficeSign:
-	.string "There's a notice here…\p"
-	.string "SAFARI ZONE OFFICE is closed until\n"
-	.string "further notice.$"
+	.string "{JPN}ここに おしらせが...\p"
+	.string "{JPN}サファリゾーン じむしょは\n"
+	.string "{JPN}とうぶんの あいだ へいてんです$"
 
 FuchsiaCity_Text_SafariZone:
-	.string "SAFARI ZONE\n"
-	.string "NOW OWNED BY\l"
-	.string "DEVON CORP.$"
+	.string "{JPN}サファリゾーン\n"
+	.string "{JPN}げんざい デボン\l"
+	.string "{JPN}コーポレーション\lしょゆう$"
 
 FuchsiaCity_Text_SafariZoneClosedSign:
-	.string "The WARDEN is traveling abroad.\p"
-	.string "Therefore, the SAFARI ZONE is\n"
-	.string "closed.$"
+	.string "{JPN}えんちょうは かいがい りょこう\n"
+	.string "{JPN}ちゅうです.\p"
+	.string "{JPN}そのため サファリゾーンは\nへいえん しております.$"
 
 FuchsiaCity_Text_NoLitteringSign:
-	.string "No littering.\p"
-	.string "Please take your waste with you.$"
+	.string "{JPN}ごみの ぽいすて きんし.\p"
+	.string "{JPN}ごみは おもちかえり\nください.$"
 

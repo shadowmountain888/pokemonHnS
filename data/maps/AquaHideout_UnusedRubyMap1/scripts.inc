@@ -180,23 +180,23 @@ AquaHideout_UnusedRubyMap1_EventScript_DusknoirButtonNo::
 	end
 
 AquaHideout_UnusedRubyMap1_EventScript_DusknoirButtonText:
-	.string "There should be a button\n"
-	.string "around here…\p"
-	.string "…\l"
-	.string "…\p"
-	.string "Oh!\n"
-	.string "There it is!\p"
-	.string "Should I press it?$"
+	.string "{JPN}このへんに ボタンが\n"
+	.string "{JPN}あるはずなんだが...\p"
+	.string "{JPN}...\l"
+	.string "{JPN}...\p"
+	.string "{JPN}あ!\n"
+	.string "{JPN}あったぞ!\p"
+	.string "{JPN}おしてみようか?$"
 
 AquaHideout_UnusedRubyMap1_EventScript_DusknoirButtonText2:
-	.string "You tried pressing\n"
-	.string "the button…\p"
-	.string "But a cold hand started\n"
-	.string "touching you!\p"
-	.string "Its grip is very strong!$"
+	.string "{JPN}ボタンを おそうと\n"
+	.string "{JPN}したが...\p"
+	.string "{JPN}つめたい てが あなたに\n"
+	.string "{JPN}さわってきた!\n"
+	.string "{JPN}にぎりが とても つよい!$"
 
 AquaHideout_UnusedRubyMap1_EventScript_DusknoirButtonText3::
-	.string "The button has been pressed.$"
+	.string "{JPN}ボタンが おされている.$"
 
 AquaHideout_UnusedRubyMap1_Movement:
 	step_end

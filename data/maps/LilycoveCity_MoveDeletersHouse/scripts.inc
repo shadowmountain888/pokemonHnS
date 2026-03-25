@@ -69,40 +69,39 @@ LilycoveCity_MoveDeletersHouse_EventScript_LastMonWithSurf::
 	end
 
 LilycoveCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove:
-	.string "Uh…\n"
-	.string "Oh, yes, I'm the MOVE DELETER.\p"
-	.string "I can make POKéMON forget their moves.\p"
-	.string "Would you like me to do that?$"
+	.string "{JPN}あー...\n"
+	.string "{JPN}ああ わたしはわすれオヤジです.\p"
+	.string "{JPN}ポケモンのわざを\n"
+	.string "{JPN}わすれさせることができます.\pそうしましょうか?$"
 
 LilycoveCity_MoveDeletersHouse_Text_WhichMonShouldForget:
-	.string "Which POKéMON should forget a move?$"
+	.string "{JPN}どの ポケモンに わざを\nわすれさせますか?$"
 
 LilycoveCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten:
-	.string "Which move should be forgotten?$"
+	.string "{JPN}どの わざを わすれさせますか?$"
 
 LilycoveCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove:
-	.string "{STR_VAR_1} knows only one move\n"
-	.string "so it can't be forgotten…$"
-
+	.string "{JPN}{STR_VAR_1}はわざを\n"
+	.string "{JPN}ひとつしかおぼえていないので\nわすれさせることはできません...$"
 LilycoveCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten:
-	.string "Hm! {STR_VAR_1}'s {STR_VAR_2}?\n"
-	.string "That move should be forgotten?$"
+	.string "{JPN}ふむ! {STR_VAR_1}の {STR_VAR_2}を\n"
+	.string "{JPN}わすれさせるのですね?$"
 
 LilycoveCity_MoveDeletersHouse_Text_MonHasForgottenMove:
-	.string "It worked to perfection!\p"
-	.string "{STR_VAR_1} has forgotten\n"
-	.string "{STR_VAR_2} completely.$"
+	.string "{JPN}うまくいきました!\p"
+	.string "{JPN}{STR_VAR_1}は {STR_VAR_2}を\n"
+	.string "{JPN}きれいに わすれました$"
 
 LilycoveCity_MoveDeletersHouse_Text_ComeAgain:
-	.string "Come again if there are moves that\n"
-	.string "need to be forgotten.$"
+	.string "{JPN}わすれさせたい わざがあったら\n"
+	.string "{JPN}また きてください$"
 
 LilycoveCity_MoveDeletersHouse_Text_EggCantForgetMoves:
-	.string "What?\n"
-	.string "No EGG should know any moves.$"
+	.string "{JPN}なに?\n"
+	.string "{JPN}タマゴが わざを おぼえているなんて!$"
 
 LilycoveCity_MoveDeletersHouse_Text_CantForgetSurf:
-	.string "Hm!\p"
-	.string "Your {STR_VAR_1} doesn't seem willing\n"
-	.string "to forget SURF.$"
+	.string "{JPN}ふむ!\p"
+	.string "{JPN}あなたの {STR_VAR_1}は\n"
+	.string "{JPN}なみのりを わすれたくないようです$"
 

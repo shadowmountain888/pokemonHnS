@@ -88,90 +88,84 @@ Route31_EventScript_ItemAntidote::
 	end
 
 Route31_Text_CooltrainerM:
-	.string "DARK CAVE…\p"
-	.string "If POKéMON could light it up,\n"
-	.string "I'd explore it.$"
-
+	.string "{JPN}くらやみのほらあな..\n"
+	.string "{JPN}ポケモンがあたりを\l"
+	.string "{JPN}あかるくするわざをつかえたらなあ\l"
+	.string "{JPN}なかをしらべてやるのに$"
 Route31_Text_BugCatcherWade1_Seen:
-	.string "I caught a bunch of POKéMON.\n"
-	.string "Let me battle with you!$"
+	.string "{JPN}ポケモンを たくさん\n"
+	.string "{JPN}つかまえたんだ.\lきみと バトルしよう!$"
 
 Route31_Text_BugCatcherWade1_Beaten:
-	.string "Awwwww…$"
-
+	.string "{JPN}あーあー...$"
 Route31_Text_BugCatcherWade1_After:
-	.string "You can catch POKéMON even if\n"
-	.string "you have six with you.\p"
-	.string "If you catch one, it'll go to\n"
-	.string "your BOX automatically.$"
+	.string "{JPN}ポケモンを 6ひき もっていても\n"
+	.string "{JPN}つかまえることが できるよ.\p"
+	.string "{JPN}つかまえると じどうてきに\n"
+	.string "{JPN}ボックスに おくられるんだ.$"
 
 Route31_Text_SleepyMan:
-	.string "… Hnuurg… Huh?\p"
-	.string "I walked too far today looking\n"
-	.string "for POKéMON.\p"
-	.string "My feet hurt and I'm sleepy…\p"
-	.string "If I were a wild POKéMON, I'd\n"
-	.string "be easy to catch…\p"
-	.string "…Zzzz…$"
-
+	.string "{JPN}うーんムニャムニャ..\p"
+	.string "{JPN}ポケモンさがしであるきすぎた\n"
+	.string "{JPN}あしはいたいしねむたいし..\p"
+	.string "{JPN}ぼくがやせいのポケモンだったら\n"
+	.string "{JPN}つかまりやすいじょうたいだ..\l"
+	.string "{JPN}ぐう..スヤスヤ..$"
 Route31_Text_SleepyManGotMail:
-	.string "…Zzzz… Huh?\p"
-	.string "What's that? You have MAIL\n"
-	.string "for me?$"
+	.string "{JPN}...zzz... ん?\p"
+	.string "{JPN}なんだって? わたしに\n"
+	.string "{JPN}メールを もってきたの?$"
 
 Route31_Text_SleepyManFail:
-	.string "…Zzzz…$"
-
+	.string "{JPN}...zzz...$"
 Route31_Text_HandOverMailMon:
-	.string "{PLAYER} handed over the\n"
-	.string "POKéMON holding the MAIL.$"
-
+	.string "{JPN}{PLAYER}はメールをもった\n"
+	.string "{JPN}ポケモンをわたした！$"
 Route31_Text_ReadingMail:
-	.string "Let's see…\p"
-	.string "Thanks for bringing this to\n"
-	.string "me.\p"
-	.string "My friend's a good guy, and\n"
-	.string "you're swell too!\p"
-	.string "I'd like to do something good\n"
-	.string "in return too!\p"
-	.string "I know! I want you to have\n"
-	.string "this!$"
+	.string "{JPN}えーっと...\p"
+	.string "{JPN}とどけてくれて\n"
+	.string "{JPN}ありがとう.\p"
+	.string "{JPN}ともだちは いいやつだし\n"
+	.string "{JPN}きみも いいひとだね!\p"
+	.string "{JPN}わたしも なにか\n"
+	.string "{JPN}おれいを したいよ!\p"
+	.string "{JPN}そうだ! これを\n"
+	.string "{JPN}きみに あげよう!$"
 
 Route31_Text_DescribeNightmare:
-	.string "That TM contains TORMENT.\p"
-	.string "It's a wicked move that\n"
-	.string "makes the enemy super nervous and\l"
-	.string "stops them from using the same\p"
-	.string "move multiple times in a row.$"
+	.string "{JPN}この わざマシンには いちゃもん\n"
+	.string "{JPN}が はいってる.\p"
+	.string "{JPN}あいてを イライラさせて\n"
+	.string "{JPN}おなじ わざを つづけて\l"
+	.string "{JPN}つかえなくする\pいやらしい わざなんだ.$"
 
 Route31_Text_WrongMail:
-	.string "This MAIL isn't for me.$"
-
+	.string "{JPN}これはぼくあての\n"
+	.string "{JPN}メールじゃないみたい..\p"
+	.string "{JPN}ぐぅ..$"
 Route31_Text_MissingMail:
-	.string "Why is this POKéMON so special?\p"
-	.string "It doesn't have any MAIL.$"
+	.string "{JPN}どうして この ポケモンが\n"
+	.string "{JPN}とくべつなんだ?\pメールを もってないじゃないか.$"
 
 Route31_Text_DeclinedToHandOverMail:
-	.string "What? You don't want\n"
-	.string "anything?$"
+	.string "{JPN}なんだって? なにも\n"
+	.string "{JPN}いらないって?$"
 
 Route31_Text_CantTakeLastMon:
-	.string "If I take that POKéMON from\n"
-	.string "you,\p"
-	.string "what are you going to use in\n"
-	.string "battle?$"
+	.string "{JPN}その ポケモンを もらったら\n"
+	.string "{JPN}きみは\p"
+	.string "{JPN}バトルで なにを つかうんだ?$"
+	.string ""
 
 Route31_Text_Youngster:
-	.string "I found a good POKéMON in DARK\n"
-	.string "CAVE.\p"
-	.string "I'm going to raise it to take\n"
-	.string "on FALKNER.\p"
-	.string "He's the leader of VIOLET\n"
-	.string "CITY's GYM.$"
-
+	.string "{JPN}くらやみのほらあなで\n"
+	.string "{JPN}いいポケモンつかまえた！\p"
+	.string "{JPN}こいつをきたえて\n"
+	.string "{JPN}キキョウのジムリーダー\l"
+	.string "{JPN}ハヤトにしょうぶをいどむぜ！$"
 Route31_Text_Sign:
-	.string "ROUTE 31\p"
-	.string "VIOLET CITY - CHERRYGROVE CITY$"
+	.string "{JPN}31ばんどうろ\p"
+	.string "{JPN}キキョウシティ - ヨシノシティ$"
 
 Route31_Text_DarkCaveSign:
-	.string "DARK CAVE$"
+	.string "{JPN}ここはくらやみのほらあな$"

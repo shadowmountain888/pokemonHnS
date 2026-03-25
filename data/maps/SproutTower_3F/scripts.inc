@@ -161,95 +161,88 @@ SproutTower_3F_Movement_EscapeRope:
 	step_end
 
 SproutTower_Text_ElderLecturesRival:
-	.string "ELDER: You are indeed skilled\n"
-	.string "as a trainer.\p"
-	.string "As promised, here is your HM.\p"
-	.string "But let me say this: You should\n"
-	.string "treat your POKéMON better.\p"
-	.string "The way you battle is far too\n"
-	.string "harsh.\p"
-	.string "POKéMON are not tools of war…$"
-
+	.string "{JPN}ろうじん:おまえは たしかに\n"
+	.string "{JPN}トレーナーとして うでが たつ.\p"
+	.string "{JPN}やくそく どおり ひでんマシンを\n"
+	.string "{JPN}わたそう.\p"
+	.string "{JPN}しかし ひとこと いわせて\n"
+	.string "{JPN}もらおう.ポケモンを もっと\n"
+	.string "{JPN}たいせつに あつかうべきじゃ.\p"
+	.string "{JPN}おまえの たたかいかたは\nあまりにも むじひすぎる.\pポケモンは せんそうの\nどうぐでは ないのじゃ...$"
 SproutTower_Text_RivalOnlyCaresStrong:
-	.string "…\n"
-	.string "…Humph!\p"
-	.string "He claims to be the ELDER but\n"
-	.string "he's weak.\p"
-	.string "It stands to reason.\p"
-	.string "I'd never lose to fools who babble\n"
-	.string "about being nice to POKéMON.\p"
-	.string "I only care about strong\n"
-	.string "POKéMON that can win.\p"
-	.string "I really couldn't care less\n"
-	.string "about weak POKéMON.$"
+	.string "{JPN}.........\p"
+	.string "{JPN}...フン!\nえらそうにちょうろうなんて\lなのっているくせして\l"
+	.string "{JPN}ぜんぜんはごたえないじゃないか\p"
+	.string "{JPN}...とうぜんだな\nポケモンにやさしくとか\l"
+	.string "{JPN}そんなあまいこといってるやつに\lオレがまけるわけがない\p"
+	.string "{JPN}オレにとってだいじなのは\nつよくてかてるポケモンだけ\p"
+	.string "{JPN}それいがいのポケモンなんか\nどうだっていいのさ\p$"
 
 SproutTower_Text_RivalUsedEscapeRope:
-	.string "{RIVAL} used an ESCAPE ROPE!$"
+	.string "{JPN}{RIVAL}は あなぬけのひもを\nつかった!$"
 
 SproutTower_Text_SageLi_Seen:
-	.string "So good of you to come here!\p"
-	.string "SPROUT TOWER is a place of\n"
-	.string "training.\p"
-	.string "People and POKéMON test their\n"
-	.string "bonds to build a bright future\l"
-	.string "together.\p"
-	.string "I am the final test.\p"
-	.string "Allow me to check the ties\n"
-	.string "between your POKéMON and you!$"
+	.string "{JPN}よくぞここまでまいられた!\p"
+	.string "{JPN}このマダツボミのとうは\nポケモンとひとが\lあかるいみらいをきずけるか"
+	.string "{JPN}\lしゅぎょうでたしかめるばしょ\p"
+	.string "{JPN}そしてさいごのしれんは\nこのわたし\p"
+	.string "{JPN}ではそなたとポケモンのきずな\nたしかめさせてもらいますぞ!\p$"
 
 SproutTower_Text_SageLi_Beaten:
-	.string "Ah, excellent!$"
+	.string "{JPN}ふうむ...\nそなたのたたかいかた\lじつにムダがない\p"
+	.string "{JPN}それならばハヤトどのとも\nごかくにわたりあえるであろう\p"
+	.string "{JPN}そして...そなたならば\nこれもつかいこなせるであろう\p"
+	.string "{JPN}フラッシュというなのわざマシン\nさあもっていきなされ!\p$"
 
 SproutTower_Text_SageLi_TakeFlash:
-	.string "You and your POKéMON should\n"
-	.string "have no problem using this move.\p"
-	.string "Take this FLASH HM.$"
+	.string "{JPN}ちょうろう: そなたのじつりょく\nたしかにいつわりなし...\p"
+	.string "{JPN}やくそくしたとおり\nこのわざマシンをわたそう\p"
+	.string "{JPN}だが...もうちいっと\nポケモンをいたわるべきですぞ\p"
+	.string "{JPN}そなたのたたかいかたは\nあまりにもきびしすぎる...\p"
+	.string "{JPN}ポケモンはたたかいの\nどうぐなどではないのです...\p$"
 
 SproutTower_Text_SageLi_FlashExplain:
-	.string "FLASH illuminates even the\n"
-	.string "darkest of all places.\p"
-	.string "But to use it out of battle, you\n"
-	.string "need the BADGE from VIOLET's GYM.$"
+	.string "{JPN}フラッシュをおぼえさせれば\nどれほどくらいところでも\l"
+	.string "{JPN}てらすことができますぞ\p"
+	.string "{JPN}たとえばマダツボミなどに\nおぼえさせるがよいであろう...$"
 
 SproutTower_Text_SageLi_AfterBattle:
-	.string "I hope you learn and grow from\n"
-	.string "your journey.$"
+	.string "{JPN}そなたのたびが\nみのりおおいものでありますように$"
 
 SproutTower_Text_SageJin_Seen:
-	.string "I train to find enlightenment\n"
-	.string "in POKéMON!$"
+	.string "{JPN}ポケモンと ともに さとりを\n"
+	.string "{JPN}ひらくため しゅぎょうちゅう!$"
 
 SproutTower_Text_SageJin_Beaten:
-	.string "My training is incomplete…$"
-
+	.string "{JPN}わしの しゅぎょうが\nたりなかった...$"
 SproutTower_Text_SageJin_AfterBattle:
-	.string "As POKéMON grow stronger,\n"
-	.string "so does the trainer.\p"
-	.string "No, wait. As the trainer\n"
-	.string "grows stronger, so do the\l"
-	.string "POKéMON.$"
+	.string "{JPN}ポケモンが つよくなると\n"
+	.string "{JPN}トレーナーも つよくなる.\p"
+	.string "{JPN}いや まてよ. トレーナーが\n"
+	.string "{JPN}つよくなると ポケモンも\l"
+	.string "{JPN}つよくなるのか.$"
 
 SproutTower_Text_SageTroy_Seen:
-	.string "Let me see how much you trust\n"
-	.string "your POKéMON.$"
+	.string "{JPN}あなたが ポケモンを\n"
+	.string "{JPN}どれほど しんらいしているか\lみせてもらいましょう.$"
 
 SproutTower_Text_SageTroy_Beaten:
-	.string "Yes, your trust is real!$"
+	.string "{JPN}はい あなたの しんらいは\nほんものです!$"
 
 SproutTower_Text_SageTroy_AfterBattle:
-	.string "It is not far to the ELDER.$"
+	.string "{JPN}ちょうろうのところまで\nもう ちかいですよ.$"
 
 SproutTower_Text_SageNeal_Seen:
-	.string "The ELDER's HM lights even\n"
-	.string "pitch-black darkness.$"
+	.string "{JPN}ちょうろうの ひでんマシンは\n"
+	.string "{JPN}まっくらやみも てらすのです.$"
 
 SproutTower_Text_SageNeal_Beaten:
-	.string "It is my head that is bright!$"
+	.string "{JPN}あかるいのは わたしの\nあたまでした!$"
 
 SproutTower_Text_SageNeal_AfterBattle:
-	.string "Let there be light on your\n"
-	.string "journey.$"
+	.string "{JPN}あなたの たびに ひかりが\n"
+	.string "{JPN}さしますように.$"
 
 SproutTower_Text_3F_Painting:
-	.string "It's a powerful painting of a\n"
-	.string "BELLSPROUT.$"
+	.string "{JPN}マダツボミの ちからづよい\n"
+	.string "{JPN}えが かかれている.$"

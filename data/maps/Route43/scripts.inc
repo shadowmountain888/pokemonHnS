@@ -51,94 +51,93 @@ Route43_EventScript_Item_Max_Ether::
 	end
 
 Route43_Text_PokemaniacBenSeen:
-    .string "I love POKéMON!\p"
-    .string "That's why I started--and why I'll\n"
-    .string "keep on collecting POKéMON!$"
+    .string "{JPN}ぼくは ポケモンが だいすきだ!\p"
+	.string "{JPN}だから はじめたんだし これからも\n"
+    .string "{JPN}ポケモンを あつめつづけるよ!$"
 
 Route43_Text_PokemaniacBenBeaten:
-    .string "How could you do this to me?$"
+    .string "{JPN}どうして こんなことを するんだ?$"
 
 Route43_Text_PokemaniacBenAfter:
-    .string "What else do I like besides\n"
-    .string "POKéMON?\p"
-    .string "MARY on the radio. I bet she's\n"
-    .string "cute!$"
+    .string "{JPN}ポケモン いがいに すきなものは\n"
+	.string "{JPN}なにかって?\p"
+    .string "{JPN}ラジオの マリーちゃんだよ きっと\n"
+	.string "{JPN}かわいいんだろうなあ!$"
 
 Route43_Text_PokemaniacBrentSeen:
-    .string "Hey! Do you have any rare\n"
-    .string "POKéMON?$"
+    .string "{JPN}おい! きみ めずらしい\n"
+	.string "{JPN}ポケモン もってる?$"
 
 Route43_Text_PokemaniacBrentBeaten:
-    .string "Oh, my poor POKéMON! Darlings!$"
+    .string "{JPN}ああ かわいそうな ぼくの\nポケモンたち!$"
 
 Route43_Text_PokemaniacBrentAfter:
-    .string "I'd be happy just to own a single\n"
-    .string "rare POKéMON.$"
+    .string "{JPN}めずらしい ポケモンを 1ぴきでも\n"
+	.string "{JPN}もてれば うれしいんだけどなあ$"
 
 Route43_Text_PokemaniacRonSeen:
-    .string "Would you get this?\p"
-    .string "Some {RIVAL} guy made fun of my\n"
-    .string "POKéMON!\p"
-    .string "Darn it! My POKéMON's great!$"
+    .string "{JPN}しんじられるかい?\p"
+	.string "{JPN}{RIVAL}って やつが ぼくの\n"
+    .string "{JPN}ポケモンを ばかにしたんだ!\p"
+	.string "{JPN}くそう! ぼくの ポケモンは\nすごいんだぞ!$"
 
 Route43_Text_PokemaniacRonBeaten:
-    .string "My NIDOKING did pretty right on!$"
+    .string "{JPN}ぼくの ニドキング よく\nがんばったよな!$"
 
 Route43_Text_PokemaniacRonAfter:
-    .string "It's okay for people to like\n"
-    .string "different types of POKéMON.\p"
-    .string "POKéMON isn't just about having the\n"
-    .string "most powerful one.$"
+    .string "{JPN}ひとそれぞれ ちがう タイプの\n"
+	.string "{JPN}ポケモンを すきになっていいんだ\p"
+    .string "{JPN}ポケモンは いちばん つよいのを\n"
+	.string "{JPN}もつだけじゃ ないんだよ$"
 
 Route43_Text_FisherMarvinSeen:
-    .string "I'm in a slump.\p"
-    .string "Maybe it's the gear I'm using.\p"
-    .string "Let's battle for a change of pace!$"
+    .string "{JPN}さいきん ちょうしが わるいんだ\p"
+	.string "{JPN}たぶん つかってる どうぐが\n"
+    .string "{JPN}わるいんだろうな\pきぶんてんかんに しょうぶしよう!$"
 
 Route43_Text_FisherMarvinBeaten:
-    .string "I lost, but I feel better anyway.$"
+    .string "{JPN}まけちゃったけど きぶんは\nよくなったよ$"
 
 Route43_Text_FisherMarvinAfter:
-    .string "KURT's LURE BALL is the best for\n"
-    .string "catching hooked POKéMON.\p"
-    .string "It's much more effective than a\n"
-    .string "ULTRA BALL.$"
+    .string "{JPN}ガンテツの ルアーボールが\n"
+	.string "{JPN}つりあげた ポケモンには さいこうだ\p"
+    .string "{JPN}ハイパーボールより ずっと\n"
+	.string "{JPN}こうかてきなんだ$"
 
 Route43_Text_CamperSpencerSeen:
-    .string "I can do so much with my\n"
-    .string "POKéMON--it's super-fun!$"
+    .string "{JPN}ぼくの ポケモンと いろんなことが\n"
+	.string "{JPN}できて とても たのしいよ!$"
 
 Route43_Text_CamperSpencerBeaten:
-    .string "Losing isn't fun at all…$"
-
+    .string "{JPN}まけるのは ちっとも\nたのしくないよ...$"
 Route43_Text_CamperSpencerAfter:
-    .string "What is going on at LAKE OF RAGE?\p"
-    .string "We were planning to camp there.$"
+    .string "{JPN}いかりのみずうみで なにが\n"
+	.string "{JPN}おこってるんだろう?\pそこで キャンプする よていだったのに$"
 
 Route43_Text_PicnickerTiffanySeen:
-    .string "Are you going to LAKE OF RAGE too?\p"
-    .string "Let's play for a little while!$"
+    .string "{JPN}あなたも いかりのみずうみに\n"
+	.string "{JPN}いくの?\pちょっと あそんでいかない?$"
 
 Route43_Text_PicnickerTiffanyBeaten:
-    .string "I played too much!$"
+    .string "{JPN}あそびすぎちゃった!$"
 
 Route43_Text_PicnickerTiffanyWantsPicnic:
-    .string "I'm having a picnic with POKéMON.\p"
-    .string "Won't you join us?$"
+    .string "{JPN}ポケモンと いっしょに\n"
+	.string "{JPN}ピクニックしてるの\pいっしょに どう?$"
 
 Route43_Sign1:
-    .string "ROUTE 43\p"
-    .string "LAKE OF RAGE - MAHOGANY TOWN$"
+    .string "{JPN}43ばんどうろ\p"
+	.string "{JPN}いかりのみずうみ - チョウジタウン$"
 
 Route43_Sign2:
-    .string "ROUTE 43\p"
-    .string "LAKE OF RAGE - MAHOGANY TOWN$"
+    .string "{JPN}43ばんどうろ\p"
+	.string "{JPN}いかりのみずうみ - チョウジタウン$"
 
 Route43_TrainerTips:
-    .string "TRAINER TIPS\p"
-    .string "All POKéMON have pros and cons\n"
-    .string "depending on their types.\p"
-    .string "If their types differ, a higher-\n"
-    .string "level POKéMON may lose in battle.\p"
-    .string "Learn which types are strong and\n"
-    .string "weak against your POKéMON's type.$"
+    .string "{JPN}トレーナーの こころえ\p"
+	.string "{JPN}ポケモンは タイプによって\n"
+    .string "{JPN}とくいふとくいが あります\p"
+	.string "{JPN}タイプが ちがえば レベルの\n"
+    .string "{JPN}たかい ポケモンでも まけることが\p"
+	.string "{JPN}じぶんの ポケモンの タイプに\n"
+    .string "{JPN}つよいもの よわいものを おぼえよう$"

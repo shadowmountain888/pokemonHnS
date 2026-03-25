@@ -135,31 +135,29 @@ Route42_Movement_Eusine2:
 	step_end
 
 Route42_Text_EusineAdmireSuicune:
-	.string "EUSINE: SUICUNE...\n"
-	.string "How brave it is!\p"
-	.string "How refreshing it is!\n"
-	.string "How beautiful it is!\p"
-	.string "And how quickly it moves!$"
-
+	.string "{JPN}スイクン..\n"
+	.string "{JPN}なんといさましく\l"
+	.string "{JPN}なんとみずみずしく\l"
+	.string "{JPN}なんとうつくしく\l"
+	.string "{JPN}なんとすばしっこいのだ！$"
 Route42_Text_EusineJealous:
-	.string "{PLAYER}!\p"
-	.string "You seem to be around where\n"
-	.string "SUICUNE would appear.\p"
-	.string "Well, that's OK.\l"
-	.string "My desire to search for\n"
-	.string "SUICUNE is far beyond yours...\p"
-	.string "My grandpa was... quite into\n"
-	.string "myths.\p"
-	.string "I've heard so many stories\n"
-	.string "about SUICUNE from him.$"
-
+	.string "{JPN}{PLAYER}！\n"
+	.string "{JPN}きみはいつもスイクンが\l"
+	.string "{JPN}あらわれるところにいるんだな\p"
+	.string "{JPN}まあいいさ\n"
+	.string "{JPN}スイクンをおいもとめるきもちは\l"
+	.string "{JPN}わたしのほうがうえなんだ\p"
+	.string "{JPN}わたしのそふは..\n"
+	.string "{JPN}でんせつにくわしいひとでね\l"
+	.string "{JPN}とくにスイクンのことは\l"
+	.string "{JPN}こどものころから\l"
+	.string "{JPN}なんどもきかされていたんだ$"
 Route42_Text_EusineWontGiveUp:
-	.string "SUICUNE...\n"
-	.string "I won't stop following you\l"
-	.string "until I've found out what\l"
-	.string "you're after...\p"
-	.string "You hear me!$"
-
+	.string "{JPN}スイクン..\p"
+	.string "{JPN}おまえがどこにむかっているのか\n"
+	.string "{JPN}それをみとどけるまで\l"
+	.string "{JPN}わたしはおいつづけるぜ..\p"
+	.string "{JPN}いいな！$"
 
 Route42_EventScript_Tully::
 	trainerbattle_single TRAINER_TULLY Route42_Text_FisherTullySeen, Route42_Text_FisherTullyBeaten
@@ -201,51 +199,49 @@ Route42_EventScript_Item_UltraBall::
 	end
 
 Route42_Text_FisherTullySeen:
-	.string "Let me demonstrate the power\n"
-	.string "of the POKéMON I caught!$"
+	.string "{JPN}おれが つった ポケモンの\n"
+	.string "{JPN}ちからを みせて やる!$"
 
 Route42_Text_FisherTullyBeaten:
-	.string "What? That's not right.\n"
-	.string "I can't believe this!$"
+	.string "{JPN}なんだと? そんな ばかな.\n"
+	.string "{JPN}しんじられない!$"
 
 Route42_Text_FisherTullyAfter:
-	.string "I want to become the trainer\n"
-	.string "CHAMP using the POKéMON I\l"
-	.string "caught myself.\p"
-	.string "That's the best part of fishing!$"
+	.string "{JPN}じぶんで つった ポケモンで\n"
+	.string "{JPN}チャンピオンに なりたいんだ.\l"
+	.string "{JPN}それが つりの だいごみさ!\p"
+	.string "{JPN}それが つりの さいこうの\nたのしみ なんだよ!$"
 
 Route42_Text_HikerBenjaminSeen:
-	.string "Ah, it's good to be outside!\n"
-	.string "I feel so free!$"
+	.string "{JPN}ああ  そとは きもちが いいな!\n"
+	.string "{JPN}じゆうを かんじるよ!$"
 
 Route42_Text_HikerBenjaminBeaten:
-	.string "Gahahah! That was a good\n"
-	.string "battle!$"
+	.string "{JPN}がははは! いい しょうぶ\n"
+	.string "{JPN}だった!$"
 
 Route42_Text_HikerBenjaminAfter:
-	.string "Losing feels insignificant\n"
-	.string "if you look up at the big sky!$"
+	.string "{JPN}おおきな そらを みあげれば\n"
+	.string "{JPN}まけても たいした ことじゃ\lないって おもえるよ!$"
 
 Route42_Text_PokemaniacShaneSeen:
-	.string "HEY!\p"
-	.string "This is my secret place!\n"
-	.string "Get lost, you outsider!$"
+	.string "{JPN}おい!\p"
+	.string "{JPN}ここは おれの ひみつの\n"
+	.string "{JPN}ばしょだ!\lよそものは うせろ!$"
 
 Route42_Text_PokemaniacShaneBeaten:
-	.string "I should have used my\n"
-	.string "MOON STONE…$"
-
+	.string "{JPN}つきのいしを つかえば\n"
+	.string "{JPN}よかった...$"
 Route42_Text_PokemaniacShaneAfter:
-	.string "You're working on a POKéDEX?\p"
-	.string "Wow, you must know some\n"
-	.string "pretty rare POKéMON!\p"
-	.string "May I please see it?\n"
-	.string "Please?$"
+	.string "{JPN}ポケモンずかんを つくってる\n"
+	.string "{JPN}のか?\p"
+	.string "{JPN}わあ  きっと めずらしい\n"
+	.string "{JPN}ポケモンを しってるんだな!\p"
+	.string "{JPN}ちょっと みせて くれない?\nおねがい!$"
 
 Route42_Text_Sign1:
-	.string "ROUTE 42\p"
-	.string "ECRUTEAK CITY - MAHOGANY TOWN$"
-
+	.string "{JPN}ここは42ばんどうろ\n"
+	.string "{JPN}ひがしチョウジタウン$"
 Route42_Text_MtMortarSign1:
-	.string "MT.MORTAR\p"
-	.string "WATERFALL CAVE INSIDE$"
+	.string "{JPN}スリバチやま\n"
+	.string "{JPN}なかはおおたきのどうくつ$"

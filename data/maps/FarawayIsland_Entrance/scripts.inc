@@ -48,9 +48,9 @@ FarawayIsland_Entrance_EventScript_Sign::
 	end
 
 FarawayIsland_Entrance_Text_Sign2:
-	.string "The writing is fading as if it\n"
-	.string "was written a long time ago..\p"
-	.string "..ber, 6th day If any human..\n"
-	.string "sets foot here.. again..et it\l"
-	.string "be a kindhearted pers.. ..ith\l"
-	.string "that hope, I depar..$"
+	.string "{JPN}ふるい ぶんしょうのようで\n"
+	.string "{JPN}もじが かすれている..\p"
+	.string "{JPN}..がつ 6にち もし にんげんが..\n"
+	.string "{JPN}ここに あしを ふみいれたなら..\l"
+	.string "{JPN}やさしいこころの ひとで\l"
+	.string "{JPN}ありますように.. そのねがいを\lこめて わたしは たびだつ..$"

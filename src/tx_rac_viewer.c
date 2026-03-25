@@ -113,94 +113,94 @@ static u16 sCurIndex;   // absolute row index on current page
 
 // --- Viewer-only text/colors (keep local; do not export) ---
 //page 1 Mode
-static const u8 sText_InfiniteTMs_Label[]   = _("REUSABLE TMS");
-static const u8 sText_SurvivePoison_Label[] = _("SURVIVE POISON");
-static const u8 sText_Synchronize_Label[]   = _("SYNCHRONIZE");
-static const u8 sText_Mints_Label[]         = _("NATURE MINTS");
-static const u8 sText_NewCitrus_Label[]     = _("SITRUS BERRY");
-static const u8 sText_FairyTypes_Label[]    = _("ADD FAIRY TYPE");
-static const u8 sText_Sturdy_Label[]        = _("STURDY");
-static const u8 sText_ModernMoves_Label[]   = _("{PKMN} MOVEPOOL");
-static const u8 sText_LegendaryAbils_Label[]= _("LEGEN. ABILITIES");
+static const u8 sText_InfiniteTMs_Label[]   = _("{JPN}わざマシンさいしよう");
+static const u8 sText_SurvivePoison_Label[] = _("{JPN}どくでたおれない");
+static const u8 sText_Synchronize_Label[]   = _("{JPN}シンクロ");
+static const u8 sText_Mints_Label[]         = _("{JPN}せいかくミント");
+static const u8 sText_NewCitrus_Label[]     = _("{JPN}オボンのみ");
+static const u8 sText_FairyTypes_Label[]    = _("{JPN}フェアリータイプ");
+static const u8 sText_Sturdy_Label[]        = _("{JPN}がんじょう");
+static const u8 sText_ModernMoves_Label[]   = _("{JPN}{PKMN}わざこうせい");
+static const u8 sText_LegendaryAbils_Label[]= _("{JPN}でんせつとくせい");
 
 //page 2 Features
-static const u8 sText_RTCType_Label[]      = _("CLOCK TYPE");
-static const u8 sText_ShinyChance_Label[]  = _("SHINY CHANCE");
-static const u8 sText_ItemDrops_Label[]    = _("ITEM DROP");
-static const u8 sText_FrontierBans_Label[] = _("FRONTIER BANS");
-static const u8 sText_ShinyColors_Label[]  = _("SHINY COLORS");
+static const u8 sText_RTCType_Label[]      = _("{JPN}とけいタイプ");
+static const u8 sText_ShinyChance_Label[]  = _("{JPN}いろちがいかくりつ");
+static const u8 sText_ItemDrops_Label[]    = _("{JPN}アイテムドロップ");
+static const u8 sText_FrontierBans_Label[] = _("{JPN}バトルフロンティア");
+static const u8 sText_ShinyColors_Label[]  = _("{JPN}いろちがいカラー");
 
 // page 3 (Randomizer)
-static const u8 sText_Randomizer[]            = _("RANDOMIZER");
-static const u8 sText_Rand_Starter[]          = _("STARTER POKéMON");
-static const u8 sText_Rand_Wild[]             = _("WILD POKéMON");
-static const u8 sText_Rand_Trainer[]          = _("TRAINER");
-static const u8 sText_Rand_Static[]           = _("RANDOM STATIC");
-static const u8 sText_Rand_SimilarEvoLvl[]    = _("BALANCING");
-static const u8 sText_Rand_IncludeLegends[]   = _("LEGENDARIES");
-static const u8 sText_Rand_Type[]             = _("TYPE");
-static const u8 sText_Rand_Moves[]            = _("MOVES");
-static const u8 sText_Rand_Abilities[]        = _("ABILITIES");
-static const u8 sText_Rand_Evolutions[]       = _("EVOLUTIONS");
-static const u8 sText_Rand_EvoMethods[]       = _("EVO LINES");
-static const u8 sText_Rand_TypeEffect[]       = _("EFFECTIVENESS");
-static const u8 sText_Rand_Items[]            = _("ITEMS");
-static const u8 sText_Rand_Chaos[]            = _("CHAOS");
+static const u8 sText_Randomizer[]            = _("{JPN}ランダマイザー");
+static const u8 sText_Rand_Starter[]          = _("{JPN}はじまりポケモン");
+static const u8 sText_Rand_Wild[]             = _("{JPN}やせいポケモン");
+static const u8 sText_Rand_Trainer[]          = _("{JPN}トレーナー");
+static const u8 sText_Rand_Static[]           = _("{JPN}ランダムこてい");
+static const u8 sText_Rand_SimilarEvoLvl[]    = _("{JPN}バランスちょうせい");
+static const u8 sText_Rand_IncludeLegends[]   = _("{JPN}でんせつポケモン");
+static const u8 sText_Rand_Type[]             = _("{JPN}タイプ");
+static const u8 sText_Rand_Moves[]            = _("{JPN}わざ");
+static const u8 sText_Rand_Abilities[]        = _("{JPN}とくせい");
+static const u8 sText_Rand_Evolutions[]       = _("{JPN}しんか");
+static const u8 sText_Rand_EvoMethods[]       = _("{JPN}しんかライン");
+static const u8 sText_Rand_TypeEffect[]       = _("{JPN}こうかばつぐん");
+static const u8 sText_Rand_Items[]            = _("{JPN}アイテム");
+static const u8 sText_Rand_Chaos[]            = _("{JPN}カオス");
 
 
 // page 4 (Nuzlocke)
-static const u8 sText_Nuz_Nuzlocke[]         = _("NUZLOCKE");
-static const u8 sText_Nuz_Hardcore[]         = _("NUZLOCKE HARDCORE");
-static const u8 sText_Nuz_Mode[]             = _("NUZLOCKE MODE");
-static const u8 sText_Nuz_SpeciesClause[]    = _("DUPES CLAUSE");
-static const u8 sText_Nuz_ShinyClause[]      = _("SHINY CLAUSE");
-static const u8 sText_Nuz_Nicknaming[]       = _("NICKNAMES");
-static const u8 sText_Nuz_Fainting[]         = _("FAINTING");
-static const u8 sText_Nuz_RareCandy[]        = _("INF. RARE CANDY");
+static const u8 sText_Nuz_Nuzlocke[]         = _("{JPN}ヌケニン");
+static const u8 sText_Nuz_Hardcore[]         = _("{JPN}ヌケニンハードコア");
+static const u8 sText_Nuz_Mode[]             = _("{JPN}ヌケニンモード");
+static const u8 sText_Nuz_SpeciesClause[]    = _("{JPN}じゅうふくきんし");
+static const u8 sText_Nuz_ShinyClause[]      = _("{JPN}いろちがいきんし");
+static const u8 sText_Nuz_Nicknaming[]       = _("{JPN}ニックネーム");
+static const u8 sText_Nuz_Fainting[]         = _("{JPN}ひんしじのしょり");
+static const u8 sText_Nuz_RareCandy[]        = _("{JPN}ふしぎなアメむげん");
 
 // page 5 (Difficulty) — labels
-static const u8 sText_Diff_PartyLimit[]      = _("PARTY LIMIT");
-static const u8 sText_Diff_LevelCap[]        = _("LEVEL CAP");
-static const u8 sText_Diff_ExpMult[]         = _("EXP. MULTIPLIER");
-static const u8 sText_Diff_NoItemPlayer[]    = _("PLAYER ITEMS");
-static const u8 sText_Diff_NoItemTrainer[]   = _("TRAINER ITEMS");
-static const u8 sText_Diff_PartyIVs[]        = _("PLAYER IVs");
-static const u8 sText_Diff_TrainerIVs[]      = _("TRAINER IVs");
-static const u8 sText_Diff_PlayerEVs[]       = _("PLAYER EVs");
-static const u8 sText_Diff_TrainerEVs[]      = _("TRAINER EVs");
-static const u8 sText_Diff_LessEscapes[]     = _("LESS ESCAPES");
-static const u8 sText_Diff_EscapeRopeDig[]   = _("ESC. ROPE / DIG");
+static const u8 sText_Diff_PartyLimit[]      = _("{JPN}パーティせいげん");
+static const u8 sText_Diff_LevelCap[]        = _("{JPN}レベルキャップ");
+static const u8 sText_Diff_ExpMult[]         = _("{JPN}けいけんちばいりつ");
+static const u8 sText_Diff_NoItemPlayer[]    = _("{JPN}プレイヤーアイテム");
+static const u8 sText_Diff_NoItemTrainer[]   = _("{JPN}トレーナーアイテム");
+static const u8 sText_Diff_PartyIVs[]        = _("{JPN}プレイヤーこたいち");
+static const u8 sText_Diff_TrainerIVs[]      = _("{JPN}トレーナーこたいち");
+static const u8 sText_Diff_PlayerEVs[]       = _("{JPN}プレイヤーどりょくち");
+static const u8 sText_Diff_TrainerEVs[]      = _("{JPN}トレーナーどりょくち");
+static const u8 sText_Diff_LessEscapes[]     = _("{JPN}にげるかいすうげん");
+static const u8 sText_Diff_EscapeRopeDig[]   = _("{JPN}あなをほる/ロープ");
 
 // page 6 (Other Challenges) — labels
-static const u8 sText_Chk_PkmnCenter[]        = _("POKéCENTER");
-static const u8 sText_Chk_PCHeal[]            = _("PC HEAL {PKMN}");
-static const u8 sText_Chk_Expensive[]         = _("ULTRA EXPENSIVE!");
-static const u8 sText_Chk_EvoLimit[]          = _("EVO LIMIT");
-static const u8 sText_Chk_OneType[]           = _("ONE TYPE ONLY");
-static const u8 sText_Chk_BaseStatEq[]        = _("BST EQUALIZER");
-static const u8 sText_Chk_Mirror[]            = _("MIRROR MODE");
-static const u8 sText_Chk_MirrorThief[]       = _("MIRROR THIEF");
+static const u8 sText_Chk_PkmnCenter[]        = _("{JPN}ポケモンセンター");
+static const u8 sText_Chk_PCHeal[]            = _("{JPN}PCで{PKMN}かいふく");
+static const u8 sText_Chk_Expensive[]         = _("{JPN}ちょうこうがく!");
+static const u8 sText_Chk_EvoLimit[]          = _("{JPN}しんかせいげん");
+static const u8 sText_Chk_OneType[]           = _("{JPN}1タイプのみ");
+static const u8 sText_Chk_BaseStatEq[]        = _("{JPN}しゅたいちとういつ");
+static const u8 sText_Chk_Mirror[]            = _("{JPN}ミラーモード");
+static const u8 sText_Chk_MirrorThief[]       = _("{JPN}ミラーシーフ");
 
 //Options
-static const u8 sText_On[]  = _("ON");
-static const u8 sText_Off[] = _("OFF");
-static const u8 sText_Yes[]   = _("YES");
-static const u8 sText_No[]    = _("NO");
-static const u8 sText_Original[]  = _("ORIGINAL");
-static const u8 sText_Modern[]    = _("MODERN");
-static const u8 sText_RTC[]     = _("RTC");
-static const u8 sText_FakeRTC[] = _("FAKE RTC");
-static const u8 sText_Frontier_Ban[]     = _("BAN");
-static const u8 sText_Frontier_Unban[]   = _("UNBAN");
-static const u8 sText_Nuz_Mode_Off[]        = _("OFF");
-static const u8 sText_Nuz_Mode_Easy[]       = _("EASY");
-static const u8 sText_Nuz_Mode_Standard[]   = _("NORMAL");
-static const u8 sText_Nuz_Mode_Hardcore[]   = _("HARD");
-static const u8 sText_Nuz_Fainting_Cemetery[]   = _("CEMETERY");
-static const u8 sText_Nuz_Fainting_Release[]    = _("RELEASE");
+static const u8 sText_On[]  = _("{JPN}ON");
+static const u8 sText_Off[] = _("{JPN}OFF");
+static const u8 sText_Yes[]   = _("{JPN}はい");
+static const u8 sText_No[]    = _("{JPN}いいえ");
+static const u8 sText_Original[]  = _("{JPN}オリジナル");
+static const u8 sText_Modern[]    = _("{JPN}モダン");
+static const u8 sText_RTC[]     = _("{JPN}RTC");
+static const u8 sText_FakeRTC[] = _("{JPN}ぎじRTC");
+static const u8 sText_Frontier_Ban[]     = _("{JPN}きんし");
+static const u8 sText_Frontier_Unban[]   = _("{JPN}きんしかいじょ");
+static const u8 sText_Nuz_Mode_Off[]        = _("{JPN}OFF");
+static const u8 sText_Nuz_Mode_Easy[]       = _("{JPN}かんたん");
+static const u8 sText_Nuz_Mode_Standard[]   = _("{JPN}ふつう");
+static const u8 sText_Nuz_Mode_Hardcore[]   = _("{JPN}むずかしい");
+static const u8 sText_Nuz_Fainting_Cemetery[]   = _("{JPN}ぼち");
+static const u8 sText_Nuz_Fainting_Release[]    = _("{JPN}にがす");
 
 // Party Limit: OFF,5,4,3,2,1
-static const u8 sPL_Off[] = _("OFF");
+static const u8 sPL_Off[] = _("{JPN}OFF");
 static const u8 sPL_5[]   = _("5");
 static const u8 sPL_4[]   = _("4");
 static const u8 sPL_3[]   = _("3");
@@ -209,69 +209,69 @@ static const u8 sPL_1[]   = _("1");
 static const u8 *const sText_Diff_PartyLimit_Strings[] = {
     sPL_Off, sPL_5, sPL_4, sPL_3, sPL_2, sPL_1
 };
-static const u8 sLC_Off[]  = _("OFF");
-static const u8 sLC_Easy[] = _("EASY");
-static const u8 sLC_Hard[] = _("HARD");
+static const u8 sLC_Off[]  = _("{JPN}OFF");
+static const u8 sLC_Easy[] = _("{JPN}かんたん");
+static const u8 sLC_Hard[] = _("{JPN}むずかしい");
 static const u8 *const sText_Diff_LevelCap_Strings[] = {
     sLC_Off, sLC_Easy, sLC_Hard
 };
-static const u8 sEM_1x[]   = _("1x");
-static const u8 sEM_15x[]  = _("1.5x");
-static const u8 sEM_2x[]   = _("2x");
-static const u8 sEM_0x[]   = _("0x");
+static const u8 sEM_1x[]   = _("{JPN}1x");
+static const u8 sEM_15x[]  = _("{JPN}1.5x");
+static const u8 sEM_2x[]   = _("{JPN}2x");
+static const u8 sEM_0x[]   = _("{JPN}0x");
 static const u8 *const sText_Diff_ExpMult_Strings[] = {
     sEM_1x, sEM_15x, sEM_2x, sEM_0x
 };
-static const u8 sIVs_Yes[]   = _("YES");
-static const u8 sIVs_No[]    = _("NO");
-static const u8 sIVs_NoHP[]  = _("NO (HP)");
+static const u8 sIVs_Yes[]   = _("{JPN}はい");
+static const u8 sIVs_No[]    = _("{JPN}いいえ");
+static const u8 sIVs_NoHP[]  = _("{JPN}いいえ (HP)");
 static const u8 *const sText_Diff_PlayerIVs_Strings[] = {
     sIVs_Yes, sIVs_No, sIVs_NoHP
 };
-static const u8 sTrainerEVs_Off[]   = _("OFF");
-static const u8 sTrainerEVs_Scale[] = _("SCALE");
-static const u8 sTrainerEVs_Hard[]  = _("HARD");
-static const u8 sTrainerEVs_Extreme[]  = _("EXTREME");
+static const u8 sTrainerEVs_Off[]   = _("{JPN}OFF");
+static const u8 sTrainerEVs_Scale[] = _("{JPN}スケール");
+static const u8 sTrainerEVs_Hard[]  = _("{JPN}ハード");
+static const u8 sTrainerEVs_Extreme[]  = _("{JPN}エクストリーム");
 static const u8 *const sText_TrainerEV_Strings[] = {
     sTrainerEVs_Off, sTrainerEVs_Scale, sTrainerEVs_Hard, sTrainerEVs_Extreme
 };
-static const u8 sEX_Off[]  = _("OFF");
-static const u8 sEX_5x[]   = _("x5");
-static const u8 sEX_10x[]  = _("x10");
-static const u8 sEX_50x[]  = _("x50!");
+static const u8 sEX_Off[]  = _("{JPN}OFF");
+static const u8 sEX_5x[]   = _("{JPN}x5");
+static const u8 sEX_10x[]  = _("{JPN}x10");
+static const u8 sEX_50x[]  = _("{JPN}x50!");
 static const u8 *const sText_Chk_Expensive_Strings[] = { sEX_Off, sEX_5x, sEX_10x, sEX_50x };
-static const u8 sEL_Off[]   = _("OFF");
-static const u8 sEL_First[] = _("FIRST");
-static const u8 sEL_All[]   = _("ALL");
+static const u8 sEL_Off[]   = _("{JPN}OFF");
+static const u8 sEL_First[] = _("{JPN}さいしょ");
+static const u8 sEL_All[]   = _("{JPN}すべて");
 static const u8 *const sText_Chk_EvoLimit_Strings[] = { sEL_Off, sEL_First, sEL_All };
-static const u8 sBE_Off[]  = _("OFF");
+static const u8 sBE_Off[]  = _("{JPN}OFF");
 static const u8 sBE_100[]  = _("100");
 static const u8 sBE_255[]  = _("255");
 static const u8 sBE_500[]  = _("500");
 static const u8 *const sText_Chk_BaseStatEq_Strings[] = { sBE_Off, sBE_100, sBE_255, sBE_500 };
 // --- One Type Challenge display strings (index == type constant) ---
-static const u8 sTypeName_Normal[]   = _("NORMAL");
-static const u8 sTypeName_Fighting[] = _("FIGHTING");
-static const u8 sTypeName_Flying[]   = _("FLYING");
-static const u8 sTypeName_Poison[]   = _("POISON");
-static const u8 sTypeName_Ground[]   = _("GROUND");
-static const u8 sTypeName_Rock[]     = _("ROCK");
-static const u8 sTypeName_Bug[]      = _("BUG");
-static const u8 sTypeName_Ghost[]    = _("GHOST");
-static const u8 sTypeName_Steel[]    = _("STEEL");
-static const u8 sTypeName_Mystery[]  = _("MYSTERY");
-static const u8 sTypeName_Fire[]     = _("FIRE");
-static const u8 sTypeName_Water[]    = _("WATER");
-static const u8 sTypeName_Grass[]    = _("GRASS");
-static const u8 sTypeName_Electric[] = _("ELECTRIC");
-static const u8 sTypeName_Psychic[]  = _("PSYCHIC");
-static const u8 sTypeName_Ice[]      = _("ICE");
-static const u8 sTypeName_Dragon[]   = _("DRAGON");
-static const u8 sTypeName_Dark[]     = _("DARK");
-static const u8 sTypeName_Fairy[]    = _("FAIRY");
+static const u8 sTypeName_Normal[]   = _("{JPN}ノーマル");
+static const u8 sTypeName_Fighting[] = _("{JPN}かくとう");
+static const u8 sTypeName_Flying[]   = _("{JPN}ひこう");
+static const u8 sTypeName_Poison[]   = _("{JPN}どく");
+static const u8 sTypeName_Ground[]   = _("{JPN}じめん");
+static const u8 sTypeName_Rock[]     = _("{JPN}いわ");
+static const u8 sTypeName_Bug[]      = _("{JPN}むし");
+static const u8 sTypeName_Ghost[]    = _("{JPN}ゴースト");
+static const u8 sTypeName_Steel[]    = _("{JPN}はがね");
+static const u8 sTypeName_Mystery[]  = _("{JPN}ミステリー");
+static const u8 sTypeName_Fire[]     = _("{JPN}ほのお");
+static const u8 sTypeName_Water[]    = _("{JPN}みず");
+static const u8 sTypeName_Grass[]    = _("{JPN}くさ");
+static const u8 sTypeName_Electric[] = _("{JPN}でんき");
+static const u8 sTypeName_Psychic[]  = _("{JPN}エスパー");
+static const u8 sTypeName_Ice[]      = _("{JPN}こおり");
+static const u8 sTypeName_Dragon[]   = _("{JPN}ドラゴン");
+static const u8 sTypeName_Dark[]     = _("{JPN}あく");
+static const u8 sTypeName_Fairy[]    = _("{JPN}フェアリー");
 
 // Display "OFF" when value is out of range
-static const u8 sText_TypeOff[] = _("OFF");
+static const u8 sText_TypeOff[] = _("{JPN}OFF");
 
 // Index order matches your TYPE_* defines (0..18)
 static const u8 *const sTypeNames[19] = {
@@ -312,8 +312,8 @@ static const u8 sColorRightRedDark[3]= { TEXT_COLOR_TRANSPARENT, TEXT_COLOR_OPTI
 static const u8 sColorRightGray[3]   = { TEXT_COLOR_TRANSPARENT, TEXT_COLOR_OPTIONS_GRAY_FG,      TEXT_COLOR_OPTIONS_GRAY_SHADOW };
 
 // Top bar / desc strings
-static const u8 sViewerTopLeft[] = _("CHALLENGE VIEWER");
-static const u8 sViewerDesc[] = _("{A_BUTTON}/{B_BUTTON}: Exit         {DPAD_UP}/{DPAD_DOWN}: Scroll\n {L_BUTTON}/{R_BUTTON}: Change Page");
+static const u8 sViewerTopLeft[] = _("{JPN}チャレンジビューアー");
+static const u8 sViewerDesc[] = _("{JPN}{A_BUTTON}/{B_BUTTON}: でる         {DPAD_UP}/{DPAD_DOWN}: スクロール\n {L_BUTTON}/{R_BUTTON}: ページへんこう");
 
 // Match tx_rac_menu background (light blue)
 static const u16 sOptionMenuBg_Pal[] = { RGB(17, 18, 31) };
@@ -1190,7 +1190,7 @@ static void DrawTopBar(void)
     // Right side hint: Exit + Scroll
     {
         // "A/B: Exit  Up/Down: Scroll"
-        static const u8 sViewerExitScrollHint[] = _("Heart & Soul");
+        static const u8 sViewerExitScrollHint[] = _("{JPN}ハート&ソウル");
         s32 w = GetStringWidth(FONT_SMALL, sViewerExitScrollHint, 0);
         s32 x = 232 - w; // stay a few px from the right edge
         if (x < 0) x = 0;

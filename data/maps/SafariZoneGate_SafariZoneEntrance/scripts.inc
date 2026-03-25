@@ -182,76 +182,76 @@ SafariZoneGate_SafariZoneEntrance_EventScript_Test::
 	end
 
 SafariZoneGate_SafariZoneEntrance_Text_BaobaBeachDone:
-	.string "Thank you, {PLAYER}!\n"
-	.string "Here, take this money to upgrade\l"
-	.string "your SAFARI LEVEL and show me an\l"
-	.string "exotic POKéMON from the BRUSH area\l"
-	.string "next!$"
+	.string "{JPN}ありがとう {PLAYER}!\n"
+	.string "{JPN}ここで このおかねをとって\l"
+	.string "{JPN}サファリレベルをアップして\l"
+	.string "{JPN}つぎはブラシエリアの\l"
+	.string "{JPN}めずらしいポケモンをみせて\lくれ!$"
 	
 SafariZoneGate_SafariZoneEntrance_Text_BaobaBrushDone:
-	.string "Thank you, {PLAYER}!\n"
-	.string "Here, take this money to upgrade\l"
-	.string "your SAFARI LEVEL and show me an\l"
-	.string "exotic POKéMON from the MOUNTAIN\l"
-	.string "area next!$"
+	.string "{JPN}ありがとう {PLAYER}!\n"
+	.string "{JPN}ここで このおかねをとって\l"
+	.string "{JPN}サファリレベルをアップして\l"
+	.string "{JPN}つぎはマウンテンエリアの\l"
+	.string "{JPN}めずらしいポケモンをみせて\lくれ!$"
 
 SafariZoneGate_SafariZoneEntrance_Text_BaobaMountainDone:
-	.string "Thank you, {PLAYER}!\n"
-	.string "Here, take this money to upgrade\l"
-	.string "your SAFARI LEVEL and show me an\l"
-	.string "exotic POKéMON from the CAVE area\l"
-	.string "next!$"
+	.string "{JPN}ありがとう {PLAYER}!\n"
+	.string "{JPN}ここで このおかねをとって\l"
+	.string "{JPN}サファリレベルをアップして\l"
+	.string "{JPN}つぎはケイブエリアの\l"
+	.string "{JPN}めずらしいポケモンをみせて\lくれ!$"
 
 SafariZoneGate_SafariZoneEntrance_Text_BaobaCaveDone:
-	.string "Thank you, {PLAYER}!\n"
-	.string "That's all I need to see.\p"
-	.string "Now that I know what DEVON is up\n"
-	.string "to, I'll be able to keep my SAFARI\l"
-	.string "competitive. Here, take this as a\l"
-	.string "reward for your troubles.$"
+	.string "{JPN}ありがとう {PLAYER}!\n"
+	.string "{JPN}もうじゅうぶんだ.\p"
+	.string "{JPN}デボンがなにをしているか\n"
+	.string "{JPN}わかったので わたしの\l"
+	.string "{JPN}サファリゾーンも\l"
+	.string "{JPN}まけずにできそうだ.\lこれはめいわくをかけた\lおれいだ.$"
 
 SafariZoneGate_SafariZoneEntrance_Text_BaobaWrong:
-	.string "That can't be right!$"
+	.string "{JPN}それはちがうな!$"
 
 SafariZoneGate_SafariZoneEntrance_Text_BaobaBeach:
-	.string "Ah, {PLAYER}!\p"
-	.string "Did you bring an exotic POKéMON\n"
-	.string "from the BEACH area of the FUCHSIA\l"
-	.string "SAFARI ZONE to show me?$"
+	.string "{JPN}おお {PLAYER}!\p"
+	.string "{JPN}フスベサファリゾーンの\n"
+	.string "{JPN}ビーチエリアの\l"
+	.string "{JPN}めずらしいポケモンを\lもってきてくれたかね?$"
 
 SafariZoneGate_SafariZoneEntrance_Text_BaobaBrush:
-	.string "Ah, {PLAYER}!\p"
-	.string "Did you bring an exotic POKéMON\n"
-	.string "from the BRUSH area of the FUCHSIA\l"
-	.string "SAFARI ZONE to show me?$"
+	.string "{JPN}おお {PLAYER}!\p"
+	.string "{JPN}フスベサファリゾーンの\n"
+	.string "{JPN}ブラシエリアの\l"
+	.string "{JPN}めずらしいポケモンを\lもってきてくれたかね?$"
 
 SafariZoneGate_SafariZoneEntrance_Text_BaobaMountain:
-	.string "Ah, {PLAYER}!\p"
-	.string "Did you bring an exotic POKéMON\n"
-	.string "from the MOUNTAIN area of the\l"
-	.string "FUCHSIA SAFARI ZONE to show me?$"
+	.string "{JPN}おお {PLAYER}!\p"
+	.string "{JPN}フスベサファリゾーンの\n"
+	.string "{JPN}マウンテンエリアの\l"
+	.string "{JPN}めずらしいポケモンを\lもってきてくれたかね?$"
 
 SafariZoneGate_SafariZoneEntrance_Text_BaobaCave:
-	.string "Ah, {PLAYER}!\p"
-	.string "Did you bring an exotic POKéMON\n"
-	.string "from the CAVE area of the FUCHSIA\l"
-	.string "SAFARI ZONE to show me?$"
+	.string "{JPN}おお {PLAYER}!\p"
+	.string "{JPN}フスベサファリゾーンの\n"
+	.string "{JPN}ケイブエリアの\l"
+	.string "{JPN}めずらしいポケモンを\lもってきてくれたかね?$"
 
 SafariZoneGate_SafariZoneEntrance_Text_BaobaDeclined:
-	.string "What will I do now?\n"
-	.string "We'll never keep up with DEVON!$"
+	.string "{JPN}どうしたらいいんだ?\n"
+	.string "{JPN}デボンにはとてもかなわん!$"
 
 SafariZoneGate_SafariZoneEntrance_Text_BaobaLastMon:
-	.string "I can't take your last POKéMON!$"
+	.string "{JPN}きみのさいごのポケモンは\nもらえないよ!$"
 
 SafariZoneGate_SafariZoneEntrance_Text_BaobaDone:
-	.string "Ah, {PLAYER}!\p"
-	.string "Thanks to you, the SAFARI ZONE is\n"
-	.string "thriving!\p"
-	.string "Maybe I should name you OWNER of\n"
-	.string "the safari zone...\p"
-	.string "No, that would be ridiculous.\n"
-	.string "Ahahahaha.$"
+	.string "{JPN}おお {PLAYER}!\p"
+	.string "{JPN}きみのおかげで\n"
+	.string "{JPN}サファリゾーンは\l"
+	.string "{JPN}はんじょうしている!\p"
+	.string "{JPN}きみをサファリゾーンの\n"
+	.string "{JPN}オーナーにしようかな...\p"
+	.string "{JPN}いや そんなばかな.\nあはははは.$"
 
 SafariZoneGate_SafariZoneEntrance_EventScript_EntranceCounterTrigger::
 	lockall
@@ -360,34 +360,34 @@ SafariZoneGate_SafariZoneEntrance_Movement_ReturnToTable:
 	step_end
 
 SafariZoneGate_SafariZoneEntrance_Text_BaobaWelcome:
-	.string "Hi {PLAYER}!\n"
-	.string "I've been waiting for you.\n"
-	.string "What do you think?\p"
-	.string "This is a brand new SAFARI ZONE\n"
-	.string "by the way...\p"
-	.string "And it's still expanding!\p"
-	.string "So far, we have two zones open\n"
-	.string "and 4 more on the way!\p"
-	.string "Enjoy the SAFARI ZONE! I'll\n"
-	.string "call you when the other zones\l"
-	.string "are ready!$"
+	.string "{JPN}やあ{PLAYER}!\n"
+	.string "{JPN}きみをまっていたよ.\n"
+	.string "{JPN}どうかね?\p"
+	.string "{JPN}これはまったくあたらしい\n"
+	.string "{JPN}サファリゾーンなんだが...\p"
+	.string "{JPN}そしてまだかくちょう\n"
+	.string "{JPN}ちゅうなんだ!\p"
+	.string "{JPN}いまのところ2つのゾーン\n"
+	.string "{JPN}がひらいていて あと4つ\l"
+	.string "{JPN}がじゅんびなかだ!\p"
+	.string "{JPN}サファリゾーンを\nたのしんでくれ!ほかの\lゾーンができたられんらく\lするよ!$"
 
 SafariZoneGate_SafariZoneEntrance_Text_BaobaPokeblocks:
-	.string "Oh! I almost forgot.\p"
-	.string "POKéBLOCKS are an essential\n"
-	.string "feature of my SAFARI ZONE, so\l"
-	.string "you'd better have one of these!$"
+	.string "{JPN}おお!わすれるところだった.\p"
+	.string "{JPN}ポケブロックは\n"
+	.string "{JPN}わたしのサファリゾーンの\l"
+	.string "{JPN}じゅうような きのうなので \lこれをもっていたほうが\lいいぞ!$"
 
 SafariZoneGate_SafariZoneEntrance_Text_Baoba:
-	.string "Hi {PLAYER}!\p"
-	.string "How are you enjoying the SAFARI\n"
-	.string "ZONE?$"
+	.string "{JPN}やあ{PLAYER}!\p"
+	.string "{JPN}サファリゾーンは\n"
+	.string "{JPN}たのしんでいるかね?$"
 
 SafariZoneGate_SafariZoneEntrance_Text_Boy:
-	.string "I heard the new zone they\n"
-	.string "are working on has dragons!$"
+	.string "{JPN}いま つくっている\n"
+	.string "{JPN}あたらしいゾーンには\lドラゴンがいるって\lきいたよ!$"
 
 SafariZoneGate_SafariZoneEntrance_Text_Engineer:
-	.string "Sorry Trainer, this area is still\n"
-	.string "under construction. Check back\l"
-	.string "later!$"
+	.string "{JPN}すまないトレーナー \n"
+	.string "{JPN}このエリアは\l"
+	.string "{JPN}まだこうじなかだ.\lあとでもどってきてくれ!$"

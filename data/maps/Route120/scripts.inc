@@ -365,70 +365,70 @@ Route120_EventScript_Callie::
 	end
 
 Route120_Text_StevenGreeting:
-	.string "STEVEN: Hm? {PLAYER}{KUN}, hi.\n"
-	.string "It's been a while.\p"
-	.string "There's something here that you can't\n"
-	.string "see, right?\p"
-	.string "Now, if I were to use this device on\n"
-	.string "the invisible obstacle…\p"
-	.string "No, no. Rather than describing it,\n"
-	.string "I should just show you.\l"
-	.string "That would be more fun.\p"
-	.string "{PLAYER}{KUN}, are your POKéMON ready for\n"
-	.string "battle?$"
+	.string "{JPN}ダイゴ: ん?{PLAYER}{KUN} やあ.\n"
+	.string "{JPN}ひさしぶりだね.\p"
+	.string "{JPN}ここに きみには みえない\n"
+	.string "{JPN}なにかが あるだろう?\p"
+	.string "{JPN}さあ この そうちを つかって\n"
+	.string "{JPN}みえない しょうがいぶつに...\p"
+	.string "{JPN}いや いや.せつめいするより\n"
+	.string "{JPN}じっさいに みせたほうがいい.\l"
+	.string "{JPN}そのほうが たのしいからね.\p"
+	.string "{JPN}{PLAYER}{KUN} きみの ポケモンは\n"
+	.string "{JPN}たたかいの じゅんびは できてる?$"
 
 Route120_Text_StevenIllWaitHere:
-	.string "STEVEN: No?\p"
-	.string "I'll wait here, so you can get ready.$"
+	.string "{JPN}ダイゴ: だめ?\p"
+	.string "{JPN}ここで まってるから\nじゅんびしてきて.$"
 
 Route120_Text_StevenReadyForBattle:
-	.string "STEVEN: {PLAYER}{KUN}, are your POKéMON\n"
-	.string "ready for battle?$"
+	.string "{JPN}ダイゴ: {PLAYER}{KUN} \n"
+	.string "{JPN}ポケモンの ちょうしは どう?$"
 
 Route120_Text_StevenShowMeYourPower:
-	.string "STEVEN: {PLAYER}{KUN}, show me your true\n"
-	.string "power as a TRAINER!$"
+	.string "{JPN}ダイゴ: {PLAYER}{KUN} \n"
+	.string "{JPN}トレーナーとしての\nほんとうの ちからを みせて!$"
 
 Route120_Text_StevenUsedDevonScope:
-	.string "STEVEN used the DEVON SCOPE.\p"
-	.string "An invisible POKéMON became completely\n"
-	.string "visible!\p"
-	.string "The startled POKéMON attacked!$"
+	.string "{JPN}ダイゴは デボンスコープを\n"
+	.string "{JPN}つかった.\p"
+	.string "{JPN}みえない ポケモンの すがたが\n"
+	.string "{JPN}はっきりと みえるように なった!\pおどろいた ポケモンが\nおそいかかってきた!$"
 
 Route120_Text_StevenGiveDevonScope:
-	.string "STEVEN: I see…\n"
-	.string "Your battle style is intriguing.\p"
-	.string "Your POKéMON have obviously grown\n"
-	.string "since I first met you in DEWFORD.\p"
-	.string "I'd like you to have this\n"
-	.string "DEVON SCOPE.\p"
-	.string "Who knows, there may be other\n"
-	.string "concealed POKéMON.$"
+	.string "{JPN}ダイゴ: そうか...\n"
+	.string "{JPN}きみの たたかいかたは きょうみぶかい.\p"
+	.string "{JPN}きみの ポケモンたちは ぼくが\n"
+	.string "{JPN}はじめて あった カナズミのときより\l"
+	.string "{JPN}あきらかに せいちょうしているね.\p"
+	.string "{JPN}この デボンスコープを\n"
+	.string "{JPN}きみに あげよう.\p"
+	.string "{JPN}ひょっとすると ほかにも\nかくれている ポケモンが いるかもね.$"
 
 Route120_Text_StevenGoodbye:
-	.string "STEVEN: {PLAYER}{KUN}.\p"
-	.string "I enjoy seeing POKéMON and TRAINERS\n"
-	.string "who strive together.\p"
-	.string "I think you're doing great.\p"
-	.string "Well, let's meet again somewhere.$"
+	.string "{JPN}ダイゴ: {PLAYER}{KUN}.\p"
+	.string "{JPN}ポケモンと トレーナーが\n"
+	.string "{JPN}ともに がんばっている すがたを\n"
+	.string "{JPN}みるのは たのしいね.\n"
+	.string "{JPN}きみは とても よくやってるよ.\pでは また どこかで あおう.$"
 
 Kecleon_Text_SomethingUnseeable:
-	.string "Something unseeable is in the way.$"
+	.string "{JPN}みえない なにかが みちを\nふさいでいる.$"
 
 Kecleon_Text_WantToUseDevonScope:
-	.string "Something unseeable is in the way.\p"
-	.string "Want to use the DEVON SCOPE?$"
+	.string "{JPN}みえない なにかが みちを\n"
+	.string "{JPN}ふさいでいる.\pデボンスコープを つかう?$"
 
 Kecleon_Text_UseDevonScopeMonAttacked:
-	.string "{PLAYER} used the DEVON SCOPE.\p"
-	.string "An invisible POKéMON became completely\n"
-	.string "visible!\p"
-	.string "The startled POKéMON attacked!$"
+	.string "{JPN}{PLAYER}は デボンスコープを\n"
+	.string "{JPN}つかった.\p"
+	.string "{JPN}みえない ポケモンの すがたが\n"
+	.string "{JPN}はっきりと みえるように なった!\pおどろいた ポケモンが\nおそいかかってきた!$"
 
 Route120_Text_RouteSignFortree:
-	.string "ROUTE 120\n"
-	.string "{LEFT_ARROW} FORTREE CITY$"
+	.string "{JPN}120ばん どうろ\n"
+	.string "{JPN}{LEFT_ARROW} ヒワマキシティ$"
 
 Route120_Text_RouteSign121:
-	.string "{RIGHT_ARROW} ROUTE 121\n"
-	.string "{LEFT_ARROW} ROUTE 120$"
+	.string "{JPN}{RIGHT_ARROW} 121ばん どうろ\n"
+	.string "{JPN}{LEFT_ARROW} 120ばん どうろ$"

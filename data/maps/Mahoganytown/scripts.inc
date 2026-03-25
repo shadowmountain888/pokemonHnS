@@ -248,72 +248,53 @@ MahoganyTown_Movement_PlayerMerchant2:
 	step_end
 
 MahoganyTown_Text_RageCandyBarMerchantTryOne:
-	.string "Hiya, kid!\p"
-	.string "I see you're new in MAHOGANY TOWN.\p"
-	.string "Since you're new, you should try a\n"
-	.string "yummy RAGECANDYBAR!\p"
-	.string "Right now, it can be yours for just\n"
-	.string "¥300! Want one?$"
-
+	.string "{JPN}ちょっとちょっと\p"
+	.string "{JPN}チョウジタウンにきたなら\n"
+	.string "{JPN}いかりまんじゅうをかうのが\l"
+	.string "{JPN}たびのじょうしきってもんだ\p"
+	.string "{JPN}いまならたったの300¥\n"
+	.string "{JPN}どう？かうでしょ？$"
 MahoganyTown_Text_RageCandyBarMerchantSavorIt:
-    .string "Good! Savor it!$"
-
+	.string "{JPN}よし！あじわってくれよ！$"
 MahoganyTown_Text_RageCandyBarMerchantNotEnoughMoney:
-    .string "You don't have enough money.$"
-
+    .string "{JPN}おかねがたりないよ$"
 MahoganyTown_Text_RageCandyBarMerchantRefused:
-    .string "Oh, fine then…$"
-
+    .string "{JPN}あっそう..$"
 MahoganyTown_Text_RageCandyBarMerchantSoldOut:
-    .string "RAGECANDYBAR's sold out.\p"
-    .string "I'm packing up. Don't bother me,\n"
-    .string "kiddo.$"
-
+	.string "{JPN}いかりまんじゅうは\nうりきれだ\pかたづけてるから\nじゃまするなよ ぼうず$"
 MahoganyTown_Text_Gramps:
-    .string "Are you off to see the GYARADOS\n"
-    .string "rampage at the LAKE?$"
-
+    .string "{JPN}おまえさんもみずうみにいって\n"
+	.string "{JPN}ギャラドスのおどりをみるのかね$"
 MahoganyTown_Text_GrampsClearedRocketHideout:
-    .string "MAGIKARP have returned to LAKE\n"
-    .string "OF RAGE.\p"
-    .string "That should be good news for the\n"
-    .string "anglers there.$"
-
+    .string "{JPN}いかりのみずうみじゃがな\n"
+	.string "{JPN}コイキングがもどってきたらしいの\p"
+	.string "{JPN}これでみずうみのほとりの\n"
+	.string "{JPN}つりびともよろこんでるじゃろ$"
 MahoganyTown_Text_Fisher:
-    .string "Since you came this far, take the\n"
-    .string "time to do some sightseeing.\p"
-    .string "You should head north and check\n"
-    .string "out LAKE OF RAGE right now.$"
-
+	.string "{JPN}ここまできたなら\nけんぶつしていけよ\pきたにある\nいかりのみずうみを\lみてくるといいぞ$"
 MahoganyTown_Text_Lass:
-    .string "Visit Grandma's shop. She sells\n"
-    .string "stuff that nobody else has.$"
-
+	.string "{JPN}おばあちゃんのおみせに\nよってってよ！よそにはない\lものがあるのよ$"
 MahoganyTown_Text_Sign:
-    .string "MAHOGANY TOWN\p"
-    .string "Welcome to the Home of the Ninja$"
-
+    .string "{JPN}ここはチョウジタウン\n"
+	.string "{JPN}ようこそにんじゃのさとへ$"
 MahoganyTown_Text_RagecandybarSign:
-    .string "While visiting MAHOGANY TOWN, try\n"
-    .string "a RAGECANDYBAR!$"
-
+	.string "{JPN}チョウジタウンにきたなら\nいかりまんじゅうをどうぞ！$"
 MahoganyTown_Text_GymSign:
-    .string "MAHOGANY TOWN POKéMON GYM\p"
-    .string "LEADER: PRYCE\p"
-    .string "The Teacher of Winter's Harshness$"
-
+    .string "{JPN}チョウジタウンポケモンジム\n"
+	.string "{JPN}リーダーヤナギ\l"
+	.string "{JPN}ふゆのきびしさをおしえるもの$"
 ElmPhoneRadioTowerRocketTakeoverText:
-	.string "PROF.ELM: {PLAYER}, how are\n"
-	.string "things going?\p"
-	.string "I called because something weird\n"
-	.string "is happening with the radio\l"
-	.string "broadcasts.\p"
-	.string "They were talking about TEAM\n"
-	.string "ROCKET.\p"
-	.string "{PLAYER}, do you know anything\n"
-	.string "about it?\p"
-	.string "Maybe TEAM ROCKET has returned.\n"
-	.string "No, that just can't be true.\p"
-	.string "Sorry to bug you.\n"
-	.string "Take care!$"
+	.string "{JPN}ウツギはかせ: {PLAYER}くん \n"
+	.string "{JPN}ちょうしは どうだい?\p"
+	.string "{JPN}きみょうな ことが おこって\n"
+	.string "{JPN}いるので でんわしたんだ.\l"
+	.string "{JPN}ラジオほうそうが へんなんだ.\p"
+	.string "{JPN}ロケットだんの はなしを\n"
+	.string "{JPN}していたよ.\p"
+	.string "{JPN}{PLAYER}くん なにか\n"
+	.string "{JPN}しっているのかい?\p"
+	.string "{JPN}ロケットだんが もどってきた\n"
+	.string "{JPN}のかも しれない.\l"
+	.string "{JPN}いや そんな はずはないが.\p"
+	.string "{JPN}じゃまして すまなかった.\nきをつけて がんばってくれ!$"
 

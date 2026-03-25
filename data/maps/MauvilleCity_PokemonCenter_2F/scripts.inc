@@ -23,10 +23,9 @@ MauvilleCity_PokemonCenter_2F_EventScript_Youngster::
 	end
 
 MauvilleCity_PokemonCenter_2F_Text_Youngster:
-	.string "Did you know that you can link battle\n"
-	.string "at the COLOSSEUM here?\p"
-	.string "They put up your record on the wall\n"
-	.string "for everyone to see.\p"
-	.string "It's embarrassing if you lose more\n"
-	.string "often than you win…$"
-
+	.string "{JPN}ここの コロシアムで\n"
+	.string "{JPN}つうしんバトルが できるって\l"
+	.string "{JPN}しってた?\p"
+	.string "{JPN}きみの せいせきが かべに\n"
+	.string "{JPN}はりだされるんだよ.\p"
+	.string "{JPN}かつより まけのほうが\nおおいと はずかしいよね...$"

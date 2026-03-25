@@ -749,251 +749,248 @@ Route110_Movement_BirchExit4:
 	step_end
 
 Route110_Text_WeCantTalkAboutAquaActivities:
-	.string "TEAM AQUA's activities…\n"
-	.string "We can't talk about them yet.$"
+	.string "{JPN}アクアだんの かつどうについて...\n"
+	.string "{JPN}まだ はなすことは できない$"
 
 Route110_Text_KickUpARuckus:
-	.string "I want to get going to SLATEPORT and\n"
-	.string "kick up a ruckus!$"
+	.string "{JPN}カイナシティに いって\n"
+	.string "{JPN}おおあばれ するんだ!$"
 
 Route110_Text_MyFirstJobInAqua:
-	.string "This is my first job after joining\n"
-	.string "TEAM AQUA. It's a little scary.$"
+	.string "{JPN}アクアだんに はいって はじめての\n"
+	.string "{JPN}しごとなんだ.ちょっと こわいよ.$"
 
 Route110_Text_AquaActionsBringSmiles:
-	.string "TEAM AQUA's actions should bring\n"
-	.string "smiles to people's faces!$"
+	.string "{JPN}アクアだんの こうどうは\n"
+	.string "{JPN}みんなを えがおに するはずだ!$"
 
 Route110_Text_MayLetsBattle:
-	.string "MAY: Hi, {PLAYER}{KUN}, long time no see!\p"
-	.string "While I was searching for other\n"
-	.string "POKéMON, my POKéMON grew stronger.\p"
-	.string "So…\n"
-	.string "How about a little battle?$"
+	.string "{JPN}ハルカ: こんにちは {PLAYER}くん\n"
+	.string "{JPN}ひさしぶりね!\p"
+	.string "{JPN}ほかの ポケモンを さがしている\n"
+	.string "{JPN}あいだに わたしの ポケモンも\n"
+	.string "{JPN}つよくなったの\pそれで...\nちょっと バトルしない?$"
 
 Route110_Text_MayDefeated:
-	.string "Yikes!\n"
-	.string "You're better than I expected!$"
+	.string "{JPN}うわあ!\n"
+	.string "{JPN}おもってたより つよいね!$"
 
 Route110_Text_MayTakeThis:
-	.string "MAY: {PLAYER}{KUN}, you've been busy\n"
-	.string "training, too, haven't you?\p"
-	.string "I think you deserve a reward!\n"
-	.string "This is from me!$"
+	.string "{JPN}ハルカ: {PLAYER}くん きみも\n"
+	.string "{JPN}しゅぎょうに はげんでるのね?\p"
+	.string "{JPN}がんばってる きみに ごほうびよ!\n"
+	.string "{JPN}わたしから プレゼント!$"
 
 Route110_Text_MayExplainItemfinder:
-	.string "MAY: That's an ITEMFINDER.\p"
-	.string "Try it out. If there is an item that's\n"
-	.string "not visible, it emits a sound.\p"
-	.string "Okay, {PLAYER}{KUN}, let's meet again!\p"
-	.string "I know it's a little silly coming from\n"
-	.string "me, but I think you should train a lot\l"
-	.string "harder for the next time.$"
+	.string "{JPN}ハルカ: それは ダウジングマシンよ.\p"
+	.string "{JPN}ためしに つかってみて.みえない\n"
+	.string "{JPN}アイテムが あると おとが するの.\p"
+	.string "{JPN}{PLAYER}くん また あいましょう!\p"
+	.string "{JPN}わたしが いうのも へんだけど\n"
+	.string "{JPN}つぎまでに もっと しゅぎょう\l"
+	.string "{JPN}した ほうが いいとおもう.$"
 
 Route110_Text_BrendanLetsBattle:
-	.string "BRENDAN: Hey, {PLAYER}.\n"
-	.string "So this is where you were.\l"
-	.string "How's it going?\p"
-	.string "Have you been raising your POKéMON?\n"
-	.string "I'll check for you.$"
+	.string "{JPN}ユウキ: よう {PLAYER}.\n"
+	.string "{JPN}ここに いたのか.\l"
+	.string "{JPN}ちょうし どう?\p"
+	.string "{JPN}ポケモンを そだててるか?\n"
+	.string "{JPN}たしかめて やろう.$"
 
 Route110_Text_BrendanDefeated:
-	.string "Hmm…\n"
-	.string "You're pretty good.$"
+	.string "{JPN}うーん...\n"
+	.string "{JPN}きみって けっこう つよいね$"
 
 Route110_Text_BrendanTakeThis:
-	.string "BRENDAN: {PLAYER}, you've trained\n"
-	.string "without me noticing…\p"
-	.string "Good enough!\n"
-	.string "Here, take this.$"
+	.string "{JPN}ユウキ: {PLAYER} きみは\n"
+	.string "{JPN}ぼくの しらないあいだに\n"
+	.string "{JPN}くんれんしてたんだね...\p"
+	.string "{JPN}なかなか やるじゃないか!\nこれを もっていきなよ$"
 
 Route110_Text_BrendanExplainItemfinder:
-	.string "BRENDAN: That's an ITEMFINDER.\p"
-	.string "Use it to root around for items that\n"
-	.string "aren't visible.\p"
-	.string "If it senses something, it emits\n"
-	.string "a sound.\p"
-	.string "Anyway, I'm off to look for new\n"
-	.string "POKéMON.$"
+	.string "{JPN}ユウキ: それは ダウジングマシンだ.\p"
+	.string "{JPN}みえない アイテムを さがすのに\n"
+	.string "{JPN}つかうんだ.\p"
+	.string "{JPN}なにかを かんちすると\n"
+	.string "{JPN}おとが するぞ.\p"
+	.string "{JPN}じゃあ おれは あたらしい\n"
+	.string "{JPN}ポケモンを さがしに いくぜ.$"
 
 Route110_Text_RideBikeAtFullSpeed:
-	.string "Wouldn't it be great to ride a BIKE\n"
-	.string "at full speed on CYCLING ROAD?$"
+	.string "{JPN}サイクリングロードで じてんしゃを\n"
+	.string "{JPN}ぜんりょくで こげたら きもちいいだろうな?$"
 
 Route110_Text_HairStreamsBehindMe:
-	.string "How do you like the way my raven-\n"
-	.string "colored hair streams behind me?\p"
-	.string "I grew my hair out just for that.$"
+	.string "{JPN}うしろに なびく くろかみ\n"
+	.string "{JPN}どうかしら?\p"
+	.string "{JPN}この ために かみを のばしたのよ.$"
 
 Route110_Text_YouGotBikeFromRydel:
-	.string "Oh, hey, you got that BIKE from RYDEL!\p"
-	.string "Oh, it's glaringly obvious.\n"
-	.string "It says right on your bike…\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
-	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL…\n"
-	.string "That name's everywhere.\p"
-	.string "You should ride it around all over\n"
-	.string "the place--it's good advertising!$"
+	.string "{JPN}あれ きみ ライデルから\n"
+	.string "{JPN}じてんしゃを もらったんだね!\p"
+	.string "{JPN}あ それは みればすぐに\n"
+	.string "{JPN}わかるよ\n"
+	.string "{JPN}だって きみの じてんしゃに\n"
+	.string "{JPN}かいてあるじゃないか...\p"
+	.string "{JPN}ライデル ライデル ライデル ライデル\n"
+	.string "{JPN}ライデル ライデル ライデル ライデル\n"
+	.string "{JPN}ライデル ライデル\p"
+	.string "{JPN}ライデル ライデル ライデル ライデル\n"
+	.string "{JPN}ライデル ライデル ライデル ライデル\n"
+	.string "{JPN}ライデル ライデル\p"
+	.string "{JPN}ライデル ライデル ライデル ライデル\n"
+	.string "{JPN}ライデル ライデル ライデル ライデル\n"
+	.string "{JPN}ライデル ライデル\pライデル ライデル ライデル ライデル\nライデル ライデル ライデル ライデル\nライデル ライデル\pライデル ライデル ライデル ライデル\nライデル...\nその なまえが いたるところに\pあちこち のりまわして\nこうこくに なればいいね!$"
 
 Route110_Text_TwoRoads:
-	.string "The two roads, one above, one below…\p"
-	.string "A road each for people and POKéMON.\n"
-	.string "Perhaps that is right and fair.$"
+	.string "{JPN}ふたつのみち  ひとつはうえ \n"
+	.string "{JPN}ひとつはした...\p"
+	.string "{JPN}ひとつずつ ひとと ポケモンの\nためのみち.\nたぶん それが ただしくて\nこうへいなのでしょう.$"
 
 Route110_Text_WalkOnTheLowRoad:
-	.string "I don't have a BIKE, so I'll take\n"
-	.string "a leisurely walk on the low road.$"
+	.string "{JPN}じてんしゃが ないから\n"
+	.string "{JPN}したの みちを のんびり あるくよ.$"
 
 Route110_Text_BikeTechniques:
-	.string "Learning techniques will make BIKE\n"
-	.string "riding even more fun.\p"
-	.string "There are some places that you can\n"
-	.string "reach only by using a BIKE technique.$"
+	.string "{JPN}わざを おぼえると じてんしゃが\n"
+	.string "{JPN}もっと たのしく なるよ.\p"
+	.string "{JPN}じてんしゃの わざでしか いけない\n"
+	.string "{JPN}ばしょも あるんだ.$"
 
 Route110_Text_WhichShouldIChoose:
-	.string "Which should I choose?\p"
-	.string "Make a beeline for MAUVILLE on\n"
-	.string "CYCLING ROAD, or take the low road\l"
-	.string "and look for POKéMON?$"
+	.string "{JPN}どっちに しようかな?\p"
+	.string "{JPN}サイクリングロードで キンセツに\n"
+	.string "{JPN}いっちょくせん?\l"
+	.string "{JPN}それとも したみちで ポケモンを\nさがそうかな?$"
 
 Route110_Text_CyclingChallengeResultSummary:
-	.string "Number of collisions:\n"
-	.string "… … {STR_VAR_1}!\p"
-	.string "Total time:\n"
-	.string "… … {STR_VAR_2}!$"
-
+	.string "{JPN}しょうとつかいすう:\n"
+	.string "{JPN}... ... {STR_VAR_1}かい!\p"
+	.string "{JPN}かかったじかん:\n"
+	.string "{JPN}... ... {STR_VAR_2}!$"
 Route110_Text_ChallengeReactionBest:
-	.string "Bravo! Splendid showing!\p"
-	.string "Your love of cycling comes from deep\n"
-	.string "within your heart.\l"
-	.string "You've shaken me to my very soul!$"
+	.string "{JPN}ブラボー! すばらしい はしりっぷり!\p"
+	.string "{JPN}きみの サイクリングあいは\n"
+	.string "{JPN}こころの おくから きてるね.\l"
+	.string "{JPN}ぼくの たましいも ゆさぶられたよ!$"
 
 Route110_Text_ChallengeReactionGood:
-	.string "Your technique is remarkable.\p"
-	.string "I suggest you speed up a bit while\n"
-	.string "still avoiding collisions.$"
+	.string "{JPN}わざは みごとだ.\p"
+	.string "{JPN}しょうとつを さけながら\n"
+	.string "{JPN}もう すこし スピードを だそう.$"
 
 Route110_Text_ChallengeReactionOk:
-	.string "I would consider you a work in\n"
-	.string "progress.\p"
-	.string "Still, I hope you don't forget the\n"
-	.string "sheer pleasure of cycling.$"
+	.string "{JPN}きみは はってんとちゅうって\n"
+	.string "{JPN}かんじだね.\p"
+	.string "{JPN}でも サイクリングの よろこびを\n"
+	.string "{JPN}わすれないで ほしいな.$"
 
 Route110_Text_ChallengeReactionBad:
-	.string "My word… Your cycling skills border\n"
-	.string "on terrifying.\p"
-	.string "Most certainly, you need much more\n"
-	.string "practice riding.$"
+	.string "{JPN}なんと... きみの\n"
+	.string "{JPN}サイクリングのうでは\n"
+	.string "{JPN}きょうふに ちかい\p"
+	.string "{JPN}たしかに もっと\nのりかたを れんしゅうする\nひつようが あるね$"
 
 Route110_Text_ChallengeReactionWorst:
-	.string "…I am aghast…\p"
-	.string "You're perhaps not cut out for this\n"
-	.string "unfortunate cycling business.\p"
-	.string "You ought to give serious thought to\n"
-	.string "returning that BIKE to RYDEL.$"
+	.string "{JPN}...ぜつくです...\p"
+	.string "{JPN}きみは この サイクリングには\n"
+	.string "{JPN}むいていないかも しれませんね\p"
+	.string "{JPN}その じてんしゃを ライデルに\n"
+	.string "{JPN}かえすことを まじめに\nかんがえたほうが いいでしょう$"
 
 Route110_Text_RatedForNumberOfCollisions:
-	.string "This is CYCLING ROAD.\p"
-	.string "If you were to ride from MAUVILLE to\n"
-	.string "SLATEPORT on a MACH BIKE, you would\l"
-	.string "be rated for the number of collisions\l"
-	.string "and your total time.$"
+	.string "{JPN}ここは サイクリングロードだ.\p"
+	.string "{JPN}マッハじてんしゃで キンセツから\n"
+	.string "{JPN}カイナまで はしると しょうとつ\l"
+	.string "{JPN}かいすうと タイムで ひょうかされる.$"
+	.string ""
 
 Route110_Text_AlwaysAimHigher:
-	.string "Regardless of the results, I count on\n"
-	.string "seeing more challenges from you.\l"
-	.string "Always aim higher!$"
+	.string "{JPN}けっかに かかわらず きみの\n"
+	.string "{JPN}ちょうせんを まってるよ.\l"
+	.string "{JPN}いつも たかい めひょうを めざそう!$"
 
 Route110_Text_AcroBikesDoNotQualify:
-	.string "On this CYCLING ROAD, those riding\n"
-	.string "MACH BIKES are rated for their number\l"
-	.string "of collisions and their total times.\p"
-	.string "ACRO BIKES do not qualify for rating.\n"
-	.string "They are easy to turn, so it's not fair.$"
+	.string "{JPN}この サイクリングロードでは\n"
+	.string "{JPN}マッハじてんしゃの しょうとつかいすうと\l"
+	.string "{JPN}タイムを ひょうかしてるんだ.\p"
+	.string "{JPN}ダートじてんしゃは たいしょうがいだ.\n"
+	.string "{JPN}まわりやすいから フェアじゃないよ.$"
 
 Route110_Text_SlateportCitySign:
-	.string "ROUTE 110\n"
-	.string "{DOWN_ARROW} SLATEPORT CITY$"
+	.string "{JPN}110ばんどうろ\n"
+	.string "{JPN}{DOWN_ARROW} カイナシティ$"
 
 Route110_Text_CyclingRoadSign:
-	.string "SEASIDE CYCLING ROAD$"
+	.string "{JPN}シーサイドサイクリングロード$"
 
 Route110_Text_AquaWasHere:
-	.string "“TEAM AQUA was here!”\p"
-	.string "Someone painted that onto this sign,\n"
-	.string "but then someone else painted over it.\p"
-	.string "“TEAM MAGMA rules!” is what it\n"
-	.string "says now.$"
+	.string "{JPN}アクアだん さんじょう!\p"
+	.string "{JPN}だれかが かんばんに かいたけど\n"
+	.string "{JPN}ほかの だれかが うえから ぬった.\p"
+	.string "{JPN}マグマだん だいかつやく!って\n"
+	.string "{JPN}かいてある.$"
 
 Route110_Text_Route103Sign:
-	.string "ROUTE 110\n"
-	.string "{LEFT_ARROW} ROUTE 103$"
+	.string "{JPN}110ばんどうろ\n"
+	.string "{JPN}{LEFT_ARROW} 103ばんどうろ$"
 
 Route110_Text_SeasideParkingSign:
-	.string "SEASIDE PARKING$"
+	.string "{JPN}シーサイドちゅうしゃじょう$"
 
 Route110_Text_MauvilleCitySign:
-	.string "ROUTE 110\n"
-	.string "{UP_ARROW} MAUVILLE CITY$"
+	.string "{JPN}110ばんどうろ\n"
+	.string "{JPN}{UP_ARROW} キンセツシティ$"
 
 Route110_Text_TrainerTipsPrlzSleep:
-	.string "TRAINER TIPS\p"
-	.string "The foe can be made helpless by\n"
-	.string "paralyzing it or causing it to sleep.\p"
-	.string "It is an important technique for\n"
-	.string "POKéMON battles.$"
+	.string "{JPN}トレーナーのこころえ\p"
+	.string "{JPN}あいてを まひや ねむりじょうたいに\n"
+	.string "{JPN}すると むりょくかできるよ\p"
+	.string "{JPN}ポケモンバトルでは\n"
+	.string "{JPN}だいじなテクニックだ$"
 
 Route110_Text_TrainerTipsRegisterItems:
-	.string "TRAINER TIPS\p"
-	.string "The items in the BAG can be reorganized\n"
-	.string "by pressing SELECT.$"
+	.string "{JPN}トレーナーのこころえ\p"
+	.string "{JPN}バッグのなかの どうぐは\n"
+	.string "{JPN}セレクトボタンで せいりできるよ$"
 
 Route110_Text_TrickHouseSign:
-	.string "“Three steps {RIGHT_ARROW} and two steps {UP_ARROW}\n"
-	.string "to reach the wondrous TRICK HOUSE.”$"
+	.string "{JPN}みぎに3ぽ {RIGHT_ARROW} うえに2ぽ {UP_ARROW}\n"
+	.string "{JPN}ふしぎな トリックハウスへ$"
 
 Route110_Text_BestRecord:
-	.string "THE BEST RECORD TO DATE…\p"
-	.string "No. of collisions: {STR_VAR_1}\p"
-	.string "Elapsed time: {STR_VAR_2}$"
+	.string "{JPN}これまでの さいこうきろく...\p"
+	.string "{JPN}しょうとつかいすう: {STR_VAR_1}かい\p"
+	.string "{JPN}けいかじかん: {STR_VAR_2}$"
 
 Route110_Text_ThereIsNoRecord:
-	.string "THE BEST RECORD TO DATE…\p"
-	.string "No one seems to have taken the\n"
-	.string "challenge. There is no record…$"
-
+	.string "{JPN}これまでの さいこうきろく...\p"
+	.string "{JPN}まだ だれも チャレンジしていない\n"
+	.string "{JPN}ようですね\nきろくが ありません...$"
 Route110_Text_ImagineSeeingYouHere:
-	.string "PROF. BIRCH: Oh, {PLAYER}{KUN}!\n"
-	.string "Imagine seeing you here!\p"
-	.string "And where might my SILVER be?$"
+	.string "{JPN}オダマキはかせ: おお {PLAYER}{KUN}!\n"
+	.string "{JPN}こんなところで あうなんて!\p"
+	.string "{JPN}それで わたしの シルバーは\nどこにいるんじゃ?$"
 
 Route110_Text_HeardYouInstallMatchCall:
-	.string "Oh, I see!\n"
-	.string "You two are running separately.\l"
-	.string "Well, that's fine.\p"
-	.string "Oh, yes, I heard that your POKéNAV\n"
-	.string "had the MATCH CALL system installed.\p"
-	.string "Well, then, I should register you in\n"
-	.string "my POKéNAV as well.\p"
-	.string "That way, even when we're apart,\n"
-	.string "I can rate your POKéDEX anytime.\p"
-	.string "… … … … … …$"
-
+	.string "{JPN}あ なるほど!\n"
+	.string "{JPN}ふたりとも べつべつに\n"
+	.string "{JPN}たびしてるのね\l"
+	.string "{JPN}それも いいことよ\p"
+	.string "{JPN}そうそう きみの ポケナビに\n"
+	.string "{JPN}マッチコールシステムが\n"
+	.string "{JPN}ついたって きいたわ\p"
+	.string "{JPN}じゃあ わたしも きみを\n"
+	.string "{JPN}わたしの ポケナビに\n"
+	.string "{JPN}とうろくしましょう\pそうすれば はなれていても\nいつでも きみの ポケモンずかんを\nひょうかできるから\p... ... ... ... ... ...$"
 Route110_Text_RegisteredBirchInPokenav:
-	.string "Registered PROF. BIRCH\n"
-	.string "in the POKéNAV.$"
+	.string "{JPN}ポケナビに オダマキはかせを\n"
+	.string "{JPN}とうろくした$"
 
 Route110_Text_KeepAnEyeOutForRival:
-	.string "PROF. BIRCH: {PLAYER}{KUN}…\p"
-	.string "Please keep an eye out for my SILVER.\n"
-	.string "… … … … … …\p"
-	.string "Well, I had better get going.\n"
-	.string "See you again, {PLAYER}{KUN}!$"
+	.string "{JPN}オダマキはかせ: {PLAYER}くん...\p"
+	.string "{JPN}うちの シルバーを\n"
+	.string "{JPN}みかけたら よろしく\n"
+	.string "{JPN}... ... ... ... ... ...\p"
+	.string "{JPN}さて わたしも いかなくては\nまたね {PLAYER}くん!$"
 

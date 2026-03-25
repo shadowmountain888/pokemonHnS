@@ -131,103 +131,54 @@ GoldenrodCity_RadioTower_3F_EventScript_Sign2::
 	end
 
 GoldenrodCity_RadioTower_3F_Text_CardKeySlot:
-	.string "It's the CARD KEY slot.$"
-
+	.string "{JPN}カードキーのさしこみぐちだ$"
 GoldenrodCity_RadioTower_3F_Text_InsertedCardKey:
-	.string "{PLAYER} inserted the CARD KEY.$"
- 
+	.string "{JPN}{PLAYER}は\nカードキーをさしこんだ！$"
 GoldenrodCity_RadioTower_3F_Text_Open:
-	.string "The gate is open.$"
-
+	.string "{JPN}ゲートがひらいた！$"
 GoldenrodCity_RadioTower_3F_Text_PersonnelSign:
-	.string "3F PERSONNEL$"
-
+	.string "{JPN}3F しょくいんしつ$"
 GoldenrodCity_RadioTower_3F_Text_PokemonMusicSign:
-	.string "POKéMON MUSIC with Host DJ BEN$"
-
+	.string "{JPN}ポケモンミュージック\nパーソナリティ DJベン$"
 GoldenrodCity_RadioTower_3F_Text_SuperNerd:
-	.string "We have recordings of the cries\n"
-	.string "of all POKéMON that have been\l"
-	.string "found.\p"
-	.string "We must have about 400 kinds.$"
-
+	.string "{JPN}いままでにはっけんされた\nポケモンのなきごえを\lぜんぶろくおんしてるんだ\pだいたい400しゅるい\nぐらいあるよ$"
 GoldenrodCity_RadioTower_3F_Text_GymGuideRockets:
-	.string "To trainers, POKéMON are their\n"
-	.string "beloved partners.\p"
-	.string "It's terrible how TEAM ROCKET is\n"
-	.string "trying to control POKéMON.$"
-
+	.string "{JPN}トレーナーにとってポケモンは\nたいせつなパートナーだ\pロケットだんがポケモンを\nしはいしようなんてひどいぞ！$"
 GoldenrodCity_RadioTower_3F_Text_GymGuide:
-	.string "We run 24 hours a day to broadcast\n"
-	.string "entertaining programs.\p"
-	.string "I'll do my best to run around the\n"
-	.string "clock too!$"
-
+	.string "{JPN}24じかんたいせいで\nたのしいばんぐみをおとどけ！\pわたしも24じかん\nがんばってはたらくぞ！$"
 GoldenrodCity_RadioTower_3F_Text_CooltrainerFPleaseSave:
-	.string "The TEAM ROCKET boss has locked\n"
-	.string "himself in.\p"
-	.string "But the DIRECTOR can open it.\p"
-	.string "He's up on the fifth floor.\p"
-	.string "Please save him!$"
-
+	.string "{JPN}ロケットだんのボスが\nじぶんをとじこめちゃった\pでもきょくちょうなら\nひらけるのよ\p5かいにいるの\pたすけて！$"
 GoldenrodCity_RadioTower_3F_Text_CooltrainerFDirectorSafe:
-	.string "Is the DIRECTOR safe?$"
-
+	.string "{JPN}きょくちょうはぶじかしら？$"
 GoldenrodCity_RadioTower_3F_Text_CooltrainerFHeroGift:
-	.string "Thank you! You're my hero!\p"
-	.string "This is a token of my appreciation.$"
-
+	.string "{JPN}ありがとう！\nあなたってヒーローね！\pおれいのしるしよ$"
 GoldenrodCity_RadioTower_3F_Text_CooltrainerFSunnyDay:
-	.string "It's SKILL SWAP. It swaps the ability\n"
-	.string "of one POKéMON with another's.$"
-
+	.string "{JPN}スキルスワップよ\nポケモンのとくせいを\nいれかえるのよ$"
 GoldenrodCity_RadioTower_3F_Text_CooltrainerFMarvelous:
-	.string "You were simply marvelous!$"
-
+	.string "{JPN}あなたってすばらしいわ！$"
 GoldenrodCity_RadioTower_3F_Text_GruntM7Seen:
-	.string "I've been given strict orders.\p"
-	.string "I'm to crush anyone who challenges\n"
-	.string "TEAM ROCKET!$"
-
+	.string "{JPN}おれはめいれいをうけている\pロケットだんにたてつくやつは\nみんなたたきつぶせとな！$"
 GoldenrodCity_RadioTower_3F_Text_GruntM7Beaten:
-	.string "What?!$"
-
+	.string "{JPN}なんだと！？$"
 GoldenrodCity_RadioTower_3F_Text_GruntM7After:
-	.string "I failed in my duties…\p"
-	.string "ARCHER will be so upset...$"
-
+	.string "{JPN}しっぱいしちまった..\pアポロにおこられるぜ..$"
 GoldenrodCity_RadioTower_3F_Text_GruntM8Seen:
-	.string "It feels great ordering POKéMON\n"
-	.string "to commit crimes.$"
-
+	.string "{JPN}ポケモンにあくじを\nめいれいするのは\nサイコーだぜ！$"
 GoldenrodCity_RadioTower_3F_Text_GruntM8Beaten:
-	.string "You're kidding!$"
-
+	.string "{JPN}うそだろ！$"
 GoldenrodCity_RadioTower_3F_Text_GruntM8After:
-	.string "I feel lousy over losing!\p"
-	.string "Darn it! I hate useless POKéMON!$"
+	.string "{JPN}まけて きぶんが わるいぜ!\p"
+	.string "{JPN}ちくしょう! やくにたたない\nポケモンなんて だいきらいだ!$"
 
 GoldenrodCity_RadioTower_3F_Text_GruntM9Seen:
-	.string "Why did the shutter open? Did you\n"
-	.string "have something to do with this?$"
-
+	.string "{JPN}なぜシャッターがあいた？\nおまえがなにか\nしたのか？$"
 GoldenrodCity_RadioTower_3F_Text_GruntM9Beaten:
-	.string "I'm done for!$"
-
+	.string "{JPN}やられた！$"
 GoldenrodCity_RadioTower_3F_Text_GruntM9After:
-	.string "What?! You made it past our men in\n"
-	.string "the UNDERGROUND?\p"
-	.string "How could you?$"
-
+	.string "{JPN}なに？！ちかつうろの\nおれたちをやぶったって？\pそんなバカな！$"
 GoldenrodCity_RadioTower_3F_Text_ScientistMarcSeen:
-	.string "An unknown child wandering here?\p"
-	.string "Who are you?$"
-
+	.string "{JPN}しらないこどもが\nうろついているな？\pきみはだれだ？$"
 GoldenrodCity_RadioTower_3F_Text_ScientistMarcBeaten:
-	.string "Tch! I took you too lightly!$"
-
+	.string "{JPN}ちっ！あまくみていた！$"
 GoldenrodCity_RadioTower_3F_Text_ScientistMarcAfter:
-	.string "Bwahahaha…\p"
-	.string "I can transmit as strong a signal\n"
-	.string "as I need from here.$"
-
+	.string "{JPN}ぶわはははは.\pここからならひつような\nだけつよいでんぱを\nそうしんできるぞ！$"

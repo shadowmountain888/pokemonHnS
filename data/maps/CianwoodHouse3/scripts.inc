@@ -70,66 +70,70 @@ CianwoodCity_EventScript_KirkReturnedShuckie::
 	end
 
 CianwoodCity_Text_ManiacAskShuckle:
-	.string "I, I'm in shock!\p"
-	.string "A guy about your age with piercing\n"
-	.string "eyes and long hair came in.\p"
-	.string "He scared me into giving him my\n"
-	.string "prized POKéMON!\p"
-	.string "I still have one left, but what if\n"
-	.string "he comes back?\p"
-	.string "You look strong. Could you look\n"
-	.string "after my POKéMON for a while?$"
-
+	.string "{JPN}た.たいへんなことに！\pきみとおなじくらいのとしで\nするどいめをしたかみのながい\lやつがやってきたんだ\pおどされてだいじなポケモンを\nとられてしまった！\pまだひとつのこってるけど\nまたもどってきたらどうしよう\pきみはつよそうだ\nしばらくおれのポケモンを\lあずかってくれないか？$"
 CianwoodCity_Text_ManiacTakeCareShuckle:
-	.string "Oh, thank you!\p"
-	.string "Take good care of it, please!$"
-
+	.string "{JPN}じぶんのポケモンって\n"
+	.string "{JPN}ひとにみせたくなるよね！\p"
+	.string "{JPN}キキョウのともだちに\n"
+	.string "{JPN}ぼくがそだてたポケモン\l"
+	.string "{JPN}みせてあげたいな..$"
 CianwoodCity_Text_ManiacGotShuckle:
-	.string "{PLAYER} received a POKéMON.$"
-
+	.string "{JPN}このまちのポケモンジムは\n"
+	.string "{JPN}あらくれものばかり！\p"
+	.string "{JPN}そばにいるとオレまで\n"
+	.string "{JPN}ふっとばされそうだ\p"
+	.string "{JPN}だからここでアドバイス\n"
+	.string "{JPN}ジムリーダーがつかうのは\l"
+	.string "{JPN}かくとうポケモン！\p"
+	.string "{JPN}だったらこっちは\n"
+	.string "{JPN}エスパーポケモンでまどわしてやれ！\l"
+	.string "{JPN}あいてがパワーをはっきするまえに\l"
+	.string "{JPN}たおしてやるんだ！\p"
+	.string "{JPN}それから..\n"
+	.string "{JPN}ジムリーダーのシジマは\l"
+	.string "{JPN}たきでのしゅぎょうにむちゅうだ！\p"
+	.string "{JPN}なんとかしてたきをとめないと\n"
+	.string "{JPN}いくらはなしかけても\l"
+	.string "{JPN}きみのこえはきこえやしない！$"
 CianwoodCity_Text_ManiacPartyFull:
-	.string "Your POKéMON party is full.$"
-
+	.string "{JPN}あなたにもついっぱいよ$"
 CianwoodCity_Text_ManiacIfHeComesBack:
-	.string "Oh, no… What'll I do if he comes\n"
-	.string "back?$"
-
+	.string "{JPN}あれ？もしかしてきみ..\n"
+	.string "{JPN}ポケモン1ひきしかもってないの？\l"
+	.string "{JPN}それじゃこまるでしょー\p"
+	.string "...\p"
+	.string "{JPN}よーし！\n"
+	.string "{JPN}ぼくのメノクラゲをあげる！\p"
+	.string "{JPN}ちょっとつかまえすぎちゃってね\n"
+	.string "{JPN}にがそうかとおもってたやつだから\l"
+	.string "{JPN}えんりょはいらないよ！$"
 CianwoodCity_Text_ManiacHowsdoing:
-	.string "Hi! How's my POKéMON?$"
-
+	.string "{JPN}メノクラゲに\n"
+	.string "{JPN}ニックネームをつけますか？$"
 CianwoodCity_Text_ManiacAskReturn:
-	.string "Hi! How's my POKéMON?\p"
-	.string "I think I'm safe now, so may I\n"
-	.string "have it back?$"
-
+	.string "{JPN}{PLAYER}は\n"
+	.string "{JPN}メノクラゲをもらった！$"
 CianwoodCity_Text_ManiacThankYou:
-	.string "Thank you!$"
+	.string "{JPN}ありがとう!$"
 
 CianwoodCity_Text_ManiacShuckleNotThere:
-	.string "Hey, you don't have my POKéMON\n"
-	.string "with you.$"
-
+	.string "{JPN}おい おれのポケモンを\nもってないじゃないか$"
 CianwoodCity_Text_ManiacShuckleLikesYou:
-	.string "My POKéMON has come to like you.\p"
-	.string "All right, you should keep it.\p"
-	.string "But promise to be good to it!$"
+	.string "{JPN}わたしの ポケモンが\n"
+	.string "{JPN}きみを きにいったようだ.\p"
+	.string "{JPN}よし  きみが もっていなさい.\pでも やさしく してくれよ!$"
 
 CianwoodCity_Text_ManiacRobbed:
-	.string "Huh, something's not right.$"
-
+	.string "{JPN}あれ？なんかへんだ$"
 CianwoodCity_Text_ManiacRobbed2:
-	.string "Oh, no, no… That's the same as\n"
-	.string "being robbed.$"
+	.string "{JPN}ああ だめだめ...\n"
+	.string "{JPN}それじゃあ どろぼうに\nあったのと おなじだよ.$"
 
 CianwoodCity_Text_ManiacHappinessSpeech:
-	.string "For POKéMON, happiness is being\n"
-	.string "with a person who treats them well.$"
+	.string "{JPN}ポケモンにとって しあわせとは\n"
+	.string "{JPN}やさしく してくれるひとと\nいっしょに いることなんだ.$"
 
 CianwoodCity_Text_ManiacLastMon:
-	.string "If I take my POKéMON back,\n"
-	.string "what are you going to use\n"
-	.string "in battle?$"
-
-
+	.string "{JPN}ポケモンをかえしてもらったら\nきみはバトルでなにを\nつかうんだ？$"
 CianwoodCity_Text_ManiacReturnedMon:
-	.string "{PLAYER} returned SHUCKIE.$"
+	.string "{JPN}{PLAYER}はツボツボをかえした$"

@@ -15,20 +15,19 @@ CeladonCity_Apartments_2F_EventScript_Sign::
 	end
 
 CeladonMansion2F_Text_Computer:
-	.string "{PLAYER} turned on the PC.\p"
-	.string "…\p"
-	.string "Someone was in the middle of\n"
-	.string "composing an e-mail.\p"
-	.string "…I hope you'll come visit KANTO.\p"
-	.string "I think you'll be surprised at\n"
-	.string "how much things have changed here.\p"
-	.string "You'll also see many POKéMON that\n"
-	.string "aren't native to JOHTO.\p"
-	.string "To the PRODUCER\p"
-	.string "…$"
-
+	.string "{JPN}{PLAYER}は パソコンの\n"
+	.string "{JPN}でんげんを いれた.\p"
+	.string "{JPN}...\p"
+	.string "{JPN}だれかが でんしメールを\n"
+	.string "{JPN}かいている とちゅうだった.\p"
+	.string "{JPN}...カントーちほうに\n"
+	.string "{JPN}あそびに きてください.\p"
+	.string "{JPN}ここの ようすが どのくらい\n"
+	.string "{JPN}かわったか おどろくと おもいます.\p"
+	.string "{JPN}ジョウトちほうには いない\n"
+	.string "{JPN}ポケモンも たくさん みられます.\pプロデューサーへ\p...$"
 CeladonMansion2F_Text_DevOfficeSign:
-	.string "HEART & SOUL DEVELOPMENT OFFICE$"
+	.string "{JPN}ハート&ソウル かいはつしつ$"
 
 CeladonMansion2F_EventScript_LilDill::
 	msgbox CeladonMansion2F_Text_LilDill, MSGBOX_NPC
@@ -55,48 +54,48 @@ CeladonMansion2F_EventScript_DaniRainbow::
     end
 
 CeladonMansion2F_Text_LilDill:
-	.string "Hi all, Patch 15--\p"
-	.string "Sorry, I mean...\p"
-	.string "Hi there, I'm the GAME DIRECTOR!\p"
-	.string "I built the maps, the tilesets, the\n"
-	.string "the scripts, and much more.\p"
-	.string "But I couldn't have done it without\n"
-	.string "the other devs and the playtesters.\p"
-	.string "Thank you for playing! I hope you've\n"
-	.string "enjoyed POKéMON HEART & SOUL.$"
+	.string "{JPN}やあ みんな!パッチ15--\p"
+	.string "{JPN}あっ ごめん...\p"
+	.string "{JPN}やあ!ぼくは ゲームディレクター\n"
+	.string "{JPN}だよ!\p"
+	.string "{JPN}マップや タイルセット\n"
+	.string "{JPN}スクリプトなどを つくったんだ.\p"
+	.string "{JPN}でも ほかの かいはつしゃや\n"
+	.string "{JPN}テストプレイヤーの みんなが\l"
+	.string "{JPN}iなかったら できなかったよ.\pプレイしてくれて ありがとう!\nポケモン ハート&ソウルを\ltのしんでもらえたら うれしいな!$"
 
 CeladonMansion2F_Text_InfiniteBacon:
-	.string "We're working to rebuild this game\n"
-	.string "in pokeemerald expansion!$"
+	.string "{JPN}いま pokeemerald expansion で\n"
+	.string "{JPN}このゲームを さいこうちくしてる\lところなんだ!$"
 
 CeladonMansion2F_Text_TixoRebel:
-	.string "Have you heard of THE EGGENING?\n"
-	.string "It was a bug from the playtest\l"
-	.string "that randomly changed POKéMON into\l"
-	.string "EGGs!\p"
-	.string "I developed the fix for it!$"
+	.string "{JPN}THE EGGENING って しってる?\n"
+	.string "{JPN}テストプレイちゅうの バグで\l"
+	.string "{JPN}ポケモンが ランダムに タマゴに\l"
+	.string "{JPN}へんかしちゃうやつ!\p"
+	.string "{JPN}そのバグの しゅうせいを\nかいはつしたのは ぼくなんだ!$"
 
 CeladonMansion2F_Text_Phant:
-	.string "I love DEMAKES!\p"
-	.string "Have you played SWORD AND SHIELD\n"
-	.string "ULTIMATE PLUS - ENGLISH?\l"
-	.string "I translated it!\p"
-	.string "For my next DEMAKE, I think I'll\n"
-	.string "do ALOLA!$"
+	.string "{JPN}ぼくは リメイクが だいすき!\p"
+	.string "{JPN}ソード シールド アルティメット\n"
+	.string "{JPN}プラス えいごばんを やったこと\l"
+	.string "{JPN}ある? ぼくが ほんやくしたんだ!\p"
+	.string "{JPN}つぎの リメイクでは\n"
+	.string "{JPN}アローラを やってみようかな!$"
 
 CeladonMansion2F_Text_Exclsior:
-	.string "I implemented the unique surfing\n"
-	.string "surfing sprites for each POKéMON!\p"
-	.string "Since the project is OPEN SOURCE,\n"
-	.string "you can add your own features too!$"
+	.string "{JPN}かくポケモンの ユニークな\n"
+	.string "{JPN}なみのりスプライトを\l"
+	.string "{JPN}じっそうしたよ!\p"
+	.string "{JPN}プロジェクトは オープンソースだ\nから きみも きのうを ついか\lできるよ!$"
 
 CeladonMansion2F_Text_DaniRaibow:
-	.string "Hi!\p"
-	.string "I am pretty good at finding problems,\n"
-	.string "and can fix little ones.\p"
-    .string "Wanna hear a joke?\p"
-    .string "Lance tried to teach DRAGONITE the\n"
-    .string "move DRAGON BREATH.\p"
-    .string "However, DRAGONITE was moving too\n"
-    .string "fast from EXTREMESPEED; it couldn't\l"
-    .string "catch it!$"
+	.string "{JPN}こんにちは!\p"
+	.string "{JPN}わたしは もんだいを みつけるの\n"
+	.string "{JPN}が とくいで ちいさなものなら\l"
+	.string "{JPN}なおせるのよ.\p"
+    .string "{JPN}ジョークを きく?\p"
+	.string "{JPN}ワタルが カイリューに\n"
+    .string "{JPN}りゅうのいきを おしえようと\l"
+	.string "{JPN}したの.\p"
+    .string "{JPN}でも カイリューは しんそくで\nはやく うごきすぎて\lつかまえられなかった!$"

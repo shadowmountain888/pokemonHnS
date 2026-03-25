@@ -10,17 +10,17 @@ SootopolisCity_House7_EventScript_PokefanF::
 	end
 
 SootopolisCity_House7_Text_CityFromEruptedVolcano:
-	.string "An underwater volcano erupted and\n"
-	.string "forced itself up from the depths.\p"
-	.string "Its crater emerged from the sea and\n"
-	.string "became filled with rainwater.\p"
-	.string "That's how SOOTOPOLIS CITY came into\n"
-	.string "being.$"
+	.string "{JPN}かいていかざんが ふんかして\n"
+	.string "{JPN}ふかい うみのそこから せりあがったんだ.\p"
+	.string "{JPN}かざんの かこうが うみから でてきて\n"
+	.string "{JPN}あまみずで みたされたのさ.\p"
+	.string "{JPN}そうやって ルネシティが\n"
+	.string "{JPN}できあがったんだよ.$"
 
 SootopolisCity_House7_Text_CaveMadeToKeepSomething:
-	.string "The cave that links SOOTOPOLIS and\n"
-	.string "the outside world…\p"
-	.string "It seems as if the cave was made to\n"
-	.string "keep something from getting out.\p"
-	.string "Or am I just imagining things?$"
+	.string "{JPN}ルネシティと がいかいを\n"
+	.string "{JPN}つなぐ どうくつ...\p"
+	.string "{JPN}あの どうくつは なにかを\n"
+	.string "{JPN}そとに ださないように\l"
+	.string "{JPN}つくられた みたいだね.\pそれとも わたしの\nきのせい かしら?$"
 

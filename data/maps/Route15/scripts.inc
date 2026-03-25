@@ -46,69 +46,68 @@ Route15_EventScript_PPup::
 	end
 
 Route15_Text_TeacherColetteSeen:
-	.string "Have you forgotten anything?$"
+	.string "{JPN}なにか わすれものは ないかしら?$"
 
 Route15_Text_TeacherColetteBeaten:
-	.string "Kyaaah!$"
+	.string "{JPN}きゃああああ!$"
 
 Route15_Text_TeacherColetteAfterBattle:
-	.string "Before I became a teacher, I used\n"
-	.string "to forget a lot of things.$"
+	.string "{JPN}せんせいに なるまえは\n"
+	.string "{JPN}わたしも わすれっぽかったのよ$"
 
 Route15_Text_TeacherHillarySeen:
-	.string "On sunny days, I think that the\n"
-	.string "kids would rather be playing in the\l"
-	.string "schoolyard than studying in class.$"
+	.string "{JPN}はれた ひは こどもたちも\n"
+	.string "{JPN}きょうしつで べんきょうするより\l"
+	.string "{JPN}こうていで あそんでいたいでしょうね$"
 
 Route15_Text_TeacherHillaryBeaten:
-	.string "I didn't want to lose…$"
-
+	.string "{JPN}I didn't want to lose...$"
 Route15_Text_TeacherHillaryAfterBattle:
-	.string "Studying is important, but\n"
-	.string "exercise is just as vital.$"
+	.string "{JPN}べんきょうも たいせつですが\n"
+	.string "{JPN}うんどうも おなじくらい じゅうようよ$"
 
 Route15_Text_SchoolboyKippSeen:
-	.string "Hang on. I have to phone my mom.$"
+	.string "{JPN}ちょっと まって おかあさんに\nでんわしなくちゃ$"
 
 Route15_Text_SchoolboyKippBeaten:
-	.string "Sorry, Mom! I was beaten!$"
+	.string "{JPN}ごめん おかあさん! まけちゃった!$"
 
 Route15_Text_SchoolboyKippAfterBattle:
-	.string "My mom worries so much about me, I\n"
-	.string "have to phone her all the time.$"
+	.string "{JPN}おかあさんが しんぱいしょうだから\n"
+	.string "{JPN}いつも でんわしなくちゃ いけないんだ$"
 
 Route15_Text_SchoolboyTommySeen:
-	.string "Let's battle. I won't lose!$"
+	.string "{JPN}バトルしよう! ぼくは まけないぞ!$"
 
 Route15_Text_SchoolboyTommyBeaten:
-	.string "I forgot to do my homework!$"
+	.string "{JPN}しゅくだい やるの わすれてた!$"
 
 Route15_Text_SchoolboyTommyAfterBattle:
-	.string "Sayonara! I just learned that in\n"
-	.string "my Japanese class.$"
+	.string "{JPN}サヨナラ! こくごの じゅぎょうで\n"
+	.string "{JPN}ならったんだ$"
 
 Route15_Text_SchoolboyJohnnySeen:
-	.string "We're on a field trip to LAVENDER\n"
-	.string "RADIO TOWER for social studies.$"
+	.string "{JPN}しゃかいかの けんがくで\n"
+	.string "{JPN}シオンの ラジオとうに いくんだ$"
 
 Route15_Text_SchoolboyJohnnyBeaten:
-	.string "You're wickedly tough!$"
+	.string "{JPN}きみって めちゃくちゃ つよいね!$"
 
 Route15_Text_SchoolboyJohnnyAfterBattle:
-	.string "I'm tired of walking. I need to\n"
-	.string "take a break.$"
+	.string "{JPN}あるくの つかれちゃった\n"
+	.string "{JPN}ちょっと やすまなくちゃ$"
 
 Route15_Text_SchoolboyBillySeen:
-	.string "My favorite class is Gym!$"
+	.string "{JPN}ぼくの すきな じかんは たいいくだ!$"
 
 Route15_Text_SchoolboyBillyBeaten:
-	.string "Oh, no! How could I lose?$"
+	.string "{JPN}ええー! どうして まけちゃうの?$"
 
 Route15_Text_SchoolboyBillyAfterBattle:
-	.string "If POKéMON were a subject at\n"
-	.string "school, I'd be the best!$"
+	.string "{JPN}もし ポケモンが がっこうの かもく\n"
+	.string "{JPN}だったら ぼくが いちばんだよ!$"
 
 Route15_Text_Sign:
-	.string "ROUTE 15\p"
-	.string "FUCHSIA CITY - LAVENDER TOWN$"
+	.string "{JPN}15ばん どうろ\p"
+	.string "{JPN}\nセキチクシティ - シオンタウン$"
 

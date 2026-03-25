@@ -486,130 +486,74 @@ GoldenrodCity_UndergroundSwitches_EventScript_Item_SmokeBall::
 	end
 
 GoldenrodUnderground_Text_SilverBefore:
-    .string "Hold it!\p"
-    .string "I saw you, so I tailed you.\p"
-    .string "I don't need you underfoot while I\n"
-    .string "take care of TEAM ROCKET.\p"
-    .string "…Wait a second. You beat me before,\n"
-    .string "didn't you?\p"
-    .string "That was just a fluke.\p"
-    .string "I've been training my team and now\n"
-    .string "I will repay my debts!$"
-
+	.string "{JPN}まてよ！\pおまえをみつけたから\nついてきてやったぜ\pロケットだんをやっつける\nのにじゃまなんだよ\p..ちょっとまてよ\nまえにまけたよな？\pあれはまぐれだ\pしゅぎょうしたから\nこんどはかたきをうつ！$"
 GoldenrodUnderground_Text_SilverWin:
-    .string "…Why… Why do I lose?\p"
-    .string "I've assembled the toughest POKéMON.\p"
-    .string "I didn't ease up on the gas.\p"
-    .string "So why do I lose?$"
-
+	.string "{JPN}..なんで..なんで\nまけるんだ？\pいちばんつよいポケモン\nをあつめたのに\pぜんりょくでたたかった\nのに..なんでだ？$"
 GoldenrodUnderground_Text_SilverAfter:
-    .string "…I don't understand…\p"
-    .string "Is what that LANCE guy said true?\p"
-    .string "That I don't treat POKéMON properly?\p"
-    .string "Love…\p"
-    .string "Trust…\p"
-    .string "Are they really what I lack?\p"
-    .string "Are they keeping me from winning?\p"
-    .string "I… I just don't understand.\p"
-    .string "But it's not going to end here.\p"
-    .string "Not now. Not because of this.\p"
-    .string "I won't give up my dream of becoming\n"
-    .string "the world's best POKéMON trainer!$"
+    .string "{JPN}...わからない...\p"
+	.string "{JPN}あの ワタルって やつが いった\n"
+    .string "{JPN}ことは ほんとうなのか?\p"
+	.string "{JPN}ぼくが ポケモンを ちゃんと\n"
+	.string "{JPN}あつかってないって?\p"
+	.string "{JPN}あい...\p"
+    .string "{JPN}しんらい...\p"
+	.string "{JPN}それが ぼくに かけてるものなのか?\p"
+	.string "{JPN}それで かてないのか?\p"
+	.string "{JPN}ぼく... ぼくには わからない.\n"
+    .string "{JPN}でも ここで おわりじゃない.\p"
+	.string "{JPN}いまじゃない. これのせいでも\nない.\pせかいさいきょうの ポケモン\nトレーナーになる ゆめは\nあきらめない!"
 
 GoldenrodUnderground_Text_SilverLoss:
-    .string "Humph. This is my real power, wimp.\p"
-    .string "I'll make TEAM ROCKET history.\p"
-    .string "And I'm going to grind that LANCE\n"
-    .string "under my heels.$"
-
+	.string "{JPN}ふん これがおれの\nほんとうのちからだ\pロケットだんなんて\nらくしょうだぜ\pワタルってやつも\nたおしてやるからな$"
 GoldenrodUnderground_Text_GruntM11Seen:
-    .string "Open one shutter, another closes.\p"
-    .string "Bet you can't get where you want!$"
-
+	.string "{JPN}ひとつあけると\nべつのがしまるぜ\pいきたいところに\nいけないだろ！$"
 GoldenrodUnderground_Text_GruntM11Beaten:
-    .string "Drat! I was sunk by indecision!$"
-
+	.string "{JPN}ちくしょう！\nまよっているうちに\nやられちまった！$"
 GoldenrodUnderground_Text_GruntM11After:
-    .string "I'm confused too… The switch on the\n"
-    .string "end is the one to press first, but…$"
-
+    .string "{JPN}おれも こんらんしてるぜ...\n"
+	.string "{JPN}さいしょに おすのは はしっこの\nスイッチなんだが..."
 GoldenrodUnderground_Text_GruntM25Seen:
-    .string "Kwahaha!\p"
-    .string "Confounded by the shutters, are we?\p"
-    .string "I'll let you in on a secret if you\n"
-    .string "can beat me!$"
-
+	.string "{JPN}くわはは！\pシャッターにこまって\nるじゃないか？\nかてたらひみつを\nおしえてやるぜ！$"
 GoldenrodUnderground_Text_GruntM25Beaten:
-    .string "Uwww… I blew it.$"
-
+	.string "{JPN}うう..やっちまった$"
 GoldenrodUnderground_Text_GruntM25After:
-    .string "All right. A hint!\p"
-    .string "Change the order of switching.\p"
-    .string "That'll change the ways the shutters\n"
-    .string "open and close.$"
-
+	.string "{JPN}よし ヒントだ！\pスイッチをおすじゅんばん\nをかえてみろ\nシャッターのあきかたが\nかわるぜ$"
 GoldenrodUnderground_Text_BurglarDuncanSeen:
-    .string "Fork over your goodies!$"
-
+	.string "{JPN}たからものをよこせ！$"
 GoldenrodUnderground_Text_BurglarDuncanBeaten:
-    .string "Mercy!$"
-
+	.string "{JPN}かんべんしてくれ！$"
 GoldenrodUnderground_Text_BurglarDuncanAfter:
-    .string "Steal and sell! That's basic in\n"
-    .string "crime, kid!$"
-
+	.string "{JPN}ぬすんでうる！\nこれがはんざいのきほんだ$"
 GoldenrodUnderground_Text_BurglarEddieSeen:
-    .string "They ditched this project before they\n"
-    .string "finished.\p"
-    .string "I'm searching for leftover loot.$"
-
+	.string "{JPN}こうじがちゅうとはんぱで\nおわっちまったからな\pのこりもののおたからを\nさがしてるのさ$"
 GoldenrodUnderground_Text_BurglarEddieBeaten:
-    .string "Over the top!$"
-
+	.string "{JPN}やりすぎちまった！$"
 GoldenrodUnderground_Text_BurglarEddieAfter:
-    .string "UNDERGROUND WAREHOUSE?\p"
-    .string "What do you want to go there for?\p"
-    .string "There's nothing down there.$"
+    .string "{JPN}ちかの そうこ?\p"
+	.string "{JPN}そんなとこに なにしに\n"
+    .string "{JPN}いくんだよ?\pなにも ないぜ あそこには$"
 
 GoldenrodUnderground_Text_GruntM13Seen:
-    .string "I don't care if you're lost.\p"
-    .string "You show up here, you're nothing but\n"
-    .string "a victim!$"
-
+	.string "{JPN}まいごだろうがしったこと\nじゃない\pここにきたからには\nえじきだ！$"
 GoldenrodUnderground_Text_GruntM13Beaten:
-    .string "Urk! Yeah, think you're cool, huh?$"
-
+	.string "{JPN}ぐっ！なまいきなやつだな！$"
 GoldenrodUnderground_Text_GruntM13After:
-    .string "You must have ice in your veins to\n"
-    .string "dis TEAM ROCKET.$"
-
+	.string "{JPN}ロケットだんをコケにするなんて\nきもがすわってるな！$"
 GoldenrodUnderground_Text_GruntF3Seen:
-    .string "Are you lost? No, you can't be.\p"
-    .string "You don't have that scared look.\p"
-    .string "I'll give you something to be\n"
-    .string "scared about!$"
-
+	.string "{JPN}まいごかい？いや.\pそんなこわがった\nかおしてないね\pこわがらせてやるよ！$"
 GoldenrodUnderground_Text_GruntF3Beaten:
-    .string "How could you?$"
-
+	.string "{JPN}そんなひどい.$"
 GoldenrodUnderground_Text_GruntF3After:
-    .string "Go wherever you'd like! Get lost!\n"
-    .string "See if I care!$"
-
+	.string "{JPN}すきなところにいけば！\nしらないから！$"
 GoldenrodUnderground_Text_Switch1:
-    .string "SWITCH 1 activated.$"
-
+	.string "{JPN}スイッチ1 さどう$"
 GoldenrodUnderground_Text_Switch2:
-    .string "SWITCH 2 activated.$"
-
+	.string "{JPN}スイッチ2 さどう$"
 GoldenrodUnderground_Text_Switch3:
-    .string "SWITCH 3 activated.$"
-
+	.string "{JPN}スイッチ3 さどう$"
 GoldenrodUnderground_Text_Switch1Off:
-    .string "SWITCH 1 deactivated.$"
-
+	.string "{JPN}スイッチ1 ていし$"
 GoldenrodUnderground_Text_Switch2Off:
-    .string "SWITCH 2 deactivated.$"
-
+	.string "{JPN}スイッチ2 ていし$"
 GoldenrodUnderground_Text_Switch3Off:
-    .string "SWITCH 3 deactivated.$"
+	.string "{JPN}スイッチ3 ていし$"

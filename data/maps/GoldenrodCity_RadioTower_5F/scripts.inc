@@ -103,39 +103,29 @@ GoldenrodCity_RadioTower_5F_Movement_Spin2:
 
 
 GoldenrodCity_RadioTower_5F_Text_FakeDirector1:
-	.string "Y-you! You came to rescue me?$"
-
+	.string "{JPN}き-きみか！たすけにきてくれたのか？$"
 GoldenrodCity_RadioTower_5F_Text_FakeDirector2:
-	.string "Is that what you were expecting?\p"
-	.string "Wrong! I'm an imposter!\p"
-	.string "I pretended to be the real thing to\n"
-	.string "prepare for our takeover.\p"
-	.string "Do you want to know where we hid\n"
-	.string "the real DIRECTOR?\p"
-	.string "Sure, I'll tell you. But only if you\n"
-	.string "can beat me!$"
-
+	.string "{JPN}そうおもったか？\pざんねん！おれはにせものだ！\pのっとりのじゅんびのために\nほんものになりすましていたのだ\pほんもののきょくちょうを\nどこにかくしたかしりたいか？\pおしえてやろう\nだがまずおれにかってからだ！$"
 GoldenrodCity_RadioTower_5F_Text_FakeDirectorWin:
-	.string "OK, OK. I'll tell you where he is.$"
-
+	.string "{JPN}わかったわかった！\nやつのいばしょをおしえてやる$"
 GoldenrodCity_RadioTower_5F_Text_FakeDirectorAfter:
-	.string "The boss stashed the DIRECTOR in\n"
-	.string "the UNDERGROUND WAREHOUSE.\p"
-	.string "It's at the far end of the UNDER-\n"
-	.string "GROUND.\p"
-	.string "I am a nice guy, I will give you\n"
-	.string "the BASEMENT KEY to get to the\l"
-	.string "UNDERGROUND WAREHOUSE.\p"
-	.string "But I doubt you'll get that far.$"
+	.string "{JPN}ボスは ディレクターを\n"
+	.string "{JPN}ちかそうこに かくしたんだ.\p"
+	.string "{JPN}ちかの いちばん おくにあるよ.\p"
+	.string "{JPN}おれは やさしいから\n"
+	.string "{JPN}ちかそうこに いくための\l"
+	.string "{JPN}ちかしつのカギを やろう.\p"
+	.string "{JPN}でも そこまで たどりつけるか\n"
+	.string "{JPN}あやしいもんだけどな.$"
 
 GoldenrodCity_RadioTower_5F_Text_FakeDirectorAfter2:
-	.string "The boss stashed the DIRECTOR in\n"
-	.string "the UNDERGROUND WAREHOUSE.\p"
-	.string "It's at the far end of the UNDER-\n"
-	.string "GROUND.\p"
-	.string "You can use the BASEMENT KEY to\n"
-	.string "get to the UNDERGROUND WAREHOUSE.\p"
-	.string "But I doubt you'll get that far.$"
+	.string "{JPN}ボスは ディレクターを\n"
+	.string "{JPN}ちかそうこに かくしたんだ.\p"
+	.string "{JPN}ちかの いちばん おくにあるよ.\p"
+	.string "{JPN}ちかしつのカギで ちかそうこに\n"
+	.string "{JPN}iけるぞ.\p"
+	.string "{JPN}でも そこまで たどりつけるか\n"
+	.string "{JPN}あやしいもんだけどな.$"
 
 @=======[STUDIO]==============================================================================================================================
 
@@ -329,115 +319,73 @@ GoldenrodCity_RadioTower_5F_Movement_Leave2:
 	step_end
 
 GoldenrodCity_RadioTower_5F_Text_ExecutiveF1Seen:
-	.string "Remember me from the HIDEOUT in\n"
-	.string "MAHOGANY TOWN?\p"
-	.string "My boss scolded me but I'm stronger.\p"
-	.string "I lost then, but I won't this time.$"
-
+	.string "{JPN}チョウジタウンのアジトで\nあったことおぼえてる？\pボスにおこられたけど\nつよくなったのよ！\pあのときはまけたけど\nこんどはまけないわ！$"
 GoldenrodCity_RadioTower_5F_Text_ExecutiveF1Beaten:
-	.string "This can't be happening!\p"
-	.string "I fought hard, but I still lost…\p"
-	.string "I'm so sorry GIOVANNI…$"
-
+	.string "{JPN}そんなばかな！\pがんばってたたかったのに\nまたまけちゃった..\pサカキさまごめんなさい..$"
 GoldenrodCity_RadioTower_5F_Text_ExecutiveF1After:
-	.string "{PLAYER}, isn't it?\p"
-	.string "A brat like you won't appreciate\n"
-	.string "the magnificence of TEAM ROCKET.\p"
-	.string "That's too bad. I really admire\n"
-	.string "your power.$"
-
+	.string "{JPN}{PLAYER}っていうのね？\pあんたみたいなこどもには\nロケットだんのすばらしさが\pわからないでしょうね\nざんねんだわ\pあなたのちからはみとめるけど$"
 GoldenrodCity_RadioTower_5F_Text_RocketBossSeen:
-	.string "Oh? You managed to get this far?\p"
-	.string "You must be quite the trainer.\p"
-	.string "We intend to take over this RADIO\n"
-	.string "STATION and announce our comeback.\p"
-	.string "That should bring our boss GIOVANNI\n"
-	.string "back from his solitary training.\p"
-	.string "We are going to regain our former\n"
-	.string "glory...\p"
-	.string "I won't allow you to interfere with\n"
-	.string "our meticulous plans!$"
-
+	.string "{JPN}アポロ: おやおや...\nついにここまできましたか\p"
+	.string "{JPN}なかなかゆうしゅうな\nトレーナーのようですね\p"
+	.string "{JPN}われわれはラジオきょくをのっとり\nぜんこくにむけて\l"
+	.string "{JPN}ふっかつせんげんをするのです\p"
+	.string "{JPN}そうすればどこかで\nしゅぎょうちゅうのサカキさまも\l"
+	.string "{JPN}もどられるにちがいない\p"
+	.string "{JPN}あのむかしのえいこうを\nとりもどすのです...\l"
+	.string "{JPN}そのじゃまはさせませんよ!\p$"
 GoldenrodCity_RadioTower_5F_Text_RocketBossBeaten:
-	.string "No! Forgive me, GIOVANNI!$"
-
+	.string "{JPN}ば..ばかな！\nサカキさまおゆるしください！$"
 GoldenrodCity_RadioTower_5F_Text_RocketBossAfter:
-	.string "How could this be?\p"
-	.string "Our dreams have come to naught.\p"
-	.string "I wasn't up to the task after all.\p"
-	.string "Like GIOVANNI did before me, I will\n"
-	.string "disband TEAM ROCKET here today.\p"
-	.string "Farewell.$"
-
+	.string "{JPN}アポロ: ...なんということだ\p"
+	.string "{JPN}すべてのゆめが\nいまおわりましたよ\lやはりわたしではむりでしたか\p"
+	.string "{JPN}わかりました\nサカキさまがそうしたように\lわたしたちロケットだんは"
+	.string "{JPN}\lここでかいさんしましょう\p"
+	.string "{JPN}さらばです\p$"
 GoldenrodCity_RadioTower_5F_Text_DirectorThanks:
-	.string "DIRECTOR: {PLAYER}, thank you!\p"
-	.string "Your courageous actions have saved\n"
-	.string "POKéMON nationwide.\p"
-	.string "I know it's not much, but please\n"
-	.string "take this.$"
-
+	.string "{JPN}きょくちょう: おお...!\nもうやっつけてくれたのか\l"
+	.string "{JPN}れいをいうよほんとありがとう\p"
+	.string "{JPN}きみのゆうきあるこうどうが\nぜんこくのポケモンをすくったんだ\p"
+	.string "{JPN}よし!きみだったら\nこれをもつのにふさわしいだろう\l"
+	.string "{JPN}うけとってくれたまえ!\p$"
 GoldenrodCity_RadioTower_5F_Text_DirectorClearWingExplanation:
-	.string "There used to be a tower right here\n"
-	.string "in GOLDENROD CITY.\p"
-	.string "But it was old and creaky.\p"
-	.string "So we replaced it with our RADIO\n"
-	.string "TOWER.\p"
-	.string "We dug up that wing during\n"
-	.string "construction.\p"
-	.string "I heard that all sorts of POKéMON\n"
-	.string "lived in GOLDENROD in the past.\p"
-	.string "Perhaps…\p"
-	.string "That wing has some connection to the\n"
-	.string "TIN TOWER in ECRUTEAK CITY…\p"
-	.string "OK, I better go to my OFFICE.$"
+	.string "{JPN}むかしここにあったふるいとうを\nたてかえてラジオとうにしたとき\l"
+	.string "{JPN}とうのてっぺんでみつかったのが\lそのにじいろのはねなんだ\p"
+	.string "{JPN}にじいろのはねがあれば\nエンジュのスズのとうにのぼれる\p"
+	.string "{JPN}そんなはなしを\nわたしはタンバのしりあいから\lきいたことがあるよ\p"
+	.string "{JPN}さてそろそろわたしは\nきょくちょうしつにもどるよ\lじゃあね!\p$"
 
 GoldenrodCity_RadioTower_5F_Text_DirectorTidalWingExplanation:
-	.string "There used to be a tower right here\n"
-	.string "in GOLDENROD CITY.\p"
-	.string "But it was old and creaky.\p"
-	.string "So we replaced it with our RADIO\n"
-	.string "TOWER.\p"
-	.string "We dug up that wing during\n"
-	.string "construction.\p"
-	.string "I heard that all sorts of POKéMON\n"
-	.string "lived in GOLDENROD in the past.\p"
-	.string "Perhaps…\p"
-	.string "That wing has some connection to the\n"
-	.string "WHIRL ISLANDS near CIANWOOD CITY…\p"
-	.string "OK, I better go to my OFFICE.$"
+	.string "{JPN}むかしは ここコガネシティに\n"
+	.string "{JPN}とうが たっていたんじゃ.\p"
+	.string "{JPN}でも ふるくて きしんでいて\n"
+	.string "{JPN}ね.\p"
+	.string "{JPN}それで わたしたちの ラジオとう\n"
+	.string "{JPN}に たてかえたんじゃよ.\p"
+	.string "{JPN}こうじちゅうに その はねを\n"
+	.string "{JPN}ほりだしたんじゃ.\p"
+	.string "{JPN}むかしは コガネには いろんな\n"
+	.string "{JPN}ポケモンが すんでいたと\l"
+	.string "{JPN}きいておるよ.\p"
+	.string "{JPN}もしかすると...\p"
+	.string "{JPN}その はねは タンバシティちかくの\nうずまきじまと かんけいが\lあるのかもしれんのう...\pよし じむしつに もどるとしよう.$"
 
 GoldenrodCity_RadioTower_5F_Text_DirectorLegendary:
-	.string "Ah!\p"
-	.string "That reminds me…\p"
-	.string "That wing I gave you... I think\n"
-	.string "it's related to the LEGENDARY\l"
-	.string "POKéMON.\p"
-	.string "But! The LEGENDARY POKéMON won't\n"
-	.string "appear with just that wing...\p"
-	.string "Apparently there is something else\n"
-	.string "you need... Or something like that.\p"
-	.string "I wonder what it was...\p"
-	.string "I can't remember.$"
-
+	.string "{JPN}ああ！\pそうそう..\pきみにあげたそのはね..\nでんせつのポケモンと\lかんけいがあるとおもうんだ\pでも！そのはねだけでは\nでんせつのポケモンはあらわれない..\pほかになにかひつようなものが\nあるらしいんだが..\pなんだったかな..\pおもいだせないんだ$"
 GoldenrodCity_RadioTower_5F_Text_DirectorFakeout:
-	.string "Are you expecting something?\n"
-	.string "This is what they call FAKE OUT.\p"
-	.string "I really must go back to my OFFICE\n"
-	.string "this time. See ya!$"
-
+	.string "{JPN}そうそう!\p"
+	.string "{JPN}あぶなくわすれるところだった!\p"
+	.string "{JPN}タンバのしりあいがいうには\nそのにじいろのはねで\l"
+	.string "{JPN}スズのとうをのぼっていっても\lそれだけではでんせつのポケモンは\l"
+	.string "{JPN}こないらしいんだ\p"
+	.string "{JPN}なにかもうひとつ\nひつようなものがあるって...\l"
+	.string "{JPN}いってたような...\lいってなかったような...\l"
+	.string "{JPN}なんだっけなあ...\p"
+	.string "{JPN}わすれてしまいました!\p$"
 GoldenrodCity_RadioTower_5F_Text_DirectorIntro:
-	.string "DIRECTOR: Hello, {PLAYER}!\p"
-	.string "You know, I love POKéMON.\p"
-	.string "I built this RADIO TOWER so I could\n"
-	.string "express my love of POKéMON.\p"
-	.string "It would be nice if people enjoyed\n"
-	.string "our programs.$"
-
+	.string "{JPN}しゃちょうやあ{PLAYER}くん！\pわたしはポケモンがだいすきでね\pポケモンへのあいをつたえるため\nこのラジオとうをたてたんだ\pみんながばんぐみをたのしんで\nくれるといいんだがね$"
 GoldenrodCity_RadioTower_5F_Text_Ben:
-	.string "BEN: Do you listen to our music?$"
-
+	.string "{JPN}ベンきみはぼくらのおんがく\nきいてくれてるかい？$"
 GoldenrodCity_RadioTower_5F_Text_DirectorOfficeSign:
-	.string "5F DIRECTOR'S   OFFICE$"
-
+	.string "{JPN}5F しゃちょうしつ$"
 GoldenrodCity_RadioTower_5F_Text_Studio1Sign:
-	.string "5F STUDIO 1$"
+	.string "{JPN}5F スタジオ1$"

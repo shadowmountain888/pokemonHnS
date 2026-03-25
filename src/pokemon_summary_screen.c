@@ -772,16 +772,16 @@ static const struct WindowTemplate sPageMovesTemplate[] = // This is used for bo
         .bg = 0,
         .tilemapLeft = 15,
         .tilemapTop = 4,
-        .width = 9,
+        .width = 8,
         .height = 10,
         .paletteNum = 6,
         .baseBlock = 449,
     },
     [PSS_DATA_WINDOW_MOVE_PP] = {
         .bg = 0,
-        .tilemapLeft = 24,
+        .tilemapLeft = 23,
         .tilemapTop = 4,
-        .width = 6,
+        .width = 7,
         .height = 10,
         .paletteNum = 8,
         .baseBlock = 539,
@@ -789,9 +789,9 @@ static const struct WindowTemplate sPageMovesTemplate[] = // This is used for bo
     [PSS_DATA_WINDOW_MOVE_DESCRIPTION] = {
         .bg = 0,
         .tilemapLeft = 10,
-        .tilemapTop = 15,
+        .tilemapTop = 14,
         .width = 20,
-        .height = 4,
+        .height = 6,
         .paletteNum = 6,
         .baseBlock = 599,
     },
@@ -1377,7 +1377,7 @@ static void CreateShinyStarObj(u16 tileTag, u16 palTag)
     sShinyStarObjData->tileTag = tileTag;
     sShinyStarObjData->palTag  = palTag;
 
-    // Start hidden; we’ll reveal if shiny.
+    // Start hidden; we'll reveal if shiny.
     sShinyStarObjData->sprite->invisible = TRUE;
 
 fail:
@@ -3164,7 +3164,14 @@ static void PrintNotEggInfo(void)
     StringAppend(gStringVar1, gStringVar2);
     PrintTextOnWindow(PSS_LABEL_WINDOW_PORTRAIT_SPECIES, gStringVar1, 24, 17, 0, 1);
     GetMonNickname(mon, gStringVar1);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_PORTRAIT_NICKNAME, gStringVar1, 0, 1, 0, 1);
+    {
+        // Prepend {JPN} so kana nickname renders correctly
+        u8 nickBuf[POKEMON_NAME_LENGTH + 3];
+        nickBuf[0] = EXT_CTRL_CODE_BEGIN;
+        nickBuf[1] = EXT_CTRL_CODE_JPN;
+        StringCopy(nickBuf + 2, gStringVar1);
+        PrintTextOnWindow(PSS_LABEL_WINDOW_PORTRAIT_NICKNAME, nickBuf, 0, 1, 0, 1);
+    }
     strArray[0] = CHAR_SLASH;
     StringCopy(&strArray[1], &gSpeciesNames[summary->species2][0]);
     PrintTextOnWindow(PSS_LABEL_WINDOW_PORTRAIT_SPECIES, strArray, 0, 1, 0, 1);
@@ -3176,7 +3183,14 @@ static void PrintNotEggInfo(void)
 static void PrintEggInfo(void)
 {
     GetMonNickname(&sMonSummaryScreen->currentMon, gStringVar1);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_PORTRAIT_NICKNAME, gStringVar1, 0, 1, 0, 1);
+    {
+        // Prepend {JPN} so kana nickname renders correctly
+        u8 nickBuf[POKEMON_NAME_LENGTH + 3];
+        nickBuf[0] = EXT_CTRL_CODE_BEGIN;
+        nickBuf[1] = EXT_CTRL_CODE_JPN;
+        StringCopy(nickBuf + 2, gStringVar1);
+        PrintTextOnWindow(PSS_LABEL_WINDOW_PORTRAIT_NICKNAME, nickBuf, 0, 1, 0, 1);
+    }
     PutWindowTilemap(PSS_LABEL_WINDOW_PORTRAIT_NICKNAME);
     ClearWindowTilemap(PSS_LABEL_WINDOW_PORTRAIT_DEX_NUMBER);
     ClearWindowTilemap(PSS_LABEL_WINDOW_PORTRAIT_SPECIES);
@@ -3461,13 +3475,18 @@ static void PrintMonOTName(void)
     int x, windowId;
     if (InBattleFactory() != TRUE && InSlateportBattleTent() != TRUE)
     {
+        u8 otNameBuf[PLAYER_NAME_LENGTH + 3];
         windowId = AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ORIGINAL_TRAINER);
         PrintTextOnWindow(windowId, gText_OTSlash, 0, 1, 0, 1);
         x = GetStringWidth(FONT_NORMAL, gText_OTSlash, 0);
+        // Prepend {JPN} so kana bytes render through JP glyph table
+        otNameBuf[0] = EXT_CTRL_CODE_BEGIN;
+        otNameBuf[1] = EXT_CTRL_CODE_JPN;
+        StringCopy(otNameBuf + 2, sMonSummaryScreen->summary.OTName);
         if (sMonSummaryScreen->summary.OTGender == 0)
-            PrintTextOnWindow(windowId, sMonSummaryScreen->summary.OTName, x, 1, 0, 5);
+            PrintTextOnWindow(windowId, otNameBuf, x, 1, 0, 5);
         else
-            PrintTextOnWindow(windowId, sMonSummaryScreen->summary.OTName, x, 1, 0, 6);
+            PrintTextOnWindow(windowId, otNameBuf, x, 1, 0, 6);
     }
 }
 
@@ -4024,14 +4043,14 @@ static void PrintMoveNameAndPP(u8 moveIndex)
         DynamicPlaceholderTextUtil_ExpandPlaceholders(gStringVar4, sMovesPPLayout);
         text = gStringVar4;
         ppState = GetCurrentPpToMaxPpState(summary->pp[moveIndex], pp) + 9;
-        x = GetStringRightAlignXOffset(FONT_NORMAL, text, 44);
+        x = GetStringRightAlignXOffset(FONT_NORMAL, text, 52);
     }
     else
     {
         PrintTextOnWindow(moveNameWindowId, gText_OneDash, 0, moveIndex * 16 + 1, 0, 1);
         text = gText_TwoDashes;
         ppState = 12;
-        x = GetStringCenterAlignXOffset(FONT_NORMAL, text, 44);
+        x = GetStringCenterAlignXOffset(FONT_NORMAL, text, 52);
     }
 
     PrintTextOnWindow(ppValueWindowId, text, x, moveIndex * 16 + 1, 0, ppState);
@@ -4205,7 +4224,7 @@ static void PrintNewMoveDetailsOrCancelText(void)
         DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, gStringVar1);
         DynamicPlaceholderTextUtil_SetPlaceholderPtr(1, gStringVar1);
         DynamicPlaceholderTextUtil_ExpandPlaceholders(gStringVar4, sMovesPPLayout);
-        PrintTextOnWindow(windowId2, gStringVar4, GetStringRightAlignXOffset(FONT_NORMAL, gStringVar4, 44), 65, 0, 12);
+        PrintTextOnWindow(windowId2, gStringVar4, GetStringRightAlignXOffset(FONT_NORMAL, gStringVar4, 52), 65, 0, 12);
     }
 }
 

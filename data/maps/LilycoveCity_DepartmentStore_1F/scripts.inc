@@ -207,89 +207,89 @@ SCRIPT_SelfTrade_DeclineTrade::
 	end
 
 SCRIPT_SelfTrade_Text_IllTradeIfYouWant:
-	.string "Welcome to the DEVON CORPORATION\n"
-	.string "SELF-TRADER app.\p"
-	.string "One of your POKéMON will be self-traded.\n"
-	.string "A single operation costs 10.000¥.\p"
-	.string "Do you want to continue to\n"
-	.string "the POKéMON selection?$"
+	.string "{JPN}デボンコーポレーション\n"
+	.string "{JPN}セルフトレーダー アプリへ\l"
+	.string "{JPN}ようこそ.\p"
+	.string "{JPN}あなたの ポケモンを\n"
+	.string "{JPN}じぶんで こうかんします.\l"
+	.string "{JPN}いちかいの りようりょうは\l10000えん です.\pポケモンの せんたくがめんに\nすすみますか?$"
 
 SCRIPT_SelfTrade_Text_ComeBack:
-	.string "Thank you using\n"
-	.string "DEVON CORP. products.$"
+	.string "{JPN}デボンコーポレーションの\n"
+	.string "{JPN}しょうひんを ごりようください\lまして ありがとうございます.$"
 
 SCRIPT_SelfTrade_Text_YouDontWantToThatsOkay:
-	.string "Thank you for using\n"
-	.string "DEVON CORP. products.$"
+	.string "{JPN}デボンコーポレーションの\n"
+	.string "{JPN}しょうひんを ごりようくださり\lありがとうございます.$"
 
 LilycoveCity_DepartmentStore_1F_Machine_NoMoney_Text:
-	.string "Sorry, you don't have enough money.\n"
-	.string "10.000¥ are required for one use.\p"
-	.string "Thank you for using\n"
-	.string "DEVON CORP. products.$"
+	.string "{JPN}もうしわけございません.\n"
+	.string "{JPN}おかねが たりません.\l"
+	.string "{JPN}いちかい りようするのに\l"
+	.string "{JPN}10000えんが ひつようです.\pデボンコーポレーションの\nしょうひんを ごりようくださり\lありがとうございます.$"
 
 LilycoveCity_DepartmentStore_1F_TraderWoman_Text:
-	.string "Welcome to LILYCOVE DEPARTMENT STORE!\p"
-	.string "Would you like to know about the new\n"
-	.string "technology developed by DEVON CORP.?\p"
-	.string "It's a SELF-TRADER app!\p"
-	.string "With the help of a simple computer\n"
-	.string "program, you can send one POKéMON to\l"
-	.string "a DEVON CORP. server and get it back\l"
-	.string "in just a few seconds!\p"
-	.string "This can trigger the EVOLUTION\n"
-	.string "conditions of certain species.\p"
-	.string "However, maintaining such a complex\n"
-	.string "system can be expensive.\p"
-	.string "You have the option to pay for a\n"
-	.string "lifetime license for 1.000.000¥,\l"
-	.string "or you can use it by paying every\l"
-	.string "usage, which costs 10.000¥.\p"
-	.string "If you want to try it out, just use\n"
-	.string "the computer on your right!\p"
-	.string "Thank you for using DEVON\n"
-	.string "CORP. products!$"
+	.string "{JPN}ミナモデパートへ\n"
+	.string "{JPN}ようこそ!\p"
+	.string "{JPN}デボンコーポレーションが\n"
+	.string "{JPN}かいはつした あたらしい\l"
+	.string "{JPN}ぎじゅつについて\l"
+	.string "{JPN}おしりに なりますか?\p"
+	.string "{JPN}セルフトレーダー アプリ\n"
+	.string "{JPN}です!\p"
+	.string "{JPN}かんたんな コンピューター\n"
+	.string "{JPN}プログラムの おかげで\l"
+	.string "{JPN}ポケモンを いっぴき\l"
+	.string "{JPN}デボンコーポレーションの\l"
+	.string "{JPN}サーバーに おくって\l"
+	.string "{JPN}すうびょうで もどして\l"
+	.string "{JPN}もらえるのです!\p"
+	.string "{JPN}これにより とくていの\n"
+	.string "{JPN}ポケモンの しんかじょうけんを\l"
+	.string "{JPN}はっせいさせることが\l"
+	.string "{JPN}できます.\p"
+	.string "{JPN}ただし このような\nふくざつな システムの\lいじには おかねが\lかかります.\pしょうがいライセンスを\n1000000えんで こうにゅう\lするか まいかい 10000えんで\lりようするか えらべます.\pためしに つかってみたい\nばあいは みぎにある\lコンピューターを\lつかってください!\pデボンコーポレーションの\nしょうひんを ごりようくださり\lありがとうございます!$"
 
 LilycoveCity_DepartmentStore_1F_Text_WelcomeToDeptStore:
-	.string "Welcome to LILYCOVE DEPARTMENT STORE.$"
+	.string "{JPN}ミナモデパートへ ようこそ.$"
 
 LilycoveCity_DepartmentStore_1F_Text_IBuyAllSortsOfThings:
-	.string "Whenever I come to the DEPARTMENT\n"
-	.string "STORE, I always end up buying all sorts\l"
-	.string "of things because it's so fun.$"
+	.string "{JPN}デパートに くると\n"
+	.string "{JPN}たのしくて いつも いろんな\l"
+	.string "{JPN}ものを かってしまうのよね.$"
 
 LilycoveCity_DepartmentStore_1F_Text_MomBuyingMeFurniture:
-	.string "Today, my mom is going to buy me some\n"
-	.string "nice furniture.$"
+	.string "{JPN}きょうは おかあさんが\n"
+	.string "{JPN}すてきな かぐを\lかってくれるの.$"
 
 LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill:
-	.string "I'm buying something for my AZUMARILL\n"
-	.string "as a reward for winning a CONTEST.$"
+	.string "{JPN}コンテストで かったときの\n"
+	.string "{JPN}ごほうびに マリルリに\lなにか かってあげるの.$"
 
 LilycoveCity_DepartmentStore_1F_Text_Azumarill:
-	.string "AZUMARILL: Maririroo!$"
+	.string "{JPN}マリルリ: マリリルー!$"
 
 LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign:
-	.string "1F: SERVICE COUNTER\n"
-	.string "    LOTTERY CORNER\p"
-	.string "2F: TRAINER'S ZONE\p"
-	.string "3F: BATTLE COLLECTION\p"
-	.string "4F: TM CORNER\p"
-	.string "5F: POKé DOLL FLOOR\p"
-	.string "ROOFTOP: ROOFTOP PLAZA$"
+	.string "{JPN}1F: サービスカウンター\n"
+	.string "{JPN}     ふくびきコーナー\p"
+	.string "{JPN}2F: トレーナーズコーナー\p"
+	.string "{JPN}3F: バトルコレクション\p"
+	.string "{JPN}4F: わざマシンコーナー\p"
+	.string "{JPN}5F: ポケモンにんぎょうフロア\p"
+	.string "{JPN}おくじょう: スカイガーデン$"
 
 @ Unused
 LilycoveCity_DepartmentStore_1F_Text_WirelessCommIsFun:
-	.string "Wireless Communication is a\n"
-	.string "lot of fun, isn't it?\p"
-	.string "I think it lets you do things that\n"
-	.string "weren't possible before.\p"
-	.string "For instance, you can now trade\n"
-	.string "with people you couldn't before.\p"
-	.string "I think it's going to be exciting!$"
+	.string "{JPN}ワイヤレスつうしんって\n"
+	.string "{JPN}とても たのしいですよね?\p"
+	.string "{JPN}いままで できなかった\n"
+	.string "{JPN}ことが できるように\l"
+	.string "{JPN}なったと おもいます.\p"
+	.string "{JPN}たとえば いままで\n"
+	.string "{JPN}こうかんできなかった\lひとと こうかんできたり.\pこれから わくわく\nしますね!$"
 
 @ Unused
 LilycoveCity_DepartmentStore_1F_Text_SpreadWordAboutWirelessComm:
-	.string "I want to spread the word about how\n"
-	.string "fun Wireless Communication can be.$"
+	.string "{JPN}ワイヤレスつうしんの\n"
+	.string "{JPN}たのしさを ひろめて\lいきたいです.$"
 

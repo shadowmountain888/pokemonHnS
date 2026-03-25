@@ -33,67 +33,64 @@ MtPyre_3F_EventScript_RematchGabrielle::
 	end
 
 MtPyre_3F_Text_WilliamIntro:
-	.string "The rich atmosphere of the mountain\n"
-	.string "has elevated my psychic power!\p"
-	.string "A mere child like you…\n"
-	.string "You dream of winning?$"
+	.string "{JPN}やまの ゆたかな ふんいきが\n"
+	.string "{JPN}ぼくの ちょうのうりょくを\l"
+	.string "{JPN}たかめてくれた!\p"
+	.string "{JPN}きみの ような こどもが...\nかてる ゆめを みるのかい?$"
 
 MtPyre_3F_Text_WilliamDefeat:
-	.string "I drown in self-pity…$"
-
+	.string "{JPN}じこあわれみに おぼれる...$"
 MtPyre_3F_Text_WilliamPostBattle:
-	.string "My psychic powers have surely\n"
-	.string "grown several times, but…$"
-
+	.string "{JPN}ちょうのうりょくは かくじつに\n"
+	.string "{JPN}すうばい つよくなったのに...$"
 MtPyre_3F_Text_KaylaIntro:
-	.string "Ahahahaha!\p"
-	.string "This is no place for children, least\n"
-	.string "of all you!$"
+	.string "{JPN}あはははは!\p"
+	.string "{JPN}ここは こどもの くるところ\n"
+	.string "{JPN}じゃないよ  とくに きみは!$"
 
 MtPyre_3F_Text_KaylaDefeat:
-	.string "I lost that cleanly…$"
-
+	.string "{JPN}みごとに まけちゃった...$"
 MtPyre_3F_Text_KaylaPostBattle:
-	.string "This means my training is still not\n"
-	.string "enough…\p"
-	.string "I've got to keep working toward the\n"
-	.string "summit…\p"
-	.string "Go, me!$"
+	.string "{JPN}これは まだまだ しゅぎょうが\n"
+	.string "{JPN}たりない ってことね...\p"
+	.string "{JPN}ちょうじょうを めざして\n"
+	.string "{JPN}がんばらなくちゃ...\p"
+	.string "{JPN}がんばれ わたし!$"
 
 MtPyre_3F_Text_GabrielleIntro:
-	.string "Why have you come here?$"
+	.string "{JPN}なぜ ここに きたの?$"
 
 MtPyre_3F_Text_GabrielleDefeat:
-	.string "That was amazing!\n"
-	.string "You're a very special TRAINER.$"
+	.string "{JPN}すごいわね!\n"
+	.string "{JPN}あなたは とても とくべつな\nトレーナーよ.$"
 
 MtPyre_3F_Text_GabriellePostBattle:
-	.string "POKéMON no longer of this world.\n"
-	.string "POKéMON that are with you now.\p"
-	.string "And the POKéMON that you will meet\n"
-	.string "in the future…\p"
-	.string "They are all to be equally cherished.\n"
-	.string "Please remember that.$"
+	.string "{JPN}もう この よに いない ポケモン\n"
+	.string "{JPN}いま きみと いっしょの ポケモン\p"
+	.string "{JPN}そして しょうらい であう\n"
+	.string "{JPN}ポケモンたちも...\p"
+	.string "{JPN}みんな ひとしく たいせつな そんざい\n"
+	.string "{JPN}それを わすれないで ほしいの$"
 
 MtPyre_3F_Text_GabrielleRegister:
-	.string "I would like to see your POKéMON\n"
-	.string "when they grow up some more…\p"
-	.string "Please, I need to see your POKéNAV.$"
+	.string "{JPN}きみの ポケモンたちが\n"
+	.string "{JPN}もっと せいちょうしたとき みてみたいわ...\n"
+	.string "{JPN}ポケナビを みせて もらえる?$"
 
 MtPyre_3F_Text_GabrielleRematchIntro:
-	.string "Oh, it's you…\p"
-	.string "Have you come to show me your grown\n"
-	.string "POKéMON?$"
+	.string "{JPN}あら あなたね...\p"
+	.string "{JPN}せいちょうした ポケモンたちを\n"
+	.string "{JPN}みせに きてくれたの?$"
 
 MtPyre_3F_Text_GabrielleRematchDefeat:
-	.string "How amazing!\n"
-	.string "You are a special person.$"
+	.string "{JPN}すばらしいわ!\n"
+	.string "{JPN}あなたは とくべつな ひとね.$"
 
 MtPyre_3F_Text_GabriellePostRematch:
-	.string "POKéMON no longer of this world.\n"
-	.string "POKéMON that are with you now.\p"
-	.string "And the POKéMON that you will meet\n"
-	.string "in the future…\p"
-	.string "They are all to be equally cherished.\n"
-	.string "I see that you've remembered that.$"
+	.string "{JPN}もう この よに いない ポケモン\n"
+	.string "{JPN}いま きみと いっしょの ポケモン\p"
+	.string "{JPN}そして しょうらい であう\n"
+	.string "{JPN}ポケモンたちも...\p"
+	.string "{JPN}みんな ひとしく たいせつな そんざい\n"
+	.string "{JPN}それを おぼえていて くれたのね$"
 

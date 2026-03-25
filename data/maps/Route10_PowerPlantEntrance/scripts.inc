@@ -110,62 +110,61 @@ Route10_PowerPlantEntrance_Movement_WalkBack:
 	step_end
 
 Route10_PowerPlantEntrance_Text_Officer1AThiefBrokeIn:
-	.string "A thief broke into the POWER\n"
-	.string "PLANT…\p"
-	.string "What is the world coming to?$"
+	.string "{JPN}どろぼうが はつでんしょに\n"
+	.string "{JPN}おしいったんだ...\p"
+	.string "{JPN}いったい せかいは\nどうなってるんだ?$"
 
 Route10_PowerPlantEntrance_Text_Officer1CeruleanShadyCharacter:
-	.string "I just got word from CERULEAN.\p"
-	.string "It appears that a shady\n"
-	.string "character has been loitering\l"
-	.string "around.$"
+	.string "{JPN}ハナダから れんらくが\n"
+	.string "{JPN}あったんだ.\p"
+	.string "{JPN}あやしい やつが\n"
+	.string "{JPN}うろついているとの\lことだ.$"
 
 Route10_PowerPlantEntrance_Text_Officer1CouldIAskForYourCooperation:
-	.string "Could I ask for your\n"
-	.string "cooperation?$"
+	.string "{JPN}きみに きょうりょく\n"
+	.string "{JPN}してもらえないかな?$"
 
 Route10_PowerPlantEntrance_Text_Officer1HaveToBeefUpSecurity:
-	.string "We'll have to beef up our\n"
-	.string "security presence.$"
+	.string "{JPN}けいびを つよくしないと\n"
+	.string "{JPN}いけないな.$"
 
 Route10_PowerPlantEntrance_Text_Engineer1SomeoneStoleAPart:
-	.string "Someone made off with a part\n"
-	.string "that's essential for the\l"
-	.string "generator.\p"
-	.string "Without it, the new generator's\n"
-	.string "useless!$"
+	.string "{JPN}だれかが はつでんきの\n"
+	.string "{JPN}だいじな ぶひんを\l"
+	.string "{JPN}ぬすんでいったんだ.\p"
+	.string "{JPN}それが ないと しんしき\n"
+	.string "{JPN}はつでんきは つかえない!$"
 
 Route10_PowerPlantEntrance_Text_Engineer1GeneratorUpAndRunning:
-	.string "The generator's up and running.\n"
-	.string "It's making electricity to spare.$"
+	.string "{JPN}はつでんきが うごいてるよ.\n"
+	.string "{JPN}でんりょくも たっぷりだ.$"
 
 Route10_PowerPlantEntrance_Text_Engineer2PowerPlantUpAndRunning:
-	.string "This POWER PLANT had been\n"
-	.string "abandoned in the past.\p"
-	.string "We got it back up and running to\n"
-	.string "provide power to the MAGNET\l"
-	.string "TRAIN.$"
+	.string "{JPN}この はつでんしょは\n"
+	.string "{JPN}まえは はいきょだったんだ.\p"
+	.string "{JPN}リニアの でんりょくのために\n"
+	.string "{JPN}ふっかつさせたのさ.$"
+	.string ""
 
 Route10_PowerPlantEntrance_Text_Engineer2GeneratorIsRunningAgain:
-	.string "The generator's running again!$"
+	.string "{JPN}はつでんきが また\nうごきだしたぞ!$"
 
 Route10_PowerPlantEntrance_Text_Officer2ManagerHasBeenSadAndFurious:
-	.string "The POWER PLANT's MANAGER is in\n"
-	.string "the back room with the generator.\p"
-	.string "But since someone wrecked the\n"
-	.string "generator, he's been both sad and\l"
-	.string "furious…$"
-
+	.string "{JPN}はつでんしょの しょちょうは\n"
+	.string "{JPN}おくの はつでんきの へやに\p"
+	.string "{JPN}いるけど だれかが はつでんきを\n"
+	.string "{JPN}こわしてしまって かなしみと\l"
+	.string "{JPN}いかりで いっぱいなんだ...$"
 Route10_PowerPlantEntrance_Text_Officer2ManagerHasBeenCheerful:
-	.string "Since the generator's been fixed,\n"
-	.string "the MANAGER has been cheerful.$"
+	.string "{JPN}はつでんきが なおってから\n"
+	.string "{JPN}しょちょうが きげんいいんだ.$"
 
 Route10_PowerPlantEntrance_Text_Engineer4MagnetTrainConsumesElectricity:
-	.string "The MAGNET TRAIN consumes a lot\n"
-	.string "of electricity.\p"
-	.string "It can't move if the new\n"
-	.string "generator isn't operating.$"
+	.string "{JPN}リニアは たくさんの\n"
+	.string "{JPN}でんりょくを つかうんだ.\p"
+	.string "{JPN}しんしき はつでんきが\n"
+	.string "{JPN}うごかないと はしれないのさ.$"
 
 Route10_PowerPlantEntrance_Text_Engineer4WeCanGetMagnetTrainRunning:
-	.string "All right! We can finally get the\n"
-	.string "MAGNET TRAIN running again.$"
+	.string "{JPN}よし! やっと リニアを\n"
+	.string "{JPN}うごかすことが できるぞ.$"

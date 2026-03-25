@@ -54,17 +54,17 @@ MossdeepCity_House2_Movement_WingullExitEast:
 	step_end
 
 MossdeepCity_House2_Text_SisterMailsBoyfriendInFortree:
-	.string "My little sister exchanges MAIL with\n"
-	.string "her boyfriend in FORTREE.\p"
-	.string "I don't envy her one bit at all.$"
+	.string "{JPN}いもうとが ヒワマキの\n"
+	.string "{JPN}かれしと てがみを こうかん\p"
+	.string "{JPN}してるのよ.\pうらやましく なんて ないわ.$"
 
 MossdeepCity_House2_Text_PokemonCarriesMailBackAndForth:
-	.string "Even though I can't see my friend in\n"
-	.string "FORTREE, my POKéMON carries MAIL\l"
-	.string "back and forth for us.\p"
-	.string "I'm not lonesome, even though we're\n"
-	.string "apart.$"
+	.string "{JPN}ヒワマキの ともだちに\n"
+	.string "{JPN}あえないけど  わたしの\l"
+	.string "{JPN}ポケモンが てがみを はこんで\p"
+	.string "{JPN}くれるの.\p"
+	.string "{JPN}はなれていても さびしく\nないのよ.$"
 
 MossdeepCity_House2_Text_Wingull:
-	.string "WINGULL: Pihyoh!$"
+	.string "{JPN}キャモメ: ぴひょー!$"
 

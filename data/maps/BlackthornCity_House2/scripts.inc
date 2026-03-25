@@ -48,21 +48,13 @@ BlackthornCity_House2_EventScript_TradeCompleted::
 	end
 
 BlackthornCity_House2_Text_YouWillTradeWontYou:
-	.string "I collect POKéMON!\n"
-	.string "Do you have a {STR_VAR_1}?\p"
-	.string "Want to trade it for my\n"
-	.string "{STR_VAR_2}?$"
-
+	.string "{JPN}わたしポケモンをあつめてるの！\n{STR_VAR_1}もってる？\pわたしの{STR_VAR_2}と\nこうかんしない？$"
 BlackthornCity_House2_Text_MonYouTakeCare:
-	.string "Yay! I got myself {STR_VAR_1}!\p"
-	.string "{STR_VAR_2}, you take care!$"
-
+	.string "{JPN}やったー！{STR_VAR_1}を\nゲットしたわ！\p{STR_VAR_2}をよろしくね！$"
 BlackthornCity_House2_Text_ThisIsntAMon:
-	.string "Uh, no, I don't think so.\n"
-	.string "That isn't a {STR_VAR_1}.$"
-
+	.string "{JPN}えーと.それは\n{STR_VAR_1}じゃないわね$"
 BlackthornCity_House2_Text_YouWontTradeMe:
-	.string "You don't want to trade? Aww...$"
-
+	.string "{JPN}こうかんしてくれないの？\n"
+	.string "{JPN}えーっ..がっかり..$"
 BlackthornCity_House2_Text_After:
-	.string "Hi, how's my old MR MIME doing?$"
+	.string "{JPN}こんにちは！わたしの\nバリヤードげんきにしてる？$"

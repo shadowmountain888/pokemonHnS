@@ -289,14 +289,14 @@ static const struct ListMenuTemplate sItemListMenu =
     .cursorKind = CURSOR_BLACK_ARROW
 };
 
-static const u8 sMenuText_ByName[] = _("NAME");
-static const u8 sMenuText_ByType[] = _("TYPE");
-static const u8 sMenuText_ByAmount[] = _("AMOUNT");
-static const u8 sMenuText_ByNumber[] = _("NUMBER");
-static const u8 sText_NothingToSort[] = _("There's nothing to sort!");
-static const u8 sMenuText_Tap[] = _("TAP");
-static const u8 sMenuText_Hold[] = _("HOLD");
-static const u8 sText_RegisterHow[] = _("Register this\nitem by tapping or\nholding SELECT?");
+static const u8 sMenuText_ByName[] = _("{JPN}なまえ");
+static const u8 sMenuText_ByType[] = _("{JPN}タイプ");
+static const u8 sMenuText_ByAmount[] = _("{JPN}かず");
+static const u8 sMenuText_ByNumber[] = _("{JPN}ばんごう");
+static const u8 sText_NothingToSort[] = _("{JPN}ならべかえる　ものが　ない!");
+static const u8 sMenuText_Tap[] = _("{JPN}おす");
+static const u8 sMenuText_Hold[] = _("{JPN}おしつづける");
+static const u8 sText_RegisterHow[] = _("{JPN}セレクトボタンを　おすか　おしつづけて\nこの　どうぐを　とうろく\nしますか?");
 static const struct MenuAction sItemMenuActions[] = {
     [ACTION_USE]               = {gMenuText_Use,      {ItemMenu_UseOutOfBattle}},
     [ACTION_TOSS]              = {gMenuText_Toss,     {ItemMenu_Toss}},
@@ -1316,7 +1316,7 @@ static void Task_BagMenu_HandleInput(u8 taskId)
                 }
                 if ((gBagMenu->numItemStacks[gBagPosition.pocket] - 1) <= 1)
                 {
-                    static const u8 sText_NothingToSort[] = _("There's nothing to sort!");
+                    static const u8 sText_NothingToSort[] = _("{JPN}せいりする ものが ありません!");
                     PlaySE(SE_FAILURE);
                     DisplayItemMessage(taskId, 1, sText_NothingToSort, HandleErrorMessage);
                     break;
@@ -2797,11 +2797,11 @@ enum ItemSortType
 	ITEM_TYPE_FOSSIL,
 	ITEM_TYPE_MAIL,
 };
-static const u8 sText_SortItemsHow[] = _("Sort items how?");
-static const u8 sText_Name[] = _("name");
-static const u8 sText_Type[] = _("type");
-static const u8 sText_Amount[] = _("amount");
-static const u8 sText_ItemsSorted[] = _("Items sorted by {STR_VAR_1}!");
+static const u8 sText_SortItemsHow[] = _("{JPN}どうぐを　どのように　ならべますか?");
+static const u8 sText_Name[] = _("{JPN}なまえ");
+static const u8 sText_Type[] = _("{JPN}しゅるい");
+static const u8 sText_Amount[] = _("{JPN}かず");
+static const u8 sText_ItemsSorted[] = _("{JPN}アイテムが{STR_VAR_1}でソートされました!");
 static const u8 *const sSortTypeStrings[] = 
 {
     [SORT_ALPHABETICALLY] = sText_Name,

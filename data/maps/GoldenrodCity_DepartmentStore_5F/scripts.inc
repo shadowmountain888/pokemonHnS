@@ -87,46 +87,33 @@ GoldenrodDeptStore5_EventScript_Receptionist_Already::
 
 
 GoldenrodDeptStore_Text_5FReceptionistOhYourMon:
-    .string "Hello. Oh, your POKéMON…$"
-
+    .string "{JPN}いらっしゃいませ！\p"
+	.string "{JPN}あらあなたのポケモン..$"
 GoldenrodDeptStore_Text_5FReceptionistWait:
-    .string "Wait, I already gave you that TM!$"
-
+	.string "{JPN}ちょっと！そのわざマシンは\nもうわたしてるじゃない！$"
 GoldenrodDeptStore_Text_5FReceptionistPutInSomeMoreEffort:
-	.string "Hmm…\n"
-	.string "It's not bad, but it's also not good.\p"
-	.string "You, as the TRAINER, need to put in\n"
-	.string "some more effort.$"
-
-
+	.string "{JPN}う-ん.\nわるくないけどよくもないわね\pトレーナーのあなたが\nもうすこしがんばらないと$"
 GoldenrodDeptStore_Text_5FReceptionistThisMoveShouldBePerfect:
-    .string "It's very attached to you.\p"
-    .string "This move should be perfect for a\n"
-    .string "pair like you.$"
-
+    .string "{JPN}とってもなついてるわね\n"
+	.string "{JPN}あなたたちのコンビネーションなら\l"
+	.string "{JPN}このわざつかいこなせそうね$"
 GoldenrodDeptStore_Text_5FReceptionistItLooksEvilHowAboutThisTM:
-    .string "It looks evil. How about this TM\n"
-    .string "for it?$"
-
+    .string "{JPN}なんだかめつきがわるいわね\n"
+	.string "{JPN}そんなポケモンには\l"
+	.string "{JPN}このわざマシンどうかしら？$"
 GoldenrodDeptStore_Text_5FReceptionistThereAreTMsPerfectForMon:
-    .string "There are sure to be TMs that are\n"
-    .string "just perfect for your POKéMON.$"
-
+    .string "{JPN}きっとあなたのポケモンに\n"
+	.string "{JPN}ぴったりのわざマシンがあるはずよ$"
 GoldenrodDeptStore_Text_5FLass:
-    .string "During the day, a lady comes to check\n"
-    .string "out POKéMON.\p"
-    .string "She even gives away TMs!$"
-
+    .string "{JPN}にちようびにくるおねーさん\n"
+	.string "{JPN}ポケモンのようすをみて\l"
+	.string "{JPN}わざマシンをくれたりするのよ$"
 GoldenrodDeptStore_Text_5FPokefanM:
-    .string "You can't rename a POKéMON you get\n"
-    .string "in a trade.\p"
-    .string "The name is a reflection of the\n"
-    .string "original trainer's feelings for it.$"
-
+    .string "{JPN}ひとからもらったポケモンは\n"
+	.string "{JPN}なまえをかえることはできないよ\p"
+	.string "{JPN}なまえをつけたひとの\n"
+	.string "{JPN}きもちがこめられているからね$"
 GoldenrodDeptStore_Text_Girl:
-	.string "The lady gave me RETURN!\n"
-    .string "My POKéMON must really like me!$"
-
+	.string "{JPN}おねえさんがおんがえしを\nくれたの！わたしのポケモン\nきっとわたしがすきなのね！$"
 GoldenrodDeptStore_Text_5FDirectory:
-    .string "Customize Your POKéMON\p"
-    .string "5F TM CORNER$"
+	.string "{JPN}あなたごのみのポケモンに\p5かい わざマシンコーナー$"

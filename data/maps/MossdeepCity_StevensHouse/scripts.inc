@@ -166,67 +166,67 @@ MossdeepCity_StevensHouse_EventScript_DiveItemBall::
 	end
 
 MossdeepCity_StevensHouse_Text_YouveEarnedHMDive:
-	.string "STEVEN: {PLAYER}{KUN}…\p"
-	.string "As you can see, there's not much here,\n"
-	.string "but this is my home.\p"
-	.string "Thank you for all that you've done.\p"
-	.string "This is my token of appreciation.\n"
-	.string "It's the HIDDEN MACHINE DIVE.\p"
-	.string "No need to be shy--you've earned\n"
-	.string "this HM.$"
+	.string "{JPN}スチーブン: {PLAYER}{KUN}...\p"
+	.string "{JPN}みてのとおり あまり\n"
+	.string "{JPN}ものはないが ここがぼくのいえだ\p"
+	.string "{JPN}きみがしてくれた すべてのことに\n"
+	.string "{JPN}かんしゃしている\p"
+	.string "{JPN}これは ぼくからの\n"
+	.string "{JPN}おれいのしるしだ\n"
+	.string "{JPN}ひでんマシン ダイビングだよ\nえんりょしなくていい\nきみはこれをうけとるかちがある$"
 
 MossdeepCity_StevensHouse_Text_ExplainDive:
-	.string "STEVEN: While you're using SURF, you\n"
-	.string "should notice dark patches of water.\p"
-	.string "Use DIVE if you come to deep water\n"
-	.string "like it. You'll drop to the seafloor.\p"
-	.string "When you want to come back up, use\n"
-	.string "DIVE again.\p"
-	.string "In some places, it won't be possible\n"
-	.string "for you to surface, though.$"
+	.string "{JPN}ダイゴ: なみのりを つかっているとき\n"
+	.string "{JPN}くらい みずの ばしょに きづくはずだ\p"
+	.string "{JPN}そんな ふかい みずの ばしょで\n"
+	.string "{JPN}ダイビングを つかってみるといい\p"
+	.string "{JPN}かいていまで もぐることが できるぞ\p"
+	.string "{JPN}もとの ばしょに もどりたいときは\n"
+	.string "{JPN}もういちど ダイビングを つかうんだ\p"
+	.string "{JPN}ただし ばしょによっては\nうみめんに でられないところも ある$"
 
 MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis:
-	.string "STEVEN: Apparently, there's an\n"
-	.string "underwater cavern between\l"
-	.string "MOSSDEEP and SOOTOPOLIS.\p"
-	.string "You know, the one that CAPT. STERN\n"
-	.string "found in his submarine.$"
+	.string "{JPN}ダイゴ: どうやら トクサネシティと\n"
+	.string "{JPN}ルネシティの あいだには\l"
+	.string "{JPN}かいていの どうくつが あるらしい\p"
+	.string "{JPN}クスノキかんちょうが せんすいかんで\n"
+	.string "{JPN}はっけんした あの どうくつのことだ$"
 
 MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum:
-	.string "{PLAYER} checked the POKé BALL.\p"
-	.string "It contained the POKéMON\n"
-	.string "BELDUM.\p"
-	.string "Take the POKé BALL?$"
+	.string "{JPN}{PLAYER}は モンスターボールを\n"
+	.string "{JPN}しらべた\p"
+	.string "{JPN}なかには ダンバルという\n"
+	.string "{JPN}ポケモンが はいっていた\pモンスターボールを もらいますか?$"
 
 MossdeepCity_StevensHouse_Text_ObtainedBeldum:
-	.string "{PLAYER} obtained a BELDUM.$"
+	.string "{JPN}{PLAYER}は ダンバルを てにいれた!$"
 
 @ Unused
 MossdeepCity_StevensHouse_Text_NoSpaceForAnotherMon:
-	.string "There is no space for another POKéMON.$"
+	.string "{JPN}これいじょう ポケモンを\nもつことは できません$"
 
 MossdeepCity_StevensHouse_Text_LeftPokeBallWhereItWas:
-	.string "{PLAYER} left the POKé BALL where\n"
-	.string "it was.$"
+	.string "{JPN}{PLAYER}は モンスターボールを\n"
+	.string "{JPN}もとの ばしょに おいた$"
 
 MossdeepCity_StevensHouse_Text_LetterFromSteven:
-	.string "It's a letter.\p"
-	.string "… … … … … …\p"
-	.string "To {PLAYER}{KUN}…\p"
-	.string "I've decided to do a little soul-\n"
-	.string "searching and train on the road.\p"
-	.string "I don't plan to return home for some\n"
-	.string "time.\p"
-	.string "I have a favor to ask of you.\p"
-	.string "I want you to take the POKé BALL on\n"
-	.string "the desk.\p"
-	.string "Inside it is a BELDUM, my favorite\n"
-	.string "POKéMON.\p"
-	.string "I'm counting on you.\p"
-	.string "May our paths cross someday.\p"
-	.string "STEVEN STONE$"
+	.string "{JPN}てがみがある\p"
+	.string "{JPN}... ... ... ... ... ...\p"
+	.string "{JPN}{PLAYER}{KUN}へ...\p"
+	.string "{JPN}ぼくは すこしたましいを\n"
+	.string "{JPN}さがしにいき みちでしゅぎょうを\n"
+	.string "{JPN}することにした\p"
+	.string "{JPN}しばらくいえには\n"
+	.string "{JPN}かえらないつもりだ\p"
+	.string "{JPN}きみにたのみがある\p"
+	.string "{JPN}つくえのうえの モンスターボールを\n"
+	.string "{JPN}もっていってほしい\p"
+	.string "{JPN}なかには ぼくのだいすきな\n"
+	.string "{JPN}ポケモン ダンバルがはいっている\p"
+	.string "{JPN}たのんだぞ\n"
+	.string "{JPN}いつかまた あえることを\nねがっている\nツキノイシ スチーブン$"
 
 MossdeepCity_StevensHouse_Text_CollectionOfRareRocks:
-	.string "It's a collection of rare rocks and\n"
-	.string "stones assembled by STEVEN.$"
+	.string "{JPN}ダイゴが あつめた めずらしい\n"
+	.string "{JPN}いわや いしの コレクションだ$"
 

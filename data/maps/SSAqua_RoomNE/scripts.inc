@@ -12,26 +12,26 @@ SSAqua_RoomNE_EventScript_Ethan::
 	end
 
 SSAqua_RoomNE_Text_HikerNolandSeen:
-    .string "Are you alone?\n"
-    .string "Then let's battle!$"
+    .string "{JPN}ひとりなのか?\n"
+	.string "{JPN}それじゃあ しょうぶだ!$"
 
 SSAqua_RoomNE_Text_HikerNolandBeaten:
-    .string "That's too much to handle!$"
+    .string "{JPN}これは てごわすぎる!$"
 
 SSAqua_RoomNE_Text_HikerNolandAfterBattle:
-    .string "I wonder if there are any\n"
-    .string "mountains worth climbing in KANTO?$"
+    .string "{JPN}カントーちほうには\n"
+	.string "{JPN}のぼりがいのある やまは\nあるのかなあ?$"
 
 SSAqua_RoomNE_Text_PokemaniacEthanSeen:
-    .string "Do you know LILY?\n"
-    .string "She's a hot DJ in KANTO.$"
+    .string "{JPN}リリィって しってるか?\n"
+	.string "{JPN}カントーの にんきDJなんだ$"
 
 SSAqua_RoomNE_Text_PokemaniacEthanBeaten:
-    .string "Gyaaaah!$"
+    .string "{JPN}ぎゃああああ!$"
 
 SSAqua_RoomNE_Text_PokemaniacEthanAfterBattle:
-    .string "LILY's nice, but\n"
-    .string "MARY's the best!\n"
-    .string "I want to check\n"
-    .string "out JOHTO's radio\n"
-    .string "programs!$"
+    .string "{JPN}リリィも いいけど\n"
+	.string "{JPN}マリィが さいこうだ!\n"
+    .string "{JPN}ジョウトちほうの ラジオ\n"
+	.string "{JPN}ばんぐみも チェック\n"
+    .string "{JPN}したいなあ!$"

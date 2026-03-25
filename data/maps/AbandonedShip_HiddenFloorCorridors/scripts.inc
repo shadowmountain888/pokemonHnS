@@ -134,24 +134,24 @@ AbandonedShip_HiddenFloorCorridors_EventScript_TheDoorIsOpen::
 	end
 
 AbandonedShip_HiddenFloorCorridors_Text_Rm1DoorIsLocked:
-	.string "The door is locked.\p"
-	.string "“RM. 1” is painted on the door.$"
+	.string "{JPN}ドアにかぎがかかっている.\p"
+	.string "{JPN}RM. 1とかいてある.$"
 
 AbandonedShip_HiddenFloorCorridors_Text_Rm2DoorIsLocked:
-	.string "The door is locked.\p"
-	.string "“RM. 2” is painted on the door.$"
+	.string "{JPN}ドアにかぎがかかっている.\p"
+	.string "{JPN}RM. 2とかいてある.$"
 
 AbandonedShip_HiddenFloorCorridors_Text_Rm4DoorIsLocked:
-	.string "The door is locked.\p"
-	.string "“RM. 4” is painted on the door.$"
+	.string "{JPN}ドアにかぎがかかっている.\p"
+	.string "{JPN}RM. 4とかいてある.$"
 
 AbandonedShip_HiddenFloorCorridors_Text_Rm6DoorIsLocked:
-	.string "The door is locked.\p"
-	.string "“RM. 6” is painted on the door.$"
+	.string "{JPN}ドアにかぎがかかっている.\p"
+	.string "{JPN}RM. 6とかいてある.$"
 
 AbandonedShip_HiddenFloorCorridors_Text_InsertedKey:
-	.string "{PLAYER} inserted and turned the\n"
-	.string "KEY.\p"
-	.string "The inserted KEY stuck fast,\n"
-	.string "but the door opened.$"
+	.string "{JPN}{PLAYER}はカギをさして\n"
+	.string "{JPN}まわした.\p"
+	.string "{JPN}カギはぬけなくなったが\n"
+	.string "{JPN}ドアがひらいた.$"
 

@@ -79,222 +79,224 @@ SafariZone_EventScript_PokeblockPresent::
 	end
 
 SafariZone_Text_WouldYouLikeToExit:
-	.string "Would you like to exit the SAFARI\n"
-	.string "ZONE right now?$"
+	.string "{JPN}サファリゾーンを\n"
+	.string "{JPN}このまま しゅうりょう しますか?$"
 
 SafariZone_Text_TimesUp:
-	.string "Ding-dong! Time's up!\n"
-	.string "Your SAFARI Game is over.$"
+	.string "{JPN}ピンポーン! じかん でーす!\n"
+	.string "{JPN}サファリゲームを しゅうりょう します$"
 
 SafariZone_Text_OutOfBalls:
-	.string "You've run out of SAFARI BALLS.\n"
-	.string "Your SAFARI Game is over.$"
+	.string "{JPN}サファリボールを つかいきったので\n"
+	.string "{JPN}サファリゲームを しゅうりょう します$"
 
 SafariZone_Text_PlacePokeblockOnFeeder:
-	.string "Would you like to place a {POKEBLOCK}\n"
-	.string "on the {POKEBLOCK} FEEDER?$"
+	.string "{JPN}ポロックおきばに\n"
+	.string "{JPN}ポロックを おきますか?$"
 
 SafariZone_Text_PokeblockStillHere:
-	.string "The {STR_VAR_1} you left\n"
-	.string "before is still here.$"
+	.string "{JPN}まだ {STR_VAR_1}が のこっています$"
 
 SafariZone_Text_PokeblockWasPlaced:
-	.string "The {STR_VAR_1} was placed\n"
-	.string "on the {POKEBLOCK} FEEDER.$"
+	.string "{JPN}{STR_VAR_1}を\n"
+	.string "{JPN}おきました!$"
 
 Route121_SafariZoneGate_SafariZoneEntrance_Text_WelcomeToSafariZone:
-	.string "Welcome to the SAFARI ZONE!\p"
-	.string "Here, you may witness many kinds of\n"
-	.string "POKéMON rarely seen in JOHTO.\p"
-	.string "And, you'll see them in their wild,\n"
-	.string "untamed state in natural habitats.\p"
-	.string "What's more, we've thrown open the\n"
-	.string "gates to POKéMON TRAINERS.\p"
-	.string "You're encouraged to catch POKéMON\n"
-	.string "for keeps!\p"
-	.string "Come in and enjoy the SAFARI ZONE!$"
+	.string "{JPN}サファリゾーンへ ようこそ!\p"
+	.string "{JPN}ここでは ホウエンでは なかなか\n"
+	.string "{JPN}みることの できない ポケモンを\p"
+	.string "{JPN}しぜんの すがたの まま\n"
+	.string "{JPN}めに することが できます\p"
+	.string "{JPN}また ポケモントレーナーの\n"
+	.string "{JPN}ようぼうに おこたえ して\p"
+	.string "{JPN}ポケモンを\n"
+	.string "{JPN}つかまえる ことも できます!\p"
+	.string "{JPN}サファリゾーンを たのしんで いってね!$"
 
 Route121_SafariZoneGate_SafariZoneEntrance_Text_WelcomeFirstTime:
-	.string "Welcome to the SAFARI ZONE!\n"
-	.string "Is it your first time here?$"
+	.string "{JPN}サファリゾーンへ ようこそ!\n"
+	.string "{JPN}サファリゾーンは はじめて ですか?$"
 
 Route121_SafariZoneGate_SafariZoneEntrance_Text_ComeInAndEnjoy:
-	.string "Come in and enjoy the SAFARI ZONE!$"
+	.string "{JPN}サファリゾーンを たのしんで いってね!$"
 
 Route121_SafariZoneGate_SafariZoneEntrance_Text_FirstTimeInfo:
-	.string "When you enter the SAFARI ZONE, you\n"
-	.string "start with 30 SAFARI BALLS for\l"
-	.string "catching POKéMON.\p"
-	.string "The SAFARI Game is over when you run\n"
-	.string "out of SAFARI BALLS, or when you've\l"
-	.string "walked 500 steps.\p"
-	.string "Come in and enjoy the SAFARI ZONE!$"
+	.string "{JPN}サファリゾーンでは\n"
+	.string "{JPN}30この サファリボールを つかって\l"
+	.string "{JPN}ポケモンを つかまえる ことが できます\p"
+	.string "{JPN}サファリボールを つかいきるか\n"
+	.string "{JPN}500ぽ あるくと\p"
+	.string "{JPN}ゲームは しゅうりょう です\p"
+	.string "{JPN}サファリゾーンを たのしんで いってね!$"
 
 Route121_SafariZoneGate_SafariZoneEntrance_Text_WouldYouLikeToPlay:
-	.string "Welcome to the SAFARI ZONE!\p"
-	.string "All you can catch for just ¥500!\n"
-	.string "Would you like to play a SAFARI Game?$"
+	.string "{JPN}サファリゾーンへ ようこそ!\p"
+	.string "{JPN}500えんで ポケモン つかまえほうだい!\n"
+	.string "{JPN}サファリゲームに さんか しますか?$"
 
 Route121_SafariZoneGate_SafariZoneEntrance_Text_PlayAnotherTime:
-	.string "Okay.\n"
-	.string "Please play another time!$"
+	.string "{JPN}そうですか\n"
+	.string "{JPN}こんど ぜひ さんか してください!$"
 
 Route121_SafariZoneGate_SafariZoneEntrance_Text_NotEnoughMoney:
-	.string "You don't have enough money.\n"
-	.string "Sorry.$"
+	.string "{JPN}おかねが たりませんよ!$"
 
 Route121_SafariZoneGate_SafariZoneEntrance_Text_ThatWillBe500Please:
-	.string "That will be ¥500, please.$"
+	.string "{JPN}それでは 500えん いただきます$"
 
 Route121_SafariZoneGate_SafariZoneEntrance_Text_HereAreYourSafariBalls:
-	.string "Here are your SAFARI BALLS.$"
+	.string "{JPN}では サファリボールを どうぞ!$"
 
 Route121_SafariZoneGate_SafariZoneEntrance_Text_Received30SafariBalls:
-	.string "{PLAYER} received 30 SAFARI BALLS.$"
+	.string "{JPN}{PLAYER}は サファリボールを\n"
+	.string "{JPN}30こ うけとった!$"
 
 Route121_SafariZoneGate_SafariZoneEntrance_Text_PleaseEnjoyYourself:
-	.string "We'll let you know when your game\n"
-	.string "is over.\p"
-	.string "So, until then, enjoy yourself, please!\n"
-	.string "Off you go on your wild excursion!$"
+	.string "{JPN}じかんに なりましたら\n"
+	.string "{JPN}こちらから おしらせ しますので\p"
+	.string "{JPN}ぞんぶんに おたのしみ ください!\n"
+	.string "{JPN}では いってらっしゃい!$"
 
 Route121_SafariZoneGate_SafariZoneEntrance_Text_PCIsFull:
-	.string "Excuse me!\n"
-	.string "Your PC BOX is full.$"
+	.string "{JPN}おきゃくさん!\n"
+	.string "{JPN}ボックスが いっぱい ですよ!$"
 
 Route121_SafariZoneGate_SafariZoneEntrance_Text_YouNeedPokeblockCase:
-	.string "Excuse me!\n"
-	.string "You seem to be without a {POKEBLOCK} CASE.\p"
-	.string "Your SAFARI Game will be much more\n"
-	.string "fruitful if you use {POKEBLOCK}S.\p"
-	.string "Please come back with a {POKEBLOCK} CASE.\p"
-	.string "You may obtain a {POKEBLOCK} CASE from\n"
-	.string "the JOHTO SAFARI ZONE.$"
+	.string "{JPN}あ! おきゃくさん\n"
+	.string "{JPN}ポロックケースを おもちで ないですね?\p"
+	.string "{JPN}サファリゾーンは ポロックを つかうと\n"
+	.string "{JPN}より おたのしみ いただけますので\p"
+	.string "{JPN}ぜひ ポロックケースを\n"
+	.string "{JPN}おもちに なって おこし ください\p"
+	.string "{JPN}ポロックケースは\n"
+	.string "{JPN}ミナモシティの コンテストかいじょうで\l"
+	.string "{JPN}うけとることが できますよ$"
 
 SafariZone_South_Text_StillHaveTimeExit:
-	.string "You still have time left. Would you like\n"
-	.string "to exit the SAFARI ZONE now?$"
+	.string "{JPN}まだ じかんが のこっていますが\n"
+	.string "{JPN}サファリゾーンを やめますか?$"
 
 SafariZone_South_Text_EnjoyTheRestOfYourAdventure:
-	.string "Please enjoy the rest of your wild\n"
-	.string "adventure!$"
+	.string "{JPN}では ひきつづき おたのしみ ください!$"
 
 SafariZone_South_Text_ExitEarlyThankYouForPlaying:
-	.string "Okay.\p"
-	.string "I'll take back your remaining SAFARI\n"
-	.string "BALLS.\p"
-	.string "Thank you for playing.\n"
-	.string "We hope to see you again.$"
+	.string "{JPN}わかりました\p"
+	.string "{JPN}それでは のこりの サファリボールを\n"
+	.string "{JPN}おあずかり します\p"
+	.string "{JPN}おつかれさまでした\n"
+	.string "{JPN}また ごりよう ください$"
 
 SafariZone_South_Text_GoodLuck:
-	.string "Good luck!\p"
-	.string "If you need anything, don't hesitate\n"
-	.string "to tell me, please!$"
+	.string "{JPN}それでは いってらっしゃい!\l"
+	.string "{JPN}なにか ありましたら\n"
+	.string "{JPN}わたしに こえを かけて くださいね$"
 
 SafariZone_South_Text_Boy:
-	.string "Did you know?\p"
-	.string "If you put a {POKEBLOCK} in that square box,\n"
-	.string "POKéMON gather around.$"
+	.string "{JPN}しってた?\p"
+	.string "{JPN}あの しかくい はこに ポロックを おくと\n"
+	.string "{JPN}ポケモンが あつまって くるんだよ!$"
 
 SafariZone_South_Text_Man:
-	.string "I want to keep going deeper, but I\n"
-	.string "forgot to bring a BIKE.\p"
-	.string "Something tells me that rare POKéMON\n"
-	.string "live in the outlying areas.$"
+	.string "{JPN}この さきに いきたい けど\n"
+	.string "{JPN}じてんしゃ もって くるの わすれた...\p"
+	.string "{JPN}おくに めずらしい ポケモンが\n"
+	.string "{JPN}いそうな きが するのに!$"
 
 SafariZone_Southwest_Text_Woman:
-	.string "Sometimes, when I toss a {POKEBLOCK} at \n"
-	.string "POKéMON, it gets ignored.\p"
-	.string "Do POKéMON have likes and dislikes\n"
-	.string "about what they eat?$"
+	.string "{JPN}ポケモンに ポロックを なげても\n"
+	.string "{JPN}しらんぷり される ときが あるのよ\p"
+	.string "{JPN}ポケモンにも すききらいが あるのかしら?$"
 
 SafariZone_Northwest_Text_Man:
-	.string "Gasp… Gasp…\n"
-	.string "I…made it out here…but…\p"
-	.string "I'm exhausted… I don't have the\n"
-	.string "energy to catch POKéMON…$"
+	.string "{JPN}ぜぇ... ぜぇ...\n"
+	.string "{JPN}やっと ここまで きたけど...\p"
+	.string "{JPN}つかれちゃって ポケモン つかまえる\n"
+	.string "{JPN}げんきも のこって ないよ...$"
 
 SafariZone_North_Text_Fisherman:
-	.string "I'm on a mission to find WATER POKéMON\n"
-	.string "you don't see in HOENN.\p"
-	.string "Do you have any idea where the lake is?$"
+	.string "{JPN}ホウエンに いない みずポケモンを\n"
+	.string "{JPN}さがしに きたんだけど...\p"
+	.string "{JPN}みずうみは どこにあるのか\n"
+	.string "{JPN}きみ しってるかい?$"
 
 SafariZone_North_Text_Man:
-	.string "I'm going to catch a lot of rare POKéMON\n"
-	.string "here and trade them with my friends!$"
+	.string "{JPN}ここで めずらしい ポケモンを\n"
+	.string "{JPN}たくさん つかまえて\l"
+	.string "{JPN}ともだちと こうかん するんだ!$"
 
 SafariZone_South_Text_Youngster:
-	.string "I put a {POKEBLOCK} on the {POKEBLOCK} FEEDER.\n"
-	.string "But it seems to have disappeared.\p"
-	.string "I guess POKéMON must have eaten it\n"
-	.string "without me noticing.$"
+	.string "{JPN}ポロックおきばに おいた ポロックが\n"
+	.string "{JPN}いつのまにか なくなっていた...\p"
+	.string "{JPN}しらない うちに\n"
+	.string "{JPN}ポケモンが たべちゃったのかな?$"
 
 Route121_SafariZoneGate_SafariZoneEntrance_Text_TrainerTip:
-	.string "SAFARI ZONE TRAINER TIP!\p"
-	.string "Throw {POKEBLOCK}S at wild POKéMON to make\n"
-	.string "them less likely to flee.$"
+	.string "{JPN}サファリゾーンの おとくな じょうほう!\p"
+	.string "{JPN}であった ポケモンに\n"
+	.string "{JPN}ポロックを なげると にげにくく なります!$"
 
 SafariZone_Southwest_Text_RestHouseSign:
-	.string "“Relieve your tired feet.”\n"
-	.string "REST HOUSE$"
+	.string "{JPN}あるき つかれたら ちょっと ひといき!\n"
+	.string "{JPN}みんなの きゅうけいじょ$"
 
 SafariZone_RestHouse_Text_Youngster:
-	.string "I don't have any {POKEBLOCK}S, but I caught\n"
-	.string "a good number of POKéMON.\p"
-	.string "You can improve your chances of making\n"
-	.string "a catch by getting closer to them\l"
-	.string "before throwing a SAFARI BALL.$"
+	.string "{JPN}おれ ポロック もってないけど\n"
+	.string "{JPN}ポケモン たくさん つかまえたよ\p"
+	.string "{JPN}ちかづいて ボールを なげる だけで\n"
+	.string "{JPN}けっこう つかまえられる もんだよ!$"
 
 SafariZone_RestHouse_Text_PsychicM:
-	.string "If you use {POKEBLOCK}S, wild POKéMON won't\n"
-	.string "be so quick to run away.\p"
-	.string "It's not much use to give {POKEBLOCK}S to\n"
-	.string "POKéMON that don't flee easily.$"
+	.string "{JPN}ポロックを つかうと いつもより\n"
+	.string "{JPN}ちょっぴり にげにくく なるみたい\p"
+	.string "{JPN}だから にげにくい ポケモンに つかっても\n"
+	.string "{JPN}あんまり いみが ないかもね$"
 
 SafariZone_RestHouse_Text_FatMan:
-	.string "If you put a {POKEBLOCK} on the FEEDER,\n"
-	.string "POKéMON are attracted to it.\p"
-	.string "I think POKéMON with the same sort of\n"
-	.string "nature are drawn by a certain {POKEBLOCK}.$"
+	.string "{JPN}ポロックおきばに ポロック おいて\n"
+	.string "{JPN}ポケモンを つかまえると\p"
+	.string "{JPN}おなじ ような せいかくの ポケモンが\n"
+	.string "{JPN}あつまる きが するなあ$"
 
 SafariZone_South_Text_AreaOffLimits1:
-	.string "This area is still under construction.\n"
-	.string "It's off-limits, sorry!$"
+	.string "{JPN}このさきは ただいま こうじちゅう のため\n"
+	.string "{JPN}たちいり きんしに なっています$"
 
 SafariZone_Southeast_Text_ExpansionIsFinished:
-	.string "The SAFARI ZONE's expansion project\n"
-	.string "is finished now.\p"
-	.string "We hope you will enjoy the new area.$"
+	.string "{JPN}サファリゾーンの かくちょう こうじが\n"
+	.string "{JPN}しゅうりょう しました\p"
+	.string "{JPN}あたらしい エリアも\n"
+	.string "{JPN}たのしんで くださいね!$"
 
 SafariZone_South_Text_AreaOffLimits2:
-	.string "This area is still under construction.\n"
-	.string "It's off-limits, sorry!$"
+	.string "{JPN}このさきは ただいま こうじちゅう のため\n"
+	.string "{JPN}たちいり きんしに なっています$"
 
 SafariZone_Southeast_Text_LittleGirl:
-	.string "Wow! Whee! I haven't seen any of\n"
-	.string "these POKéMON before!$"
+	.string "{JPN}わーい わーい!\n"
+	.string "{JPN}はじめて みる ポケモンが いっぱい!$"
 
 SafariZone_Southeast_Text_FatMan:
-	.string "The POKéMON in this area are all\n"
-	.string "new to me.\p"
-	.string "And I'm allowed to catch these rare\n"
-	.string "POKéMON! Too cool!$"
+	.string "{JPN}このへんに いる ポケモンは\n"
+	.string "{JPN}はじめて みるやつ ばっかりだ!\p"
+	.string "{JPN}そんな めずらしい ポケモンが\n"
+	.string "{JPN}つかまえ ほうだい だなんて すげー!$"
 
 SafariZone_Southeast_Text_RichBoy:
-	.string "The POKéMON around here seem to be\n"
-	.string "from somewhere other than HOENN.$"
+	.string "{JPN}このへんに いる ポケモンは\n"
+	.string "{JPN}ホウエンちほう いがいの とちに\l"
+	.string "{JPN}すんでる ポケモン らしいぜ$"
 
 SafariZone_Northeast_Text_Boy:
-	.string "I only have a couple SAFARI BALLS left.\p"
-	.string "I'm having a hard time trying to\n"
-	.string "decide what I should catch.$"
+	.string "{JPN}サファリボールが あと すこししか\n"
+	.string "{JPN}のこって ないんだよ\l"
+	.string "{JPN}なにを つかまえるか まよっちゃうなあ$"
 
 SafariZone_Northeast_Text_Woman:
-	.string "I heard that you can see PIKACHU here.\n"
-	.string "Where might one be?$"
+	.string "{JPN}ピカチュウが ここで みられるって\n"
+	.string "{JPN}きいたんだけど どこに いるのかしら$"
 
 SafariZone_Northeast_Text_Girl:
-	.string "Oh, boo!\n"
-	.string "I can't seem to catch anything!\p"
-	.string "I'll end up wasting the admission\n"
-	.string "price if I don't catch something!$"
+	.string "{JPN}あーん ポケモンが\n"
+	.string "{JPN}なかなか つかまらないわっ!\p"
+	.string "{JPN}このままじゃ にゅうじょうりょうの\n"
+	.string "{JPN}モトが とれないわっ!$"

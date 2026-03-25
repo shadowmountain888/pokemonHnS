@@ -296,20 +296,20 @@ WhirlIslands_LugiaChamber_EventScript_KuniAfter::
 	end
 
 WhirlIslands_LugiaChamber_Text_Kimono_AfterNotCaught:
-	.string "You have not only made LUGIA\n"
-	.string "appear, but you have also defeated\l"
-	.string "it...\p"
-	.string "There is nothing more for us to\n"
-	.string "say. Take care of yourself in your\l"
-	.string "journey...$"	
+	.string "{JPN}あなたは ルギアを\n"
+	.string "{JPN}あらわしただけでなく\l"
+	.string "{JPN}たおしました...\p"
+	.string "{JPN}もう わたしたちが\n"
+	.string "{JPN}いうことは ありません\l"
+	.string "{JPN}たびを きをつけて...$"
 
 WhirlIslands_LugiaChamber_Text_Kimono_AfterCaught:
-	.string "You have not only made LUGIA\n"
-	.string "appear, but you have also caught\l"
-	.string "it...\p"
-	.string "There is nothing more for us to\n"
-	.string "say. Take care of yourself in your\l"
-	.string "journey...$"
+	.string "{JPN}あなたは ルギアを\n"
+	.string "{JPN}あらわしただけでなく\l"
+	.string "{JPN}つかまえました...\p"
+	.string "{JPN}もう わたしたちが\n"
+	.string "{JPN}いうことは ありません\l"
+	.string "{JPN}たびを きをつけて...$"
 
 WhirlIslands_LugiaChamber_Movement_CameraPanUp:
 	walk_up
@@ -567,39 +567,39 @@ WhirlIslands_LugiaChamber_Movement_Kimono_Dance_Shift_Right2:
 	step_end
 
 WhirlIslands_LugiaChamber_Text_Zuki_Before::
-	.string "ZUKI: Go, face LUGIA. $"
+	.string "{JPN}ヅキ: さあ ルギアと\nたいせつしなさい$"
 WhirlIslands_LugiaChamber_Text_Naoko_Before::
-	.string "NAOKO: Go, face LUGIA. $"
+	.string "{JPN}ナオコ: さあ ルギアと\nたいせつしなさい$"
 WhirlIslands_LugiaChamber_Text_Miki_Before::
-	.string "MIKI: Go, face LUGIA. $"
+	.string "{JPN}ミキ: さあ ルギアと\nたいせつしなさい$"
 WhirlIslands_LugiaChamber_Text_Sayo_Before::
-	.string "SAYO: Go, face LUGIA. $"
+	.string "{JPN}サヨ: さあ ルギアと\nたいせつしなさい$"
 WhirlIslands_LugiaChamber_Text_Kuni_Before::
-	.string "KUNI: Go, face LUGIA. $"
+	.string "{JPN}クニ: さあ ルギアと\nたいせつしなさい$"
 
 WhirlIslands_LugiaChamber_Text_Kimono_Opening::
-	.string "KIMONO GIRL: That's right.\n"
-	.string "This is where we welcome LUGIA.\p"
-	.string "When the dance we practiced many\n"
-	.string "days becomes one with the sound of the\l"
-	.string "Tidal Bell we entrusted to you, then\l"
-	.string "LUGIA shall come out from deep within\l"
-	.string "the waterfall basin once again. $"
+	.string "{JPN}まいこはん: そのとおり\n"
+	.string "{JPN}ここで ルギアを\l"
+	.string "{JPN}むかえるのです\p"
+	.string "{JPN}なんにちも れんしゅうした\n"
+	.string "{JPN}まいが あなたに あずけた\l"
+	.string "{JPN}うずしおのすずの おとと\l"
+	.string "{JPN}ひとつに なったとき\lルギアは ふたたび\lたきつぼの おくから\lあらわれるでしょう$"
 
 WhirlIslands_LugiaChamber_Text_Kimono_Closing1::
-	.string "That is indeed LUGIA...\n"
-	.string "The guardian of these islands from\l"
-	.string "ancient times... \p"
-	.string "So many have tried again and again,\n"
-	.string "only to fail...\p"
-	.string "{PLAYER}, your heart in complete\n"
-	.string "harmony with the Tidal Bell has finally\l"
-	.string "allowed it to appear...\n"
-	.string "{PLAYER}, don't you see?\p"
-	.string "LUGIA... It must have been waiting for\n"
-	.string "someone like you all this time.\p"
-	.string "Wouldn't you agree? $"
+	.string "{JPN}あれこそ ルギア...\n"
+	.string "{JPN}ふるくから この しまじまの\l"
+	.string "{JPN}まもりがみ...\p"
+	.string "{JPN}なんども なんども\n"
+	.string "{JPN}ちょうせんして\l"
+	.string "{JPN}しっぱいした ひとが\l"
+	.string "{JPN}たくさん いました...\p"
+	.string "{JPN}{PLAYER} うずしおのすずと\n"
+	.string "{JPN}かんぺきに こころを\l"
+	.string "{JPN}あわせた あなたが\l"
+	.string "{JPN}ついに あらわしたのです\l"
+	.string "{JPN}{PLAYER} わからない?\pルギアは... ずっと\nあなたのような ひとを\lまっていたのでしょう\pそうおもいませんか?$"
 
 WhirlIslands_LugiaChamber_Text_Kimono_After::
-	.string "KIMONO GIRL: You've proven yourself\n"
-	.string "today, {PLAYER}.$"
+	.string "{JPN}まいこはん: きょう あなたは\n"
+	.string "{JPN}じぶんを しょうめい\lしましたね {PLAYER}$"

@@ -438,130 +438,124 @@ BattleFrontier_BattleTowerBattleRoom_EventScript_RetireChallenge::
 	end
 
 BattleFrontier_BattleTowerBattleRoom_Text_RestoreMonsToFullHealth:
-	.string "We will restore your POKéMON to\n"
-	.string "full health.$"
+	.string "{JPN}あなたの ポケモンを\n"
+	.string "{JPN}かいふくします$"
 
 @ Unused
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForOpponent:
-	.string "You will be facing opponent no. {STR_VAR_1}.\n"
-	.string "Are you ready?$"
+	.string "{JPN}{STR_VAR_1}にんめの あいてと\n"
+	.string "{JPN}たたかいます じゅんびは よろしいですか?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor2ndOpponent:
-	.string "You will be facing opponent no. 2.\n"
-	.string "Are you ready?$"
+	.string "{JPN}2にんめの あいてと\n"
+	.string "{JPN}たたかいます じゅんびは よろしいですか?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor3rdOpponent:
-	.string "You will be facing opponent no. 3.\n"
-	.string "Are you ready?$"
+	.string "{JPN}3にんめの あいてと\n"
+	.string "{JPN}たたかいます じゅんびは よろしいですか?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor4thOpponent:
-	.string "You will be facing opponent no. 4.\n"
-	.string "Are you ready?$"
+	.string "{JPN}4にんめの あいてと\n"
+	.string "{JPN}たたかいます じゅんびは よろしいですか?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor5thOpponent:
-	.string "You will be facing opponent no. 5.\n"
-	.string "Are you ready?$"
+	.string "{JPN}5にんめの あいてと\n"
+	.string "{JPN}たたかいます じゅんびは よろしいですか?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor6thOpponent:
-	.string "You will be facing opponent no. 6.\n"
-	.string "Are you ready?$"
+	.string "{JPN}6にんめの あいてと\n"
+	.string "{JPN}たたかいます じゅんびは よろしいですか?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor7thOpponent:
-	.string "You will be facing opponent no. 7.\n"
-	.string "Are you ready?$"
+	.string "{JPN}7にんめの あいてと\n"
+	.string "{JPN}たたかいます じゅんびは よろしいですか?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordYourBattle:
-	.string "Record your battle on your\n"
-	.string "FRONTIER PASS?$"
+	.string "{JPN}たたかいを フロンティアパスに\n"
+	.string "{JPN}きろくしますか?$"
 
 BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass:
-	.string "{PLAYER}'s battle was recorded\n"
-	.string "on the FRONTIER PASS.$"
+	.string "{JPN}{PLAYER}の たたかいが\n"
+	.string "{JPN}フロンティアパスに きろくされました$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SaveAndQuitGame:
-	.string "Would you like to save and\n"
-	.string "quit the game?$"
+	.string "{JPN}セーブして げーむを\n"
+	.string "{JPN}しゅうりょうしますか?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait:
-	.string "Saving your battle data.\n"
-	.string "Please wait.$"
+	.string "{JPN}たたかいの データを セーブちゅう\n"
+	.string "{JPN}しばらく おまちください$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_CancelYourChallenge:
-	.string "Would you like to cancel your BATTLE\n"
-	.string "ROOM challenge?$"
+	.string "{JPN}バトルルームでの ちょうせんを\n"
+	.string "{JPN}ちゅうししますか?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved::
-	.string "There was an error of some sort.\n"
-	.string "Your record could not be saved.$"
+	.string "{JPN}なんらかの えらーが はっせい\n"
+	.string "{JPN}きろくが セーブできませんでした$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SalonMaidenOnHerWay:
-	.string "Excuse me, but…\p"
-	.string "Our leader, the SALON MAIDEN, is on\n"
-	.string "her way here in hopes of battling you.\p"
-	.string "She should be arriving very shortly.$"
+	.string "{JPN}すみませんが...\p"
+	.string "{JPN}わたしたちの リーダーである\n"
+	.string "{JPN}サロンメイデンが\l"
+	.string "{JPN}あなたと たたかうために\lこちらに むかっています.\pまもなく とうちゃく\nするでしょう.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden:
-	.string "You will be facing the SALON MAIDEN.\n"
-	.string "Are you prepared?$"
+	.string "{JPN}サロンメイデンと たたかいます\n"
+	.string "{JPN}じゅんびは よろしいですか?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel:
-	.string "Greetings…\n"
-	.string "My name is ANABEL.\p"
-	.string "I am the SALON MAIDEN, and I am in\n"
-	.string "charge of running the BATTLE TOWER…\p"
-	.string "I have heard several rumors\n"
-	.string "about you…\p"
-	.string "In all honesty, what I have heard does\n"
-	.string "not seem attractive in any way…\p"
-	.string "The reason I've come to see you…\n"
-	.string "Well, there is but one reason…$"
-
+	.string "{JPN}こんにちは...\n"
+	.string "{JPN}わたしは アザミです.\p"
+	.string "{JPN}わたしは サロンメイデンで\n"
+	.string "{JPN}バトルタワーの うんえいを\l"
+	.string "{JPN}しています...\p"
+	.string "{JPN}あなたについて いくつか\n"
+	.string "{JPN}うわさを ききました...\p"
+	.string "{JPN}しょうじき いって\n"
+	.string "{JPN}きいた はなしは まったく\l"
+	.string "{JPN}きょうみぶかく ありません...\pあなたに あいに きた りゆう...\nそれは ただ ひとつです...$"
 BattleFrontier_BattleTowerBattleRoom_Text_LetMeSeeYourTalent:
-	.string "Let me see your talent in\n"
-	.string "its entirety…$"
-
+	.string "{JPN}あなたの さいのうを\n"
+	.string "{JPN}すべて みせて ください...$"
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelTalentShallBeRecognized:
-	.string "ANABEL: Fufufu, nicely done…\p"
-	.string "Your FRONTIER PASS, please…\n"
-	.string "Your talent shall be recognized.$"
+	.string "{JPN}アザミ: ふふふ よく やりましたね...\p"
+	.string "{JPN}フロンティアパスを\n"
+	.string "{JPN}ください...\lあなたの さいのうを\lにんてい させて いただきます.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReceivedAbilitySymbol:
-	.string "The Ability Symbol was embossed on\n"
-	.string "the FRONTIER PASS!$"
+	.string "{JPN}アビリティシンボルが\n"
+	.string "{JPN}フロンティアパスに きざまれた!$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime:
-	.string "… … … … … …\p"
-	.string "You have confidence in your POKéMON\n"
-	.string "battling talent, don't you?\p"
-	.string "I urge you to keep battling and\n"
-	.string "keep on winning.\p"
-	.string "I will be waiting for you.\n"
-	.string "Until the next time we meet…$"
-
+	.string "{JPN}... ... ... ... ... ...\p"
+	.string "{JPN}あなたは ポケモンバトルの\n"
+	.string "{JPN}さいのうに じしんが\l"
+	.string "{JPN}あるのですね?\p"
+	.string "{JPN}バトルを つづけて\n"
+	.string "{JPN}かちつづけて ください.\p"
+	.string "{JPN}わたしは あなたを\nまっています.\lつぎに あうときまで...$"
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack:
-	.string "ANABEL: You really did come back to\n"
-	.string "see me…\p"
-	.string "… … … … … …\p"
-	.string "You've won straight matches to see me…\n"
-	.string "I won't have to hold back against you…\p"
-	.string "It's been too long now…\p"
-	.string "Too long since I've been able to battle\n"
-	.string "without thinking about anything…$"
-
+	.string "{JPN}アザミ: ほんとうに もどって\n"
+	.string "{JPN}きて くれたのですね...\p"
+	.string "{JPN}... ... ... ... ... ...\p"
+	.string "{JPN}わたしに あうために\n"
+	.string "{JPN}れんしょうして きたのですね...\l"
+	.string "{JPN}てかげんは しません...\p"
+	.string "{JPN}ながい じかんでした...\p"
+	.string "{JPN}なにも かんがえずに\nバトルできるのは\lひさしぶりです...$"
 BattleFrontier_BattleTowerBattleRoom_Text_LetsBeginShallWe:
-	.string "Let's begin, shall we?$"
+	.string "{JPN}それでは はじめましょう$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelCongratsYourPassPlease:
-	.string "ANABEL: Fufu, congratulations…\n"
-	.string "Your FRONTIER PASS, please…$"
-
+	.string "{JPN}アザミ: ふふ おめでとう...\n"
+	.string "{JPN}フロンティアパスを\lください...$"
 BattleFrontier_BattleTowerBattleRoom_Text_AbilitySymbolTookGoldenShine:
-	.string "The Ability Symbol took on\n"
-	.string "a golden shine!$"
+	.string "{JPN}アビリティシンボルが\n"
+	.string "{JPN}きんいろに かがやいた!$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_WishICouldBattleYouAgain:
-	.string "That was fun…\p"
-	.string "I have never had a POKéMON battle\n"
-	.string "so enjoyable before…\p"
-	.string "I wish I could battle with you again…$"
-
+	.string "{JPN}たのしかったです...\p"
+	.string "{JPN}こんなに たのしい\n"
+	.string "{JPN}ポケモンバトルは\l"
+	.string "{JPN}はじめてでした...\pまた あなたと\nたたかえたら いいのに...$"

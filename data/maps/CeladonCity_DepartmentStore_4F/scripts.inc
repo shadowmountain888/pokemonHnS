@@ -13,16 +13,16 @@ CeladonDept_EventScript_Directory::
 	end
 
 CeladonDeptStore4F_Text_SuperNerd:
-	.string "I'm here to buy SURF MAIL to send\n"
-	.string "to my girlfriend.\p"
-	.string "Wait, they're out of stock?$"
+	.string "{JPN}かのじょに おくる なみのりメールを\n"
+	.string "{JPN}かいに きたんだ.\p"
+	.string "{JPN}え? ざいこが ないって?$"
 
 CeladonDeptStore4F_Text_Youngster:
-	.string "This is the only place where you\n"
-	.string "can buy LOVELY MAIL.\p"
-	.string "At least it was. They are saying\n"
-	.string "they are out of stock.$"
+	.string "{JPN}ここは ラブリーメールが かえる\n"
+	.string "{JPN}ゆいいつの ばしょなんだ.\p"
+	.string "{JPN}すくなくとも そうだったけど.\n"
+	.string "{JPN}ざいこぎれって いわれちゃった.$"
 
 CeladonDeptStore4F_Text_Directory:
-	.string "Express Yourself With Gifts!\p"
-	.string "4F: WISEMAN GIFTS$"
+	.string "{JPN}きもちを つたえる ギフト!\p"
+	.string "{JPN}4F: ワイズマン ギフト$"

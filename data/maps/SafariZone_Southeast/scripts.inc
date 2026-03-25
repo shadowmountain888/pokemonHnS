@@ -10,11 +10,11 @@ SafariZone_Southeast_GliscorEvo::
 	end
 
 SafariZone_Southeast_GliscorEvo_Text:
-	.string "I love SINNOH POKéMON!\p"
-	.string "I need to catch a GLIGAR, so then\n"
-	.string "I can get a GLISCOR!\p"
-	.string "They evolve only at night,\n"
-	.string "just like SNEASEL and MURKROW.$"
+	.string "{JPN}わたし シンオウちほうの\n"
+	.string "{JPN}ポケモンが だいすきなの!\p"
+	.string "{JPN}グライガーを つかまえて\n"
+	.string "{JPN}グライオンに しなくちゃ!\p"
+	.string "{JPN}よるにしか しんかしないのよ\nニューラや ヤミカラスと\nおなじようにね!$"
 
 SafariZone_Southeast_MantykeEvo::
 	msgbox SafariZone_Southeast_MantykeEvo_Text, MSGBOX_SIGN
@@ -29,12 +29,12 @@ SafariZone_Southeast_MantykeEvoMoves:
 	step_end
 
 SafariZone_Southeast_MantykeEvo_Text:
-	.string "OH!$"
+	.string "{JPN}あっ!$"
 
 SafariZone_Southeast_MantykeEvo_Text2:
-	.string "HAVE YOU SEEN THAT?\p"
-	.string "That MANTYKE was trying to evolve,\n"
-	.string "so it was using WATER PULSE!\l"
-	.string "Nature is beautiful!$"
+	.string "{JPN}みた? いまの!\p"
+	.string "{JPN}あの マンタインが しんかしようと\n"
+	.string "{JPN}して みずのはどうを つかってた!\l"
+	.string "{JPN}しぜんって うつくしいのね!$"
 
 @ Event scripts for SafariZone_Southeast are in SafariZone_South/scripts.inc

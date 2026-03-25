@@ -529,15 +529,15 @@ static void Task_DrawDriverTestMenu(u8 taskId) // sub_080E8AA0
 {
     const u8 bbackStr[] = _("B BUTTON: BACK");
     const u8 aplayStr[] = _("A BUTTON: PLAY");
-    const u8 voiceStr[] = _("VOICE…………");
-    const u8 volumeStr[] = _("VOLUME………");
-    const u8 panpotStr[] = _("PANPOT………");
-    const u8 pitchStr[] = _("PITCH…………");
-    const u8 lengthStr[] = _("LENGTH………");
-    const u8 releaseStr[] = _("RELEASE……");
-    const u8 progressStr[] = _("PROGRESS…");
-    const u8 chorusStr[] = _("CHORUS………");
-    const u8 priorityStr[] = _("PRIORITY…");
+    const u8 voiceStr[] = _("{JPN}VOICE............");
+    const u8 volumeStr[] = _("{JPN}VOLUME.........");
+    const u8 panpotStr[] = _("{JPN}PANPOT.........");
+    const u8 pitchStr[] = _("{JPN}PITCH............");
+    const u8 lengthStr[] = _("{JPN}LENGTH.........");
+    const u8 releaseStr[] = _("{JPN}RELEASE......");
+    const u8 progressStr[] = _("{JPN}PROGRESS...");
+    const u8 chorusStr[] = _("{JPN}CHORUS.........");
+    const u8 priorityStr[] = _("{JPN}PRIORITY...");
     const u8 playingStr[] = _("PLAYING");
     const u8 reverseStr[] = _("REVERSE");
     const u8 stereoStr[] = _("STEREO");

@@ -82,100 +82,98 @@ VermilionCity_FanClub_EventScript_Bayleef::
 
 
 PokemonFanClub_Text_Chairman_Intro:
-	.string "I'm the CHAIRMAN of the POKéMON\n"
-	.string "FAN CLUB.\p"
-	.string "I've raised over 150 POKéMON.\p"
-	.string "I'm very fussy when it comes to\n"
-	.string "POKéMON.\p"
-	.string "Did you visit just to hear about\n"
-	.string "my POKéMON?$"
+	.string "{JPN}わたしは ポケモンファンクラブの\n"
+	.string "{JPN}かいちょうです.\p"
+	.string "{JPN}わたしは 150ひきいじょうの\n"
+	.string "{JPN}ポケモンを そだててきました.\p"
+	.string "{JPN}ポケモンに かんしては とても\n"
+	.string "{JPN}うるさいんです.\p"
+	.string "{JPN}わたしの ポケモンの はなしを\nききに きたのですか?$"
 
 PokemonFanClub_Text_Chairman_Rapidash:
-	.string "Good! Then listen up!\p"
-	.string "So… my favorite RAPIDASH…\p"
-	.string "It… cute… lovely… smart…\n"
-	.string "unbearably…\l"
-	.string "plus… amazing… oh… you think\l"
-	.string "so?…\l"
-	.string "Too much… wild… beautiful…\l"
-	.string "kindly…\l"
-	.string "love it!\p"
-	.string "Hug it… when… sleeping… warm\n"
-	.string "and cuddly…\l"
-	.string "Oh, and… spectacular…\l"
-	.string "ravishing… simply divine…\p"
-	.string "Oops! Look at the time!\n"
-	.string "I've kept you too long!$"
+	.string "{JPN}よし! それなら きいて くれ!\p"
+	.string "{JPN}おれの だいすきな ギャロップ\n"
+	.string "{JPN}なんだが...\p"
+	.string "{JPN}そいつは... かわいくて... すてきで\n"
+	.string "{JPN}... かしこくて...\l"
+	.string "{JPN}たまらなく...\l"
+	.string "{JPN}それに... すごくて... ああ...\l"
+	.string "{JPN}きみも そう おもうだろう?...\l"
+	.string "{JPN}すばらしすぎて... やせいてきで...\n"
+	.string "{JPN}うつくしくて...\l"
+	.string "{JPN}やさしくて...\l"
+	.string "{JPN}あいしてる!\p"
+	.string "{JPN}だきしめると... ねている ときに\n"
+	.string "{JPN}... あたたかくて...\l"
+	.string "{JPN}ふわふわで...\lああ... それに... みごとで...\lうっとりするほど... しんぴてき\nで...\pおっと! じかんを みろ!\nながく ひきとめて すまない!$"
 
 PokemonFanClub_Text_Chairman_Gift:
-	.string "Thanks for hearing me out.\n"
-	.string "I want you to have this!$"
+	.string "{JPN}はなしを きいてくれて\n"
+	.string "{JPN}ありがとう.\lこれを もっていきなさい!$"
 
 PokemonFanClub_Text_Chairman_Candy:
-	.string "It's a RARE CANDY that makes\n"
-	.string "POKéMON stronger.\p"
-	.string "I prefer making my POKéMON\n"
-	.string "stronger by battling, so you\l"
-	.string "can have it.$"
+	.string "{JPN}ポケモンを つよくする\n"
+	.string "{JPN}ふしぎなアメです.\p"
+	.string "{JPN}わたしは せんとうで ポケモンを\n"
+	.string "{JPN}つよくするのが すきなので\l"
+	.string "{JPN}あなたに あげましょう.$"
 
 PokemonFanClub_Text_Chairman_MoreTales:
-	.string "Hello, {PLAYER}!\p"
-	.string "Did you come see me about my\n"
-	.string "POKéMON again?\p"
-	.string "No? Oh… I had more tales to\n"
-	.string "tell…$"
-
+	.string "{JPN}やあ {PLAYER}!\p"
+	.string "{JPN}また おれの ポケモンの はなし\n"
+	.string "{JPN}を ききに きたのかい?\p"
+	.string "{JPN}ちがう? ああ... まだまだ はな\n"
+	.string "{JPN}したい ことが あったのに...$"
 PokemonFanClub_Text_Chairman_Disappointed:
-	.string "How disappointing…\p"
-	.string "Come back if you want to listen.$"
+	.string "{JPN}ざんねんだ...\p"
+	.string "{JPN}きく きが あったら また おい\nで.$"
 
 PokemonFanClub_Text_Receptionist:
-	.string "Our CHAIRMAN is very vocal when\n"
-	.string "it comes to POKéMON…$"
-
+	.string "{JPN}かいちょうは ポケモンの ことに\n"
+	.string "{JPN}なると ねっしんに なるんです...$"
 @=Clefairy=Guy=========================================================================================================
 PokemonFanClub_Text_ClefairyGuy_Adorable:
-	.string "I love the way CLEFAIRY waggles\n"
-	.string "its finger when it's trying to\l"
-	.string "use METRONOME.\p"
-	.string "It's so adorable!$"
+	.string "{JPN}ピッピが ゆびをふって\n"
+	.string "{JPN}ゆびをふるを つかおうと\l"
+	.string "{JPN}するときの すがたが だいすき!\p"
+	.string "{JPN}とっても かわいいんだ!$"
 
 PokemonFanClub_Text_ClefairyGuy_MakingDo:
-	.string "I love CLEFAIRY, but I could\n"
-	.string "never catch one.\p"
-	.string "So I'm making do with a\n"
-	.string "POKé DOLL that I found.$"
+	.string "{JPN}ピッピが だいすきなんだけど\n"
+	.string "{JPN}つかまえられないんだ.\p"
+	.string "{JPN}だから みつけた ピッピにんぎょうで\n"
+	.string "{JPN}がまんしてるんだ.$"
 
 PokemonFanClub_Text_ClefairyGuy_ReturnDoll:
-	.string "Oh, I see now. The girl who lost\n"
-	.string "this POKé DOLL is sad…\p"
-	.string "OK. Could you take this POKé DOLL\n"
-	.string "back to that poor little girl?\p"
-	.string "I'll befriend a real CLEFAIRY on\n"
-	.string "my own one day. No worries!$"
+	.string "{JPN}ああ そうか. この ポケモン\n"
+	.string "{JPN}にんぎょうを なくした おんな\n"
+	.string "{JPN}のこが かなしんでいるのか...\p"
+	.string "{JPN}わかった. この ポケモン\n"
+	.string "{JPN}にんぎょうを その かわいそうな\n"
+	.string "{JPN}おんなのこに かえして くれる?\pおれは いつか ほんものの ピッ\nピを ともだちに するんだ.\nしんぱい いらない!$"
 
 PokemonFanClub_Text_ClefairyGuy_GoingToGetOne:
-	.string "You watch. I'm going to get a\n"
-	.string "real CLEFAIRY as my friend.$"
+	.string "{JPN}みてろよ.ほんものの ピッピを\n"
+	.string "{JPN}ともだちに するからな.$"
 
 @============================================================================================================================
 
 PokemonFanClub_Text_Teacher:
-	.string "Look at my darling BAYLEEF!\p"
-	.string "The leaf on its head is so cute!$"
+	.string "{JPN}わたしの かわいい ベイリーフを\n"
+	.string "{JPN}みて!\pあたまの はっぱが とっても\nかわいいのよ!$"
 
 PokemonFanClub_Text_ClefairyDoll:
-	.string "It's a CLEFAIRY! Huh?\p"
-	.string "Oh, right. It's a CLEFAIRY POKé\n"
-	.string "DOLL.$"
+	.string "{JPN}ピッピだ! あれ?\p"
+	.string "{JPN}ああ そうか.ピッピの\n"
+	.string "{JPN}ポケモンにんぎょうね.$"
 
 PokemonFanClub_Text_Bayleef:
-	.string "BAYLEEF: Li liif!$"
+	.string "{JPN}ベイリーフ: リー フィー!$"
 
 PokemonFanClub_Text_Listen:
-	.string "Let's all listen politely to\n"
-	.string "other trainers.$"
+	.string "{JPN}みんなで ほかの トレーナーの\n"
+	.string "{JPN}はなしを しずかに ききましょう.$"
 
 PokemonFanClub_Text_Bragging:
-	.string "If someone brags, brag right\n"
-	.string "back!$"
+	.string "{JPN}だれかが じまんしたら\n"
+	.string "{JPN}じまんしかえせ!$"
